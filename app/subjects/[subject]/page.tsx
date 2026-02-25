@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import SubjectPageClient from './SubjectPageClient';
 import { SUBJECTS, UK_CITIES } from '@/lib/siteData';
 import { subjectPageSchema } from '@/lib/schemas';
+import { SchemaOrg } from '@/components/SchemaOrg';
 
 interface Props { params: { subject: string } }
 
@@ -13,7 +14,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const subject = SUBJECTS.find((s) => s.slug === params.subject);
   if (!subject) return {};
-    return {
+
+  return {
     title: `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
     description: `Practise 11+ ${subject.label} with free online questions, topic guides and mock-style quizzes. Trusted by UK families preparing for grammar and independent school entrance exams.`,
     alternates: { canonical: `/subjects/${subject.slug}` },
@@ -38,16 +40,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       'independent school entrance',
       'UK 11+ practice questions',
     ],
-    other: {
-      'schema-org': JSON.stringify({ '@context': 'https://schema.org', '@graph': subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc }) }),
-    },
   };
 }
 
 export default function SubjectPage({ params }: Props) {
   const subject = SUBJECTS.find((s) => s.slug === params.subject);
   if (!subject) notFound();
+
   return (
-<SubjectPageClient subject={subject} cities={UK_CITIES} />
+    <>
+      <SchemaOrg data={subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc })} />
+      <SubjectPageClient subject={subject} cities={UK_CITIES} />
+    </>
   );
 }
