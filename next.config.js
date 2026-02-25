@@ -8,8 +8,21 @@ const nextConfig = {
   // Production source maps off for smaller bundle
   productionBrowserSourceMaps: false,
   images: {
-    // Add external domains here if you use remote images in future
     formats: ['image/avif', 'image/webp'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'files.autoblogging.ai',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'api.dicebear.com',
+      },
+    ],
   },
 }
 
