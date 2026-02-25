@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useMemo, useState } from 'react';
-import { MapPin, School, CheckCircle, Mail, Phone, User, BookOpen, Shield, Users, Loader2 } from 'lucide-react';
+import { MapPin, School, CheckCircle, Mail, Phone, User, BookOpen, Shield, Users, Loader2, GraduationCap, Lightbulb } from 'lucide-react';
+import { getCityData } from '@/lib/cityData';
 
 type City = { slug: string; label: string };
 
@@ -18,6 +19,7 @@ export default function TutorCityPageClient({ city }: { city: City }) {
   });
 
   const title = useMemo(() => `11 Plus Tutor in ${city.label}`, [city.label]);
+  const cityData = useMemo(() => getCityData(city.slug), [city.slug]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -54,21 +56,25 @@ export default function TutorCityPageClient({ city }: { city: City }) {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
         <div className="lg:col-span-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 rounded-full text-indigo-700 font-bold text-sm mb-5 border border-indigo-100">
-            <MapPin size={16} /> {city.label}
+            <MapPin size={16} /> {cityData.countyContext}
           </div>
 
           <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">{title}</h1>
 
           <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
-            Looking for targeted 11+ support in {city.label}? This page is designed to help families understand local exam context and to request tutor support.
-            We focus on structured practice, realistic exam conditions, and clear explanations.
+            {cityData.intro}
           </p>
+
+          {/* Exam board badge */}
+          <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-violet-50 rounded-xl border border-violet-100 text-violet-700 text-sm font-bold">
+            <BookOpen size={15} /> Exam format in this area: {cityData.examBoard}
+          </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
             {[
-              { icon: School, title: 'Exam context', desc: 'Grammar / selective school focus' },
-              { icon: BookOpen, title: 'Core subjects', desc: 'Maths, English, VR & NVR' },
-              { icon: Shield, title: 'Practical guidance', desc: 'Clear steps to plan revision' },
+              { icon: School,    title: 'Exam context',      desc: `${cityData.examBoard} format` },
+              { icon: BookOpen,  title: 'Core subjects',     desc: 'Maths, English, VR & NVR' },
+              { icon: Shield,    title: 'Practical guidance', desc: 'Clear steps to plan revision' },
             ].map((c) => (
               <div key={c.title} className="p-5 rounded-2xl bg-slate-50 border border-slate-100">
                 <div className="w-10 h-10 rounded-2xl bg-white border border-slate-100 flex items-center justify-center mb-3 text-indigo-600">
@@ -80,17 +86,36 @@ export default function TutorCityPageClient({ city }: { city: City }) {
             ))}
           </div>
 
-          <section className="mt-12">
-            <h2 className="text-2xl font-black text-slate-900 mb-3">Local 11+ overview for {city.label}</h2>
-            <div className="prose prose-slate max-w-none">
-              <p>
-                11+ arrangements vary by area. In and around {city.label}, families may be preparing for grammar school tests, selective academies,
-                or independent school entrance assessments. The best starting point is to confirm which schools you are targeting and the test style they use
-                (for example GL Assessment-style multiple choice, CEM-style formats, or school-set papers).
+          {/* Local grammar schools */}
+          {cityData.grammarSchools.length > 0 && (
+            <section className="mt-12">
+              <h2 className="text-2xl font-black text-slate-900 mb-3">
+                Grammar and selective schools in {cityData.countyContext}
+              </h2>
+              <p className="text-slate-600 mb-5">
+                The following selective schools are commonly targeted by families in this area. Each school may use a different exam format — always check the individual admissions page for the latest details.
               </p>
-              <p>
-                A sensible plan usually includes: consistent practice in core topics, timed mock exams to build stamina, and focused review of mistakes to close gaps.
-              </p>
+              <ul className="space-y-2">
+                {cityData.grammarSchools.map((school) => (
+                  <li key={school} className="flex items-start gap-3 text-slate-700">
+                    <div className="w-6 h-6 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center shrink-0 mt-0.5">
+                      <GraduationCap size={13} />
+                    </div>
+                    <span className="text-sm leading-relaxed font-medium">{school}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Local prep tip */}
+          <section className="mt-10">
+            <div className="p-5 rounded-2xl bg-amber-50 border border-amber-100 flex gap-4">
+              <Lightbulb size={20} className="text-amber-600 shrink-0 mt-0.5" />
+              <div>
+                <div className="font-black text-amber-900 mb-1 text-sm uppercase tracking-wide">Local preparation tip</div>
+                <p className="text-sm text-amber-800 leading-relaxed">{cityData.prepTip}</p>
+              </div>
             </div>
           </section>
 
