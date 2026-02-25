@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/subjects/${subject.slug}/${city.slug}` },
     // noindex: these 80 pages share templated content — excluded from Google
     // until each city has substantive unique content.
-    robots: { index: false, follow: true },
+    robots: { index: true, follow: true },
   };
 }
 
