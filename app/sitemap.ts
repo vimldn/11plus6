@@ -19,21 +19,35 @@ function url(
   };
 }
 
+/**
+ * Converts a human-readable date string (e.g. "January 15, 2025") to YYYY-MM-DD.
+ * Falls back to today's date if parsing fails.
+ */
+function parsePostDate(dateStr: string): string {
+  try {
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return new Date().toISOString().split('T')[0];
+    return d.toISOString().split('T')[0];
+  } catch {
+    return new Date().toISOString().split('T')[0];
+  }
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   // ── Static pages ───────────────────────────────────────────────────────────
   const staticPages: MetadataRoute.Sitemap = [
-    url('/',           1.0, 'weekly'),
-    url('/mock-exams', 0.9, 'weekly'),
-    url('/papers',     0.9, 'weekly'),
-    url('/schools',    0.9, 'monthly'),
-    url('/subjects',   0.8, 'monthly'),
-    url('/tutors',     0.8, 'monthly'),
-    url('/exam-dates', 0.8, 'monthly'),
-    url('/blog',       0.8, 'weekly'),
-    url('/compare',    0.7, 'monthly'),
+    url('/',               1.0, 'weekly'),
+    url('/mock-exams',     0.9, 'weekly'),
+    url('/papers',         0.9, 'weekly'),
+    url('/schools',        0.9, 'monthly'),
+    url('/subjects',       0.8, 'monthly'),
+    url('/tutors',         0.8, 'monthly'),
+    url('/exam-dates',     0.8, 'monthly'),
+    url('/blog',           0.8, 'weekly'),
+    url('/compare',        0.7, 'monthly'),
     url('/guides/gl-vs-cem', 0.7, 'monthly'),
-    url('/privacy',    0.3, 'yearly'),
-    url('/terms',      0.3, 'yearly'),
+    url('/privacy',        0.3, 'yearly'),
+    url('/terms',          0.3, 'yearly'),
   ];
 
   // ── School profile pages ───────────────────────────────────────────────────
@@ -58,14 +72,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url(`/tutors/${c.slug}`, 0.7, 'monthly'),
   );
 
-  // ── Location pages ─────────────────────────────────────────────────────────
-  const locationPages: MetadataRoute.Sitemap = UK_CITIES.map((c) =>
-    url(`/locations/${c.slug}`, 0.6, 'monthly'),
-  );
+  // ── Location pages intentionally excluded ──────────────────────────────────
+  // /locations/[city] are 301 redirects to /tutors/[city].
+  // Including redirect pages in the sitemap wastes crawl budget — excluded.
 
   // ── Blog posts ─────────────────────────────────────────────────────────────
+  // lastModified uses the actual post date so Googlebot doesn't re-crawl every
+  // post on every deploy.
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((p) =>
-    url(`/blog/${p.slug}`, 0.7, 'monthly'),
+    url(`/blog/${p.slug}`, 0.7, 'monthly', parsePostDate(p.date)),
   );
 
   return [
@@ -74,7 +89,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...subjectPages,
     ...subjectCityPages,
     ...tutorPages,
-    ...locationPages,
     ...blogPages,
   ];
 }
