@@ -1,0 +1,15 @@
+{
+  "name": "11 Plus Exam Papers",
+  "short_name": "11+ Exams",
+  "description": "Free 11+ mock exams, practice papers and tutor support",
+  "icons": [
+    { "src": "/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/logo-192.png",      "sizes": "192x192", "type": "image/png" },
+    { "src": "/logo.png",          "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#4f46e5",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
