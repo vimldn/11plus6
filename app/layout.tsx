@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     siteName: '11 Plus Exam Papers',
     locale: 'en_GB',
     type: 'website',
+    images: [{ url: '/og-default.png', width: 1200, height: 630, alt: '11 Plus Exam Papers' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-default.png'],
   },
 }
 
