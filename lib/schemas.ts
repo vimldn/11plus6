@@ -7,6 +7,7 @@ const ORG_NAME = '11 Plus Exam Papers';
 const LOGO = `${BASE}/logo.png`;
 
 // ─── Organisation (used on homepage + sitewide) ───────────────────────────────
+// sameAs: add any social profile URLs here once created (Twitter/X, LinkedIn etc.)
 export const orgSchema = {
   '@type': 'Organization',
   '@id': `${BASE}/#org`,
@@ -16,7 +17,11 @@ export const orgSchema = {
     '@type': 'ImageObject',
     url: LOGO,
   },
-  sameAs: [],
+  sameAs: [
+    // 'https://twitter.com/11plusexampapers',
+    // 'https://www.facebook.com/11plusexampapers',
+    // 'https://www.linkedin.com/company/11plusexampapers',
+  ],
 };
 
 // ─── Website with Sitelinks Searchbox ────────────────────────────────────────
@@ -44,9 +49,9 @@ export const homepageSchemas = [
     '@type': 'WebPage',
     '@id': `${BASE}/#webpage`,
     url: BASE,
-    name: '11 Plus Exam Papers — Free Mock Exams & Practice Questions',
+    name: 'Free 11+ Mock Exams & Practice Papers | 11 Plus Exam Papers',
     description:
-      'Free 11+ mock exams, practice questions and resources for grammar and independent school entrance. Covers Maths, English, Verbal and Non-Verbal Reasoning.',
+      'Free 11+ mock exams, practice questions and tutor support for grammar and independent school entrance. Covers Maths, English, Verbal and Non-Verbal Reasoning. No sign-up required.',
     isPartOf: { '@id': `${BASE}/#website` },
     publisher: { '@id': `${BASE}/#org` },
     inLanguage: 'en-GB',
@@ -229,9 +234,9 @@ export const mockExamsSchema = [
     url: `${BASE}/mock-exams`,
     numberOfItems: 4,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Maths Mock Exam',              url: `${BASE}/mock-exams` },
-      { '@type': 'ListItem', position: 2, name: 'English Mock Exam',            url: `${BASE}/mock-exams` },
-      { '@type': 'ListItem', position: 3, name: 'Verbal Reasoning Mock Exam',   url: `${BASE}/mock-exams` },
+      { '@type': 'ListItem', position: 1, name: 'Maths Mock Exam',                url: `${BASE}/mock-exams` },
+      { '@type': 'ListItem', position: 2, name: 'English Mock Exam',              url: `${BASE}/mock-exams` },
+      { '@type': 'ListItem', position: 3, name: 'Verbal Reasoning Mock Exam',     url: `${BASE}/mock-exams` },
       { '@type': 'ListItem', position: 4, name: 'Non-Verbal Reasoning Mock Exam', url: `${BASE}/mock-exams` },
     ],
   },
