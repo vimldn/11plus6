@@ -12,6 +12,20 @@ export const metadata: Metadata = {
     template: '%s | 11 Plus Exam Papers',
   },
   description: 'Free 11+ mock exams, practice questions and resources for grammar and independent school entrance. Covers Maths, English, Verbal and Non-Verbal Reasoning.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico',       sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { url: '/logo-192.png', sizes: '192x192', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     siteName: '11 Plus Exam Papers',
     locale: 'en_GB',
