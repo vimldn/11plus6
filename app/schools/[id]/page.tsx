@@ -1,8 +1,10 @@
 // Server component — handles metadata + schema injection
 // The actual UI is in SchoolPageClient (client component)
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { SCHOOLS } from '@/lib/schools';
 import { schoolPageSchema } from '@/lib/schemas';
+import { SchemaOrg } from '@/components/SchemaOrg';
 import SchoolPageClient from './SchoolPageClient';
 import catalog from '@/data/schools.catalog.json';
 
@@ -21,15 +23,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const area: string = s.location?.area ?? city;
   const description = `${school.name} 11+ admissions guide. Exam format, key dates, subjects tested and free themed mock exams to help your child prepare for entrance.`;
 
-  const schema = schoolPageSchema({
-    id: school.id,
-    name: school.name,
-    description,
-    city,
-    category: school.category,
-    admissionsUrl: undefined,
-  });
-
   return {
     title: `${school.name} — 11+ Admissions & Mock Exams`,
     description,
@@ -40,6 +33,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: 'en_GB',
       type: 'website',
     },
+    twitter: {
+      card: 'summary',
+      title: `${school.name} — 11+ Admissions & Mock Exams`,
+      description,
+    },
     keywords: [
       school.name,
       `${school.name} 11+`,
@@ -48,15 +46,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       '11 plus entrance exam',
       'mock exam',
     ],
-    other: {
-      'schema-org': JSON.stringify({
-        '@context': 'https://schema.org',
-        '@graph': schema,
-      }),
-    },
   };
 }
 
 export default function SchoolPage({ params }: Props) {
-  return <SchoolPageClient params={params} />;
+  const school = SCHOOLS.find((s) => s.id === params.id);
+  if (!school) notFound();
+
+  const s = school as any;
+  const city: string = s.location?.city ?? 'UK';
+
+  const schema = schoolPageSchema({
+    id: school.id,
+    name: school.name,
+    description: `${school.name} 11+ admissions guide. Exam format, key dates, subjects tested and free themed mock exams to help your child prepare for entrance.`,
+    city,
+    category: school.category,
+    admissionsUrl: undefined,
+  });
+
+  return (
+    <>
+      <SchemaOrg data={schema} />
+      <SchoolPageClient params={params} />
+    </>
+  );
 }
