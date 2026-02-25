@@ -2,6 +2,7 @@
 
 import React, { useState, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
   ChevronDown,
@@ -48,8 +49,6 @@ export const SiteNav: React.FC<SiteNavProps> = ({
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileExpanded, setMobileExpanded] = useState<'subjects' | 'tutors' | null>(null);
 
-  // FIX #1: Use refs + timeout so moving mouse into the dropdown panel
-  // doesn't fire the nav's onMouseLeave before the cursor arrives.
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const scheduleClose = () => {
@@ -72,17 +71,20 @@ export const SiteNav: React.FC<SiteNavProps> = ({
   return (
     <nav
       className="w-full sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm"
-      // FIX: replaced instant onMouseLeave with scheduled close so the gap
-      // between the trigger button and the dropdown panel doesn't close it.
       onMouseLeave={scheduleClose}
       onMouseEnter={cancelClose}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 shrink-0 group">
-          <div className="w-9 h-9 bg-gradient-to-br from-indigo-500 to-violet-600 rounded-xl flex items-center justify-center text-white font-black text-base shadow-md group-hover:scale-105 transition-transform">
-            11+
-          </div>
+        <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
+          <Image
+            src="/logo.png"
+            alt="11 Plus Exam Papers"
+            width={36}
+            height={36}
+            className="rounded-xl group-hover:scale-105 transition-transform"
+            priority
+          />
           <span className="text-xl font-extrabold text-slate-800 tracking-tight leading-none">
             11 Plus<span className="text-indigo-600">Exam Papers</span>
           </span>
@@ -115,7 +117,6 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 6, scale: 0.97 }}
                   transition={{ duration: 0.15 }}
-                  // FIX: panel itself also cancels the close timer when hovered
                   onMouseEnter={cancelClose}
                   onMouseLeave={scheduleClose}
                   className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-80 bg-white rounded-2xl shadow-xl border border-slate-100 p-2 overflow-hidden"
@@ -203,7 +204,6 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 6, scale: 0.97 }}
                   transition={{ duration: 0.15 }}
-                  // FIX: panel itself also cancels the close timer when hovered
                   onMouseEnter={cancelClose}
                   onMouseLeave={scheduleClose}
                   className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-72 bg-white rounded-2xl shadow-xl border border-slate-100 p-3 overflow-hidden"
@@ -295,51 +295,24 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                 )}
               </AnimatePresence>
 
-              {/* Mobile Sit a Mock */}
-              <Link
-                href="/mock-exams"
-                onClick={() => setMobileOpen(false)}
-                className="w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-              >
+              <Link href="/mock-exams" onClick={() => setMobileOpen(false)} className="w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
                 Sit a Mock
-                <span className="px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[10px] font-black rounded-full uppercase tracking-wide">
-                  Free
-                </span>
+                <span className="px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[10px] font-black rounded-full uppercase tracking-wide">Free</span>
               </Link>
 
-              {/* Mobile Past Papers */}
-              <Link
-                href="/papers"
-                onClick={() => setMobileOpen(false)}
-                className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-              >
+              <Link href="/papers" onClick={() => setMobileOpen(false)} className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
                 Past Papers
               </Link>
 
-              {/* Mobile Schools */}
-              <Link
-                href="/schools"
-                onClick={() => setMobileOpen(false)}
-                className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-              >
+              <Link href="/schools" onClick={() => setMobileOpen(false)} className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
                 Schools
               </Link>
 
-              {/* Mobile Exam Dates */}
-              <Link
-                href="/exam-dates"
-                onClick={() => setMobileOpen(false)}
-                className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-              >
+              <Link href="/exam-dates" onClick={() => setMobileOpen(false)} className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
                 Exam Dates
               </Link>
 
-              {/* Mobile Blog */}
-              <Link
-                href="/blog"
-                onClick={() => setMobileOpen(false)}
-                className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-              >
+              <Link href="/blog" onClick={() => setMobileOpen(false)} className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
                 Blog
               </Link>
 
@@ -377,10 +350,7 @@ export const SiteNav: React.FC<SiteNavProps> = ({
               <div className="pt-3 border-t border-slate-100 flex flex-col gap-2">
                 {onCtaClick ? (
                   <button
-                    onClick={() => {
-                      setMobileOpen(false);
-                      onCtaClick();
-                    }}
+                    onClick={() => { setMobileOpen(false); onCtaClick(); }}
                     className="w-full py-3 text-center bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold text-sm rounded-xl"
                   >
                     {ctaLabel}
@@ -463,76 +433,55 @@ export const LeadGenModal = ({
 
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
-                    <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">
-                      Your email
-                    </label>
+                    <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Your email</label>
                     <div className="relative">
                       <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                       <input
-                        type="email"
-                        name="email"
-                        required
+                        type="email" name="email" required
                         className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none font-medium text-slate-800"
                         placeholder="name@example.com"
-                        value={formData.email}
-                        onChange={handleChange}
+                        value={formData.email} onChange={handleChange}
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">
-                      Your phone number
-                    </label>
+                    <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Your phone number</label>
                     <div className="relative">
                       <Phone className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                       <input
-                        type="tel"
-                        name="phone"
-                        required
+                        type="tel" name="phone" required
                         className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none font-medium text-slate-800"
                         placeholder="07xxx xxxxxx"
-                        value={formData.phone}
-                        onChange={handleChange}
+                        value={formData.phone} onChange={handleChange}
                       />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">
-                        Child's name
-                      </label>
+                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Child's name</label>
                       <div className="relative">
                         <User className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                         <input
-                          type="text"
-                          name="childName"
-                          required
+                          type="text" name="childName" required
                           className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none font-medium text-slate-800"
                           placeholder="Noah"
-                          value={formData.childName}
-                          onChange={handleChange}
+                          value={formData.childName} onChange={handleChange}
                         />
                       </div>
                     </div>
 
                     <div>
-                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">
-                        Year group
-                      </label>
+                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Year group</label>
                       <div className="relative">
                         <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                         <select
-                          name="childYear"
-                          required
+                          name="childYear" required
                           className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none font-medium text-slate-800 appearance-none"
-                          value={formData.childYear}
-                          onChange={handleChange}
+                          value={formData.childYear} onChange={handleChange}
                         >
-                          <option value="" disabled>
-                            Select year
-                          </option>
+                          <option value="" disabled>Select year</option>
                           <option>Year 3</option>
                           <option>Year 4</option>
                           <option>Year 5</option>
