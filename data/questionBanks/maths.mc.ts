@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // ─────────────────────────────────────────────────────────────────────────────
 // MATHS — Multiple Choice  (500 questions, IDs math-mc-001 … math-mc-500)
 // Topics: Addition, Subtraction, Multiplication, Division, Fractions,
