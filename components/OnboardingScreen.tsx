@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { School, BookOpen, Building2, Check, ArrowLeft } from 'lucide-react';
