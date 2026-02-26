@@ -447,7 +447,7 @@ function MockExamsPageInner() {
                   </button>
                   <button onClick={goNext} disabled={!canProceed()}
                     className="inline-flex items-center gap-2 px-7 py-3 rounded-2xl font-black text-sm bg-gradient-to-r from-indigo-600 to-violet-600 text-white shadow-lg shadow-indigo-200 hover:scale-[1.02] transition-all disabled:opacity-30 disabled:cursor-not-allowed">
-                    Review your test <ChevronRight size={16} />
+                    Start Test <ChevronRight size={16} />
                   </button>
                 </div>
               </motion.div>
