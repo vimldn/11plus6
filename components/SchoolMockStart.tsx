@@ -34,7 +34,7 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
   const [schools, setSchools] = useState<SchoolRow[]>([]);
   const [category, setCategory] = useState<SchoolCategory>('grammar');
   const [schoolId, setSchoolId] = useState<string>('');
-  const [subject, setSubject] = useState<'maths' | 'english'>('maths');
+  const [subject, setSubject] = useState<'maths' | 'english' | null>(null);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [duration, setDuration] = useState(45);
@@ -67,7 +67,16 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
 
   const filtered = useMemo(() => schools.filter((s) => s.category === category), [schools, category]);
   const selectedSchool = useMemo(() => schools.find((s) => s.id === schoolId) || null, [schools, schoolId]);
-  const availableSubjects = selectedSchool?.availableSubjects?.length ? selectedSchool.availableSubjects : (['maths'] as Array<'maths' | 'english'>);
+  // Use the blueprint's availableSubjects if present, then fall back to the
+  // catalog subjects field (filtered to maths/english), then default to both.
+  const availableSubjects: Array<'maths' | 'english'> = useMemo(() => {
+    if (selectedSchool?.availableSubjects?.length) return selectedSchool.availableSubjects;
+    const catalogSubjects: string[] = (selectedSchool as any)?.subjects ?? [];
+    const mapped = catalogSubjects
+      .map((s: string) => (s === 'maths' ? 'maths' : s === 'english' ? 'english' : null))
+      .filter((s): s is 'maths' | 'english' => s !== null);
+    return mapped.length ? mapped : (['maths', 'english'] as Array<'maths' | 'english'>);
+  }, [selectedSchool]);
 
   // Keep schoolId valid when category changes.
   useEffect(() => {
@@ -75,33 +84,27 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
     setSchoolId((prev) => (prev && filtered.some((s) => s.id === prev) ? prev : (first?.id || '')));
   }, [filtered]);
 
-  // When school changes, snap subject + defaults to that school's recommended settings.
+  // When school changes, reset subject selection so user must actively choose.
   useEffect(() => {
     if (!selectedSchool) return;
-
-    const recommended = selectedSchool.defaultSubject && availableSubjects.includes(selectedSchool.defaultSubject)
-      ? selectedSchool.defaultSubject
-      : (availableSubjects[0] || 'maths');
-
-    setSubject(recommended);
-
+    setSubject(null);
+    // Load neutral defaults (maths settings as a baseline for duration/count display)
     const d = selectedSchool.defaults;
     if (d) {
-      const s = recommended === 'maths' ? d.mathsOnly : d.englishOnly;
-      setDuration(s.durationMins);
-      setCount(s.questionCount);
+      setDuration(d.mathsOnly.durationMins);
+      setCount(d.mathsOnly.questionCount);
     }
   }, [schoolId]);
 
-  // When subject changes, update defaults for that subject (without overwriting manual edits for schools without defaults).
+  // When subject is chosen, update duration/count defaults for that subject.
   useEffect(() => {
-    if (!selectedSchool?.defaults) return;
+    if (!subject || !selectedSchool?.defaults) return;
     const s = subject === 'maths' ? selectedSchool.defaults.mathsOnly : selectedSchool.defaults.englishOnly;
     setDuration(s.durationMins);
     setCount(s.questionCount);
   }, [subject]);
 
-  const canStart = !!schoolId && name.trim().length > 1 && email.trim().includes('@');
+  const canStart = !!schoolId && !!subject && name.trim().length > 1 && email.trim().includes('@');
 
   const start = async () => {
     if (!canStart) return;
@@ -120,14 +123,15 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
       body: JSON.stringify({ name, email, schoolId, subject }),
     }).catch(() => undefined);
 
-    const quizType = subject === 'maths'
+    const resolvedSubject = subject ?? 'maths';
+    const quizType = resolvedSubject === 'maths'
       ? (selectedSchool?.quizTypes?.maths || 'multiple-choice')
       : (selectedSchool?.quizTypes?.english || 'multiple-choice');
 
     const params = new URLSearchParams();
     params.set('schoolId', schoolId);
     params.set('schoolType', category === 'grammar' ? 'grammar' : 'independent');
-    params.set('subject', subject);
+    params.set('subject', resolvedSubject);
     params.set('quizType', quizType);
     params.set('count', String(Math.max(10, Math.min(30, count))));
     params.set('duration', String(Math.max(15, Math.min(120, duration))));
@@ -205,14 +209,18 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
             {loading && <div className="mt-3 text-sm text-slate-500">Loading schools…</div>}
 
             <div className="mt-6">
-              <label className="block text-sm font-bold text-slate-600 mb-1">Subject</label>
+              <label className="block text-sm font-bold text-slate-600 mb-1">
+                Subject <span className="text-rose-500 font-normal text-xs ml-1">{!subject ? '— please select' : ''}</span>
+              </label>
               <div className="grid grid-cols-2 gap-3">
                 <button
                   type="button"
                   onClick={() => setSubject('maths')}
                   disabled={!availableSubjects.includes('maths')}
-                  className={`rounded-2xl px-4 py-3 border text-left transition ${
-                    subject === 'maths' ? 'border-indigo-300 bg-indigo-50' : 'border-slate-200 hover:bg-slate-50'
+                  className={`rounded-2xl px-4 py-3 border-2 text-left transition ${
+                    subject === 'maths'
+                      ? 'border-indigo-500 bg-indigo-50 ring-2 ring-indigo-200'
+                      : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50'
                   } ${!availableSubjects.includes('maths') ? 'opacity-40 cursor-not-allowed' : ''}`}
                 >
                   <div className="flex items-center gap-2 font-black text-slate-900">
@@ -224,8 +232,10 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
                   type="button"
                   onClick={() => setSubject('english')}
                   disabled={!availableSubjects.includes('english')}
-                  className={`rounded-2xl px-4 py-3 border text-left transition ${
-                    subject === 'english' ? 'border-indigo-300 bg-indigo-50' : 'border-slate-200 hover:bg-slate-50'
+                  className={`rounded-2xl px-4 py-3 border-2 text-left transition ${
+                    subject === 'english'
+                      ? 'border-indigo-500 bg-indigo-50 ring-2 ring-indigo-200'
+                      : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50'
                   } ${!availableSubjects.includes('english') ? 'opacity-40 cursor-not-allowed' : ''}`}
                 >
                   <div className="flex items-center gap-2 font-black text-slate-900">
