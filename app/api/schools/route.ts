@@ -33,8 +33,11 @@ export async function GET() {
       name: s.name,
       category: s.category,
       summary: bp?.summary ?? null,
+      // Blueprint-derived subjects (schools with full blueprints only)
       availableSubjects,
       defaultSubject,
+      // Raw catalog subjects — used by frontend when blueprint is absent
+      subjects: (s as any).subjects ?? [],
       defaults,
       quizTypes: {
         maths: mathsQuizType,
