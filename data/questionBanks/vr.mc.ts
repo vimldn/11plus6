@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // ─────────────────────────────────────────────────────────────────────────────
 // VERBAL REASONING — Multiple Choice  (250 questions, IDs vr-mc-001…vr-mc-250)
 // Topics: Analogies, Word Codes, Letter Series, Number Series, Word Meanings,
