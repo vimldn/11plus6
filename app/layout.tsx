@@ -14,11 +14,10 @@ export const metadata: Metadata = {
   },
   description: 'Free 11+ mock exams, practice questions and resources for grammar and independent school entrance. Covers Maths, English, Verbal and Non-Verbal Reasoning.',
   icons: {
-  icon: [
-    { url: '/favicon.ico' },
-    { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-    { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-  ],
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
     apple: [
       { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
@@ -40,7 +39,6 @@ export const metadata: Metadata = {
   },
 }
 
-// Sitewide JSON-LD: Organization + WebSite — injected into raw HTML on every page
 const siteSchema = {
   '@context': 'https://schema.org',
   '@graph': [orgSchema, websiteSchema],
@@ -55,8 +53,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-
-        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-828TTSWVN8"
           strategy="afterInteractive"
@@ -67,8 +63,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-828TTSWVN8');`}
         </Script>
-
-        {/* Schema.org */}
         <Script
           id="schema-org"
           type="application/ld+json"
