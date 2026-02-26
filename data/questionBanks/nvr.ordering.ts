@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // NON-VERBAL REASONING — Ordering (30 questions)
 
 export const nvrOrdering: Question[] = [
