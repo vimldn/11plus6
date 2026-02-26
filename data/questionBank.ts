@@ -1277,25 +1277,38 @@ function generateProceduralQuestions(
   return out;
 }
 
-function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, 'id'> | null {
-  // Force supported styles to match our current UI
-  const qt = quizType === 'true-false' ? 'true-false' : 'multiple-choice';
+// Helper: randomly decide if we show a true statement or a false one.
+// Returns { showTrue: boolean } — caller uses this to pick which value to display.
+function coinFlip(): boolean { return Math.random() < 0.5; }
 
-  // Choose a template by topic
+function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, 'id'> | null {
+  const isTF = quizType === 'true-false';
+
   if (topic.toLowerCase().includes('percent')) {
     const base = randInt(40, 240);
     const pct = [10, 12.5, 20, 25, 30, 40, 50][randInt(0, 6)];
     const correct = (base * pct) / 100;
-    const correctStr = Number.isInteger(correct) ? String(correct) : String(correct);
+    const correctStr = String(correct);
     const distractors = [
       String((base * (pct + 5)) / 100),
       String((base * (pct - 5)) / 100),
       String((base * pct) / 10)
     ];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+      return {
+        text: `True or False: ${pct}% of ${base} is ${displayedAnswer}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `${pct}% of ${base} = ${base} × ${pct} ÷ 100 = ${correctStr}.`,
+        topic: 'Percentages'
+      };
+    }
     return {
       text: `What is ${pct}% of ${base}?`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+      options: makeOptions(correctStr, distractors),
+      correctAnswer: correctStr,
       explanation: `${pct}% means ${pct}/100. Multiply ${base} by ${pct} and divide by 100.`,
       topic: 'Percentages'
     };
@@ -1309,10 +1322,21 @@ function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, '
     const correct = (num * total) / denom;
     const correctStr = String(correct);
     const distractors = [String(correct + multiple), String(correct - multiple), String(total - correct)];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+      return {
+        text: `True or False: ${num}/${denom} of ${total} is ${displayedAnswer}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `${num}/${denom} of ${total} = ${total} ÷ ${denom} × ${num} = ${correctStr}.`,
+        topic: 'Fractions'
+      };
+    }
     return {
       text: `What is ${num}/${denom} of ${total}?`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+      options: makeOptions(correctStr, distractors),
+      correctAnswer: correctStr,
       explanation: `To find ${num}/${denom} of ${total}, divide ${total} by ${denom} then multiply by ${num}.`,
       topic: 'Fractions'
     };
@@ -1326,10 +1350,21 @@ function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, '
     const shareA = (a * total) / totalParts;
     const correctStr = String(shareA);
     const distractors = [String(shareA + totalParts), String(shareA - totalParts), String(total - shareA)];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+      return {
+        text: `True or False: If £${total} is shared in the ratio ${a}:${b}, the first person gets £${displayedAnswer}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `Total parts = ${a}+${b}=${totalParts}. First share = ${a}/${totalParts} × £${total} = £${correctStr}.`,
+        topic: 'Ratio'
+      };
+    }
     return {
       text: `£${total} is shared in the ratio ${a}:${b}. How much does the first person get?`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+      options: makeOptions(correctStr, distractors),
+      correctAnswer: correctStr,
       explanation: `Total parts = ${a}+${b}=${totalParts}. First share = ${a}/${totalParts} of ${total}.`,
       topic: 'Ratio'
     };
@@ -1342,10 +1377,21 @@ function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, '
     const rhs = m * x + c;
     const correctStr = String(x);
     const distractors = [String(x + 1), String(x - 1), String(Math.max(1, x + 2))];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+      return {
+        text: `True or False: The solution to ${m}x + ${c} = ${rhs} is x = ${displayedAnswer}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `Subtract ${c}: ${m}x = ${rhs - c}. Divide by ${m}: x = ${correctStr}.`,
+        topic: 'Algebra'
+      };
+    }
     return {
       text: `Solve for x: ${m}x + ${c} = ${rhs}`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+      options: makeOptions(correctStr, distractors),
+      correctAnswer: correctStr,
       explanation: `Subtract ${c} from both sides: ${m}x = ${rhs - c}. Then divide by ${m}: x = ${x}.`,
       topic: 'Algebra'
     };
@@ -1358,10 +1404,21 @@ function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, '
     const correct = start + 4 * step;
     const correctStr = String(correct);
     const distractors = [String(correct + step), String(correct - step), String(start + 5 * step)];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+      return {
+        text: `True or False: The next number in the sequence ${terms.join(', ')}, … is ${displayedAnswer}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `Each term increases by ${step}. The next term is ${correctStr}.`,
+        topic: 'Sequences'
+      };
+    }
     return {
       text: `What is the next number in the sequence: ${terms.join(', ')}, ... ?`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+      options: makeOptions(correctStr, distractors),
+      correctAnswer: correctStr,
       explanation: `This is an arithmetic sequence adding ${step} each time.`,
       topic: 'Sequences'
     };
@@ -1372,11 +1429,22 @@ function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, '
     const w = randInt(3, 18);
     const area = l * w;
     const correctStr = `${area} cm²`;
-    const distractors = [`${2*(l+w)} cm`, `${l+w} cm²`, `${area + l} cm²`];
+    const distractors = [`${2*(l+w)} cm²`, `${l+w} cm²`, `${area + l} cm²`];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+      return {
+        text: `True or False: The area of a ${l}cm by ${w}cm rectangle is ${displayedAnswer}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `Area = length × width = ${l} × ${w} = ${area} cm².`,
+        topic: 'Area and Perimeter'
+      };
+    }
     return {
       text: `A rectangle is ${l}cm by ${w}cm. What is its area?`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+      options: makeOptions(correctStr, distractors),
+      correctAnswer: correctStr,
       explanation: `Area = length × width = ${l} × ${w} = ${area} cm².`,
       topic: 'Area and Perimeter'
     };
@@ -1388,35 +1456,59 @@ function buildMathsQuestion(quizType: QuizType, topic: string): Omit<Question, '
     const dist = speed * time;
     const correctStr = `${dist} km`;
     const distractors = [`${dist + speed} km`, `${dist - speed} km`, `${speed + time} km`];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+      return {
+        text: `True or False: A car travelling at ${speed} km/h for ${time} hour${time > 1 ? 's' : ''} covers ${displayedAnswer}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `Distance = speed × time = ${speed} × ${time} = ${correctStr}.`,
+        topic: 'Time and Speed'
+      };
+    }
     return {
       text: `A car travels at ${speed} km/h for ${time} hours. How far does it travel?`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+      options: makeOptions(correctStr, distractors),
+      correctAnswer: correctStr,
       explanation: `Distance = speed × time = ${speed} × ${time} = ${dist} km.`,
       topic: 'Time and Speed'
     };
   }
 
-  // Averages
+  // Averages (default fallback)
   const a = randInt(5, 30);
   const b = randInt(5, 30);
   const c = randInt(5, 30);
   const mean = (a + b + c) / 3;
   const correctStr = mean % 1 === 0 ? String(mean) : mean.toFixed(1);
-  const distractors = [String((a + b) / 2), String(a + b + c), String(Math.round(mean))];
+  const wrongMean1 = mean % 1 === 0 ? String(mean + 1) : String((mean + 1).toFixed(1));
+  const wrongMean2 = mean % 1 === 0 ? String(mean - 1) : String((mean - 1).toFixed(1));
+  const distractors = [wrongMean1, wrongMean2, String(a + b + c)];
+  if (isTF) {
+    const showTrue = coinFlip();
+    const displayedAnswer = showTrue ? correctStr : distractors[randInt(0, 2)];
+    return {
+      text: `True or False: The mean of ${a}, ${b} and ${c} is ${displayedAnswer}.`,
+      options: ['True', 'False'],
+      correctAnswer: showTrue ? 'True' : 'False',
+      explanation: `Mean = (${a}+${b}+${c}) ÷ 3 = ${a+b+c} ÷ 3 = ${correctStr}.`,
+      topic: 'Averages'
+    };
+  }
   return {
     text: `What is the mean (average) of ${a}, ${b} and ${c}?`,
-    options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-    correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+    options: makeOptions(correctStr, distractors),
+    correctAnswer: correctStr,
     explanation: `Add them: ${a}+${b}+${c}=${a+b+c}. Then divide by 3.`,
     topic: 'Averages'
   };
 }
 
 function buildEnglishQuestion(quizType: QuizType, topic: string): Omit<Question, 'id'> | null {
-  const qt = quizType === 'true-false' ? 'true-false' : 'multiple-choice';
+  const isTF = quizType === 'true-false';
 
-  // Vocabulary: synonym / meaning in context (sentence-based)
+  // Vocabulary: synonym / meaning in context
   if (topic.toLowerCase().includes('vocab')) {
     const pairs = [
       { word: 'reluctant', correct: 'unwilling', wrong: ['excited', 'confused', 'careless'] },
@@ -1424,104 +1516,186 @@ function buildEnglishQuestion(quizType: QuizType, topic: string): Omit<Question,
       { word: 'dwindle', correct: 'decrease', wrong: ['explode', 'decorate', 'listen'] },
       { word: 'cautious', correct: 'careful', wrong: ['angry', 'noisy', 'famous'] },
       { word: 'bewildered', correct: 'confused', wrong: ['proud', 'sleepy', 'hungry'] },
+      { word: 'serene', correct: 'calm', wrong: ['loud', 'dangerous', 'colourful'] },
+      { word: 'vivid', correct: 'bright and clear', wrong: ['dark and dull', 'slow and quiet', 'rough and uneven'] },
     ];
     const p = pairs[randInt(0, pairs.length - 1)];
-    const correctStr = p.correct;
-    const distractors = p.wrong;
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedMeaning = showTrue ? p.correct : p.wrong[randInt(0, p.wrong.length - 1)];
+      return {
+        text: `True or False: The word "${p.word}" means "${displayedMeaning}".`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `"${p.word}" means "${p.correct}".`,
+        topic: 'Vocabulary'
+      };
+    }
     return {
-      text: `Which option is closest in meaning to “${p.word}”?`,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-      correctAnswer: qt === 'true-false' ? 'False' : correctStr,
-      explanation: `“${p.word}” means ${p.correct}.`,
+      text: `Which option is closest in meaning to "${p.word}"?`,
+      options: makeOptions(p.correct, p.wrong),
+      correctAnswer: p.correct,
+      explanation: `"${p.word}" means ${p.correct}.`,
       topic: 'Vocabulary'
     };
   }
 
-  // Punctuation: choose correct sentence
+  // Punctuation
   if (topic.toLowerCase().includes('punct')) {
     const items = [
       {
-        stem: 'Choose the sentence with correct punctuation:',
         correct: 'After lunch, we went to the park.',
-        wrong: ['After lunch we went, to the park.', 'After lunch we went to, the park.', 'After lunch we went to the park,']
+        wrong: ['After lunch we went, to the park.', 'After lunch we went to, the park.', 'After lunch we went to the park,'],
+        tfFact: 'A comma follows an introductory phrase like "After lunch".'
       },
       {
-        stem: 'Choose the sentence with correct punctuation:',
-        correct: '“Stop!” shouted Mum.',
-        wrong: ['“Stop”! shouted Mum.', '“Stop,” shouted Mum!', 'Stop! shouted Mum.']
+        correct: '"Stop!" shouted Mum.',
+        wrong: ['"Stop"! shouted Mum.', '"Stop," shouted Mum!', 'Stop! shouted Mum.'],
+        tfFact: 'The exclamation mark belongs inside the closing speech mark.'
       },
       {
-        stem: 'Choose the sentence with correct punctuation:',
         correct: 'It was cold; however, we carried on.',
-        wrong: ['It was cold, however; we carried on.', 'It was cold however, we carried on.', 'It was cold: however we carried on.']
+        wrong: ['It was cold, however; we carried on.', 'It was cold however, we carried on.', 'It was cold: however we carried on.'],
+        tfFact: 'A semicolon before "however" and a comma after it is correct.'
       },
     ];
     const it = items[randInt(0, items.length - 1)];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedSentence = showTrue ? it.correct : it.wrong[randInt(0, it.wrong.length - 1)];
+      return {
+        text: `True or False: This sentence has correct punctuation: "${displayedSentence}"`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `The correctly punctuated version is: "${it.correct}". ${it.tfFact}`,
+        topic: 'Punctuation'
+      };
+    }
     return {
-      text: it.stem,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(it.correct, it.wrong),
-      correctAnswer: qt === 'true-false' ? 'False' : it.correct,
-      explanation: 'The correct option uses punctuation in the right place.',
+      text: 'Choose the sentence with correct punctuation:',
+      options: makeOptions(it.correct, it.wrong),
+      correctAnswer: it.correct,
+      explanation: it.tfFact,
       topic: 'Punctuation'
     };
   }
 
-  // Grammar: verb agreement / tense
+  // Grammar
   if (topic.toLowerCase().includes('grammar')) {
     const items = [
-      { text: 'Which sentence is grammatically correct?', correct: 'The group of boys is ready.', wrong: ['The group of boys are ready.', 'The group of boys be ready.', 'The group of boys were ready is.'] },
-      { text: 'Which sentence is grammatically correct?', correct: 'Neither of the answers is correct.', wrong: ['Neither of the answers are correct.', 'Neither of the answers were correct is.', 'Neither of the answers correct.'] },
-      { text: 'Choose the correct verb form:', correct: 'She has eaten her lunch.', wrong: ['She have eaten her lunch.', 'She eaten has her lunch.', 'She has ate her lunch.'] },
+      {
+        correct: 'The group of boys is ready.',
+        wrong: ['The group of boys are ready.', 'The group of boys be ready.', 'The group of boys were ready is.'],
+        explanation: '"Group" is a collective noun — it takes the singular verb "is".'
+      },
+      {
+        correct: 'Neither of the answers is correct.',
+        wrong: ['Neither of the answers are correct.', 'Neither of the answers were correct is.', 'Neither of the answers correct.'],
+        explanation: '"Neither" takes a singular verb — use "is".'
+      },
+      {
+        correct: 'She has eaten her lunch.',
+        wrong: ['She have eaten her lunch.', 'She eaten has her lunch.', 'She has ate her lunch.'],
+        explanation: 'The past participle of "eat" is "eaten", paired with "has".'
+      },
     ];
     const it = items[randInt(0, items.length - 1)];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedSentence = showTrue ? it.correct : it.wrong[randInt(0, it.wrong.length - 1)];
+      return {
+        text: `True or False: This sentence is grammatically correct: "${displayedSentence}"`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `The grammatically correct sentence is: "${it.correct}". ${it.explanation}`,
+        topic: 'Grammar'
+      };
+    }
     return {
-      text: it.text,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(it.correct, it.wrong),
-      correctAnswer: qt === 'true-false' ? 'False' : it.correct,
-      explanation: 'Check subject–verb agreement and tense.',
+      text: 'Which sentence is grammatically correct?',
+      options: makeOptions(it.correct, it.wrong),
+      correctAnswer: it.correct,
+      explanation: it.explanation,
       topic: 'Grammar'
     };
   }
 
-  // Writer's methods: metaphor/personification
+  // Writer's methods
   if (topic.toLowerCase().includes('writer')) {
     const items = [
-      { text: 'Which phrase is an example of personification?', correct: 'The wind whispered through the trees.', wrong: ['The wind was strong today.', 'The trees were tall and green.', 'The air felt cold on my face.'] },
-      { text: 'Which phrase is a metaphor?', correct: 'Time is a thief.', wrong: ['Time passed quickly.', 'Time is important.', 'Time can be measured.'] },
-      { text: 'Which phrase uses a simile?', correct: 'Her smile was like sunshine.', wrong: ['Her smile was bright.', 'Her smile warmed the room.', 'Her smile appeared suddenly.'] },
+      {
+        device: 'personification',
+        correct: 'The wind whispered through the trees.',
+        wrong: ['The wind was strong today.', 'The trees were tall and green.', 'The air felt cold on my face.'],
+        explanation: '"Whispered" gives the wind a human action — this is personification.'
+      },
+      {
+        device: 'metaphor',
+        correct: 'Time is a thief.',
+        wrong: ['Time passed quickly.', 'Time is important.', 'Time can be measured.'],
+        explanation: 'Saying time IS a thief (not like one) makes it a metaphor.'
+      },
+      {
+        device: 'simile',
+        correct: 'Her smile was like sunshine.',
+        wrong: ['Her smile was bright.', 'Her smile warmed the room.', 'Her smile appeared suddenly.'],
+        explanation: 'Using "like" to compare makes this a simile.'
+      },
     ];
     const it = items[randInt(0, items.length - 1)];
+    if (isTF) {
+      const showTrue = coinFlip();
+      const displayedPhrase = showTrue ? it.correct : it.wrong[randInt(0, it.wrong.length - 1)];
+      return {
+        text: `True or False: "${displayedPhrase}" is an example of ${it.device}.`,
+        options: ['True', 'False'],
+        correctAnswer: showTrue ? 'True' : 'False',
+        explanation: `"${it.correct}" is ${it.device}. ${it.explanation}`,
+        topic: "Writer's Methods"
+      };
+    }
     return {
-      text: it.text,
-      options: qt === 'true-false' ? ['True', 'False'] : makeOptions(it.correct, it.wrong),
-      correctAnswer: qt === 'true-false' ? 'False' : it.correct,
-      explanation: 'Look for comparisons (simile/metaphor) or human actions given to non-human things (personification).',
+      text: `Which phrase is an example of ${it.device}?`,
+      options: makeOptions(it.correct, it.wrong),
+      correctAnswer: it.correct,
+      explanation: it.explanation,
       topic: "Writer's Methods"
     };
   }
 
-  // Comprehension-style (mini excerpt)
+  // Comprehension (default fallback)
   const excerpts = [
     {
       excerpt: 'The corridor was silent, except for the steady drip of water somewhere in the dark.',
       q: 'What atmosphere does the sentence create?',
       correct: 'A tense and mysterious mood',
-      wrong: ['A cheerful and playful mood', 'A relaxed and sunny mood', 'A busy and noisy mood']
+      wrong: ['A cheerful and playful mood', 'A relaxed and sunny mood', 'A busy and noisy mood'],
+      tfStatement: 'The sentence creates a tense and mysterious mood.'
     },
     {
       excerpt: 'He tightened his grip on the handle and took one careful step forward.',
-      q: 'What does “careful” suggest about him?',
+      q: 'What does "careful" suggest about him?',
       correct: 'He is cautious or nervous',
-      wrong: ['He is bored', 'He is angry', 'He is laughing']
+      wrong: ['He is bored', 'He is angry', 'He is laughing'],
+      tfStatement: 'The word "careful" suggests he is cautious or nervous.'
     },
   ];
   const ex = excerpts[randInt(0, excerpts.length - 1)];
-  const correctStr = ex.correct;
-  const distractors = ex.wrong;
+  if (isTF) {
+    const showTrue = coinFlip();
+    const displayedStatement = showTrue ? ex.tfStatement : ex.wrong[randInt(0, ex.wrong.length - 1)];
+    return {
+      text: `Read this sentence: "${ex.excerpt}"\n\nTrue or False: ${displayedStatement}`,
+      options: ['True', 'False'],
+      correctAnswer: showTrue ? 'True' : 'False',
+      explanation: `${ex.tfStatement} Look for clues in the specific words the writer chose.`,
+      topic: 'Comprehension'
+    };
+  }
   return {
     text: `${ex.excerpt}\n\n${ex.q}`,
-    options: qt === 'true-false' ? ['True', 'False'] : makeOptions(correctStr, distractors),
-    correctAnswer: qt === 'true-false' ? 'False' : correctStr,
+    options: makeOptions(ex.correct, ex.wrong),
+    correctAnswer: ex.correct,
     explanation: 'Choose the option best supported by the wording in the excerpt.',
     topic: 'Comprehension'
   };
