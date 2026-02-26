@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // MATHS — Ordering questions (hand-written, 50 questions)
 // correctAnswer = items joined by comma in correct order
 // options = the shuffled items to drag/order
