@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // ─────────────────────────────────────────────────────────────────────────────
 // ENGLISH — Multiple Choice  (250 questions, IDs eng-mc-001 … eng-mc-250)
 // Topics: Vocabulary, Grammar, Punctuation, Spelling, Comprehension,
