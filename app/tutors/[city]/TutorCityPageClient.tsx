@@ -119,6 +119,30 @@ export default function TutorCityPageClient({ city }: { city: City }) {
             </div>
           </section>
 
+
+          {/* Areas we serve */}
+          {cityData.nearbyAreas.length > 0 && (
+            <section className="mt-12">
+              <h2 className="text-2xl font-black text-slate-900 mb-2">
+                Areas Around {city.label} We Serve
+              </h2>
+              <p className="text-slate-500 text-sm mb-6">
+                Our 11+ resources and support are available to families across {city.label} and the surrounding area. Wherever you are based, we can help your child prepare with confidence.
+              </p>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {cityData.nearbyAreas.map((area) => (
+                  <div
+                    key={area}
+                    className="flex items-center gap-2 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-700 text-sm font-semibold"
+                  >
+                    <MapPin size={13} className="text-indigo-400 shrink-0" />
+                    {area}
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           <section className="mt-10">
             <h2 className="text-2xl font-black text-slate-900 mb-3">What to look for in an 11+ tutor</h2>
             <ul className="space-y-3">
