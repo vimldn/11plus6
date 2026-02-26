@@ -229,32 +229,37 @@ function getRelatedPosts(current: { slug: string; category: string; title: strin
 // ─── Content renderer with interleaved banners + images ──────────────────────
 
 function ContentWithBanners({ content, images }: { content: BlockType[]; images: string[] }) {
-  // Track which inline images have been used (skip index 0 = hero)
-  // and which banner (tutor=false, mock=true) to show next
-  let imageIdx = 1; // start from _2 (index 1), since _1 is used as hero
-  let bannerToggle = 0; // 0=tutor, 1=mock
-  let headingCount = 0;
+  // Each banner appears exactly once, after the section content that follows its h2.
+  // Strategy: find the end of the 1st h2 section → insert TutorBanner
+  //           find the end of the 2nd h2 section → insert MockBanner
+  // "End of section" = just before the next h2, or end of content.
+
+  let imageIdx = 1; // _2, _3, _4 for inline images (_1 used as hero)
+  let h2Count = 0;
+  const TUTOR_AFTER_H2 = 1; // insert tutor banner after 1st h2 section
+  const MOCK_AFTER_H2  = 2; // insert mock banner after 2nd h2 section
 
   const elements: React.ReactNode[] = [];
 
   for (let i = 0; i < content.length; i++) {
     const block = content[i];
+    const isH2 = block.type === 'h2';
+
+    // Before rendering a new h2, check if we just finished a section that needs a banner
+    if (isH2 && i > 0) {
+      if (h2Count === TUTOR_AFTER_H2) {
+        elements.push(<TutorBanner key="tutor-banner" />);
+      } else if (h2Count === MOCK_AFTER_H2) {
+        elements.push(<MockBanner key="mock-banner" />);
+      }
+    }
+
     elements.push(<Block key={`block-${i}`} block={block} />);
 
-    const isHeading = block.type === 'h2' || block.type === 'h3';
-    if (!isHeading) continue;
+    if (isH2) h2Count++;
 
-    headingCount++;
-
-    // After every heading: inject a banner (alternating tutor/mock)
-    const banner = bannerToggle % 2 === 0
-      ? <TutorBanner key={`banner-${i}`} />
-      : <MockBanner key={`banner-${i}`} />;
-    bannerToggle++;
-    elements.push(banner);
-
-    // After every 2nd heading also show an inline image (if available)
-    if (headingCount % 2 === 0 && imageIdx < images.length) {
+    // Inline image after every 3rd h2 (if images remain)
+    if (isH2 && h2Count % 3 === 0 && imageIdx < images.length) {
       elements.push(
         <div key={`img-${i}`} className="my-6 rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
           <img
@@ -266,6 +271,16 @@ function ContentWithBanners({ content, images }: { content: BlockType[]; images:
       );
       imageIdx++;
     }
+  }
+
+  // Handle case where content ends before a 3rd h2 (still need to drop banners)
+  if (h2Count === TUTOR_AFTER_H2) {
+    elements.push(<TutorBanner key="tutor-banner" />);
+  } else if (h2Count >= MOCK_AFTER_H2) {
+    // mock banner was already inserted mid-loop if h2Count hit 2 before end
+    // if there was no 3rd h2 to trigger mock, insert now
+    const hasMock = elements.some((el: any) => el?.key === 'mock-banner');
+    if (!hasMock) elements.push(<MockBanner key="mock-banner" />);
   }
 
   return <div className="space-y-5">{elements}</div>;
