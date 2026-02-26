@@ -20,6 +20,7 @@ export interface BlogPost {
   category: string;
   imageUrl: string;
   imageAlt: string;
+  images: string[];
   content: BlockType[];
 }
 
@@ -33,6 +34,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Guide",
     imageUrl: "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_4.jpeg",
     imageAlt: "What is the 11 Plus exam?",
+    images: ["https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_4.jpeg"],
     content: [
       { type: "h3", text: "Definition and Purpose" },
       { type: "p", text: "The **11 Plus exam** identifies students with the highest academic potential for **selective secondary education**. Established post-1944 Education Act, it selects the top 25% nationally. Over 120,000 pupils sit the exam annually, according to DfE figures." },
@@ -166,6 +168,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Maths",
     imageUrl: "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_4.jpeg",
     imageAlt: "What subjects are in the 11 Plus (English, maths, verbal, non-verbal)?",
+    images: ["https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_1.jpeg", "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_2.jpeg", "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_3.jpeg", "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of 11 Plus Exam" },
       { type: "p", text: "The 11 Plus exam, taken by over 100,000 Year 6 pupils annually in the UK, tests English, Maths, **Verbal Reasoning**, and **Non-Verbal Reasoning** to determine entry into 163 grammar schools and hundreds of independent schools." },
@@ -284,6 +287,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_4.jpeg",
     imageAlt: "11 Plus exam format \u2013 multiple choice or written?",
+    images: ["https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_1.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_2.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_3.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_4.jpeg"],
     content: [
       { type: "h2", text: "11+ Exam Overview" },
       { type: "p", text: "The **11+ exam**, taken by Year 6 pupils (age 10-11), determines entry to selective grammar and independent schools across the UK. This **entrance exam** assesses skills in English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. Around 85,000 students sit it each year according to GL Assessment data." },
@@ -384,6 +388,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_4.jpeg",
     imageAlt: "What age do children sit the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_1.jpeg", "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_2.jpeg", "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_3.jpeg", "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test for grammar and independent schools in the UK, primarily used in England to identify students academically suited for high-performing secondary schools at **age 11**." },
@@ -470,6 +475,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_4.jpeg",
     imageAlt: "When are the 11 Plus exam dates in my area?",
+    images: ["https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_1.jpeg", "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_2.jpeg", "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_3.jpeg", "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The **11 Plus exam** determines Year 7 entry to over 160 UK grammar schools, testing children aged 10-11 in verbal reasoning, non-verbal reasoning, maths, and English. Across England, **163 grammar schools** accept 11+ results for selective entry. More than 20,000 children sit the exam annually to compete for places in these schools." },
@@ -550,6 +556,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_4.jpeg",
     imageAlt: "Which schools use the 11 Plus exam?",
+    images: ["https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_1.jpeg", "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_2.jpeg", "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_3.jpeg", "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test taken by students aged 10-11 to gain admission to approximately **163 grammar schools** across England and selective independent schools, assessing verbal reasoning, non-verbal reasoning, maths, and English with standardised scores typically requiring 110+ to pass." },
@@ -658,6 +665,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_4.jpeg",
     imageAlt: "GL vs CEM 11 Plus \u2013 what is the difference?",
+    images: ["https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_1.jpeg", "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_2.jpeg", "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_3.jpeg", "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test taken by Year 6 pupils (age 10-11) for admission to over 160 UK grammar schools, testing English, maths, verbal reasoning, and non-verbal reasoning across 120,000+ annual test-takers. It serves as the gateway to **grammar schools**, which prioritise academic ability. Parents often start preparation in Year 5 to build skills in these areas." },
@@ -756,6 +764,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "English",
     imageUrl: "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-english(2vf3)_4.jpeg",
     imageAlt: "What topics are in 11 Plus English?",
+    images: ["https://files.autoblogging.ai/images/what-topics-are-in-11-plus-english(2vf3)_1.jpeg", "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-english(2vf3)_2.jpeg", "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-english(2vf3)_3.jpeg", "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-english(2vf3)_4.jpeg"],
     content: [
       { type: "h2", text: "Reading Comprehension" },
       { type: "p", text: "Reading comprehension forms 40-50% of 11+ English papers, testing ability to analyse fiction, non-fiction, and draw inferences from unseen passages. Across **GL, CEM, and independent school exams**, it follows a similar structure with one or two passages followed by varied questions. GL Assessment data shows **35% of marks** from comprehension." },
@@ -898,6 +907,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Maths",
     imageUrl: "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-maths(4g5j)_4.jpeg",
     imageAlt: "What topics are in 11 Plus maths?",
+    images: ["https://files.autoblogging.ai/images/what-topics-are-in-11-plus-maths(4g5j)_1.jpeg", "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-maths(4g5j)_2.jpeg", "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-maths(4g5j)_3.jpeg", "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-maths(4g5j)_4.jpeg"],
     content: [
       { type: "h2", text: "Number and Place Value" },
       { type: "p", text: "Mastering **number and place value** forms the foundation of 11+ maths success. Exams test place value up to 10,000 and number ordering through multiple-choice and word problems. Students focus on **HTU**, thousands, and comparing numbers." },
@@ -1006,6 +1016,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Verbal Reasoning",
     imageUrl: "https://files.autoblogging.ai/images/what-is-11-plus-verbal-reasoning(fm56)_4.jpeg",
     imageAlt: "What is 11 Plus verbal reasoning?",
+    images: ["https://files.autoblogging.ai/images/what-is-11-plus-verbal-reasoning(fm56)_1.jpeg", "https://files.autoblogging.ai/images/what-is-11-plus-verbal-reasoning(fm56)_2.jpeg", "https://files.autoblogging.ai/images/what-is-11-plus-verbal-reasoning(fm56)_3.jpeg", "https://files.autoblogging.ai/images/what-is-11-plus-verbal-reasoning(fm56)_4.jpeg"],
     content: [
       { type: "h2", text: "What is 11 Plus Verbal Reasoning?" },
       { type: "p", text: "The **11 Plus Verbal Reasoning test** assesses children's ability to understand and manipulate language patterns through puzzle-like questions. This cognitive test targets Year 6 students aiming for grammar or selective schools in the UK. It forms a key part of the **11 plus exam**, evaluating skills beyond standard English lessons." },
@@ -1103,6 +1114,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Verbal Reasoning",
     imageUrl: "https://files.autoblogging.ai/images/what-is-11-plus-nonverbal-reasoning(wwhv)_4.jpeg",
     imageAlt: "What is 11 Plus non-verbal reasoning?",
+    images: ["https://files.autoblogging.ai/images/what-is-11-plus-nonverbal-reasoning(wwhv)_1.jpeg", "https://files.autoblogging.ai/images/what-is-11-plus-nonverbal-reasoning(wwhv)_2.jpeg", "https://files.autoblogging.ai/images/what-is-11-plus-nonverbal-reasoning(wwhv)_3.jpeg", "https://files.autoblogging.ai/images/what-is-11-plus-nonverbal-reasoning(wwhv)_4.jpeg"],
     content: [
       { type: "h2", text: "What is 11 Plus Non-Verbal Reasoning?" },
       { type: "p", text: "The 11 Plus Non-Verbal Reasoning (NVR) section tests **pattern recognition** and **spatial skills** through visual puzzles. It appears in many UK grammar school exams. This type of test focuses on visual problem-solving without relying on language." },
@@ -1184,6 +1196,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Guide",
     imageUrl: "https://files.autoblogging.ai/images/how-hard-is-the-11-plus-exam(14tc)_4.jpeg",
     imageAlt: "How hard is the 11 Plus exam?",
+    images: ["https://files.autoblogging.ai/images/how-hard-is-the-11-plus-exam(14tc)_1.jpeg", "https://files.autoblogging.ai/images/how-hard-is-the-11-plus-exam(14tc)_2.jpeg", "https://files.autoblogging.ai/images/how-hard-is-the-11-plus-exam(14tc)_3.jpeg", "https://files.autoblogging.ai/images/how-hard-is-the-11-plus-exam(14tc)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam**, taken by Year 6 pupils in England, is a selective entrance test for grammar and independent schools, assessing cognitive abilities through multiple-choice and standard format questions from GL Assessment or **CEM** boards. Originating from the 1944 Education Act, it aimed to identify pupils for grammar school places based on aptitude. Today, it remains a key part of the UK education system for secondary school transfer." },
@@ -1277,6 +1290,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_4.jpeg",
     imageAlt: "How to register my child for the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_1.jpeg", "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_2.jpeg", "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_3.jpeg", "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The 11 Plus exam is a selective entrance test for Year 7 places at approximately 163 UK grammar schools, testing children on **verbal reasoning** (30-40%), **numerical reasoning** (25-35%), non-verbal reasoning (20-30%), and English/maths (10-20%) via 45-60 minute multiple-choice papers. Around 30,000 children take it annually. It helps determine entry to these grammar schools in selective areas." },
@@ -1391,6 +1405,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg",
     imageAlt: "How to prepare for the 11 Plus at home?",
+    images: ["https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_1.jpeg", "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_2.jpeg", "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_3.jpeg", "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The **11 Plus exam** typically lasts 2-2.5 hours across multiple papers testing English, Maths, Verbal Reasoning, and Non-Verbal Reasoning, with formats varying by region (GL, CEM, or independent schools). Parents preparing at home need to grasp these differences for effective **11 plus prep**. Formats include GL with 45-60 minute multiple-choice papers, CEM with shorter 25-30 minute tests featuring longer texts, and independent school exams often using essay-style comprehension." },
@@ -1515,6 +1530,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg",
     imageAlt: "How early should we start 11 Plus preparation?",
+    images: ["https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_1.jpeg", "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_2.jpeg", "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_3.jpeg", "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The 11+ exam typically consists of 4 core subjects: English (45-60 mins), Maths (30-45 mins), Verbal Reasoning (25-30 mins), and Non-Verbal Reasoning (25-30 mins), with **CEM** and **GL Assessment** being the two main providers." },
@@ -1614,6 +1630,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_4.jpeg",
     imageAlt: "Best 11 Plus practice papers and past papers.",
+    images: ["https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_1.jpeg", "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_2.jpeg", "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_3.jpeg", "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding 11+ Exams" },
       { type: "p", text: "The **11+ exam** determines entry to top grammar and independent schools, with formats varying by region and exam board. These tests assess skills in maths, verbal reasoning, and **non-verbal reasoning** for Year 5 and Year 6 pupils aiming for selective places." },
@@ -1709,6 +1726,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/free-11-plus-resources-and-websites(zimo)_4.jpeg",
     imageAlt: "Free 11 Plus resources and websites.",
+    images: ["https://files.autoblogging.ai/images/free-11-plus-resources-and-websites(zimo)_1.jpeg", "https://files.autoblogging.ai/images/free-11-plus-resources-and-websites(zimo)_2.jpeg", "https://files.autoblogging.ai/images/free-11-plus-resources-and-websites(zimo)_3.jpeg", "https://files.autoblogging.ai/images/free-11-plus-resources-and-websites(zimo)_4.jpeg"],
     content: [
       { type: "h2", text: "Official Exam Board Resources" },
       { type: "p", text: "Official exam boards like **GL Assessment** and **CEM** provide limited but highly authentic free resources that mirror real 11+ exam formats and difficulty levels. These materials help students practise exact question styles, timings of 45-60 minutes per section, and scoring methods used in grammar school admissions. Access them directly from exam board sites to benchmark against real test conditions." },
@@ -1799,6 +1817,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_4.jpeg",
     imageAlt: "Do we need an 11 Plus tutor?",
+    images: ["https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_1.jpeg", "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_2.jpeg", "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_3.jpeg", "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test for children aged 10-11 targeting Year 7 places at grammar and independent schools across the UK, with over 30,000 students sitting it annually for approximately 16,000 grammar school places. This exam assesses readiness for grammar school admissions in competitive areas. Parents often wonder if an **11 plus tutor** is necessary for success." },
@@ -1894,6 +1913,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_4.jpeg",
     imageAlt: "How many hours a week should my child study for 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_1.jpeg", "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_2.jpeg", "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_3.jpeg", "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The 11 Plus exam tests Year 5/6 children for grammar and independent school entry through four core subjects: English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. Providers like **GL Assessment** and **CEM** set the formats. GL Assessment serves many UK grammar schools, while CEM comes from Cambridge Assessment." },
@@ -2004,6 +2024,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Day",
     imageUrl: "https://files.autoblogging.ai/images/11-plus-time-management-strategies-in-the-exam(v2vj)_4.jpeg",
     imageAlt: "11 Plus time management strategies in the exam.",
+    images: ["https://files.autoblogging.ai/images/11-plus-time-management-strategies-in-the-exam(v2vj)_1.jpeg", "https://files.autoblogging.ai/images/11-plus-time-management-strategies-in-the-exam(v2vj)_2.jpeg", "https://files.autoblogging.ai/images/11-plus-time-management-strategies-in-the-exam(v2vj)_3.jpeg", "https://files.autoblogging.ai/images/11-plus-time-management-strategies-in-the-exam(v2vj)_4.jpeg"],
     content: [
       { type: "h2", text: "Pre-Exam Preparation" },
       { type: "p", text: "Effective pre-exam preparation for the 11+ exam builds speed and confidence through structured timed practice using Bond papers and CGP guides. These 11+ exams typically last **60 minutes** with around 80 questions across verbal reasoning, non-verbal reasoning, maths, and English. Proper preparation prevents **time crunches** on test day by familiarising pupils with exam duration and pacing strategy." },
@@ -2093,6 +2114,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_4.jpeg",
     imageAlt: "How is the 11 Plus scored and marked?",
+    images: ["https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_1.jpeg", "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_2.jpeg", "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_3.jpeg", "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of 11 Plus Exam" },
       { type: "p", text: "The **11 Plus exam**, taken by over 250,000 UK children annually, determines grammar and selective independent school entry through 3-4 papers testing English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. This transfer test assesses readiness for selective secondary education. Parents register their child to sit papers from main providers like GL Assessment, CEM Select, and CSSE." },
@@ -2221,6 +2243,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_4.jpeg",
     imageAlt: "What is a good 11 Plus score or pass mark?",
+    images: ["https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_1.jpeg", "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_2.jpeg", "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_3.jpeg", "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The 11 Plus exam typically consists of **4 core subjects**\u2014English, Maths, Verbal Reasoning, and Non-Verbal Reasoning\u2014delivered in 45-60 minute papers per section across 2-4 testing days depending on the exam board." },
@@ -2299,6 +2322,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_4.jpeg",
     imageAlt: "Standardised scores in the 11 Plus \u2013 what do they mean?",
+    images: ["https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_1.jpeg", "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_2.jpeg", "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_3.jpeg", "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Standardised Scores in the 11 Plus?" },
       { type: "p", text: "Standardised scores in the 11 Plus exam transform raw marks into age-fair metrics, typically using a mean of 100 and standard deviation of 15, as per **GL Assessment** and **CEM Select** standards." },
@@ -2387,6 +2411,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_4.jpeg",
     imageAlt: "How many children pass the 11 Plus (pass rate)?",
+    images: ["https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_1.jpeg", "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_2.jpeg", "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_3.jpeg", "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test for grammar schools and some independent schools in the UK, taken by approximately 250,000 **Year 6 pupils** aged 10-11 annually to determine eligibility for around 30,000 grammar school places." },
@@ -2478,6 +2503,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_4.jpeg",
     imageAlt: "Difference between grammar schools and independent schools 11 Plus.",
+    images: ["https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_1.jpeg", "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_2.jpeg", "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_3.jpeg", "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of 11+ Exam Context" },
       { type: "p", text: "The **11+ exam** determines entry to over **160 UK grammar schools** serving 140,000 students annually, testing Year 6 pupils transitioning to Year 7 through verbal reasoning, numerical reasoning, and non-verbal reasoning." },
@@ -2555,6 +2581,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_4.jpeg",
     imageAlt: "Do independent schools use the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_1.jpeg", "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_2.jpeg", "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_3.jpeg", "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test taken by Year 6 pupils (age 10-11) for entry into **grammar schools** and some independent schools, typically consisting of verbal reasoning (50 questions, 25 mins), numerical reasoning (50 questions, 25 mins), non-verbal reasoning (50 questions, 25 mins), and English/maths assessments." },
@@ -2650,6 +2677,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_4.jpeg",
     imageAlt: "What happens if my child fails the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_1.jpeg", "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_2.jpeg", "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_3.jpeg", "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The 11 Plus exam, taken by Year 6 pupils in September, assesses cognitive abilities through four core sections: **Verbal Reasoning** (29%), Non-Verbal Reasoning (29%), Maths (21%), and English (21%) using GL Assessment or CEM Select formats. Each section lasts 45-60 minutes, with formats ranging from multiple choice to standard written answers. Pass marks vary by region, often between **110 and 121**." },
@@ -2728,6 +2756,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_4.jpeg",
     imageAlt: "Can my child retake the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_1.jpeg", "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_2.jpeg", "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_3.jpeg", "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam**, taken by Year 6 pupils (age 10-11), assesses suitability for **grammar schools** through 4 core sections: English (25-30 questions), Maths (30 questions), Verbal Reasoning (80 questions), and Non-Verbal Reasoning (80 questions), lasting 2-2.5 hours total. This selective school exam helps determine secondary school admission. Parents often start 11+ preparation in Year 5." },
@@ -2836,6 +2865,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_4.jpeg",
     imageAlt: "How to appeal an 11 Plus result or school allocation.",
+    images: ["https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_1.jpeg", "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_2.jpeg", "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_3.jpeg", "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding 11 Plus Appeals" },
       { type: "p", text: "11 Plus appeals fall into two distinct categories: **result appeals** challenging exam marks (success rate 5-10% per GL Assessment data) and **school allocation appeals** disputing placement decisions (35% success rate per 2023 DfE statistics)." },
@@ -2948,6 +2978,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Day",
     imageUrl: "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_4.jpeg",
     imageAlt: "11 Plus exam stress and anxiety \u2013 how to help my child.",
+    images: ["https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_1.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_2.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_3.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding 11 Plus Exam Stress" },
       { type: "p", text: "The **11 Plus exam** triggers anxiety in many Year 5 and 6 children, with parents often reporting increased tears, stomach aches, and sleep disturbances. This entrance exam serves as a key test for grammar and independent school places across the UK. It covers verbal reasoning, **non-verbal reasoning**, maths, and English, putting significant pressure on young learners." },
@@ -3073,6 +3104,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Day",
     imageUrl: "https://files.autoblogging.ai/images/11-plus-exam-day-checklist-what-to-bring(yrlj)_4.jpeg",
     imageAlt: "11 Plus exam day checklist (what to bring).",
+    images: ["https://files.autoblogging.ai/images/11-plus-exam-day-checklist-what-to-bring(yrlj)_1.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-day-checklist-what-to-bring(yrlj)_2.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-day-checklist-what-to-bring(yrlj)_3.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-day-checklist-what-to-bring(yrlj)_4.jpeg"],
     content: [
       { type: "h2", text: "Official Documents" },
       { type: "p", text: "Official documents verify your child's identity and registration for the **11+ exam**, preventing entry delays at venues like grammar school halls. Both GL Assessment and **CEM exam** boards require specific papers to confirm eligibility. Missing these can bar entry, as seen in reports from the Independent Schools Council." },
@@ -3156,6 +3188,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_4.jpeg",
     imageAlt: "Computer-based vs paper-based 11 Plus tests.",
+    images: ["https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_1.jpeg", "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_2.jpeg", "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_3.jpeg", "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of 11 Plus Tests" },
       { type: "p", text: "The 11 Plus exam, taken by **Year 6 pupils** in England, assesses verbal reasoning, non-verbal reasoning, maths, and English to determine entry into selective grammar and independent schools. Originating in **1944**, it saw reforms in the 1960s to standardise access. Today, over 100,000 students sit the test each year for places across 163 grammar schools, according to Gov.uk data." },
@@ -3253,6 +3286,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Maths",
     imageUrl: "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_4.jpeg",
     imageAlt: "Are calculators allowed in the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_1.jpeg", "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_2.jpeg", "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_3.jpeg", "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of 11 Plus Exams" },
       { type: "p", text: "The **11 Plus exam**, taken by over 100,000 Year 6 pupils annually in the UK, assesses English, maths, verbal reasoning, and non-verbal reasoning to determine **grammar school eligibility**." },
@@ -3376,6 +3410,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "English",
     imageUrl: "https://files.autoblogging.ai/images/how-to-improve-11-plus-vocabulary-quickly(0uqt)_4.jpeg",
     imageAlt: "How to improve 11 Plus vocabulary quickly.",
+    images: ["https://files.autoblogging.ai/images/how-to-improve-11-plus-vocabulary-quickly(0uqt)_1.jpeg", "https://files.autoblogging.ai/images/how-to-improve-11-plus-vocabulary-quickly(0uqt)_2.jpeg", "https://files.autoblogging.ai/images/how-to-improve-11-plus-vocabulary-quickly(0uqt)_3.jpeg", "https://files.autoblogging.ai/images/how-to-improve-11-plus-vocabulary-quickly(0uqt)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding 11 Plus Vocabulary Demands" },
       { type: "p", text: "The **11+ exam** requires mastery of 2,500+ high-frequency words including 800 Tier 2 academic vocabulary from the Coxhead Academic Word List, tested across CEM, GL, and consortium formats through synonyms, antonyms, and verbal reasoning matrices." },
@@ -3529,6 +3564,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Maths",
     imageUrl: "https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_4.jpeg",
     imageAlt: "How to improve 11 Plus mental maths.",
+    images: ["https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_1.jpeg", "https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_2.jpeg", "https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_3.jpeg", "https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding 11 Plus Mental Maths" },
       { type: "p", text: "11+ mental maths tests evaluate **rapid arithmetic** under 45-second question limits, comprising 40% of GL assessment and 30% of CEM exam scores according to 2023 exam board data. GL Assessment formats include **50 questions in 25 minutes**, while CEM Centre offers 40 questions in 30 minutes. These structures demand speed arithmetic and accuracy from Year 6 pupils aiming for grammar or independent school entry." },
@@ -3641,6 +3677,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/best-books-for-11-plus-preparation(7ivc)_4.jpeg",
     imageAlt: "Best books for 11 Plus preparation.",
+    images: ["https://files.autoblogging.ai/images/best-books-for-11-plus-preparation(7ivc)_1.jpeg", "https://files.autoblogging.ai/images/best-books-for-11-plus-preparation(7ivc)_2.jpeg", "https://files.autoblogging.ai/images/best-books-for-11-plus-preparation(7ivc)_3.jpeg", "https://files.autoblogging.ai/images/best-books-for-11-plus-preparation(7ivc)_4.jpeg"],
     content: [
       { type: "h2", text: "Top Maths Books" },
       { type: "p", text: "Maths comprises **25-40% of 11+ exams** with 50-60 questions covering arithmetic, fractions, geometry, and data interpretation across CEM/GL formats. **Word problems** make up around 30% of marks, so students often struggle with interpreting questions under time pressure. Common pitfalls include rushing calculations or misreading data in graphs." },
@@ -3730,6 +3767,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_4.jpeg",
     imageAlt: "How to structure an 11 Plus study timetable.",
+    images: ["https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_1.jpeg", "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_2.jpeg", "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_3.jpeg", "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The **11 Plus exam** tests English, Maths, Verbal Reasoning, and Non-Verbal Reasoning across 3-5 papers totalling 2.5-3 hours, with formats varying by GL Assessment (multiple choice) vs CEM Select (standardised scoring). Parents structuring a **study timetable** must grasp these differences to allocate time effectively. This knowledge shapes your revision schedule for grammar schools or independent entrances." },
@@ -3837,6 +3875,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "English",
     imageUrl: "https://files.autoblogging.ai/images/common-11-plus-english-mistakes-to-avoid(1enx)_4.jpeg",
     imageAlt: "Common 11 Plus English mistakes to avoid.",
+    images: ["https://files.autoblogging.ai/images/common-11-plus-english-mistakes-to-avoid(1enx)_1.jpeg", "https://files.autoblogging.ai/images/common-11-plus-english-mistakes-to-avoid(1enx)_2.jpeg", "https://files.autoblogging.ai/images/common-11-plus-english-mistakes-to-avoid(1enx)_3.jpeg", "https://files.autoblogging.ai/images/common-11-plus-english-mistakes-to-avoid(1enx)_4.jpeg"],
     content: [
       { type: "h2", text: "Common 11 Plus English Mistakes to Avoid" },
       { type: "p", text: "Over 70% of 11+ candidates lose marks due to preventable errors in spelling, punctuation, and grammar, according to GL Assessment analysis of 2023 mock exams. GL Assessment and CEM data highlight the **top 5 error categories**: spelling at 28%, punctuation at 22%, grammar at 19%, vocabulary at 15%, and comprehension at 16%. A Bond Papers parental survey found 85% of parents report **spelling as their biggest concern**." },
@@ -3964,6 +4003,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Maths",
     imageUrl: "https://files.autoblogging.ai/images/common-11-plus-maths-mistakes-to-avoid(2b5w)_4.jpeg",
     imageAlt: "Common 11 Plus maths mistakes to avoid.",
+    images: ["https://files.autoblogging.ai/images/common-11-plus-maths-mistakes-to-avoid(2b5w)_1.jpeg", "https://files.autoblogging.ai/images/common-11-plus-maths-mistakes-to-avoid(2b5w)_2.jpeg", "https://files.autoblogging.ai/images/common-11-plus-maths-mistakes-to-avoid(2b5w)_3.jpeg", "https://files.autoblogging.ai/images/common-11-plus-maths-mistakes-to-avoid(2b5w)_4.jpeg"],
     content: [
       { type: "h2", text: "Number and Place Value Errors" },
       { type: "p", text: "**11+ maths exams** test place value mastery. Students often struggle with large numbers in these tests. Rushed reading leads to frequent **misreading errors**." },
@@ -4085,6 +4125,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/how-different-are-11-plus-exams-by-region(weyg)_4.jpeg",
     imageAlt: "How different are 11 Plus exams by region?",
+    images: ["https://files.autoblogging.ai/images/how-different-are-11-plus-exams-by-region(weyg)_1.jpeg", "https://files.autoblogging.ai/images/how-different-are-11-plus-exams-by-region(weyg)_2.jpeg", "https://files.autoblogging.ai/images/how-different-are-11-plus-exams-by-region(weyg)_3.jpeg", "https://files.autoblogging.ai/images/how-different-are-11-plus-exams-by-region(weyg)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of 11 Plus Exams" },
       { type: "p", text: "The 11 Plus exam, taken by over **250,000 Year 6 pupils** annually across the UK, determines entry to approximately **163 grammar schools** in England and hundreds of independent schools." },
@@ -4175,6 +4216,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "English",
     imageUrl: "https://files.autoblogging.ai/images/what-is-covered-in-11-plus-creative-writing(p34l)_4.jpeg",
     imageAlt: "What is covered in 11 Plus creative writing?",
+    images: ["https://files.autoblogging.ai/images/what-is-covered-in-11-plus-creative-writing(p34l)_1.jpeg", "https://files.autoblogging.ai/images/what-is-covered-in-11-plus-creative-writing(p34l)_2.jpeg", "https://files.autoblogging.ai/images/what-is-covered-in-11-plus-creative-writing(p34l)_3.jpeg", "https://files.autoblogging.ai/images/what-is-covered-in-11-plus-creative-writing(p34l)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of 11+ Creative Writing" },
       { type: "p", text: "The 11+ creative writing task, featured in 85% of CEM and GL exams, requires Year 5/6 students to produce a 300-400 word narrative in **25 minutes** based on prompts like picture stimuli or short passages. This task appears in the **11 Plus English** paper of grammar school entrance exams. Students must show skills in story writing and descriptive writing." },
@@ -4239,6 +4281,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/how-long-is-the-11-plus-exam(5tt6)_4.jpeg",
     imageAlt: "How long is the 11 Plus exam?",
+    images: ["https://files.autoblogging.ai/images/how-long-is-the-11-plus-exam(5tt6)_1.jpeg", "https://files.autoblogging.ai/images/how-long-is-the-11-plus-exam(5tt6)_2.jpeg", "https://files.autoblogging.ai/images/how-long-is-the-11-plus-exam(5tt6)_3.jpeg", "https://files.autoblogging.ai/images/how-long-is-the-11-plus-exam(5tt6)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of the 11 Plus Exam" },
       { type: "p", text: "The **11 Plus exam**, taken by Year 6 pupils around age 11, determines entry to selective grammar and independent schools across the UK. This **grammar school exam** assesses skills in key areas to identify pupils suited for academic rigour." },
@@ -4317,6 +4360,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_4.jpeg",
     imageAlt: "How many papers are in the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_1.jpeg", "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_2.jpeg", "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_3.jpeg", "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Exam" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test for Year 6 pupils (age 10-11) aiming for grammar schools and some independent schools in the UK, typically administered in September-October with registration deadlines by June-July. It traces its roots to the **1944 Education Act**, which introduced selective education. Today, it plays a key role in admissions to around 163 UK grammar schools." },
@@ -4409,6 +4453,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Day",
     imageUrl: "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_4.jpeg",
     imageAlt: "Can my child get extra time in the 11 Plus (SEN)?",
+    images: ["https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_1.jpeg", "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_2.jpeg", "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_3.jpeg", "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam**, taken by children aged 10-11, determines entry to over 160 grammar schools across England using GL Assessment (multiple choice) or **CEM Select** (standardised) formats. In 2023, 52,000 students sat exams across 36 local authorities. This test acts as a gateway to selective schools for those who perform well." },
@@ -4515,6 +4560,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Guide",
     imageUrl: "https://files.autoblogging.ai/images/what-level-of-ks2-is-needed-for-the-11-plus(142v)_4.jpeg",
     imageAlt: "What level of KS2 is needed for the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/what-level-of-ks2-is-needed-for-the-11-plus(142v)_1.jpeg", "https://files.autoblogging.ai/images/what-level-of-ks2-is-needed-for-the-11-plus(142v)_2.jpeg", "https://files.autoblogging.ai/images/what-level-of-ks2-is-needed-for-the-11-plus(142v)_3.jpeg", "https://files.autoblogging.ai/images/what-level-of-ks2-is-needed-for-the-11-plus(142v)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding KS2 and 11 Plus Basics" },
       { type: "p", text: "KS2 covers **Years 3-6** (ages 7-11) while **11 Plus tests** Year 6 attainment for grammar school entry, with 80% of grammar schools requiring scaled scores of 110+ across subjects. The KS2 curriculum builds core skills in reading, maths and grammar that directly feed into 11+ preparation. This link helps primary school pupils target the right level needed for selective secondary school entry." },
@@ -4614,6 +4660,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/online-vs-inperson-tutoring(8tcm)_4.jpeg",
     imageAlt: "Online vs in-person 11 Plus tutoring \u2013 which is better?",
+    images: ["https://files.autoblogging.ai/images/online-vs-inperson-tutoring(8tcm)_1.jpeg", "https://files.autoblogging.ai/images/online-vs-inperson-tutoring(8tcm)_2.jpeg", "https://files.autoblogging.ai/images/online-vs-inperson-tutoring(8tcm)_3.jpeg", "https://files.autoblogging.ai/images/online-vs-inperson-tutoring(8tcm)_4.jpeg"],
     content: [
       { type: "h2", text: "Key Factors in 11 Plus Exam Preparation" },
       { type: "p", text: "Effective 11+ preparation requires mastery of four core areas tested across **CEM and GL formats**, where students typically need 75-85% accuracy to secure grammar school places. These areas form the foundation for both **online tutoring** and in-person tutoring. Tutors focus on building skills through targeted practice." },
@@ -4708,6 +4755,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_4.jpeg",
     imageAlt: "Are mock exams important for the 11 Plus?",
+    images: ["https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_1.jpeg", "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_2.jpeg", "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_3.jpeg", "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a selective entrance test taken by Year 6 pupils in the UK to gain admission to over 160 grammar schools and many independent schools, typically consisting of 4 core papers: English (45-60 mins), Maths (45-60 mins), Verbal Reasoning (25-30 mins), and Non-Verbal Reasoning (25-30 mins)." },
@@ -4812,6 +4860,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/how-many-11-plus-mock-exams-should-my-child-sit(qglh)_4.jpeg",
     imageAlt: "How many 11 Plus mock exams should my child sit?",
+    images: ["https://files.autoblogging.ai/images/how-many-11-plus-mock-exams-should-my-child-sit(qglh)_1.jpeg", "https://files.autoblogging.ai/images/how-many-11-plus-mock-exams-should-my-child-sit(qglh)_2.jpeg", "https://files.autoblogging.ai/images/how-many-11-plus-mock-exams-should-my-child-sit(qglh)_3.jpeg", "https://files.autoblogging.ai/images/how-many-11-plus-mock-exams-should-my-child-sit(qglh)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding 11+ Mock Exams" },
       { type: "p", text: "11+ mock exams are **timed practice tests** replicating real grammar and independent school entrance exams, covering **GL Assessment**, CEM, verbal reasoning, non-verbal reasoning, maths, and English sections. These 11+ practice tests help children aged 10-11 familiarise themselves with the format during year 5 and year 6 preparation. They build stamina for 60-90 minute sessions across 4-5 sections." },
@@ -4915,6 +4964,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_4.jpeg",
     imageAlt: "How to choose the right grammar school after the 11 Plus.",
+    images: ["https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_1.jpeg", "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_2.jpeg", "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_3.jpeg", "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar Schools" },
       { type: "p", text: "Grammar schools in the UK admit pupils based on **academic ability** via the 11+ exam, with 163 state-funded grammar schools serving over 140,000 students across England. These **selective schools** trace their roots to the 1944 Education Act, which aimed to provide rigorous education for high achievers. Today, they cluster in areas like Kent, Buckinghamshire, and Trafford." },
@@ -5017,6 +5067,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg",
     imageAlt: "What is a grammar school?",
+    images: ["https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_1.jpeg", "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_2.jpeg", "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_3.jpeg", "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg"],
     content: [
       { type: "h2", text: "What is a Grammar School?" },
       { type: "p", text: "Grammar schools are **selective secondary schools** that admit pupils based on academic ability, primarily through entrance exams like the 11-plus, emphasising rigorous classical education over comprehensive schooling. Rooted in the UK's **tripartite system**, these merit-based institutions historically focused on educating future leaders through subjects like Latin and Greek. Today, they remain part of the state school landscape, sparking debates on social mobility." },
@@ -5107,6 +5158,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_4.jpeg",
     imageAlt: "Are grammar schools free or private?",
+    images: ["https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_1.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_2.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_3.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "Grammar schools are **academically selective institutions** emphasising rigorous standards, with over 160 remaining in England serving 6% of secondary pupils. These state-funded selective schools trace origins from medieval endowed schools to post-WWII expansion, peaking at 1,400+ grammars by the 1960s. Entry relies on the **11+ exam**, focusing on verbal and non-verbal reasoning." },
@@ -5203,6 +5255,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_4.jpeg",
     imageAlt: "How many grammar schools are there in England?",
+    images: ["https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_1.jpeg", "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_2.jpeg", "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_3.jpeg", "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_4.jpeg"],
     content: [
       { type: "h2", text: "Defining Grammar Schools in England" },
       { type: "p", text: "Grammar schools in England are **state-funded selective secondary schools** admitting pupils based on academic ability via the **11-plus exam**, with 163 remaining from over 1,200 in the 1960s. These institutions cater for ages 11 to 18 and focus on rigorous academic preparation. They differ from independent schools, which charge fees, and comprehensive schools, which admit all local pupils regardless of ability." },
@@ -5302,6 +5355,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_4.jpeg",
     imageAlt: "What is the difference between grammar and comprehensive schools?",
+    images: ["https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_4.jpeg"],
     content: [
       { type: "h2", text: "Definition of Grammar Schools" },
       { type: "p", text: "Grammar schools are **state-funded secondary schools** in the UK that admit pupils based on academic ability, primarily through the **11-plus exam**, serving approximately 165 schools across England with 5% of secondary pupils. These schools form part of the selective education system. They focus on pupils showing strong potential in core subjects." },
@@ -5381,6 +5435,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/are-grammar-schools-better-than-other-state-schools(e98p)_4.jpeg",
     imageAlt: "Are grammar schools better than other state schools?",
+    images: ["https://files.autoblogging.ai/images/are-grammar-schools-better-than-other-state-schools(e98p)_1.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-better-than-other-state-schools(e98p)_2.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-better-than-other-state-schools(e98p)_3.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-better-than-other-state-schools(e98p)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "Grammar schools are **state-funded secondary schools** that admit pupils based on academic ability, typically assessed through the 11-plus exam, representing just 5% of UK secondary schools with around 163 institutions serving 140,000 pupils. These schools focus on **academic rigour** and select high-ability students at age 11. They operate within the state sector, unlike private schools, but prioritise entrance exams over catchment areas." },
@@ -5463,6 +5518,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/who-are-grammar-schools-suitable-for(zuzl)_4.jpeg",
     imageAlt: "Who are grammar schools suitable for?",
+    images: ["https://files.autoblogging.ai/images/who-are-grammar-schools-suitable-for(zuzl)_1.jpeg", "https://files.autoblogging.ai/images/who-are-grammar-schools-suitable-for(zuzl)_2.jpeg", "https://files.autoblogging.ai/images/who-are-grammar-schools-suitable-for(zuzl)_3.jpeg", "https://files.autoblogging.ai/images/who-are-grammar-schools-suitable-for(zuzl)_4.jpeg"],
     content: [
       { type: "h2", text: "Academic Profile of Ideal Candidates" },
       { type: "p", text: "Grammar schools seek students in the **top 10-25% academically**, typically scoring 110+ on standardised cognitive tests like the 11+ exam's verbal and non-verbal reasoning sections. Research from the Sutton Trust indicates grammar students average two grades higher at GCSE compared to peers in other schools. This sets the stage for **ideal candidates** who show both raw ability and sustained performance across core subjects like maths, English, and science." },
@@ -5565,6 +5621,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_4.jpeg",
     imageAlt: "How do you get into a grammar school?",
+    images: ["https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_1.jpeg", "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_2.jpeg", "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_3.jpeg", "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar Schools" },
       { type: "p", text: "Grammar schools are **academically selective state-funded institutions** in the UK that admit pupils based on 11+ entrance exam performance, with 163 remaining across England as of 2024. These schools differ from **comprehensives**, which accept all local children regardless of ability. They focus on high academic standards from Year 7." },
@@ -5676,6 +5733,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/do-you-have-to-sit-the-11-plus-for-grammar-school(vl0f)_4.jpeg",
     imageAlt: "Do you have to sit the 11 Plus for grammar school?",
+    images: ["https://files.autoblogging.ai/images/do-you-have-to-sit-the-11-plus-for-grammar-school(vl0f)_1.jpeg", "https://files.autoblogging.ai/images/do-you-have-to-sit-the-11-plus-for-grammar-school(vl0f)_2.jpeg", "https://files.autoblogging.ai/images/do-you-have-to-sit-the-11-plus-for-grammar-school(vl0f)_3.jpeg", "https://files.autoblogging.ai/images/do-you-have-to-sit-the-11-plus-for-grammar-school(vl0f)_4.jpeg"],
     content: [
       { type: "h2", text: "What is the 11 Plus Exam?" },
       { type: "p", text: "The **11 Plus exam** is a standardised entrance test taken by Year 6 pupils at age 10-11 to secure places in selective **grammar schools**, assessing verbal reasoning (21 questions), non-verbal reasoning (20 questions), maths (45-50 questions), and English (30-40 questions) within strict 50-60 minute time limits." },
@@ -5803,6 +5861,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_4.jpeg",
     imageAlt: "What exams do grammar schools use (GL, CEM, school\u2019s own)?",
+    images: ["https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_1.jpeg", "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_2.jpeg", "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_3.jpeg", "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of Grammar School Entrance Exams" },
       { type: "p", text: "Grammar school entrance exams, primarily the **11+ test**, determine entry to over 160 selective UK secondary schools with pass rates typically 20-30% for top grammars like Wilson's School and Tiffin School. Three main systems dominate: GL Assessment (used by many grammar schools), CEM Select (layered format), and **school's own exams** (independent schools). Understanding provider differences is crucial for targeted preparation." },
@@ -5886,6 +5945,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_4.jpeg",
     imageAlt: "What score do you need to get into a grammar school?",
+    images: ["https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_1.jpeg", "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_2.jpeg", "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_3.jpeg", "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "Grammar schools are **state-funded selective secondary schools** in the UK that admit students based on academic ability, typically through the **11+ entrance exam**, with only 164 remaining after the 1998 School Standards and Framework Act banned new ones. They focus on high achievers and gifted children. These schools serve a small portion of pupils across England." },
@@ -5997,6 +6057,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Background",
     imageUrl: "https://files.autoblogging.ai/images/what-is-a-superselective-grammar-school(1bgk)_4.jpeg",
     imageAlt: "What is a super-selective grammar school?",
+    images: ["https://files.autoblogging.ai/images/what-is-a-superselective-grammar-school(1bgk)_1.jpeg", "https://files.autoblogging.ai/images/what-is-a-superselective-grammar-school(1bgk)_2.jpeg", "https://files.autoblogging.ai/images/what-is-a-superselective-grammar-school(1bgk)_3.jpeg", "https://files.autoblogging.ai/images/what-is-a-superselective-grammar-school(1bgk)_4.jpeg"],
     content: [
       { type: "h2", text: "What is a Super-Selective Grammar School?" },
       { type: "p", text: "Super-selective grammar schools are **elite state-funded institutions** in England that admit only the top 1-2% of academic performers, typically requiring **11+ scores above 370/400** on GL Assessment exams." },
@@ -6082,6 +6143,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/how-competitive-are-grammar-school-places(uax1)_4.jpeg",
     imageAlt: "How competitive are grammar school places?",
+    images: ["https://files.autoblogging.ai/images/how-competitive-are-grammar-school-places(uax1)_1.jpeg", "https://files.autoblogging.ai/images/how-competitive-are-grammar-school-places(uax1)_2.jpeg", "https://files.autoblogging.ai/images/how-competitive-are-grammar-school-places(uax1)_3.jpeg", "https://files.autoblogging.ai/images/how-competitive-are-grammar-school-places(uax1)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "Grammar schools are **state-funded selective secondary schools** in the UK that admit pupils based on academic ability, primarily through the **11+ exam**, with only 163 remaining from over 1,300 in the 1960s. These schools focus on rigorous academics from age 11. They offer free tuition to all students who pass the entrance test." },
@@ -6176,6 +6238,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_4.jpeg",
     imageAlt: "What are the grammar school admission criteria?",
+    images: ["https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_1.jpeg", "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_2.jpeg", "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_3.jpeg", "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of Grammar School Admissions" },
       { type: "p", text: "Grammar schools in the UK are **state-funded selective secondary schools** that admit pupils based primarily on academic ability assessed through the **11+ exam**, with 163 remaining across England as of 2023. According to Department for Education data, these schools operate in 22 local authorities. They focus on delivering high academic standards for pupils who excel in entrance tests." },
@@ -6293,6 +6356,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/how-important-is-catchment-area-for-grammar-schools(sg75)_4.jpeg",
     imageAlt: "How important is catchment area for grammar schools?",
+    images: ["https://files.autoblogging.ai/images/how-important-is-catchment-area-for-grammar-schools(sg75)_1.jpeg", "https://files.autoblogging.ai/images/how-important-is-catchment-area-for-grammar-schools(sg75)_2.jpeg", "https://files.autoblogging.ai/images/how-important-is-catchment-area-for-grammar-schools(sg75)_3.jpeg", "https://files.autoblogging.ai/images/how-important-is-catchment-area-for-grammar-schools(sg75)_4.jpeg"],
     content: [
       { type: "h2", text: "What is a Catchment Area?" },
       { type: "p", text: "A school catchment area defines the geographic zone from which a school prioritizes admissions, typically measured by **straight-line distance** using tools like the DfE's postcode checker. This zone gives priority to pupils living closest to the school under the School Admissions Code 2021. It plays a key role in **grammar school admissions** where places are limited." },
@@ -6375,6 +6439,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/how-far-can-you-live-from-a-grammar-school-and-still-get-in(s1uf)_4.jpeg",
     imageAlt: "How far can you live from a grammar school and still get in?",
+    images: ["https://files.autoblogging.ai/images/how-far-can-you-live-from-a-grammar-school-and-still-get-in(s1uf)_1.jpeg", "https://files.autoblogging.ai/images/how-far-can-you-live-from-a-grammar-school-and-still-get-in(s1uf)_2.jpeg", "https://files.autoblogging.ai/images/how-far-can-you-live-from-a-grammar-school-and-still-get-in(s1uf)_3.jpeg", "https://files.autoblogging.ai/images/how-far-can-you-live-from-a-grammar-school-and-still-get-in(s1uf)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar School Admissions" },
       { type: "p", text: "Grammar schools in the UK admit only the **top 20-25% of students** based on 11+ exam performance, operating in 36 Local Authorities with 163 state-funded grammars serving 139,000 pupils. These **selective schools** focus on academic ability through entrance exams. They differ from comprehensives by prioritising high performers." },
@@ -6463,6 +6528,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-have-feeder-primary-schools(j7bm)_4.jpeg",
     imageAlt: "Do grammar schools have feeder primary schools?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-have-feeder-primary-schools(j7bm)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-feeder-primary-schools(j7bm)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-feeder-primary-schools(j7bm)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-feeder-primary-schools(j7bm)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "Grammar schools are **state-funded secondary schools** in England that select pupils based on academic ability, primarily through the 11-plus exam, with only 163 remaining as of 2024 per DfE data. These schools cater to students aged **11 to 18** and focus on high academic standards. They differ from comprehensive schools by using entrance exams for admission." },
@@ -6551,6 +6617,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-give-priority-to-siblings(l9kr)_4.jpeg",
     imageAlt: "Do grammar schools give priority to siblings?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-give-priority-to-siblings(l9kr)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-give-priority-to-siblings(l9kr)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-give-priority-to-siblings(l9kr)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-give-priority-to-siblings(l9kr)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of Grammar School Admissions" },
       { type: "p", text: "UK grammar schools admit just **24% of Year 6 pupils** through rigorous 11-plus exams, prioritizing **academic ability** over family ties in most cases. These selective schools focus on entrance tests to identify high ability pupils. According to Department for Education 2023 data, 163 grammar schools serve 4.5% of secondary pupils across England." },
@@ -6684,6 +6751,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_4.jpeg",
     imageAlt: "How does pupil premium priority work for grammar schools?",
+    images: ["https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_1.jpeg", "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_2.jpeg", "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_3.jpeg", "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_4.jpeg"],
     content: [
       { type: "h2", text: "What is Pupil Premium?" },
       { type: "p", text: "Pupil Premium is **additional funding provided by the Department for Education (DfE)** to schools in England, allocating \u00a31,455 per primary pupil and \u00a31,065 per secondary pupil in 2024/25 for disadvantaged children. Schools receive this **funding stream** to support pupils facing educational barriers. It aims to close attainment gaps for those from low income families." },
@@ -6788,6 +6856,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_4.jpeg",
     imageAlt: "When do you apply for grammar school places?",
+    images: ["https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_1.jpeg", "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_2.jpeg", "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_3.jpeg", "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar School Admissions Timeline" },
       { type: "p", text: "Grammar school admissions in the UK follow a **structured timeline** with national offer day on 1 March, but local authorities set varying deadlines from 31 October to 15 January. This national framework from the Department for Education ensures coordinated admissions for **secondary school transfer** from Year 6 to Year 7. Parents applying for grammar school places must navigate both national and local rules to secure a spot for the September intake." },
@@ -6874,6 +6943,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/when-are-grammar-school-open-days-and-visits(cjma)_4.jpeg",
     imageAlt: "When are grammar school open days and visits?",
+    images: ["https://files.autoblogging.ai/images/when-are-grammar-school-open-days-and-visits(cjma)_1.jpeg", "https://files.autoblogging.ai/images/when-are-grammar-school-open-days-and-visits(cjma)_2.jpeg", "https://files.autoblogging.ai/images/when-are-grammar-school-open-days-and-visits(cjma)_3.jpeg", "https://files.autoblogging.ai/images/when-are-grammar-school-open-days-and-visits(cjma)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar School Open Days" },
       { type: "p", text: "Grammar school **open days** are structured events designed to showcase academic excellence and facilities to prospective Year 6 families. These events play a key role in the **admissions process** for selective schools. They help parents gauge suitability for the 11-plus exam and year 7 entry." },
@@ -6958,6 +7028,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_4.jpeg",
     imageAlt: "How do I register my child for the grammar school entry test?",
+    images: ["https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_1.jpeg", "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_2.jpeg", "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_3.jpeg", "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_4.jpeg"],
     content: [
       { type: "h3", text: "What Are Grammar School Entry Tests?" },
       { type: "p", text: "The **11+ exam** typically consists of 4 core sections: Verbal Reasoning (synonyms, analogies), Non-Verbal Reasoning (patterns, sequences), Maths (age 10-11 curriculum), and English (comprehension, spelling). These **grammar school entry tests** assess skills for selective school admission. They help schools identify pupils ready for academic rigour." },
@@ -7141,6 +7212,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_4.jpeg",
     imageAlt: "What is the timeline for grammar school admissions?",
+    images: ["https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of Grammar School Admissions" },
       { type: "p", text: "Grammar school admissions in the UK provide selective entry to academically rigorous secondary schools for **Year 7** (age 11), with approximately **163 state-funded grammar schools** serving 25% of secondary pupils in selective areas like Kent, Buckinghamshire, and Birmingham." },
@@ -7225,6 +7297,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_4.jpeg",
     imageAlt: "Do all grammar schools use the same 11 Plus test?",
+    images: ["https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_1.jpeg", "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_2.jpeg", "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_3.jpeg", "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of the 11 Plus Exam" },
       { type: "p", text: "The **11 Plus exam**, taken by over 100,000 children annually across 163 UK grammar schools, assesses **verbal reasoning (VR)**, numerical reasoning (NR), non-verbal reasoning (NVR), maths, and English through 45-60 minute papers depending on the region." },
@@ -7337,6 +7410,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_4.jpeg",
     imageAlt: "How do waiting lists work for grammar schools?",
+    images: ["https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_1.jpeg", "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_2.jpeg", "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_3.jpeg", "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar School Waiting Lists?" },
       { type: "p", text: "Grammar school waiting lists manage oversubscription when qualified applicants exceed available places, with 2023 data showing 25% of England's 163 grammar schools operating lists averaging 50-100 children. These lists serve as formal **reserve lists** ranked by the school's published admissions criteria, as outlined in the School Admissions Code 2021, paragraph 2.13. They ensure fair access to **grammar school places** when spots open up due to withdrawals or other changes." },
@@ -7426,6 +7500,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Wellbeing",
     imageUrl: "https://files.autoblogging.ai/images/can-my-child-join-a-grammar-school-in-year-8-or-later(ysg5)_4.jpeg",
     imageAlt: "Can my child join a grammar school in Year 8 or later?",
+    images: ["https://files.autoblogging.ai/images/can-my-child-join-a-grammar-school-in-year-8-or-later(ysg5)_1.jpeg", "https://files.autoblogging.ai/images/can-my-child-join-a-grammar-school-in-year-8-or-later(ysg5)_2.jpeg", "https://files.autoblogging.ai/images/can-my-child-join-a-grammar-school-in-year-8-or-later(ysg5)_3.jpeg", "https://files.autoblogging.ai/images/can-my-child-join-a-grammar-school-in-year-8-or-later(ysg5)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar Schools in the UK" },
       { type: "p", text: "UK grammar schools are **academically selective state-funded secondary schools** that admit pupils based on ability, with only 163 remaining from over 1,300 in the 1960s, educating 5% of state secondary pupils (source: Grammar School Association)." },
@@ -7528,6 +7603,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_4.jpeg",
     imageAlt: "What happens if my child passes the 11 Plus but doesn\u2019t get a place?",
+    images: ["https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_1.jpeg", "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_2.jpeg", "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_3.jpeg", "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding the 11 Plus Outcome" },
       { type: "p", text: "The **11+ exam** determines selective eligibility, but only 20-25% of test-takers secure grammar school places due to limited spots across UK authorities like Kent (5,200 places) and Buckinghamshire (3,800 places). In 2023, GL Assessment data showed over **115,000 children tested** nationwide, yet just around 25,000 grammar places available. This gap highlights why passing the exam does not ensure a school place." },
@@ -7618,6 +7694,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_4.jpeg",
     imageAlt: "How do grammar school appeals work?",
+    images: ["https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_1.jpeg", "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_2.jpeg", "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_3.jpeg", "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar School Appeals?" },
       { type: "p", text: "Grammar school appeals are formal challenges against admission refusals, governed by the School Admission Appeals Code 2012 (updated 2021), allowing parents to contest decisions when **oversubscription criteria** exclude their child despite eligibility. This right stems from Section 94 of the School Standards and Framework Act 1998. Parents can appeal to an **independent appeal panel** if their child is refused a place at a selective state grammar school." },
@@ -7722,6 +7799,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools(j39h)_4.jpeg",
     imageAlt: "What is the catchment or priority area map for my local grammar schools?",
+    images: ["https://files.autoblogging.ai/images/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools(j39h)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools(j39h)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools(j39h)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools(j39h)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar School Catchment Areas" },
       { type: "p", text: "Grammar school catchment areas define geographic zones where children gain priority admission to selective state schools, with 163 grammar schools across England serving over 150,000 pupils annually. A **catchment area** is the geographic area surrounding a school where proximity grants priority in admissions. This helps manage demand for places in these competitive **local grammar schools**." },
@@ -7822,6 +7900,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/can-we-move-house-to-get-into-a-grammar-school(nltw)_4.jpeg",
     imageAlt: "Can we move house to get into a grammar school?",
+    images: ["https://files.autoblogging.ai/images/can-we-move-house-to-get-into-a-grammar-school(nltw)_1.jpeg", "https://files.autoblogging.ai/images/can-we-move-house-to-get-into-a-grammar-school(nltw)_2.jpeg", "https://files.autoblogging.ai/images/can-we-move-house-to-get-into-a-grammar-school(nltw)_3.jpeg", "https://files.autoblogging.ai/images/can-we-move-house-to-get-into-a-grammar-school(nltw)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar Schools" },
       { type: "p", text: "Grammar schools are **state-funded selective secondary schools** in the UK that admit students based on academic ability, primarily through the 11-plus exam, with 163 such schools serving over 140,000 pupils across England." },
@@ -7932,6 +8011,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-offer-places-based-on-distance-or-score-first(f5u0)_4.jpeg",
     imageAlt: "Do grammar schools offer places based on distance or score first?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-offer-places-based-on-distance-or-score-first(f5u0)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-places-based-on-distance-or-score-first(f5u0)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-places-based-on-distance-or-score-first(f5u0)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-places-based-on-distance-or-score-first(f5u0)_4.jpeg"],
     content: [
       { type: "h2", text: "Grammar School Admissions Overview" },
       { type: "p", text: "UK **grammar schools** admit over 30,000 Year 7 pupils annually using strict criteria blending **11+ exam scores** (60-80% weight) with distance, siblings, and looked-after children priority per the School Admissions Code 2021." },
@@ -8013,6 +8093,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-have-banding-or-lotteries(3p8c)_4.jpeg",
     imageAlt: "Do grammar schools have banding or lotteries?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-have-banding-or-lotteries(3p8c)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-banding-or-lotteries(3p8c)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-banding-or-lotteries(3p8c)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-banding-or-lotteries(3p8c)_4.jpeg"],
     content: [
       { type: "h2", text: "Grammar School Admissions Overview" },
       { type: "p", text: "UK grammar schools use three core selection methods: 11-plus exams (92% of schools), **pupil ability banding** (used by 38 schools), and **random lotteries** (13 schools per 2023 DfE data), determining 163 state grammar schools' oversubscription criteria." },
@@ -8101,6 +8182,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-is-the-typical-day-like-at-a-grammar-school(r9u7)_4.jpeg",
     imageAlt: "What is the typical day like at a grammar school?",
+    images: ["https://files.autoblogging.ai/images/what-is-the-typical-day-like-at-a-grammar-school(r9u7)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-typical-day-like-at-a-grammar-school(r9u7)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-typical-day-like-at-a-grammar-school(r9u7)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-typical-day-like-at-a-grammar-school(r9u7)_4.jpeg"],
     content: [
       { type: "h3", text: "Drop-off and Line-up" },
       { type: "p", text: "Parents drop off students at the **school gate** by 8:45 AM sharp, where prefects in Years 10-11 supervise line-up in form order outside the **assembly hall**. This marks the start of the typical day in a grammar school. Punctuality sets the tone for the structured routine ahead." },
@@ -8206,6 +8288,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-gcse-and-a-level-results-do-grammar-schools-get(oxkf)_4.jpeg",
     imageAlt: "What GCSE and A level results do grammar schools get?",
+    images: ["https://files.autoblogging.ai/images/what-gcse-and-a-level-results-do-grammar-schools-get(oxkf)_1.jpeg", "https://files.autoblogging.ai/images/what-gcse-and-a-level-results-do-grammar-schools-get(oxkf)_2.jpeg", "https://files.autoblogging.ai/images/what-gcse-and-a-level-results-do-grammar-schools-get(oxkf)_3.jpeg", "https://files.autoblogging.ai/images/what-gcse-and-a-level-results-do-grammar-schools-get(oxkf)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of Grammar Schools in the UK" },
       { type: "p", text: "Grammar schools are **state-funded selective secondary schools** in the UK that admit pupils based on academic ability, primarily through the 11-plus exam, with only 163 remaining from over 1,200 in the 1960s. The **Butler Act 1944** established the tripartite system, dividing secondary education into grammar, technical, and modern schools to identify high achievers early. This system aimed to provide rigorous academic paths for gifted students." },
@@ -8292,6 +8375,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-help-more-with-university-and-oxbridge-applications(uibi)_4.jpeg",
     imageAlt: "Do grammar schools help more with university and Oxbridge applications?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-help-more-with-university-and-oxbridge-applications(uibi)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-help-more-with-university-and-oxbridge-applications(uibi)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-help-more-with-university-and-oxbridge-applications(uibi)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-help-more-with-university-and-oxbridge-applications(uibi)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of University Admissions" },
       { type: "p", text: "UK university admissions are coordinated through **UCAS**, with Oxbridge receiving over 70,000 applications annually for just 7,000 places, requiring predicted A-levels of A*AA+, admissions tests, and interviews. The UCAS process handles millions of applications each year from students across state schools, **grammar schools**, and independent schools. Grammar school pupils often benefit from focused preparation in these areas." },
@@ -8365,6 +8449,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/how-much-homework-do-grammar-school-students-get(axyu)_4.jpeg",
     imageAlt: "How much homework do grammar school students get?",
+    images: ["https://files.autoblogging.ai/images/how-much-homework-do-grammar-school-students-get(axyu)_1.jpeg", "https://files.autoblogging.ai/images/how-much-homework-do-grammar-school-students-get(axyu)_2.jpeg", "https://files.autoblogging.ai/images/how-much-homework-do-grammar-school-students-get(axyu)_3.jpeg", "https://files.autoblogging.ai/images/how-much-homework-do-grammar-school-students-get(axyu)_4.jpeg"],
     content: [
       { type: "h2", text: "What is Grammar School?" },
       { type: "p", text: "Grammar school typically refers to **primary or elementary education** for children aged 5-11, with variations by country shaping **homework expectations**. These schools build foundational skills in literacy, numeracy, and social development. Homework load often starts light to match young learners' needs." },
@@ -8441,6 +8526,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Wellbeing",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support(1cde)_4.jpeg",
     imageAlt: "Do grammar schools have strong pastoral care and wellbeing support?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support(1cde)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support(1cde)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support(1cde)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support(1cde)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "Grammar schools are **selective secondary institutions** in the UK, admitting top 25% of 11-year-olds via 11+ exams, with 163 remaining as of 2023 per DfE data. These state-funded schools focus on academic rigour. They select pupils based on ability rather than fees." },
@@ -8560,6 +8646,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/are-there-grammar-schools-for-boys-only-or-girls-only(km7i)_4.jpeg",
     imageAlt: "Are there grammar schools for boys only or girls only?",
+    images: ["https://files.autoblogging.ai/images/are-there-grammar-schools-for-boys-only-or-girls-only(km7i)_1.jpeg", "https://files.autoblogging.ai/images/are-there-grammar-schools-for-boys-only-or-girls-only(km7i)_2.jpeg", "https://files.autoblogging.ai/images/are-there-grammar-schools-for-boys-only-or-girls-only(km7i)_3.jpeg", "https://files.autoblogging.ai/images/are-there-grammar-schools-for-boys-only-or-girls-only(km7i)_4.jpeg"],
     content: [
       { type: "h2", text: "Definition of Grammar Schools" },
       { type: "p", text: "Grammar schools are **state-funded selective secondary schools** in the UK that admit students based on academic ability, primarily through the **11-plus exam**, with 163 remaining as of 2023 per DfE data. These schools focus on high academic standards from age 11 to 18. They differ from non-selective comprehensives by prioritising entrance exams." },
@@ -8629,6 +8716,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/are-there-mixed-coed-grammar-schools(cjyq)_4.jpeg",
     imageAlt: "Are there mixed (co-ed) grammar schools?",
+    images: ["https://files.autoblogging.ai/images/are-there-mixed-coed-grammar-schools(cjyq)_1.jpeg", "https://files.autoblogging.ai/images/are-there-mixed-coed-grammar-schools(cjyq)_2.jpeg", "https://files.autoblogging.ai/images/are-there-mixed-coed-grammar-schools(cjyq)_3.jpeg", "https://files.autoblogging.ai/images/are-there-mixed-coed-grammar-schools(cjyq)_4.jpeg"],
     content: [
       { type: "h3", text: "Single-Sex vs. Co-ed Traditions" },
       { type: "p", text: "**Single-sex grammars** (66% of total) emphasise gender-specific teaching while co-ed schools (34%) promote natural peer interaction from Year 7. These traditions shape the **grammar school system** in the UK. Parents often weigh options based on family needs and location." },
@@ -8713,6 +8801,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-provide-bus-or-transport-options(9ci9)_4.jpeg",
     imageAlt: "Do grammar schools provide bus or transport options?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-provide-bus-or-transport-options(9ci9)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-provide-bus-or-transport-options(9ci9)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-provide-bus-or-transport-options(9ci9)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-provide-bus-or-transport-options(9ci9)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of Grammar Schools and Transport" },
       { type: "p", text: "UK grammar schools serve over 165,000 pupils across 163 institutions, with transport provisions critical for many students. These selective secondary schools often require **student transport** solutions due to their specific locations. Parents frequently seek details on **bus transport** and other options." },
@@ -8813,6 +8902,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-charge-for-uniforms-trips-and-extras(mpge)_4.jpeg",
     imageAlt: "Do grammar schools charge for uniforms, trips and extras?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-charge-for-uniforms-trips-and-extras(mpge)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-charge-for-uniforms-trips-and-extras(mpge)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-charge-for-uniforms-trips-and-extras(mpge)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-charge-for-uniforms-trips-and-extras(mpge)_4.jpeg"],
     content: [
       { type: "h2", text: "Overview of Grammar School Fees" },
       { type: "p", text: "UK grammar schools, being **state-funded selective institutions**, charge no tuition fees but impose average annual extras of \u00a3250-\u00a3600 per pupil according to 2023 DfE data, covering uniforms (\u00a3150-\u00a3300), trips (\u00a3100-\u00a3400), and activities." },
@@ -8926,6 +9016,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-offer-bursaries-or-financial-support(7h1f)_4.jpeg",
     imageAlt: "Do grammar schools offer bursaries or financial support?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-offer-bursaries-or-financial-support(7h1f)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-bursaries-or-financial-support(7h1f)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-bursaries-or-financial-support(7h1f)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-bursaries-or-financial-support(7h1f)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "UK grammar schools are **state-funded selective secondary schools** admitting pupils based on academic ability via the **11-plus exam**, with 163 remaining as of 2023 per the Department for Education. These schools focus on high academic standards from Year 7 onwards. They aim to nurture high-achieving students through rigorous curricula." },
@@ -9018,6 +9109,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/how-do-i-choose-between-several-grammar-schools(cdr3)_4.jpeg",
     imageAlt: "How do I choose between several grammar schools?",
+    images: ["https://files.autoblogging.ai/images/how-do-i-choose-between-several-grammar-schools(cdr3)_1.jpeg", "https://files.autoblogging.ai/images/how-do-i-choose-between-several-grammar-schools(cdr3)_2.jpeg", "https://files.autoblogging.ai/images/how-do-i-choose-between-several-grammar-schools(cdr3)_3.jpeg", "https://files.autoblogging.ai/images/how-do-i-choose-between-several-grammar-schools(cdr3)_4.jpeg"],
     content: [
       { type: "h2", text: "Understand Grammar School Basics" },
       { type: "p", text: "Grammar schools are academically **selective state-funded secondary schools** in the UK that admit pupils based on **11+ entrance exams**, with only 164 remaining across 36 local authorities as of 2024. They follow DfE criteria for selective entry and place a high focus on academic achievement. This sets them apart from non-selective comprehensives." },
@@ -9124,6 +9216,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-questions-should-i-ask-on-a-grammar-school-open-day(i1qa)_4.jpeg",
     imageAlt: "What questions should I ask on a grammar school open day?",
+    images: ["https://files.autoblogging.ai/images/what-questions-should-i-ask-on-a-grammar-school-open-day(i1qa)_1.jpeg", "https://files.autoblogging.ai/images/what-questions-should-i-ask-on-a-grammar-school-open-day(i1qa)_2.jpeg", "https://files.autoblogging.ai/images/what-questions-should-i-ask-on-a-grammar-school-open-day(i1qa)_3.jpeg", "https://files.autoblogging.ai/images/what-questions-should-i-ask-on-a-grammar-school-open-day(i1qa)_4.jpeg"],
     content: [
       { type: "h2", text: "Academic Curriculum and Standards" },
       { type: "p", text: "Grammar schools emphasise **rigorous academic standards** through structured curricula in core subjects, consistently outperforming state averages in GCSE and A-Level results. Ofsted data shows **92% of grammar school pupils** achieve 5+ GCSEs at A*-C, compared to the 60% national average from DfE 2023 figures. This reflects their focus on high expectations in literacy, numeracy, and sciences." },
@@ -9209,6 +9302,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Wellbeing",
     imageUrl: "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_4.jpeg",
     imageAlt: "Can children with SEN or extra time needs attend grammar schools?",
+    images: ["https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_1.jpeg", "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_2.jpeg", "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_3.jpeg", "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar Schools" },
       { type: "p", text: "Grammar schools in the UK admit approximately **25% of 11-year-olds** through selective 11-plus exams testing verbal reasoning, non-verbal reasoning, maths, and English, with pass marks typically at standardized scores of 110+ on GL Assessment or CEM tests. These **selective schools** focus on high-ability pupils and maintain academic rigour. Around 163 grammar schools remain open as of 2024 DfE data." },
@@ -9304,6 +9398,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_4.jpeg",
     imageAlt: "Do grammar schools offer support for dyslexia, ADHD or autism?",
+    images: ["https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_4.jpeg"],
     content: [
       { type: "h2", text: "What Are Grammar Schools?" },
       { type: "p", text: "Grammar schools in the UK are **state-funded selective secondary schools** admitting top 25% of 11-plus exam performers, with 163 operating across 36 local authorities as of 2023 per DfE data. They focus on **academic rigour** and high standards, serving about 5% of pupils nationwide. These schools aim to nurture talent through challenging curricula." },
@@ -9436,6 +9531,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Wellbeing",
     imageUrl: "https://files.autoblogging.ai/images/are-grammar-schools-too-pressured-or-stressful-for-some-children(2z4u)_4.jpeg",
     imageAlt: "Are grammar schools too pressured or stressful for some children?",
+    images: ["https://files.autoblogging.ai/images/are-grammar-schools-too-pressured-or-stressful-for-some-children(2z4u)_1.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-too-pressured-or-stressful-for-some-children(2z4u)_2.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-too-pressured-or-stressful-for-some-children(2z4u)_3.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-too-pressured-or-stressful-for-some-children(2z4u)_4.jpeg"],
     content: [
       { type: "h2", text: "What Makes Grammar Schools Pressurized?" },
       { type: "p", text: "Grammar schools create intense pressure through **11-plus selection** and unrelenting standards outpacing comprehensive peers. With an average **selection ratio of 5 applicants per place**, competition starts early. The accelerated pace, such as IGCSE in Year 9 versus GCSE in Year 11, demands constant high performance from pupils." },
@@ -9532,6 +9628,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Admissions",
     imageUrl: "https://files.autoblogging.ai/images/how-early-should-we-start-preparing-for-grammar-school-entry(w84d)_4.jpeg",
     imageAlt: "How early should we start preparing for grammar school entry?",
+    images: ["https://files.autoblogging.ai/images/how-early-should-we-start-preparing-for-grammar-school-entry(w84d)_1.jpeg", "https://files.autoblogging.ai/images/how-early-should-we-start-preparing-for-grammar-school-entry(w84d)_2.jpeg", "https://files.autoblogging.ai/images/how-early-should-we-start-preparing-for-grammar-school-entry(w84d)_3.jpeg", "https://files.autoblogging.ai/images/how-early-should-we-start-preparing-for-grammar-school-entry(w84d)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar School Entry" },
       { type: "p", text: "Grammar schools are academically selective state-funded institutions in the UK that admit students based on entrance exams like the **11+ or 7+**, with only 164 remaining from over 1,200 in the 1960s according to DES data. Numbers have stabilised per Gov.uk 2023 figures, concentrated in regions like London with 6 schools and Kent with 38. The typical **selection rate** sits at 20-25% pass rate on average, making early preparation essential for competitive grammar school entry." },
@@ -9649,6 +9746,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/is-a-tutor-necessary-for-grammar-school-entrance(yrxp)_4.jpeg",
     imageAlt: "Is a tutor necessary for grammar school entrance?",
+    images: ["https://files.autoblogging.ai/images/is-a-tutor-necessary-for-grammar-school-entrance(yrxp)_1.jpeg", "https://files.autoblogging.ai/images/is-a-tutor-necessary-for-grammar-school-entrance(yrxp)_2.jpeg", "https://files.autoblogging.ai/images/is-a-tutor-necessary-for-grammar-school-entrance(yrxp)_3.jpeg", "https://files.autoblogging.ai/images/is-a-tutor-necessary-for-grammar-school-entrance(yrxp)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar School Entrance" },
       { type: "p", text: "Grammar school entrance in the UK primarily revolves around the **11+ exam**, a competitive test taken by Year 6 pupils aiming for selective state grammars, with over **164 grammars** across England accepting around 30,000 students annually." },
@@ -9743,6 +9841,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-are-the-pros-and-cons-of-grammar-schools(g20l)_4.jpeg",
     imageAlt: "What are the pros and cons of grammar schools?",
+    images: ["https://files.autoblogging.ai/images/what-are-the-pros-and-cons-of-grammar-schools(g20l)_1.jpeg", "https://files.autoblogging.ai/images/what-are-the-pros-and-cons-of-grammar-schools(g20l)_2.jpeg", "https://files.autoblogging.ai/images/what-are-the-pros-and-cons-of-grammar-schools(g20l)_3.jpeg", "https://files.autoblogging.ai/images/what-are-the-pros-and-cons-of-grammar-schools(g20l)_4.jpeg"],
     content: [
       { type: "h2", text: "Pros: Academic Excellence" },
       { type: "p", text: "Grammar schools consistently outperform national averages in **academic achievement**. Selective intake and high expectations drive superior outcomes. These schools dominate **league tables** through focused teaching and rigorous standards." },
@@ -9818,6 +9917,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Wellbeing",
     imageUrl: "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_4.jpeg",
     imageAlt: "Are there alternatives if my child doesn\u2019t go to a grammar school?",
+    images: ["https://files.autoblogging.ai/images/child-school-alternatives(4h59)_1.jpeg", "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_2.jpeg", "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_3.jpeg", "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_4.jpeg"],
     content: [
       { type: "h2", text: "Understanding Grammar School Selection" },
       { type: "p", text: "In the UK, only 22% of **grammar school** applicants secure places due to intense competition from the **11-plus exam**, with top schools like Henrietta Barnett receiving 2,000+ applications for 100 spots. The exam typically splits into verbal reasoning 50% and maths 50%, testing core skills under timed conditions. Parents often start preparation a year in advance to build familiarity." },
