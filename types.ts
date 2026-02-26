@@ -30,6 +30,10 @@ export interface Question {
   correctAnswer: string;
   explanation: string;
   topic: string;
+
+  // Optional metadata used by the expanded question banks / generators
+  difficulty?: number;
+  sourceId?: string;
 }
 
 export interface QuizState {
