@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star, Medal, Zap, Trophy, Brain, Rocket, ArrowLeft } from 'lucide-react';
