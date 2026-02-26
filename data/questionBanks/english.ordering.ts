@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // ENGLISH — Ordering questions (50 hand-written questions)
 
 export const englishOrdering: Question[] = [
