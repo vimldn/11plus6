@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // VERBAL REASONING — Ordering (40 questions)
 
 export const vrOrdering: Question[] = [
