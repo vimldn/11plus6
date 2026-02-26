@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
-import { ArrowLeft, BookOpen, Clock, Calendar, ArrowRight, Lightbulb, AlertTriangle, Info, ExternalLink } from 'lucide-react';
+import { ArrowLeft, BookOpen, Clock, Calendar, ArrowRight, Lightbulb, AlertTriangle, Info, ExternalLink, GraduationCap, ClipboardList } from 'lucide-react';
 import { BLOG_POSTS, getPostBySlug, getAllSlugs, type BlockType } from '@/lib/blogPosts';
 import { SchemaOrg } from '@/components/SchemaOrg';
 import { articleSchema } from '@/lib/schemas';
@@ -42,11 +42,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// ─── Inline text renderer — bold disabled, links supported ───────────────────
+// ─── Inline text renderer ─────────────────────────────────────────────────────
 
 function InlineText({ text }: { text: string }) {
-  // Strip **bold** markers, render as plain text
-  // Support [link text](url) only
   const stripped = text.replace(/\*\*([^*]+)\*\*/g, '$1');
   const parts = stripped.split(/(\[[^\]]+\]\([^)]+\))/g);
   return (
@@ -67,6 +65,48 @@ function InlineText({ text }: { text: string }) {
         return <span key={i}>{part}</span>;
       })}
     </>
+  );
+}
+
+// ─── CTA Banners ─────────────────────────────────────────────────────────────
+
+function TutorBanner() {
+  return (
+    <div className="my-8 rounded-2xl overflow-hidden border border-indigo-100 bg-gradient-to-r from-indigo-50 to-violet-50 flex flex-col sm:flex-row items-center gap-4 px-6 py-5 shadow-sm">
+      <div className="w-11 h-11 rounded-xl bg-indigo-600 flex items-center justify-center shrink-0">
+        <GraduationCap size={22} className="text-white" />
+      </div>
+      <div className="flex-1 text-center sm:text-left">
+        <p className="font-black text-slate-900 text-sm mb-0.5">Looking for an 11+ tutor?</p>
+        <p className="text-slate-500 text-xs leading-relaxed">Find local guidance, exam context and a simple enquiry form for your area.</p>
+      </div>
+      <Link
+        href="/tutors"
+        className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-black text-sm rounded-xl transition-colors shadow-md shadow-indigo-200 whitespace-nowrap"
+      >
+        Find a tutor <ArrowRight size={14} />
+      </Link>
+    </div>
+  );
+}
+
+function MockBanner() {
+  return (
+    <div className="my-8 rounded-2xl overflow-hidden border border-violet-100 bg-gradient-to-r from-violet-50 to-indigo-50 flex flex-col sm:flex-row items-center gap-4 px-6 py-5 shadow-sm">
+      <div className="w-11 h-11 rounded-xl bg-violet-600 flex items-center justify-center shrink-0">
+        <ClipboardList size={22} className="text-white" />
+      </div>
+      <div className="flex-1 text-center sm:text-left">
+        <p className="font-black text-slate-900 text-sm mb-0.5">Sit a free 11+ mock exam</p>
+        <p className="text-slate-500 text-xs leading-relaxed">Realistic timed practice with instant results and explanations for every question.</p>
+      </div>
+      <Link
+        href="/mock-exams"
+        className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-violet-600 hover:bg-violet-700 text-white font-black text-sm rounded-xl transition-colors shadow-md shadow-violet-200 whitespace-nowrap"
+      >
+        Start mock exam <ArrowRight size={14} />
+      </Link>
+    </div>
   );
 }
 
@@ -145,9 +185,9 @@ function Block({ block }: { block: BlockType }) {
       );
     case 'callout': {
       const variants = {
-        tip: { bg: 'bg-emerald-50', border: 'border-emerald-200', icon: Lightbulb, iconColor: 'text-emerald-600', label: 'Tip', labelColor: 'text-emerald-700' },
-        warning: { bg: 'bg-amber-50', border: 'border-amber-200', icon: AlertTriangle, iconColor: 'text-amber-600', label: 'Watch out', labelColor: 'text-amber-700' },
-        info: { bg: 'bg-indigo-50', border: 'border-indigo-200', icon: Info, iconColor: 'text-indigo-600', label: 'Note', labelColor: 'text-indigo-700' },
+        tip:     { bg: 'bg-emerald-50', border: 'border-emerald-200', icon: Lightbulb,      iconColor: 'text-emerald-600', label: 'Tip',        labelColor: 'text-emerald-700' },
+        warning: { bg: 'bg-amber-50',   border: 'border-amber-200',   icon: AlertTriangle,  iconColor: 'text-amber-600',   label: 'Watch out', labelColor: 'text-amber-700'   },
+        info:    { bg: 'bg-indigo-50',  border: 'border-indigo-200',  icon: Info,           iconColor: 'text-indigo-600',  label: 'Note',      labelColor: 'text-indigo-700'  },
       };
       const v = variants[block.variant];
       const Icon = v.icon;
@@ -168,27 +208,67 @@ function Block({ block }: { block: BlockType }) {
   }
 }
 
-// ─── Relevance scoring for internal "Keep reading" ────────────────────────────
+// ─── Relevance scoring for "Keep reading" ─────────────────────────────────────
 
 function getRelatedPosts(current: { slug: string; category: string; title: string }, count = 3) {
   const currentWords = new Set(current.title.toLowerCase().split(/\W+/).filter(w => w.length > 3));
-
   return BLOG_POSTS
     .filter((p) => p.slug !== current.slug)
     .map((p) => {
       let score = 0;
-      // Same category = strong signal
       if (p.category === current.category) score += 3;
-      // Title word overlap
       const words = p.title.toLowerCase().split(/\W+/).filter(w => w.length > 3);
-      for (const w of words) {
-        if (currentWords.has(w)) score += 1;
-      }
+      for (const w of words) { if (currentWords.has(w)) score += 1; }
       return { post: p, score };
     })
     .sort((a, b) => b.score - a.score)
     .slice(0, count)
     .map((r) => r.post);
+}
+
+// ─── Content renderer with interleaved banners + images ──────────────────────
+
+function ContentWithBanners({ content, images }: { content: BlockType[]; images: string[] }) {
+  // Track which inline images have been used (skip index 0 = hero)
+  // and which banner (tutor=false, mock=true) to show next
+  let imageIdx = 1; // start from _2 (index 1), since _1 is used as hero
+  let bannerToggle = 0; // 0=tutor, 1=mock
+  let headingCount = 0;
+
+  const elements: React.ReactNode[] = [];
+
+  for (let i = 0; i < content.length; i++) {
+    const block = content[i];
+    elements.push(<Block key={`block-${i}`} block={block} />);
+
+    const isHeading = block.type === 'h2' || block.type === 'h3';
+    if (!isHeading) continue;
+
+    headingCount++;
+
+    // After every heading: inject a banner (alternating tutor/mock)
+    const banner = bannerToggle % 2 === 0
+      ? <TutorBanner key={`banner-${i}`} />
+      : <MockBanner key={`banner-${i}`} />;
+    bannerToggle++;
+    elements.push(banner);
+
+    // After every 2nd heading also show an inline image (if available)
+    if (headingCount % 2 === 0 && imageIdx < images.length) {
+      elements.push(
+        <div key={`img-${i}`} className="my-6 rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+          <img
+            src={images[imageIdx]}
+            alt=""
+            className="w-full h-52 sm:h-64 object-cover"
+          />
+        </div>
+      );
+      imageIdx++;
+    }
+  }
+
+  return <div className="space-y-5">{elements}</div>;
 }
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
@@ -199,16 +279,18 @@ export default function BlogPostPage({ params }: Props) {
 
   const related = getRelatedPosts(post);
   const externalLinks = getExternalLinks(post.category);
+  // Use _1 as hero image (index 0), rest for inline
+  const heroImage = post.images?.[0] ?? post.imageUrl;
+  const inlineImages = post.images ?? [post.imageUrl];
 
   return (
     <>
-
       <SiteNav />
       <main className="min-h-screen bg-white">
 
         {/* ── Featured image ── */}
         <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-slate-100">
-          <img src={post.imageUrl} alt={post.imageAlt} className="absolute inset-0 w-full h-full object-cover" />
+          <img src={heroImage} alt={post.imageAlt} className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 max-w-3xl mx-auto px-4 pb-8">
             <div className="flex items-center gap-2 mb-3">
@@ -238,12 +320,10 @@ export default function BlogPostPage({ params }: Props) {
             {post.desc}
           </p>
 
-          {/* Content blocks */}
-          <div className="space-y-5">
-            {post.content.map((block, i) => <Block key={i} block={block} />)}
-          </div>
+          {/* Content blocks with interleaved banners + images */}
+          <ContentWithBanners content={post.content} images={inlineImages} />
 
-          {/* ── CTA ── */}
+          {/* ── End CTA ── */}
           <div className="mt-16 p-7 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-3xl text-white">
             <p className="font-black text-xl mb-2">Ready to practise?</p>
             <p className="text-indigo-100 text-sm mb-5 leading-relaxed">
@@ -272,7 +352,7 @@ export default function BlogPostPage({ params }: Props) {
                     className="group flex flex-col rounded-2xl border border-slate-200 hover:border-indigo-200 hover:shadow-md transition-all overflow-hidden"
                   >
                     <div className="relative h-32 overflow-hidden">
-                      <img src={p.imageUrl} alt={p.imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
+                      <img src={p.images?.[0] ?? p.imageUrl} alt={p.imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
                     </div>
                     <div className="p-4 flex flex-col flex-1">
                       <span className="text-[10px] font-black text-indigo-600 uppercase tracking-wide mb-1">{p.category}</span>
