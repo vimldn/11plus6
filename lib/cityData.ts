@@ -9,6 +9,7 @@ export interface CityData {
   intro: string;
   grammarSchools: string[];
   prepTip: string;
+  nearbyAreas: string[];
 }
 
 export const CITY_DATA: Record<string, CityData> = {
@@ -26,8 +27,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Sutton Coldfield Grammar School for Girls',
     ],
     prepTip:
-      'Birmingham 11+ papers use GL Assessment-style multiple choice. Timed practice under exam conditions is particularly important given the high competition for places.',
-  },
+      'Birmingham 11+ papers use GL Assessment-style multiple choice. Timed practice under exam conditions is particularly important given the high competition for places.',    nearbyAreas: [
+      'Solihull',
+      'Wolverhampton',
+      'Walsall',
+      'Dudley',
+      'Sutton Coldfield',
+      'West Bromwich',
+      'Coventry',
+      'Lichfield',
+      'Tamworth',
+      'Redditch',
+      'Bromsgrove',
+      'Kidderminster',
+    ],
+  },,
 
   bristol: {
     examBoard: 'GL Assessment',
@@ -40,8 +54,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Redmaids\' High School',
     ],
     prepTip:
-      'Some Bristol independent schools use ISEB Pre-Test alongside their own papers. Check the admissions page of each target school carefully before starting preparation.',
-  },
+      'Some Bristol independent schools use ISEB Pre-Test alongside their own papers. Check the admissions page of each target school carefully before starting preparation.',    nearbyAreas: [
+      'Bath',
+      'Clevedon',
+      'Weston-super-Mare',
+      'Thornbury',
+      'Keynsham',
+      'Portishead',
+      'Nailsea',
+      'Filton',
+      'Kingswood',
+      'Yate',
+      'Chipping Sodbury',
+      'Mangotsfield',
+    ],
+  },,
 
   cardiff: {
     examBoard: 'School-set papers',
@@ -54,8 +81,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Cardiff High School (catchment-based with high attainment)',
     ],
     prepTip:
-      'For Welsh-medium selective schools, strong literacy in both English and Welsh is an advantage. Independent school assessments in Cardiff typically test Maths and English comprehension.',
-  },
+      'For Welsh-medium selective schools, strong literacy in both English and Welsh is an advantage. Independent school assessments in Cardiff typically test Maths and English comprehension.',    nearbyAreas: [
+      'Newport',
+      'Penarth',
+      'Barry',
+      'Pontypridd',
+      'Caerphilly',
+      'Bridgend',
+      'Vale of Glamorgan',
+      'Rhondda',
+      'Llantrisant',
+      'Cowbridge',
+      'Dinas Powys',
+      'Whitchurch',
+    ],
+  },,
 
   coventry: {
     examBoard: 'GL Assessment',
@@ -69,8 +109,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Alcester Grammar School',
     ],
     prepTip:
-      'Warwickshire grammar schools use GL Assessment format. Registration typically opens in the summer term of Year 5 — check dates early as missing the deadline bars entry.',
-  },
+      'Warwickshire grammar schools use GL Assessment format. Registration typically opens in the summer term of Year 5 — check dates early as missing the deadline bars entry.',    nearbyAreas: [
+      'Leamington Spa',
+      'Rugby',
+      'Kenilworth',
+      'Nuneaton',
+      'Bedworth',
+      'Solihull',
+      'Warwick',
+      'Stratford-upon-Avon',
+      'Binley',
+      'Baginton',
+      'Meriden',
+      'Exhall',
+    ],
+  },,
 
   derby: {
     examBoard: 'GL Assessment',
@@ -83,8 +136,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Silverhill School (independent prep)',
     ],
     prepTip:
-      'For fully selective grammar schools near Derby, Verbal Reasoning and Non-Verbal Reasoning are tested alongside Maths and English. Starting preparation in Year 4 is advisable.',
-  },
+      'For fully selective grammar schools near Derby, Verbal Reasoning and Non-Verbal Reasoning are tested alongside Maths and English. Starting preparation in Year 4 is advisable.',    nearbyAreas: [
+      'Nottingham',
+      'Burton upon Trent',
+      'Belper',
+      'Ilkeston',
+      'Long Eaton',
+      'Ripley',
+      'Matlock',
+      'Swadlincote',
+      'Uttoxeter',
+      'Ashbourne',
+      'Heanor',
+      'Alfreton',
+    ],
+  },,
 
   edinburgh: {
     examBoard: 'School-set papers',
@@ -99,8 +165,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'St George\'s School for Girls',
     ],
     prepTip:
-      'Edinburgh independent school assessments place a strong emphasis on written English, including creative writing tasks. Practice should include timed essay and comprehension work alongside Maths.',
-  },
+      'Edinburgh independent school assessments place a strong emphasis on written English, including creative writing tasks. Practice should include timed essay and comprehension work alongside Maths.',    nearbyAreas: [
+      'Leith',
+      'Musselburgh',
+      'Dalkeith',
+      'Penicuik',
+      'Linlithgow',
+      'South Queensferry',
+      'Livingston',
+      'Bonnyrigg',
+      'Portobello',
+      'Corstorphine',
+      'Morningside',
+      'Stockbridge',
+    ],
+  },,
 
   glasgow: {
     examBoard: 'School-set papers',
@@ -115,8 +194,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'St Aloysius\' College',
     ],
     prepTip:
-      'Hutchesons\' Grammar School is one of the most competitive independent schools in Scotland. Its entrance exam covers Maths, English, and Verbal Reasoning — start preparation at least a year in advance.',
-  },
+      'Hutchesons\' Grammar School is one of the most competitive independent schools in Scotland. Its entrance exam covers Maths, English, and Verbal Reasoning — start preparation at least a year in advance.',    nearbyAreas: [
+      'Paisley',
+      'Hamilton',
+      'Motherwell',
+      'East Kilbride',
+      'Clydebank',
+      'Rutherglen',
+      'Cambuslang',
+      'Bearsden',
+      'Milngavie',
+      'Newton Mearns',
+      'Bishopbriggs',
+      'Kirkintilloch',
+    ],
+  },,
 
   leeds: {
     examBoard: 'GL Assessment',
@@ -131,8 +223,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'St Aidan\'s Church of England High School',
     ],
     prepTip:
-      'West Yorkshire grammar schools use GL Assessment. The pass mark varies year to year based on cohort performance — aim for consistent practice scores well above 80% before the exam.',
-  },
+      'West Yorkshire grammar schools use GL Assessment. The pass mark varies year to year based on cohort performance — aim for consistent practice scores well above 80% before the exam.',    nearbyAreas: [
+      'Bradford',
+      'Harrogate',
+      'Wakefield',
+      'Halifax',
+      'Huddersfield',
+      'Ilkley',
+      'Otley',
+      'Morley',
+      'Pudsey',
+      'Garforth',
+      'Wetherby',
+      'Dewsbury',
+    ],
+  },,
 
   leicester: {
     examBoard: 'GL Assessment',
@@ -146,8 +251,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Gateway College',
     ],
     prepTip:
-      'Leicestershire grammar schools are competitive. Focus on timed GL Assessment practice papers from Year 4 onwards, with particular attention to Non-Verbal Reasoning which many children find unfamiliar.',
-  },
+      'Leicestershire grammar schools are competitive. Focus on timed GL Assessment practice papers from Year 4 onwards, with particular attention to Non-Verbal Reasoning which many children find unfamiliar.',    nearbyAreas: [
+      'Loughborough',
+      'Hinckley',
+      'Coalville',
+      'Melton Mowbray',
+      'Market Harborough',
+      'Oadby',
+      'Wigston',
+      'Blaby',
+      'Syston',
+      'Thurmaston',
+      'Birstall',
+      'Broughton Astley',
+    ],
+  },,
 
   liverpool: {
     examBoard: 'GL Assessment',
@@ -163,8 +281,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Merchant Taylors\' School Crosby',
     ],
     prepTip:
-      'Wirral grammar schools are especially competitive. Some schools in this area also interview shortlisted candidates — check individual admissions policies carefully.',
-  },
+      'Wirral grammar schools are especially competitive. Some schools in this area also interview shortlisted candidates — check individual admissions policies carefully.',    nearbyAreas: [
+      'Wirral',
+      'St Helens',
+      'Warrington',
+      'Southport',
+      'Bootle',
+      'Birkenhead',
+      'Wallasey',
+      'Crosby',
+      'Prescot',
+      'Runcorn',
+      'Widnes',
+      'Newton-le-Willows',
+    ],
+  },,
 
   london: {
     examBoard: 'GL Assessment / CEM / School-set',
@@ -183,8 +314,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'St Olave\'s Grammar School',
     ],
     prepTip:
-      'London\'s grammar schools are among the most competitive in England. Many children sit multiple tests (North London GL, South London SET, and independent school assessments) — tailor your preparation to each format.',
-  },
+      'London\'s grammar schools are among the most competitive in England. Many children sit multiple tests (North London GL, South London SET, and independent school assessments) — tailor your preparation to each format.',    nearbyAreas: [
+      'Barnet',
+      'Sutton',
+      'Kingston upon Thames',
+      'Bromley',
+      'Enfield',
+      'Harrow',
+      'Richmond',
+      'Croydon',
+      'Redbridge',
+      'Waltham Forest',
+      'Bexley',
+      'Merton',
+    ],
+  },,
 
   manchester: {
     examBoard: 'GL Assessment / CEM',
@@ -200,8 +344,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Loreto Grammar School',
     ],
     prepTip:
-      'Trafford grammar schools use CEM-style papers, which are designed to be less coachable and less predictable than GL Assessment. Focus on building genuine underlying skills rather than drilling question types.',
-  },
+      'Trafford grammar schools use CEM-style papers, which are designed to be less coachable and less predictable than GL Assessment. Focus on building genuine underlying skills rather than drilling question types.',    nearbyAreas: [
+      'Salford',
+      'Stockport',
+      'Oldham',
+      'Rochdale',
+      'Bury',
+      'Bolton',
+      'Wigan',
+      'Altrincham',
+      'Sale',
+      'Didsbury',
+      'Stretford',
+      'Cheadle',
+    ],
+  },,
 
   newcastle: {
     examBoard: 'GL Assessment',
@@ -215,8 +372,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Emmanuel College Gateshead (selective places)',
     ],
     prepTip:
-      'North East independent schools often run their own entrance assessments in addition to or instead of GL-style tests. Contact your target schools directly to confirm the exact format used.',
-  },
+      'North East independent schools often run their own entrance assessments in addition to or instead of GL-style tests. Contact your target schools directly to confirm the exact format used.',    nearbyAreas: [
+      'Gateshead',
+      'Sunderland',
+      'Durham',
+      'South Shields',
+      'North Shields',
+      'Hexham',
+      'Morpeth',
+      'Whitley Bay',
+      'Cramlington',
+      'Chester-le-Street',
+      'Stanley',
+      'Consett',
+    ],
+  },,
 
   nottingham: {
     examBoard: 'GL Assessment',
@@ -230,8 +400,25 @@ export const CITY_DATA: Record<string, CityData> = {
       'Bluecoat Academy (selective places)',
     ],
     prepTip:
-      'Nottinghamshire grammar schools use GL Assessment format. Verbal Reasoning and Non-Verbal Reasoning are typically the most discriminating sections — prioritise these alongside Maths.',
-  },
+      'Nottinghamshire grammar schools use GL Assessment format. Verbal Reasoning and Non-Verbal Reasoning are typically the most discriminating sections — prioritise these alongside Maths.',    nearbyAreas: [
+      'Derby',
+      'Leicester',
+      'Mansfield',
+      'Newark',
+      'Beeston',
+      'Arnold',
+      'Carlton',
+      'Long Eaton',
+      'Ilkeston',
+      'Hucknall',
+      'Bulwell',
+      'West Bridgford',
+      'Eastwood',
+      'Worksop',
+      'Grantham',
+      'Stapleford',
+    ],
+  },,
 
   oxford: {
     examBoard: 'GL Assessment / School-set',
@@ -245,8 +432,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Wheatley Park School',
     ],
     prepTip:
-      'For Oxford independent schools, preparation should include verbal reasoning, mathematical problem solving, and strong written English. Some schools also require a creative writing sample at interview stage.',
-  },
+      'For Oxford independent schools, preparation should include verbal reasoning, mathematical problem solving, and strong written English. Some schools also require a creative writing sample at interview stage.',    nearbyAreas: [
+      'Abingdon',
+      'Witney',
+      'Didcot',
+      'Banbury',
+      'Bicester',
+      'Henley-on-Thames',
+      'Wallingford',
+      'Thame',
+      'Faringdon',
+      'Wantage',
+      'Chipping Norton',
+      'Woodstock',
+    ],
+  },,
 
   reading: {
     examBoard: 'GL Assessment',
@@ -262,8 +462,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'St Bernard\'s Catholic Grammar School',
     ],
     prepTip:
-      'Berkshire grammar schools use GL Assessment and are among the most competitive outside London. Reading School and Kendrick School in particular have very high qualifying score thresholds.',
-  },
+      'Berkshire grammar schools use GL Assessment and are among the most competitive outside London. Reading School and Kendrick School in particular have very high qualifying score thresholds.',    nearbyAreas: [
+      'Slough',
+      'Windsor',
+      'Maidenhead',
+      'Wokingham',
+      'Bracknell',
+      'Henley-on-Thames',
+      'Newbury',
+      'Marlow',
+      'Caversham',
+      'Tilehurst',
+      'Earley',
+      'Woodley',
+    ],
+  },,
 
   sheffield: {
     examBoard: 'GL Assessment',
@@ -277,8 +490,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'King Edward VII School (partially selective)',
     ],
     prepTip:
-      'Sheffield grammar and selective schools use a range of formats. Check whether your target school uses GL Assessment, a school-set paper, or aptitude testing, as preparation strategies differ.',
-  },
+      'Sheffield grammar and selective schools use a range of formats. Check whether your target school uses GL Assessment, a school-set paper, or aptitude testing, as preparation strategies differ.',    nearbyAreas: [
+      'Rotherham',
+      'Doncaster',
+      'Barnsley',
+      'Chesterfield',
+      'Worksop',
+      'Stocksbridge',
+      'Chapeltown',
+      'Hillsborough',
+      'Ecclesfield',
+      'Swallownest',
+      'Mosborough',
+      'Aughton',
+    ],
+  },,
 
   southampton: {
     examBoard: 'GL Assessment',
@@ -293,8 +519,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Henry Beaufort School Winchester',
     ],
     prepTip:
-      'Hampshire grammar schools use GL Assessment and have a shared registration deadline in the spring of Year 5. Missing this deadline means your child cannot sit the test — check dates carefully.',
-  },
+      'Hampshire grammar schools use GL Assessment and have a shared registration deadline in the spring of Year 5. Missing this deadline means your child cannot sit the test — check dates carefully.',    nearbyAreas: [
+      'Portsmouth',
+      'Winchester',
+      'Eastleigh',
+      'Fareham',
+      'Chandlers Ford',
+      'Romsey',
+      'Totton',
+      'Hedge End',
+      'Bishopstoke',
+      'Fair Oak',
+      'Bursledon',
+      'Netley',
+    ],
+  },,
 
   brighton: {
     examBoard: 'School-set / GL Assessment',
@@ -308,8 +547,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Lewes Old Grammar School',
     ],
     prepTip:
-      'For independent schools in Brighton, English comprehension and creative writing carry significant weight alongside Maths. Start preparation early and include regular timed writing practice.',
-  },
+      'For independent schools in Brighton, English comprehension and creative writing carry significant weight alongside Maths. Start preparation early and include regular timed writing practice.',    nearbyAreas: [
+      'Hove',
+      'Worthing',
+      'Lewes',
+      'Eastbourne',
+      'Haywards Heath',
+      'Burgess Hill',
+      'Shoreham-by-Sea',
+      'Portslade',
+      'Newhaven',
+      'Seaford',
+      'Peacehaven',
+      'Lancing',
+    ],
+  },,
 
   bradford: {
     examBoard: 'GL Assessment',
@@ -323,8 +575,21 @@ export const CITY_DATA: Record<string, CityData> = {
       'Thornton Grammar School',
     ],
     prepTip:
-      'Bradford Grammar School is an independent school with its own entrance exam, while state grammar schools in the area use GL Assessment. Make sure your preparation matches the format of your specific target schools.',
-  },
+      'Bradford Grammar School is an independent school with its own entrance exam, while state grammar schools in the area use GL Assessment. Make sure your preparation matches the format of your specific target schools.',    nearbyAreas: [
+      'Leeds',
+      'Halifax',
+      'Bingley',
+      'Shipley',
+      'Keighley',
+      'Ilkley',
+      'Baildon',
+      'Pudsey',
+      'Guiseley',
+      'Yeadon',
+      'Morley',
+      'Dewsbury',
+    ],
+  },,
 };
 
 /**
@@ -337,5 +602,6 @@ export function getCityData(slug: string): CityData {
     intro: `Families in and around ${slug.charAt(0).toUpperCase() + slug.slice(1)} preparing for the 11+ should confirm which schools they are targeting and the test style used — GL Assessment-style multiple choice, CEM-style formats, or school-set papers.`,
     grammarSchools: [],
     prepTip: 'Start preparation in Year 4 or early Year 5, focusing on timed practice papers and reviewing mistakes carefully.',
+    nearbyAreas: [],
   };
 }
