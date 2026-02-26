@@ -1,4 +1,4 @@
-import { Question } from '../types';
+import { Question } from '../../types';
 
 export const vrTF: Question[] = [
   { id: 'vr-tf-001', text: 'True or False: The answer to [Cat is to kitten as dog is to ___] is: puppy.', options: ['True', 'False'], correctAnswer: 'True', explanation: 'A kitten is a baby cat; a puppy is a baby dog.', topic: 'Analogies', difficulty: 1, sourceId: 'vr-mc-001' },
