@@ -1,5 +1,4 @@
-import { Question } from '../types';
-
+import { Question } from '../../types';
 // ─────────────────────────────────────────────────────────────────────────────
 // NON-VERBAL REASONING — Multiple Choice (150 questions)
 // Topics: Analogies, Series, Odd One Out, Reflection, Rotation,
