@@ -1,4 +1,4 @@
-import { Question } from '../types';
+import { Question } from '../../types';
 
 // MATHS — Fill in the Blank  (auto-generated from maths.mc.ts)
 
@@ -188,7 +188,7 @@ export const mathsFITB: Question[] = [
   { id: 'math-fitb-183', text: 'Vertex at (1,5) translated 4 right and 3 down. New position = ___', options: [], correctAnswer: '(5,2)', explanation: '(1+4, 5−3) = (5,2).', topic: 'Coordinates', difficulty: 1, sourceId: 'math-mc-183' },
   { id: 'math-fitb-184', text: 'y-intercept of y = 4x − 7 = ___', options: [], correctAnswer: '(0,−7)', explanation: 'Set x=0: y = −7.', topic: 'Graphs', difficulty: 2, sourceId: 'math-mc-184' },
   { id: 'math-fitb-185', text: 'Point (4,3) rotated 90° clockwise about origin. New position = ___', options: [], correctAnswer: '(3,−4)', explanation: '90° CW: (x,y) → (y,−x).', topic: 'Coordinates', difficulty: 3, sourceId: 'math-mc-185' },
-  { id: 'math-fitb-186', text: 'Emma has 3× Jake\\'s stickers. Together 84. How many for Emma → ___', options: [], correctAnswer: '63', explanation: 'x+3x=84. x=21. Emma=63.', topic: 'Word Problems', difficulty: 2, sourceId: 'math-mc-186' },
+  { id: 'math-fitb-186', text: 'Emma has 3× Jake\'s stickers. Together 84. How many for Emma → ___', options: [], correctAnswer: '63', explanation: 'x+3x=84. x=21. Emma=63.', topic: 'Word Problems', difficulty: 2, sourceId: 'math-mc-186' },
   { id: 'math-fitb-187', text: 'Pizza cut into 8. Tom eats 3, Sara eats 2. Fraction left = ___', options: [], correctAnswer: '3/8', explanation: '8−5=3 slices. 3/8.', topic: 'Word Problems', difficulty: 1, sourceId: 'math-mc-187' },
   { id: 'math-fitb-188', text: '12 tickets at £6.50 with 10% group discount. Total = ___', options: [], correctAnswer: '£70.20', explanation: '78 − 7.80 = £70.20.', topic: 'Word Problems', difficulty: 2, sourceId: 'math-mc-188' },
   { id: 'math-fitb-189', text: 'Packs of 8 and 12 bulbs. Smallest total using whole packs of each = ___', options: [], correctAnswer: '24', explanation: 'LCM(8,12) = 24.', topic: 'Word Problems', difficulty: 2, sourceId: 'math-mc-189' },
