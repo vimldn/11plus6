@@ -41,7 +41,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Bromsgrove',
       'Kidderminster',
     ],
-  },,
+  },
 
   bristol: {
     examBoard: 'GL Assessment',
@@ -68,7 +68,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Chipping Sodbury',
       'Mangotsfield',
     ],
-  },,
+  },
 
   cardiff: {
     examBoard: 'School-set papers',
@@ -95,7 +95,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Dinas Powys',
       'Whitchurch',
     ],
-  },,
+  },
 
   coventry: {
     examBoard: 'GL Assessment',
@@ -123,7 +123,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Meriden',
       'Exhall',
     ],
-  },,
+  },
 
   derby: {
     examBoard: 'GL Assessment',
@@ -150,7 +150,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Heanor',
       'Alfreton',
     ],
-  },,
+  },
 
   edinburgh: {
     examBoard: 'School-set papers',
@@ -179,7 +179,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Morningside',
       'Stockbridge',
     ],
-  },,
+  },
 
   glasgow: {
     examBoard: 'School-set papers',
@@ -208,7 +208,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Bishopbriggs',
       'Kirkintilloch',
     ],
-  },,
+  },
 
   leeds: {
     examBoard: 'GL Assessment',
@@ -237,7 +237,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Wetherby',
       'Dewsbury',
     ],
-  },,
+  },
 
   leicester: {
     examBoard: 'GL Assessment',
@@ -265,7 +265,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Birstall',
       'Broughton Astley',
     ],
-  },,
+  },
 
   liverpool: {
     examBoard: 'GL Assessment',
@@ -295,7 +295,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Widnes',
       'Newton-le-Willows',
     ],
-  },,
+  },
 
   london: {
     examBoard: 'GL Assessment / CEM / School-set',
@@ -328,7 +328,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Bexley',
       'Merton',
     ],
-  },,
+  },
 
   manchester: {
     examBoard: 'GL Assessment / CEM',
@@ -358,7 +358,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Stretford',
       'Cheadle',
     ],
-  },,
+  },
 
   newcastle: {
     examBoard: 'GL Assessment',
@@ -386,7 +386,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Stanley',
       'Consett',
     ],
-  },,
+  },
 
   nottingham: {
     examBoard: 'GL Assessment',
@@ -418,7 +418,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Grantham',
       'Stapleford',
     ],
-  },,
+  },
 
   oxford: {
     examBoard: 'GL Assessment / School-set',
@@ -446,7 +446,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Chipping Norton',
       'Woodstock',
     ],
-  },,
+  },
 
   reading: {
     examBoard: 'GL Assessment',
@@ -476,7 +476,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Earley',
       'Woodley',
     ],
-  },,
+  },
 
   sheffield: {
     examBoard: 'GL Assessment',
@@ -504,7 +504,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Mosborough',
       'Aughton',
     ],
-  },,
+  },
 
   southampton: {
     examBoard: 'GL Assessment',
@@ -533,7 +533,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Bursledon',
       'Netley',
     ],
-  },,
+  },
 
   brighton: {
     examBoard: 'School-set / GL Assessment',
@@ -561,7 +561,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Peacehaven',
       'Lancing',
     ],
-  },,
+  },
 
   bradford: {
     examBoard: 'GL Assessment',
@@ -589,7 +589,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Morley',
       'Dewsbury',
     ],
-  },,
+  },
 };
 
 /**
