@@ -234,7 +234,6 @@ function ContentWithBanners({ content, images }: { content: BlockType[]; images:
   //           find the end of the 2nd h2 section → insert MockBanner
   // "End of section" = just before the next h2, or end of content.
 
-  let imageIdx = 1; // _2, _3, _4 for inline images (_1 used as hero)
   let h2Count = 0;
   const TUTOR_AFTER_H2 = 1; // insert tutor banner after 1st h2 section
   const MOCK_AFTER_H2  = 2; // insert mock banner after 2nd h2 section
@@ -258,19 +257,7 @@ function ContentWithBanners({ content, images }: { content: BlockType[]; images:
 
     if (isH2) h2Count++;
 
-    // Inline image after every 3rd h2 (if images remain)
-    if (isH2 && h2Count % 3 === 0 && imageIdx < images.length) {
-      elements.push(
-        <div key={`img-${i}`} className="my-6 rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
-          <img
-            src={images[imageIdx]}
-            alt=""
-            className="w-full h-52 sm:h-64 object-cover"
-          />
-        </div>
-      );
-      imageIdx++;
-    }
+
   }
 
   // Handle case where content ends before a 3rd h2 (still need to drop banners)
@@ -295,8 +282,9 @@ export default function BlogPostPage({ params }: Props) {
   const related = getRelatedPosts(post);
   const externalLinks = getExternalLinks(post.category);
   // Use _1 as hero image (index 0), rest for inline
-  const heroImage = post.images?.[0] ?? post.imageUrl;
-  const inlineImages = post.images ?? [post.imageUrl];
+  // imageUrl (_4) is the confirmed working image — use it as hero
+  // images[] contains _1–_4 variants; use _2–_4 inline (skip _1 as unconfirmed)
+  const heroImage = post.imageUrl;
 
   return (
     <>
@@ -336,7 +324,7 @@ export default function BlogPostPage({ params }: Props) {
           </p>
 
           {/* Content blocks with interleaved banners + images */}
-          <ContentWithBanners content={post.content} images={inlineImages} />
+          <ContentWithBanners content={post.content} images={[]} />
 
           {/* ── End CTA ── */}
           <div className="mt-16 p-7 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-3xl text-white">
@@ -367,7 +355,7 @@ export default function BlogPostPage({ params }: Props) {
                     className="group flex flex-col rounded-2xl border border-slate-200 hover:border-indigo-200 hover:shadow-md transition-all overflow-hidden"
                   >
                     <div className="relative h-32 overflow-hidden">
-                      <img src={p.images?.[0] ?? p.imageUrl} alt={p.imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
+                      <img src={p.imageUrl} alt={p.imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
                     </div>
                     <div className="p-4 flex flex-col flex-1">
                       <span className="text-[10px] font-black text-indigo-600 uppercase tracking-wide mb-1">{p.category}</span>
