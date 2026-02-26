@@ -154,8 +154,7 @@ function MockExamsPageInner() {
 
   const handleNext = () => {
     if (step === 'school-type') {
-      const allSubjects = config.schoolType ? SUBJECTS_BY_TYPE[config.schoolType].map(s => s.id) : [];
-      setConfig(prev => ({ ...prev, subjects: allSubjects }));
+      setConfig(prev => ({ ...prev, subjects: [] }));
       setStep('test-config');
     } else if (step === 'test-config') {
       setStep('confirm');
