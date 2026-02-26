@@ -31,7 +31,7 @@ export { nvrOrdering } from './nvr.ordering';
 // ─────────────────────────────────────────────────────────────────────────────
 // Lazy imports — only evaluated when called, keeps startup fast
 // ─────────────────────────────────────────────────────────────────────────────
-import type { Question } from '../types';
+import { Question } from '../../types';
 
 // All questions combined
 export async function getAllQuestions(): Promise<Question[]> {
