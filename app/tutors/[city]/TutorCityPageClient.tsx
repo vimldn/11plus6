@@ -3,6 +3,7 @@
 import React, { useMemo, useState } from 'react';
 import { MapPin, School, CheckCircle, Mail, Phone, User, BookOpen, Shield, Users, Loader2, GraduationCap, Lightbulb } from 'lucide-react';
 import { getCityData } from '@/lib/cityData';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 
 type City = { slug: string; label: string };
 
@@ -53,6 +54,13 @@ export default function TutorCityPageClient({ city }: { city: City }) {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+      <div className="mb-6">
+        <Breadcrumbs items={[
+          { label: 'Home', href: '/' },
+          { label: 'Tutors', href: '/tutors' },
+          { label: city.label },
+        ]} />
+      </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
         <div className="lg:col-span-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 rounded-full text-indigo-700 font-bold text-sm mb-5 border border-indigo-100">
