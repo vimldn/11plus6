@@ -547,7 +547,7 @@ export default function SubjectPageClient({
             {cities.map((city) => (
               <Link
                 key={city.slug}
-                href={`/${subject.slug}/${city.slug}`}
+                href={`/subjects/${subject.slug}/${city.slug}`}
                 className="flex items-center gap-2 px-4 py-3 bg-white rounded-xl border border-slate-100 hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700 text-slate-600 text-sm font-semibold transition-all group"
               >
                 <MapPin
