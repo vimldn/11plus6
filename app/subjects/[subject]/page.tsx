@@ -31,15 +31,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
       description: `Practise 11+ ${subject.label} with free online questions, topic guides and mock-style quizzes. Trusted by UK families preparing for grammar and independent school entrance exams.`,
     },
-    keywords: [
-      '11+',
-      '11 plus',
-      `${subject.label} 11+`,
-      `11+ ${subject.label.toLowerCase()} practice`,
-      'grammar school entrance',
-      'independent school entrance',
-      'UK 11+ practice questions',
-    ],
   };
 }
 
