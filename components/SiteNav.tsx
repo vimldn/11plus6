@@ -97,7 +97,8 @@ export const SiteNav: React.FC<SiteNavProps> = ({
             className="relative"
             onMouseEnter={() => { cancelClose(); setOpenDropdown('subjects'); }}
           >
-            <button
+            <Link
+              href="/subjects"
               className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-bold transition-colors ${
                 openDropdown === 'subjects'
                   ? 'bg-slate-100 text-indigo-600'
@@ -109,7 +110,7 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                 size={15}
                 className={`transition-transform duration-200 ${openDropdown === 'subjects' ? 'rotate-180' : ''}`}
               />
-            </button>
+            </Link>
             <AnimatePresence>
               {openDropdown === 'subjects' && (
                 <motion.div
@@ -184,7 +185,8 @@ export const SiteNav: React.FC<SiteNavProps> = ({
             className="relative"
             onMouseEnter={() => { cancelClose(); setOpenDropdown('tutors'); }}
           >
-            <button
+            <Link
+              href="/tutors"
               className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-bold transition-colors ${
                 openDropdown === 'tutors'
                   ? 'bg-slate-100 text-indigo-600'
@@ -196,7 +198,7 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                 size={15}
                 className={`transition-transform duration-200 ${openDropdown === 'tutors' ? 'rotate-180' : ''}`}
               />
-            </button>
+            </Link>
             <AnimatePresence>
               {openDropdown === 'tutors' && (
                 <motion.div
@@ -291,6 +293,13 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                         {s.label}
                       </Link>
                     ))}
+                    <Link
+                      href="/subjects"
+                      onClick={() => setMobileOpen(false)}
+                      className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold text-indigo-600 hover:bg-indigo-50 transition-colors"
+                    >
+                      View all subjects →
+                    </Link>
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -343,6 +352,13 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                         {city.label}
                       </Link>
                     ))}
+                    <Link
+                      href="/tutors"
+                      onClick={() => setMobileOpen(false)}
+                      className="col-span-2 flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold text-indigo-600 hover:bg-indigo-50 transition-colors"
+                    >
+                      View all tutors →
+                    </Link>
                   </motion.div>
                 )}
               </AnimatePresence>
