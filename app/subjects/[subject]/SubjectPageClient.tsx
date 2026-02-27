@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 
 // ─── Pexels image pool ────────────────────────────────────────────────────────
 const HERO_IMAGES = [
@@ -257,6 +258,14 @@ export default function SubjectPageClient({
   return (
     <div className="min-h-screen bg-white">
       <SiteNav ctaLabel="Mock Exams" ctaHref="/mock-exams" />
+
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 pb-2">
+        <Breadcrumbs items={[
+          { label: 'Home', href: '/' },
+          { label: 'Subjects', href: '/subjects' },
+          { label: subject.label },
+        ]} />
+      </div>
 
       {/* ─── Hero ─────────────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 pt-20 pb-28 px-4 sm:px-6">
