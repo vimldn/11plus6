@@ -35,6 +35,8 @@ export const SiteFooter: React.FC = () => (
           <ul className="space-y-2 text-sm">
             <li><Link href="/mock-exams" className="hover:text-white transition-colors">Sit a Mock</Link></li>
             <li><Link href="/mock-exams?mode=school" className="hover:text-white transition-colors">School-specific mocks</Link></li>
+            <li><Link href="/compare" className="hover:text-white transition-colors">Compare Schools</Link></li>
+            <li><Link href="/guides/gl-vs-cem" className="hover:text-white transition-colors">GL vs CEM Guide</Link></li>
             <li><Link href="/tutors" className="hover:text-white transition-colors">Tutor Support</Link></li>
             <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
           </ul>
