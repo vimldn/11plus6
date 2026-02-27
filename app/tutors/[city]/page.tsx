@@ -46,29 +46,8 @@ export default function TutorCityPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-white">
-      <SiteNav />
-      import { Breadcrumbs } from '@/components/Breadcrumbs';
+      <SiteNav />  
 
-// School profile page
-<Breadcrumbs items={[
-  { label: 'Home', href: '/' },
-  { label: 'Schools', href: '/schools' },
-  { label: school.name },
-]} />
-
-// Tutor city page
-<Breadcrumbs items={[
-  { label: 'Home', href: '/' },
-  { label: 'Tutors', href: '/tutors' },
-  { label: city.label },
-]} />
-
-// Blog post
-<Breadcrumbs items={[
-  { label: 'Home', href: '/' },
-  { label: 'Blog', href: '/blog' },
-  { label: post.title },
-]} />
       <TutorCityPageClient city={city} />
       <SiteFooter />
     </div>
