@@ -37,15 +37,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
     },
-    keywords: [
-      '11+',
-      '11 plus',
-      '11+ tutor',
-      `11+ tutor ${city.label}`,
-      `11+ tutor in ${city.label}`,
-      'grammar school tutor',
-      'independent school tutor',
-    ],
   };
 }
 
