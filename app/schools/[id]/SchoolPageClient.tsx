@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SCHOOLS } from '@/lib/schools';
 
 // ─── Static data for known schools ───────────────────────────────────────────
@@ -122,12 +123,13 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
         {/* Hero */}
         <section className={`bg-gradient-to-br from-${accentColor}-50 via-white to-${accentColor}-50 pt-20 pb-12 px-4 border-b border-slate-100`}>
           <div className="max-w-4xl mx-auto">
-            <Link
-              href="/schools"
-              className="inline-flex items-center gap-1 text-xs font-bold text-slate-400 hover:text-slate-600 mb-5 transition-colors"
-            >
-              ← All Schools
-            </Link>
+            <div className="mb-5">
+              <Breadcrumbs items={[
+                { label: 'Home', href: '/' },
+                { label: 'Schools', href: '/schools' },
+                { label: school.name },
+              ]} />
+            </div>
 
             <div className="flex items-start gap-4">
               <div className={`w-14 h-14 rounded-2xl bg-${accentColor}-100 flex items-center justify-center shrink-0`}>
