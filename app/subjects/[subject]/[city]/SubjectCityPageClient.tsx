@@ -15,6 +15,7 @@ import {
   Clock,
   Zap,
   Shield,
+  GraduationCap,
 } from 'lucide-react';
 import { SiteNav, LeadGenModal } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
@@ -374,24 +375,6 @@ export default function SubjectCityPageClient({
               A simple preparation approach
             </h2>
           </div>
-                      {/* Tutor CTA */}
-<section className="py-16 px-4 sm:px-6 bg-indigo-50 border-y border-indigo-100">
-  <div className="max-w-3xl mx-auto text-center">
-    <GraduationCap size={28} className="text-indigo-600 mx-auto mb-4" />
-    <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-3">
-      Need help with 11+ {subject.label} in {city.label}?
-    </h2>
-    <p className="text-slate-500 mb-6">
-      Connect with an experienced 11+ tutor in {city.label} for structured, exam-focused support.
-    </p>
-    <Link
-      href={`/tutors/${city.slug}`}
-      className="inline-flex items-center gap-2 px-8 py-4 bg-indigo-600 text-white font-black text-lg rounded-2xl shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition-all"
-    >
-      Find a tutor in {city.label} <ArrowRight size={20} />
-    </Link>
-  </div>
-</section>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
             <div className="hidden md:block absolute top-10 left-[17%] right-[17%] h-px bg-slate-200" />
@@ -428,6 +411,25 @@ export default function SubjectCityPageClient({
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Tutor CTA */}
+      <section className="py-16 px-4 sm:px-6 bg-indigo-50 border-y border-indigo-100">
+        <div className="max-w-3xl mx-auto text-center">
+          <GraduationCap size={28} className="text-indigo-600 mx-auto mb-4" />
+          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-3">
+            Need help with 11+ {subject.label} in {city.label}?
+          </h2>
+          <p className="text-slate-500 mb-6">
+            Connect with an experienced 11+ tutor in {city.label} for structured, exam-focused support.
+          </p>
+          <Link
+            href={`/tutors/${city.slug}`}
+            className="inline-flex items-center gap-2 px-8 py-4 bg-indigo-600 text-white font-black text-lg rounded-2xl shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition-all"
+          >
+            Find a tutor in {city.label} <ArrowRight size={20} />
+          </Link>
         </div>
       </section>
 
@@ -511,7 +513,7 @@ export default function SubjectCityPageClient({
                   .map((s) => (
                     <Link
                       key={s.slug}
-                      href={`/${s.slug}/${city.slug}`}
+                      href={`/subjects/${s.slug}/${city.slug}`}
                       className="flex items-center gap-3 p-3 rounded-xl bg-white border border-slate-100 hover:border-indigo-200 hover:bg-indigo-50 text-slate-600 hover:text-indigo-700 text-sm font-semibold transition-all group"
                     >
                       <div
@@ -540,7 +542,7 @@ export default function SubjectCityPageClient({
                   .map((c) => (
                     <Link
                       key={c.slug}
-                      href={`/${subject.slug}/${c.slug}`}
+                      href={`/subjects/${subject.slug}/${c.slug}`}
                       className="flex items-center gap-2 px-3 py-2.5 bg-white rounded-xl border border-slate-100 hover:border-indigo-200 hover:bg-indigo-50 text-slate-600 hover:text-indigo-700 text-xs font-semibold transition-all group"
                     >
                       <MapPin
