@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import { SiteNav, LeadGenModal } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
+import { getCityData } from '@/lib/cityData';
 
 const TOPICS_BY_SUBJECT: Record<string, string[]> = {
   maths: [
@@ -120,6 +121,7 @@ export default function SubjectCityPageClient({
   const [showModal, setShowModal] = useState(false);
   const style = SUBJECT_STYLE[subject.slug] || SUBJECT_STYLE.maths;
   const topics = TOPICS_BY_SUBJECT[subject.slug] || [];
+  const cityData = getCityData(city.slug);
 
   const handleModalSubmit = () => {
     setShowModal(false);
@@ -452,6 +454,31 @@ export default function SubjectCityPageClient({
           </div>
         </div>
       </section>
+
+      {/* Areas around this city */}
+      {cityData.nearbyAreas.length > 0 && (
+        <section className="py-16 px-4 sm:px-6 bg-white border-t border-slate-200">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-2xl font-black text-slate-900 mb-2">
+              Areas Around {city.label} We Cover
+            </h2>
+            <p className="text-slate-500 text-sm mb-6">
+              Our 11+ {subject.label} resources are available to families across {city.label} and the surrounding area. Wherever you are based, we can help your child prepare with confidence.
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              {cityData.nearbyAreas.map((area) => (
+                <div
+                  key={area}
+                  className="flex items-center gap-2 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-700 text-sm font-semibold"
+                >
+                  <MapPin size={13} className="text-indigo-400 shrink-0" />
+                  {area}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="py-16 px-4 sm:px-6 bg-slate-50 border-t border-slate-200">
         <div className="max-w-5xl mx-auto">
