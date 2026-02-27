@@ -1,5 +1,5 @@
 // ─── Curated external links ───────────────────────────────────────────────────
-// 30 high-authority URLs used in "Useful resources" sections across blog posts.
+// High-authority URLs used in "Useful resources" sections across blog posts.
 // Each link has one or more tags matching BlogPost categories.
 // The renderer picks the 3 whose tags best overlap with the current post's category.
 // ─────────────────────────────────────────────────────────────────────────────
@@ -199,10 +199,10 @@ export const EXTERNAL_LINKS: ExternalLink[] = [
     tags: ['Preparation', 'Guide'],
   },
   {
-    title: 'Which? guide to 11+ preparation',
+    title: '11+ preparation advice — Eleven Plus Exams',
     url: 'https://www.elevenplusexams.co.uk/advice-preparation/advice/what-is-the-eleven-plus',
-    domain: 'which.co.uk',
-    description: "Which?\'s impartial guide to 11+ preparation, covering resources, tutoring, and what to expect.",
+    domain: 'elevenplusexams.co.uk',
+    description: 'A widely used parent guide to 11+ preparation, covering resources, tutoring, and what to expect.',
     tags: ['Preparation', 'Guide', 'Exam Format'],
   },
 
@@ -241,13 +241,6 @@ export const EXTERNAL_LINKS: ExternalLink[] = [
     domain: 'mumsnet.com',
     description: 'The largest parent community discussing 11+ preparation, school choices, and results across all regions.',
     tags: ['Preparation', 'Admissions', 'Wellbeing', 'Results'],
-  },
-  {
-    title: 'Exam Papers Plus — free 11+ sample papers',
-    url: 'https://exampapersplus.co.uk/11-plus-guide-parents/',
-    domain: 'exampapers.co.uk',
-    description: 'A widely used resource for free and paid 11+ practice papers across all subjects and exam formats.',
-    tags: ['Preparation', 'Exam Format', 'Maths', 'English'],
   },
 ];
 
