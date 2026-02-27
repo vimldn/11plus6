@@ -38,14 +38,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${school.name} — 11+ Admissions & Mock Exams`,
       description,
     },
-    keywords: [
-      school.name,
-      `${school.name} 11+`,
-      `${school.name} admissions`,
-      `${area} grammar school`,
-      '11 plus entrance exam',
-      'mock exam',
-    ],
   };
 }
 
