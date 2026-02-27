@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: '11 Plus Subjects | 11 Plus Exam Papers',
   description:
     'Explore 11+ subjects: Maths, English, Verbal Reasoning and Non-Verbal Reasoning. Topic guides and resources for realistic preparation.',
+  alternates: { canonical: '/subjects' },
 };
 
 export default function SubjectsIndexPage() {
