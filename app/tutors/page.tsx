@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: '11 Plus Tutors by City | 11 Plus Exam Papers',
   description:
     'Browse 11+ tutor support pages by city. Each guide includes local grammar school context and a simple tutor enquiry form.',
+  alternates: { canonical: '/tutors' },
 };
 
 export default function TutorsIndexPage() {
@@ -22,8 +23,8 @@ export default function TutorsIndexPage() {
             11 Plus tutor support by city
           </h1>
           <p className="text-lg text-slate-600 leading-relaxed">
-            These pages are designed for families looking for targeted help. You’ll find a short overview of local 11+ context,
-            plus a quick enquiry form if you’d like to speak to a tutor.
+            These pages are designed for families looking for targeted help. You'll find a short overview of local 11+ context,
+            plus a quick enquiry form if you'd like to speak to a tutor.
           </p>
         </div>
 
