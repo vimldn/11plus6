@@ -3,7 +3,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
-import { ArrowLeft, BookOpen, Clock, Calendar, ArrowRight, Lightbulb, AlertTriangle, Info, ExternalLink, GraduationCap, ClipboardList } from 'lucide-react';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BookOpen, Clock, Calendar, ArrowRight, Lightbulb, AlertTriangle, Info, ExternalLink, GraduationCap, ClipboardList } from 'lucide-react';
 import { BLOG_POSTS, getPostBySlug, getAllSlugs, type BlockType } from '@/lib/blogPosts';
 import { SchemaOrg } from '@/components/SchemaOrg';
 import { articleSchema } from '@/lib/schemas';
@@ -311,9 +312,13 @@ export default function BlogPostPage({ params }: Props) {
         {/* ── Article body ── */}
         <div className="max-w-3xl mx-auto px-4 py-10">
 
-          <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-indigo-600 font-semibold transition-colors mb-8">
-            <ArrowLeft size={14} /> Back to Blog
-          </Link>
+          <div className="mb-8">
+            <Breadcrumbs items={[
+              { label: 'Home', href: '/' },
+              { label: 'Blog', href: '/blog' },
+              { label: post.title },
+            ]} />
+          </div>
 
           <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-xs font-black uppercase tracking-widest mb-5 border border-indigo-100">
             <BookOpen size={11} /> {post.category}
