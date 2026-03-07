@@ -1,20 +1,18 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
-  School, Building2, BookOpen, Clock, Target, Brain,
-  CheckCircle, ChevronRight, Rocket, ClipboardList,
-  Star, Zap, BarChart3, Shield, Mail, User2,
+  School, Building2, BookOpen, Clock, Target,
+  CheckCircle, ClipboardList,
+  BarChart3, Shield, Mail, User2, Play,
 } from 'lucide-react';
-import Link from 'next/link';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SchoolMockStart } from '@/components/SchoolMockStart';
 
 type SchoolType = 'grammar' | 'independent' | 'state';
-type Step = 'school-type' | 'test-config' | 'confirm';
 
 interface TestConfig {
   schoolType: SchoolType | null;
@@ -32,95 +30,83 @@ const SCHOOL_TYPES = [
     title: 'Grammar School',
     subtitle: 'GL Assessment & CEM Style',
     icon: School,
-    desc: 'Tailored to selective grammar school 11+ entrance exams, covering Maths, English, Verbal and Non-Verbal Reasoning in GL and CEM formats.',
-    badges: ['GL Assessment', 'CEM Style', 'CSSE'],
     gradient: 'from-indigo-500 to-violet-600',
     selBg: 'bg-indigo-50',
     selBorder: 'border-indigo-400',
-    badgeBg: 'bg-indigo-100 text-indigo-700 border border-indigo-200',
   },
   {
     id: 'independent' as SchoolType,
     title: 'Independent School',
     subtitle: 'Common Entrance & ISEB',
     icon: Building2,
-    desc: 'Preparation for private school entrance examinations including Common Entrance, ISEB Pre-Tests, and scholarship assessments.',
-    badges: ['ISEB Pre-Test', 'Common Entrance', 'Scholarship'],
     gradient: 'from-emerald-500 to-teal-600',
     selBg: 'bg-emerald-50',
     selBorder: 'border-emerald-400',
-    badgeBg: 'bg-emerald-100 text-emerald-700 border border-emerald-200',
   },
   {
     id: 'state' as SchoolType,
     title: 'State School',
     subtitle: 'KS2 SATs & Core Curriculum',
     icon: BookOpen,
-    desc: 'Comprehensive Key Stage 2 preparation covering the core National Curriculum topics to help your child excel in SATs and beyond.',
-    badges: ['KS2 SATs', 'Core Maths', 'Reading'],
     gradient: 'from-amber-500 to-orange-600',
     selBg: 'bg-amber-50',
     selBorder: 'border-amber-400',
-    badgeBg: 'bg-amber-100 text-amber-700 border border-amber-200',
   },
 ];
 
-const SUBJECTS_BY_TYPE: Record<SchoolType, { id: string; label: string; desc: string }[]> = {
+const SUBJECTS_BY_TYPE: Record<SchoolType, { id: string; label: string }[]> = {
   grammar: [
-    { id: 'maths',     label: 'Maths',                desc: 'Arithmetic, algebra & problem-solving' },
-    { id: 'english',   label: 'English',              desc: 'Comprehension, grammar & vocabulary'   },
-    { id: 'verbal',    label: 'Verbal Reasoning',     desc: 'Codes, sequences & word problems'      },
-    { id: 'nonverbal', label: 'Non-Verbal Reasoning', desc: 'Patterns, matrices & shapes'           },
+    { id: 'maths',     label: 'Maths' },
+    { id: 'english',   label: 'English' },
+    { id: 'verbal',    label: 'Verbal Reasoning' },
+    { id: 'nonverbal', label: 'Non-Verbal Reasoning' },
   ],
   independent: [
-    { id: 'maths',     label: 'Maths',                desc: 'Arithmetic, algebra & geometry'        },
-    { id: 'english',   label: 'English',              desc: 'Comprehension, writing & grammar'      },
-    { id: 'verbal',    label: 'Verbal Reasoning',     desc: 'Word relationships & logic'            },
-    { id: 'nonverbal', label: 'Non-Verbal Reasoning', desc: 'Spatial & abstract reasoning'          },
+    { id: 'maths',     label: 'Maths' },
+    { id: 'english',   label: 'English' },
+    { id: 'verbal',    label: 'Verbal Reasoning' },
+    { id: 'nonverbal', label: 'Non-Verbal Reasoning' },
   ],
   state: [
-    { id: 'maths',   label: 'Maths',   desc: 'Number, measurement & geometry'  },
-    { id: 'english', label: 'English', desc: 'Reading comprehension & grammar'  },
+    { id: 'maths',   label: 'Maths' },
+    { id: 'english', label: 'English' },
   ],
 };
 
 const DURATIONS = [
-  { mins: 25, label: '25 mins', desc: 'Quick session'  },
-  { mins: 45, label: '45 mins', desc: 'Standard test'  },
-  { mins: 60, label: '60 mins', desc: 'Full length'    },
-  { mins: 90, label: '90 mins', desc: 'Extended exam'  },
+  { mins: 25, label: '25 mins' },
+  { mins: 45, label: '45 mins' },
+  { mins: 60, label: '60 mins' },
+  { mins: 90, label: '90 mins' },
 ];
 
 const QUESTION_COUNTS = [
-  { n: 20, label: '20 questions', desc: 'Shorter paper' },
-  { n: 25, label: '25 questions', desc: 'Standard' },
-  { n: 30, label: '30 questions', desc: 'Long form' },
+  { n: 20, label: '20' },
+  { n: 25, label: '25' },
+  { n: 30, label: '30' },
 ];
 
 const DIFFICULTIES = [
-  { id: 'standard'    as const, label: 'Standard',   desc: 'Year 5 difficulty',      dot: 'bg-emerald-500' },
-  { id: 'challenging' as const, label: 'Challenging', desc: 'Upper Year 5 / Year 6', dot: 'bg-amber-500'   },
-  { id: 'exam-ready'  as const, label: 'Exam Ready', desc: 'Full exam difficulty',   dot: 'bg-rose-500'    },
+  { id: 'standard'    as const, label: 'Standard' },
+  { id: 'challenging' as const, label: 'Challenging' },
+  { id: 'exam-ready'  as const, label: 'Exam Ready' },
 ];
 
 const STATS = [
   { icon: ClipboardList, value: 'Exam-style',  label: 'Structured papers' },
   { icon: Shield,        value: 'GL & CEM',    label: 'Style coverage' },
-  { icon: Clock,         value: '25–90',       label: 'Timed sessions' },
+  { icon: Clock,         value: '25-90',        label: 'Timed sessions' },
   { icon: CheckCircle,   value: 'Free',        label: 'Access (for now)' },
 ];
 
 const FEATURES = [
-  { icon: ClipboardList, title: 'Exam-style structure',   desc: 'Clear sections, realistic pacing, and a paper-like flow — using our current QuizArea engine.', bg: 'bg-violet-50',  color: 'text-violet-600' },
-  { icon: Clock,         title: 'Timed conditions',       desc: 'Optional timers help children practise under proper exam conditions and build confidence.',           bg: 'bg-emerald-50', color: 'text-emerald-600' },
-  { icon: BarChart3,     title: 'Instant results',        desc: 'See scores and topic-level feedback to guide what to practise next.',                              bg: 'bg-blue-50',    color: 'text-blue-600'    },
-  { icon: Target,        title: 'Syllabus coverage',      desc: 'Maths, English, Verbal Reasoning and Non-Verbal Reasoning in familiar 11+ formats.',              bg: 'bg-amber-50',   color: 'text-amber-600'   },
-  { icon: CheckCircle,   title: 'Clear explanations',     desc: 'Review answers with straightforward explanations so children learn from mistakes.',                 bg: 'bg-indigo-50',  color: 'text-indigo-600'  },
-  { icon: Shield,        title: 'Built for 11+ prep',     desc: 'Created for families preparing for grammar and independent school entrance exams.',                 bg: 'bg-slate-100',  color: 'text-slate-600'   },
+  { icon: ClipboardList, title: 'Exam-style structure',   desc: 'Clear sections, realistic pacing, and a paper-like flow using our current QuizArea engine.', bg: 'bg-violet-50',  color: 'text-violet-600' },
+  { icon: Clock,         title: 'Timed conditions',       desc: 'Optional timers help children practise under proper exam conditions and build confidence.',   bg: 'bg-emerald-50', color: 'text-emerald-600' },
+  { icon: BarChart3,     title: 'Instant results',        desc: 'See scores and topic-level feedback to guide what to practise next.',                         bg: 'bg-blue-50',    color: 'text-blue-600'    },
+  { icon: Target,        title: 'Syllabus coverage',      desc: 'Maths, English, Verbal Reasoning and Non-Verbal Reasoning in familiar 11+ formats.',         bg: 'bg-amber-50',   color: 'text-amber-600'   },
+  { icon: CheckCircle,   title: 'Clear explanations',     desc: 'Review answers with straightforward explanations so children learn from mistakes.',           bg: 'bg-indigo-50',  color: 'text-indigo-600'  },
+  { icon: Shield,        title: 'Built for 11+ prep',     desc: 'Created for families preparing for grammar and independent school entrance exams.',           bg: 'bg-slate-100',  color: 'text-slate-600'   },
 ];
-
-const STEP_ORDER: Step[] = ['school-type', 'test-config', 'confirm'];
-const STEP_LABELS = ['School Type', 'Test Setup', 'Confirm'];
 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
@@ -129,16 +115,17 @@ function MockExamsPageInner() {
   const searchParams = useSearchParams();
   const mode = (searchParams.get('mode') || 'general').toLowerCase();
   const isSchoolMode = mode === 'school';
-  const [step, setStep]           = useState<Step>('school-type');
-  const [config, setConfig]       = useState<TestConfig>({ schoolType: null, duration: 45, questionCount: 25, subjects: [], difficulty: 'standard' });
 
-  // Lead capture fields on confirm step
-  const [leadName, setLeadName]   = useState('');
-  const [leadEmail, setLeadEmail] = useState('');
+  const [config, setConfig] = useState<TestConfig>({
+    schoolType: null, duration: 45, questionCount: 25, subjects: [], difficulty: 'standard',
+  });
 
-  const selectedType   = SCHOOL_TYPES.find(s => s.id === config.schoolType);
+  const [leadName, setLeadName]     = useState('');
+  const [leadEmail, setLeadEmail]   = useState('');
+  const [emailTouched, setEmailTouched] = useState(false);
+  const isEmailValid = leadEmail.trim().length > 0 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(leadEmail.trim());
+
   const availableSubjs = config.schoolType ? SUBJECTS_BY_TYPE[config.schoolType] : [];
-  const currentIdx     = STEP_ORDER.indexOf(step);
 
   const toggleSubject = (id: string) =>
     setConfig(prev => ({
@@ -146,35 +133,22 @@ function MockExamsPageInner() {
       subjects: prev.subjects.includes(id) ? prev.subjects.filter(s => s !== id) : [...prev.subjects, id],
     }));
 
-  const canProceed = () => {
-    if (step === 'school-type') return !!config.schoolType;
-    if (step === 'test-config') return config.subjects.length > 0;
-    return true;
-  };
-
-  const handleNext = () => {
-    if (step === 'school-type') {
-      setConfig(prev => ({ ...prev, subjects: [] }));
-      setStep('test-config');
-    } else if (step === 'test-config') {
-      setStep('confirm');
-    }
-  };
+  const canStart = !!config.schoolType && config.subjects.length > 0 && isEmailValid;
 
   const handleStartTest = () => {
-    // Fire-and-forget lead capture if email provided
-    if (leadEmail && leadEmail.includes('@')) {
-      fetch('/api/leads', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: leadEmail,
-          childName: leadName,
-          source: 'mock-exam-general',
-          targetSchool: config.schoolType || '',
-        }),
-      }).catch(() => undefined);
-    }
+    setEmailTouched(true);
+    if (!canStart) return;
+
+    fetch('/api/leads', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email: leadEmail.trim(),
+        childName: leadName.trim(),
+        source: 'mock-exam-general',
+        targetSchool: config.schoolType || '',
+      }),
+    }).catch(() => undefined);
 
     const params = new URLSearchParams();
     params.set('quizType', 'multiple-choice');
@@ -188,17 +162,6 @@ function MockExamsPageInner() {
     params.set('difficulty', config.difficulty);
 
     router.push(`/quiz?${params.toString()}`);
-  };
-
-  const [slideDir, setSlideDir] = useState(1);
-
-  const goNext = () => { setSlideDir(1); handleNext(); };
-  const goBack = (target: Step) => { setSlideDir(-1); setStep(target); };
-
-  const slideVariants = {
-    enter: (dir: number) => ({ x: dir * 60, opacity: 0 }),
-    center: { x: 0, opacity: 1, transition: { duration: 0.28, ease: 'easeOut' as const } },
-    exit: (dir: number) => ({ x: dir * -60, opacity: 0, transition: { duration: 0.2, ease: 'easeIn' as const } }),
   };
 
   return (
@@ -221,7 +184,7 @@ function MockExamsPageInner() {
                 Sit a <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">realistic 11+ mock exam</span>
               </h1>
               <p className="text-sm text-slate-500 max-w-xl mx-auto">
-                Choose an exam style and start practising — no sign-up required.
+                Choose your exam style, enter your email and start practising.
               </p>
             </motion.div>
 
@@ -252,315 +215,208 @@ function MockExamsPageInner() {
               </button>
             </motion.div>
 
-            {/* Step indicator (general mode only) */}
-            {!isSchoolMode && (
-              <div className="flex items-center justify-center gap-3 mb-5">
-                {STEP_ORDER.map((s, i) => {
-                  const isActive = step === s;
-                  const isPast   = currentIdx > i;
-                  return (
-                    <React.Fragment key={s}>
-                      <div className="flex items-center gap-2">
-                        <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-black transition-all ${
-                          isPast
-                            ? 'bg-indigo-600 text-white'
-                            : isActive
-                            ? 'bg-white border-2 border-indigo-500 text-indigo-600 shadow-sm'
-                            : 'bg-white border border-slate-200 text-slate-400'
-                        }`}>
-                          {isPast ? <CheckCircle size={16} /> : i + 1}
-                        </div>
-                        <span className={`text-xs font-bold hidden sm:block ${
-                          isActive ? 'text-slate-900' : isPast ? 'text-indigo-600' : 'text-slate-400'
-                        }`}>
-                          {STEP_LABELS[i]}
-                        </span>
-                      </div>
-                      {i < 2 && <div className={`w-8 h-px transition-colors ${isPast ? 'bg-indigo-500' : 'bg-slate-200'}`} />}
-                    </React.Fragment>
-                  );
-                })}
-              </div>
-            )}
-
-            {/* Form card */}
-            <div className="bg-white rounded-3xl border border-slate-200 shadow-sm p-5 sm:p-8 overflow-hidden">
-              {isSchoolMode ? (
+            {/* ── Form area ── */}
+            {isSchoolMode ? (
+              <div className="bg-white rounded-3xl border border-slate-200 shadow-sm p-5 sm:p-8 overflow-hidden">
                 <SchoolMockStart compact />
-              ) : (
-                <AnimatePresence mode="wait" custom={slideDir}>
+              </div>
+            ) : (
+              <div className="grid md:grid-cols-2 gap-6">
 
-            {/* ── STEP 1: School type ── */}
-            {step === 'school-type' && (
-              <motion.div
-                key="school-type"
-                custom={slideDir}
-                variants={slideVariants}
-                initial="enter" animate="center" exit="exit"
-              >
-                <h2 className="text-lg font-black text-slate-900 text-center mb-1">
-                  Which type of school are you preparing for?
-                </h2>
-                <p className="text-slate-500 text-sm text-center mb-5">
-                  We&apos;ll tailor the mock test to match real entrance exam styles.
-                </p>
+                {/* ── Left column: Exam config ── */}
+                <div className="bg-white border border-slate-100 rounded-3xl shadow-sm p-6">
+                  <div className="flex items-center gap-2 font-extrabold text-slate-900 mb-4">
+                    <School className="text-indigo-600" size={18} /> Configure your mock exam
+                  </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                  {SCHOOL_TYPES.map((type, idx) => {
-                    const isSelected = config.schoolType === type.id;
-                    return (
-                      <motion.button
-                        key={type.id}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: idx * 0.07 }}
-                        whileHover={{ y: -2 }}
-                        onClick={() => {
-                          setConfig(prev => ({ ...prev, schoolType: type.id }));
-                        }}
-                        className={`relative flex flex-col text-left p-4 rounded-2xl border-2 transition-all group overflow-hidden ${
-                          isSelected
-                            ? `${type.selBg} ${type.selBorder} shadow-md`
-                            : 'bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm'
-                        }`}
-                      >
-                        <div className={`absolute top-0 inset-x-0 h-1 bg-gradient-to-r ${type.gradient} transition-opacity ${isSelected ? 'opacity-100' : 'opacity-30 group-hover:opacity-60'}`} />
-                        {isSelected && (
-                          <div className="absolute top-3 right-3 w-5 h-5 bg-indigo-600 rounded-full flex items-center justify-center shadow">
-                            <CheckCircle size={12} className="text-white" />
+                  {/* School type */}
+                  <label className="block text-sm font-bold text-slate-600 mb-2">School type <span className="text-rose-500">*</span></label>
+                  <div className="grid grid-cols-3 gap-2 mb-5">
+                    {SCHOOL_TYPES.map((type) => {
+                      const isSelected = config.schoolType === type.id;
+                      return (
+                        <button
+                          key={type.id}
+                          type="button"
+                          onClick={() => setConfig(prev => ({ ...prev, schoolType: type.id, subjects: [] }))}
+                          className={`relative flex flex-col items-center text-center p-3 rounded-2xl border-2 transition-all ${
+                            isSelected
+                              ? `${type.selBg} ${type.selBorder} shadow-sm`
+                              : 'bg-white border-slate-200 hover:border-slate-300 hover:bg-slate-50'
+                          }`}
+                        >
+                          <div className={`w-9 h-9 rounded-xl bg-gradient-to-br ${type.gradient} flex items-center justify-center text-white mb-2 shadow-sm`}>
+                            <type.icon size={18} />
                           </div>
-                        )}
-                        <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${type.gradient} flex items-center justify-center text-white mb-3 shadow-sm`}>
-                          <type.icon size={20} />
-                        </div>
-                        <h3 className="text-base font-black text-slate-900 mb-0.5">{type.title}</h3>
-                        <p className="text-[11px] font-bold text-slate-400 uppercase tracking-wide mb-2">{type.subtitle}</p>
-                        <div className="flex flex-wrap gap-1.5 mt-auto">
-                          {type.badges.map(b => (
-                            <span key={b} className={`px-2 py-0.5 text-[10px] font-bold rounded-full uppercase tracking-wide ${type.badgeBg}`}>{b}</span>
-                          ))}
-                        </div>
-                      </motion.button>
-                    );
-                  })}
-                </div>
-
-                <div className="flex justify-center">
-                  <button
-                    onClick={goNext}
-                    disabled={!canProceed()}
-                    className="inline-flex items-center gap-2 px-8 py-3.5 rounded-2xl font-black text-base bg-gradient-to-r from-indigo-600 to-violet-600 text-white shadow-lg shadow-indigo-200 hover:scale-[1.02] transition-all disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:scale-100"
-                  >
-                    Continue to Test Setup <ChevronRight size={18} />
-                  </button>
-                </div>
-              </motion.div>
-            )}
-
-            {/* ── STEP 2: Subjects ── */}
-            {step === 'test-config' && (
-              <motion.div
-                key="test-config"
-                custom={slideDir}
-                variants={slideVariants}
-                initial="enter" animate="center" exit="exit"
-              >
-                <h2 className="text-lg font-black text-slate-900 text-center mb-1">Which subjects?</h2>
-                <p className="text-slate-500 text-sm text-center mb-5">Select all that apply — you can mix and match.</p>
-
-                <div className="grid grid-cols-2 gap-3 mb-4">
-                  {availableSubjs.map((subject) => {
-                    const selected = config.subjects.includes(subject.id);
-                    return (
-                      <button
-                        key={subject.id}
-                        onClick={() => toggleSubject(subject.id)}
-                        className={`flex items-center gap-3 p-4 rounded-2xl border-2 transition-all text-left ${
-                          selected ? 'bg-indigo-50 border-indigo-400 shadow-sm' : 'bg-white border-slate-200 hover:border-slate-300'
-                        }`}
-                      >
-                        <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${
-                          selected ? 'bg-indigo-600 border-indigo-600' : 'border-slate-300'
-                        }`}>
-                          {selected && <CheckCircle size={11} className="text-white" />}
-                        </div>
-                        <div>
-                          <div className={`text-sm font-bold ${selected ? 'text-indigo-700' : 'text-slate-700'}`}>{subject.label}</div>
-                          <div className="text-xs text-slate-400">{subject.desc}</div>
-                        </div>
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {/* Duration, Questions, Difficulty */}
-                <div className="grid grid-cols-3 gap-4 mb-5">
-                  <div>
-                    <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-2 flex items-center gap-1"><Clock size={11} /> Duration</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {DURATIONS.map((d) => {
-                        const sel = config.duration === d.mins;
-                        return (
-                          <button key={d.mins} onClick={() => setConfig(prev => ({ ...prev, duration: d.mins }))}
-                            className={`px-3 py-1.5 rounded-full text-xs font-bold border-2 transition-all ${sel ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-200 text-slate-600 hover:border-indigo-300'}`}>
-                            {d.label}
-                          </button>
-                        );
-                      })}
-                    </div>
+                          <div className="text-xs font-black text-slate-900 leading-tight">{type.title}</div>
+                          <div className="text-[10px] text-slate-400 mt-0.5">{type.subtitle}</div>
+                          {isSelected && (
+                            <div className="absolute top-2 right-2 w-4 h-4 bg-indigo-600 rounded-full flex items-center justify-center">
+                              <CheckCircle size={10} className="text-white" />
+                            </div>
+                          )}
+                        </button>
+                      );
+                    })}
                   </div>
-                  <div>
-                    <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-2 flex items-center gap-1"><ClipboardList size={11} /> Questions</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {QUESTION_COUNTS.map((q) => {
-                        const sel = config.questionCount === q.n;
-                        return (
-                          <button key={q.n} onClick={() => setConfig(prev => ({ ...prev, questionCount: q.n }))}
-                            className={`px-3 py-1.5 rounded-full text-xs font-bold border-2 transition-all ${sel ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-200 text-slate-600 hover:border-indigo-300'}`}>
-                            {q.n}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                  <div>
-                    <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-2 flex items-center gap-1"><Target size={11} /> Difficulty</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {DIFFICULTIES.map((d) => {
-                        const sel = config.difficulty === d.id;
-                        return (
-                          <button key={d.id} onClick={() => setConfig(prev => ({ ...prev, difficulty: d.id }))}
-                            className={`px-3 py-1.5 rounded-full text-xs font-bold border-2 transition-all ${sel ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-200 text-slate-600 hover:border-indigo-300'}`}>
-                            {d.label}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </div>
 
-                <div className="flex items-center justify-between">
-                  <button onClick={() => goBack('school-type')}
-                    className="px-5 py-2.5 rounded-xl font-bold text-slate-500 hover:text-slate-700 transition-colors border border-slate-200 bg-white text-sm">
-                    ← Back
-                  </button>
-                  <button onClick={goNext} disabled={!canProceed()}
-                    className="inline-flex items-center gap-2 px-7 py-3 rounded-2xl font-black text-sm bg-gradient-to-r from-indigo-600 to-violet-600 text-white shadow-lg shadow-indigo-200 hover:scale-[1.02] transition-all disabled:opacity-30 disabled:cursor-not-allowed">
-                    Start Test <ChevronRight size={16} />
-                  </button>
-                </div>
-              </motion.div>
-            )}
-
-            {/* ── STEP 3: Confirm ── */}
-            {step === 'confirm' && (
-              <motion.div
-                key="confirm"
-                custom={slideDir}
-                variants={slideVariants}
-                initial="enter" animate="center" exit="exit"
-                className="max-w-xl mx-auto"
-              >
-                <h2 className="text-lg font-black text-slate-900 text-center mb-1">Your mock test is ready</h2>
-                <p className="text-slate-500 text-sm text-center mb-5">Review the details and start when ready.</p>
-
-                <div className="rounded-2xl border border-slate-200 shadow-sm mb-5 overflow-hidden bg-white">
-                  {selectedType && (
-                    <div className={`px-5 py-4 ${selectedType.selBg} border-b border-slate-100 flex items-center gap-3`}>
-                      <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${selectedType.gradient} flex items-center justify-center text-white shadow-sm`}>
-                        <selectedType.icon size={20} />
+                  {/* Subjects */}
+                  {config.schoolType && (
+                    <>
+                      <label className="block text-sm font-bold text-slate-600 mb-2">
+                        Subject <span className="text-rose-500">*</span>
+                        {config.subjects.length === 0 && <span className="text-rose-500 font-normal text-xs ml-1">-- please select</span>}
+                      </label>
+                      <div className="grid grid-cols-2 gap-2 mb-5">
+                        {availableSubjs.map((subj) => {
+                          const selected = config.subjects.includes(subj.id);
+                          return (
+                            <button
+                              key={subj.id}
+                              type="button"
+                              onClick={() => toggleSubject(subj.id)}
+                              className={`flex items-center gap-2 px-3 py-2.5 rounded-2xl border-2 transition-all text-left ${
+                                selected ? 'bg-indigo-50 border-indigo-400 shadow-sm' : 'bg-white border-slate-200 hover:border-slate-300'
+                              }`}
+                            >
+                              <div className={`w-4 h-4 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${
+                                selected ? 'bg-indigo-600 border-indigo-600' : 'border-slate-300'
+                              }`}>
+                                {selected && <CheckCircle size={9} className="text-white" />}
+                              </div>
+                              <span className={`text-sm font-bold ${selected ? 'text-indigo-700' : 'text-slate-700'}`}>{subj.label}</span>
+                            </button>
+                          );
+                        })}
                       </div>
-                      <div>
-                        <div className="text-base font-black text-slate-900">{selectedType.title}</div>
-                        <div className="text-xs text-slate-500">{selectedType.subtitle}</div>
-                      </div>
-                    </div>
+                    </>
                   )}
-                  <div className="px-5 divide-y divide-slate-100">
-                    <div className="flex items-center justify-between py-2.5">
-                      <div className="flex items-center gap-2 text-slate-500 text-xs font-bold"><BookOpen size={13} className="text-indigo-500" /> Subjects</div>
-                      <div className="flex flex-wrap gap-1 justify-end">
-                        {config.subjects.map(s => {
-                          const subj = availableSubjs.find(sub => sub.id === s);
-                          return <span key={s} className="px-2 py-0.5 text-xs font-bold rounded-full bg-indigo-100 text-indigo-700">{subj?.label}</span>;
+
+                  {/* Duration, Questions, Difficulty */}
+                  <div className="space-y-4">
+                    <div>
+                      <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-2 flex items-center gap-1"><Clock size={11} /> Duration</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {DURATIONS.map((d) => {
+                          const sel = config.duration === d.mins;
+                          return (
+                            <button key={d.mins} type="button" onClick={() => setConfig(prev => ({ ...prev, duration: d.mins }))}
+                              className={`px-3 py-1.5 rounded-full text-xs font-bold border-2 transition-all ${sel ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-200 text-slate-600 hover:border-indigo-300'}`}>
+                              {d.label}
+                            </button>
+                          );
                         })}
                       </div>
                     </div>
-                    <div className="flex items-center justify-between py-2.5">
-                      <div className="flex items-center gap-2 text-slate-500 text-xs font-bold"><Clock size={13} className="text-indigo-500" /> Duration</div>
-                      <span className="text-slate-900 font-black text-sm">{config.duration} minutes</span>
+                    <div>
+                      <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-2 flex items-center gap-1"><ClipboardList size={11} /> Questions</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {QUESTION_COUNTS.map((q) => {
+                          const sel = config.questionCount === q.n;
+                          return (
+                            <button key={q.n} type="button" onClick={() => setConfig(prev => ({ ...prev, questionCount: q.n }))}
+                              className={`px-3 py-1.5 rounded-full text-xs font-bold border-2 transition-all ${sel ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-200 text-slate-600 hover:border-indigo-300'}`}>
+                              {q.label}
+                            </button>
+                          );
+                        })}
+                      </div>
                     </div>
-                    <div className="flex items-center justify-between py-2.5">
-                      <div className="flex items-center gap-2 text-slate-500 text-xs font-bold"><ClipboardList size={13} className="text-indigo-500" /> Questions</div>
-                      <span className="text-slate-900 font-black text-sm">{config.questionCount}</span>
-                    </div>
-                    <div className="flex items-center justify-between py-2.5">
-                      <div className="flex items-center gap-2 text-slate-500 text-xs font-bold"><Target size={13} className="text-indigo-500" /> Difficulty</div>
-                      <span className="text-slate-900 font-black text-sm capitalize">{config.difficulty.replace('-', ' ')}</span>
+                    <div>
+                      <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-2 flex items-center gap-1"><Target size={11} /> Difficulty</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {DIFFICULTIES.map((d) => {
+                          const sel = config.difficulty === d.id;
+                          return (
+                            <button key={d.id} type="button" onClick={() => setConfig(prev => ({ ...prev, difficulty: d.id }))}
+                              className={`px-3 py-1.5 rounded-full text-xs font-bold border-2 transition-all ${sel ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-200 text-slate-600 hover:border-indigo-300'}`}>
+                              {d.label}
+                            </button>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                {/* ── Lead capture ── */}
-                <div className="rounded-2xl border border-indigo-100 bg-indigo-50 p-4 mb-5">
-                  <p className="text-xs font-black text-indigo-700 uppercase tracking-widest mb-3">
-                    Get your results & free resources via email
-                  </p>
-                  <div className="flex flex-col gap-2">
-                    <div className="relative">
-                      <User2 size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
-                      <input
-                        type="text"
-                        placeholder="Child's first name (optional)"
-                        value={leadName}
-                        onChange={(e) => setLeadName(e.target.value)}
-                        className="w-full pl-9 pr-4 py-2.5 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white"
-                      />
-                    </div>
-                    <div className="relative">
-                      <Mail size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
-                      <input
-                        type="email"
-                        placeholder="Parent email (optional)"
-                        value={leadEmail}
-                        onChange={(e) => setLeadEmail(e.target.value)}
-                        className="w-full pl-9 pr-4 py-2.5 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white"
-                      />
-                    </div>
+                {/* ── Right column: Student details + start ── */}
+                <div className="bg-white border border-slate-100 rounded-3xl shadow-sm p-6">
+                  <div className="flex items-center gap-2 font-extrabold text-slate-900 mb-4">
+                    <User2 className="text-indigo-600" size={18} /> Your details
                   </div>
-                  <p className="text-[10px] text-slate-400 mt-2">No spam. Skip if you prefer — you can still start the exam.</p>
+
+                  <label className="block text-sm font-bold text-slate-600 mb-1">Child&apos;s first name</label>
+                  <div className="relative mb-4">
+                    <User2 size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
+                    <input
+                      value={leadName}
+                      onChange={(e) => setLeadName(e.target.value)}
+                      placeholder="Optional"
+                      className="w-full rounded-2xl border border-slate-200 px-10 py-3 font-semibold"
+                    />
+                  </div>
+
+                  <label className="block text-sm font-bold text-slate-600 mb-1">Parent email <span className="text-rose-500">*</span></label>
+                  <div className="relative mb-1">
+                    <Mail size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
+                    <input
+                      type="email"
+                      value={leadEmail}
+                      onChange={(e) => setLeadEmail(e.target.value)}
+                      onBlur={() => setEmailTouched(true)}
+                      placeholder="you@example.com"
+                      className={`w-full rounded-2xl border px-10 py-3 font-semibold ${
+                        emailTouched && !isEmailValid ? 'border-rose-400 ring-1 ring-rose-200' : 'border-slate-200'
+                      }`}
+                    />
+                  </div>
+                  {emailTouched && !isEmailValid && (
+                    <p className="text-xs text-rose-600 font-semibold mb-4 ml-1">Please enter a valid email address.</p>
+                  )}
+                  {(!emailTouched || isEmailValid) && <div className="mb-4" />}
+
+                  <button
+                    type="button"
+                    onClick={handleStartTest}
+                    disabled={!canStart}
+                    className={`w-full inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-4 font-black text-white transition ${
+                      canStart ? 'bg-indigo-600 hover:bg-indigo-700' : 'bg-slate-300 cursor-not-allowed'
+                    }`}
+                  >
+                    <Play size={18} /> Start mock exam
+                  </button>
+
+                  {!config.schoolType && (
+                    <p className="text-xs text-slate-400 mt-3 text-center">Select a school type and subject to get started.</p>
+                  )}
+                  {config.schoolType && config.subjects.length === 0 && (
+                    <p className="text-xs text-slate-400 mt-3 text-center">Pick at least one subject to continue.</p>
+                  )}
+                  {config.schoolType && config.subjects.length > 0 && !isEmailValid && (
+                    <p className="text-xs text-slate-400 mt-3 text-center">Enter your email to start the exam.</p>
+                  )}
+
+                  <div className="mt-5 rounded-2xl bg-slate-50 border border-slate-100 p-4 text-sm text-slate-600 leading-relaxed">
+                    This launches a timed, interactive exam in your browser. When time is up the test auto-submits and you get instant results sent to your email.
+                  </div>
                 </div>
 
-                <div className="flex items-center justify-between">
-                  <button onClick={() => goBack('test-config')}
-                    className="px-5 py-2.5 rounded-xl font-bold text-slate-500 hover:text-slate-700 transition-colors border border-slate-200 bg-white text-sm">
-                    ← Back
-                  </button>
-                  <button onClick={handleStartTest}
-                    className="inline-flex items-center gap-2 px-7 py-3 rounded-2xl font-black text-sm text-white bg-gradient-to-r from-indigo-600 to-violet-600 shadow-lg shadow-indigo-200 hover:scale-[1.02] transition-all">
-                    <Rocket size={18} /> Start mock exam now
-                  </button>
-                </div>
-              </motion.div>
+              </div>
             )}
 
-            </AnimatePresence>
-          )}
-        </div>{/* end form card */}
-
-        {/* Stats bar */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
-          className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8"
-        >
-          {STATS.map((item, i) => (
-            <div key={i} className="text-center p-4 rounded-2xl bg-white/70 border border-slate-100 shadow-sm">
-              <item.icon size={20} className="text-indigo-500 mx-auto mb-2" />
-              <div className="text-xl font-black text-slate-900">{item.value}</div>
-              <div className="text-xs text-slate-500 font-medium">{item.label}</div>
-            </div>
-          ))}
-        </motion.div>
+            {/* Stats bar */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
+              className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8"
+            >
+              {STATS.map((item, i) => (
+                <div key={i} className="text-center p-4 rounded-2xl bg-white/70 border border-slate-100 shadow-sm">
+                  <item.icon size={20} className="text-indigo-500 mx-auto mb-2" />
+                  <div className="text-xl font-black text-slate-900">{item.value}</div>
+                  <div className="text-xs text-slate-500 font-medium">{item.label}</div>
+                </div>
+              ))}
+            </motion.div>
 
           </div>{/* end max-w container */}
         </section>
@@ -603,7 +459,6 @@ function MockExamsPageInner() {
   );
 }
 
-import { Suspense } from 'react';
 export default function MockExamsClient() {
   return (
     <Suspense fallback={<div className="min-h-screen bg-white" />}>
