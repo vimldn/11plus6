@@ -37,6 +37,8 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
   const [subject, setSubject] = useState<'maths' | 'english' | null>(null);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [emailTouched, setEmailTouched] = useState(false);
+  const isEmailValid = email.trim().length > 0 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
   const [duration, setDuration] = useState(45);
   const [count, setCount] = useState(25);
   const [loading, setLoading] = useState(true);
@@ -104,9 +106,10 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
     setCount(s.questionCount);
   }, [subject]);
 
-  const canStart = !!schoolId && !!subject && name.trim().length > 1 && email.trim().includes('@');
+  const canStart = !!schoolId && !!subject && name.trim().length > 1 && isEmailValid;
 
   const start = async () => {
+    setEmailTouched(true);
     if (!canStart) return;
 
     // Store locally so the app can greet the user later.
@@ -290,7 +293,7 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
               <User2 className="text-indigo-600" size={18} /> Student details
             </div>
 
-            <label className="block text-sm font-bold text-slate-600 mb-1">Name</label>
+            <label className="block text-sm font-bold text-slate-600 mb-1">Name <span className="text-rose-500">*</span></label>
             <div className="relative mb-4">
               <User2 size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
@@ -301,16 +304,23 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
               />
             </div>
 
-            <label className="block text-sm font-bold text-slate-600 mb-1">Email</label>
-            <div className="relative mb-6">
+            <label className="block text-sm font-bold text-slate-600 mb-1">Email <span className="text-rose-500">*</span></label>
+            <div className="relative mb-1">
               <Mail size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                onBlur={() => setEmailTouched(true)}
                 placeholder="Parent/guardian email"
-                className="w-full rounded-2xl border border-slate-200 px-10 py-3 font-semibold"
+                className={`w-full rounded-2xl border px-10 py-3 font-semibold ${
+                  emailTouched && !isEmailValid ? 'border-rose-400 ring-1 ring-rose-200' : 'border-slate-200'
+                }`}
               />
             </div>
+            {emailTouched && !isEmailValid && (
+              <p className="text-xs text-rose-600 font-semibold mb-4 ml-1">Please enter a valid email address.</p>
+            )}
+            {(!emailTouched || isEmailValid) && <div className="mb-4" />}
 
             <button
               type="button"
