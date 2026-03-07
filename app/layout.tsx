@@ -3,9 +3,7 @@ import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { orgSchema, websiteSchema } from '@/lib/schemas'
-
 const inter = Inter({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.11plusexampapers.com'),
   title: {
@@ -38,12 +36,10 @@ export const metadata: Metadata = {
     images: ['/og-default.png'],
   },
 }
-
 const siteSchema = {
   '@context': 'https://schema.org',
   '@graph': [orgSchema, websiteSchema],
 }
-
 export default function RootLayout({
   children,
 }: {
@@ -51,6 +47,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+        <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+      </head>
       <body className={inter.className}>
         {children}
         <Script
