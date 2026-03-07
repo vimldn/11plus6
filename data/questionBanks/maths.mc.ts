@@ -125,7 +125,7 @@ export const mathsMC: Question[] = [
   { id: 'math-mc-099', text: 'Right triangle legs 5cm and 12cm. Area?', options: ['25', '30', '34', '60'], correctAnswer: '30', explanation: '½ × 5 × 12 = 30 cm².', topic: 'Area and Perimeter', difficulty: 1 },
   { id: 'math-mc-100', text: '1m path surrounds 6m×4m lawn. Total area including path?', options: ['32', '40', '48', '56'], correctAnswer: '48', explanation: '(6+2)(4+2) = 8×6 = 48 m².', topic: 'Area and Perimeter', difficulty: 3 },
   { id: 'math-mc-101', text: 'A rectangle has its length doubled and width halved. Area change?', options: ['Doubles', 'Halves', 'Stays same', 'Quadruples'], correctAnswer: 'Stays same', explanation: '2l × w/2 = lw.', topic: 'Area and Perimeter', difficulty: 3 },
-  { id: 'math-mc-102', text: 'Semicircle radius 6cm. Area? (π ≈ 3.14)', options: ['56.52', '56.52', '113.04', '37.68'], correctAnswer: '56.52', explanation: '½ × π × 36 = 56.52 cm².', topic: 'Area and Perimeter', difficulty: 3 },
+  { id: 'math-mc-102', text: 'Semicircle radius 6cm. Area? (π ≈ 3.14)', options: ['56.52', '75.36', '113.04', '37.68'], correctAnswer: '56.52', explanation: '½ × π × 36 = 56.52 cm².', topic: 'Area and Perimeter', difficulty: 3 },
   { id: 'math-mc-103', text: 'A square has area 144 cm². What is its perimeter?', options: ['36cm', '44cm', '48cm', '52cm'], correctAnswer: '48cm', explanation: 'Side = 12cm. 4 × 12 = 48cm.', topic: 'Area and Perimeter', difficulty: 2 },
   { id: 'math-mc-104', text: 'Rectangle 15cm × 8cm. What is the area?', options: ['100 cm²', '110 cm²', '120 cm²', '130 cm²'], correctAnswer: '120 cm²', explanation: '15 × 8 = 120 cm².', topic: 'Area and Perimeter', difficulty: 1 },
   { id: 'math-mc-105', text: 'Two rectangles: 6×4 and 3×2. Combined area?', options: ['24', '28', '30', '32'], correctAnswer: '30', explanation: '24 + 6 = 30 cm².', topic: 'Area and Perimeter', difficulty: 2 },
@@ -211,7 +211,7 @@ export const mathsMC: Question[] = [
   { id: 'math-mc-171', text: 'Mean of 5 numbers is 12. Four numbers are 10,14,11,13. Fifth?', options: ['10', '11', '12', '13'], correctAnswer: '12', explanation: 'Total=60. 60−48=12.', topic: 'Statistics', difficulty: 3 },
 
   // ── PROBABILITY ──────────────────────────────────────────────────────────────
-  { id: 'math-mc-172', text: 'Bag: 3 red, 4 blue, 5 green. P(blue)?', options: ['1/3', '4/12', '1/3', '5/12'], correctAnswer: '1/3', explanation: '4/12 = 1/3.', topic: 'Probability', difficulty: 1 },
+  { id: 'math-mc-172', text: 'Bag: 3 red, 4 blue, 5 green. P(blue)?', options: ['1/3', '4/12', '1/4', '5/12'], correctAnswer: '1/3', explanation: '4/12 = 1/3.', topic: 'Probability', difficulty: 1 },
   { id: 'math-mc-173', text: 'P(rolling > 4) on fair dice?', options: ['1/6', '1/3', '1/2', '2/3'], correctAnswer: '1/3', explanation: '5,6: 2/6 = 1/3.', topic: 'Probability', difficulty: 1 },
   { id: 'math-mc-174', text: 'P(heart) from 52-card deck?', options: ['1/52', '1/13', '1/4', '4/13'], correctAnswer: '1/4', explanation: '13/52 = 1/4.', topic: 'Probability', difficulty: 1 },
   { id: 'math-mc-175', text: 'P(rain) = 0.35. P(no rain)?', options: ['0.55', '0.60', '0.65', '0.70'], correctAnswer: '0.65', explanation: '1 − 0.35 = 0.65.', topic: 'Probability', difficulty: 1 },
