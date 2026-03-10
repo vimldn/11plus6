@@ -7,7 +7,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 import {
   ChevronDown,
   ChevronRight,
-  MapPin,
   Menu,
   X,
   Calculator,
@@ -22,15 +21,12 @@ import {
   Lock,
   ArrowRight,
 } from 'lucide-react';
-import { SUBJECTS as BASE_SUBJECTS, UK_CITIES } from '@/lib/siteData';
+import { SUBJECTS as BASE_SUBJECTS } from '@/lib/siteData';
 
-// Add icons client-side only — icons are functions and cannot be passed as props from server components
 export const SUBJECTS = BASE_SUBJECTS.map((s, i) => ({
   ...s,
   icon: [Calculator, BookOpen, BrainCircuit, Shapes][i],
 }));
-
-export { UK_CITIES };
 
 // ─── SiteNav ──────────────────────────────────────────────────────────────────
 
@@ -45,9 +41,9 @@ export const SiteNav: React.FC<SiteNavProps> = ({
   ctaHref = '/tutors',
   onCtaClick,
 }) => {
-  const [openDropdown, setOpenDropdown] = useState<'subjects' | 'tutors' | null>(null);
+  const [openDropdown, setOpenDropdown] = useState<'subjects' | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [mobileExpanded, setMobileExpanded] = useState<'subjects' | 'tutors' | null>(null);
+  const [mobileExpanded, setMobileExpanded] = useState<'subjects' | null>(null);
 
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -180,59 +176,10 @@ export const SiteNav: React.FC<SiteNavProps> = ({
             Blog
           </Link>
 
-          {/* Tutors dropdown */}
-          <div
-            className="relative"
-            onMouseEnter={() => { cancelClose(); setOpenDropdown('tutors'); }}
-          >
-            <Link
-              href="/tutors"
-              className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-bold transition-colors ${
-                openDropdown === 'tutors'
-                  ? 'bg-slate-100 text-indigo-600'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
-              }`}
-            >
-              Tutors
-              <ChevronDown
-                size={15}
-                className={`transition-transform duration-200 ${openDropdown === 'tutors' ? 'rotate-180' : ''}`}
-              />
-            </Link>
-            <AnimatePresence>
-              {openDropdown === 'tutors' && (
-                <motion.div
-                  initial={{ opacity: 0, y: 8, scale: 0.97 }}
-                  animate={{ opacity: 1, y: 0, scale: 1 }}
-                  exit={{ opacity: 0, y: 6, scale: 0.97 }}
-                  transition={{ duration: 0.15 }}
-                  onMouseEnter={cancelClose}
-                  onMouseLeave={scheduleClose}
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-72 bg-white rounded-2xl shadow-xl border border-slate-100 p-3 overflow-hidden"
-                >
-                  <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest px-2 mb-2">
-                    11+ Tutors by City
-                  </p>
-                  <div className="grid grid-cols-2 gap-0.5">
-                    {UK_CITIES.map((city) => (
-                      <Link
-                        key={city.slug}
-                        href={`/tutors/${city.slug}`}
-                        onClick={close}
-                        className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-indigo-50 hover:text-indigo-700 text-slate-600 text-sm font-semibold transition-colors group"
-                      >
-                        <MapPin
-                          size={12}
-                          className="text-slate-300 group-hover:text-indigo-400 transition-colors shrink-0"
-                        />
-                        {city.label}
-                      </Link>
-                    ))}
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+          {/* Tutors — plain link, no dropdown */}
+          <Link href="/tutors" className="px-4 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">
+            Tutors
+          </Link>
         </div>
 
         {/* Desktop CTA */}
@@ -325,43 +272,9 @@ export const SiteNav: React.FC<SiteNavProps> = ({
                 Blog
               </Link>
 
-              {/* Mobile Tutors */}
-              <button
-                onClick={() => setMobileExpanded(mobileExpanded === 'tutors' ? null : 'tutors')}
-                className="w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-              >
+              <Link href="/tutors" onClick={() => setMobileOpen(false)} className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
                 Tutors
-                <ChevronDown size={15} className={`transition-transform ${mobileExpanded === 'tutors' ? 'rotate-180' : ''}`} />
-              </button>
-              <AnimatePresence>
-                {mobileExpanded === 'tutors' && (
-                  <motion.div
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: 'auto' }}
-                    exit={{ opacity: 0, height: 0 }}
-                    className="overflow-hidden pl-3 grid grid-cols-2 gap-0.5"
-                  >
-                    {UK_CITIES.map((city) => (
-                      <Link
-                        key={city.slug}
-                        href={`/tutors/${city.slug}`}
-                        onClick={() => setMobileOpen(false)}
-                        className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 transition-colors"
-                      >
-                        <MapPin size={11} className="text-slate-300 shrink-0" />
-                        {city.label}
-                      </Link>
-                    ))}
-                    <Link
-                      href="/tutors"
-                      onClick={() => setMobileOpen(false)}
-                      className="col-span-2 flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold text-indigo-600 hover:bg-indigo-50 transition-colors"
-                    >
-                      View all tutors →
-                    </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
+              </Link>
 
               <div className="pt-3 border-t border-slate-100 flex flex-col gap-2">
                 {onCtaClick ? (
