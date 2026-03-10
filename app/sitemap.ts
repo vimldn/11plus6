@@ -67,14 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ),
   );
 
-  // ── Tutor city pages ───────────────────────────────────────────────────────
-  const tutorPages: MetadataRoute.Sitemap = UK_CITIES.map((c) =>
-    url(`/tutors/${c.slug}`, 0.7, 'monthly'),
-  );
-
-  // ── Location pages intentionally excluded ──────────────────────────────────
-  // /locations/[city] are 301 redirects to /tutors/[city].
-  // Including redirect pages in the sitemap wastes crawl budget — excluded.
+  // ── Tutor city pages removed — all tutor traffic consolidated to /tutors ──
 
   // ── Blog posts ─────────────────────────────────────────────────────────────
   // lastModified uses the actual post date so Googlebot doesn't re-crawl every
@@ -88,7 +81,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...schoolPages,
     ...subjectPages,
     ...subjectCityPages,
-    ...tutorPages,
     ...blogPages,
   ];
 }
