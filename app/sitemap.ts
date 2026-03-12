@@ -60,21 +60,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url(`/subjects/${s.slug}`, 0.8, 'monthly'),
   );
 
-  // ── Subject × city pages ───────────────────────────────────────────────────
-  const subjectCityPages: MetadataRoute.Sitemap = SUBJECTS.flatMap((s) =>
-    UK_CITIES.map((c) =>
-      url(`/subjects/${s.slug}/${c.slug}`, 0.6, 'monthly'),
-    ),
-  );
-
   // ── Tutor city pages ───────────────────────────────────────────────────────
   const tutorPages: MetadataRoute.Sitemap = UK_CITIES.map((c) =>
     url(`/tutors/${c.slug}`, 0.7, 'monthly'),
   );
-
-  // ── Location pages intentionally excluded ──────────────────────────────────
-  // /locations/[city] are 301 redirects to /tutors/[city].
-  // Including redirect pages in the sitemap wastes crawl budget — excluded.
 
   // ── Blog posts ─────────────────────────────────────────────────────────────
   // lastModified uses the actual post date so Googlebot doesn't re-crawl every
@@ -87,7 +76,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticPages,
     ...schoolPages,
     ...subjectPages,
-    ...subjectCityPages,
     ...tutorPages,
     ...blogPages,
   ];

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import SubjectPageClient from './SubjectPageClient';
-import { SUBJECTS, UK_CITIES } from '@/lib/siteData';
+import { SUBJECTS } from '@/lib/siteData';
 import { subjectPageSchema } from '@/lib/schemas';
 import { SchemaOrg } from '@/components/SchemaOrg';
 
@@ -41,7 +41,7 @@ export default function SubjectPage({ params }: Props) {
   return (
     <>
       <SchemaOrg data={subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc })} />
-      <SubjectPageClient subject={subject} cities={UK_CITIES} />
+      <SubjectPageClient subject={subject} />
     </>
   );
 }

@@ -2,13 +2,11 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
   ArrowRight,
   Check,
   Star,
-  MapPin,
   ChevronRight,
   BookOpen,
   Trophy,
@@ -233,17 +231,11 @@ interface SubjectData {
   dot: string;
   icon?: React.ElementType;
 }
-interface CityData {
-  slug: string;
-  label: string;
-}
 
 export default function SubjectPageClient({
   subject,
-  cities,
 }: {
   subject: SubjectData;
-  cities: CityData[];
 }) {
   const router = useRouter();
 
@@ -532,34 +524,7 @@ export default function SubjectPageClient({
         </div>
       </section>
 
-      {/* ─── City links ─────────────────────────────────────────────────────── */}
-      <section className="py-20 px-4 sm:px-6 bg-slate-50 border-t border-slate-200">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-black text-slate-900 mb-3">
-              11+ {subject.label} prep by city
-            </h2>
-            <p className="text-slate-500">
-              Find local resources and connect with tutors in your area.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
-            {cities.map((city) => (
-              <Link
-                key={city.slug}
-                href={`/subjects/${subject.slug}/${city.slug}`}
-                className="flex items-center gap-2 px-4 py-3 bg-white rounded-xl border border-slate-100 hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700 text-slate-600 text-sm font-semibold transition-all group"
-              >
-                <MapPin
-                  size={13}
-                  className="text-slate-300 group-hover:text-indigo-400 shrink-0"
-                />
-                {city.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* ─── Testimonials ───────────────────────────────────────────────────── */}
       <section className="py-16 px-4 sm:px-6 bg-white border-t border-slate-100">
