@@ -18,9 +18,9 @@ export default function TutorsIndexPage() {
     <div className="min-h-screen bg-white">
       <SiteNav />
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-
-        {/* Hero + Form */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+
+          {/* Left column — hero, features, city grid */}
           <div className="lg:col-span-2">
             <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
               11 Plus tutor support by city
@@ -57,29 +57,30 @@ export default function TutorsIndexPage() {
                 </div>
               ))}
             </div>
+
+            {/* City grid — inside the left column */}
+            <h2 className="text-2xl font-black text-slate-900 mt-14 mb-4">Choose your city</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              {UK_CITIES.map((city) => (
+                <Link
+                  key={city.slug}
+                  href={`/tutors/${city.slug}`}
+                  className="flex items-center gap-2 px-4 py-3 bg-white rounded-xl border border-slate-100 hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700 text-slate-700 text-sm font-semibold transition-all group"
+                >
+                  <MapPin size={13} className="text-slate-300 group-hover:text-indigo-400 shrink-0" />
+                  {city.label}
+                  <ArrowRight size={14} className="ml-auto text-slate-300 group-hover:text-indigo-400 shrink-0" />
+                </Link>
+              ))}
+            </div>
           </div>
 
+          {/* Right column — sticky form */}
           <aside className="lg:col-span-1">
             <div className="sticky top-20">
               <TutorEnquiryForm />
             </div>
           </aside>
-        </div>
-
-        {/* City grid */}
-        <h2 className="text-2xl font-black text-slate-900 mt-14 mb-4">Choose your city</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
-          {UK_CITIES.map((city) => (
-            <Link
-              key={city.slug}
-              href={`/tutors/${city.slug}`}
-              className="flex items-center gap-2 px-4 py-3 bg-white rounded-xl border border-slate-100 hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700 text-slate-700 text-sm font-semibold transition-all group"
-            >
-              <MapPin size={13} className="text-slate-300 group-hover:text-indigo-400 shrink-0" />
-              {city.label}
-              <ArrowRight size={14} className="ml-auto text-slate-300 group-hover:text-indigo-400 shrink-0" />
-            </Link>
-          ))}
         </div>
       </main>
       <SiteFooter />
