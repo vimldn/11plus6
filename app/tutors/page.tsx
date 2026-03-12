@@ -4,6 +4,7 @@ import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { UK_CITIES } from '@/lib/siteData';
 import { MapPin, ArrowRight, Shield, BookOpen, Users } from 'lucide-react';
+import TutorEnquiryForm from './TutorEnquiryForm';
 
 export const metadata: Metadata = {
   title: '11 Plus Tutors by City | 11 Plus Exam Papers',
@@ -16,7 +17,6 @@ export default function TutorsIndexPage() {
   return (
     <div className="min-h-screen bg-white">
       <SiteNav />
-
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
         <div className="max-w-3xl">
           <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
@@ -57,7 +57,6 @@ export default function TutorsIndexPage() {
         </div>
 
         <h2 className="text-2xl font-black text-slate-900 mt-14 mb-4">Choose your city</h2>
-
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
           {UK_CITIES.map((city) => (
             <Link
@@ -71,8 +70,18 @@ export default function TutorsIndexPage() {
             </Link>
           ))}
         </div>
-      </main>
 
+        {/* Tutor enquiry form */}
+        <section className="mt-16 max-w-xl mx-auto">
+          <h2 className="text-2xl font-black text-slate-900 mb-2 text-center">
+            Can't find your city? Send a general enquiry
+          </h2>
+          <p className="text-slate-500 text-sm mb-6 text-center">
+            Fill in the form below and we'll get back to you with tutor support options for your area.
+          </p>
+          <TutorEnquiryForm />
+        </section>
+      </main>
       <SiteFooter />
     </div>
   );
