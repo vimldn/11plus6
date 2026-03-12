@@ -18,44 +18,55 @@ export default function TutorsIndexPage() {
     <div className="min-h-screen bg-white">
       <SiteNav />
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-        <div className="max-w-3xl">
-          <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
-            11 Plus tutor support by city
-          </h1>
-          <p className="text-lg text-slate-600 leading-relaxed">
-            These pages are designed for families looking for targeted help. You'll find a short overview of local 11+ context,
-            plus a quick enquiry form if you'd like to speak to a tutor.
-          </p>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10">
-          {[
-            {
-              icon: Shield,
-              title: 'Exam-focused',
-              desc: 'Guidance centred on realistic exam practice and topic coverage — not gimmicks.',
-            },
-            {
-              icon: BookOpen,
-              title: 'Local context',
-              desc: 'City guides with practical pointers for preparing for grammar and selective schools.',
-            },
-            {
-              icon: Users,
-              title: 'Tutor enquiries',
-              desc: 'A simple enquiry form to request tutor support in your area.',
-            },
-          ].map((f) => (
-            <div key={f.title} className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-              <div className="w-11 h-11 rounded-2xl bg-white border border-slate-100 flex items-center justify-center mb-4 text-indigo-600">
-                <f.icon size={20} />
-              </div>
-              <div className="font-bold text-slate-900 mb-1">{f.title}</div>
-              <div className="text-sm text-slate-600 leading-relaxed">{f.desc}</div>
+        {/* Hero + Form */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+          <div className="lg:col-span-2">
+            <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
+              11 Plus tutor support by city
+            </h1>
+            <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
+              These pages are designed for families looking for targeted help. You'll find a short overview of local 11+ context,
+              plus a quick enquiry form if you'd like to speak to a tutor.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-8">
+              {[
+                {
+                  icon: Shield,
+                  title: 'Exam-focused',
+                  desc: 'Guidance centred on realistic exam practice and topic coverage — not gimmicks.',
+                },
+                {
+                  icon: BookOpen,
+                  title: 'Local context',
+                  desc: 'City guides with practical pointers for preparing for grammar and selective schools.',
+                },
+                {
+                  icon: Users,
+                  title: 'Tutor enquiries',
+                  desc: 'A simple enquiry form to request tutor support in your area.',
+                },
+              ].map((f) => (
+                <div key={f.title} className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
+                  <div className="w-11 h-11 rounded-2xl bg-white border border-slate-100 flex items-center justify-center mb-4 text-indigo-600">
+                    <f.icon size={20} />
+                  </div>
+                  <div className="font-bold text-slate-900 mb-1">{f.title}</div>
+                  <div className="text-sm text-slate-600 leading-relaxed">{f.desc}</div>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+
+          <aside className="lg:col-span-1">
+            <div className="sticky top-20">
+              <TutorEnquiryForm />
+            </div>
+          </aside>
         </div>
 
+        {/* City grid */}
         <h2 className="text-2xl font-black text-slate-900 mt-14 mb-4">Choose your city</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
           {UK_CITIES.map((city) => (
@@ -70,17 +81,6 @@ export default function TutorsIndexPage() {
             </Link>
           ))}
         </div>
-
-        {/* Tutor enquiry form */}
-        <section className="mt-16 max-w-xl mx-auto">
-          <h2 className="text-2xl font-black text-slate-900 mb-2 text-center">
-            Can't find your city? Send a general enquiry
-          </h2>
-          <p className="text-slate-500 text-sm mb-6 text-center">
-            Fill in the form below and we'll get back to you with tutor support options for your area.
-          </p>
-          <TutorEnquiryForm />
-        </section>
       </main>
       <SiteFooter />
     </div>
