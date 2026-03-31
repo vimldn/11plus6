@@ -3,9 +3,14 @@ import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { orgSchema, websiteSchema } from '@/lib/schemas'
+
 const inter = Inter({ subsets: ['latin'] })
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.11plusexampapers.com'),
+  verification: {
+    google: 'UiCeUVGtdMJYcWPpItvwQKKu8oJMG3l2w9wMKXxYQwc',
+  },
   title: {
     default: '11 Plus Exam Papers',
     template: '%s | 11 Plus Exam Papers',
@@ -37,10 +42,12 @@ export const metadata: Metadata = {
     images: ['/og-default.png'],
   },
 }
+
 const siteSchema = {
   '@context': 'https://schema.org',
   '@graph': [orgSchema, websiteSchema],
 }
+
 export default function RootLayout({
   children,
 }: {
