@@ -9,7 +9,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.11plusexampapers.com'),
   verification: {
-    google: 'UiCeUVGtdMJYcWPpItvwQKKu8oJMG3l2w9wMKXxYQwc',
+    google: [
+      'UiCeUVGtdMJYcWPpItvwQKKu8oJMG3l2w9wMKXxYQwc',
+      'brTYIrho6w8V_AZQkfXaA8ltrgd82zf5dGiJjTHXAWE',
+    ],
   },
   title: {
     default: '11 Plus Exam Papers',
