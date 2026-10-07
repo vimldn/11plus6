@@ -1,7 +1,8 @@
 // lib/cityData.ts
 // Unique 11+ context per city — used to differentiate tutor city pages.
-// Each entry provides: local grammar schools, exam board used, county/area
-// context, and a short intro paragraph specific to that city.
+// Entries distinguish school-specific admissions and entry stages.
+// grammarSchools is a legacy field name; lists may include clearly labelled independent schools.
+// Factual repair reviewed 7 October 2026; future-cycle formats require school confirmation.
 
 export interface CityData {
   examBoard: string;
@@ -14,10 +15,9 @@ export interface CityData {
 
 export const CITY_DATA: Record<string, CityData> = {
   birmingham: {
-    examBoard: 'GL Assessment',
+    examBoard: "West Midlands shared test: check current guidance",
     countyContext: 'Birmingham and the West Midlands',
-    intro:
-      'Birmingham has a strong selective school tradition, with several highly oversubscribed grammar schools drawing applicants from across the West Midlands. Competition is intense — many schools receive five or more applications per place — so structured, early preparation is essential.',
+    intro: "Birmingham grammar-school applications require attention to the shared entrance-test arrangements and each school’s admissions criteria. A qualifying score alone does not guarantee a place.",
     grammarSchools: [
       'King Edward VI Handsworth School for Girls',
       'King Edward VI Aston School',
@@ -26,8 +26,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'King Edward VI Five Ways School',
       'Sutton Coldfield Grammar School for Girls',
     ],
-    prepTip:
-      'Birmingham 11+ papers use GL Assessment-style multiple choice. Timed practice under exam conditions is particularly important given the high competition for places.',    nearbyAreas: [
+    prepTip: "Use the official West Midlands registration guidance and the target school’s policy for the relevant entry year. Check eligibility, priority criteria and the separate secondary-school application.",    nearbyAreas: [
       'Solihull',
       'Wolverhampton',
       'Walsall',
@@ -44,17 +43,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   bristol: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Bristol and South Gloucestershire',
-    intro:
-      'Bristol and the surrounding South Gloucestershire area have a small number of selective grammar schools. Many families also consider independent schools in the city, which set their own entrance papers. Preparation typically needs to cover both GL-style and school-set formats.',
-    grammarSchools: [
-      'Colston\'s Girls\' School (selective stream)',
-      'Bristol Grammar School (independent with bursaries)',
-      'Redmaids\' High School',
-    ],
-    prepTip:
-      'Some Bristol independent schools use ISEB Pre-Test alongside their own papers. Check the admissions page of each target school carefully before starting preparation.',    nearbyAreas: [
+    intro: "Bristol families considering entrance assessments should distinguish independent-school applications from the council secondary-school application. Bristol Grammar School is an independent school; its name does not make it a state grammar school.",
+    grammarSchools: ["Bristol Grammar School (independent)"],
+    prepTip: "Ask each school for its current entry-year assessment information. Bristol Grammar School publishes its own assessment arrangements; do not assume a city-wide GL test.",    nearbyAreas: [
       'Bath',
       'Clevedon',
       'Weston-super-Mare',
@@ -71,17 +64,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   cardiff: {
-    examBoard: 'School-set papers',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Cardiff and South Wales',
-    intro:
-      'Cardiff does not operate the English grammar school system, but several high-performing Welsh-medium schools and selective independent schools use entrance assessments. Families targeting top independent schools in Cardiff should prepare for school-set English, Maths, and reasoning papers.',
-    grammarSchools: [
-      'Cardiff Sixth Form College (senior entry)',
-      'Howells School Cardiff (independent)',
-      'Cardiff High School (catchment-based with high attainment)',
-    ],
-    prepTip:
-      'For Welsh-medium selective schools, strong literacy in both English and Welsh is an advantage. Independent school assessments in Cardiff typically test Maths and English comprehension.',    nearbyAreas: [
+    intro: "Cardiff secondary admissions and independent-school entrance assessments are different processes. Howell’s School, Llandaff offers a Year 7 admissions route. Welsh-medium education should not be described as a selective 11+ system.",
+    grammarSchools: ["Howell’s School, Llandaff (independent)"],
+    prepTip: "Confirm the assessment date and intended entry year with the school. Do not use sixth-form admissions criteria to plan preparation for an 11-year-old.",    nearbyAreas: [
       'Newport',
       'Penarth',
       'Barry',
@@ -98,18 +85,16 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   coventry: {
-    examBoard: 'GL Assessment',
+    examBoard: "Warwickshire / West Midlands test: check current guidance",
     countyContext: 'Coventry and Warwickshire',
-    intro:
-      'Coventry sits close to some of the most competitive grammar school areas in the Midlands. Families in and around the city often target grammar schools in Warwickshire, which use GL Assessment-style papers and have strict catchment and distance criteria.',
+    intro: "Families in Coventry considering Warwickshire grammar schools should check each school’s priority criteria as well as the shared entrance-test registration. Warwickshire includes selective places at the bilateral Ashlawn School.",
     grammarSchools: [
       'Lawrence Sheriff School (Rugby)',
       'Rugby High School for Girls',
       'Ashlawn School (selective places)',
       'Alcester Grammar School',
     ],
-    prepTip:
-      'Warwickshire grammar schools use GL Assessment format. Registration typically opens in the summer term of Year 5 — check dates early as missing the deadline bars entry.',    nearbyAreas: [
+    prepTip: "Check the official Warwickshire guidance for test registration and submit the separate school application through your home local authority. Do not assume living outside Warwickshire prevents test registration.",    nearbyAreas: [
       'Leamington Spa',
       'Rugby',
       'Kenilworth',
@@ -126,17 +111,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   derby: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Derby and Derbyshire',
-    intro:
-      'Derby has a small selective school sector, with grammar schools in and around the city drawing from a wide catchment. Some families in Derbyshire also consider selective schools across the border in Nottinghamshire. GL Assessment multiple-choice papers are the standard format.',
-    grammarSchools: [
-      'Derbys Grammar School (independent)',
-      'Ecclesbourne School (partial selection)',
-      'Silverhill School (independent prep)',
-    ],
-    prepTip:
-      'For fully selective grammar schools near Derby, Verbal Reasoning and Non-Verbal Reasoning are tested alongside Maths and English. Starting preparation in Year 4 is advisable.',    nearbyAreas: [
+    intro: "For Derby families exploring independent-school entry, Derby Grammar School has its own admissions process. Avoid choosing practice materials on the assumption that Derby has a shared GL grammar-school test.",
+    grammarSchools: ["Derby Grammar School (independent)"],
+    prepTip: "Ask admissions for the correct year-group assessment and any familiarisation material before selecting practice papers.",    nearbyAreas: [
       'Nottingham',
       'Burton upon Trent',
       'Belper',
@@ -153,19 +132,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   edinburgh: {
-    examBoard: 'School-set papers',
+    examBoard: "School-specific Scottish admissions",
     countyContext: 'Edinburgh and the Lothians',
-    intro:
-      'Scotland does not operate grammar schools, but Edinburgh has several high-achieving independent schools that use competitive entrance assessments. These typically include Maths, English comprehension, and creative writing papers set by the schools themselves.',
-    grammarSchools: [
-      'George Heriot\'s School',
-      'The Edinburgh Academy',
-      'George Watson\'s College',
-      'Fettes College',
-      'St George\'s School for Girls',
-    ],
-    prepTip:
-      'Edinburgh independent school assessments place a strong emphasis on written English, including creative writing tasks. Practice should include timed essay and comprehension work alongside Maths.',    nearbyAreas: [
+    intro: "Edinburgh independent-school applications use Scottish year groups and school-specific assessments. George Watson’s College lists Primary 6, Primary 7 and Senior 1 among its entry points, so confirm the appropriate stage rather than assuming an English Year 7 route.",
+    grammarSchools: ["George Watson’s College (independent)"],
+    prepTip: "Check the school’s guidance for your child’s age and stage. George Watson’s describes its assessments as age-appropriate and based on education to date, rather than a common English 11+ paper.",    nearbyAreas: [
       'Leith',
       'Musselburgh',
       'Dalkeith',
@@ -182,19 +153,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   glasgow: {
-    examBoard: 'School-set papers',
+    examBoard: "School-specific Scottish admissions",
     countyContext: 'Glasgow and the West of Scotland',
-    intro:
-      'Like Edinburgh, Glasgow operates under the Scottish education system without grammar schools. However, several independent day schools in the city hold competitive entry assessments for S1 (Year 7 equivalent) entry. Preparation focuses on Maths and English papers set by individual schools.',
-    grammarSchools: [
-      'The Glasgow Academy',
-      'Glasgow High School',
-      'Kelvinside Academy',
-      'Hutchesons\' Grammar School',
-      'St Aloysius\' College',
-    ],
-    prepTip:
-      'Hutchesons\' Grammar School is one of the most competitive independent schools in Scotland. Its entrance exam covers Maths, English, and Verbal Reasoning — start preparation at least a year in advance.',    nearbyAreas: [
+    intro: "Glasgow independent-school admissions should be planned around the Scottish year group and the individual school’s requirements. Hutchesons’ Grammar School is an independent school, and its assessments vary by entry stage.",
+    grammarSchools: ["Hutchesons’ Grammar School (independent)"],
+    prepTip: "Hutchesons’ states that extensive preparation is not expected. Follow its current assessment guidance instead of assuming a fixed maths, English and verbal-reasoning paper.",    nearbyAreas: [
       'Paisley',
       'Hamilton',
       'Motherwell',
@@ -211,19 +174,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   leeds: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Leeds and West Yorkshire',
-    intro:
-      'Leeds has a selective school sector drawing from across West Yorkshire. Grammar schools in and around the city are highly sought after, with competition particularly strong in areas like Harrogate and Bradford. GL Assessment-style papers are used, covering Verbal Reasoning, Non-Verbal Reasoning, English, and Maths.',
-    grammarSchools: [
-      'Roundhay School (selective places)',
-      'Lawnswood School (selective stream)',
-      'Bradford Grammar School (independent)',
-      'Harrogate Grammar School',
-      'St Aidan\'s Church of England High School',
-    ],
-    prepTip:
-      'West Yorkshire grammar schools use GL Assessment. The pass mark varies year to year based on cohort performance — aim for consistent practice scores well above 80% before the exam.',    nearbyAreas: [
+    intro: "The Grammar School at Leeds is an independent school. Families should establish the admissions route of each target school rather than assume that a school with “grammar” in its name uses a shared state-school 11+ test.",
+    grammarSchools: ["The Grammar School at Leeds (independent)"],
+    prepTip: "Check entry requirements and fees or bursary arrangements directly with the school. A practice percentage is not an admission guarantee.",    nearbyAreas: [
       'Bradford',
       'Harrogate',
       'Wakefield',
@@ -240,18 +195,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   leicester: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Leicester and Leicestershire',
-    intro:
-      'Leicester and the surrounding Leicestershire area have a number of selective grammar schools, some of which are among the most oversubscribed in the East Midlands. The 11+ tests use GL Assessment format, and registration deadlines are typically in early summer of Year 5.',
-    grammarSchools: [
-      'Dixie Grammar School',
-      'Hinckley Academy and John Cleveland Sixth Form',
-      'Manor High School (Academy)',
-      'Gateway College',
-    ],
-    prepTip:
-      'Leicestershire grammar schools are competitive. Focus on timed GL Assessment practice papers from Year 4 onwards, with particular attention to Non-Verbal Reasoning which many children find unfamiliar.',    nearbyAreas: [
+    intro: "Leicester Grammar School offers an independent-school Year 7 entry route. Its admissions arrangements should not be applied to other Leicester or Leicestershire secondary schools.",
+    grammarSchools: ["Leicester Grammar School (independent)"],
+    prepTip: "Use the school’s assessment information for the correct entry year. Separate Year 7 requirements from sixth-form entry and do not assume one county-wide test.",    nearbyAreas: [
       'Loughborough',
       'Hinckley',
       'Coalville',
@@ -268,10 +216,9 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   liverpool: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific tests",
     countyContext: 'Liverpool and Merseyside',
-    intro:
-      'Merseyside has a significant grammar school sector, with several highly regarded schools in Wirral, Southport, and the wider Liverpool area. These schools are popular and competitive, drawing from a broad geographic catchment. GL Assessment papers are used throughout the region.',
+    intro: "Liverpool and Wirral offer different school admissions routes, including state selective schools and independent schools. Do not assume that one test or registration covers every school in Merseyside.",
     grammarSchools: [
       'Calday Grange Grammar School',
       'West Kirby Grammar School for Girls',
@@ -280,8 +227,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Liverpool Blue Coat School',
       'Merchant Taylors\' School Crosby',
     ],
-    prepTip:
-      'Wirral grammar schools are especially competitive. Some schools in this area also interview shortlisted candidates — check individual admissions policies carefully.',    nearbyAreas: [
+    prepTip: "Check which schools share a test, and which need separate registration. Use the current school policy rather than a regional assumption about papers or interviews.",    nearbyAreas: [
       'Wirral',
       'St Helens',
       'Warrington',
@@ -298,10 +244,9 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   london: {
-    examBoard: 'GL Assessment / CEM / School-set',
+    examBoard: "School-specific tests",
     countyContext: 'London and the Home Counties',
-    intro:
-      'London has one of the most varied and competitive selective school landscapes in England. North London grammar schools (such as those in Barnet and Enfield) use GL Assessment format, while South London consortium schools (including the SET exam) use a different style. Many top independent schools use ISEB Pre-Test or their own papers.',
+    intro: "London entrance assessments vary by school, consortium and stage. A borough or a provider name alone does not tell you which subjects your child will sit. Grammar-school and independent-school applications also follow different processes.",
     grammarSchools: [
       'Queen Elizabeth\'s School Barnet',
       'The Henrietta Barnett School',
@@ -313,8 +258,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Wilson\'s School',
       'St Olave\'s Grammar School',
     ],
-    prepTip:
-      'London\'s grammar schools are among the most competitive in England. Many children sit multiple tests (North London GL, South London SET, and independent school assessments) — tailor your preparation to each format.',    nearbyAreas: [
+    prepTip: "List the subjects and stages for each target school from its official admissions policy. Keep test registration, any second-stage assessment and the school application deadline separate.",    nearbyAreas: [
       'Barnet',
       'Sutton',
       'Kingston upon Thames',
@@ -331,10 +275,9 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   manchester: {
-    examBoard: 'GL Assessment / CEM',
+    examBoard: "School-specific: confirm provider and cycle",
     countyContext: 'Greater Manchester and Cheshire',
-    intro:
-      'Greater Manchester has a strong selective school sector, with grammar schools in Trafford, Sale, and Altrincham consistently ranking among the highest-performing in the country. Competition is fierce, and the Trafford schools use CEM-style assessments which differ from the more common GL format.',
+    intro: "Greater Manchester families may consider the Trafford grammar schools, but consortium membership and individual school arrangements matter. Do not rely on older references to CEM when choosing preparation for a 2027 exam.",
     grammarSchools: [
       'Altrincham Grammar School for Boys',
       'Altrincham Grammar School for Girls',
@@ -343,8 +286,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Urmston Grammar School',
       'Loreto Grammar School',
     ],
-    prepTip:
-      'Trafford grammar schools use CEM-style papers, which are designed to be less coachable and less predictable than GL Assessment. Focus on building genuine underlying skills rather than drilling question types.',    nearbyAreas: [
+    prepTip: "Read the current Trafford consortium announcement and each target school’s policy for the intended entry year before buying provider-specific papers. Other Trafford schools may have separate arrangements.",    nearbyAreas: [
       'Salford',
       'Stockport',
       'Oldham',
@@ -361,18 +303,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   newcastle: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Newcastle and the North East',
-    intro:
-      'Newcastle and the wider North East has a selective school sector with grammar schools in areas including North Tyneside and County Durham. The region is less saturated than London or the Midlands, but schools are still competitive and preparation is important.',
-    grammarSchools: [
-      'Royal Grammar School Newcastle (independent)',
-      'Dame Allan\'s Schools',
-      'Newcastle High School for Girls (GDST)',
-      'Emmanuel College Gateshead (selective places)',
-    ],
-    prepTip:
-      'North East independent schools often run their own entrance assessments in addition to or instead of GL-style tests. Contact your target schools directly to confirm the exact format used.',    nearbyAreas: [
+    intro: "Royal Grammar School Newcastle is an independent school with its own senior-school admissions process. Families should check target schools individually rather than assume a shared North East grammar-school exam.",
+    grammarSchools: ["Royal Grammar School Newcastle (independent)"],
+    prepTip: "Confirm the school’s current assessment and application requirements, including which entry year the published dates cover.",    nearbyAreas: [
       'Gateshead',
       'Sunderland',
       'Durham',
@@ -389,18 +324,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   nottingham: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Nottingham and Nottinghamshire',
-    intro:
-      'Nottingham has a selective school sector with grammar schools serving the city and surrounding Nottinghamshire. The 11+ uses GL Assessment-style papers, and several schools are highly regarded for academic outcomes. Independent schools in Nottingham also hold their own entrance assessments.',
-    grammarSchools: [
-      'Nottingham High School (independent)',
-      'Nottingham Girls\' High School (GDST)',
-      'The Becket School (selective sixth form entry)',
-      'Bluecoat Academy (selective places)',
-    ],
-    prepTip:
-      'Nottinghamshire grammar schools use GL Assessment format. Verbal Reasoning and Non-Verbal Reasoning are typically the most discriminating sections — prioritise these alongside Maths.',    nearbyAreas: [
+    intro: "Nottingham High School is an independent school. Families considering its entrance process should use school-specific guidance rather than assume a common Nottinghamshire 11+ examination.",
+    grammarSchools: ["Nottingham High School (independent)"],
+    prepTip: "Request current assessment guidance from the school; sixth-form academic requirements are not Year 7 entrance requirements.",    nearbyAreas: [
       'Derby',
       'Leicester',
       'Mansfield',
@@ -421,18 +349,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   oxford: {
-    examBoard: 'GL Assessment / School-set',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Oxford and Oxfordshire',
-    intro:
-      'Oxford and Oxfordshire have grammar schools in several areas including Abingdon, Henley, and Wallingford, as well as highly competitive independent schools. The county uses GL Assessment-style papers for state grammar schools. Oxford\'s independent schools, including some of the most prestigious in England, set their own entrance assessments.',
-    grammarSchools: [
-      'Abingdon School (independent)',
-      'Oxford High School (GDST, independent)',
-      'Cherwell School (academy with selective places)',
-      'Wheatley Park School',
-    ],
-    prepTip:
-      'For Oxford independent schools, preparation should include verbal reasoning, mathematical problem solving, and strong written English. Some schools also require a creative writing sample at interview stage.',    nearbyAreas: [
+    intro: "Oxford High School offers an independent-school senior admissions route. Its assessment process should not be presented as an Oxfordshire-wide state grammar-school test.",
+    grammarSchools: ["Oxford High School (independent)"],
+    prepTip: "Check the entry year, assessment day and bursary deadlines separately. Select preparation only after confirming the school’s current requirements.",    nearbyAreas: [
       'Abingdon',
       'Witney',
       'Didcot',
@@ -449,10 +370,9 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   reading: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific: confirm provider and cycle",
     countyContext: 'Reading and Berkshire',
-    intro:
-      'Berkshire has a strong selective school tradition, particularly in Reading, Slough, and Windsor. Grammar schools in this area are competitive and use GL Assessment format. Slough and Eton consortium schools are among the most oversubscribed in the South East.',
+    intro: "Reading School, Kendrick and the Slough grammar schools have distinct admissions arrangements. Reading School’s published information for September 2027 entry identifies FSCE; it should not be described as part of a single Berkshire GL test.",
     grammarSchools: [
       'Reading School',
       'Kendrick School',
@@ -461,8 +381,7 @@ export const CITY_DATA: Record<string, CityData> = {
       'Langley Grammar School',
       'St Bernard\'s Catholic Grammar School',
     ],
-    prepTip:
-      'Berkshire grammar schools use GL Assessment and are among the most competitive outside London. Reading School and Kendrick School in particular have very high qualifying score thresholds.',    nearbyAreas: [
+    prepTip: "For an exam taken in 2027, find the policy for the intended school-entry year. Published 2026 test dates for September 2027 entry must not be rolled forward. Check each school’s registration separately.",    nearbyAreas: [
       'Slough',
       'Windsor',
       'Maidenhead',
@@ -479,18 +398,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   sheffield: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Sheffield and South Yorkshire',
-    intro:
-      'Sheffield has a selective school sector with grammar schools serving the city and surrounding South Yorkshire areas. Some schools in the region also admit on the basis of aptitude in specific subjects. Independent schools in Sheffield set their own entrance assessments.',
-    grammarSchools: [
-      'Sheffield High School for Girls (GDST, independent)',
-      'Birkdale School (independent)',
-      'Notre Dame High School (selective places)',
-      'King Edward VII School (partially selective)',
-    ],
-    prepTip:
-      'Sheffield grammar and selective schools use a range of formats. Check whether your target school uses GL Assessment, a school-set paper, or aptitude testing, as preparation strategies differ.',    nearbyAreas: [
+    intro: "Sheffield Girls’ offers independent senior-school admissions. Families should distinguish school-specific entrance assessments from the local authority secondary-school application process.",
+    grammarSchools: ["Sheffield Girls’ (independent)"],
+    prepTip: "Use the target school’s current senior admissions guidance rather than assuming a shared Sheffield GL test.",    nearbyAreas: [
       'Rotherham',
       'Doncaster',
       'Barnsley',
@@ -507,19 +419,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   southampton: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Southampton and Hampshire',
-    intro:
-      'Hampshire operates one of the largest selective school systems in England, with grammar schools across Southampton, Winchester, Alton, and Basingstoke. The county uses GL Assessment-style papers and has its own Hampshire 11+ process with a shared registration system.',
-    grammarSchools: [
-      'King Edward VI School Southampton',
-      'Bargate School',
-      'The Mountbatten School',
-      'Peter Symonds College (selective sixth form)',
-      'Henry Beaufort School Winchester',
-    ],
-    prepTip:
-      'Hampshire grammar schools use GL Assessment and have a shared registration deadline in the spring of Year 5. Missing this deadline means your child cannot sit the test — check dates carefully.',    nearbyAreas: [
+    intro: "Families considering King Edward VI School in Southampton should follow its independent-school admissions process. Do not assume that Hampshire has a shared county-wide 11+ registration system.",
+    grammarSchools: ["King Edward VI School Southampton (independent)"],
+    prepTip: "Contact the school about the appropriate entry route and year. Sixth-form colleges and other secondary schools should not be listed as equivalent 11+ options.",    nearbyAreas: [
       'Portsmouth',
       'Winchester',
       'Eastleigh',
@@ -536,18 +440,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   brighton: {
-    examBoard: 'School-set / GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Brighton and East Sussex',
-    intro:
-      'Brighton and Hove has a small selective school sector alongside a number of well-regarded independent schools. East Sussex grammar schools use GL Assessment-style papers, while independent schools in Brighton set their own entrance assessments covering English and Maths.',
-    grammarSchools: [
-      'Brighton College (independent)',
-      'Roedean School (independent)',
-      'Hove Park School (partially selective)',
-      'Lewes Old Grammar School',
-    ],
-    prepTip:
-      'For independent schools in Brighton, English comprehension and creative writing carry significant weight alongside Maths. Start preparation early and include regular timed writing practice.',    nearbyAreas: [
+    intro: "Brighton College offers 11+ entry into its Lower School. Families should check each independent school’s admissions route rather than assume a common Brighton or East Sussex grammar-school test.",
+    grammarSchools: ["Brighton College (independent)"],
+    prepTip: "Confirm the correct entry point: Brighton College distinguishes 11+ Lower School entry from its Prep School. Check availability and application dates directly.",    nearbyAreas: [
       'Hove',
       'Worthing',
       'Lewes',
@@ -564,18 +461,11 @@ export const CITY_DATA: Record<string, CityData> = {
   },
 
   bradford: {
-    examBoard: 'GL Assessment',
+    examBoard: "School-specific independent admissions",
     countyContext: 'Bradford and West Yorkshire',
-    intro:
-      'Bradford sits within the West Yorkshire grammar school belt, with selective schools in Bradford, Bingley, and the surrounding area. Grammar schools here are competitive and popular with families across the district. GL Assessment-style papers are used for all state grammar school entry in the area.',
-    grammarSchools: [
-      'Bradford Grammar School (independent)',
-      'Bingley Grammar School',
-      'Beckfoot Upper Heaton',
-      'Thornton Grammar School',
-    ],
-    prepTip:
-      'Bradford Grammar School is an independent school with its own entrance exam, while state grammar schools in the area use GL Assessment. Make sure your preparation matches the format of your specific target schools.',    nearbyAreas: [
+    intro: "Bradford Grammar School is independent and lists Year 7 as a main entry point. A school’s historical name does not establish whether it selects pupils through an 11+ test.",
+    grammarSchools: ["Bradford Grammar School (independent)"],
+    prepTip: "Check the individual school’s current admissions process and familiarisation information. Do not assume all schools around Bradford use the same provider.",    nearbyAreas: [
       'Leeds',
       'Halifax',
       'Bingley',
@@ -597,11 +487,11 @@ export const CITY_DATA: Record<string, CityData> = {
  */
 export function getCityData(slug: string): CityData {
   return CITY_DATA[slug] ?? {
-    examBoard: 'GL Assessment',
+    examBoard: 'Confirm with the target school',
     countyContext: slug.charAt(0).toUpperCase() + slug.slice(1),
-    intro: `Families in and around ${slug.charAt(0).toUpperCase() + slug.slice(1)} preparing for the 11+ should confirm which schools they are targeting and the test style used — GL Assessment-style multiple choice, CEM-style formats, or school-set papers.`,
+    intro: `Families in and around ${slug.charAt(0).toUpperCase() + slug.slice(1)} should confirm each target school’s admissions route, entry year and assessment requirements before choosing preparation materials.`,
     grammarSchools: [],
-    prepTip: 'Start preparation in Year 4 or early Year 5, focusing on timed practice papers and reviewing mistakes carefully.',
+    prepTip: 'Use current official admissions guidance and age-appropriate practice. Confirm the exam year separately from the school-entry year.',
     nearbyAreas: [],
   };
 }

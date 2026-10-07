@@ -75,13 +75,13 @@ export default function TutorCityPageClient({ city }: { city: City }) {
 
           {/* Exam board badge */}
           <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-violet-50 rounded-xl border border-violet-100 text-violet-700 text-sm font-bold">
-            <BookOpen size={15} /> Exam format in this area: {cityData.examBoard}
+            <BookOpen size={15} /> Admissions context: {cityData.examBoard}
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
             {[
               { icon: School,    title: 'Exam context',      desc: `${cityData.examBoard} format` },
-              { icon: BookOpen,  title: 'Core subjects',     desc: 'Maths, English, VR & NVR' },
+              { icon: BookOpen,  title: 'Preparation',     desc: 'Match your target school’s requirements' },
               { icon: Shield,    title: 'Practical guidance', desc: 'Clear steps to plan revision' },
             ].map((c) => (
               <div key={c.title} className="p-5 rounded-2xl bg-slate-50 border border-slate-100">
@@ -98,10 +98,10 @@ export default function TutorCityPageClient({ city }: { city: City }) {
           {cityData.grammarSchools.length > 0 && (
             <section className="mt-12">
               <h2 className="text-2xl font-black text-slate-900 mb-3">
-                Grammar and selective schools in {cityData.countyContext}
+                Schools to research in {cityData.countyContext}
               </h2>
               <p className="text-slate-600 mb-5">
-                The following selective schools are commonly targeted by families in this area. Each school may use a different exam format — always check the individual admissions page for the latest details.
+                These examples include different school types and entry routes. Check each school’s admissions policy, entry age and assessment requirements for the year your child will join.
               </p>
               <ul className="space-y-2">
                 {cityData.grammarSchools.map((school) => (
@@ -132,10 +132,10 @@ export default function TutorCityPageClient({ city }: { city: City }) {
           {cityData.nearbyAreas.length > 0 && (
             <section className="mt-12">
               <h2 className="text-2xl font-black text-slate-900 mb-2">
-                Areas Around {city.label} We Serve
+                Nearby areas around {city.label}
               </h2>
               <p className="text-slate-500 text-sm mb-6">
-                Our 11+ resources and support are available to families across {city.label} and the surrounding area. Wherever you are based, we can help your child prepare with confidence.
+                Families in these nearby areas can use our online practice resources. A tutor enquiry is a request for support, not confirmation of local tutor availability.
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {cityData.nearbyAreas.map((area) => (

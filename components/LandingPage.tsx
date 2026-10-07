@@ -4,15 +4,17 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
-  Brain, Trophy, Sparkles, Target, Zap, Check, Star,
+  Brain, Trophy, Sparkles, Target, Zap, Check,
   ArrowRight, ShieldCheck, Mail, HelpCircle, GraduationCap, CheckCircle,
 } from 'lucide-react';
 import { SiteNav } from './SiteNav';
 import { SiteFooter } from './SiteFooter';
 
-interface LandingPageProps {}
+interface LandingPageProps {
+  faqs: { q: string; a: string }[];
+}
 
-export const LandingPage: React.FC<LandingPageProps> = () => {
+export const LandingPage: React.FC<LandingPageProps> = ({ faqs }) => {
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -43,11 +45,11 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
             </motion.div>
 
             <motion.h1 variants={itemVariants} className="text-5xl sm:text-7xl font-black text-slate-900 tracking-tight mb-6 leading-[1.1]">
-              11+ <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">exam preparation</span> built for real exam conditions.
+              11+ <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">exam preparation</span> for your next step.
             </motion.h1>
 
             <motion.p variants={itemVariants} className="text-lg sm:text-xl text-slate-500 font-medium mb-10 max-w-xl leading-relaxed">
-              High-quality 11+ practice for grammar and independent schools. Build confidence in Maths, English, Verbal and Non-Verbal Reasoning with clear explanations and structured practice.
+              Original 11+ practice for families preparing for grammar and independent school entrance exams in 2027. Build confidence in Maths, English, Verbal and Non-Verbal Reasoning with clear explanations and structured practice.
             </motion.p>
 
             <motion.div variants={itemVariants} className="w-full max-w-lg mb-10 flex flex-col items-center lg:items-start">
@@ -66,7 +68,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
               {/* Secondary CTAs */}
               <div className="mt-4 flex flex-wrap justify-center lg:justify-start gap-3">
                 <Link href="/schools" className="inline-flex items-center justify-center px-5 py-3 rounded-full border border-indigo-200 bg-indigo-50 text-indigo-700 font-bold hover:bg-indigo-100 transition-colors">
-                  School-specific mock exams
+                  Explore schools and practice
                 </Link>
               </div>
 
@@ -76,23 +78,6 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
               </div>
             </motion.div>
 
-            {/* Social Proof */}
-            <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center gap-4 p-4 bg-slate-50/80 rounded-2xl border border-slate-100">
-              <div className="flex -space-x-3">
-                {[1,2,3,4,5].map(i => (
-                  <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
-                    <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i*13}`} alt="User" />
-                  </div>
-                ))}
-              </div>
-              <div className="flex flex-col text-sm">
-                <div className="flex items-center gap-1">
-                  <div className="flex text-amber-400">{[1,2,3,4,5].map(i => <Star key={i} size={14} fill="currentColor" />)}</div>
-                  <span className="font-bold text-slate-800">Trusted approach</span>
-                </div>
-                <span className="font-medium text-slate-500">Used by families preparing for the 11+</span>
-              </div>
-            </motion.div>
           </motion.div>
 
           {/* Hero Image */}
@@ -118,7 +103,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
                 </div>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">Maths Quiz</p>
-                  <p className="text-emerald-600 text-xs font-bold">Full marks!</p>
+                  <p className="text-emerald-600 text-xs font-bold">Worked answers</p>
                 </div>
               </div>
               <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-md p-3 rounded-2xl shadow-lg border border-white/50 animate-bounce-slow animation-delay-2000">
@@ -151,13 +136,13 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
 
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="order-1 lg:order-2">
               <div className="w-12 h-12 rounded-2xl bg-indigo-100 text-indigo-600 flex items-center justify-center mb-6"><Target size={24} /></div>
-              <h2 className="text-3xl sm:text-5xl font-black text-slate-900 mb-6 tracking-tight">Mock exams that reflect real exam structure</h2>
-              <p className="text-lg text-slate-600 mb-8 leading-relaxed">Our mock exams are built to feel like the real thing: clear sections, realistic timing, and familiar 11+ question formats.</p>
+              <h2 className="text-3xl sm:text-5xl font-black text-slate-900 mb-6 tracking-tight">Build confidence with timed practice</h2>
+              <p className="text-lg text-slate-600 mb-8 leading-relaxed">Practise answering questions within a time limit, then review your answers. Our original practice is not an official past paper or a guarantee of any school’s exam format.</p>
               <ul className="space-y-4 mb-8">
                 {[
-                  "Structured, timed mock exams using our existing quiz engine",
+                  "Timed online practice sessions",
                   "Clear marking and explanations to support focused revision",
-                  "Designed for common 11+ formats across the UK"
+                  "Subject practice to support your preparation"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 font-bold text-slate-700">
                     <div className="w-6 h-6 rounded-full bg-indigo-200 text-indigo-700 flex items-center justify-center shrink-0"><Check size={14} strokeWidth={3} /></div>
@@ -212,14 +197,14 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
       <div className="relative z-10 bg-slate-50 py-24 border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">Everything your child needs for the 11+</h2>
-            <p className="text-lg text-slate-500 max-w-2xl mx-auto">A complete 11+ curriculum aligned to the topics and question styles used in entrance exams.</p>
+            <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">Build your 11+ practice routine</h2>
+            <p className="text-lg text-slate-500 max-w-2xl mx-auto">Explore subject practice and worked examples alongside your target school’s current admissions guidance.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: Brain, bg: "bg-indigo-100", color: "text-indigo-600", border: "hover:border-indigo-100", title: "Smart progress tracking", desc: "See what to focus on next with clear progress and topic insights." },
-              { icon: Trophy, bg: "bg-emerald-100", color: "text-emerald-600", border: "hover:border-emerald-100", title: "Extensive 11+ practice", desc: "A large set of 11+ practice questions across Maths, English, Verbal and Non-Verbal Reasoning." },
-              { icon: Target, bg: "bg-amber-100", color: "text-amber-600", border: "hover:border-amber-100", title: "Exam-board aligned", desc: "Practice tailored to GL Assessment, CEM-style, ISEB Pre-Test and CSSE formats." },
+              { icon: Brain, bg: "bg-indigo-100", color: "text-indigo-600", border: "hover:border-indigo-100", title: "Worked explanations", desc: "Review the method behind an answer and revisit skills that need more practice." },
+              { icon: Trophy, bg: "bg-emerald-100", color: "text-emerald-600", border: "hover:border-emerald-100", title: "Subject practice", desc: "Explore Maths, English, Verbal Reasoning and Non-Verbal Reasoning resources." },
+              { icon: Target, bg: "bg-amber-100", color: "text-amber-600", border: "hover:border-amber-100", title: "School guidance", desc: "Explore school profiles and check official admissions information for the exam year you need." },
             ].map((f, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
                 className={`p-8 rounded-3xl bg-white border border-slate-100 ${f.border} transition-all group shadow-sm hover:shadow-xl`}>
@@ -242,7 +227,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
             <div className="hidden md:block absolute top-12 left-[16%] right-[16%] h-1 bg-slate-100 -z-10 rounded-full" />
             {[
-              { title: "Choose a mock", desc: "Pick a general or school-specific mock and sit it online — no downloads.", icon: Target, color: "blue" },
+              { title: "Choose a mock", desc: "Choose an online practice session — no downloads.", icon: Target, color: "blue" },
               { title: "Practise with structure", desc: "Use timed, exam-style practice and review clear explanations.", icon: ShieldCheck, color: "purple" },
               { title: "Get tutor support", desc: "If you want 1:1 help, use our tutor pages to send an enquiry.", icon: Mail, color: "emerald" },
             ].map((step, idx) => (
@@ -259,35 +244,6 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
         </div>
       </div>
 
-      {/* Testimonials */}
-      <div className="relative z-10 bg-slate-50 py-24 border-t border-slate-200">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">Parent Testimonials</h2>
-            <p className="text-lg text-slate-500">Real results from real families</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { name: "Sarah J.", role: "Mother of 2", text: "My daughter actually asks to do her 11+ practice now. The structured practice made such a difference." },
-              { name: "David P.", role: "Father of Tom", text: "We were struggling with Non-Verbal Reasoning until we found 11 Plus Exam Papers. The explanations are brilliant." },
-              { name: "Emily R.", role: "Parent", text: "Clear, exam-style questions and explanations made it much easier to plan our child's preparation." },
-            ].map((t, idx) => (
-              <div key={idx} className="p-8 rounded-3xl bg-white border border-slate-100 shadow-sm hover:scale-105 transition-transform duration-300">
-                <div className="flex text-amber-400 mb-4">{[1,2,3,4,5].map(i => <Star key={i} size={16} fill="currentColor" />)}</div>
-                <p className="text-slate-700 font-medium mb-6 text-lg">&ldquo;{t.text}&rdquo;</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center font-bold text-slate-500 uppercase">{t.name.charAt(0)}</div>
-                  <div>
-                    <div className="font-bold text-slate-900">{t.name}</div>
-                    <div className="text-xs font-bold text-slate-500 uppercase tracking-wide">{t.role}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
       {/* FAQ */}
       <div className="relative z-10 py-24 bg-white border-t border-slate-100">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
@@ -295,12 +251,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
             <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">Frequently Asked Questions</h2>
           </div>
           <div className="space-y-4">
-            {[
-              { q: "Is 11 Plus Exam Papers suitable for GL and CEM-style 11+ exams?", a: "Yes. You can choose your target exam style during onboarding, and practice questions will match the format and difficulty." },
-              { q: "What year groups is this for?", a: "Designed for Year 3 to Year 6 (roughly ages 7-11), including focused Year 5 and Year 6 11+ preparation." },
-              { q: "Does it work on iPads and tablets?", a: "Yes — 11 Plus Exam Papers works smoothly on iPad, Android tablets, laptops and phones." },
-              { q: "How much does it cost?", a: "Access is free for now. In future, we may add optional gated resources, but the core library will remain focused on high-quality 11+ preparation." }
-            ].map((faq, idx) => (
+            {faqs.map((faq, idx) => (
               <div key={idx} className="bg-slate-50 p-6 rounded-2xl shadow-sm border border-slate-100">
                 <h3 className="font-bold text-lg text-slate-800 mb-2 flex items-start gap-3">
                   <HelpCircle className="text-indigo-500 shrink-0 mt-1" size={20} />
@@ -340,7 +291,7 @@ export const LandingPage: React.FC<LandingPageProps> = () => {
           </div>
           <div className="mt-10 flex flex-wrap justify-center gap-6 text-sm font-bold text-slate-400">
             <span className="flex items-center gap-2"><CheckCircle size={16} className="text-emerald-400" /> Free access</span>
-            <span className="flex items-center gap-2"><CheckCircle size={16} className="text-emerald-400" /> 1,000+ questions</span>
+            <span className="flex items-center gap-2"><CheckCircle size={16} className="text-emerald-400" /> Original practice questions</span>
             <span className="flex items-center gap-2"><CheckCircle size={16} className="text-emerald-400" /> Tutor support resources</span>
           </div>
         </div>

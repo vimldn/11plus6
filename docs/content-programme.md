@@ -4,7 +4,7 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 
 ## Release policy
 
-- Start with 3–5 substantial new pages per week as a planning ceiling, not an automatic quota or SEO guarantee.
+- Publish at most three substantial new pages per weekly release; do not catch up missed batches in bulk. Corrections to existing pages are separate from this new-page ceiling.
 - Prioritise corrections to existing facts before adding more advice.
 - Every new/substantially changed educational page needs a current search-results review: intent, relevant competing URLs, entities, depth, original value and sources.
 - Length follows the problem being solved; no mechanical competitor word-count target.
@@ -12,8 +12,11 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 - Document author/reviewer honestly. Never invent educator approval, parent testimonials, school affiliation or pass-rate promises.
 - Check every original question and worked answer. Record the review actually performed. For the first maths release, the owner authorised release after independent automated answer checks; qualified educator approval must not be implied. Human pedagogical review remains recommended.
 - Draft lessons are excluded from public routes, public links and sitemaps. Preview routes exist only in development or Vercel preview and are noindex.
-- Release by an explicit reviewed status change in a later pull request; no unattended scheduled publication. Merging infrastructure must not release draft lessons.
-- Approval of a batch does not imply approval of future batches. No automated task has been scheduled.
+- Owner authorised scheduled publication on 7 October 2026: Friday mornings Europe/London, starting 9 October, up to three researched and verified new pages; Monday mornings site-health review starting 12 October. These hosted tasks use the existing Git-to-Vercel workflow.
+- Every topic must pass live UK SERP research BEFORE writing: intent, competing pages, entities, trust sources and useful depth; record a brief in the repository. Hold drafts if research or verification fails.
+- Target exams TAKEN in calendar 2027. Always distinguish exam year from school-entry year. Do not mechanically relabel old admissions data.
+- Site Search Console property is not connected; do not claim traffic, ranking, indexing or conversion outcomes without evidence.
+- Existing-URL repairs were authorised after the 7 October content audit. Proposed irreversible culls and final redirect destinations remain contingent on search/backlink evidence.
 
 ## Batch 01
 
