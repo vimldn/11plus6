@@ -234,8 +234,10 @@ interface SubjectData {
 
 export default function SubjectPageClient({
   subject,
+  children,
 }: {
   subject: SubjectData;
+  children?: React.ReactNode;
 }) {
   const router = useRouter();
 
@@ -321,6 +323,7 @@ export default function SubjectPageClient({
         </div>
       </section>
 
+      {children}
       {/* ─── Topics section ───────────────────────────────────────────────── */}
       <section className="relative overflow-hidden border-b border-slate-200">
         {/* Mobile-only background image */}

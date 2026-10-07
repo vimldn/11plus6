@@ -33,9 +33,9 @@ const SCHOOLS: SchoolEntry[] = [
   // ── GRAMMAR SCHOOLS ───────────────────────────────────────────────────────
   {
     id: 'qe-boys', name: "Queen Elizabeth's School (Barnet)", shortName: 'QE Barnet',
-    category: 'grammar', examFormat: 'GL Assessment (two-stage)',
+    category: 'grammar', examFormat: 'English and Maths (one round)',
     location: { city: 'London', area: 'Barnet, North London' }, gender: 'boys',
-    subjects: ['maths', 'english', 'verbal', 'nonverbal'],
+    subjects: ['maths', 'english'],
     officialAdmissionsUrl: 'https://www.qebarnet.co.uk/admissions-information/admissions/',
   },
   {
@@ -112,10 +112,10 @@ const SCHOOLS: SchoolEntry[] = [
   },
   {
     id: 'altrincham-girls', name: 'Altrincham Grammar School for Girls', shortName: 'AGSF',
-    category: 'grammar', examFormat: 'CEM (Trafford)',
+    category: 'grammar', examFormat: 'Trafford: GL for 2027 entry; FSCE from 2028 entry',
     location: { city: 'Manchester', area: 'Altrincham, Greater Manchester' }, gender: 'girls',
-    subjects: ['maths', 'english', 'verbal', 'nonverbal'],
-    officialAdmissionsUrl: 'https://www.aggs.trafford.sch.uk/admissions/',
+    subjects: ['maths', 'verbal', 'nonverbal'],
+    officialAdmissionsUrl: 'https://aggs.bright-futures.co.uk/admissions-2028/',
   },
   {
     id: 'pates-grammar', name: "Pate's Grammar School", shortName: "Pate's",
@@ -126,10 +126,10 @@ const SCHOOLS: SchoolEntry[] = [
   },
   {
     id: 'king-edward-vi-girls', name: 'King Edward VI High School for Girls (Birmingham)', shortName: 'KEHS',
-    category: 'grammar', examFormat: 'KEHS own papers (Maths, English, Reasoning)',
+    category: 'private', examFormat: 'KEHS own papers (Maths and English)',
     location: { city: 'Birmingham', area: 'Edgbaston, Birmingham' }, gender: 'girls',
-    subjects: ['maths', 'english', 'verbal', 'nonverbal'],
-    officialAdmissionsUrl: 'https://www.kehsbirmingham.org/admissions/',
+    subjects: ['maths', 'english'],
+    officialAdmissionsUrl: 'https://kehs.org.uk/admissions/',
   },
   {
     id: 'reading-school', name: 'Reading School', shortName: 'Reading School',

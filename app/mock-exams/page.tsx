@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import MockExamsClient from './MockExamsClient';
 
+// Render search-parameter driven content on the server instead of an empty static fallback.
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: 'Free 11+ Mock Exams Online | Grammar & Independent School Practice | 11 Plus Exam Papers',
   description:
