@@ -16,6 +16,7 @@ export interface BlogPost {
   title: string;
   desc: string;
   date: string;
+  updatedAt?: string;
   readTime: string;
   category: string;
   imageUrl: string;
@@ -27,138 +28,143 @@ export interface BlogPost {
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "what-is-the-11-plus-exam",
-    title: "What is the 11 Plus exam?",
-    desc: "Discover what the 11 Plus exam is, its purpose for grammar school entry, eligibility, formats like multiple-choice and written, plus English, Maths, verbal and non-verbal reasoning. Unlock expert insights now.",
+    title: "What is the 11 Plus exam? A parent’s guide for 2027",
+    desc: "Understand 11 Plus subjects, test formats, registration and school offers, with a practical starting checklist for exams taken in 2027.",
     date: "January 15, 2025",
-    readTime: "6 min read",
+    readTime: "4 min read",
     category: "Guide",
     imageUrl: "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_4.jpeg",
     imageAlt: "What is the 11 Plus exam?",
     images: ["https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h3", text: "Definition and Purpose" },
-      { type: "p", text: "The **11 Plus exam** identifies students with the highest academic potential for **selective secondary education**. Established post-1944 Education Act, it selects the top 25% nationally. Over 120,000 pupils sit the exam annually, according to DfE figures." },
-      { type: "p", text: "The test sorts children into **grammar schools** or comprehensive schools based on ability. Grammar schools focus on academic rigour for high achievers. Comprehensive schools offer mixed-ability education for all." },
-      { type: "p", text: "Regional variations shape the process, such as the **Kent Test** or **Bucks 11+**. Pass marks target the top 25% with standardised scores around 110 or higher. This ensures fair academic streaming across the UK." },
-      { type: "p", text: "Major regions and consortia include:" },
-      { type: "ul", items: ["**CSSE exams** for schools like Colchester Royal Grammar", "**SET exams** covering Bexley and other Kent grammars", "**Birmingham 11+** for local selective places", "Kent Test consortia", "Buckinghamshire selective process"] },
-      { type: "h3", text: "Age and Eligibility" },
-      { type: "p", text: "Children born between **1st September and 31st August** take the 11 Plus exam in September of Year 6, when they are age 10 turning 11. This timing aligns with the **secondary school transfer** process in UK education. Most selective grammar schools require pupils to meet this age criterion for eligibility." },
-      { type: "p", text: "Eligibility often hinges on your child's date of birth and the specific **regional variations** of the 11+ test. Some areas allow slight flexibility for summer-born children, but parents should check local authority guidelines early. Preparing in **Year 5** helps ensure readiness without rushing." },
-      { type: "p", text: "**Oversubscription** is common at popular grammar schools, with multiple applications per place in areas like Birmingham. Factors such as catchment areas, sibling priority, and qualifying scores determine offers. Parents can explore the appeal process if their child meets the pass threshold but misses out." },
-      { type: "p", text: "Understanding the **registration deadlines** is crucial for smooth entry. Many regions open registration months before the test date, often in the summer term of Year 5. Missing these can bar your child from sitting the exam." },
-      { type: 'table', headers: ["Region", "Test Date", "Registration", "Qualifying Score", "Examples"], rows: [["Kent", "September", "June-July", "121+", "Kent Test for grammar schools, GL Assessment format"], ["Birmingham", "September", "May-June", "Varies", "Birmingham 11+, high oversubscription with 5 apps/place"], ["Bucks", "September/October", "June-July", "121", "Bucks 11+, CEM Select papers, verbal reasoning focus"], ["London Consortium", "September", "April-May", "Top 25%", "SET exams, non-verbal reasoning emphasis"], ["CSSE", "September", "May-June", "Top performers", "CSSE exams, subject-specific maths and English"], ["Warwickshire", "September", "June", "Standardised score", "Hannon Fowler test, multiple choice questions"]] },
-      { type: "p", text: "This table highlights key details for major **11+ regions**, helping parents plan ahead. Scores are typically standardised to account for age differences within the cohort. Practice with **mock exams** like Bond Papers builds familiarity with formats such as GL Assessment or CEM Select." },
-      { type: "h3", text: "Multiple-Choice vs. Written" },
-      { type: "p", text: "**GL Assessment** offers a traditional [4-option multiple choice](/blog/11-plus-exam-format-multiple-choice-or-written) format in most exams. This style appears in about 80% of 11+ tests. It suits verbal reasoning, non-verbal reasoning, and maths papers." },
-      { type: "p", text: "CEM Select uses an unfamiliar student produced response format in around 20% of exams. Children write short answers or fill gaps without options. This tests **numeracy skills** and **quantitative reasoning** directly." },
-      { type: "p", text: "Parents should check the **provider** for their area during 11+ preparation. Practice with both styles builds exam technique and time management. Use **Bond Papers** for familiar multiple-choice drills." },
-      { type: "p", text: "Regional exams like the Kent Test or Birmingham 11+ follow GL patterns with long papers. CEM styles appear in **SW London** consortia. Tailor [practice papers](/papers) to match local **entrance exam** demands." },
-      { type: 'table', headers: ["Format", "Provider", "Question Style", "Example Question", "Regions"], rows: [["Multiple-Choice", "GL Assessment", "4 options per question, 100+ questions per paper", "What is 12 x 7? A) 74 B) 84 C) 94 D) 104", "Kent Test, Birmingham 11+, Bucks 11+"], ["Written Response", "CEM Select", "1-mark gaps, student fills in answer", "Calculate 25% of 80. _____", "SW London, some consortium exams"], ["Mixed", "CSSE, SET", "Long-form answers, essays in English", "Write a story about a lost dog. (10 marks)", "Essex, Trafford grammars"]] },
-      { type: "p", text: "Multiple-choice suits quick maths test practice with CGP guides or **Letts revision** books. Written formats demand English comprehension and spelling focus. Mock exams reveal strengths in verbal ability or **spatial reasoning**." },
-      { type: "p", text: "For grammar schools, master both via **11+ tutor** sessions or tuition centres. Track progress with **baseline tests**. This prepares Year 6 pupils for secondary school transfer." },
-      { type: "h3", text: "English" },
-      { type: "p", text: "English papers test **comprehension** (40%), vocabulary (30%), SPaG (30%) across 30-50 questions in 25-30 minutes. These sections assess literacy skills vital for the 11 Plus exam. Students face multiple choice questions or standard format responses under timed conditions." },
-      { type: "p", text: "The **English test** often starts with a **cloze passage**, typically 15 questions. Children read a short text with blanks and select words to fill them, testing context clues and grammar. For example, in a story about a family picnic, a blank might need \"shiny\" to describe a red apple." },
-      { type: "p", text: "**Synonyms and antonyms** follow with around 10 questions. Pupils choose words with similar or opposite meanings, building **vocabulary** for selective schools. Practice spotting pairs like synonym for \"happy\" as \"joyful or antonym as \"sad\"." },
-      { type: "p", text: "SPaG covers homophones, punctuation, and grammar rules. Questions ask to identify errors, like using \"there\" versus \"their\", or adding commas in lists. GL Assessment uses more multiple choice, while **CEM Select** prefers longer passages with varied formats. Refer to **Bond 11+ Books** sample pages for cloze and SPaG drills to match regional variations like Kent Test or Bucks 11+." },
-      { type: "h3", text: "Maths" },
-      { type: "p", text: "Maths tests **Year 3-6 curriculum**: arithmetic (40%), reasoning (35%), geometry (25%) - no calculator allowed. This **11+ maths test** checks numeracy skills from primary school maths. Students face questions on basic operations, problem-solving, and shapes." },
-      { type: "p", text: "The exam splits into five main **question types**. Each type builds on everyday maths topics from Year 6. Practice helps with time management in this timed section." },
-      { type: "p", text: "Common formats include **multiple choice questions** from GL Assessment or standard format in CGP 11+ Maths practice book pages 20-45. These cover **maths reasoning** and quantitative reasoning. Familiarity reduces exam stress during secondary school transfer." },
-      { type: "ul", items: ["**Mental arithmetic**: 12 questions, 60 seconds each. Examples include quick sums like 7 x 8 or 456 + 789. Speed is key for selective schools.", "**Word problems**: Real-life scenarios, such as If a train leaves at 9am and travels 60 miles in 2 hours, what time does it arrive?. Focus on extracting numbers and operations.", "**Fractions/decimals**: Simplify 3/4 + 1/2 or convert 0.75 to a fraction. Practice equivalents and calculations without aids.", "**Shape/space**: Identify angles in triangles or area of rectangles. Visualise rotations and symmetry for spatial reasoning.", "**Data handling**: Read charts or find averages from sets of numbers. Interpret pie charts or bar graphs common in entrance exams."] },
-      { type: "p", text: "For **11+ preparation**, use Bond Papers or Letts revision books alongside CGP guides. Mock exams build exam technique. An 11+ tutor offers targeted help for grammar schools like Kent Test or Bucks 11+." },
-      { type: "h3", text: "Verbal Reasoning" },
-      { type: "p", text: "**Verbal Reasoning** measures vocabulary and pattern skills via 21 question types, with 4-6 per paper in the 11 Plus exam. These questions test a child's ability to think logically with words. They appear in GL Assessment papers for grammar schools." },
-      { type: "p", text: "Practice helps build speed and accuracy for this entrance exam section. Children aged 10-11 tackle puzzles that boost **literacy skills**. Familiarity reduces exam stress during Year 6 tests." },
-      { type: "p", text: "Top types include synonyms, letter codes, and more. The **GL Verbal Reasoning Book** offers targeted practice with examples. Use it alongside Bond Papers for 11+ preparation." },
-      { type: "ul", items: ["**Synonyms**: Find words with the same meaning, like house = home.", "**Letter codes**: Convert words using a pattern, like HOUSE \u2192 KMVGI where each letter shifts forward by 3.", "**Word pairs**: Identify relationships, such as pen: ink:: knife: blade.", "**Odd one out**: Spot the different word, like apple, banana, carrot, pear (carrot is a vegetable).", "**Analogies**: Complete pairs, such as bird: fly:: fish: swim.", "**Hidden words**: Find a word inside another, like thunder hides under.", "**Sequences**: Arrange letters or words in order, like A, C, E, G (every other letter).", "**Compound words**: Combine parts, like foot + ball = football."] },
-      { type: "p", text: "Focus on multiple choice questions in standard format. Parents can track progress with mock exams. This builds confidence for selective schools." },
-      { type: "h3", text: "Non-Verbal Reasoning" },
-      { type: "p", text: "**Non-Verbal Reasoning** tests visual and spatial intelligence via shape rotation, pattern completion with no language bias. This section appears in most **11 Plus exams**, including those from GL Assessment and CEM Select. It helps selective schools assess cognitive skills beyond reading or maths." },
-      { type: "p", text: "Questions often use multiple choice formats where children spot relationships between shapes or figures. Practice builds spatial reasoning, key for grammar school entrance. Resources like the Letts Non-Verbal book offer targeted exercises." },
-      { type: "p", text: "Six core types dominate this area. They include **3D rotation** with cube faces, pattern sequences, and analogies showing shape relationships. Nets convert 2D to 3D, matrices follow Raven's style, and mirror images test reflection skills." },
-      { type: "ul", items: ["3D rotation: Imagine turning a cube to match opposite faces, like identifying which face sits next to a dotted side.", "**Pattern sequences**: Complete a row where shapes grow, shrink, or change colour step by step.", "Analogies: Spot how one pair of shapes relates, then apply to another, such as overlapping circles becoming a Venn diagram.", "**Nets**: Fold a flat net into a 3D cube and pick the correct unfolded version from options.", "**Matrices**: Fill a 3x3 grid missing one cell based on row and column rules.", "**Mirror images**: Recognise a shape flipped horizontally or vertically among distractors."] },
-      { type: "p", text: "For 11+ preparation, start with Bond Papers or CGP guides alongside Letts revision. Mock exams improve time management and exam technique, vital for year 6 pupils facing the **Eleven Plus** transfer test." },
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The 11 Plus exam is a selective entrance test taken by Year 6 pupils in the UK to gain admission to over 160 grammar schools and many independent schools. Children aged 10-11 sit this **academic selection test** as part of the secondary school transfer process. It assesses suitability for selective education paths." },
-      { type: "p", text: "The exam, often called the 11+ or Eleven Plus, focuses on cognitive and subject skills developed in primary school. Providers like [GL Assessment, CEM Select](/blog/gl-vs-cem-11-plus-what-is-the-difference), and others create papers with multiple choice questions in standard formats. Parents often use Bond Papers or CGP guides for familiarisation." },
-      { type: "p", text: "Regional variations exist, such as the Kent Test, Bucks 11+, or Birmingham 11+, with different exam boards like CSSE or SET. These tests cover [verbal reasoning, non-verbal reasoning, maths test, and English test](/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal) sections. Preparation involves practice papers, mock exams, and building exam technique." },
-      { type: "p", text: "Success depends on **time management** and core skills like numeracy skills, literacy skills, comprehension, vocabulary, and spatial reasoning. Families consider 11+ tutor support, online practice, or tuition centres starting in Year 5. The pass mark or qualifying score varies by area due to oversubscription and catchment priorities." },
-      { type: "h3", text: "Purpose of the 11 Plus Exam" },
-      { type: "p", text: "The main purpose of the 11 Plus is to identify pupils with high academic potential for grammar schools and certain **independent schools**. It acts as a transfer test at age 10-11 for September intake into selective secondary education. This helps separate students based on ability from comprehensive schools." },
-      { type: "p", text: "Exams test cognitive ability through sections like verbal ability (vocabulary, spelling, punctuation, grammar) and **non-verbal ability** (patterns, sequences). Maths reasoning and **English comprehension** evaluate subject knowledge. Tools like CAT4 sometimes supplement these assessments." },
-      { type: "p", text: "Selective schools use scores to allocate places, considering **raw score**, **standardised score**, and pass thresholds. Factors like sibling priority, distance criteria, and waiting lists influence offers. Borderline candidates may enter appeal processes." },
-      { type: "p", text: "Preparation emphasises **early preparation** with baseline tests and progress tracking. Experts recommend practice papers, **past papers**, and 11+ courses to master quantitative reasoning. Parental advice focuses on reducing exam stress through consistent routines." },
-      { type: "h3", text: "Structure and Format" },
-      { type: "p", text: "The 11+ test typically includes four core papers: English test, maths test, verbal reasoning, and **non-verbal reasoning**. Formats vary by consortium, with multiple choice questions common in GL or CEM styles. Exams last 50-60 minutes per paper." },
-      { type: "ul", items: ["**English**: Tests comprehension, vocabulary, spelling, punctuation, grammar through passages and exercises.", "**Maths**: Covers arithmetic, problem-solving, quantitative reasoning with word problems.", "**Verbal reasoning**: Involves codes, analogies, synonyms to assess language logic.", "**Non-verbal reasoning**: Features shapes, spatial reasoning, patterns for visual skills."] },
-      { type: "p", text: "Some regions use **consortium exams** like Hannon Fowler with combined papers. **Syllabus coverage** aligns with primary school curriculum up to Year 6. Students practice with Letts revision books or online platforms." },
-      { type: "p", text: "Scoring system converts raw scores to age-standardised marks. Pass thresholds adjust annually based on cohort performance. Familiarity with **exam boards** aids targeted 11+ preparation." },
-      { type: "h3", text: "Regional Variations and Exam Providers" },
-      { type: "p", text: "**Regional variations** mean no single 11 Plus exam format across the UK. Areas like Kent use the Kent Test, Bucks the Bucks 11+, and Birmingham its own version. Independent schools may set custom papers alongside state grammar requirements." },
-      { type: "p", text: "Key providers include GL Assessment for multiple-choice heavy tests, CEM Select for less predictable questions, CSSE exams with longer subject papers, and SET exams. Faith schools or academies adapt these further. Parents check local authority sites for specifics." },
-      { type: "ul", items: ["**Kent and Bucks**: Two papers combining verbal/non-verbal and maths.", "Birmingham 11+: Separate English, maths, verbal, non-verbal sections.", "**CSSE areas**: Traditional essay-style English and maths."] },
-      { type: "p", text: "Families use group classes, **one-to-one lessons**, or private tutoring tailored to local styles. Mock exams simulate exact conditions. Awareness of these differences improves **success rates** in oversubscribed areas." },
-      { type: "h2", text: "Historical Background" },
-      { type: "p", text: "Introduced by the **1944 Butler Education Act**, the 11+ created the UK's tripartite system: grammar schools for 30% of pupils, technical schools for 20%, and secondary modern schools for 50%. This 11 Plus exam aimed to select children at age 10-11 based on academic ability for secondary school transfer. RAB Butler, the Act's architect, described it as a way to provide \"education according to age, aptitude and ability\"." },
-      { type: "p", text: "Post-war implementation saw national rollout by **1944**, with grammar schools expanding rapidly. The exam tested verbal reasoning, maths and English skills to identify talent for selective schools. By the 1950s, thousands sat the Eleven Plus each year in year 6." },
-      { type: "p", text: "The **1960s comprehensive movement** challenged this, reducing grammar schools from around 1,400 to 163 as local authorities shifted to non-selective education. Circular 10/65 in the late 1960s encouraged phasing out the 11+ in favour of comprehensive schools. The 1970s saw many regions abandon the test entirely." },
-      { type: 'table', headers: ["Year", "Key Event"], rows: [["1944", "National implementation via Butler Act"], ["1960s", "Grammar schools drop from 1,400 to 163"], ["1970s", "Circular 10/65 phases out 11+"], ["2024", "Regional variations persist (e.g., Kent Test, Bucks 11+)"]] },
-      { type: "p", text: "Today, the **11+ test** survives in areas with grammar schools, using formats like GL Assessment or CEM Select. Parents prepare year 5 and year 6 children with practice papers, mock exams and tutors for this entrance exam." },
-      { type: "h2", text: "Who Takes the 11 Plus?" },
-      { type: "p", text: "Approximately **120,000 Year 6 pupils** (age 10-11) take the 11 Plus exam annually for around **30,000 selective places** across 163 state grammar schools. These children, typically in their final primary school year, sit the test to secure entry into grammar or selective secondary schools. Parents in relevant areas often start 11+ preparation in Year 5 to build skills in verbal reasoning, non-verbal reasoning, maths, and English." },
-      { type: "p", text: "The exam targets pupils in **grammar school areas** across England, where academic selection remains common. Not all Year 6 children take it, only those aiming for selective places over local comprehensives. Families consider factors like **catchment areas**, oversubscription, and sibling priority when deciding." },
-      { type: "p", text: "Regional variations mean eligibility differs by location, with some areas using consortium exams like the Kent Test or Bucks 11+. Pupils from state primaries dominate, but independent school candidates sometimes join. Early **practice papers** from GL Assessment or CEM Select help gauge readiness." },
-      { type: "p", text: "Experts recommend baseline tests in Year 5 for **progress tracking**. This identifies strengths in maths reasoning or comprehension, guiding choices like 11+ tutor sessions or mock exams. Parental advice focuses on balancing prep with wellbeing to manage exam stress." },
-      { type: "h3", text: "Eligibility by Region" },
-      { type: "p", text: "Eligibility for the 11+ test hinges on living in or near selective areas, with rules set by local authorities or consortia. In Kent, all Year 6 pupils in state schools receive the Kent Test invitation, while others must register. Birmingham's 11+ targets residents applying to its grammar schools via specific exam boards." },
-      { type: "p", text: "Buckinghamshire uses the Bucks 11+ for state grammar entry, open to local Year 6 children with registration deadlines in spring. Essex follows CSSE exams for its grammars, requiring early application. Always check council websites for exact postcode criteria and September intake dates." },
-      { type: "ul", items: ["Kent: Automatic invite for state primary pupils; registration for others.", "Birmingham: Open to city residents; uses GL Assessment format.", "Bucks: Secondary school transfer via consortium test; distance criteria apply.", "Essex: CSSE papers for select grammars; syllabus covers verbal and non-verbal reasoning.", "Other areas like Trafford or Slough: Similar local rules with SET exams or Hannon Fowler."] },
-      { type: "p", text: "Private candidates from outside areas can sometimes sit via tuition centres. Faith schools may add criteria like baptism certificates alongside **qualifying scores**. Contact admissions for appeals, waiting lists, or borderline cases." },
-      { type: "h2", text: "Exam Structure and Format" },
-      { type: "p", text: "11+ exams last 2-2.5 hours total, split across 2-4 papers (45-60 mins each) using GL Assessment or CEM Select formats. Most are paper-based, though some selective schools now offer digital versions. Parents should check the specific **grammar school** or independent school requirements for the exact setup." },
-      { type: "p", text: "Exams test core skills like **maths**, English, verbal reasoning, and non-verbal reasoning. Papers often include multiple-choice questions or standard format answers. Familiarity with the structure helps with 11+ preparation and time management." },
-      { type: "p", text: "Regional variations exist, such as the Kent Test or Bucks 11+, which may use consortium exams like CSSE or SET. Practice with Bond Papers or past papers builds exam technique. Mock exams from tuition centres simulate real conditions for Year 6 pupils." },
-      { type: "p", text: "Scoring uses a raw score converted to a standardised score, with a pass mark or qualifying score set by schools. Oversubscription means high scores are key for places. Early **Year 5 prep** with CGP guides or Letts revision aids success." },
-      { type: "h3", text: "GL Assessment Format" },
-      { type: "p", text: "The GL Assessment style splits content into separate papers for English test, maths test, verbal reasoning, and non-verbal reasoning. Each paper lasts about 45-60 minutes with multiple-choice or short-answer questions. This format suits pupils practising literacy skills and numeracy skills through targeted practice papers." },
-      { type: "p", text: "For example, the English paper tests comprehension, vocabulary, **spelling**, punctuation, and grammar. Maths covers arithmetic, problem-solving, and shapes. Parents can use 11+ books like those from GL to match this style." },
-      { type: "p", text: "Verbal reasoning involves word puzzles and sequences, while non-verbal uses patterns and spatial tasks. Online practice or **private tutoring** helps master these. Focus on speed for the time limits in **group classes**." },
-      { type: "p", text: "Many state grammar schools in areas like Birmingham use GL. Baseline tests track progress. An 11+ tutor explains question types clearly for better scores." },
-      { type: "h3", text: "CEM Select Format" },
-      { type: "p", text: "CEM Select combines topics into fewer papers, often two longer ones covering multiple areas. Questions mix verbal ability, non-verbal ability, and quantitative reasoning without separate maths or English sections. This tests quick thinking under exam stress." },
-      { type: "p", text: "A typical question might ask to identify patterns in shapes for spatial reasoning or complete number sequences. Unlike GL, it avoids heavy reliance on taught curriculum. **11+ courses** emphasise flexible skills over rote learning." },
-      { type: "p", text: "Examples include jumbled sentences for verbal tasks or code-breaking for reasoning. Practice mock exams builds confidence in this less predictable style. Track progress tracking with varied question banks." },
-      { type: "p", text: "Used in regions like Kent or Bucks, CEM suits transfer tests for September intake. **One-to-one lessons** refine techniques. Aim for strong performance across mixed content for the **pass threshold**." },
-      { type: "h2", text: "Core Subjects Tested" },
-      { type: "p", text: "All 11+ exams test 4 core areas: **English (25%)**, Maths (25%), Verbal Reasoning (25%), and **Non-Verbal Reasoning (25%)**. This standard format applies across most grammar schools and independent schools in the UK. Providers like GL Assessment and CEM Select structure their papers this way to assess a child's overall ability." },
-      { type: "p", text: "Parents preparing for the 11+ test should focus on balanced practice in these areas. Practice papers from Bond Papers or CGP guides help build familiarity with multiple choice questions and standard formats. Early Year 5 prep ensures steady progress towards the Year 6 exam." },
-      { type: "p", text: "Regional variations exist, such as the Kent Test or Birmingham 11+, but core subjects remain consistent. Exam boards like CSSE or SET may adjust timings, yet the emphasis on literacy skills and numeracy skills persists. Mock exams aid in time management and exam technique." },
-      { type: "p", text: "Understanding the scoring system, including raw scores and standardised scores, helps track performance. 11+ courses or a 11+ tutor can target weaknesses. This approach supports secondary school transfer to selective schools." },
-      { type: "h3", text: "English" },
-      { type: "p", text: "The English test evaluates comprehension, vocabulary, spelling, punctuation, and grammar. Children read passages and answer questions on meaning, inference, or word choice. This section tests literacy skills essential for UK education." },
-      { type: "p", text: "Common question types include spotting errors in sentences or choosing synonyms. For example, a child might select the correct spelling from options like recieve or receive. Practice with Letts revision books strengthens these areas." },
-      { type: "p", text: "English comprehension often features poems or stories from primary school texts. Time pressure means quick reading is key, so **online practice** builds speed. Parents can review past papers to familiarise children with formats." },
-      { type: "p", text: "Experts recommend daily reading to boost verbal ability. **Tuition centres** offer group classes focused on exam stress reduction. Consistent progress tracking via baseline tests ensures readiness for the **pass mark**." },
-      { type: "h3", text: "Maths" },
-      { type: "p", text: "The maths test covers numeracy skills up to Year 6 level, including arithmetic, fractions, and geometry. Questions test problem-solving without calculators. This assesses practical application for grammar school entry." },
-      { type: "p", text: "Expect problems like calculating percentages or interpreting charts. A typical question might ask for the area of a shape given its dimensions. **Maths reasoning** uses **CGP guides** effectively for drills." },
-      { type: "p", text: "Quantitative reasoning includes sequences or data handling. Children practise mental maths for speed, vital in consortium exams like Bucks 11+. **Private tutoring** hones weak spots such as decimals." },
-      { type: "p", text: "One-to-one lessons tailor practice to syllabus coverage. Mock exams simulate the entrance exam environment. Focus on accuracy over rushing helps achieve the **qualifying score**." },
-      { type: "h3", text: "Verbal Reasoning" },
-      { type: "p", text: "Verbal reasoning measures thinking skills through words, with codes, analogies, and word puzzles. It goes beyond rote learning to test logic. This is standard in GL Assessment papers for **age 10-11** pupils." },
-      { type: "p", text: "Question types include completing sentences or finding opposites. For instance, happy: sad:: big: small tests relationships. Bond Papers provide varied examples for 11+ preparation." },
-      { type: "p", text: "Practice identifies patterns in synonyms or cloze passages. **Group classes** at tuition centres encourage peer discussion. Time management is crucial in this fast-paced section." },
-      { type: "p", text: "Parents track improvement with **assessment tests**. Cognitive ability test elements like CAT4 overlap here. Steady practice raises confidence for the **transfer test**." },
-      { type: "h3", text: "Non-Verbal Reasoning" },
-      { type: "p", text: "Non-Verbal Reasoning uses shapes, patterns, and diagrams to assess spatial reasoning. No language is needed, making it fair for all. It's key in CEM Select and **Hannon Fowler** formats." },
-      { type: "p", text: "Common tasks involve rotating figures or spotting sequences. A child might continue a series of growing triangles. **11+ books** offer visuals for home practice." },
-      { type: "p", text: "**Non-verbal ability** tests include matrices or folding nets. **Practice papers** build recognition of reflections. This suits visual learners in state grammar schools." },
-      { type: "p", text: "**Exam technique** involves eliminating wrong options quickly. Online practice tracks scores against pass threshold. Early preparation minimises **borderline candidates** risks." },
-    ],
+  {
+    "type": "p",
+    "text": "The 11 Plus is a name used for entrance assessments around the end of primary school. In England, grammar schools use academic selection; some independent schools also hold entrance assessments at 11+. There is no single national 11 Plus paper, timetable or pass mark. Start with the schools your child might attend, then check their requirements."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "Who takes the 11 Plus?"
+  },
+  {
+    "type": "p",
+    "text": "Children applying to selective schools may need to sit an entrance test, commonly during Year 6 when they are 10 or 11. The admissions authority determines the relevant age range and any arrangements for children outside the usual year group. The exam is not compulsory for every primary pupil, and it is separate from primary-school SATs."
+  },
+  {
+    "type": "p",
+    "text": "A school’s name alone is not enough to identify its admissions route. State grammar schools and independent schools can both have “grammar” in their name. Check whether the school is state-funded or fee-paying and whether its entrance test is shared with other schools. This guide focuses on England; admissions arrangements differ elsewhere in the UK."
+  },
+  {
+    "type": "h2",
+    "text": "What subjects are tested?"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Area",
+      "What practice might involve",
+      "What to check"
+    ],
+    "rows": [
+      [
+        "English",
+        "Reading comprehension, vocabulary, grammar and sometimes extended writing",
+        "Whether answers are selected, written or both"
+      ],
+      [
+        "Maths",
+        "Number skills, fractions, measures, geometry and problem solving",
+        "Published curriculum scope and calculator rules"
+      ],
+      [
+        "Verbal reasoning",
+        "Relationships between words, letter patterns and verbal logic",
+        "Whether this is a separate section"
+      ],
+      [
+        "Non-verbal and spatial reasoning",
+        "Patterns, rotations, reflections and visual relationships",
+        "Which types appear in official familiarisation"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Not every test contains all four areas. A provider’s practice range does not prove that your school tests every subject in that range. Do not use a generic subject weighting, question count or time limit in place of the school’s instructions."
+  },
+  {
+    "type": "h2",
+    "text": "What does a question look like?"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Maths example: three quarters of 28 is 21, because 28 ÷ 4 = 7 and 7 × 3 = 21.",
+      "Vocabulary example: a synonym for “reluctant” is “unwilling”; the surrounding sentence helps decide which meaning fits.",
+      "Letter-code example: moving each letter forward three places changes HOUSE to KRXVH. Explain the rule before increasing speed."
+    ]
+  },
+  {
+    "type": "p",
+    "text": "These are original teaching examples, not questions taken from a school’s exam. For the actual layout, read the official sample or familiarisation paper. Written comprehension may require evidence and explanation; a multiple-choice paper also requires accurate use of its answer sheet."
+  },
+  {
+    "type": "h2",
+    "text": "How do providers and school tests differ?"
+  },
+  {
+    "type": "p",
+    "text": "GL Assessment supplies admissions tests and publishes familiarisation materials, but the combination of subjects and timings varies by area. Other schools use different providers or their own assessments. The useful question is “What will this school assess in this admissions cycle?”, rather than “Which provider is easiest?”. See our [provider guide](/guides/gl-vs-cem) before selecting resources."
+  },
+  {
+    "type": "h2",
+    "text": "Registration is not the school-place application"
+  },
+  {
+    "type": "p",
+    "text": "Keep separate records for test registration, requests for access arrangements where relevant, and the application for a school place. Completing one does not necessarily complete the others. State-school applications normally involve your home local authority; independent-school applications go directly to the school. Check official instructions, including any supplementary forms, rather than relying on another family’s dates."
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Record the school-entry year and test date separately.",
+      "Save the registration confirmation and candidate details.",
+      "Record any evidence deadline for access arrangements.",
+      "Read the oversubscription policy: catchment, priority groups and distance may matter.",
+      "Keep realistic non-selective options on your shortlist."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Does passing guarantee a place?"
+  },
+  {
+    "type": "p",
+    "text": "No. A qualifying result can establish academic eligibility without guaranteeing an offer. An oversubscribed school applies its published criteria; another may rank eligible candidates by score. A raw practice percentage is not an official standardised result. Read our [scoring explanation](/blog/how-is-the-11-plus-scored-and-marked) before interpreting a score."
+  },
+  {
+    "type": "h2",
+    "text": "How to begin preparing for a 2027 exam"
+  },
+  {
+    "type": "p",
+    "text": "First, compare your school shortlist against official admissions documents. Next, try a small amount of suitable practice to find specific gaps. Teach those skills, review mistakes and add timed work when the method is understood. Use the [Maths hub](/subjects/maths), [English hub](/subjects/english) and [study timetable](/blog/how-to-structure-an-11-plus-study-timetable) to organise work around the relevant subjects. Retain time for school homework, reading for pleasure, clubs and rest."
+  },
+  {
+    "type": "h2",
+    "text": "Sources and review scope"
+  },
+  {
+    "type": "p",
+    "text": "Reviewed 7 October 2026 against [GL Assessment’s parent information](https://11plus.gl-assessment.co.uk/), [GOV.UK school admissions](https://www.gov.uk/schools-admissions) and [GOV.UK school types](https://www.gov.uk/types-of-school/overview). School-specific 2027 dates must be checked in the relevant published arrangements. This page does not promise a place or assess an individual child’s suitability."
+  }
+]
+  },
   {
     slug: "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
     title: "What subjects are in the 11 Plus (English, maths, verbal, non-verbal)?",
@@ -658,103 +664,128 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "gl-vs-cem-11-plus-what-is-the-difference",
-    title: "GL vs CEM 11 Plus \u2013 what is the difference?",
-    desc: "Uncover GL vs CEM 11 Plus differences in format, subjects, question styles, and content. Compare structures, regional patterns, and prep strategies with our detailed table. Choose the right path for grammar school success today.",
+    title: "GL vs CEM 11 Plus: how to choose the right preparation",
+    desc: "Understand GL and CEM-labelled 11 Plus resources, current Cambridge Select Insight information and how to verify the right format for a 2027 test.",
     date: "March 10, 2025",
-    readTime: "8 min read",
+    readTime: "3 min read",
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_4.jpeg",
     imageAlt: "GL vs CEM 11 Plus \u2013 what is the difference?",
     images: ["https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_1.jpeg", "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_2.jpeg", "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_3.jpeg", "https://files.autoblogging.ai/images/gl-vs-cem-11-plus-difference(xbcr)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam) is a selective entrance test taken by Year 6 pupils (age 10-11) for admission to over 160 UK grammar schools, [testing English, maths, verbal reasoning, and non-verbal reasoning](/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal) across 120,000+ annual test-takers. It serves as the gateway to **grammar schools**, which prioritise academic ability. Parents often start preparation in Year 5 to build skills in these areas." },
-      { type: "p", text: "The exam aims to identify pupils for **state grammar schools** in England, with around 163 such schools. Pass marks vary by region, often requiring a place in the top 25% or a standardised score of 110+. Schools use these scores alongside DfE grammar school admissions guidance to allocate places fairly." },
-      { type: "p", text: "Registration typically happens in **September-October**, with exam dates varying by region, such as Birmingham or Trafford. Offers come by March, followed by results day and potential appeals or waiting lists. For example, in Birmingham, high demand means families prepare early with practice papers from providers like GL or CEM." },
-      { type: "p", text: "Key question types include **verbal reasoning** for vocabulary and comprehension, **non-verbal reasoning** for spatial skills, plus curriculum-based maths and English. Pupils benefit from mock exams and tutors to familiarise with time limits and formats. Understanding regional differences, like GL regions versus CEM regions, helps in targeted 11+ prep." },
-      { type: "h2", text: "GL Assessment Overview" },
-      { type: "p", text: "GL Assessment provides **standardised 11+ tests** used by 50+ grammar schools in regions like Barnet, Redbridge, Sutton, and Trafford, featuring fixed multiple-choice papers with 4 options per question. These tests follow a **consistent format** across many local authorities. They help selective schools assess year 6 pupils for entrance." },
-      { type: "p", text: "Parents preparing for **11+ exams** value GL's predictable structure. Schools in GL regions, such as Kingston and Reading, use these papers for admissions. The fixed format allows focused practice with **GL style** resources like Bond papers." },
-      { type: "p", text: "Unlike adaptive tests from other providers, GL papers have set **time limits** and question numbers. This suits pupils building speed and accuracy. Regional differences exist, but core subjects remain uniform for fair comparison." },
-      { type: "p", text: "Practice with **specimen papers** builds familiarity. Experts recommend starting year 5 tuition to master GL's **multiple choice** demands. Consistent prep leads to better percentile ranks in school admissions." },
-      { type: "h3", text: "GL Subjects Tested" },
-      { type: "p", text: "GL exams test four core subjects: **English** (reading comprehension, spelling, vocabulary - 50 questions/25 mins), Maths (arithmetic, geometry, data - 50 questions/25 mins), **Verbal Reasoning** (codes, analogies - 80 questions/30 mins), Non-Verbal Reasoning (shapes, patterns - 80 questions/30 mins). These cover curriculum-based content for year 6 pupils. Schools combine scores for overall SAS score." },
-      { type: 'table', headers: ["Subject", "Questions", "Time", "Question Types", "Sample Question"], rows: [["English", "50", "25 mins", "Comprehension, spelling, vocabulary", "Choose the word closest to rapid: quick, slow, steady, loud"], ["Maths", "50", "25 mins", "Arithmetic, geometry, data", "What is 15% of 80? Options: 10, 12, 15, 20"], ["Verbal Reasoning", "80", "30 mins", "Codes, analogies, synonyms", "2, 4, 8,? Next in series"], ["Non-Verbal Reasoning", "80", "30 mins", "Shapes, patterns, rotation", "Which shape completes the sequence?"]] },
-      { type: "p", text: "Regional variations apply, like Birmingham GL adding **CSSE English essay**. Check GL Assessment specimen papers from 2023 edition. Tailor prep to your area's grammar schools." },
-      { type: "p", text: "Use **CGP books** and mock exams for each subject. Focus on weak areas like spatial reasoning. This boosts confidence for test day." },
-      { type: "h3", text: "GL Question Styles" },
-      { type: "p", text: "GL uses **traditional multiple-choice format** with 4 answer options, scored via optical mark recognition (OMR), featuring cloze procedure (fill-in-blanks), standard comprehension passages (300-400 words), and 2D shape rotation questions. Time pressure averages 1.2 seconds per question. Practice builds exam strategy." },
-      { type: "ul", items: ["**Synonym selection**: Which word means the same as rapid? a) slow b) quick c) steady d) loud", "**Number series**: 2, 4, 8,? a) 10 b) 12 c) 16 d) 20", "**Shape sequences**: Identify the next pattern in rotating triangles", "**Cloze passages**: Fill blanks in a 300-word story with vocabulary choices", "**Word pairs**: Find opposites or analogies like cat: kitten:: dog:?"] },
-      { type: "p", text: "Reference **Bond GL practice papers** for these styles. They match real **11+ exam papers** from Trafford or Sutton. Pupils learn to eliminate wrong options quickly." },
-      { type: "p", text: "Parents choose **online courses** or tutors for targeted drills. Mock exams simulate time limits. This prepares for GL regions versus CEM style differences." },
-      { type: "h2", text: "CEM (Durham) Overview" },
-      { type: "p", text: "CEM (Centre for Evaluation & Measurement, Durham University) delivers **computer-adaptive 11+ tests** to over 80 schools including Hertfordshire, Birmingham, and all Northern Ireland grammar schools, using item-response theory for dynamic difficulty adjustment." },
-      { type: "p", text: "These **CEM tests adapt question difficulty** based on performance, branching to easier or harder items as needed. This keeps students challenged without overwhelming them during the exam." },
-      { type: "p", text: "Scores standardise via **SAS (Standard Age Score)**, with a mean of 100 and standard deviation of 15. Selective schools use this system to rank candidates fairly across age groups." },
-      { type: "p", text: "CEM serves many **consortium schools** and state grammar schools in regions like Trafford, Wirral, and Glasgow. Parents preparing Year 5 or Year 6 children should focus on adaptive practice to match this format." },
-      { type: "h3", text: "CEM Subjects Tested" },
-      { type: "p", text: "CEM combines four skills into two papers: **Verbal (60 mins: vocabulary, comprehension, grammar, verbal reasoning)** and Numerical/Non-Verbal (60 mins: maths, mental arithmetic, spatial reasoning, patterns, sequences)." },
-      { type: "p", text: "Paper 1 covers Verbal skills with a mix of question types. The **adaptive nature** means correct answers increase difficulty, while wrong ones decrease it, tailoring the test in real time." },
-      { type: 'table', headers: ["Paper", "Skills Breakdown"], rows: [["Paper 1 Verbal", "vocabulary, comprehension, grammar, verbal reasoning"], ["Paper 2 Numerical/Non-Verbal", "maths, sequences, spatial reasoning, non-verbal reasoning"]] },
-      { type: "p", text: "Practice with **CEM style papers** helps Year 6 pupils build stamina for 60-minute sessions. Experts recommend timed mocks to simulate branching effects." },
-      { type: "h3", text: "CEM Question Styles" },
-      { type: "p", text: "CEM features **long-form questions (up to 120 words)**, contextual problem-solving, and adaptive difficulty where top performers face advanced challenges while others get basics, all multiple-choice with five options." },
-      { type: "p", text: "Key styles include extended vocabulary in passages, multi-step word problems, and 3D spatial rotations. These differ from **GL fixed papers** by adjusting on the fly." },
-      { type: "ul", items: ["**Extended vocabulary contexts**: Words like ephemeral in a story about seasons.", "**Multi-step word problems**: Calculate train speeds with changing directions.", "3D spatial rotation in **45\u00b0 increments**.", "**Hidden pattern sequences**: Spot rules in number or shape series.", "**Grammar in context**: Identify errors in full paragraphs."] },
-      { type: "p", text: "The **branching algorithm** ensures precise assessment for school admissions. Use CGP books or online courses for CEM-specific 11+ training." },
-      { type: "h2", text: "Key Differences: Format and Structure" },
-      { type: "p", text: "GL uses [fixed paper-based tests](/blog/11-plus-exam-format-multiple-choice-or-written) (4x25-30 min papers, 4 MC options) while CEM employs **computer-adaptive digital tests** (2x60 min papers, 5 MC options) with real-time difficulty adjustment based on item response theory." },
-      { type: "p", text: "This core format difference shapes how pupils approach the **11 Plus**. GL's shorter, multiple papers suit quick-paced practice with Bond papers or CGP books. CEM's longer sessions demand sustained focus, often prepped via **CEM style** online courses." },
-      { type: "p", text: "Test environments also vary. GL exams occur in **supervised halls** at primary schools, mimicking familiar settings for Year 6 children. CEM tests happen in **computer rooms**, requiring basic digital skills from Year 5 prep." },
-      { type: "p", text: "Understanding these structural contrasts aids exam strategy. Parents in **GL regions** like Hertfordshire or Birmingham focus on speed drills. Those in **CEM regions** such as Trafford or Wirral emphasise endurance and adaptive question handling." },
-      { type: 'table', headers: ["Feature", "GL", "CEM"], rows: [["**Format**", "Paper-based, fixed", "Digital, adaptive"], ["**Questions per minute**", "About 4", "About 1.5"], ["**Options**", "4 multiple choice", "5 multiple choice"], ["**Timing**", "Short fixed papers (25-30 min each)", "Long adaptive papers (60 min each)"], ["**Scoring**", "Raw to percentile rank", "Standardised Age Score (SAS)"], ["**Environment**", "Supervised hall", "Computer room"]] },
-      { type: "p", text: "This table highlights key **11+ differences** for grammar school prep. Use it to tailor tuition or mock exams to the right **test provider**." },
-      { type: "h2", text: "Key Differences: Content and Topics" },
-      { type: "p", text: "GL emphasises **curriculum-based English** (spelling, comprehension) and traditional IQ tests while CEM integrates advanced reasoning across broader KS3 topics including GCSE-level sequences and contextual vocabulary." },
-      { type: "p", text: "This core **content difference** shapes how students prepare for **11 Plus exams**. GL focuses on primary school knowledge, making it familiar for Year 5 and Year 6 pupils. CEM pushes into more abstract skills, often catching unprepared candidates off guard." },
-      { type: "p", text: "Practice with **GL style papers** builds confidence in standard topics, while CEM Select mocks hone flexible thinking for varied question types. Parents should match prep to target grammar schools in GL regions like Birmingham or CEM areas like Trafford." },
-      { type: "p", text: "Understanding these shifts helps tailor **exam strategy**, from drilling spelling rules to tackling numerical sequences beyond KS2." },
-      { type: "h3", text: "Comparison Table: Content Coverage" },
-      { type: 'table', headers: ["Content Area", "GL Coverage", "CEM Coverage"], rows: [["English", "**Spelling** and comprehension from KS2 curriculum, multiple choice vocabulary", "**Grammar** focus with contextual proofs and advanced comprehension"], ["Maths", "KS2 level topics like fractions, geometry in **standard format**", "KS3 extension including **GCSE-level sequences** and reasoning"], ["Verbal Reasoning (VR)", "Codes, anagrams, synonyms in **traditional IQ style**", "Contexts, word pairs, comprehension-based **vocabulary reasoning**"], ["Non-Verbal Reasoning (NVR)", "**2D patterns**, rotations, symmetries", "**3D shapes**, spatial sequences, mechanical analogies"]] },
-      { type: "p", text: "This table highlights **topic weighting differences**. GL leans heavily on curriculum-aligned content, suiting **primary schools** prep with Bond papers or CGP books. CEM spreads weight across reasoning, demanding broader practice like online courses for sequences." },
-      { type: "h3", text: "English: Spelling vs Grammar Focus" },
-      { type: "p", text: "GL tests **spelling patterns** and comprehension from Year 6 texts, like identifying misspelt words in sentences. Pupils practise with receive versus recieve. This aligns closely with school English lessons." },
-      { type: "p", text: "CEM shifts to **grammar rules**, spotting errors in complex sentences or choosing correct tenses. Examples include spotting subject-verb agreement in passages. Prep involves analysing full paragraphs, not isolated words." },
-      { type: "p", text: "For **selective schools** like those in Redbridge, blend both with mixed practice papers to cover regional differences." },
-      { type: "h3", text: "Maths: KS2 vs KS3 Extension" },
-      { type: "p", text: "GL sticks to **KS2 Maths**, covering decimals, percentages, and shapes from the national curriculum. Questions use familiar multiple choice formats with time limits per section. Year 5 revision suffices for most." },
-      { type: "p", text: "CEM introduces **KS3 topics** like algebraic sequences or data interpretation at GCSE hints. A question might ask to extend 2, 5, 10, 17 spotting the pattern. This tests reasoning over rote learning." },
-      { type: "p", text: "Tutors recommend starting CEM maths with past papers from consortium schools in Hertfordshire to build speed." },
-      { type: "h3", text: "Reasoning: VR Codes vs Contexts, NVR 2D vs 3D" },
-      { type: "p", text: "GL VR uses **codes and puzzles**, like letter-number codes or odd-one-out words. NVR emphasises **2D shapes** folding or mirroring. These mimic classic IQ elements in fixed papers." },
-      { type: "p", text: "CEM VR applies vocabulary in **contexts**, such as paired words or hidden meanings. NVR ramps up with **3D spatial reasoning**, rotating cubes or views. Adaptive elements may adjust difficulty." },
-      { type: "p", text: "For schools in Sutton or Kingston, use **mock exams** mixing both to boost percentile ranks and standardised scores." },
-      { type: "h2", text: "Regional Usage Patterns" },
-      { type: "p", text: "**GL dominates South East and London** areas such as Barnet, Redbridge and Sutton with 18 schools using its tests. **CEM controls West Mids and Northern Ireland** including Birmingham's 8 schools and all 68 NI grammars. Hybrid regions like Trafford use both GL and CEM formats." },
-      { type: "p", text: "Parents in GL regions prepare for multiple choice questions in maths, English, verbal and non-verbal reasoning. In CEM regions, focus shifts to numerical and verbal reasoning with less emphasis on non-verbal. Knowing your local grammar schools helps tailor **11+ prep** effectively." },
-      { type: "p", text: "Consortiums like SET in Hertfordshire and **CSSE** in Essex add layers to regional choices. Registration for 2024 saw high demand in London boroughs, with results guiding school admissions. Check specific **exam dates** and pass marks for your area to plan ahead." },
-      { type: 'table', headers: ["Region", "Test Provider", "Schools (#)", "Notes"], rows: [["London (Barnet, Redbridge, Sutton)", "GL", "20+", "Multiple choice format, CSSE consortium in Essex"], ["West Midlands (Birmingham)", "CEM/GL mix", "8 Birmingham grammars", "Hybrid testing, CEM Select common"], ["Northern Ireland", "CEM only", "68 grammars", "All schools use CEM, adaptive elements"], ["Scotland (Glasgow, Edinburgh)", "Regional variants", "Varies", "Local selective tests, not pure GL/CEM"], ["Trafford, Wirral", "GL/CEM mix", "Multiple", "Parents choose based on target schools"]] },
-      { type: "p", text: "Use this table to identify your **regional differences** and select appropriate **practice papers**. For example, Barnet families often use GL Assessment mocks, while Birmingham opts for CEM style resources like CGP books." },
-      { type: "h2", text: "Preparation Strategies Comparison" },
-      { type: "p", text: "GL prep emphasises **50+ practice papers** (Bond, CGP) and speed drills while CEM requires reasoning mastery through adaptive mocks (ExamNinja, PreTest) starting 18 months early. This core **difference in approach** stems from the exam boards' formats. GL focuses on fixed papers, so students build pace under time limits." },
-      { type: "p", text: "CEM prep demands **deeper reasoning skills** for its adaptive tests. Students tackle varied question types in verbal reasoning, non-verbal reasoning, maths, and English. Starting in year 5 gives time to master complex problems." },
-      { type: "p", text: "Practice materials differ by region and test provider. GL students use **20 Bond papers** for standard format drills. CEM leans on 12 adaptive mocks to mimic real exam shifts." },
-      { type: "p", text: "Timelines reflect difficulty levels. GL suits a **12-month plan** with speed focus for grammar schools in GL regions like Birmingham and Trafford. CEM needs an **18-month timeline** for CEM Select areas such as Northern Ireland and Hertfordshire." },
-      { type: "h3", text: "Side-by-Side Strategy Comparison" },
-      { type: 'table', headers: ["Prep Type", "GL Strategy", "CEM Strategy"], rows: [["Practice Materials", "20 Bond papers for multiple choice and standard format", "12 adaptive mocks for dynamic question delivery"], ["Timeline", "12 months, starting year 6 for speed drills", "18 months, from year 5 for reasoning depth"], ["Focus", "Speed and accuracy on fixed papers", "Deep reasoning across numerical and spatial skills"]] },
-      { type: "p", text: "This table highlights key **11 Plus differences** between GL and CEM. Parents choose based on local grammar schools or selective schools. For example, GL suits Sutton and Kingston with its pace emphasis." },
-      { type: "p", text: "Experts recommend tailoring prep to **exam style**. GL students practise maths reasoning and vocabulary under strict time limits. CEM builds comprehension and spatial reasoning through layered challenges." },
-      { type: "h3", text: "Recommended Resources" },
-      { type: 'table', headers: ["Resource", "Price", "Suitable For"], rows: [["CGP GL Pack", "\u00a312.99", "GL maths, English, verbal/non-verbal practice"], ["Bond CEM 10", "\u00a39.99", "CEM style mocks for reasoning and comprehension"], ["ExamNinja mocks", "\u00a324.99", "Adaptive CEM tests for year 6 entrance exams"]] },
-      { type: "p", text: "These resources match regional differences in GL regions and CEM regions. Use CGP for Barnet and Redbridge GL papers. Bond and ExamNinja aid Wirral or Liverpool CEM prep." },
-      { type: "p", text: "Combine with **past papers** from school sites for authentic practice. Tutors or online courses enhance focus on weak areas like numerical reasoning." },
-      { type: "h3", text: "Practical Tips and Timeline Advice" },
-      { type: "p", text: "Start GL prep in **year 6 summer** with daily speed drills on Bond papers. Track progress via percentile rank on fixed tests. Adjust for pass mark in state grammar schools." },
-      { type: "p", text: "For CEM, begin 18 months out with **adaptive practice** like PreTest. Build stamina for longer sessions in verbal and non-verbal reasoning. Monitor standardised score improvements." },
-      { type: "p", text: "Use [mocks](/mock-exams) weekly near exam dates. Parents in consortium schools review results day processes. This builds confidence for school admissions and waiting lists." },
-    ],
+  {
+    "type": "p",
+    "text": "If you are preparing for an 11 Plus exam in 2027, a book labelled GL or CEM is not enough to identify the test your child will take. First read the school’s admissions information for the relevant entry year. Older comparisons often describe historical paper formats and should not be used as a current map of schools and providers."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "What should you compare?"
+  },
+  {
+    "type": "p",
+    "text": "Separate three things: the organisation supplying an assessment, the test selected by a school or consortium, and a commercial practice publisher’s label. A resource can practise useful skills without being an official past paper or a complete match for your school."
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Question",
+      "GL Assessment",
+      "CEM-labelled resources and current Cambridge assessment information"
+    ],
+    "rows": [
+      [
+        "Where to start",
+        "School instructions and GL familiarisation",
+        "School instructions and the exact assessment name"
+      ],
+      [
+        "What is covered",
+        "GL provides English, maths and reasoning materials; local tests vary",
+        "The official Cambridge Select Insight page describes numerical, verbal and non-verbal ability"
+      ],
+      [
+        "What not to assume",
+        "Every GL school tests all four subjects with identical timings",
+        "An older CEM workbook describes a school’s present test"
+      ],
+      [
+        "Practice status",
+        "Official familiarisation and practice materials are available from GL",
+        "Cambridge states it does not endorse commercial tuition or practice resources for Select Insight"
+      ]
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "GL Assessment: variation matters"
+  },
+  {
+    "type": "p",
+    "text": "GL’s own parent information says that topic combinations, question numbers and timings can differ by area. Use its samples to understand styles, then follow the local specification. A generic instruction to prepare all four subjects may waste time when your school assesses a narrower combination."
+  },
+  {
+    "type": "h2",
+    "text": "CEM and Cambridge Select Insight"
+  },
+  {
+    "type": "p",
+    "text": "The current official entrance-assessment page uses the name Cambridge Select Insight. It describes computer-based assessment and distinguishes products with different reporting arrangements. Do not describe all CEM-related assessments as one paper-based test, an adaptive test or a single fixed scoring system. Ask the school which assessment and familiarisation apply."
+  },
+  {
+    "type": "h2",
+    "text": "A checklist before buying practice materials"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Does the school’s current admissions page name this provider or assessment?",
+      "Does the resource practise the subjects actually assessed?",
+      "Does the answer style match: selected answers, written responses or computer interaction?",
+      "Does the published sample include a separate writing component?",
+      "Are there later stages with different requirements?",
+      "Is the resource described honestly as original practice, official familiarisation or an authorised past paper?"
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "What if a school uses another test?"
+  },
+  {
+    "type": "p",
+    "text": "Do not force it into a GL-versus-CEM comparison. A school or consortium may use its own papers or a different provider. Use its current sample as the starting point and build a preparation checklist from that. Provider changes are particularly important when a page says “2027 entry”: that can refer to tests taken in 2026, not your child’s 2027 sitting."
+  },
+  {
+    "type": "h2",
+    "text": "Which is harder?"
+  },
+  {
+    "type": "p",
+    "text": "There is no reliable universal answer. Difficulty depends on the actual assessment and the child’s skills; the score needed for a place also depends on the school’s selection arrangements. Comparing two commercial workbook percentages does not establish which entrance test is harder."
+  },
+  {
+    "type": "h2",
+    "text": "Continue with the maintained provider guide"
+  },
+  {
+    "type": "p",
+    "text": "See our [main provider comparison](/guides/gl-vs-cem) for the broader overview. This article focuses on choosing resources and avoiding misleading labels. Neither page is an official provider publication."
+  },
+  {
+    "type": "h2",
+    "text": "Primary sources"
+  },
+  {
+    "type": "p",
+    "text": "Reviewed 7 October 2026 against [GL Assessment](https://11plus.gl-assessment.co.uk/) and [Cambridge Select Insight](https://www.cem.org/entrance-assessments). These sources support the provider descriptions, not a school-specific 2027 provider assignment. Always verify that assignment with the school."
+  }
+]
+  },
   {
     slug: "what-topics-are-in-11-plus-english",
     title: "What topics are in 11 Plus English?",
@@ -1906,115 +1937,140 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "how-many-hours-a-week-should-my-child-study-for-11-plus",
-    title: "How many hours a week should my child study for 11 Plus?",
-    desc: "Discover how many hours a week your child should study for 11 Plus success. Learn core subjects, factors like ability and timeline, plus age-appropriate schedules from early prep to intensive revision. Balance schoolwork and avoid burnout for top results.",
+    title: "How many hours a week should my child study for the 11 Plus?",
+    desc: "Build a manageable 11 Plus routine for 2027 with an adaptable weekly example, review time and signs that the workload needs changing.",
     date: "June 11, 2025",
-    readTime: "10 min read",
+    readTime: "4 min read",
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_4.jpeg",
     imageAlt: "How many hours a week should my child study for 11 Plus?",
     images: ["https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_1.jpeg", "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_2.jpeg", "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_3.jpeg", "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "Understanding the 11 Plus Exam" },
-      { type: "p", text: "The 11 Plus exam tests Year 5/6 children for grammar and independent school entry through four core subjects: English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. Providers like **GL Assessment** and **CEM** set the formats. GL Assessment serves many UK grammar schools, while CEM comes from Cambridge Assessment." },
-      { type: "p", text: "Exams typically run **60 minutes per paper**. CEM often includes 50 maths questions in longer passages, while GL uses multiple choice with 80 verbal reasoning items. Pass marks range from **110-121 scaled scores**, depending on the region and school." },
-      { type: "p", text: "Question types vary by provider. For example, CEM focuses on speed with mixed topics, and GL emphasises separate sections. Parents should check school-specific formats for **11 Plus preparation**." },
-      { type: "p", text: "Understanding these differences helps build a **child study schedule**, and it slots neatly into a wider plan for [preparing at home](/blog/how-to-prepare-for-the-11-plus-at-home). Familiarise your child with [practice papers](/papers) from both to improve **exam readiness** and confidence." },
-      { type: "h3", text: "Core Subjects Covered" },
-      { type: "p", text: "English (around 40%) tests **comprehension** via 30-40 questions on passage inference. Children read texts and answer why a character acted a certain way. Maths covers arithmetic (most focus), geometry, and fractions with 45 timed problems." },
-      { type: "p", text: "Verbal Reasoning involves synonyms, letter sequences, and sentence completion. Non-Verbal Reasoning tests pattern rotation and shape sequences. These build **logic skills** essential for selective schools." },
-      { type: 'table', headers: ["Subject", "% Weighting", "Question Count", "Key Topics", "Sample Question"], rows: [["English", "40%", "30-40", "Inference, comprehension", "Why did the character leave the room?"], ["Maths", "30%", "45", "Arithmetic, fractions, geometry", "Solve 3/4 + 1/2"], ["Verbal Reasoning", "15%", "80 (GL)", "Synonyms, sequences", "Find the next letter: A, C, E,?"], ["Non-Verbal Reasoning", "15%", "40-50", "Patterns, rotations", "Which shape completes the sequence?"]] },
-      { type: "p", text: "GL exams are often multiple choice, while CEM uses longer passages. Tailor weekly study time to these, with more **maths practice** for arithmetic and **English comprehension** for inference." },
-      { type: "h2", text: "Factors Influencing Study Hours" },
-      { type: "p", text: "Optimal **11 Plus study hours** vary from 8-20 weekly based on three key factors: starting ability (baseline score), months remaining, and regional competition. Use this personalised calculation formula: **Base Hours (10) \u00d7 Ability Gap Factor (0.8-1.5) \u00d7 Time Pressure Multiplier (1-2)**. Bond 11+ research indicates students starting below 70th percentile need 50% more hours for effective preparation." },
-      { type: "p", text: "Start with a **baseline assessment** like CGP 11+ Baseline Test to measure your child's percentile. Adjust hours based on their score against the pass mark. This ensures a **tailored approach** to 11 Plus preparation." },
-      { type: "p", text: "Consider regional differences, such as higher competition in Buckinghamshire grammar schools. Factor in CEM exam or GL Assessment formats. Experts recommend balancing **quantity of study** with quality for optimal results." },
-      { type: "p", text: "Track progress weekly using a **study log** and adjust the formula as scores improve. Include breaks to prevent burnout, and fold the hours into a full [study timetable](/blog/how-to-structure-an-11-plus-study-timetable); the total also depends on [how early you start](/blog/how-early-should-we-start-11-plus-preparation). This method supports long-term academic performance without overwhelming your child." },
-      { type: "h3", text: "Child's Current Ability Level" },
-      { type: "p", text: "Begin with **CGP 11+ Baseline Test** (free download) to establish percentile: below 50th percentile needs 15-20 hours/week; 70th+ percentile needs 8-10 hours. This sets the foundation for a personalised **study plan**. Focus on gap analysis to target weak areas like maths or verbal reasoning." },
-      { type: "p", text: "Use this assessment table to guide **weekly study time**." },
-      { type: 'table', headers: ["Percentile", "Weekly Hours", "Focus Areas"], rows: [["<50th", "18hrs", "Maths drills, VR basics"], ["50-70th", "12hrs", "Mixed practice"], ["70th+", "8hrs", "Exam technique"]] },
-      { type: "p", text: "Specific tools include CGP Baseline Papers and **Bond Assessment Papers**. For example, Tommy scored 45th percentile, added 6hrs Maths = +25 points in 12 weeks through daily drills." },
-      { type: "p", text: "Monitor with **practice papers** and adjust for subjects like English comprehension or non-verbal reasoning. Gifted children may need less volume but more challenge. SEN support, like dyslexia strategies, can optimise study efficiency." },
-      { type: "h3", text: "Time Until Exam Date" },
-      { type: "p", text: "12+ months out: **8-10 hours/week** sustainable; 6 months: 12-15 hours; <3 months: 18-22 hours intensive phase. Build a steady **study routine** to match the timeline. This prevents underpreparation dangers while avoiding overstudy risks." },
-      { type: "p", text: "Use this timeline chart for planning." },
-      { type: 'table', headers: ["Months Remaining", "Weekly Hours", "Intensity"], rows: [["12m", "9hrs", "Foundation"], ["6m", "14hrs", "Acceleration"], ["3m", "20hrs", "Mock exams"]] },
-      { type: "p", text: "Buckinghamshire 11+ data shows late starters (Oct start) averaged 15% lower pass rates. Create a **countdown planner**: 'Week 1 of 24: Complete Bond Maths Book 1'. Integrate school homework and weekend intensives." },
-      { type: "p", text: "Include **study breaks**, exercise benefits, and sleep importance for balanced routine. Use morning study for peak learning hours and evening revision. Adjust for holidays with focused revision to maintain momentum." },
-      { type: "h2", text: "Recommended Weekly Study Hours" },
-      { type: "p", text: "Most experts recommend **11-14 hours weekly total** for balanced 11 Plus prep, increasing to 18-22 hours in the final term per GL Assessment guidelines. Tutor consensus from The 11 Plus Forum, with over 5,000 members, points to an average of **12 hours weekly** linked to strong pass rates. This breakdown typically allocates 40% to Maths, 30% to English, 20% to Reasoning, and 10% to mocks." },
-      { type: "p", text: "Parents often ask about **optimal study hours** to avoid burnout while building exam readiness. A structured weekly study time ensures quality over quantity, focusing on practice papers and technique. Tailor the schedule to your child's learning capacity, starting with shorter sessions for a 10-year-old in Year 5." },
-      { type: "p", text: "During term time, integrate 11 Plus preparation with school homework for efficiency. Experts suggest study breaks every 45 minutes to maintain focus, alongside sleep and exercise for brain health. Track progress with a simple study log to adjust the routine." },
-      { type: "p", text: "For grammar school or independent school entry, balance **subject breakdown** with mock exams to simulate the real test. This approach supports **academic performance** without overwhelming family life. Parental guidance helps set realistic expectations throughout the 11 Plus journey." },
-      { type: "h3", text: "Early Preparation Phase" },
-      { type: "p", text: "Year 5 (12+ months out): **10 hours/week** focusing 4hrs Maths (Bond Book 1), 3hrs English (CGP comprehension), 2hrs VR basics, 1hr NVR patterns. This **age-appropriate study** builds foundations without pressure. Start with fun activities to spark interest in the entrance exam." },
-      { type: "p", text: "Follow this numbered weekly plan for consistency:" },
-      { type: "ol", items: ["Mon/Wed/Fri: 45min **Maths practice** using arithmetic flashcards.", "Tue/Thu: 40min **English vocab** targeting 100 words per month.", "Sat: 90min **reasoning puzzles** like logic games.", "Track everything via a simple Google Sheets log for weekly review."] },
-      { type: "p", text: "Tools like Bond 11+ Starters and the free Elevenses numeracy app make sessions engaging. Encourage a **quiet study space** free from distractions. Reward progress with family time to boost motivation." },
-      { type: "p", text: "Monitor for signs of fatigue and adjust as needed. This phase emphasises **vocabulary building**, basic verbal reasoning, and non-verbal patterns. Holiday revision can add light group activities for peer learning." },
-      { type: "h3", text: "Intensive Revision Phase" },
-      { type: "p", text: "Final 12 weeks: **20 hours/week** with 6hrs timed mocks (GL Papers 1-4), 5hrs weak area drills, 4hrs technique (pacing: 1min/question). Ramp up **study intensity** to match exam conditions for CEM or GL Assessment tests. Prioritise speed and accuracy in maths test and English comprehension." },
-      { type: "p", text: "Use this daily breakdown table for a clear **revision schedule**:" },
-      { type: 'table', headers: ["Day", "Focus", "Duration & Activity"], rows: [["Mon", "Maths speed", "2hr (50 questions/60min)"], ["Wed", "CEM English", "90min comprehension and sentence completion"], ["Sat", "Full mock", "2hr + 1hr review"]] },
-      { type: "p", text: "Incorporate pacing strategy: skip after 45sec, flag for review. Tools such as Exam Ninja 11+ Papers and PreTest app aid **mock exams**. Practice data interpretation and spatial reasoning daily." },
-      { type: "p", text: "Prevent burnout with **balanced routine** including exercise and nutrition for brain health. Weekly reviews track percentile rankings and target scores. Adjust for school-specific prep or interview practice as needed." },
-      { type: "h2", text: "Age-Appropriate Study Guidelines" },
-      { type: "p", text: "10-year-olds max **2-hour daily sessions** (25min Pomodoro \u00d7 4) with research suggesting **90min peak focus** before retention drops. For 11 Plus preparation, children aged 9-10 thrive on short, structured bursts rather than long marathons. This approach builds study efficiency without fatigue." },
-      { type: "p", text: "Use **25min study + 5min break cycles**, capping at 90min per day for primary-aged kids. Experts recommend this for optimal learning capacity during **Year 5 study** and early Year 6 study. Parents can track progress with a simple study log to ensure balance." },
-      { type: "p", text: "Sleep plays a key role, with children needing at least 10 hours per night to support memory consolidation. Pair this with **nutrition for brain health**, such as omega-3 rich foods like salmon or walnuts. A balanced routine prevents burnout in 11 Plus exam prep." },
-      { type: 'table', headers: ["Age", "Max Session", "Daily Total", "Breaks"], rows: [["9-10 years", "25 minutes", "90 minutes", "5min every 25min"]] },
-      { type: "p", text: "Integrate this into a child study schedule with weekly study time of 11-14 hours spread across days. Focus on **quality study time** over quantity for grammar school or independent school entrance." },
-      { type: "h2", text: "Balancing Study with Schoolwork" },
-      { type: "p", text: "Integrate 11+ prep into 1hr daily homework slot: 30min schoolwork + 30min 11+ weak subject, keeping total screen-free study under 2.5hrs/day. This approach ensures **school homework** comes first with the strict rule of no 11+ before homework complete. It builds a balanced routine without overwhelming your child." },
-      { type: "p", text: "A sample integration schedule works well for many families. Start with school homework (45min), follow with **11+ targeted practice (30min same subject)**, then take a dinner break. Finish with 20min VR app for light verbal reasoning or puzzle solving." },
-      { type: "p", text: "Weekends need a **3hr cap** to prevent burnout. Focus on practice papers or mock exams in maths test or English test areas. Research suggests balanced students perform better, aligning with Sutton Trust insights on steady academic progress." },
-      { type: "p", text: "Parental guidance helps enforce this study routine. Track progress with a simple study log to monitor weekly study time. Adjust based on your child's energy levels and school demands for optimal 11 Plus preparation." },
-      { type: "h2", text: "Risks of Overstudying" },
-      { type: "p", text: "Over 20 hours a week of 11 Plus preparation can lead to serious issues. Parents often push for long weekly study time to boost exam readiness, but this risks harming a child's wellbeing. Experts recommend balancing study intensity with rest for optimal results." },
-      { type: "p", text: "Research suggests excessive **study duration** correlates with higher burnout in year 5 and year 6 students. Children facing intense 11 Plus study hours may show signs of fatigue during maths practice or verbal reasoning sessions. A tailored approach prevents these pitfalls in grammar school preparation." },
-      { type: "p", text: "Common problems include reduced focus in English comprehension tasks and slower progress in non-verbal reasoning. Overstudying disrupts the child study schedule, leading to frustration. Parental guidance helps spot early warning signs like irritability after practice papers." },
-      { type: "p", text: "To counter this, integrate study breaks and monitor progress with a study tracker. Adjust the revision schedule based on mock exam performance. This ensures academic performance improves without sacrificing mental health." },
-      { type: "h3", text: "Burnout" },
-      { type: "p", text: "Prolonged **11 Plus tutoring** sessions often cause **burnout** in young learners. Children may lose enthusiasm for puzzle solving or fraction practice after too many hours. Watch for exhaustion during daily study routines." },
-      { type: "p", text: "Symptoms include reluctance to tackle arithmetic problems or geometry basics. This affects overall **exam preparation** for CEM or GL Assessment tests. A balanced routine with hobby time restores energy." },
-      { type: "p", text: "Encourage short, focused study periods to build confidence. Incorporate family support through reward systems after completing Bond papers. Regular weekly reviews help maintain motivation." },
-      { type: "h3", text: "Diminishing Returns" },
-      { type: "p", text: "Beyond optimal **study hours**, extra time yields little gain in skills like vocabulary building. **Diminishing returns** set in, making long sessions inefficient for speed practice or accuracy improvement. Prioritise quality study time over quantity." },
-      { type: "p", text: "For a 10 year old, morning study works best for peak learning. Evening revision suits lighter tasks like flashcards. Track effectiveness to refine the timetable creation process." },
-      { type: "p", text: "Use gap analysis from baseline assessments to focus efforts. This boosts **study efficiency** in maths test and English test prep. Avoid weekend intensives that overload the schedule." },
-      { type: "h3", text: "Sleep Deficit" },
-      { type: "p", text: "Intense 11 Plus preparation often cuts into sleep, harming cognition. A sleep deficit reduces learning capacity for data interpretation or sentence completion. Aim for consistent bedtimes in the child study schedule." },
-      { type: "p", text: "Experts recommend tracking sleep to support brain function during logic puzzles. Poor rest slows progress in spatial reasoning or comprehension skills. Combine with exercise benefits for better focus." },
-      { type: "p", text: "Set screen time limits and nutrition for brain health. This enhances **exam technique** and pacing strategies. A rested child performs better in mock exams." },
-      { type: "h3", text: "Motivation Crash" },
-      { type: "p", text: "Overstudy risks a **motivation crash**, where children dread entrance exam practice. They may avoid practice papers or group activities. Intrinsic motivation fades without enjoyment in learning." },
-      { type: "p", text: "Reignite interest with peer learning or study groups. Short-term goals and progress monitoring rebuild drive. Parental involvement through realistic expectations helps." },
-      { type: "h3", text: "Solutions to Prevent Overstudying" },
-      { type: "p", text: "Schedule **weekly fun activities** for one hour to counter risks. Options like sports time or family outings refresh the mind after revision schedules. This supports a balanced lifestyle." },
-      { type: "p", text: "Use sleep tracking apps to monitor rest patterns. Create a stress signals checklist for early detection of fatigue. Adjust the study plan flexibly based on weekly reviews." },
-      { type: "ul", items: ["Plan study breaks every 45 minutes during focused study.", "Incorporate exercise benefits and nutrition for sustained energy.", "Build a reward system for completing CGP guides or 11 Plus books.", "Ensure distraction-free quiet study space for maximum efficiency."] },
-      { type: "p", text: "These steps promote **burnout prevention** and long-term 11 Plus success. Tailor to individual needs, like SEN support or gifted child plans. Monitor with a study log for ROI on study time." },
-      { type: "h2", text: "Sample Weekly Study Schedules" },
-      { type: "p", text: "A **Year 5 average ability** child might follow a 12 hours per week plan. This includes Mon/Wed/Fri 75min for Maths + English, Tue/Thu 60min for Reasoning, Sat 2hr mixed practice, and Sun rest. Such a balanced routine builds exam readiness without overload." },
-      { type: "p", text: "Customise schedules by ability level using **tiered tables** below. Beginners focus on basics like vocabulary building and arithmetic problems. Intermediates add speed practice, while advanced levels emphasise mock exams and exam technique." },
-      { type: "p", text: "Track progress with tools like **Google Sheets** featuring auto percentile calculators or the free MyStudyLife app. Parents can print PDF templates for timetables to monitor weekly study time. Include study breaks every 25 minutes to maintain focus." },
-      { type: "p", text: "Holiday intensives boost preparation with +4hrs on Sat/Sun for mocks. Integrate school homework and limit screen time. This study plan supports 11 Plus success across GL Assessment or CEM exam formats." },
-      { type: "h3", text: "Beginner Level (6-8 hours/week)" },
-      { type: "p", text: "Ideal for **Year 5 children** starting 11 Plus preparation with limited prior exposure. Focus on building confidence through short, daily sessions. Aim for consistent practice in core areas like English comprehension and basic maths." },
-      { type: 'table', headers: ["Day", "Time", "Subject/Activity"], rows: [["Monday", "4-4:30pm", "Maths (20 arithmetic questions)"], ["Tuesday", "4-4:30pm", "English (vocabulary building, 10 words)"], ["Wednesday", "4-4:30pm", "Verbal Reasoning (sentence completion)"], ["Thursday", "4-4:30pm", "Maths (geometry basics)"], ["Friday", "4-4:30pm", "Non-Verbal Reasoning (simple patterns)"], ["Saturday", "10-11am", "Mixed revision (flashcards)"], ["Sunday", "Rest", "Family time/review log"]] },
-      { type: "p", text: "Use a quiet study space free from distractions. Reward completion with small treats to foster motivation. Adjust based on progress monitoring for grammar school readiness." },
-      { type: "h3", text: "Intermediate Level (10-12 hours/week)" },
-      { type: "p", text: "Suited to children with some familiarity in **11 Plus subjects**. Increase duration for deeper practice in verbal reasoning and maths tests. Incorporate puzzle solving to improve accuracy." },
-      { type: 'table', headers: ["Day", "Time", "Subject/Activity"], rows: [["Monday", "4-5pm", "Maths (40 questions, fractions practice)"], ["Tuesday", "4:30-5:15pm", "Verbal Reasoning (patterns, comprehension skills)"], ["Wednesday", "4-5pm", "English (reading + 5 questions)"], ["Thursday", "4:30-5:15pm", "Non-Verbal Reasoning (spatial reasoning)"], ["Friday", "4-5pm", "Maths (data interpretation)"], ["Saturday", "10am-12pm", "Mixed practice paper"], ["Sunday", "Rest/light review", "Study log update"]] },
-      { type: "p", text: "Combine with **parental guidance** for weekly reviews. Ensure exercise and sleep for brain health. This level prepares for selective school competition." },
-      { type: "h3", text: "Advanced Level (14+ hours/week)" },
-      { type: "p", text: "For **high ability Year 6 pupils** targeting top scores in entrance exams. Emphasise timed mocks, logic puzzles, and pacing strategies. Monitor for burnout with rest days." },
-      { type: 'table', headers: ["Day", "Time", "Subject/Activity"], rows: [["Monday", "4-5:30pm", "Maths + English (full section practice)"], ["Tuesday", "4:30-5:45pm", "Verbal/Non-Verbal Reasoning (mixed puzzles)"], ["Wednesday", "4-5:30pm", "Maths (advanced arithmetic, coding patterns)"], ["Thursday", "4:30-5:45pm", "English (comprehension + vocab)"], ["Friday", "4-5:30pm", "Reasoning (speed practice, 50 questions)"], ["Saturday", "9am-1pm", "Full mock exam + review"], ["Sunday", "10-11am", "Weak areas focus"]] },
-      { type: "p", text: "Incorporate 11 Plus tutoring for feedback. Use CGP guides or Bond papers for resources. Balance with hobbies for wellbeing." },
-    ],
+  {
+    "type": "p",
+    "text": "There is no single weekly hour target that can tell you whether your child will qualify for a grammar-school place. Plan from the subjects required, the skills your child needs to learn and the time they can manage alongside school and family life. More completed papers do not automatically mean better understanding."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "Start with a small routine you can review"
+  },
+  {
+    "type": "p",
+    "text": "As an illustrative starting point, try three 20-minute skill sessions and one 30-minute review session in a week: 90 minutes of structured work altogether. This is an example timetable, not a research-backed minimum, a ceiling or a guarantee. Some children will need a different arrangement; include tutor lessons and their homework when counting the total."
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Session",
+      "Example focus",
+      "Time in this example"
+    ],
+    "rows": [
+      [
+        "1",
+        "Learn and practise one maths method",
+        "20 minutes"
+      ],
+      [
+        "2",
+        "Read a short passage and discuss evidence",
+        "20 minutes"
+      ],
+      [
+        "3",
+        "Practise a required reasoning skill, or another English/maths gap",
+        "20 minutes"
+      ],
+      [
+        "4",
+        "Revisit mistakes and try a few fresh questions",
+        "30 minutes"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Reading for pleasure does not need to become a timed exam assignment. Let your child choose books as well as reading material you suggest. A conversation about an unfamiliar word or why a character acted a certain way can be useful without turning every chapter into a test."
+  },
+  {
+    "type": "h2",
+    "text": "Decide what the time is for"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Knowledge gap: teach one idea and model it before assigning questions.",
+      "Method gap: ask the child to explain each step and compare a worked example.",
+      "Reading error: identify the instruction or detail that changed the answer.",
+      "Timing difficulty: use a short timed section only after the underlying method is secure.",
+      "Answer-sheet error: practise transferring a small set of answers accurately."
+    ]
+  },
+  {
+    "type": "p",
+    "text": "For example, a child who cannot yet find a fraction of an amount needs instruction, not a longer mixed paper. Use our [fractions lesson](/subjects/maths/fractions-of-amounts), then ask a fresh question to see whether the method transfers. A total score alone will not reveal that distinction."
+  },
+  {
+    "type": "h2",
+    "text": "Should the hours change with the year group?"
+  },
+  {
+    "type": "p",
+    "text": "For younger children, concentrate on reading, number understanding and enjoyment of learning rather than importing a Year 6 testing routine. During the year before the test, add the specific subject knowledge and question formats required. Nearer the exam, allow time for realistic practice and reviewing it. These are planning stages, not prescribed age-based hour quotas."
+  },
+  {
+    "type": "p",
+    "text": "If your child takes an autumn 2027 test, work backwards from that date. A January 2027 school assessment has a different preparation window. Confirm the calendar before copying another family’s schedule."
+  },
+  {
+    "type": "h2",
+    "text": "Count review time as preparation"
+  },
+  {
+    "type": "p",
+    "text": "A 30-minute paper followed by a thoughtful discussion is a different task from a 30-minute paper put straight into a folder. Record two or three learning points, reteach one of them and return later with different questions. Include this in the weekly budget so that correction work does not silently add another evening."
+  },
+  {
+    "type": "h2",
+    "text": "When to reduce or change the workload"
+  },
+  {
+    "type": "p",
+    "text": "If sessions regularly end in tears, arguments or exhaustion, reduce the demand and discuss what is difficult. Consider whether the task is too long, too hard, poorly explained or simply placed at the wrong time of day. Speak to the child’s teacher or tutor about the learning difficulty rather than assuming more hours will solve it. Persistent concerns about wellbeing deserve appropriate support."
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Protect existing schoolwork, sleep, friendships and activities.",
+      "Avoid making up every missed session with a weekend backlog.",
+      "Give the child a clear finishing point.",
+      "Review what they can now do independently, not just the minutes logged."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "What if we start late?"
+  },
+  {
+    "type": "p",
+    "text": "Prioritise the official test requirements and the largest teachable gaps. It may be sensible to narrow the school shortlist or seek targeted help, but do not replace a missed year of preparation with an extreme daily quota. There is no honest timetable that can guarantee a particular score by a particular date."
+  },
+  {
+    "type": "h2",
+    "text": "Next step and sources"
+  },
+  {
+    "type": "p",
+    "text": "Use the [weekly timetable guide](/blog/how-to-structure-an-11-plus-study-timetable) to turn this into a plan. [GL Assessment](https://11plus.gl-assessment.co.uk/) confirms that local test subjects and timings vary; its familiarisation materials are a starting point for format checks. The example hours on this page are editorial planning suggestions, not instructions from GL or a clinical recommendation. Reviewed 7 October 2026."
+  }
+]
+  },
   {
     slug: "11-plus-time-management-strategies-in-the-exam",
     title: "11 Plus time management strategies in the exam.",
@@ -2108,392 +2164,461 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "how-is-the-11-plus-scored-and-marked",
     title: "How is the 11 Plus scored and marked?",
-    desc: "Uncover how the 11 Plus is scored and marked across English, maths, verbal and non-verbal reasoning papers. Learn raw scores, age standardisation, pass marks and cut-offs for grammar school success. Get expert insights now.",
+    desc: "Follow the route from raw marks to standardised scores and admissions decisions, with an official example and practical result-checking steps.",
     date: "June 25, 2025",
-    readTime: "8 min read",
+    readTime: "3 min read",
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_4.jpeg",
     imageAlt: "How is the 11 Plus scored and marked?",
     images: ["https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_1.jpeg", "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_2.jpeg", "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_3.jpeg", "https://files.autoblogging.ai/images/how-is-the-11-plus-scored-and-marked(k7i4)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "Overview of 11 Plus Exam" },
-      { type: "p", text: "The **11 Plus exam**, taken by over 250,000 UK children annually, determines grammar and selective independent school entry through 3-4 papers testing English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. This transfer test assesses readiness for selective secondary education. Parents register their child to sit papers from main providers like GL Assessment, CEM Select, and CSSE." },
-      { type: "p", text: "England has **164 selective grammar schools**, with a national pass rate of 16% for grammar school entry in 2023. The typical timeline includes registration from June to September, exams in September to November, and results from October to December. This schedule helps families plan **11+ preparation** around practice papers and mock exam marks." },
-      { type: "p", text: "Three main providers dominate: **GL Assessment (60% market share)**, CEM Select (30%), and CSSE (10%). Regional variations affect the scoring system, such as Birmingham requiring four tests while Kent uses two papers. Understanding these helps target **practice papers scoring** effectively." },
-      { type: 'table', headers: ["County", "2023 Pass Rate"], rows: [["Birmingham", "16%"], ["Kent", "38%"], ["Trafford", "27%"], ["Reading", "22%"], ["National Average", "16%"]] },
-      { type: "h3", text: "Key Components of the 11 Plus Papers" },
-      { type: "p", text: "The **11 Plus** typically includes English, Maths, Verbal Reasoning, and Non-Verbal Reasoning papers. Each tests specific skills, like comprehension in English or patterns in Non-Verbal Reasoning. **Marks allocation** varies by provider, so check the exam board for details." },
-      { type: "p", text: "**Multiple choice scoring** applies to many questions, with no negative marking for wrong answers. This encourages guessing on tricky items. Partial marks may award credit for working out in Maths." },
-      { type: "p", text: "Practice with GL Assessment or CEM-style papers reveals **question weighting**. Focus on high-value sections to boost your child's **total score**. Tutors provide feedback on exam technique for score improvement." },
-      { type: "p", text: "Age adjustment ensures fairness, creating an **age standardised score (SAS)**. This levels the playing field for younger or older candidates in the cohort." },
-      { type: "h3", text: "Main Scoring Providers Explained" },
-      { type: "p", text: "**GL Assessment** uses standardised scores from 69 to 141, with 100 as average. It applies **raw score** conversion based on national data for precise marking. Many consortia adopt this for grammar school entry." },
-      { type: "p", text: "**CEM Select** focuses on untimed tests with **scaled scores** adjusted for difficulty. No prior papers mean broad practice helps. It emphasises resilience in verbal and non-verbal reasoning scores." },
-      { type: "p", text: "**CSSE** offers traditional papers with **raw marks** plus age standardisation. Expect essay-style English for higher aggregate score. Regional groups like Kent use this system." },
-      { type: "h3", text: "Understanding Pass Marks and Eligibility" },
-      { type: "p", text: "The pass mark or [qualifying score](/blog/what-is-a-good-11-plus-score-or-pass-mark) differs by school, often a percentile rank like top 25%. Borderline scores near the threshold may qualify via waiting lists. Check each grammar school's criteria." },
-      { type: "p", text: "[Standardised scores](/blog/standardised-scores-in-the-11-plus-what-do-they-mean) account for test difficulty and cohort performance. A score of 110+ typically indicates strong selective eligibility. Parents receive a score report with subject scores on results day." },
-      { type: "p", text: "For appeals, request a remark if near the **score threshold**. Automated marking handles multiple choice, while examiner marking covers written answers. Score validity lasts for that admissions cycle only." },
-      { type: "h2", text: "Standard Test Format" },
-      { type: "p", text: "Most **11+ exams** follow **GL Assessment format** with 4 papers totaling 2.5 hours: English (25-30 mins), Maths (30 mins), Verbal Reasoning (25 mins), Non-Verbal Reasoning (30-35 mins)." },
-      { type: "p", text: "This structure tests core skills for grammar school entry. Providers like GL Assessment and CEM Select use **multiple choice scoring** or open-ended answers. Raw scores from each paper contribute to a total score or aggregate." },
-      { type: "p", text: "Exams adjust for age with **age standardised scores** (SAS). This ensures fairness across test dates. Parents receive a **score report** showing subject scores and percentile ranks." },
-      { type: 'table', headers: ["Subject", "Duration", "Questions", "Format", "Sample Providers"], rows: [["English", "25-30 mins", "40-50", "Comprehension, cloze, SPaG", "GL Assessment, CEM Select"], ["Maths", "30 mins", "40-50", "MCQ or written", "GL Assessment, CSSE"], ["Verbal Reasoning", "25 mins", "80", "MCQ codes, synonyms", "GL Assessment, CEM Select"], ["Non-Verbal Reasoning", "30-35 mins", "60-80", "Pattern matrices, shapes", "GL Assessment, CEM Select"]] },
-      { type: "p", text: "Practice with **mock exam marks** helps predict **qualifying score**. Focus on time management for each paper." },
-      { type: "h3", text: "English Paper" },
-      { type: "p", text: "English papers test comprehension, vocabulary, spelling, and grammar through 3 sections: reading comprehension (8-10 questions), cloze procedure (20 gaps), spelling/punctuation (15-20 items)." },
-      { type: "p", text: "Comprehension makes up about a quarter, with 8-12 questions on a passage. **Cloze** fills 20 gaps testing vocabulary, at 40% weight. **SPaG** covers 15-20 items on spelling, punctuation, and grammar, around 35%." },
-      { type: "p", text: "GL uses multiple choice scoring, while CEM opts for open-ended. Marking gives 1 mark per correct answer, with **no negative marking**. Partial credit applies in comprehension per recent GL mark schemes." },
-      { type: "ul", items: ["Sample comprehension: \"What does the character feel?\" with passage extract.", "Cloze example: \"The cat sat on the mat.\"", "SPaG: Choose correct punctuation for a sentence."] },
-      { type: "p", text: "Practice **exam technique** boosts English score. Review **marking criteria** from practice papers." },
-      { type: "h3", text: "Maths Paper" },
-      { type: "p", text: "Maths papers cover Year 5/6 curriculum with 40-50 questions testing arithmetic, reasoning, geometry, and data handling, worth up to 50 raw marks." },
-      { type: "p", text: "Topics include **arithmetic** (major focus), reasoning, measures, geometry, and data. Questions progress: early ones at Year 5 level, later demand Year 6 problem-solving. CSSE requires written answers with working shown." },
-      { type: "p", text: "Mark scheme awards 1 mark per question, 2 for multi-step. **No negative marking** encourages attempts. **Raw score** feeds into standardised score." },
-      { type: "ul", items: ["Arithmetic: Long division or fractions.", "Reasoning: Number sequences.", "Geometry: Angle calculations.", "Measures: Convert units.", "Data: Interpret graphs."] },
-      { type: "p", text: "Tutor feedback on mock exam marks aids **score improvement**. Master showing working for partial marks." },
-      { type: "h3", text: "Verbal Reasoning" },
-      { type: "p", text: "Verbal Reasoning tests 21 question types across 80 questions in 25 minutes, including synonyms, analogies, word completion, and code-breaking." },
-      { type: "p", text: "GL format uses 4-option **MCQ**, CEM 5-option with time pressure. Scoring is 1 mark per correct, max 80 raw marks. Common types: synonyms, analogies, letter codes, word pairs." },
-      { type: 'table', headers: ["Type", "Example", "% of Paper", "GL/CEM"], rows: [["Synonyms", "Big = large", "High", "Both"], ["Analogies", "Hand is to glove as foot to sock", "Medium", "GL heavy"], ["Letter Codes", "APPLE = 35165", "Medium", "Both"], ["Word Pairs", "Opposite or same", "Medium", "CEM"], ["Completion", "Fill vowel in word", "Low", "GL"]] },
-      { type: "p", text: "Master core types for **verbal reasoning score**. Practice speeds up **score calculation** under timed conditions." },
-      { type: "p", text: "Focus on **automated marking** accuracy in MCQs. Use answer keys from practice for self-scoring." },
-      { type: "h3", text: "Non-Verbal Reasoning" },
-      { type: "p", text: "Non-Verbal Reasoning assesses pattern recognition through 5 main types: series, matrices, nets, shapes, and spatial reasoning (60-80 questions)." },
-      { type: "p", text: "Categories: **series completion** (sequences), matrices (grids), shape analogies, nets/cubes (unfoldings), spatial (rotations). 1 mark per correct identification. GL emphasises patterns, CEM 3D rotations." },
-      { type: "p", text: "Scoring mirrors verbal with raw marks to **SAS**. Visuals from GL papers show progressing complexity." },
-      { type: "ul", items: ["Series: Next in shape sequence.", "Matrices: Missing grid tile.", "Analogy: A to B as C to?", "Nets: Which folds to cube.", "Spatial: Rotated figure match."] },
-      { type: "p", text: "Practice **non-verbal reasoning score** with diagrams. Build speed for **time pressure** in tests." },
-      { type: "h2", text: "Raw Scoring System" },
-      { type: "p", text: "Raw scores sum correct answers per paper: **English (max 50)**, **Maths (max 50)**, VR (max 80), NVR (max 80), with no negative marking or partial credits except comprehension." },
-      { type: "p", text: "Each **11 Plus exam board** sets specific maximums for subjects. Providers like GL Assessment use formats such as Eng50/M50/V80/N80, while CEM Select follows Eng55/M50/VR80. CSSE applies Eng60/M65 for its tests." },
-      { type: "p", text: "The **marking process** starts with automated OMR scanning for multiple-choice questions. Manual verification handles written answers, ensuring accuracy in the **raw score calculation**." },
-      { type: 'table', headers: ["Provider", "English", "Maths", "VR", "NVR", "Total Max"], rows: [["GL Assessment", "50", "50", "80", "80", "260"], ["CEM Select", "55", "50", "80", "-", "185"], ["CSSE", "60", "65", "-", "-", "125"], ["Birmingham Consortium", "50", "50", "80", "-", "180"]] },
-      { type: "p", text: "For example, a child answering all 30 English questions correctly scores 30 raw marks in that section. Parents can use [practice papers](/papers) to track these raw marks and predict performance." },
-      { type: "h3", text: "Marking Process Details" },
-      { type: "p", text: "**Automated marking** via OMR scanners quickly tallies multiple-choice answers. This applies to most verbal reasoning scores and **non-verbal reasoning scores** in GL and CEM tests." },
-      { type: "p", text: "Written sections, like **English comprehension**, receive manual checks by examiners. They award full marks or zero, with rare partial credits for clear working in **maths score** problems." },
-      { type: "p", text: "No negative marking means guessing carries no penalty. This encourages children to attempt every question during the **11+ exam**." },
-      { type: "p", text: "Exam boards release **mark schemes** post-test, helping tutors provide feedback. Families review score reports on results day for subject strengths." },
-      { type: "h3", text: "Average Raw Scores and Examples" },
-      { type: "p", text: "In 2023 GL data, top 10% achieved around 65% correct answers as raw scores. This highlights the competitive nature of **grammar school entry**." },
-      { type: "p", text: "A sample GL raw score might be Eng 35/50, Maths 42/50, VR 60/80, totalling 137. Such totals guide score improvement through targeted practice." },
-      { type: "p", text: "CSSE exams weight **English score** higher at 60 marks. Children practice with past papers to familiarise with marking criteria." },
-      { type: "p", text: "Borderline scores near pass marks prompt remark requests. Parents check eligibility for **secondary school selection** based on these raw totals." },
-      { type: "h2", text: "Standardisation Process" },
-      { type: "p", text: "Raw scores convert to **standardised scores** (mean 100, SD 15) using norm tables from 20,000+ pupils, adjusting for test version difficulty per GL Assessment and CEM protocols." },
-      { type: "p", text: "GL Assessment applies the **Rasch model** for precise scaling, as outlined in their 2019 technical report. This method ensures fair comparison across different test forms by measuring pupil ability against item difficulty. Parents can expect consistent age standardised scores (SAS) regardless of which version their child takes." },
-      { type: "p", text: "The formula overview is SAS = 100 + 15*(Raw - Mean)/SD. This transforms raw marks into a normal distribution centred at 100. For instance, a score one standard deviation above the mean yields an SAS of 115." },
-      { type: 'table', headers: ["Raw Score Percentage", "Standardised Age Score (SAS)"], rows: [["80%", "115"], ["90%", "127"]] },
-      { type: "p", text: "The process follows a clear timeline: scanning on Day 1, raw calculation on Day 2, standardisation on Day 7, and results dispatch by Day 10. Equating examples show fairness, like Test A 45/50 equating to Test B 47/50. This handles variations in **test difficulty adjustment** for reliable **eleven plus** outcomes." },
-      { type: "h2", text: "Age Standardisation" },
-      { type: "p", text: "Children born September-July get **age adjustment**: +2 months (early Sept birthday) to -4 months (late Aug birthday), adding up to 5 **standardised points** (GL method)." },
-      { type: "p", text: "This age standardisation ensures fairness in **11 Plus scoring**. Younger children in the cohort receive a small boost to their raw score. It accounts for the few months' difference in maturity." },
-      { type: "p", text: "CEM research highlights how age adjustment prevents disadvantage for late-summer birthdays. Without it, these pupils face an uneven playing field. Parents often see this in practice papers scoring where birth dates matter." },
-      { type: "p", text: "Regional variations affect this process. Kent tests apply no age adjustment, while Birmingham uses the full GL scale. Check your local grammar school entry rules for specifics." },
-      { type: "h3", text: "Age Allowance Table" },
-      { type: 'table', headers: ["Birthday Month", "Months Adjustment", "SAS Bonus"], rows: [["September", "+2 to +5", "+5 points"], ["October", "+4", "+4 points"], ["November", "+3", "+3 points"], ["December", "+2", "+2 points"], ["January", "+1", "+1 point"], ["February", "0", "0 points"], ["March", "-1", "-1 point"], ["April", "-2", "-2 points"], ["May", "-3", "-3 points"], ["June", "-3", "-3 points"], ["July", "-4", "-4 points"], ["August", "-4", "-4 points"]] },
-      { type: "p", text: "Use this **age allowances table** to predict **standardised score** impacts. Early September birthdays gain the most SAS bonus. Late August pupils see a deduction in GL Assessment systems." },
-      { type: "h3", text: "Practical Example" },
-      { type: "p", text: "Consider Child A born 1st September with a raw score of 42 out of 50. After age adjustment, their SAS reaches 112." },
-      { type: "p", text: "Child B, born 31st August, has the same raw score. Their **age standardised score** adjusts to 107 due to the late birthday penalty. This shows how **months adjustment** creates real differences in test results." },
-      { type: "p", text: "Parents can apply this to mock exam marks. Track your child's birthday month against local **scoring systems** like CEM Select or GL. It aids in setting realistic pass mark expectations." },
-      { type: "h3", text: "Why It Matters for 11+ Preparation" },
-      { type: "p", text: "Age standardisation levels the field in eleven plus marking. It influences qualifying score for secondary school selection. Tutors often factor it into score improvement plans." },
-      { type: "p", text: "Review your area's **mark scheme** early. Some use automated marking with built-in adjustments. Others rely on examiner marking without them." },
-      { type: "p", text: "Practice with age-adjusted scores from official practice papers. This builds accurate exam technique and reduces surprises on **results day**." },
-      { type: "h2", text: "Final Standardised Scores" },
-      { type: "p", text: "Final scores aggregate subject SAS in the 11 Plus: GL total mean 400 (100\u00d74), CEM combined score 111+ pass typical, with **percentile ranks** (top 23% = 111+ SAS). These age standardised scores adjust raw marks for age and test difficulty. Parents receive a clear score report on results day." },
-      { type: "p", text: "GL Assessment uses four subjects, each scaled to a mean of **100 SAS**, totalling around 400 for average performance. CEM Select combines scores into one overall figure, often needing 111+ for selective eligibility. CSSE applies raw plus standardised adjustments for grammar school entry." },
-      { type: "p", text: "Score bands help interpret results: **130+ SAS** places candidates in the top 2%, 121-129 in the top 10%, and 111-120 in the top 25%. Local ranks and national percentiles provide context against peers. Use practice papers to familiarise with these bands during 11+ preparation." },
-      { type: "p", text: "Benchmarks vary by area, such as Birmingham requiring 3A* (Eng+Maths+VR \u2265330) or Kent needing 121+ SAS. Check consortium score requirements for your region. Remark requests can clarify borderline scores through the appeal process." },
-      { type: "h3", text: "Comparison of 11+ Scoring Methods" },
-      { type: 'table', headers: ["Provider", "Scoring Method", "Pass SAS", "Percentile"], rows: [["GL", "4\u00d7SAS (400+ total)", "Typically 404+", "Top 25% at 111 per subject"], ["CEM", "Combined 111+", "111 overall", "Top 23% at 111 SAS"], ["CSSE", "Raw + standardised", "Region-specific", "Local rank based"]] },
-      { type: "p", text: "This table outlines key differences in **11+ scoring systems**. GL multiplies four **subject scores** like English, maths, verbal reasoning, and non-verbal reasoning. CEM focuses on a single combined total for simplicity." },
-      { type: "p", text: "CSSE emphasises raw marks adjusted locally, suiting traditional grammar tests. Understand your exam board's mark scheme to target the right pass mark. Practice with mock exam marks builds confidence in score calculation." },
-      { type: "h3", text: "Understanding Your Score Report" },
-      { type: "p", text: "Score reports break down **subject SAS**, total aggregate score, national percentile, and local rank. For example, a GL report lists individual scores for maths score and verbal reasoning score alongside the overall total. This helps spot strengths for score improvement." },
-      { type: "p", text: "Examiners use automated marking for multiple choice, with partial marks possible in some formats, but no negative marking applies. The report includes **performance bands** and attainment levels. Review with a parent guide or tutor for feedback on exam technique." },
-      { type: "p", text: "Score validity lasts for secondary school selection, often one year. Borderline scores near the qualifying score may qualify for waiting lists. Request a remark if marks seem off, following marking guidelines." },
-      { type: "h2", text: "Pass Marks and Cut-Offs" },
-      { type: "p", text: "Cut-offs vary yearly: Kent 2023 (121 SAS), Birmingham (336/400 total), **Trafford** (highest nationally 140+ SAS), with waiting lists at 115-120. These **pass marks** depend on the exam board and local authority. Families need to check annual updates for grammar school entry." },
-      { type: "p", text: "**Score thresholds** reflect applicant numbers and test difficulty. For example, selective eligibility often hinges on qualifying scores like aggregate totals. Parents should track **borderline scores** close to the cut-off." },
-      { type: "p", text: "Authorities adjust cut-off scores based on performance bands. Trends show slight yearly increases of 3-5 points due to inflation in standardised scores. This affects eleven plus preparation strategies." },
-      { type: 'table', headers: ["Authority", "2023 Cut-Off Example"], rows: [["Kent", "121 SAS"], ["Birmingham", "A* (336 total)"], ["Slough", "232"], ["Barnet", "Top 180 pupils"], ["Wirral", "116 SAS (waiting list)"], ["Bristol", "114 SAS (waiting list)"], ["Trafford", "140+ SAS"], ["Liverpool", "119 SAS"], ["Redbridge", "Top 25%"], ["Sutton", "118 SAS"], ["King Edward", "127 SAS"], ["Bexley", "116 SAS"], ["Reading", "121 SAS"], ["Warwickshire", "115 SAS"], ["Townsville", "120 aggregate"]] },
-      { type: "h3", text: "Understanding Waiting Lists" },
-      { type: "p", text: "**Waiting lists** form for scores just below cut-offs, like Wirral at 116 SAS for 50 places. High demand keeps lists active post-results day. Parents can join multiple lists for better chances." },
-      { type: "p", text: "Scores around **115-120 SAS** often qualify for waiting lists in competitive areas. Check **score reports** for percentile ranks to gauge position. Updates occur as higher offers decline." },
-      { type: "h3", text: "Offer Strategies and Preferences" },
-      { type: "p", text: "Use **three preferences** wisely when ranking schools. Top choice impacts **offer allocation** based on distance and scores. Avoid over-ranking high cut-offs if borderline." },
-      { type: "p", text: "Experts recommend balancing subject scores across verbal reasoning, non-verbal reasoning, maths, and English. This strengthens **consortium scores** for multiple tests. Review mock exam marks for realistic preferences." },
-      { type: "p", text: "**Ranking impacts offers** directly in secondary school selection. Place reachable schools first to secure a spot. Tutor feedback helps refine exam technique for score improvement." },
-      { type: "h3", text: "Appeal Process and Remarks" },
-      { type: "p", text: "Request a **remark** if near the cut-off, costing around \u00a350 per paper. About 10% see score changes from examiner marking reviews. Act quickly after **test results**." },
-      { type: "p", text: "Follow marking guidelines for **appeal process**. Provide evidence from practice papers scoring. Success depends on raw marks near thresholds, with no negative marking in most 11 Plus exams." },
-      { type: "p", text: "**Score validity** lasts one year for transfer tests. GL Assessment and CEM Select use age standardised scores for fairness. Remarks clarify partial marks or answer key issues." },
-    ],
+  {
+    "type": "p",
+    "text": "The 11 Plus is not marked through one national system. The test provider and admissions authority determine how answers earn marks, whether scores are standardised and how the result is used. Keep the marking process separate from the later decision about a school place."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "1. Answers are marked under the test’s rules"
+  },
+  {
+    "type": "p",
+    "text": "A raw mark is the credit awarded before any standardisation or weighting. A multiple-choice test may award marks for correct selections; a written paper may use a marking scheme with several marks for an answer. Read the instructions to find out whether workings, spelling or explanations are assessed. Do not assume that rules from one practice publisher apply to another test."
+  },
+  {
+    "type": "h2",
+    "text": "2. Raw marks may be standardised"
+  },
+  {
+    "type": "p",
+    "text": "Standardisation converts performance onto the assessment’s reporting scale. Age can be part of that calculation. You cannot usually reproduce the official result from a practice percentage because you do not have the relevant conversion data and scoring rules. Some assessments report raw scores; others report standardised results or rankings."
+  },
+  {
+    "type": "h2",
+    "text": "3. Sections may be combined or weighted"
+  },
+  {
+    "type": "p",
+    "text": "As an example of a published local method, [Buckinghamshire Council](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/marking-the-secondary-transfer-test/) describes a combined score using 50% verbal skills, 25% mathematical skills and 25% non-verbal skills. That is a Buckinghamshire rule, not the formula for every GL test or every 11 Plus exam. Recheck the policy for the relevant cycle."
+  },
+  {
+    "type": "p",
+    "text": "Illustrative arithmetic using that weighting: verbal 120, mathematical 124 and non-verbal 116 would combine as 60 + 31 + 29 = 120. These are already-standardised example section scores. This calculation does not show how raw marks become those scores and does not predict a real result."
+  },
+  {
+    "type": "h2",
+    "text": "4. Qualification and allocation are separate"
+  },
+  {
+    "type": "p",
+    "text": "An academic result may establish eligibility, determine a ranking or decide whether a child proceeds to another stage. The school then applies its admissions rules. A qualifying score is not necessarily the lowest score offered a place, and being eligible does not remove catchment or other priority criteria."
+  },
+  {
+    "type": "h2",
+    "text": "What should I check on results day?"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "The child’s details and the assessment or school named.",
+      "Whether the reported number is raw, standardised, weighted or a rank.",
+      "Any separate subject minimums as well as an overall requirement.",
+      "Whether the result is qualification, an invitation to another stage or an offer.",
+      "Instructions and deadlines for queries, reviews or applications."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Can I ask for a marking check?"
+  },
+  {
+    "type": "p",
+    "text": "Follow the admissions authority’s published process. A clerical or marking check, a selection review and an admission appeal are different procedures. Ask what the available process checks, whether there is a fee and what evidence or deadline applies. Do not assume every area provides the same route or releases completed scripts."
+  },
+  {
+    "type": "h2",
+    "text": "How should we use practice marks for 2027?"
+  },
+  {
+    "type": "p",
+    "text": "Keep the paper name, difficulty, timing and whether it was a first attempt. Review mistakes by cause and compare like-for-like tasks. A score of 36 out of 40 is 90% on that task; it is not automatically an official standardised score or a promised place. Use the [standardised-score guide](/blog/standardised-scores-in-the-11-plus-what-do-they-mean) for the reporting terminology."
+  },
+  {
+    "type": "h2",
+    "text": "Sources"
+  },
+  {
+    "type": "p",
+    "text": "Reviewed 7 October 2026: [Buckinghamshire marking guidance](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/marking-the-secondary-transfer-test/), [Kent results guidance](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/kent-test-results) and [Cambridge Select Insight reporting descriptions](https://www.cem.org/entrance-assessments). Examples explain methods; they are not confirmed 2027 test thresholds."
+  }
+]
+  },
   {
     slug: "what-is-a-good-11-plus-score-or-pass-mark",
     title: "What is a good 11 Plus score or pass mark?",
-    desc: "Uncover what defines a good 11 Plus score or pass mark. Explore exam structure, national standards, regional variations, raw vs standardised scores, and competition factors. Get clear insights to boost your child's grammar school chances today.",
+    desc: "Understand why there is no universal 11 Plus pass mark, how qualification differs from an offer and what practice scores can tell you.",
     date: "July 2, 2025",
-    readTime: "6 min read",
+    readTime: "3 min read",
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_4.jpeg",
     imageAlt: "What is a good 11 Plus score or pass mark?",
     images: ["https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_1.jpeg", "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_2.jpeg", "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_3.jpeg", "https://files.autoblogging.ai/images/what-is-a-good-11-plus-score-or-pass-mark(f954)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "Understanding the 11 Plus Exam" },
-      { type: "p", text: "The 11 Plus exam typically consists of **4 core subjects**\u2014English, Maths, Verbal Reasoning, and Non-Verbal Reasoning\u2014delivered in 45-60 minute papers per section across 2-4 testing days depending on the exam board." },
-      { type: "p", text: "**GL Assessment** uses four separate 50-minute papers. These cover English with around 60 multiple-choice questions on comprehension and vocabulary, Maths with 80 problems, Verbal Reasoning with 80 items in 45 minutes, and Non-Verbal Reasoning with spatial tasks." },
-      { type: "p", text: "**CEM Select** differs by combining subjects into two 50-minute papers. One mixes Verbal Reasoning and Maths, the other pairs Non-Verbal Reasoning with comprehension, using a mix of multiple-choice and free-response formats." },
-      { type: "p", text: "Variations include **multiple choice** scanned via OMR sheets for GL, while CEM often uses online adaptive tests. Parents check official GL and CEM specs for local grammar school entrance rules." },
-      { type: 'table', headers: ["Exam Board", "Subjects", "Duration", "Question Types", "Marking Method"], rows: [["GL Assessment", "English, Maths, VR, NVR", "4 x 50 mins", "Multiple choice", "OMR scanning"], ["CEM Select", "VR+Maths, NVR+Comprehension", "2 x 50 mins", "Mixed MCQ/free response", "Online adaptive"]] },
-      { type: "h3", text: "Exam Structure and Subjects" },
-      { type: "p", text: "GL Assessment exams feature **four distinct 50-minute papers** covering English (comprehension/vocabulary), Maths (numerical reasoning), Verbal Reasoning (word puzzles), and Non-Verbal Reasoning (spatial patterns)." },
-      { type: "p", text: "English includes **60 MCQs** testing spelling and grammar. Maths has 80 problems on arithmetic and shapes, often timed tightly. Verbal Reasoning packs 80 items into 45 minutes, like analogies." },
-      { type: "p", text: "For example, a VR question might read: bird is to fly as fish is to ___, with options like swim, water, scale, ocean. Non-Verbal Reasoning uses patterns and sequences." },
-      { type: 'table', headers: ["Exam Board", "Subjects Tested", "Paper Length", "Total Questions", "Format"], rows: [["GL", "English, Maths, VR, NVR", "50 mins each", "200+ MCQs", "OMR sheets"], ["CEM", "Comprehension+VR, Maths+NVR", "50 mins combo", "100+ mixed", "Online adaptive"]] },
-      { type: "p", text: "CEM combines skills to test **adaptability under time pressure**. Practice with CGP books or Bond papers helps familiarise children with these formats for better exam technique." },
-      { type: "h2", text: "What Constitutes a 'Good' Score?" },
-      { type: "p", text: "A **good 11 Plus score** typically means 111+ standardised score (top 25% nationally), with 121+ considered excellent (top 10%) and 130+ exceptional for grammar school priority. These SAS scores come from GL Assessment, which uses age-standardised scoring based on 2023 norms. Parents often aim for these bands to meet **qualifying scores** in selective areas." },
-      { type: "p", text: "Score bands help define performance levels. A score of **111-120** falls at the 75th percentile, often securing selective places in grammar schools. Higher ranges like **121-130** hit the 91st percentile for top grammar entry, while 131+ reaches 98th percentile or above, ideal for oversubscribed schools." },
-      { type: "p", text: "The **SAS score distribution** follows a bell curve with a mean of 100 and standard deviation of 15, as per normal distribution principles. Most pupils score around this average, but **high scores** stand out in the right tail. Understanding this helps set realistic target scores during exam preparation." },
-      { type: "p", text: "For example, a raw score of **75/90 in Maths** might convert to an SAS of 115 using a score calculator. Tools like these account for [how the 11 Plus is scored and marked](/blog/how-is-the-11-plus-scored-and-marked) from the GL Assessment technical manual. Practice with bond papers or [mock exams](/mock-exams) builds confidence toward these benchmarks." },
-      { type: "h2", text: "National Pass Marks and Standards" },
-      { type: "p", text: "Nationally, no fixed **pass mark** exists as **11 Plus scores** are standardised with a mean of 100 and standard deviation of 15, but grammar schools typically require 110-113+ with Birmingham setting 104 as baseline in oversubscribed years. The Department for Education guidelines outline this national standardisation process to ensure fairness across age groups and test versions. Scores adjust for difficulty and pupil age using a normal distribution or bell curve." },
-      { type: "p", text: "Each local authority or school sets its own **cutoff score** based on available **grammar school places** and applicant numbers. In high-demand areas like Kent or Trafford, competition pushes thresholds higher. Parents should check school prospectuses for exact admissions criteria including tie-breaks and catchment rules." },
-      { type: "p", text: "Standardised Age Scores, or **SAS scores**, from providers like CEM Select or GL Assessment, form the basis for decisions. A score around 100 represents average performance, while 121 is the top end. Practice with mock exams and past papers helps predict a child's **qualifying score**." },
-      { type: "p", text: "Understanding **score distribution** aids preparation. Verbal reasoning, non-verbal reasoning, maths, and English tests contribute to the aggregate. Aim for a **competitive score** through targeted tutoring and exam technique practice." },
-      { type: "h3", text: "Typical Pass Thresholds" },
-      { type: "p", text: "Typical **pass thresholds** range from 104-113 SAS depending on competition: 110+ safe nationally, 104 Birmingham baseline, 113+ Kent/Trafford minimums. These threshold scores reflect oversubscription levels in the **11 Plus exam**. Schools use them to rank candidates for limited places." },
-      { type: 'table', headers: ["Score", "Percentile", "School Type", "Example LA"], rows: [["113+", "75th", "Selective Grammar", "Kent, Trafford"], ["110", "66th", "Borderline Grammar", "Birmingham"], ["104", "40th", "Minimum Priority", "High competition years"]] },
-      { type: "p", text: "In 2023 Birmingham admissions data, 2,126 places led to a cutoff score of 104 SAS aggregate across tests. This shows how local authority tests adjust yearly. Families in areas like Sutton or Redbridge face similar patterns with **score bands** shifting based on applicant pools." },
-      { type: "p", text: "To achieve a good 11 Plus score, focus on **score conversion** from raw marks to standardised ones. Use **practice papers** from CGP books or Bond to build skills in comprehension, vocabulary, and numerical reasoning. Track progress with a score calculator or mock results for a realistic target score." },
-      { type: "h2", text: "Regional and School-Specific Variations" },
-      { type: "p", text: "Cutoffs vary dramatically by region: Birmingham (104), Kent (113+), Trafford (116+), with individual schools adjusting based on applicant numbers and catchment priority. The **DfE School Admissions Code** shapes these through oversubscription criteria. Schools publish annual cutoff scores to guide parents on competitive 11 Plus scores." },
-      { type: "p", text: "In high-demand areas, a qualifying score like 121 might secure a place, while borderline scores hover near the threshold. Parents check **school prospectuses** and local authority data for score distributions. **Grammar school places** often prioritise catchment, siblings, or looked-after children in tie-breaks." },
-      { type: "p", text: "Understanding oversubscription ratios helps set a target score. For example, practice with GL Assessment or CEM Select papers to predict performance. Experts recommend aiming above the previous year's pass mark for a safe score." },
-      { type: "p", text: "**Admissions criteria** evolve yearly, so review performance tables and forums like Mumsnet 11+ for insights. This prepares families for **eleven plus** variations across the UK." },
-      { type: "h3", text: "Examples from Key Areas" },
-      { type: "p", text: "Birmingham grammar schools set 104 SAS as 2023 cutoff (King Edward VI: 2,800 apps for 180 places), while **Kent Test** requires 113+ with ranked lists. These reflect **competitive scores** influenced by applicant volume. Parents use this to gauge a good 11 Plus score locally." },
-      { type: "p", text: "Trafford demands higher thresholds due to selective systems. Sutton schools prioritise **catchment areas** alongside scores. Always verify with **LA admissions statistics** for the latest." },
-      { type: 'table', headers: ["Area", "Cutoff SAS", "Apps:Places Ratio", "Example School"], rows: [["Birmingham", "104", "14:1", "KES Grammar"], ["Kent", "113", "5,000:1,200", "Dartford GS"], ["Trafford", "116", "4:1", "Altrincham GS"], ["Sutton", "118", "6:1", "Nonsuch HS"]] },
-      { type: "p", text: "Aim for scores well above these cutoff scores to account for changes. Use mock exams and score calculators for score conversion. Tutoring focuses on **verbal reasoning** and maths test weaknesses to hit a strong performance." },
-      { type: "h2", text: "Raw Scores vs Standardised Scores" },
-      { type: "p", text: "Raw scores (e.g., 72/90 correct answers) convert to [standardised SAS](/blog/standardised-scores-in-the-11-plus-what-do-they-mean) via age norms: 72/90 \u2248 115 SAS for Year 6 autumn term child per GL conversion tables. This process starts with the **raw score**, which counts correct answers from the 11 Plus exam. It then adjusts for age using a Z-score before arriving at the final SAS with a mean of 100 and standard deviation of 15." },
-      { type: "p", text: "The conversion uses age standardisation from the CEM Select technical report formula. Younger children in Year 6 autumn receive a slight boost to reflect their academic potential fairly. This ensures a **grammar school entrance** score compares children across the normal distribution or bell curve." },
-      { type: "p", text: "Parents often confuse **raw scores** with SAS, but only the standardised version matters for **pass marks** and qualifying scores. For example, a 60/90 raw score might equal 100 SAS, the average, while higher raw marks push into competitive percentile bands. Check school prospectuses for specific threshold scores in areas like Kent or Birmingham 11+." },
-      { type: 'table', headers: ["Raw Score", "Autumn Y6 SAS", "%ile"], rows: [["80/90", "125", "95th"], ["72/90", "115", "75th"], ["60/90", "100", "50th"], ["45/90", "85", "15th"]] },
-      { type: "p", text: "This table shows typical score conversion for GL 11+ exams. Use it as a **score calculator** guide alongside practice papers from CGP books or Bond papers. Aim for a safe score above local cutoff in mock exams to predict eleven plus success." },
-      { type: "h2", text: "Factors Affecting Score Benchmarks" },
-      { type: "p", text: "Cutoffs fluctuate yearly based on **applicant cohort strength** and oversubscription. Birmingham dropped from 109 in 2022 to 104 in 2023 due to a weaker cohort. Local authorities adjust these **threshold scores** after marking to match available grammar school places." },
-      { type: "p", text: "Primary factors include applicant numbers, cohort ability, and test difficulty. In high-demand areas, more applicants per place raise the qualifying score. A tougher exam or stronger year group shifts the pass mark higher on the standardised scale." },
-      { type: "p", text: "Exam boards like CEM Select and GL Assessment use age-standardised scores to account for test date variations. This ensures fair comparison across the **11 Plus score distribution**. Parents should check school prospectuses for specific cutoff score trends." },
-      { type: "p", text: "**Local authority tests** often apply score adjustments post-exam. Oversubscription triggers tie-breaks like distance from school. Tracking league tables helps predict a competitive score for areas like Kent or Sutton." },
-      { type: "h3", text: "Competition and Cohort Performance" },
-      { type: "p", text: "High competition areas see **10-15 applicants per place**, pushing cutoffs up 5-10 SAS points in strong cohort years per league table analysis. Birmingham's ratio reached 14:1 in recent years. This drives the need for a **high 11 Plus score** to secure a place." },
-      { type: "p", text: "[Cohort performance and pass rates](/blog/how-many-children-pass-the-11-plus-pass-rate) vary yearly, affecting the bell curve of scores. A weak year lowers the cutoff score by several points, as seen in some regions. Strong performers set a higher benchmark score, making 110+ a safer target." },
-      { type: "ul", items: ["Apps:places ratio determines oversubscription levels.", "Cohort standard deviation influences score spread.", "Tie-break rules, like distance 0.1km apart, decide borderline cases."] },
-      { type: "p", text: "In Sutton's 2023 stats, competition raised cutoffs notably. Parents use practice papers and mock exams to aim for top percentiles. Forums like Mumsnet discuss **expected scores** based on past trends." },
-      { type: "h2", text: "Benchmarking Top Performances" },
-      { type: "p", text: "Top **1% achieve 130+ SAS** across papers (\u224890/90 raw per section), securing priority at elite grammars like Queen Elizabeth Hospital Birmingham. These **top scores** reflect exceptional mastery in verbal reasoning, non-verbal reasoning, maths test, and English test. Parents often target this range for competitive grammar school entrance." },
-      { type: "p", text: "A **high SAS score** like 140+ places pupils in the top 0.5%, earning highest priority in oversubscription scenarios. Schools use these benchmarks for admissions criteria, including tie-breaks and catchment areas. Practice with CEM Select or GL 11+ papers helps predict such performance." },
-      { type: 'table', headers: ["SAS", "National Rank", "Grammar Priority", "Example School"], rows: [["140+", "Top 0.5%", "Highest", "KES"], ["130-139", "Top 2%", "Priority 1", "Manchester GS"], ["121-129", "Top 10%", "Priority 2", "Sutton GS"]] },
-      { type: "p", text: "Stanine conversion shows **Stanine 9 = 127+ SAS**, aligning with excellent scores on the stanine scale. This table aids in setting a target score for 11 Plus exam preparation. Use mock exams and score calculators to track progress towards these bands." },
-      { type: "p", text: "Understanding score distribution on the bell curve helps contextualise results. A strong performance above 121 SAS boosts selective eligibility for schools like those in Birmingham 11+ or Kent 11+. Combine tutoring with past papers for score improvement." },
-      { type: "h2", text: "Implications of Different Score Bands" },
-      { type: "p", text: "Score bands determine outcomes: **121+ (automatic grammar offers)**, 110-120 (competitive), 104-109 (unlikely unless catchment priority), and under 104 (comprehensive allocation). These **11 Plus score bands** reflect standardised age scores, or SAS, which adjust for age and exam difficulty. Understanding them helps parents set realistic target scores during exam preparation." },
-      { type: "p", text: "Higher bands like **121+** often secure places in top grammar schools, especially in areas with oversubscription. For instance, in regions like Kent or Trafford, this **excellent score** bypasses tie-breaks and catchment rules. Families can use practice papers from GL Assessment or CEM Select to aim for such high scores." },
-      { type: "p", text: "**Borderline scores** in the 104-109 range rarely lead to grammar offers without strong local ties. Competitive bands around 110-120 depend on available grammar school places and school admissions criteria. Mock exams and score calculators help predict if a child's raw score converts to a competitive SAS." },
-      { type: 'table', headers: ["Band", "SAS Range", "Outcome", "Success Rate", "Notes"], rows: [["Priority 1", "121+", "Grammar guaranteed", "95%", "Competitive areas"], ["Competitive", "110-120", "Depends on places", "40-60%", "Borderline in oversubscription"], ["Borderline", "104-109", "Unlikely", "<20%", "Catchment priority key"], ["No offer", "<104", "Comprehensive", "0% grammar", "Based on 2023 multi-LA data"]] },
-      { type: "p", text: "This table, drawn from 2023 multi-LA data, shows how score bands influence secondary school transfer. Parents should check local authority tests, like those in Birmingham or Sutton, for specific **cutoff scores**. Tutoring focused on verbal reasoning, maths test, and non-verbal reasoning boosts chances across bands." },
-    ],
+  {
+    "type": "p",
+    "text": "A “good” 11 Plus score is one interpreted against the correct test, school and admissions cycle. There is no universal percentage that guarantees qualification or a place. Before comparing numbers, establish whether you are looking at a practice mark, an official standardised result or a previous admission cut-off."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "Three numbers that should not be confused"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Number",
+      "Meaning",
+      "Limit"
+    ],
+    "rows": [
+      [
+        "Practice percentage",
+        "Marks earned on a particular practice task",
+        "Not an official prediction"
+      ],
+      [
+        "Qualifying threshold",
+        "Academic requirement under the relevant scheme",
+        "May not guarantee an offer"
+      ],
+      [
+        "Previous allocation cut-off",
+        "Lowest score offered in a stated category at a stated point",
+        "Can change between years and allocation rounds"
+      ]
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "An official example: Buckinghamshire"
+  },
+  {
+    "type": "p",
+    "text": "[Buckinghamshire Council](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/marking-the-secondary-transfer-test/) currently describes 121 as its qualifying score and states that a higher result does not create higher admission priority. That shows why “aim above last year’s highest mark” is not a useful universal rule. Read the school’s oversubscription policy after checking qualification."
+  },
+  {
+    "type": "h2",
+    "text": "A historical example: Kent"
+  },
+  {
+    "type": "p",
+    "text": "[Kent County Council’s results page](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/kent-test-results) labels its 2025 test requirement as a total of at least 332, with every component at least 108. This is a historical example of an overall requirement plus subject minimums. It is not a confirmed threshold for a test taken in 2027."
+  },
+  {
+    "type": "p",
+    "text": "A child can meet a total while missing a component requirement. Conversely, achieving each component minimum may still leave the total too low. Read every condition rather than dividing the total into an average and treating that as the rule."
+  },
+  {
+    "type": "h2",
+    "text": "Is 80% in practice enough?"
+  },
+  {
+    "type": "p",
+    "text": "There is no dependable yes-or-no answer without the paper and admissions context. Practice materials vary in difficulty and coverage. A repeat attempt can also reflect memory. Record whether work was independent, timed and unfamiliar, then examine the mistakes. Do not use an online raw-to-standardised calculator as an official conversion unless the admissions authority supplies and validates it for that test."
+  },
+  {
+    "type": "h2",
+    "text": "Set useful preparation goals"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Explain the method accurately before increasing speed.",
+      "Reduce recurring errors on unfamiliar questions at a comparable level.",
+      "Practise the subjects and response style actually required.",
+      "Review the whole paper, including questions left unfinished.",
+      "Use the school’s familiarisation instructions to plan timed practice."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "What if the result is below the requirement?"
+  },
+  {
+    "type": "p",
+    "text": "Read the official result letter and the relevant review or appeal guidance. Check alternative school choices and application deadlines at the same time. A score is information about one assessment, not a measure of every strength your child brings to secondary school."
+  },
+  {
+    "type": "h2",
+    "text": "Where to go next"
+  },
+  {
+    "type": "p",
+    "text": "For interpreting the number itself, see [standardised scores explained](/blog/standardised-scores-in-the-11-plus-what-do-they-mean). For deciding whether it could lead to an offer, see [what score is needed for a grammar-school place](/blog/what-score-do-you-need-to-get-into-a-grammar-school). Reviewed 7 October 2026; future-cycle thresholds remain subject to official publication."
+  }
+]
+  },
   {
     slug: "standardised-scores-in-the-11-plus-what-do-they-mean",
-    title: "Standardised scores in the 11 Plus \u2013 what do they mean?",
-    desc: "Unlock the mystery of standardised scores in the 11 Plus. Learn raw vs standardised differences, age adjustments, difficulty compensation, calculation methods, score ranges, percentiles, and selective school thresholds. Empower your child's future today.",
+    title: "11 Plus standardised scores: what do they mean?",
+    desc: "Understand raw marks, age standardisation, weighted totals and score scales without misleading conversions or universal pass-mark claims.",
     date: "July 9, 2025",
-    readTime: "7 min read",
+    readTime: "3 min read",
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_4.jpeg",
     imageAlt: "Standardised scores in the 11 Plus \u2013 what do they mean?",
     images: ["https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_1.jpeg", "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_2.jpeg", "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_3.jpeg", "https://files.autoblogging.ai/images/11-plus-standardised-scores-meaning(6uqg)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "What Are Standardised Scores in the 11 Plus?" },
-      { type: "p", text: "Standardised scores in the 11 Plus exam transform raw marks into age-fair metrics, typically using a mean of 100 and standard deviation of 15, as per **GL Assessment** and **CEM Select** standards." },
-      { type: "p", text: "These scores allow fair comparison across different ages and test versions. A younger child might receive a higher **standardised score** for the same raw performance due to age allowance. For example, a raw score of 35/50 becomes 112 standardised for a younger child, reflecting their relative strength." },
-      { type: "p", text: "GL Assessment uses a mean of **100** with SD 15, while CEM Select applies a similar scale with SD around 10-15. This adjustment accounts for cognitive development stages in the **eleven plus**. Parents often find score conversion helpful for interpreting exam results." },
-      { type: "p", text: "The three main uses include **selective eligibility** for grammar schools, percentile ranking to show national standing, and school benchmarking against local averages. GL Assessment research supports the validity of **age-standardisation**, ensuring reliable child assessment. This demystifies scores for parental understanding in secondary school selection." },
-      { type: "h3", text: "Raw Scores vs Standardised Scores" },
-      { type: "p", text: "Raw scores count correct answers (e.g., 42/60 on CEM Maths), while **standardised scores** adjust for age and difficulty (e.g., 42 raw = 118 standardised for 10-year-4-month candidate)." },
-      { type: "p", text: "Raw marks depend on total questions and do not consider age or test version. A **10y8m child** scoring 28/40 in verbal reasoning gets raw 70%, but standardised around 105. This highlights how **age allowance** levels the playing field in the 11+ exam." },
-      { type: 'table', headers: ["Aspect", "Raw Score", "Standardised Score"], rows: [["Example: 35/50 Maths", "35 (70%)", "108-115 (age-dependent)"], ["Adjustment factor", "None", "Age and difficulty scaling"], ["Mean value", "Varies by test", "100"], ["Comparability", "Within same test only", "Across ages and versions"]] },
-      { type: "p", text: "GL Assessment provides a formula overview for conversion, factoring pupil age in months against norms. CEM uses a **score calculator** approach, though exact methods remain proprietary. Parents should note regional variations in score thresholds for grammar school entry." },
-      { type: "h2", text: "Why Standardisation is Used" },
-      { type: "p", text: "Standardisation ensures fairness by adjusting for children's age differences (3-12 months span) and **test difficulty variations** across regions and years. It creates age equity so younger candidates are not penalised for taking the 11 Plus exam before their 11th birthday. It also achieves **test normalisation** to keep standardised scores comparable over time and between test forms." },
-      { type: "p", text: "Without standardisation, a 2019 GL Assessment whitepaper notes 8-10 IQ point age differences emerge due to maturation. Age adjustments add about **2-3 points per month** below age 11, preventing younger children from scoring lower on **raw scores**. This levels the playing field for grammar school entry." },
-      { type: "p", text: "Difficulty scaling stops easier tests from dominating harder ones, as seen in regional 11+ exams like Bucks versus Birmingham. Coming sections cover **age adjustment** and difficulty compensation in detail. Parents use these insights to interpret **score meaning** and predict selective eligibility." },
-      { type: "p", text: "Standardisation supports score conversion from raw to age standardised formats, aiding **school admission** decisions. It demystifies **eleven plus results** for better parental understanding." },
-      { type: "h3", text: "Age Adjustment" },
-      { type: "p", text: "Children tested earlier gain age allowance: GL Assessment adds ~**2.5 standardised points per month** below 11th birthday (max 12 points for 10y0m candidates). This corrects for developmental gaps in verbal reasoning, non-verbal reasoning, and maths tests. Younger pupils thus compete fairly for **grammar school scores**." },
-      { type: "p", text: "Review this **age adjustment table** for GL Assessment:" },
-      { type: 'table', headers: ["Age at Test", "Months Below 11", "GL Points Added"], rows: [["10y11m", "1", "+2.5"], ["10y6m", "6", "+12"]] },
-      { type: "p", text: "A child aged **10y8m** gets 4 months early \u00d7 2.5 = **+10 points**. A borderline raw score of 110 might rise to 120, crossing a qualifying score threshold. CEM Select uses similar scaling." },
-      { type: "p", text: "Parents check **exam results** against score charts to grasp this boost. It highlights academic potential beyond raw score, aiding secondary school selection. Practice with **Bond papers** builds confidence in transfer tests." },
-      { type: "h3", text: "Difficulty Compensation" },
-      { type: "p", text: "Item Response Theory (IRT) scales scores so 2024's easier VR paper doesn't advantage candidates over 2023's harder version. This score scaling maintains consistent **mean score** of 100 across forms. It ensures fair **eleven plus comparisons** nationwide." },
-      { type: "p", text: "For example, Form A with mean raw 32/50 and Form B at mean 28/50 both convert to **standardised score 100**. The formula overview is: Standardised = 100 + 15\u00d7(Raw - Mean)/SD. Regional tests like Bucks adjust via this for **county differences**." },
-      { type: "p", text: "GL Assessment's 2022 psychometric report supports high reliability in **test forms**. Parents interpret subtest scores (VR, NVR, QR) using score tables. This clarifies percentile ranks and score bands for **selective school** chances." },
-      { type: "p", text: "Use practice tests to familiarise with score conversion. Track progress against bell curve scores for realistic **pass mark** expectations. It counters score myths about fixed **high scores**." },
-      { type: "h2", text: "How Standardised Scores Are Calculated" },
-      { type: "p", text: "Using **z-score transformation**, [the way the 11 Plus is scored and marked](/blog/how-is-the-11-plus-scored-and-marked) converts a child's raw score into their position on a normal distribution: **Standardised Score = 100 + 15 \u00d7 (Raw Score - Test Mean) / Test SD**. This process follows British Psychological Society standards for educational testing. It ensures fair comparison across different 11 Plus tests and age groups." },
-      { type: "p", text: "GL Assessment uses a standard deviation of 15, similar to IQ scales, while CEM Select often applies 10-15. The z-score measures how many standard deviations a raw score sits from the mean. Parents can use this to understand their child's score meaning beyond total marks." },
-      { type: "p", text: "For example, a raw score in verbal reasoning or non-verbal reasoning gets scaled this way. This **age standardised** approach includes age allowance for younger children. It previews key benchmarks: mean at 100, +1SD at 115 (84th percentile), +2SD at 130 (98th percentile)." },
-      { type: "p", text: "Practice with Bond papers helps families see raw to standardised conversions. Regional variations exist, like in Warwickshire local authority tests. This method demystifies eleven plus results for better **parental understanding**." },
-      { type: "h3", text: "Mean and Standard Deviation" },
-      { type: "p", text: "GL Assessment sets the population mean score at 100 with a standard deviation of 15: 115 equals the 84th percentile, 130 the 98th percentile, and 70 the 2nd percentile. This creates a bell curve where most scores cluster around the centre. It reflects **normal distribution** in 11+ exam performance." },
-      { type: "p", text: "The table below shows **score distribution** and equivalents for grammar school entry." },
-      { type: 'table', headers: ["Standardised Score", "Percentile", "Rarity", "Grammar Cutoff Equivalent"], rows: [["100", "50th", "Average", "No"], ["115", "84th", "Top 16%", "Borderline"], ["121+", "90th+", "Top 10%", "Typical Pass"]] },
-      { type: "p", text: "A **bell curve diagram** visualises this: the peak at 100, tails for low and high scores. Z-score conversions help interpret subtest scores like VR score, NVR score, or maths test results. Experts recommend checking **score charts** from practice tests." },
-      { type: "p", text: "In 2023 national 11 Plus data from Warwickshire LA, means hovered around 102.3, showing slight regional variations. Families use this for score interpretation, spotting **borderline scores** or exceptional scores. It guides **grammar school entry** decisions and exam preparation." },
-      { type: "h2", text: "Interpreting Your Child's Score" },
-      { type: "p", text: "Scores 110+ typically qualify for grammar schools, and [what counts as a good score or pass mark](/blog/what-is-a-good-11-plus-score-or-pass-mark) sits around 121+ for top selective places across most regions. Translate these standardised scores from the 11 Plus exam into real-world outcomes for secondary school selection." },
-      { type: "p", text: "Standardised scores adjust for age, using a mean score of 100 and standard deviation of 15. This age allowance ensures fair comparison across the score distribution, reflecting academic potential on a **bell curve**." },
-      { type: "p", text: "Nationally, the **top 25%** with scores 111+ meet selection criteria for many grammars. Exceptional **130+** places children in the top 2% academically, opening doors to elite independent schools or top grammars." },
-      { type: "p", text: "Use percentile ranks and score bands to gauge selective eligibility. Compare subtest scores in verbal reasoning, non-verbal reasoning, and maths to spot strengths, guiding **exam preparation** for retakes or appeals." },
-      { type: "h3", text: "Score Ranges and Percentiles" },
-      { type: "p", text: "GL scale: 69-85 Below Average, 86-114 Average, **115-129 Above Average**, **130+ Exceptional** (top 2%). These standardised scores from GL Assessment convert raw scores via score scaling, accounting for test difficulty." },
-      { type: "p", text: "Percentiles show national ranking on the normal distribution. A stanine score of 9 equals 130+, while stanine 5 is around the **average score** of 100." },
-      { type: 'table', headers: ["Std Score", "GL Percentile", "Description", "National Ranking"], rows: [["130", "98th", "Exceptional", "Top 2%"], ["121", "90th", "High", "Top 10%"], ["111", "75th", "Good", "Top 25%"], ["100", "50th", "Average", "Middle 50%"]] },
-      { type: "p", text: "Parents can use this score table as a score chart for **score interpretation**. For example, a VR score of 115 might pair with lower NVR score, highlighting areas for [practice papers](/papers) like Bond papers." },
-      { type: "h3", text: "Selective School Thresholds" },
-      { type: "p", text: "Grammar cutoffs: Birmingham (**113+**), Kent (109-112), Trafford (**115+**), Warrington (121+ aggregate). These score thresholds vary by region due to consortium tests like CEM Select or GL." },
-      { type: "p", text: "Regional variations affect grammar school entry. Consortia set **pass marks** based on applicant pools, with headteacher discretion for borderline scores at 110-114." },
-      { type: 'table', headers: ["Region", "VR", "NVR", "Maths", "Total", "Schools Affected"], rows: [["Birmingham", "113", "113", "113", "-", "8 grammars"], ["Barnet", "-", "-", "-", "115+", "2 grammars"], ["Slough", "110", "110", "110", "-", "2 grammars"]] },
-      { type: "p", text: "Check local authority tests for qualifying score updates. A **composite score** might combine QR score and NTS score, so review mark schemes post-exam for **transfer test** success." },
-      { type: "h2", text: "Common Score Scales by Exam Board" },
-      { type: "p", text: "GL Assessment covers over 70 counties with a standardised score scale where the mean is 100 and the standard deviation is 15. This age standardised approach adjusts for each child's age, ensuring fair comparison across the **11 Plus** cohort. Parents often see scores from subtests like verbal reasoning and non-verbal reasoning combined into a composite." },
-      { type: "p", text: "CEM Select, used in 16 authorities, also centres scores around a mean of 100 but with a variable standard deviation typically between 10 and 15. It produces a single **NTS score** from multiple sections, avoiding multiple choice to test deeper understanding. This setup helps selective schools assess overall cognitive ability." },
-      { type: "p", text: "Other boards like **CSSE** use aggregate raw scores scaled differently, often around 100 though details vary. Understanding these **score scales** clarifies what a high score or borderline score means for grammar school entry. Regional variations in scales highlight the need for local exam preparation." },
-      { type: "p", text: "Parents can use practice tests from bond papers to familiarise with each board's **score conversion**. Demystifying these helps interpret exam results accurately, spotting strengths in VR score or NVR score early." },
-      { type: 'table', headers: ["Provider", "Counties", "Scale", "Composite?", "Multiple Choice", "Example Cutoff"], rows: [["GL Assessment", "70+", "100/15", "Separate subtests", "Yes", "Essex: VR110, NVR110"], ["CEM Select", "16", "100/variable", "Single NTS score", "No", "Birmingham: 113+"], ["CSSE", "5", "100?/unknown", "Aggregate", "Yes", "200+/300 raw"]] },
-      { type: "p", text: "GL dominates with wide coverage, while CEM offers a distinct approach for fewer areas. Check your county's board to match practice with the right score distribution and pass mark. This table aids quick comparison for school admission planning." },
-      { type: "h2", text: "Factors Affecting Score Interpretation" },
-      { type: "p", text: "Local policies, test retakes, and **composite scoring rules** modify raw score implications significantly. Beyond simple numbers, context shapes what standardised scores mean for 11 Plus eligibility. Regions apply different weights to verbal reasoning, non-verbal reasoning, and maths test components." },
-      { type: "p", text: "Some areas permit multiple sittings, allowing children to improve their eleven plus performance. Others stick to a single attempt, making preparation crucial from the start. These **regional variations** affect score interpretation and grammar school entry chances." },
-      { type: "p", text: "Composite scores combine subtest results like VR score and **NVR score** in unique ways per authority. Parents must check local pass marks and qualifying scores early. Understanding these factors demystifies exam results and guides exam preparation." },
-      { type: "p", text: "Age standardisation adds another layer, with age allowance adjusting for birthdates. This ensures fair child assessment across the **score range**. Families benefit from reviewing score charts tailored to their area." },
-      { type: "h3", text: "Multiple Test Sittings" },
-      { type: "p", text: "Birmingham uses **best-of-two CEM scores**; Kent averages GL papers; Trafford takes highest subtest per section. These retake policies influence final standardised scores and selective eligibility. Parents should verify rules for their target grammar schools or selective schools." },
-      { type: 'table', headers: ["Authority", "Policy", "Example Impact"], rows: [["Birmingham", "Best single paper", "109\u2192113 qualifies"], ["Wirral", "Average two sittings", "118+118=118 pass"], ["Barnet", "Single sitting only", "115+ or no retry"]] },
-      { type: "p", text: "This table highlights how policies shift **score thresholds**. In areas like Wirral, averaging boosted **pass rates** in recent years. Families can plan practice tests knowing retake options." },
-      { type: "p", text: "[An appeal process](/blog/how-to-appeal-an-11-plus-result-or-school-allocation) exists in many regions for borderline cases. Parents submit evidence of **underperformance** or special circumstances to headteachers. Success depends on local **headteacher assessment** and documentation." },
-      { type: "h2", text: "What Scores Mean for Next Steps" },
-      { type: "p", text: "Scores in the 11 Plus guide clear paths forward. For standardised scores of 111-114, consider appeal or waitlist options. Scores from 115-120 often confirm grammar school places, while 121+ bring multiple offers. Below 110, explore comprehensive or independent school routes." },
-      { type: "p", text: "In 2023, national statistics showed 23% of children qualified for grammar schools, with 17% attending them. These figures highlight the competitive nature of grammar school entry. Parents must align score interpretation with local authority processes, as per the DfE admissions code." },
-      { type: "p", text: "Understanding **score ranges** helps set realistic expectations. A **qualifying score** varies by region, but typical thresholds cluster around 110-121. Use this decision framework to plan secondary school selection effectively." },
-      { type: 'table', headers: ["Score Range", "Action", "Success Rate", "Next Steps"], rows: [["121+", "Accept best grammar", "98%", "Confirm place"], ["115-120", "Grammar selection", "85%", "Rank preferences"], ["111-114", "Appeal/Waitlist", "45%", "Headteacher form"], ["<110", "Independent/Comp", "-", "Tutor for retake"]] },
-      { type: "p", text: "This table outlines practical actions based on eleven plus results. For borderline scores like 111-114, submit a headteacher form promptly. High scores above 121 demand quick decisions on preferences." },
-    ],
+  {
+    "type": "p",
+    "text": "A standardised score is a transformed assessment result, not a percentage of questions answered correctly. It reports performance on a defined scale and may account for age. To interpret it, you need to know which test produced it and how that test combines and reports scores."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "Raw mark, percentage, standardised score and rank"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Term",
+      "Example or explanation"
+    ],
+    "rows": [
+      [
+        "Raw mark",
+        "30 marks earned out of 40 available"
+      ],
+      [
+        "Percentage",
+        "30 ÷ 40 × 100 = 75%"
+      ],
+      [
+        "Standardised score",
+        "A converted result using the assessment’s scoring method"
+      ],
+      [
+        "Rank",
+        "A position within a defined group of candidates"
+      ],
+      [
+        "Weighted total",
+        "A combination in which sections contribute different proportions"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "The first two rows are a straightforward arithmetic example. They cannot tell you the standardised score in the third row. A rank also needs context: which candidates are included, whether it is shared across schools and whether the rank is within a priority category."
+  },
+  {
+    "type": "h2",
+    "text": "What does age standardisation do?"
+  },
+  {
+    "type": "p",
+    "text": "[Buckinghamshire’s official guidance](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/marking-the-secondary-transfer-test/) explains that its scoring takes account of a child’s age in years and months at the test date. The purpose is age-related comparability. Do not translate that into a fixed number of bonus marks for each month or assume you can add an adjustment to a practice percentage."
+  },
+  {
+    "type": "h2",
+    "text": "Is 100 always average, and is 141 the maximum?"
+  },
+  {
+    "type": "p",
+    "text": "Do not apply either statement to every 11 Plus result. Assessment scales and combined totals differ. The meaningful reference point comes from the provider or admissions authority’s explanation of that particular result, including whether it is a single component or a combined score."
+  },
+  {
+    "type": "p",
+    "text": "For a concrete contrast, [Kent’s published 2025 results information](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/kent-test-results) describes component scores from 69 to 141 and a highest total of 423. Those numbers describe that published system; they do not establish a national scoring range or a 2027 pass mark."
+  },
+  {
+    "type": "h2",
+    "text": "Can two children with the same raw mark receive different results?"
+  },
+  {
+    "type": "p",
+    "text": "They may, where the scoring method accounts for age or other published standardisation factors. The exact difference cannot be inferred without the actual scoring rules and data. Equally, two children with the same final number from different assessments have not necessarily achieved comparable results."
+  },
+  {
+    "type": "h2",
+    "text": "How to read a result letter"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Find the definition of each reported number.",
+      "Check whether section scores are added, averaged or weighted.",
+      "Look for both component minimums and overall thresholds.",
+      "Read the distinction between qualification and allocation.",
+      "Use the official contact details if the explanation is unclear."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "A practical check before sharing scores"
+  },
+  {
+    "type": "p",
+    "text": "Write the test name, sitting year, entry year, score type and applicable admissions category beside the number. “121 in this test” is more meaningful than “121 in the 11 Plus”. Avoid comparing a child’s percentage on a home worksheet with another child’s official result."
+  },
+  {
+    "type": "h2",
+    "text": "What this means for preparation"
+  },
+  {
+    "type": "p",
+    "text": "Work on teachable skills and the causes of mistakes. A commercial practice score can help you see whether your child understood a task; it cannot guarantee an official standardised outcome. See [how marking works](/blog/how-is-the-11-plus-scored-and-marked) for the full process and [pass marks](/blog/what-is-a-good-11-plus-score-or-pass-mark) for qualification questions."
+  },
+  {
+    "type": "h2",
+    "text": "Review note"
+  },
+  {
+    "type": "p",
+    "text": "Reviewed 7 October 2026 using the linked admissions-authority sources. No conversion calculator, fixed age bonus or percentile equivalence is claimed. Future test arrangements should be verified when the relevant cycle is published."
+  }
+]
+  },
   {
     slug: "how-many-children-pass-the-11-plus-pass-rate",
-    title: "How many children pass the 11 Plus (pass rate)?",
-    desc: "Discover how many children pass the 11 Plus exam each year, with national pass rates, typical percentages, regional variations in high- and low-selectivity areas, and key factors affecting success. Uncover the truth behind this crucial test now.",
+    title: "How many children pass the 11 Plus? Understanding pass rates",
+    desc: "Learn how to interpret local 11 Plus qualification and offer rates, check the denominator and avoid misleading national or tutor success claims.",
     date: "July 16, 2025",
-    readTime: "8 min read",
+    readTime: "3 min read",
     category: "Results",
     imageUrl: "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_4.jpeg",
     imageAlt: "How many children pass the 11 Plus (pass rate)?",
     images: ["https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_1.jpeg", "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_2.jpeg", "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_3.jpeg", "https://files.autoblogging.ai/images/how-many-children-pass-the-11-plus-pass-rate(emkt)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The **11 Plus exam** is a selective entrance test for grammar schools and some independent schools in the UK, taken by approximately 250,000 **Year 6 pupils** aged 10-11 annually to determine eligibility for around 30,000 grammar school places." },
-      { type: "p", text: "This eleven plus test assesses skills in core areas like English, maths, verbal reasoning, and non-verbal reasoning. Providers shape the format, with **GL Assessment** using 80% multiple choice questions across four sections, while **CEM** offers longer papers with a strong vocabulary focus." },
-      { type: "p", text: "Typical papers last **45-60 minutes** each, and [scores get standardised](/blog/how-is-the-11-plus-scored-and-marked) to a mean of 100 with a standard deviation of 15. Pass marks vary regionally, often ranging from [109-121 standardised score](/blog/what-is-a-good-11-plus-score-or-pass-mark), depending on the local authority and competition." },
-      { type: "p", text: "DfE data highlights a **national qualification rate** of 10-12% for grammar school places. Regional providers include Kent using GL, Birmingham with CEM, and Trafford employing a hybrid approach, affecting preparation strategies for parents." },
-      { type: "h3", text: "GL Assessment Format" },
-      { type: "p", text: "GL Assessment papers feature mostly multiple choice formats, split into English, maths, verbal reasoning, and non-verbal reasoning. Each section tests specific skills, like pattern recognition in non-verbal tasks or comprehension in English." },
-      { type: "p", text: "Papers run about 45-60 minutes, allowing time for careful reading of options. Practice with Bond papers helps familiarise children with this style, building speed and accuracy." },
-      { type: "p", text: "Scores convert to **age-adjusted standardised scores**, where 100 is average. Parents should target practice papers matching GL to simulate real **11+ exam** conditions effectively." },
-      { type: "p", text: "Regional areas like Kent rely on this format, so checking local **pass mark by area** guides realistic goals during **11 Plus preparation**." },
-      { type: "h3", text: "CEM Exam Structure" },
-      { type: "p", text: "**CEM exams** use longer papers with less multiple choice, emphasising vocabulary and problem-solving in maths and English. Verbal reasoning often includes unseen words, testing broader language skills." },
-      { type: "p", text: "Each paper extends beyond 60 minutes in some cases, demanding stamina from **10-11 year olds**. Mock exams reveal strengths in areas like extended comprehension passages." },
-      { type: "p", text: "Standardised scoring applies here too, with **qualifying score** thresholds set locally. Birmingham families prepare by focusing on vocabulary lists and timed drills." },
-      { type: "p", text: "This format suits children strong in reasoning, but tutoring addresses vocabulary gaps common in CEM **selective school tests**." },
-      { type: "h3", text: "Regional Variations and Pass Marks" },
-      { type: "p", text: "Pass marks differ by region, from **109 in some areas** to 121 in highly competitive ones like Trafford. Kent uses GL with consistent **pass thresholds**, while Birmingham's CEM adjusts for cohort performance." },
-      { type: "p", text: "Local authorities publish **pass mark ranges** post-exam, influenced by oversubscription and grammar school places. Parents track Kent pass rate or **Birmingham pass rate** trends for planning." },
-      { type: "p", text: "Hybrids like Trafford combine elements, requiring versatile prep with both GL and CEM practice. Understanding **regional pass rates** sets expectations for success." },
-      { type: "p", text: "Factors like distance criteria and sibling priority affect final offers beyond scores, so review local council stats early." },
-      { type: "h2", text: "National Pass Rates Overview" },
-      { type: "p", text: "Nationally, only **10-12% of 11 Plus test-takers** qualify for grammar schools, with DfE data showing 28,000-32,000 successful candidates from 250,000-270,000 Year 6 pupils annually across England. In 2023, **261,000 eligible pupils** sat the exam, and 29,400 qualified at an 11.3% pass rate. This reflects the high competition, with typically 8-10 applicants per selective place." },
-      { type: "p", text: "GL Assessment sets the baseline at the 80th percentile, requiring a score of 111 or higher. CEM exams use a median pass mark of 110-112, adjusted for age. Parents often review these benchmarks when planning 11 Plus preparation." },
-      { type: "p", text: "National trends show stability, with a **11.2% pass rate in 2022** rising slightly to 11.5% in 2023. Year 6 pupils in selective areas face oversubscription, where grammar school places go to top scorers. Practice with [mock exams](/mock-exams) helps children aim for these qualifying scores." },
-      { type: "p", text: "Regional variations affect local authority pass rates, such as higher rates in Kent or Buckinghamshire. Families check DfE data for cohort size and success rates before registering. Understanding the bell curve scoring prepares parents for realistic expectations on exam results." },
-      { type: "h3", text: "Typical Pass Percentage" },
-      { type: "p", text: "The typical national **11 Plus pass percentage** hovers at 11%, meaning roughly 1 in 9 children qualify despite 20-25% attempting the exam. In 2023, **29,452 qualified** from a 261,000 cohort per DfE figures, confirming the 11.3% rate. This low percentage passing underscores the selective nature of grammar school entrance." },
-      { type: "p", text: "Score distribution follows a bell curve, where the **top 10%** achieve 121 or higher, and the next 10-15% fall in the borderline 111-120 range. The bottom 75% score below 110, missing the pass threshold. Stanine 7-9 scores, often 121+, mark qualification in many areas." },
-      { type: "p", text: "Parents use GL Assessment or CEM stanine breakdowns to gauge progress during tutoring. For example, verbal reasoning and non-verbal reasoning papers contribute to the aggregate score. Mock exams reveal if a child nears the minimum score for their target grammar school." },
-      { type: "p", text: "Competition ratios amplify the challenge, with **8-10 candidates per place** in popular regions like London or Essex. Families consider pass mark by area, such as Kent pass rates, when choosing practice papers. Reviewing historical pass rates aids in setting preparation goals for 10-11 year olds." },
-      { type: "h2", text: "Regional Variations in Pass Rates" },
-      { type: "p", text: "Pass rates vary dramatically by region, from **35%+** in Buckinghamshire to under 5% in non-selective areas, driven by grammar school density and local competition. England has 164 local authorities, but only 36 with grammar schools. This creates wide differences in **places per 100 pupils**, ranging from 0.2 to 12.5." },
-      { type: "p", text: "In high-density areas, more Year 6 pupils qualify for **grammar school entrance**. Non-selective regions see fierce **competition ratios** for few spots. Parents check local authority pass rates via council stats or DfE data." },
-      { type: "p", text: "11 Plus preparation adjusts to these trends. Families in low-rate areas focus on mock exams and tutoring early. Historical pass rates, like 2023 results, guide realistic expectations for 10-11 year olds." },
-      { type: "p", text: "Trends show stable **regional variations**, with some impact from COVID on pass rate 2022. Experts recommend reviewing pass mark by area for **CEM exam** or GL Assessment formats." },
-      { type: "h3", text: "High-Selectivity Areas" },
-      { type: "p", text: "Buckinghamshire boasts a 38.2% pass rate (2023), highest nationally, with 2,180 qualifiers from 5,705 test-takers for 1,800 grammar places. These areas offer more selective places per cohort. Qualifying score often hits age-adjusted thresholds on **maths paper** and **English paper**." },
-      { type: 'table', headers: ["Area", "Test-takers", "Qualifiers", "Pass Rate", "Places Available"], rows: [["Buckinghamshire", "5,705", "2,180", "38.2%", "1,800"], ["Kent", "17,234", "4,892", "28.4%", "3,900"], ["Trafford", "1,892", "712", "37.6%", "650"], ["Slough", "1,234", "456", "37.0%", "420"], ["Reading", "2,145", "678", "31.6%", "540"]] },
-      { type: "p", text: "Source: Individual LA data/grammar school stats. In Trafford grammar zones, pupils aim for **standardised score** around 121. Practice with **bond papers** helps master verbal reasoning and non-verbal reasoning." },
-      { type: "p", text: "Parents target **aggregate score** above pass threshold. Oversubscription uses **sibling priority** or distance criteria. Tutoring boosts chances in these high success rate spots." },
-      { type: "h3", text: "Low-Selectivity Areas" },
-      { type: "p", text: "Comprehensive areas like Manchester report pass rates below 3%, with only 156 qualifiers from 5,200+ test-takers competing for limited Altrincham Grammar places. Failure rates exceed 95%, so it helps to plan early for [what happens if a child does not pass](/blog/what-happens-if-my-child-fails-the-11-plus). Few **grammar school places** mean high oversubscription." },
-      { type: 'table', headers: ["Area", "Test-takers", "Qualifiers", "Pass Rate", "Notes"], rows: [["Manchester", "5,200+", "156", "2.8%", "Altrincham Grammars"], ["Liverpool", "3,800", "95", "2.5%", "Merchant Taylors"], ["Barnet", "4,500", "380", "8.4%", "Henrietta Barnett"], ["Tower Hamlets", "2,100", "42", "2.0%", "Limited grammars"]] },
-      { type: "p", text: "This spurs a **preparation industry** boom, with focus on multiple choice questions and **practice papers**. In pass rate Manchester or Liverpool, aim for exceptional score 130+. Mock exams build resilience against low acceptance rate." },
-      { type: "p", text: "Check pass mark Manchester or London rates like Redbridge grammar. Appeals and waiting lists offer hope, plus priorities for **Pupil Premium** or looked after children. Early **tutoring** targets bell curve scoring for edge." },
-      { type: "h2", text: "Factors Affecting Pass Numbers" },
-      { type: "p", text: "Pass numbers depend on cohort size (growing 2-3% yearly) versus fixed selective places (30,000 max), creating 8:1 competition ratios in popular areas. DfE data for 2023 shows 261,000 Year 6 pupils nationally against 29,500 grammar places, yielding an 11:1 ratio overall. These dynamics mean **11 Plus pass rates** fluctuate with pupil numbers and local demand." },
-      { type: "p", text: "In grammar-heavy regions like Kent or Buckinghamshire, high participation drives down the **percentage passing**. Parents often weigh this when planning 11 Plus preparation, including tutoring and mock exams. Understanding these factors helps set realistic expectations for grammar school entrance." },
-      { type: "p", text: "**Regional variations** amplify competition, with urban areas like London facing tighter ratios than rural ones. Schools use criteria like sibling priority or distance alongside exam scores. Families can check local council stats for **pass rate trends** to gauge chances." },
-      { type: "p", text: "Trends show rising cohort sizes pressuring fixed places, especially post-COVID with delayed impacts on 2023 and 2024 results. Experts recommend focusing on standardised scores over raw marks for better odds. This balance shapes the national **success rate** for the 11+ exam." },
-      { type: "h3", text: "Number of Test-Takers" },
-      { type: "p", text: "Only 60-70% of eligible Year 6 pupils (156,000-182,000) actually sit **11 Plus exams**, with participation varying from 20% (comprehensive areas) to 95%+ (grammar-heavy regions). DfE pupil numbers contrast with LA entry data, highlighting selective entry. This directly impacts the **national pass rate**." },
-      { type: "p", text: "In Kent, 95% of the 18,000 cohort tests, while Bucks sees 85% of 6,700, Barnet 75% of 6,000, and Manchester just 25% of 20,000. Higher test-takers lower the **pass percentage**, as more candidates chase limited spots. An extra 1,000 entrants can drop rates by 0.5-1%." },
-      { type: "ul", items: ["State schools send 65% of pupils to exams, versus 40% from private ones.", "Parents in low-participation areas face less competition for **qualifying scores**.", "Practice with CEM exam or GL Assessment papers boosts readiness amid varying turnout."] },
-      { type: "p", text: "Families should review local authority pass rates and historical data for insights. Tutoring centres track **pupils sitting exams** to advise on timing mocks. This prepares 10-11 year olds for **verbal reasoning**, non-verbal reasoning, maths, and English papers." },
-      { type: "h3", text: "Selective School Places Available" },
-      { type: "p", text: "England has **163 grammar schools** offering 29,500 Year 7 places fixed by government funding, creating a national bottleneck despite rising demand. Capacities are set under the Education Act 1996, limiting expansion. This caps the **number of children passing** into selective places." },
-      { type: "p", text: "Key areas include Kent with 26 grammars and 3,900 places, Birmingham with 8 grammars and 2,400, Bucks 13 grammars and 1,800, and Trafford 5 grammars and 650. Oversubscription is fierce, like Wilson Grammar at 6.5 applicants per place or **Wallington County** at 5.8:1. Schools prioritise **aggregate scores** and ties via distance or Pupil Premium." },
-      { type: "ul", items: ["**Newstead Wood** sees 4.2:1 ratios, favouring high **standardised scores**.", "Waiting lists and appeals follow pass thresholds like 121 or 130+ for exceptional entry.", "SEN adjustments and access arrangements aid borderline candidates."] },
-      { type: "p", text: "Parents track **oversubscription ratios** via school websites for London pass rates or Kent pass rates. Preparation with bond papers targets pass marks by area. Fixed places mean even top scorers face rejection in high-demand spots like Redbridge or Trafford grammars." },
-      { type: "h2", text: "Historical Trends in Pass Rates" },
-      { type: "p", text: "11 Plus pass rates fluctuated between 8% and 14% from 2000 to 2023, peaking at 13.8% in 2008 during grammar expansion, bottoming at 8.2% in 2019 amid testing controversies. These shifts reflect changes in grammar school places and exam formats. Parents tracking **historical pass rates** can better gauge competition for their Year 6 pupils." },
-      { type: "p", text: "The table below shows key years in 11 Plus pass rates, highlighting trends for selective school tests. Use this timeline to understand pass percentage patterns across regions like Kent and Buckinghamshire." },
-      { type: 'table', headers: ["Year", "Pass Rate"], rows: [["2005", "10.4%"], ["2010", "12.1%"], ["2015", "11.8%"], ["2019", "8.2%"], ["2022", "11.2%"], ["2023", "11.3%"]] },
-      { type: "p", text: "Sutton Trust analysis notes a stable decade average around 11% for **eleven plus** exams. Factors like a 2009 grammar place increase of 12% drove up success rates, while **2016 testing format changes** led to a 1.5% drop. COVID catch-up efforts boosted rates by 2% in recent years." },
-      { type: "p", text: "For **11+ preparation**, review these trends by **local authority pass rate**, such as lower rates in oversubscribed areas like Trafford grammar schools. Practice with GL Assessment or CEM exam papers to target the typical pass mark around 121 standardised score." },
-      { type: "h2", text: "Recent Statistics (2020s)" },
-      { type: "p", text: "2023 recorded **29,452 qualifiers** (11.3%) from 261,000 cohort, the highest since 2015 and recovering from **COVID disruptions** that dropped 2020-21 rates to 9.1%." },
-      { type: "p", text: "These figures come from **DfE data** and individual local authorities, tracking Year 6 pupils sitting the 11 Plus exam across selective areas. The upward trend reflects post-pandemic recovery in preparation and testing." },
-      { type: "p", text: "**Pass rates** vary by region, with areas like Kent and Buckinghamshire showing steady qualification numbers amid oversubscription. Parents should check local council stats for precise **cohort size** and qualifiers in their area." },
-      { type: 'table', headers: ["Year", "Cohort Size", "Qualifiers", "Pass Rate", "Notes"], rows: [["2020", "237,000", "21,600", "9.1%", "COVID"], ["2021", "245,000", "22,800", "9.3%", "Catch-up"], ["2022", "258,000", "28,900", "11.2%", "Recovery"], ["2023", "261,000", "29,452", "11.3%", "Peak"]] },
-      { type: "p", text: "Preliminary 2024 data suggests a continuing **11.4% trend**, with more pupils achieving the qualifying score. Focus on regional pass rates like Kent or Essex for targeted 11 Plus preparation." },
-      { type: "h2", text: "Comparing Pass Rates Across Years" },
-      { type: "p", text: "Pass rates grew 28% from **2020 COVID low** (9.1%) to 2023 recovery (11.3%), though Bucks maintained 36-39% consistency while Barnet dropped from 12% to 8%. This shift highlights regional pass rate differences in the 11 Plus exam. Parents often track these trends to gauge grammar school entrance chances for Year 6 pupils." },
-      { type: "p", text: "The table below shows 11 Plus pass rates by region, including year-on-year changes and five-year trends. Bucks saw steady growth, while Barnet faced **declining pass rates**. Such data from local council stats helps families assess **competition ratio** for selective places." },
-      { type: 'table', headers: ["Region", "2020", "2021", "2022", "2023", "YoY Change (2022-2023)", "5-Year Trend"], rows: [["Bucks", "35.2%", "36.8%", "38.1%", "38.2%", "+0.1%", "+8%"], ["Kent", "25.1%", "26.3%", "27.8%", "28.4%", "+0.6%", "+13%"], ["Barnet", "11.8%", "9.2%", "8.7%", "8.4%", "-0.3%", "-29%"], ["National", "9.1%", "9.3%", "11.2%", "11.3%", "+0.1%", "+24%"]] },
-      { type: "p", text: "Visualise these pass rate trends with a line graph for quick insights, plotting years on the x-axis and percentages on the y-axis. This format reveals **COVID impact** on test takers and recovery patterns. Experts recommend reviewing such charts alongside cohort size to understand oversubscription." },
-      { type: "p", text: "Factors like **exam format change** in GL Assessment or CEM exams influenced these shifts. For instance, more pupils sitting exams post-2021 led to higher national qualification rates. Parents can use historical pass rates to plan 11 Plus preparation, focusing on mocks that match local pass mark by area." },
-    ],
+  {
+    "type": "p",
+    "text": "There is no single percentage on this page that describes every child’s chance of passing the 11 Plus. Different tests, qualification rules and applicant populations make a headline national rate a poor guide to an individual school. First decide whether “pass” means meeting the academic standard or receiving a place."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "Qualification rate is different from offer rate"
+  },
+  {
+    "type": "p",
+    "text": "A qualification rate counts children who meet an academic requirement within a defined tested group. An offer rate counts offers within a specified applicant group. The denominators may differ: not everyone who sits a test applies to the school, and not every qualified child can be offered a place."
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Illustrative calculation",
+      "Result",
+      "What it means"
+    ],
+    "rows": [
+      [
+        "400 qualify out of 1,000 who sat a test",
+        "40% qualification rate",
+        "400 ÷ 1,000 × 100"
+      ],
+      [
+        "150 offers among 500 applicants to a school",
+        "30% offer rate",
+        "150 ÷ 500 × 100"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "These are invented round numbers solely to explain the arithmetic, not statistics for any school. The two percentages cannot be compared as if they measure the same thing."
+  },
+  {
+    "type": "h2",
+    "text": "Why local figures differ"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Which children register and actually sit the assessment.",
+      "Whether figures include out-of-area candidates.",
+      "The local qualification rules and any review outcomes.",
+      "How many eligible families apply to each school.",
+      "The number of places and the school’s priority criteria.",
+      "Whether data refer to first offers, waiting-list offers or final admissions."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Where to find reliable evidence"
+  },
+  {
+    "type": "p",
+    "text": "Start with official council or consortium results and the school’s admissions information. For example, [Kent publishes annual score reports](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/kent-test-results). Check the report’s year, definitions and coverage before calculating a percentage. Do not count a file you have not read as evidence for a claimed national pass rate."
+  },
+  {
+    "type": "h2",
+    "text": "How to check a statistic"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Find the original publication, not only a tutor’s quotation of it.",
+      "Identify exactly who is counted in the numerator and denominator.",
+      "Confirm the test year and school-entry year.",
+      "Check whether multiple tests could count the same child more than once.",
+      "Ask whether the figure describes qualification, offers or children who enrolled.",
+      "Keep the source URL beside the number."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Do tutor success rates predict my child’s chances?"
+  },
+  {
+    "type": "p",
+    "text": "Not on their own. Ask how a provider defines success, which pupils are included, whether all pupils are counted and which admissions cycles the figure covers. A rate for a selected group of pupils is not a controlled estimate of what tuition would do for a different child. We do not publish a promised improvement or pass probability here."
+  },
+  {
+    "type": "h2",
+    "text": "Can last year’s rate guide preparation for 2027?"
+  },
+  {
+    "type": "p",
+    "text": "It can provide local context when accurately defined, but it cannot tell you the future paper difficulty, the next applicant group or your child’s outcome. Prioritise relevant subject skills and current official familiarisation. Keep realistic school options open rather than planning around an unsupported national percentage."
+  },
+  {
+    "type": "h2",
+    "text": "Questions to ask instead"
+  },
+  {
+    "type": "p",
+    "text": "What are the academic requirements? Which oversubscription category would apply? Does the school publish historic allocation information for that category? Which skills does my child need to improve? These questions lead to practical decisions without pretending that a general statistic is a personal forecast."
+  },
+  {
+    "type": "h2",
+    "text": "Related guidance"
+  },
+  {
+    "type": "p",
+    "text": "Read [pass marks explained](/blog/what-is-a-good-11-plus-score-or-pass-mark) for score thresholds and [grammar-school place requirements](/blog/what-score-do-you-need-to-get-into-a-grammar-school) for allocation. Reviewed 7 October 2026. Unsupported national candidate totals and pass-rate estimates have been removed."
+  }
+]
+  },
   {
     slug: "difference-between-grammar-schools-and-independent-schools-11-plus",
     title: "Difference between grammar schools and independent schools 11 Plus.",
@@ -3760,112 +3885,207 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "how-to-structure-an-11-plus-study-timetable",
-    title: "How to structure an 11 Plus study timetable.",
-    desc: "Learn how to structure an 11 Plus study timetable for exam success. Assess your child's level, set goals for 6-12 months, balance Maths, English, reasoning, and optimize daily/weekly schedules. Start building your winning plan today.",
+    title: "How to structure an 11 Plus study timetable for 2027",
+    desc: "Create a practical weekly 11 Plus timetable for 2027 exams, including targeted skills, mistake review, rest and official deadline checks.",
     date: "October 22, 2025",
-    readTime: "7 min read",
+    readTime: "4 min read",
     category: "Preparation",
     imageUrl: "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_4.jpeg",
     imageAlt: "How to structure an 11 Plus study timetable.",
     images: ["https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_1.jpeg", "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_2.jpeg", "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_3.jpeg", "https://files.autoblogging.ai/images/how-to-structure-an-11-plus-study-timetable(qkgg)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "Understanding the 11 Plus Exam" },
-      { type: "p", text: "The **11 Plus exam** tests English, Maths, Verbal Reasoning, and Non-Verbal Reasoning across 3-5 papers totalling 2.5-3 hours, with formats varying by GL Assessment (multiple choice) vs CEM Select (standardised scoring). Parents structuring a **study timetable** must grasp these differences to allocate time effectively. This knowledge shapes your revision schedule for grammar schools or independent entrances." },
-      { type: "p", text: "GL Assessment uses **multiple choice questions** throughout, making speed and accuracy key in your daily routine, which is one strand of [preparing for the 11 Plus at home](/blog/how-to-prepare-for-the-11-plus-at-home). CEM focuses on comprehension and essays, demanding stronger writing practice in afternoon slots. Check official GL Assessment and CEM websites for updates, noting competitive pass rates like those for 2023 Birmingham grammar schools." },
-      { type: "p", text: "Table below breaks down major exam boards to guide your **weekly planner**." },
-      { type: 'table', headers: ["Exam Board", "Subjects", "Format", "Duration", "Sample Question Count"], rows: [["GL Assessment", "English, Maths, VR, NVR", "Multiple choice", "2.5-3 hours", "60 English, 80 Maths MCQs"], ["CEM Select", "English, Maths, skills-based", "Essays, comprehension, standardised", "2.5 hours", "3 comprehension passages"]] },
-      { type: "p", text: "Use this to prioritise **core subjects** in your timetable, building stamina through timed morning sessions." },
-      { type: "h3", text: "Core Subjects and Format" },
-      { type: "p", text: "English (45-60 mins): **comprehension**, vocabulary, grammar (GL: 60 MCQs; CEM: 3 comprehension passages). Integrate this into your **daily routine** with reading exercises to boost skills. CGP 11+ books offer sample questions for practice." },
-      { type: "p", text: "Maths demands **mental arithmetic** and fractions, often 60 minutes with GL's 80 MCQs. Verbal Reasoning covers code-breaking and synonyms, while Non-Verbal involves patterns and rotations. Allocate evening revision for these in your study timetable." },
-      { type: "p", text: "Table outlines subjects for precise **time allocation** in your planner." },
-      { type: 'table', headers: ["Subject", "Skills Tested", "Question Types", "Time Allocation", "Weightage"], rows: [["English", "Comprehension, grammar", "MCQs, passages", "45-60 mins", "High"], ["Maths", "Arithmetic, fractions", "MCQs, problems", "50-60 mins", "High"], ["Verbal Reasoning", "Code-breaking, synonyms", "MCQs, puzzles", "25-30 mins", "Medium"], ["Non-Verbal Reasoning", "Patterns, rotations", "MCQs, shapes", "25-30 mins", "Medium"]] },
-      { type: "p", text: "Focus on **weak areas** first in weekly targets, using past papers for mock exams to track progress." },
-      { type: "h2", text: "Assessing Your Child's Starting Point" },
-      { type: "p", text: "Begin with **CGP 11+ Diagnostic Tests** or Exam Papers Plus Level 1 papers to establish Year 5 baselines (target: 70%+ for grammar school pass). This step helps identify strengths and gaps before structuring your **11+ study timetable**. Parents often overlook this, leading to unbalanced revision schedules." },
-      { type: "p", text: "Follow a simple **3-step diagnostic process** for clear insights. First, have your child complete a full practice paper from Bond Assessment Papers. Then, score it using official mark schemes available from CGP resources." },
-      { type: "p", text: "Finally, create a **weak area heatmap** to visualise priorities, such as Maths fractions below comfortable levels or Verbal synonyms needing work. This map guides subject allocation in your weekly planner. Track progress over time to adjust the timetable." },
-      { type: "p", text: "Use the scoring table below for percentile benchmarks. It aligns with **grammar school entrance test** expectations across GL and CEM formats." },
-      { type: 'table', headers: ["Score Range", "Percentile Benchmark", "Recommended Action"], rows: [["80%+", "Top Tier", "Stretch with advanced CEM mocks"], ["70-79%", "Grammar Pass", "Target core subjects daily"], ["60-69%", "Borderline", "Foundation drills on weak areas"], ["<60%", "Development Needed", "Priority foundational skills"]] },
-      { type: "h3", text: "Diagnostic Testing" },
-      { type: "p", text: "Week 1: Administer **GL Format Paper 1** (English + Maths, 60 mins) from Exam Papers Plus (\u00a38.99). Time it strictly to build **exam stamina**. Review answers together for immediate feedback on comprehension skills and mental arithmetic." },
-      { type: "p", text: "Follow this **recommended test sequence** over the first week. Day 1: CGP GL English (\u00a36.50) for vocabulary building and reading accuracy. Day 3: Bond Non-Verbal (\u00a37.99) to assess shape recognition and pattern spotting." },
-      { type: "p", text: "Day 5: Complete a full **CEM mock** via Atom Learning (\u00a359/yr) for integrated practice. This sequence covers all **11+ subjects** like Verbal Reasoning and Non-Verbal Reasoning. Use results to set SMART goals in your study timetable." },
-      { type: "p", text: "Interpret scores with this table to categorise your child's level. It supports balanced scheduling with priority on weak areas while building strengths." },
-      { type: 'table', headers: ["Score", "Level", "Timetable Focus"], rows: [["80%+", "Stretch", "Challenge questions, interleaving practice"], ["60-79%", "Target", "Daily practice papers, error analysis"], ["<60%", "Foundation", "Worksheets, flashcards, foundational skills"]] },
-      { type: "h2", text: "Setting Realistic Goals" },
-      { type: "p", text: "Set **SMART goals** like 'Score 82%+ in GL Maths mocks by October 2025', which matches a **Birmingham grammar school threshold**. Use your child's baseline test to set +20% improvement targets. This approach keeps 11+ exam preparation focused and achievable." },
-      { type: "p", text: "Build a **goal-setting framework** with three key layers. Start with **school-specific targets**, such as aiming for the 75th percentile for King Edward VI. Then add subject targets like boosting Maths by targeted practice and Verbal Reasoning through daily drills." },
-      { type: "p", text: "Include monthly milestones to track progress in your study timetable. For example, Tom raised his VR from 55% to 83% in 8 months by targeting Warwick School. Review scores from **practice papers** each month and adjust the **revision schedule**." },
-      { type: "p", text: "Make goals **specific, measurable, achievable, relevant, and time-bound**. Parents can use a weekly planner to log daily routine achievements. This builds **confidence** and prevents burnout in Year 5 and Year 6 students." },
-      { type: "h2", text: "Determining Timetable Duration" },
-      { type: "p", text: "Most successful candidates follow **9-month plans** with a Year 5 Easter start. These plans build steady progress in **11+ exam preparation**. They allow time for core subjects like English and Maths alongside reasoning skills." },
-      { type: "p", text: "Late starters opt for a **6-month sprint** from May to December in Year 6. This requires **2.5 hours daily** of focused study. It suits children with some prior exposure but demands discipline to cover the syllabus quickly." },
-      { type: "p", text: "Comfortable learners choose **9 months at 1.5 hours per day**. This pace supports **balanced schedules** with breaks and revision. It helps avoid burnout while targeting grammar school entrance tests." },
-      { type: "p", text: "Advanced pupils thrive on **12-month plans** with just 1 hour daily. Early starts in Year 5 autumn build **mastery levels** gradually, so it pays to think about [how early to start preparation](/blog/how-early-should-we-start-11-plus-preparation) and [how many hours a week](/blog/how-many-hours-a-week-should-my-child-study-for-11-plus) fit your child. Experts recommend adjusting based on initial assessments and weak areas." },
-      { type: "h3", text: "Typical 6-12 Month Plans" },
-      { type: "p", text: "**6-Month Sprint**: May to December in Year 6 uses 2.5 hours daily, with 80% on practice papers. This intense phase prioritises **speed practice** and exam technique. It includes weekend mocks to build stamina." },
-      { type: 'table', headers: ["Months", "Focus", "Hours/Week", "Milestones"], rows: [["1-3", "**Phase 1: Foundation** using CGP workbooks for Maths, English, Verbal and Non-Verbal Reasoning basics", "15", "Complete topic lists, 70% accuracy on worksheets, vocabulary building"], ["4-6", "**Phase 2: Practice** with Bond papers for timed drills, comprehension skills, mental arithmetic", "18", "Target scores in past papers, error analysis, mistake journal updates"], ["7-9/12", "**Phase 3: Mocks** via Exam Papers Plus for full simulations, pattern spotting, coding decoding", "20", "Weekly mock exams, progress tracking, SMART goals met, confidence boost"]] },
-      { type: "p", text: "Real example: Sarah's **9-month plan** took her from basic skills to passing Colchester Royal Grammar. She rotated **subject allocation** daily: morning Maths practice, afternoon English study, evening reasoning. Weekly reviews adapted her timetable for weak areas like shape recognition." },
-      { type: "p", text: "For all plans, include **break times** and downtime using Pomodoro technique. Track with a study planner or digital calendar. Parent supervision ensures habit formation and motivation strategies." },
-      { type: "h2", text: "Daily and Weekly Structure" },
-      { type: "p", text: "Optimal structure: **1.5hrs weekdays (4:15-5:45pm) + 3hrs weekends**, rotating subjects daily per spaced repetition research (Ebbinghaus curve)." },
-      { type: "p", text: "This approach builds **retention techniques** through regular review cycles. Children aged 10 in Year 5 or Year 6 benefit from short, focused sessions. It prevents overload while covering core subjects like Maths and English." },
-      { type: "p", text: "Use a study timetable to assign slots for Verbal Reasoning and Non-Verbal Reasoning. Rotate priority subjects weekly to target weak areas. Include time for practice papers and active recall with flashcards." },
-      { type: "p", text: "Set up **Google Calendar** for reminders. Create events for each session, colour-code by subject, and add recurring weekly patterns. Enable notifications 10 minutes before start times to build habit formation." },
-      { type: 'table', headers: ["Time", "Monday", "Tuesday", "Wednesday"], rows: [["4:15-4:40pm", "Maths practice", "English study", "Verbal Reasoning"], ["4:40-4:45pm", "Break", "Break", "Break"], ["4:45-5:10pm", "Non-Verbal Reasoning", "Maths practice", "English study"], ["5:10-5:15pm", "Break", "Break", "Break"], ["5:15-5:45pm", "Revision + flashcards", "Practice papers", "Weak areas drill"]] },
-      { type: "p", text: "Apply the **Pomodoro technique** with 25min study and 5min breaks. This matches child stamina for 11+ exam preparation. Adjust for tuition classes or mock exams on weekends." },
-      { type: "h3", text: "Optimal Study Hours" },
-      { type: "p", text: "Year 5: **7.5hrs/week (1hr/day + 2.5hrs Sat)**, Year 6: 12hrs/week maximum per British Psychological Society guidelines." },
-      { type: "p", text: "Research suggests children maintain focus in **90min max blocks** before fatigue sets in. Split sessions with Pomodoro for better accuracy in mental arithmetic or pattern spotting. Prioritise core subjects like comprehension skills and shape recognition." },
-      { type: "p", text: "For term time, allocate 1hr daily after school plus weekend study. Holidays allow more time for past papers and speed practice. Track progress with a weekly planner to adapt the revision schedule." },
-      { type: 'table', headers: ["Period", "Total Weekly Hours", "Daily Breakdown"], rows: [["Term Time (Year 5)", "7.5hrs", "1hr weekdays, 2.5hrs Sat"], ["Term Time (Year 6)", "10hrs", "1.5hrs weekdays, 2hrs Sat/Sun"], ["Holidays", "12hrs", "2hrs morning, 2hrs afternoon"]] },
-      { type: "p", text: "Example Pomodoro: **4x25min Maths**, followed by 15min break with outdoor activity. Apps like Forest help maintain focus during self-study. Parents can supervise to ensure balanced schedule with sleep and meal breaks." },
-      { type: "h2", text: "Subject Allocation and Balance" },
-      { type: "p", text: "Allocate 35% Maths, **30% English**, 20% Verbal, **15% Non-Verbal** based on GL Assessment weightings and weak area diagnostics. This split ensures core subjects get priority in your 11+ study timetable. Adjust based on practice test results to target weak spots." },
-      { type: "p", text: "Use a **subject priority calculator** for fine-tuning. If a child's Maths score falls below target, add 10% more time to that subject by reducing from stronger areas. This keeps the revision schedule balanced yet responsive." },
-      { type: "p", text: "Here is a sample **rotation matrix** for Weeks 1-4, focusing on Mon-Thu to build a strong weekly planner." },
-      { type: 'table', headers: ["Day", "Week 1", "Week 2", "Week 3", "Week 4"], rows: [["**Mon**", "Maths, English", "Verbal, Non-Verbal", "Maths, Verbal", "English, Non-Verbal"], ["**Tue**", "English, Verbal", "Maths, Non-Verbal", "English, Non-Verbal", "Maths, Verbal"], ["**Wed**", "Non-Verbal, Maths", "English, Verbal", "Non-Verbal, Maths", "Verbal, English"], ["**Thu**", "Verbal, English", "Non-Verbal, Maths", "Verbal, English", "Non-Verbal, Maths"]] },
-      { type: "p", text: "Recent analysis of 2023 passmarks highlights **Maths as the primary discriminator** in GL and CEM exams. Track progress weekly with mock exams to adapt this structure. Include break times and downtime for stamina building." },
-      { type: "h3", text: "Maths, English, Verbal/Non-Verbal" },
-      { type: "p", text: "**Maths (25min daily)**: mental arithmetic + fractions using CGP Targeted Practice Workbook. Split into **Numbers** and Geometry blocks for focused drills. Pair with Schofield & Sims books for worksheets." },
-      { type: "p", text: "**English (20min daily)**: comprehension and SPaG exercises from Bond Papers. Build vocabulary with daily reading and spelling lists. Target comprehension skills through short passages." },
-      { type: "p", text: "For **Verbal Reasoning (VR)**, allocate 15min to synonyms and logic puzzles using Bond Papers. **Non-Verbal Reasoning (NVR)** gets 15min on patterns and shapes with dedicated question banks. Rotate daily to maintain engagement." },
-      { type: "ul", items: ["Weekly target: **150 questions per subject** across all areas.", "Resource mapping: CGP for Maths, Bond for VR/NVR, Schofield & Sims for extension work.", "Track with a mistake journal for error analysis and improvement plans."] },
-      { type: "p", text: "Incorporate **spaced repetition** and active recall in evening revision slots. Review cross-subject links, like Maths patterns in NVR. Adjust for weekend study to cover past papers and mock exams." },
-      { type: "h2", text: "Incorporating Breaks and Rest" },
-      { type: "p", text: "Schedule 10min breaks hourly plus **8hrs sleep nightly (9pm-5am)**, reducing error rates 23% per Cambridge University sleep studies. This structure supports **child circadian rhythms**, which peak focus in mornings for year 5 and 6 pupils preparing for 11+ exams. Short rests prevent fatigue during intensive Maths practice or Verbal Reasoning sessions." },
-      { type: "p", text: "Use the Pomodoro technique with 25 minutes focused study followed by 5-minute breaks. Alternate subjects like English study and Non-Verbal Reasoning to maintain engagement in your 11+ study timetable. This builds stamina for timed tests in grammar school entrance exams." },
-      { type: "p", text: "Plan **weekly light days**, such as Wednesdays with just 45 minutes revision, and a full monthly rest day. Include **20min outdoor breaks** in the garden for fresh air, aiding concentration during afternoon slots. Track progress with a simple journal to adjust your revision schedule." },
-      { type: "p", text: "Prioritise sleep using apps like Sleep Cycle for gentle wake-ups aligned with natural cycles. Combine with **healthy habits** such as hydration and light exercise to boost retention in practice papers. Parents can supervise to ensure the daily routine sticks, fostering discipline for 11+ success." },
-      { type: "h2", text: "Practice Tests and Review" },
-      { type: "p", text: "Complete **1 full mock weekly** using Exam Papers Plus GL Pack plus **error analysis every Friday** with mistake journals. This builds exam stamina and highlights weak areas in your 11+ study timetable. Schedule these sessions consistently to mimic real test conditions." },
-      { type: "p", text: "Follow a structured **mock exam calendar** to ramp up intensity. In months 1-3, do one test per week. Increase to two per week from months 4-6, then add timed conditions from month 7 onward." },
-      { type: "p", text: "After each test, dive into a clear **review process**. Mark papers with answer keys, log errors by type such as mental arithmetic or pattern spotting, and re-do weak questions immediately. This targeted approach strengthens retention through active recall." },
-      { type: "p", text: "Track progress with a simple **improvement graph template**, plotting scores from your weekly [practice papers](/papers) for subjects like Verbal Reasoning and Non-Verbal Reasoning. Use it weekly to adjust your revision schedule and celebrate gains in accuracy and speed." },
-      { type: "h3", text: "Mock Exam Calendar" },
-      { type: "p", text: "Structure your **practice tests** across the preparation year for steady progression. Months 1-3 focus on one full mock weekly to familiarise your child with the format. Keep sessions untimed initially to build confidence." },
-      { type: "p", text: "From months 4-6, increase to **two mocks per week** to enhance speed practice. Allocate one for English study and comprehension skills, the other for Maths practice and shape recognition. This balances subject allocation in your weekly planner." },
-      { type: "p", text: "Enter month 7 with **timed conditions** for all tests to simulate exam day prep. Aim for full papers under strict time limits, including consortium exams or CEM formats. Review immediately to log errors and plan next steps." },
-      { type: 'table', headers: ["Phase", "Frequency", "Focus"], rows: [["Months 1-3", "1 per week", "Format familiarisation"], ["Months 4-6", "2 per week", "Speed and stamina"], ["Month 7+", "2-3 per week", "Full timed simulations"]] },
-      { type: "h3", text: "Review Process" },
-      { type: "p", text: "Start review by **marking with answer keys** right after the test. Compare answers against the marking scheme for multiple choice and written sections. Note any silly mistakes in pencil grip or clock management." },
-      { type: "ol", items: ["Log errors by type in your **mistake journal**, such as vocabulary building gaps or coding decoding issues.", "Re-do weak questions that day using focused drills.", "Schedule spaced repetition for persistent errors in your monthly plan."] },
-      { type: "p", text: "Integrate this into Friday evenings for **error analysis**. Discuss patterns with your child, like recurring Non-Verbal Reasoning errors. Adjust the study timetable to prioritise these in morning sessions." },
-      { type: "h3", text: "Track Improvement Graph Template" },
-      { type: "p", text: "Create a **progress tracking** graph using a printable template or digital calendar. List dates on the x-axis and scores on the y-axis for each core subject. Colour-code lines for Maths practice, English study, and reasoning papers." },
-      { type: "p", text: "Update after every mock to visualise trends in **target scores**. Spot plateaus in weak areas and tweak your revision schedule accordingly. This motivates through visible improvement in accuracy." },
-      { type: "p", text: "Share the graph during family support meetings. Set SMART goals based on it, like boosting Verbal Reasoning by focusing on flashcards. Use it for performance review to prevent burnout and maintain discipline." },
-      { type: "h2", text: "Tracking Progress and Adjustments" },
-      { type: "p", text: "Use a Google Sheets tracker to record weekly mock scores, adjusting time allocation if there is less than **5% monthly improvement** with a target of +3% per month. This method keeps your **11 plus study timetable** flexible and effective. Parents can share the sheet for quick reviews during exam preparation." },
-      { type: "p", text: "Regular progress tracking helps spot patterns in performance across subjects like Maths, English, Verbal Reasoning, and Non-Verbal Reasoning. Log scores from practice papers and mock exams to measure gains in speed and accuracy. Adjust your revision schedule based on these insights for better **time management**." },
-      { type: "p", text: "Set up **review triggers** to prompt changes, such as stagnant Maths scores for two weeks meaning a swap to new resources. Include weak areas like mental arithmetic or pattern spotting in your log. This ensures your weekly planner supports steady improvement toward grammar school entrance tests." },
-      { type: "p", text: "Real example: Emma increased VR scores by switching to Atom Learning adaptive tests, which cost \u00a359 per month. Her parent noted better stamina after reallocating **afternoon slots** to VR drills. Such tweaks build confidence and reduce stress in year 5 or 6 routines." },
-      { type: 'table', headers: ["Date", "Test", "Subject Scores", "Weak Areas", "Adjustments"], rows: [["15/10", "Mock 1", "Maths 72%, Eng 68%, VR 65%, NVR 70%", "VR vocabulary", "Add 30min daily VR flashcards"], ["22/10", "GL Paper", "Maths 75%, Eng 70%, VR 68%, NVR 72%", "Maths shapes", "Swap to CGP books for NVR"], ["29/10", "CEM Mock", "Maths 74%, Eng 72%, VR 70%, NVR 75%", "Eng comprehension", "Increase Eng morning sessions"]] },
-      { type: "p", text: "Copy this **5-column tracker template** into Google Sheets for easy updates. Use colour coding for scores below targets to highlight priorities. Review weekly during **family support** sessions to celebrate small wins with a reward system." },
-    ],
+  {
+    "type": "p",
+    "text": "A useful 11 Plus timetable tells your child what to work on, when to stop and what to revisit. Build it around their actual 2027 exam date and the subjects their chosen schools assess. Avoid filling every free evening before you know what needs teaching."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "Step 1: make a school and deadline sheet"
+  },
+  {
+    "type": "p",
+    "text": "Write down each target school, test provider or assessment name, tested subjects, exam date, registration deadline and relevant school-entry year. Add the source URL and the date you checked it. Mark unpublished information as unconfirmed; do not turn last year’s date into next year’s deadline."
+  },
+  {
+    "type": "h2",
+    "text": "Step 2: identify a few starting priorities"
+  },
+  {
+    "type": "p",
+    "text": "Use suitable familiarisation questions or a short untimed task. Record what the child found difficult and why. “Fractions of amounts” is a better target than “improve maths”. “Explain an inference with a quotation” is more actionable than “do English”. Limit the first week to a few skills you can review properly."
+  },
+  {
+    "type": "h2",
+    "text": "Step 3: put normal life into the calendar first"
+  },
+  {
+    "type": "p",
+    "text": "Enter school homework, clubs, family commitments and rest before adding preparation. Count any tuition and assigned homework as part of the total. Choose times when your child is available and receptive. A timetable should be easy to adjust when school demands change."
+  },
+  {
+    "type": "h2",
+    "text": "An adaptable weekly timetable"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Day",
+      "Task",
+      "Example duration"
+    ],
+    "rows": [
+      [
+        "Monday",
+        "Maths: model one method, then try a few questions",
+        "20 minutes"
+      ],
+      [
+        "Tuesday",
+        "No scheduled 11 Plus session",
+        "—"
+      ],
+      [
+        "Wednesday",
+        "English: read a passage, answer and discuss two questions",
+        "20 minutes"
+      ],
+      [
+        "Thursday",
+        "No scheduled 11 Plus session",
+        "—"
+      ],
+      [
+        "Friday",
+        "Required reasoning skill, or a second maths/English priority",
+        "20 minutes"
+      ],
+      [
+        "Saturday",
+        "Review mistakes and attempt fresh examples",
+        "30 minutes"
+      ],
+      [
+        "Sunday",
+        "No scheduled 11 Plus session",
+        "—"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "This example contains 90 minutes of structured preparation. It is not a universal recommended workload. Change the days, length and subject balance to fit your child and the test. If reasoning is not assessed, use that slot for a relevant skill; do not study it simply because it appears in a generic planner."
+  },
+  {
+    "type": "h2",
+    "text": "Step 4: give each session a beginning and an end"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "State one learning goal, such as “share an amount in a ratio”.",
+      "Show a worked example or discuss the rule.",
+      "Let the child attempt a small set independently.",
+      "Review the explanation, not just the answer.",
+      "Write one next step and finish at the planned time."
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Our [ratio-sharing lesson](/subjects/maths/ratio-sharing) can fill a maths session. If the child understands it quickly, try a more demanding application. If they do not, return to the example rather than extending the session indefinitely."
+  },
+  {
+    "type": "h2",
+    "text": "Work backwards from the test date"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Stage",
+      "Main purpose",
+      "Evidence to look for"
+    ],
+    "rows": [
+      [
+        "Foundations",
+        "Teach missing number, reading and vocabulary skills",
+        "Child can explain and apply a method without prompts"
+      ],
+      [
+        "Format familiarisation",
+        "Use the school’s current sample and instructions",
+        "Child understands layout and answer recording"
+      ],
+      [
+        "Timed practice",
+        "Introduce suitable sections and later a realistic paper",
+        "Errors can be separated into knowledge, reading and timing"
+      ],
+      [
+        "Final preparation",
+        "Revisit known difficulties and check logistics",
+        "Child knows what to bring and what the day involves"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "The stages need not occupy equal lengths of time. Move between them when necessary: a timed task may reveal a skill that needs teaching again. For a September 2027 test, the final stage is before September, not an invented May-to-December Year 6 revision block. Winter independent-school tests need a different calendar."
+  },
+  {
+    "type": "h2",
+    "text": "Step 5: use a simple review log"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Date",
+      "Skill",
+      "What happened",
+      "Next action"
+    ],
+    "rows": [
+      [
+        "Example week 1",
+        "Fractions of amounts",
+        "Divided correctly but forgot to multiply by the numerator",
+        "Model one example; revisit with fresh numbers"
+      ],
+      [
+        "Example week 1",
+        "Inference",
+        "Reasonable idea without supporting evidence",
+        "Find the exact words supporting the answer"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Do not treat a rising score on a repeatedly used paper as proof of the same improvement on unfamiliar material. Keep a record of whether questions were new, timed, independently completed and at comparable difficulty."
+  },
+  {
+    "type": "h2",
+    "text": "If the timetable stops working"
+  },
+  {
+    "type": "p",
+    "text": "Ask what needs to change: the task, its explanation, the time of day or the overall workload. Drop an optional session rather than letting missed work accumulate. A child who is regularly distressed needs a supportive conversation and a revised plan, not a punishment for missing a target."
+  },
+  {
+    "type": "h2",
+    "text": "Sources and related help"
+  },
+  {
+    "type": "p",
+    "text": "[GL Assessment’s parent information](https://11plus.gl-assessment.co.uk/) explains why format checks must be local. [GOV.UK admissions guidance](https://www.gov.uk/schools-admissions) explains where to check school applications. The timetable and review log here are original planning examples, not provider requirements. See [how many hours to study](/blog/how-many-hours-a-week-should-my-child-study-for-11-plus) for workload decisions. Reviewed 7 October 2026."
+  }
+]
+  },
   {
     slug: "common-11-plus-english-mistakes-to-avoid",
     title: "Common 11 Plus English mistakes to avoid.",
@@ -5939,115 +6159,126 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "what-score-do-you-need-to-get-into-a-grammar-school",
     title: "What score do you need to get into a grammar school?",
-    desc: "Uncover what score you need to get into a grammar school. Explore 11+ exams, typical pass marks, regional UK differences, cut-off factors, and proven preparation tips. Secure your child's top spot today.",
+    desc: "Check qualification, oversubscription categories and historic allocation cut-offs to understand what a grammar-school result can mean for an offer.",
     date: "February 17, 2026",
-    readTime: "9 min read",
+    readTime: "3 min read",
     category: "Grammar Schools",
     imageUrl: "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_4.jpeg",
     imageAlt: "What score do you need to get into a grammar school?",
     images: ["https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_1.jpeg", "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_2.jpeg", "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_3.jpeg", "https://files.autoblogging.ai/images/what-score-do-you-need-to-get-into-a-grammar-school(xtqr)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "What Are Grammar Schools?" },
-      { type: "p", text: "[Grammar schools](/schools) are **state-funded selective secondary schools** in the UK that admit students based on academic ability, typically through the **11+ entrance exam**, with only 164 remaining after the 1998 School Standards and Framework Act banned new ones. They focus on high achievers and gifted children. These schools serve a small portion of pupils across England." },
-      { type: "p", text: "Examples include Wilson's School in Sutton, Colchester Royal Grammar School in Essex, and Pate's Grammar School in Cheltenham. Other notable ones are Tiffin School in Kingston and Reading School in Berkshire. Each has unique **admission criteria** like catchment areas or sibling priority." },
-      { type: "ul", items: ["Wilson's School emphasises strong **verbal reasoning** scores.", "Colchester Royal uses **GL Assessment** tests.", "Pate's Grammar considers **KS2 SATs** alongside the 11+.", "Tiffin School has a competitive **random allocation** process.", "Reading School prioritises looked after children."] },
-      { type: "p", text: "Grammar schools often outperform national averages in GCSE results. They provide selective education with extracurriculars, house systems, and sixth form entry based on GCSE requirements. Parents can check school league tables or Ofsted ratings for more details." },
-      { type: "h2", text: "Overview of Grammar School Entrance Exams" },
-      { type: "p", text: "The **11+ exam** determines grammar school entry through timed tests in **verbal reasoning (VR)**, non-verbal reasoning (NVR), maths, and English, typically lasting 45-60 minutes per section. These 11+ tests assess academic potential for selective schools. Most UK grammar schools rely on this format to identify high achievers." },
-      { type: "p", text: "Exams come from providers like GL Assessment or **CEM Select**, each with unique styles. GL uses multiple choice questions, while CEM employs adaptive testing. Parents often choose practice papers from Bond or CGP to match the **entrance exam** style." },
-      { type: "p", text: "Sample question types include VR synonyms like \"happy is to joyful as sad is to?\", NVR shape rotations, maths mental arithmetic, and English comprehension passages. Familiarity with these builds **exam technique**. Practice helps with time management under pressure." },
-      { type: "p", text: "Grammar schools set a **qualifying score** or pass mark based on total scores across sections. Scores use standardised age scores, often needing 110+ for competitive entry. Check school-specific admission criteria for details like banding or threshold scores." },
-      { type: "h3", text: "Common Exam Types (11+)" },
-      { type: "p", text: "Most **11+ exams** use GL Assessment (multiple-choice format) or CEM Select (adaptive testing), with GL common in areas like Kent and Birmingham. These **test providers** support many selective schools. Parents select prep based on the local grammar school list." },
-      { type: 'table', headers: ["Feature", "GL Assessment", "CEM Select", "CGP Practice"], rows: [["Price", "\u00a312/pack", "\u00a315/pack", "\u00a36/book"], ["Format", "4x45min MCQ", "5x50min adaptive", "Practice papers"], ["Best For", "VR-heavy areas", "Reading comprehension", "Home prep"], ["Pros", "Predictable format", "Modern adaptive", "Cheap option"], ["Cons", "Timing pressure", "Newer format", "No full mocks"]] },
-      { type: "p", text: "GL suits **VR-focused prep** using Bond CEM 11+ books for verbal reasoning and sequences. CEM needs practice in reading, writing, and maths via official mocks. Both build skills like spatial reasoning and data interpretation." },
-      { type: "p", text: "For exam preparation, try GL packs for multiple-choice speed or CEM for longer passages. Combine with **mock exams** to simulate test day. Tutors recommend CGP books for affordable **practice papers** at home." },
-      { type: "h2", text: "Typical Score Requirements" },
-      { type: "p", text: "Grammar schools typically require a **standardised score** of 110-121 (top 25% nationally) on the 11+ exam, varying by region and competition. These pass marks use age-standardised scores with a mean of 100 and standard deviation of 15. Schools set their own **threshold scores** based on applicant numbers and places available." },
-      { type: "p", text: "In selective areas, a score of 110 often qualifies pupils for the next stage, such as an interview or banding process. Competition rises in oversubscribed grammars, pushing the **minimum score** higher. Parents should check school-specific admission criteria on local authority websites." },
-      { type: "p", text: "Real examples from DfE admissions data highlight variation. For instance, Queen Elizabeth's Barnet needed 111 in 2023, while Trafford Grammar demanded 121. Kent and Medway use a **composite score** of 110." },
-      { type: 'table', headers: ["School", "Pass Mark", "Year"], rows: [["Queen Elizabeth's Barnet", "111", "2023"], ["Trafford Grammar", "121", "2023"], ["Kent (Medway)", "110 composite", "2023"]] },
-      { type: "p", text: "Use practice papers from GL Assessment or CEM Select to target these benchmarks. Mock exams help build exam technique for verbal reasoning, numerical reasoning, and maths tests." },
-      { type: "h3", text: "Standard Pass Marks" },
-      { type: "p", text: "Standard pass marks range from **110-114** for less competitive grammars to 121+ for top schools, equating to 75th-91st percentile on age-standardised scoring. Exam boards like GL Assessment set VR, NVR, and maths at 110 each, with a composite of 330. CEM uses an overall score of 110 or higher." },
-      { type: "p", text: "Sutton Grammars require 114 out of 400 total, while Reading sets 121. A score of **110** hits the 75th percentile, and 121 reaches the 91st. The formula is standardised score = 100 + 15*(z-score), as per GL Assessment technical details." },
-      { type: "ul", items: ["GL Assessment: VR:110, NVR:110, Maths:110, Composite:330", "CEM Select: Overall 110+", "Percentile converter: 110=75th, 121=91st"] },
-      { type: "p", text: "Focus **exam preparation** on multiple choice questions in timed tests. Resources like Bond papers, CGP books, and online practice build skills in comprehension, vocabulary, and spatial reasoning." },
-      { type: "h3", text: "Selective vs Non-Selective Areas" },
-      { type: "p", text: "Selective areas like Kent (36 grammars, pass mark 110-370) require lower scores than Birmingham (121+), with only 25% of UK having 11+ exams. Kent shows oversubscription at 3:1, compared to Trafford at 6:1 per 2023 LA data. Non-selective areas rely on comprehensives without entrance exams." },
-      { type: "p", text: "Key selective regions include Bucks, Kent, Lincs, Reading, Sutton, Trafford, and Wirral. Each has unique **score requirements**, catchment areas, and priorities like siblings or looked after children. Check performance tables and Ofsted ratings for grammar school lists." },
-      { type: "ul", items: ["Bucks: Multiple grammars with VR and NVR focus", "Kent: 36 schools, composite 110 threshold", "Trafford: High 121 pass mark, single sex options", "Sutton: 114 total, co-ed and faith grammars", "Reading: 121 benchmark, day schools", "Lincs: Varied banding and random allocation", "Wirral: Competitive scores, extracurricular emphasis"] },
-      { type: "p", text: "Prepare with **tuition**, group classes, or homeschooling for time management and mental arithmetic. Application forms have deadlines, registration fees, and exam dates set by local authorities." },
-      { type: "h2", text: "Factors Affecting Cut-Off Scores" },
-      { type: "p", text: "Cut-off scores fluctuate yearly based on **applicant numbers**, with oversubscription ratios averaging 3-6:1 and rising post-COVID according to DfE Secondary Admissions Statistics. These changes affect the **score requirement** for grammar school entry across the UK. Schools adjust thresholds to select top performers from Year 6 pupils taking the 11+ test." },
-      { type: "p", text: "Larger cohorts mean higher competition, pushing up the qualifying score. Location plays a key role, as urban areas see more applicants for selective places. Parents should check local authority data for the latest entrance exam trends." },
-      { type: "p", text: "Other influences include **catchment area** rules and priority groups like looked after children or siblings. DfE statistics highlight how these factors shape aggregated scores from verbal reasoning, numerical reasoning, and non-verbal reasoning sections. Aim for a **competitive score** above the previous year's cut-off." },
-      { type: "p", text: "Practice with mock exams and resources like CGP books helps build a standardised score. Understanding these variables prepares families for [how you get into a grammar school](/blog/how-do-you-get-into-a-grammar-school) and improves chances of an offer letter." },
-      { type: "h3", text: "Competition and Oversubscription" },
-      { type: "p", text: "Top grammars like St Olave's see 10:1 oversubscription, pushing cut-offs to 118+ as 2,000+ Year 6 pupils compete for 120 places, the hallmark of a [super-selective grammar school](/blog/what-is-a-super-selective-grammar-school). This intense demand raises the **threshold score** each year. Families face high stakes in the **11+ test** with its multiple choice format." },
-      { type: "p", text: "Several key factors drive these shifts. The table below outlines main influences on **cut-off scores**." },
-      { type: 'table', headers: ["Factor", "Impact", "Example"], rows: [["Oversubscription", "Higher demand increases points needed", "Wilson's School: 1,400 apps for 150 places"], ["Birth Rate Surge", "More pupils push scores up yearly", "2023 bulge raised Kent to 112"], ["Post-COVID Demand", "More applications raise competition", "Birmingham grammars saw gains from 115"]] },
-      { type: "p", text: "To counter this, target a safe score of cut-off plus 5 points. Schools often use random allocation for tie-breaks at the borderline score. Focus exam preparation on **time management** in maths test and English test sections." },
-      { type: "h3", text: "Regional Differences (UK Focus)" },
-      { type: "p", text: "Northern grammars like Burnley (103) have lower cut-offs than London schools such as Queen Elizabeth's Barnet (111), with **catchment radius** affecting scores by up to 15 points. These variations stem from local applicant pools and admission criteria. Check 2023 local authority composite scores for accuracy." },
-      { type: "p", text: "Regional patterns show distinct **average scores**. The table summarises key areas." },
-      { type: 'table', headers: ["Region", "Avg Cut-Off", "Grammars", "Example"], rows: [["South East (Kent)", "110-370", "38", "Tunbridge Wells 112"], ["London", "114-118", "10", "Henrietta Barnett 118"], ["North West (Trafford)", "121+", "5", "Altrincham 121"]] },
-      { type: "p", text: "In high-demand spots, prioritise practice papers for CEM Select or GL Assessment formats. Rural areas offer lower **minimum scores** due to fewer applicants. Use tuition or group classes to hit a **percentile rank** suited to your target grammar school." },
-      { type: "p", text: "Consider sibling priority and distance from school alongside scores. Parent forums like Mumsnet share insights on **exam centres** and waiting lists. Tailor preparation to regional **school-specific scores** for better success in the application form process." },
-      { type: "h2", text: "Preparing for the Required Score" },
-      { type: "p", text: "Achieve **target scores** by completing 20+ Bond/CGP practice papers, attending 10 [mock exams](/mock-exams), and 30 hours weekly prep over 12 months. This structured approach builds skills in verbal reasoning, numerical reasoning, and non-verbal reasoning for the 11+ test. Parents often start in Year 4 to meet grammar school score requirements." },
-      { type: "p", text: "Focus on consistent practice to raise your child's standardised score. Use resources like CGP GL books for diagnostics and Bond papers for daily drills. Track progress with weekly mocks to simulate **timed test** conditions." },
-      { type: "p", text: "A **12-month plan** ensures steady improvement toward the qualifying score. Combine self-study, tuition, and exam technique for competitive edge in selective school admission. Success comes from addressing weaknesses early." },
-      { type: "p", text: "Experts recommend balancing practice with rest to avoid burnout. Monitor percentile rank gains and adjust based on mock results. This method helps secure a spot in top **UK grammar schools**." },
-      { type: "h3", text: "12-Month Preparation Plan" },
-      { type: "ol", items: ["Take a **diagnostic test** using CGP GL book (\u00a36) to spot weaknesses in VR, NVR, or maths.", "Practice daily 1hr on **VR/NVR** with Bond 11+ Assessment Papers to build speed and accuracy.", "Complete weekly mocks from ExamNinja (\u00a349/pack) to mimic real 11+ exam pressure.", "Enrol in 3 months tuition (\u00a330/hr, Atom Learning online) for targeted exam technique coaching.", "Apply technique: add +5% time per paper gradually to improve time management."] },
-      { type: "p", text: "Follow this plan from Year 5 autumn term. Review results monthly to refine focus on **raw score** to **aggregated score** conversion. Aim for +15 standardised points as a success metric." },
-      { type: "p", text: "Incorporate **maths test** and **English test** drills alongside reasoning. Use mental arithmetic apps for quick wins. This builds confidence for GL Assessment or CEM Select formats." },
-      { type: "h3", text: "Recommended Resources Table" },
-      { type: 'table', headers: ["Resource", "Price", "Use Case"], rows: [["CGP GL books", "\u00a36", "Diagnostic tests and **multiple choice** practice"], ["Bond 11+ papers", "\u00a38", "Daily VR/NVR and English comprehension"], ["RSL papers", "\u00a312", "**Numerical reasoning** sequences and data"], ["ExamNinja packs", "\u00a349", "Full mock exams with marking schemes"]] },
-      { type: "p", text: "These affordable tools cover practice papers for most **grammar school** exams. Start with CGP for basics, then Bond for variety. Combine with online platforms for **spatial reasoning** puzzles." },
-      { type: "p", text: "Track usage in a journal noting **VR score**, **NVR score**, and improvements. Parents on forums like Mumsnet praise this mix for pass mark achievement. Reuse packs for siblings." },
-      { type: "h2", text: "Understanding Raw vs Standardised Scores" },
-      { type: "p", text: "Raw scores (e.g., 75/100 correct) convert to **standardised scores** (mean 100, SD 15), where 110 equals the 75th percentile regardless of test difficulty or birthdate. This system ensures fairness in the 11+ test for grammar school entry. Schools use these scores to set their qualifying score or pass mark." },
-      { type: "p", text: "In the verbal reasoning section, a raw score might translate differently based on the cohort. **Age adjustment** gives children born October to December a +3 points advantage on their age-standardised score. This levels the playing field against older peers in the same year group." },
-      { type: "p", text: "The conversion formula is SS = 100 + 15*((Raw - Mean)/SD), where SS is the standardised score. Parents can use an online **score calculator** or percentile converter for quick estimates from practice papers. Focus on GL Assessment or CEM Select tables for accurate grammar school prep." },
-      { type: "p", text: "Downloadable **percentile charts** from the GL Assessment scoring manual help track progress. Combine scores from maths test, English, and non-verbal reasoning for the aggregated score. Aim for a competitive score above the school's threshold to secure a place." },
-      { type: 'table', headers: ["Raw Score", "Standardised Score", "Percentile", "Example"], rows: [["75/100", "110", "75th", "VR section"], ["85/100", "121", "91st", "Maths"]] },
-      { type: "h3", text: "Why Standardisation Matters for Grammar School Admission" },
-      { type: "p", text: "Standardised scores adjust for **exam difficulty** across multiple choice or timed tests. A higher raw score on a harder paper yields the same percentile rank as on an easier one. This keeps admission criteria consistent for selective schools." },
-      { type: "p", text: "Grammar schools set a minimum score or threshold score, often around 110-121, but it varies by banding and school-specific score. **Age-standardised scores** account for birthdate, favouring younger pupils. Use mock exams to predict your child's scaled score." },
-      { type: "p", text: "Experts recommend practising with **Bond papers** or CGP books to build exam technique. Track VR score, NVR score, and maths score separately before aggregation. A strong total score improves chances in competitive areas with catchment priorities." },
-      { type: "h3", text: "Practical Tips for Score Conversion and Prep" },
-      { type: "p", text: "Start with **raw scores** from online practice or tuition sessions, then apply the formula. Children born in autumn gain that **+3 points advantage**, boosting their percentile. Review past papers for verbal reasoning, numerical reasoning patterns." },
-      { type: "p", text: "Target a **safe score** well above the pass rate for top grammar schools. Group classes or private coaching refine time management and mental arithmetic. Monitor progress with a **score chart** to hit the benchmark score." },
-      { type: "h2", text: "What to Do If You Miss the Score" },
-      { type: "p", text: "If missing the **cut-off score**, such as 109 versus 111 for a grammar school, pursue appeals, waiting lists, or independent school options. These steps offer real chances to secure a place in a **selective school**. Many families find success through persistence and preparation." },
-      { type: "p", text: "The **appeal process** reviews cases like banding errors or procedural issues. Waiting lists often move as families accept other offers. Independent schools use similar **11+ tests**, providing alternative paths." },
-      { type: "p", text: "A clear **5-step action plan** helps organise next moves after receiving the offer letter. Start with appeals, then explore waiting lists and other schools. This approach maximises opportunities for **grammar school admission**." },
-      { type: "p", text: "Case study: Sarah missed Wilson's School threshold at 109 but appealed successfully via **banding review**. Her family prepared evidence of academic ability, leading to admission. Such stories highlight the value of acting quickly." },
-      { type: "h3", text: "Step 1: Appeal Within 20 Days" },
-      { type: "p", text: "File an **appeal** within 20 days of the decision letter from your local authority. Panels examine **banding errors**, exceptional circumstances, or admission criteria misapplications. Success depends on strong evidence like practice paper scores or tutor reports." },
-      { type: "p", text: "Prepare by gathering 11+ test results, including verbal reasoning, numerical reasoning, and non-verbal reasoning scores. Highlight any **borderline score** near the threshold score. Attend the hearing in person to explain your case clearly." },
-      { type: "p", text: "Experts recommend focusing on the school's **oversubscription criteria**, such as catchment area or sibling priority. Keep records of exam preparation, including mock exams and tuition notes. This step can overturn initial refusals effectively." },
-      { type: "h3", text: "Step 2: Join the Waiting List" },
-      { type: "p", text: "Add your child to the **waiting list** immediately after the national offer day, typically 1 March. Places open up as families choose other secondary schools or move away. Schools like Queen Elizabeth Barnet have made offers well into the summer term." },
-      { type: "p", text: "Monitor updates via the local authority portal or parent forums like Mumsnet. Prioritise schools with random allocation or looked after children categories if applicable. Patience pays off, as lists can shift quickly." },
-      { type: "p", text: "Combine this with reviewing the **grammar school list** in your area. Contact admissions for current list positions. This passive step requires minimal effort but yields results for many high achievers." },
-      { type: "h3", text: "Step 3: Apply to Independent Schools" },
-      { type: "p", text: "Consider **independent school exams** with similar 11+ formats, like those at Haberdashers' Boys' School. Fees apply, around \u00a320,000 per year, but bursaries and scholarships exist for gifted children. Registration deadlines vary, so check school websites early." },
-      { type: "p", text: "Prepare for multiple choice timed tests in English test, maths test, and reasoning sections. Use resources like Bond papers or CGP books for exam technique and time management. These schools often have their own entrance exam dates post-grammar results." },
-      { type: "p", text: "Evaluate co-ed grammar, single sex grammar, or boarding options. Look at Ofsted ratings, performance tables, and extracurriculars. This route suits families seeking selective education outside state grammars." },
-      { type: "h3", text: "Step 4: Aim for Sixth Form Entry" },
-      { type: "p", text: "Target **sixth form entry** at grammar schools requiring strong GCSEs, often 8,8,8,8,8 or higher. Focus on core subjects like maths, English, and sciences during Years 7-11. Attend open evenings to understand A-level options and house systems." },
-      { type: "p", text: "Build a profile with predicted grades, extracurriculars, and tutor recommendations. Some schools use assessment days or interviews alongside KS2 SATs trends. This delayed entry allows time for academic growth." },
-      { type: "p", text: "Selective comprehensives also offer sixth form places with similar criteria. Review annual intake and eligibility. It's a viable path for late bloomers aiming for high achievers' environments." },
-      { type: "h3", text: "Step 5: Explore Selective Comprehensives" },
-      { type: "p", text: "**Selective comprehensives** admit based on ability without full grammar status, often using banding or partial 11+ tests. They prioritise academic ability alongside catchment area and parental preference. Check the school league table for options near you." },
-      { type: "p", text: "Application forms go through the local authority with deadlines aligned to secondary school admission. Some require CEM Select or GL Assessment style exams. These provide quality selective education as free schools or academies." },
-      { type: "p", text: "Weigh factors like uniform, term dates, and faith school grammar status. Visit for assessment days. This step rounds out alternatives for transition to secondary school." },
-    ],
+  {
+    "type": "p",
+    "text": "The score needed for a grammar-school place depends on the school’s admissions policy. Some schemes use a qualifying threshold followed by other priority criteria; others use scores to rank eligible applicants. Read both the academic requirement and the allocation rules before interpreting any number."
   },
-
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "Start with the school’s admissions policy"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Find the determined policy for the correct school-entry year.",
+      "Identify the test or tests and any minimum section scores.",
+      "Check whether qualification leads to another assessment stage.",
+      "Read the order of oversubscription criteria.",
+      "Identify the category relevant to your child and any evidence requirements.",
+      "Check how ties are resolved and where allocation information is published."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Why a higher score does not always mean a higher priority"
+  },
+  {
+    "type": "p",
+    "text": "[Buckinghamshire Council](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/marking-the-secondary-transfer-test/) explains that scores above its stated qualifying level do not increase priority for its grammar-school places. This is an example of qualification and allocation serving different purposes. Do not assume that advice about a score-ranked school applies to a threshold-based scheme."
+  },
+  {
+    "type": "h2",
+    "text": "What is an allocation cut-off?"
+  },
+  {
+    "type": "p",
+    "text": "Where a school uses score ranking, a published historic cut-off may describe the lowest score offered in a particular category and allocation round. Check whether the figure concerns the initial offer day, a later waiting-list offer or the final admitted group. A number without those labels is incomplete."
+  },
+  {
+    "type": "p",
+    "text": "Two families can have different prospects with the same score if different policy categories apply. Distance, residence or other published priorities may affect the ordering. Use the school’s actual criteria; do not infer a priority from an informal phrase such as “local child”."
+  },
+  {
+    "type": "h2",
+    "text": "How to compare historic information"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Record",
+      "Why it matters"
+    ],
+    "rows": [
+      [
+        "School and entry year",
+        "Policies and cohorts change"
+      ],
+      [
+        "Candidate category",
+        "Different groups can have different cut-offs"
+      ],
+      [
+        "Allocation date or round",
+        "Waiting lists can move after initial offers"
+      ],
+      [
+        "Score scale and test",
+        "Numbers from different schemes are not interchangeable"
+      ],
+      [
+        "Official source",
+        "Forum recollections may omit important conditions"
+      ]
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Can we calculate the score needed for 2027 now?"
+  },
+  {
+    "type": "p",
+    "text": "A future allocation cut-off cannot be known merely by copying last year’s result. Even where an academic threshold is already published, an eventual offer can depend on applications and priority rules. Treat historical information as context, and clearly mark any unpublished 2027 test details as unconfirmed."
+  },
+  {
+    "type": "h2",
+    "text": "What should we aim for in practice?"
+  },
+  {
+    "type": "p",
+    "text": "Aim to understand the tested skills and answer unfamiliar questions accurately under the relevant conditions. Commercial papers differ in difficulty, so a target percentage is not an offer guarantee. Keep notes on gaps, timing and answer recording; use official familiarisation for format checks."
+  },
+  {
+    "type": "h2",
+    "text": "If the result qualifies but no place is offered"
+  },
+  {
+    "type": "p",
+    "text": "Read the allocation letter and official instructions for waiting lists and appeals. These are separate from the test result. Continue with a realistic school-place plan and check the consequences of any decision with the admissions authority. Do not assume a waiting list uses the order in which parents contacted the school."
+  },
+  {
+    "type": "h2",
+    "text": "Sources and further reading"
+  },
+  {
+    "type": "p",
+    "text": "Reviewed 7 October 2026 against [Buckinghamshire’s official explanation](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/marking-the-secondary-transfer-test/) and [GOV.UK school admissions](https://www.gov.uk/schools-admissions). See [what is a good score](/blog/what-is-a-good-11-plus-score-or-pass-mark) for thresholds and [standardised scores](/blog/standardised-scores-in-the-11-plus-what-do-they-mean) for the score scale. This guide does not publish unverified school-specific cut-offs."
+  }
+]
+  },
   {
     slug: "what-is-a-super-selective-grammar-school",
     title: "What is a super-selective grammar school?",
@@ -9910,77 +10141,157 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school",
-    title: "Are there alternatives if my child doesn\u2019t go to a grammar school?",
-    desc: "Missed grammar school? Discover strong alternatives like high-performing comprehensive schools, independent options, sixth form colleges, IB programs, home education, and apprenticeships. Unlock your child's success path today.",
+    title: "Alternatives to grammar school: choosing a secondary school",
+    desc: "Compare realistic Year 7 alternatives to grammar school, with questions about teaching, admissions, support, travel and school fit.",
     date: "April 14, 2026",
-    readTime: "7 min read",
+    readTime: "4 min read",
     category: "Wellbeing",
     imageUrl: "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_4.jpeg",
     imageAlt: "Are there alternatives if my child doesn\u2019t go to a grammar school?",
     images: ["https://files.autoblogging.ai/images/child-school-alternatives(4h59)_1.jpeg", "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_2.jpeg", "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_3.jpeg", "https://files.autoblogging.ai/images/child-school-alternatives(4h59)_4.jpeg"],
+    updatedAt: "2026-10-07",
     content: [
-      { type: "h2", text: "Understanding Grammar School Selection" },
-      { type: "p", text: "In the UK, only 22% of [grammar school](/schools) applicants secure places due to intense competition from the **11-plus exam**, with top schools like Henrietta Barnett receiving 2,000+ applications for 100 spots. The exam typically splits into verbal reasoning 50% and maths 50%, testing core skills under timed conditions. Parents often start preparation a year in advance to build familiarity." },
-      { type: "p", text: "Pass marks vary by county, generally ranging from **110 to 121**, adjusted for local demand. **Catchment area priority** fills about 60% of places, favouring families within set distances. Sibling rules give additional weight, securing spots for younger children already enrolled." },
-      { type: "p", text: "Oversubscription remains common, pushing many to **waiting lists** or appeals. Local authorities publish annual admissions criteria, helping parents gauge chances early. Understanding these steps aids in planning **child education** paths, including potential alternatives like comprehensive schools." },
-      { type: 'table', headers: ["School Name", "Ofsted Rating", "League Table Position"], rows: [["Henrietta Barnett School", "Outstanding", "1"], ["Queen Elizabeth's School", "Outstanding", "2"], ["Wilson's School", "Outstanding", "3"], ["Reading School", "Outstanding", "4"], ["Tiffin Girls' School", "Outstanding", "5"]] },
-      { type: "h3", text: "Why Children Miss Out" },
-      { type: "p", text: "Common reasons include failing the **11-plus practice tests**, late applications after deadlines, and living outside priority **catchment areas** like 3-mile radius rules. Insufficient exam prep leaves gaps in verbal reasoning or maths skills. Oversubscription ratios at selective grammars often exceed 5 applicants per place." },
-      { type: "p", text: "Key failure points emerge at several stages. First, **insufficient exam prep** hits many; experts recommend six months with books like Bond 11+ for structured practice. Second, high oversubscription limits availability despite passing scores." },
-      { type: "p", text: "Third, **tie-breaker criteria** such as distance measured in metres decide close cases. Fourth, unsuccessful appeals follow, with timelines requiring notification by 15 March. Parents can strengthen cases by highlighting unique needs or procedural errors." },
-      { type: "p", text: "For appeals, use this structure: state facts calmly, provide evidence of child's potential, reference admissions code breaches, and suggest remedies. Sample letters from **parent forums** offer templates. Meanwhile, explore **alternatives** like academy schools or tutoring to support ongoing progress." },
-      { type: "h2", text: "Comprehensive Schools as Primary Alternative" },
-      { type: "p", text: "Comprehensive schools serve most UK secondary pupils with a **mixed-ability intake**, admitting students based on catchment area or postcode rather than entrance exams, so you [do not have to sit the 11 Plus](/blog/do-you-have-to-sit-the-11-plus-for-grammar-school) for a place. These **non-selective state schools** offer a broader curriculum, including vocational options like BTECs alongside GCSEs. They provide practical alternatives to grammar schools for child education." },
-      { type: "p", text: "Average class sizes sit around **28 pupils**, with pupil-teacher ratios at about 16:1, fostering group work and support. Many achieve strong Ofsted ratings, with a good share rated 'Good' or better. Parents often choose them for local access and community ties." },
-      { type: "p", text: "These schools support diverse needs through **catch-up tuition** and gifted programmes, preparing students for A-levels or apprenticeships. Examples include academy schools like Harris Academy, which excel in STEM education. They suit families weighing the [pros and cons of grammar schools](/blog/what-are-the-pros-and-cons-of-grammar-schools) and avoiding the 11-plus exam stress." },
-      { type: "p", text: "[Compare school league tables](/compare) to highlight top performers with solid GCSE outcomes and Progress 8 scores. Consider school catchment areas and admissions criteria when applying. Visiting open days helps assess fit for your child's strengths." },
-      { type: "h3", text: "Benefits and Academic Standards" },
-      { type: "p", text: "Top comprehensives like Thomas Telford School show strong results in English and maths, often matching selective schools. These institutions build **inclusive environments** that welcome all abilities, reducing pressure from academic selection. They emphasise well-rounded development alongside core subjects." },
-      { type: "p", text: "Key advantages include a **supportive setting** for varied learners, wide extracurricular activities such as sports academies, and seamless transition to sixth form on site. Research suggests inclusive non-selective education aids social skills and reduces isolation. Broader options like vocational training prepare students for apprenticeships or further education." },
-      { type: "p", text: "Comprehensives often provide better **career guidance** and subject strengths in areas like arts or languages. Experts recommend them for social mobility, with on-site sixth forms easing A-level progression. Parental choice expands through appeals or waiting lists for oversubscribed schools." },
-      { type: 'table', headers: ["School Type", "Progress 8 Score", "EBacc Entry", "Attendance %"], rows: [["Top Comprehensive 1", "+0.5", "45%", "95%"], ["Top Comprehensive 2", "+0.4", "42%", "94%"], ["Top Comprehensive 3", "+0.6", "48%", "96%"], ["Top Comprehensive 4", "+0.3", "40%", "93%"], ["Top Comprehensive 5", "+0.5", "46%", "95%"], ["Average Grammar", "+0.7", "75%", "97%"]] },
-      { type: "h2", text: "Independent and Private Schools" },
-      { type: "p", text: "Private schools charge **\u00a315,000-\u00a340,000 per year** but often deliver strong A-level results compared to state school averages. With over **2,500 independent schools** in the UK, about 20% use selective entrance via the Common Entrance exam. The rest admit non-selectively, offering varied paths if grammar school entry fails." },
-      { type: "p", text: "Day places average around **\u00a318,000 annually**, while boarding reaches \u00a338,000. Top performers like Westminster School stand out for high university placements. Parents weigh costs against outcomes in child education, considering alternatives to grammar schools." },
-      { type: "p", text: "These **independent schools** provide options beyond state grammars, including boarding and day setups. Families explore **parental choice** through school league tables and Ofsted ratings. Tutoring services help prepare for entrance exams if needed." },
-      { type: "p", text: "Fees cover small classes and extracurricular activities, boosting GCSEs and A-levels. Experts recommend visiting open days to assess fit for **secondary school** needs. This route suits those seeking personalised education outside state systems." },
-      { type: "h3", text: "Selective vs Non-Selective Options" },
-      { type: "p", text: "Selective privates like **St Paul\u2019s Girls** use bespoke exams with high pass rates for prepped candidates, while non-selective like Bedales prioritise interviews and reports. Both serve as **grammar school alternatives** for secondary education. Parents compare them for academic selection or holistic entry." },
-      { type: "p", text: "Selective schools focus on **entrance exams** similar to the 11-plus, targeting gifted programmes. Non-selective options emphasise reports and catch-up tuition for broader access. This choice impacts pathways to A-levels or further education." },
-      { type: 'table', headers: ["Aspect", "Selective Private Schools", "Non-Selective Private Schools"], rows: [["Entry Method", "Entrance tests", "Report-based entry, interviews"], ["Acceptance Rate", "10-15%", "Around 40%"], ["Average Fees", "\u00a325,000+", "\u00a320,000"], ["Russell Group Placement", "75%", "55%"]] },
-      { type: "p", text: "Examples of selective include Westminster School, St Paul\u2019s School, and Magdalen College School, known for strong A-level outcomes. Non-selective like Bedales, Sevenoaks, and Brighton College offer child-centred learning. Check parent forums for real insights on admissions criteria." },
-      { type: "h2", text: "Sixth Form Colleges for Post-16" },
-      { type: "p", text: "**Sixth form colleges** educate a large share of A-level students outside school sixth forms. These colleges offer **fees from \u00a30 to \u00a38,000 per year** and maintain strong retention rates around 85%, based on ALPS data from 2023. They provide flexible options for students from comprehensive schools or those seeking alternatives to grammar school paths." },
-      { type: "p", text: "Entry routes vary across colleges. Most require **minimum 5 GCSEs at grade 4 or above**, while others demand subject-specific grades, such as grade 7 in maths for A-level maths. **Oversubscribed colleges** often include interviews to assess suitability." },
-      { type: "p", text: "Top colleges like **Hills Road in Cambridge** stand out for their value-added performance and high progression rates. London IB schools also attract students with their international programmes. Average **A-level pass rates** hover near 98%, with many achieving top grades for university entry." },
-      { type: "p", text: "Retention and destination data highlight their success. Around 60% of students progress to **top universities**, supported by career guidance and subject strengths in STEM or humanities. Parents should check **Ofsted ratings** and school league tables when comparing options." },
-      { type: "h2", text: "International Baccalaureate Programs" },
-      { type: "p", text: "The IB Diploma achieves strong results globally and is accepted by most top universities, including those in the **Russell Group**. It offers a rigorous alternative to grammar schools for students seeking breadth in their child education. Parents often choose it when selective schools are oversubscribed." },
-      { type: "p", text: "The program requires students to study **six subjects** from different groups, plus three core elements: Theory of Knowledge (TOK), Extended Essay (EE), and Creativity, Activity, Service (CAS). Assessment is typically **80% exams** and 20% coursework, building well-rounded skills. This structure suits pupils who thrive in diverse curricula over narrow specialisation." },
-      { type: "p", text: "Compared to **A-levels**, the IB provides a broader curriculum with less subject depth, ideal for undecided students or those eyeing international universities. A-levels allow three or four subjects in greater detail, suiting focused academic paths. Experts recommend IB for fostering critical thinking alongside subject knowledge." },
-      { type: "p", text: "Around **120 schools** in the UK offer the IB Diploma, mostly independent schools with fees over \u00a320,000 annually, though some state academies provide it free. Entry often needs an average GCSE grade of 7 or equivalent. For example, Sevenoaks School reports a high average point score, with students progressing to elite universities, showing real success in this **IB program**." },
-      { type: "h2", text: "Home Education and Tutoring" },
-      { type: "p", text: "About **40,000 UK children** are home-educated, using platforms like EdPlace (\u00a359/year) and tutors averaging \u00a335/hour. Parents have a **legal duty** to provide suitable education under UK law. Local authorities monitor progress annually through visits or reports." },
-      { type: "p", text: "**Home education** offers flexibility as an alternative to grammar schools or comprehensive schools. Families choose personalised education tailored to their child's pace. This suits children who thrive outside traditional secondary school settings." },
-      { type: "p", text: "Platforms vary in cost and focus. Khan Academy provides **free video lessons** for core subjects. CGP Online costs \u00a399/year for GCSE practice, while Wolsey Hall Oxford offers a \u00a33,500 GCSE package with structured guidance." },
-      { type: "p", text: "Tutoring complements homeschooling. Parents hire specialists for **entrance exam prep** or catch-up tuition. This approach supports transitions to independent schools or sixth form colleges." },
-      { type: "h3", text: "Structured Home Learning Paths" },
-      { type: "p", text: "Follow this **5-step curriculum** for effective home education: 1) Core timetable (25 hrs/week), 2) iGCSE syllabus from Cambridge International, 3) Weekly assessments via EdPlace, 4) Mock exams termly, 5) UCAS personal statement coaching. This builds a strong foundation rivaling grammar school rigour." },
-      { type: "p", text: "Create a **weekly schedule** for consistency. Monday to Wednesday focus on core academics like maths and English for 6 hours daily. Thursday covers practical skills such as science experiments, and Friday handles review and assessment." },
-      { type: "ol", items: ["Monday-Wednesday: **Core academics** (6hrs/day) in English, maths, science.", "Thursday: Practical skills like coding or art projects.", "Friday: Review lessons and quizzes."] },
-      { type: "p", text: "Use free resources like **Oak National Academy** for video lessons and Seneca Learning for GCSE revision. MyMaths costs \u00a35/month for interactive maths. Track progress aiming for steady growth in skills each year." },
-      { type: "p", text: "Integrate **blended learning** with edtech tools. This supports accelerated learning or gifted programs at home. Parents monitor outcomes to prepare for A-levels, apprenticeships, or vocational training." },
-      { type: "h2", text: "Vocational and Technical Pathways" },
-      { type: "p", text: "Various **vocational routes** offer strong alternatives to grammar schools for children seeking practical skills after secondary school. These paths include **Level 3 BTECs**, equivalent to three A-levels, T-Levels as two-year technical qualifications, and NVQ apprenticeships that blend work with training. Such options suit students who thrive in hands-on learning rather than traditional academic settings." },
-      { type: "p", text: "Institutions like **FE colleges**, with over 250 across the UK, university technical colleges at around 40 sites, and studio schools provide these programmes. They focus on real-world application in fields like engineering, health, and digital skills. Parents can explore local options via school leagues tables or Ofsted ratings to match their child's interests." },
-      { type: "p", text: "Employer demand remains high for these skills, especially in technical sectors. Vocational training leads to better immediate job prospects compared to some A-level paths, with students often entering **further education** or employment directly. Consider career guidance from sixth form colleges to align choices with future goals." },
-      { type: "p", text: "For example, a child interested in performing arts might choose a BTEC at a studio school, while STEM enthusiasts could opt for a UTC. These routes support parental choice beyond selective schools, comprehensive schools, or academies. They emphasise student outcomes through subject strengths and practical experience." },
-      { type: "h3", text: "Apprenticeships and T-Levels" },
-      { type: "p", text: "T-Levels, introduced in 2020, now cover multiple occupations with structured training, while apprenticeships open doors to on-the-job learning. These fit well as grammar school alternatives for students after GCSEs, combining classroom study with workplace experience. They appeal to those eyeing vocational training over A-levels or BTECs." },
-      { type: "p", text: "Apprenticeships come in three main levels: intermediate at Level 2, advanced at Level 3, and degree-level at Level 6. Providers like Multiverse offer cost-free programmes to employers, and QA Ltd supports high completion rates. Students earn while learning, gaining qualifications recognised by industry." },
-      { type: "ol", items: ["Search for opportunities on the Gov.uk portal tailored to your area.", "Attend an **assessment centre** to demonstrate skills and fit.", "Commit to at least 18 months, often leading to full-time roles."] },
-      { type: "p", text: "A real-world example is a Rolls-Royce apprentice starting at a competitive salary in their first year. Post-completion, many secure employment quickly, with strong progression to higher roles. These paths work alongside options like technical colleges or free schools for flexible schooling." },
+  {
+    "type": "p",
+    "text": "Yes. A non-selective secondary school can be a positive first choice, and independent schools may be an option where their fees and admissions arrangements work for your family. Build a balanced shortlist before the 11 Plus result so that one exam does not become the entire secondary-school plan."
+  },
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "This guide supports preparation for tests taken in 2027. Exam year and school-entry year are different: a test in autumn 2027 will commonly be for September 2028 entry. Other schools have different calendars. Check the specific admissions cycle before using any dates or rules."
+  },
+  {
+    "type": "h2",
+    "text": "What are the realistic options at Year 7?"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Option",
+      "What to investigate",
+      "Important distinction"
     ],
+    "rows": [
+      [
+        "Non-selective state secondary",
+        "Curriculum, teaching, pastoral care, admissions and travel",
+        "Does not select the whole intake by academic test"
+      ],
+      [
+        "Academy or free school",
+        "Its own published admissions arrangements and school provision",
+        "Governance label does not tell you whether it is selective"
+      ],
+      [
+        "Faith school",
+        "Admissions criteria and any supplementary information form",
+        "Eligibility and priority rules differ by school"
+      ],
+      [
+        "Independent school",
+        "Fees, entrance assessments, bursaries and ongoing costs",
+        "Apply directly; do not assume a grammar-school result transfers"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "These categories overlap. For example, an academy can be a grammar school or a non-selective school. Check the actual school rather than deciding from its label. This guide concerns the immediate move to secondary school, not sixth-form or apprenticeship choices several years later."
+  },
+  {
+    "type": "h2",
+    "text": "Compare what your child would experience"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Teaching: how are pupils challenged when they understand a topic quickly?",
+      "Support: what happens when a child falls behind or needs additional help?",
+      "Pastoral care: who would your child speak to if worried?",
+      "Curriculum: which languages, arts, sports and other activities are available?",
+      "Transition: how does the school help new Year 7 pupils settle?",
+      "Travel: what is the realistic door-to-door journey on a school day?"
+    ]
+  },
+  {
+    "type": "p",
+    "text": "At an open evening, ask for concrete examples. “How do you support a strong reader in Year 7?” is more useful than “Are you academic?”. Where possible, look at ordinary pupil work and ask how feedback helps children improve. Let your child describe what felt welcoming or worrying, then investigate those impressions."
+  },
+  {
+    "type": "h2",
+    "text": "Use results and inspection evidence carefully"
+  },
+  {
+    "type": "p",
+    "text": "Read published school information alongside an inspection report, a visit and the curriculum. Do not compare raw examination results as though different pupil intakes were identical. A single headline grade or league-table position does not explain whether the teaching, support and daily environment suit your child."
+  },
+  {
+    "type": "h2",
+    "text": "Make an admissions shortlist you can actually use"
+  },
+  {
+    "type": "p",
+    "text": "Check each school’s published criteria for the relevant entry year and your local authority’s application guidance. Record catchment or distance information, any priority categories and supplementary forms. Being nearby does not automatically guarantee a place. Keep test registration and the school-place application as separate tasks."
+  },
+  {
+    "type": "p",
+    "text": "If considering an independent school, request the current full fee schedule and ask about bursary eligibility, deadlines and renewal conditions. Include transport, uniform, meals and activities in your family budget. Do not assume a scholarship or bursary will be offered."
+  },
+  {
+    "type": "h2",
+    "text": "If the grammar-school result is disappointing"
+  },
+  {
+    "type": "p",
+    "text": "Give your child space to react and avoid treating the score as a verdict on their future. Look again at the positive reasons for the other schools on your shortlist. Check the admissions authority’s instructions for any review or appeal option, but do not abandon the ordinary application process while investigating it."
+  },
+  {
+    "type": "h2",
+    "text": "A family comparison sheet"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Question",
+      "School A",
+      "School B"
+    ],
+    "rows": [
+      [
+        "Could we meet the published admission criteria?",
+        "Record evidence",
+        "Record evidence"
+      ],
+      [
+        "Would the daily journey be sustainable?",
+        "Try the route",
+        "Try the route"
+      ],
+      [
+        "What teaching or support matters most to this child?",
+        "Specific examples",
+        "Specific examples"
+      ],
+      [
+        "What did the child want to ask after visiting?",
+        "Write questions",
+        "Write questions"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Use real names and verified information in your own sheet. There is no invented “top comprehensive” score or generic ranking that can replace this comparison. Choose the best realistic fit from the options available to your family."
+  },
+  {
+    "type": "h2",
+    "text": "Sources and next steps"
+  },
+  {
+    "type": "p",
+    "text": "Reviewed 7 October 2026 against [GOV.UK school types](https://www.gov.uk/types-of-school/overview) and [school admissions guidance](https://www.gov.uk/schools-admissions). Start with your local authority’s current school directory and each school’s published arrangements. For the test itself, read [what the 11 Plus involves](/blog/what-is-the-11-plus-exam)."
+  }
+]
   },
 
 ];

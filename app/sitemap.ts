@@ -14,7 +14,7 @@ function url(
 ): MetadataRoute.Sitemap[0] {
   return {
     url: `${BASE}${path}`,
-    lastModified: lastMod ?? new Date().toISOString().split('T')[0],
+    ...(lastMod ? { lastModified: lastMod } : {}),
     changeFrequency: changeFreq,
     priority,
   };
@@ -22,15 +22,15 @@ function url(
 
 /**
  * Converts a human-readable date string (e.g. "January 15, 2025") to YYYY-MM-DD.
- * Falls back to today's date if parsing fails.
+ * Omits the date if parsing fails; deployment is not a content update.
  */
-function parsePostDate(dateStr: string): string {
+function parsePostDate(dateStr: string): string | undefined {
   try {
     const d = new Date(dateStr);
-    if (isNaN(d.getTime())) return new Date().toISOString().split('T')[0];
+    if (isNaN(d.getTime())) return undefined;
     return d.toISOString().split('T')[0];
   } catch {
-    return new Date().toISOString().split('T')[0];
+    return undefined;
   }
 }
 
@@ -70,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // lastModified uses the actual post date so Googlebot doesn't re-crawl every
   // post on every deploy.
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((p) =>
-    url(`/blog/${p.slug}`, 0.7, 'monthly', parsePostDate(p.date)),
+    url(`/blog/${p.slug}`, 0.7, 'monthly', p.updatedAt ?? parsePostDate(p.date)),
   );
 
   return [

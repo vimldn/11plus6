@@ -37,20 +37,20 @@ export const metadata: Metadata = {
 
 const FAQ_ITEMS = [
   {
-    q: 'Is 11 Plus Exam Papers suitable for GL and CEM-style 11+ exams?',
-    a: 'Yes. You can choose your target exam style during onboarding, and practice questions will match the format and difficulty.',
+    q: 'Are these official 11+ past papers?',
+    a: 'No. These are original practice resources, not official past papers or resources endorsed by an exam provider. Check your target school’s current admissions guidance for its subjects, format and sample materials.',
   },
   {
-    q: 'What year groups is this for?',
-    a: 'Designed for Year 3 to Year 6 (roughly ages 7–11), including focused Year 5 and Year 6 11+ preparation.',
+    q: 'Can we use these resources to prepare for exams in 2027?',
+    a: 'Yes. Use the subject practice and worked examples as part of your preparation. Check school-specific requirements for exams taken in 2027, and distinguish the test date from the year your child would start school.',
   },
   {
-    q: 'Does it work on iPads and tablets?',
-    a: 'Yes — 11 Plus Exam Papers works smoothly on iPad, Android tablets, laptops and phones.',
+    q: 'Can we practise online?',
+    a: 'Yes. Practice sessions run in your web browser, without downloading a paper. The subject lessons also include examples and questions with explained answers.',
   },
   {
     q: 'How much does it cost?',
-    a: 'Access is free for now. In future, we may add optional gated resources, but the core library will remain focused on high-quality 11+ preparation.',
+    a: 'The practice resources are currently free to access, with no sign-up required. Tutor enquiries are separate from the free practice resources.',
   },
 ];
 
@@ -59,7 +59,7 @@ export default function Home() {
     <>
       <SchemaOrg data={[...homepageSchemas, faqSchema(FAQ_ITEMS)]} />
       <DeepLinkForwarder />
-      <LandingPage />
+      <LandingPage faqs={FAQ_ITEMS} />
     </>
   );
 }

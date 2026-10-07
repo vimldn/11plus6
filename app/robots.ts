@@ -7,8 +7,7 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
         disallow: [
-          '/quiz',        // transient quiz session pages — no SEO value
-          '/test',        // internal debug page
+          // Allow page crawling so crawlers can see noindex metadata or a 404.
           '/api/',        // API routes
         ],
       },
