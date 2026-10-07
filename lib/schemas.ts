@@ -30,6 +30,7 @@ export const websiteSchema = {
   '@id': `${BASE}/#website`,
   url: BASE,
   name: ORG_NAME,
+  alternateName: ['11PlusExamPapers'],
   publisher: { '@id': `${BASE}/#org` },
   potentialAction: {
     '@type': 'SearchAction',

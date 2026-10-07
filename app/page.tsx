@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     'Free 11+ mock exams, practice questions and tutor support for grammar and independent school entrance. Covers Maths, English, Verbal and Non-Verbal Reasoning. No sign-up required.',
   alternates: { canonical: '/' },
   openGraph: {
+    siteName: '11 Plus Exam Papers',
     title: 'Free 11+ Mock Exams & Practice Papers | 11 Plus Exam Papers',
     description:
       'Free 11+ mock exams and practice papers for UK families preparing for grammar and independent school entrance. No sign-up required.',
