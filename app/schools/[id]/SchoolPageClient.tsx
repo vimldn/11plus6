@@ -28,11 +28,11 @@ interface SchoolDetail {
 const SCHOOL_DETAILS: Record<string, SchoolDetail> = {
   'qe-boys': {
     admissionsUrl: 'https://www.qebarnet.co.uk/admissions-information/admissions/',
-    entryStages: 'Stage 1 (GL Assessment papers) → results → CAF',
-    placesAvailable: '180 per year',
-    examNotes: 'Two papers: English (inc. comprehension) and Maths, each approx. 50 minutes. All multiple-choice. GL Assessment. No VR/NVR at Stage 1.',
-    registrationWindow: 'Opens ~1 May, closes ~11 July (Year 5)',
-    resultsTimeline: 'Early October; National Offers Day 1 March',
+    entryStages: 'One round: English and Maths papers in a single session → results → CAF',
+    placesAvailable: '180 for September 2027 entry',
+    examNotes: 'Two multiple-choice papers: English and Mathematics. There is no separate verbal or non-verbal reasoning paper and no second testing round.',
+    registrationWindow: 'For 2027 entry: registration deadline 8 July 2026 at noon; test 16 or 17 September 2026',
+    resultsTimeline: 'For 2027 entry: results provisionally 1 October 2026; National Offer Day 1 March 2027',
     catchmentArea: false,
   },
   'henrietta-barnett': {

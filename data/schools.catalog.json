@@ -12,12 +12,10 @@
     "entryPoints": [
       "11+"
     ],
-    "examFormat": "GL Assessment (two-stage)",
+    "examFormat": "English and Maths multiple-choice papers (one round)",
     "subjects": [
       "maths",
-      "english",
-      "verbal-reasoning",
-      "non-verbal-reasoning"
+      "english"
     ],
     "selective": true,
     "hasBlueprint": false,
@@ -287,10 +285,9 @@
     "entryPoints": [
       "11+"
     ],
-    "examFormat": "CEM (Trafford)",
+    "examFormat": "Trafford: GL for 2027 entry; FSCE from 2028 entry",
     "subjects": [
       "maths",
-      "english",
       "verbal-reasoning",
       "non-verbal-reasoning"
     ],
@@ -328,7 +325,7 @@
     "id": "king-edward-vi-girls",
     "name": "King Edward VI High School for Girls (Birmingham)",
     "shortName": "KEHS",
-    "category": "grammar",
+    "category": "private",
     "gender": "girls",
     "location": {
       "city": "Birmingham",
@@ -337,12 +334,10 @@
     "entryPoints": [
       "11+"
     ],
-    "examFormat": "KEHS own papers (Maths, English, Reasoning)",
+    "examFormat": "KEHS own papers (Maths and English)",
     "subjects": [
       "maths",
-      "english",
-      "verbal-reasoning",
-      "non-verbal-reasoning"
+      "english"
     ],
     "selective": true,
     "hasBlueprint": false,

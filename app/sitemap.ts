@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { SUBJECTS, UK_CITIES } from '@/lib/siteData';
 import catalog from '@/data/schools.catalog.json';
 import { BLOG_POSTS } from '@/lib/blogPosts';
+import { publishedLessons } from '@/lib/lessonPublishing';
 
 const BASE = 'https://www.11plusexampapers.com';
 
@@ -76,6 +77,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticPages,
     ...schoolPages,
     ...subjectPages,
+    ...publishedLessons().map((lesson) =>
+      url(`/subjects/${lesson.subject}/${lesson.slug}`, 0.7, 'monthly', lesson.reviewedAt),
+    ),
     ...tutorPages,
     ...blogPages,
   ];

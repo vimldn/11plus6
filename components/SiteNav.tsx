@@ -160,9 +160,9 @@ export const SiteNav: React.FC<SiteNavProps> = ({
             </span>
           </Link>
 
-          {/* Past Papers */}
+          {/* Practice Papers */}
           <Link href="/papers" className="px-4 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">
-            Past Papers
+            Practice Papers
           </Link>
 
           {/* Schools */}
@@ -310,7 +310,7 @@ export const SiteNav: React.FC<SiteNavProps> = ({
               </Link>
 
               <Link href="/papers" onClick={() => setMobileOpen(false)} className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
-                Past Papers
+                Practice Papers
               </Link>
 
               <Link href="/schools" onClick={() => setMobileOpen(false)} className="w-full flex items-center px-3 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
