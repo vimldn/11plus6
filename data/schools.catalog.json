@@ -63,9 +63,7 @@
     "examFormat": "Sutton SET (two-stage)",
     "subjects": [
       "maths",
-      "english",
-      "verbal-reasoning",
-      "non-verbal-reasoning"
+      "english"
     ],
     "selective": true,
     "hasBlueprint": false,
@@ -357,13 +355,8 @@
     "entryPoints": [
       "11+"
     ],
-    "examFormat": "GL Assessment",
-    "subjects": [
-      "maths",
-      "english",
-      "verbal-reasoning",
-      "non-verbal-reasoning"
-    ],
+    "examFormat": "FSCE: broad KS2 application and creativity (2027 entry)",
+    "subjects": [],
     "selective": true,
     "hasBlueprint": false,
     "active": true,

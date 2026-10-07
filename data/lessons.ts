@@ -2,7 +2,7 @@ export type Lesson = {
   slug: string;
   title: string;
   description: string;
-  subject: 'maths';
+  subject: 'maths' | 'english';
   status: 'draft' | 'published';
   reviewedAt: string;
   introduction: string[];
@@ -28,7 +28,7 @@ export const lessons: Lesson[] = [
     slug: 'fractions-of-amounts',
     title: '11+ Fractions of Amounts: Questions and Worked Answers',
     description: 'Learn to find fractions of amounts, calculate what remains and work backwards to the whole, with three examples and six original practice questions.',
-    subject: 'maths', status: 'draft', reviewedAt: '2026-10-07',
+    subject: 'maths', status: 'published', reviewedAt: '2026-10-07',
     introduction: [
       'Finding a fraction of an amount means splitting the whole into equal parts and choosing some of those parts. For example, three fifths of a collection means that the collection has been divided into five equal groups and you want three groups.',
       'This lesson moves from finding a part to finding what remains and working backwards. Suggested difficulty: foundation to intermediate, with a final stretch question. These are editorial estimates, not an exam-board grading. You should already be comfortable with multiplication and division. Try the questions without a calculator, keeping your working on paper.',
@@ -82,14 +82,14 @@ export const lessons: Lesson[] = [
     slug: 'ratio-sharing',
     title: '11+ Ratio Sharing: Questions and Worked Answers',
     description: 'Learn to share amounts in a ratio, distinguish a total from a difference and check your shares, with three examples and six original questions.',
-    subject: 'maths', status: 'draft', reviewedAt: '2026-10-07',
+    subject: 'maths', status: 'published', reviewedAt: '2026-10-07',
     introduction: [
       'A sharing ratio tells you the relative sizes of the shares. If two children share counters in the ratio 2:3, the first child receives two equal parts and the second receives three of the same-sized parts. There are five parts altogether.',
       'Suggested difficulty: foundation to intermediate, with a difference-based stretch question. These are editorial estimates. Before starting, practise multiplication, division and finding fractions of amounts. Work on paper and keep each person’s name beside their share.',
       'These are original practice questions, not an official school or exam-provider paper. The lesson concentrates on sharing; recipe scaling and map scales are different applications that need further practice.',
     ],
     sections: [
-      { title: 'A ratio compares shares, not a share with the whole', paragraphs: [
+      { title: 'In a sharing ratio, compare the shares before finding the whole', paragraphs: [
         'Read 2:3 as “two parts to three parts”. The first share is 2/5 of the combined total, because 2 + 3 = 5. It is not 2/3 of the total. However, the first share is 2/3 of the second share. Knowing which quantities are being compared prevents confusion.',
         'The order matters. If the question says apples to pears is 2:3, apples take two parts and pears take three. Reverse the labels and you reverse the answer. Before calculating, copy the names in the same order as the ratio.',
       ] },
@@ -137,7 +137,7 @@ export const lessons: Lesson[] = [
     slug: 'percentages-of-amounts',
     title: '11+ Percentages of Amounts: Questions and Worked Answers',
     description: 'Find percentages using 10%, 1% and fraction shortcuts, then tackle discounts and money questions with three examples and six original practice questions.',
-    subject: 'maths', status: 'draft', reviewedAt: '2026-10-07',
+    subject: 'maths', status: 'published', reviewedAt: '2026-10-07',
     introduction: [
       'A percentage describes an amount in hundredths. The symbol % means “per hundred”, so 35% means 35 out of every 100 equal parts. To find 35% of an amount, you need to find the value of those parts for that particular whole.',
       'Suggested difficulty: foundation to intermediate, with one stretch question. These are editorial estimates. You will need division by 10 and 100, multiplication and basic fractions. These original questions teach the method; they are not official past-paper questions or a prediction of a particular school’s exam.',

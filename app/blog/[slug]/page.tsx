@@ -8,6 +8,7 @@ import { BookOpen, Clock, Calendar, ArrowRight, Lightbulb, AlertTriangle, Info, 
 import { BLOG_POSTS, getPostBySlug, getAllSlugs, type BlockType } from '@/lib/blogPosts';
 import { SchemaOrg } from '@/components/SchemaOrg';
 import { articleSchema } from '@/lib/schemas';
+import { publishedLessons } from '@/lib/lessonPublishing';
 import { getExternalLinks } from '@/lib/externalLinks';
 
 interface Props { params: { slug: string } }
@@ -283,6 +284,8 @@ export default function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   const related = getRelatedPosts(post);
+  const practiceSlugs = ['what-topics-are-in-11-plus-maths', 'how-to-improve-11-plus-mental-maths', 'common-11-plus-maths-mistakes-to-avoid'];
+  const topicPractice = practiceSlugs.includes(post.slug) ? publishedLessons('maths') : [];
   const externalLinks = getExternalLinks(post.category);
   // Use _1 as hero image (index 0), rest for inline
   // imageUrl (_4) is the confirmed working image — use it as hero
@@ -332,6 +335,11 @@ export default function BlogPostPage({ params }: Props) {
 
           {/* Content blocks with interleaved banners + images */}
           <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />
+          {topicPractice.length > 0 && <section className="my-10 rounded-2xl bg-indigo-50 p-6" aria-label="Practise these maths skills">
+            <h2 className="text-xl font-bold text-slate-900">Practise these maths skills</h2>
+            <p className="mt-3 text-slate-700">Work through a short lesson, try the questions and check each answer with an explanation.</p>
+            <ul className="mt-4 space-y-3">{topicPractice.map(lesson => <li key={lesson.slug}><Link className="font-semibold text-indigo-700 underline" href={`/subjects/${lesson.subject}/${lesson.slug}`}>{lesson.title}</Link></li>)}</ul>
+          </section>}
 
           {/* ── End CTA ── */}
           <div className="mt-16 p-7 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-3xl text-white">

@@ -49,7 +49,7 @@ const SCHOOLS: SchoolEntry[] = [
     id: 'wilsons', name: "Wilson's School", shortName: "Wilson's",
     category: 'grammar', examFormat: 'Sutton SET (two-stage)',
     location: { city: 'London', area: 'Wallington, Sutton' }, gender: 'boys',
-    subjects: ['maths', 'english', 'verbal', 'nonverbal'],
+    subjects: ['maths', 'english'],
     officialAdmissionsUrl: 'https://www.wilsons.school/admissions/',
   },
   {
@@ -133,10 +133,10 @@ const SCHOOLS: SchoolEntry[] = [
   },
   {
     id: 'reading-school', name: 'Reading School', shortName: 'Reading School',
-    category: 'grammar', examFormat: 'GL Assessment',
+    category: 'grammar', examFormat: 'FSCE: broad KS2 and creativity; practice below covers selected skills only',
     location: { city: 'Reading', area: 'Berkshire' }, gender: 'boys',
-    subjects: ['maths', 'english', 'verbal', 'nonverbal'],
-    officialAdmissionsUrl: 'https://www.reading-school.co.uk/admissions/',
+    subjects: ['maths', 'english'],
+    officialAdmissionsUrl: 'https://www.reading-school.co.uk/page/?pid=116',
   },
   {
     id: 'newstead-wood', name: 'Newstead Wood School', shortName: 'Newstead Wood',

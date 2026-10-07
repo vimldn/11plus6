@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { SchemaOrg } from '@/components/SchemaOrg';
 import LessonContent from '@/components/LessonContent';
 import { publishedLesson, publishedLessons } from '@/lib/lessonPublishing';
 
@@ -23,5 +24,15 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function LessonPage({ params }: Props) {
   const lesson = publishedLesson(params.subject, params.topic);
   if (!lesson) notFound();
-  return <LessonContent lesson={lesson} />;
+  return <>
+    <SchemaOrg data={{
+      '@context': 'https://schema.org', '@type': 'LearningResource',
+      name: lesson.title, description: lesson.description,
+      url: `https://www.11plusexampapers.com/subjects/${lesson.subject}/${lesson.slug}`,
+      inLanguage: 'en-GB', learningResourceType: 'Lesson',
+      isAccessibleForFree: true, dateModified: lesson.reviewedAt,
+      teaches: lesson.title,
+    }} />
+    <LessonContent lesson={lesson} />
+  </>;
 }

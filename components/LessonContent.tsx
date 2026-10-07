@@ -1,6 +1,7 @@
 import Link from 'next/link';
+import LessonAnswer from '@/components/LessonAnswer';
 import type { Lesson } from '@/data/lessons';
-import { lessons } from '@/data/lessons';
+import { allLessons as lessons } from '@/lib/lessonPublishing';
 import { publishedLessons } from '@/lib/lessonPublishing';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
@@ -13,7 +14,7 @@ export default function LessonContent({ lesson, preview = false }: { lesson: Les
     <div className="min-h-screen bg-slate-50 text-slate-800">
       <SiteNav />
       <main className="mx-auto max-w-3xl px-5 py-12 sm:px-8">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Maths', href: '/subjects/maths' }, { label: lesson.title }]} />
+        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: lesson.subject === 'maths' ? 'Maths' : 'English', href: `/subjects/${lesson.subject}` }, { label: lesson.title }]} />
         {preview ? (
           <aside className="my-6 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">
             <strong>Editorial preview — draft content.</strong> This lesson is awaiting release approval and is not available at its public URL.
@@ -54,11 +55,10 @@ export default function LessonContent({ lesson, preview = false }: { lesson: Les
               {lesson.questions.map((question, index) => (
                 <li key={question.question} className="rounded-2xl border border-slate-200 bg-white p-6">
                   <h3 className="font-semibold">{index + 1}. {question.question}</h3>
-                  <details className="mt-4">
-                    <summary className="cursor-pointer rounded text-sm font-semibold text-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-indigo-600">Show answer and explanation for question {index + 1}</summary>
+                  <LessonAnswer track={!preview} slug={lesson.slug} subject={lesson.subject} number={index + 1}>
                     <p className="mt-4 font-semibold">Answer: {question.answer}</p>
                     <p className="mt-2 leading-relaxed">{question.explanation}</p>
-                  </details>
+                  </LessonAnswer>
                 </li>
               ))}
             </ol>
