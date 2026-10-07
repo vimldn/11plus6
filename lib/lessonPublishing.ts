@@ -1,8 +1,11 @@
 import { lessons } from '@/data/lessons';
+import { englishLessons } from '@/data/englishLessons';
+
+export const allLessons = [...lessons, ...englishLessons];
 
 // Publication is an explicit editorial decision, never triggered by a date.
 export function publishedLessons(subject?: string) {
-  return lessons.filter((lesson) => lesson.status === 'published' && (!subject || lesson.subject === subject));
+  return allLessons.filter((lesson) => lesson.status === 'published' && (!subject || lesson.subject === subject));
 }
 
 export function publishedLesson(subject: string, slug: string) {

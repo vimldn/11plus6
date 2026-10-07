@@ -45,13 +45,22 @@ const SCHOOL_DETAILS: Record<string, SchoolDetail> = {
     catchmentArea: 'No catchment for Round 1. Post-Round 2, priority given to candidates within 3 miles.',
   },
   'wilsons': {
-    admissionsUrl: 'https://www.wilsons.school/admissions/',
-    entryStages: 'Sutton SET (Stage 1, shared) → Stage 2 (Wilson\'s-specific) → CAF',
+    admissionsUrl: 'https://www.wilsons.school/admissions-faqs/',
+    entryStages: 'Sutton SET → shared second-stage English and Maths → CAF',
     placesAvailable: '180 per year',
-    examNotes: 'SET tests Maths and English only (no VR/NVR). Stage 2 includes Maths, English and aptitude tests for Sport and Music. SET registration is shared across all Sutton grammar schools.',
-    registrationWindow: 'SET registration opens 1 May, closes 1 August (Year 5)',
-    resultsTimeline: 'SET late September; Stage 2 early October; Offers 1 March',
-    catchmentArea: 'No catchment area. Places offered by score across the country.',
+    examNotes: 'For 2027 entry, the academic tests cover English and Maths, with no verbal or non-verbal reasoning. Stage 2 is shared with Sutton Grammar and Wallington County Grammar. Optional Music and Sport aptitude assessments are separate on 10 October 2026; aptitude applicants must still pass both academic stages.',
+    registrationWindow: 'For 2027 entry: 1 May–31 July 2026; access-arrangement requests by 12 June 2026',
+    resultsTimeline: 'SET: 15 September 2026; Stage 2: 3 October 2026; outcomes before October half term; offers 1 March 2027',
+    catchmentArea: 'No general catchment restriction. Oversubscription priorities apply, with Sutton residence used in tied-score cases; consult the current admissions criteria.',
+  },
+  'reading-school': {
+    admissionsUrl: 'https://www.reading-school.co.uk/page/?pid=116',
+    entryStages: 'FSCE entrance test → eligibility outcome → CAF and oversubscription criteria',
+    placesAvailable: '138 day places and 12 boarding places',
+    examNotes: 'For 2027 entry, FSCE assesses application across the KS2 curriculum up to Year 5 and written creativity. The range can include English, Maths and other KS2 subjects; it is not a fixed four-subject GL test. Content changes annually. Use the official familiarisation guides; our subject practice is not an authorised FSCE paper or a replica of its exam.',
+    registrationWindow: 'For 2027 entry: 27 March–17 May 2026 (midnight)',
+    resultsTimeline: '2026 tests: 15 July (SEN), 16 July (in-catchment day and boarding), 25 September (out-of-catchment day). Results mid-October; offers 1 March 2027.',
+    catchmentArea: 'Priority categories include feeder schools, Reading priority postcodes and the defined catchment. Check the 2027 admissions policy for the full order and eligibility rules.',
   },
   'tiffin-girls': {
     admissionsUrl: 'https://www.tiffingirls.org/admissions/year-7/',
@@ -206,7 +215,9 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
                 <CheckCircle size={16} className="text-emerald-500" />
                 <h2 className="font-black text-slate-900">Subjects Tested</h2>
               </div>
-              {s.subjects && s.subjects.length > 0 ? (
+              {school.id === 'reading-school' ? (
+                <p className="text-sm text-slate-700">Broad KS2 application through Year 5 and written creativity. The FSCE guide covers English, Maths and other curriculum subjects; the selection of content changes annually.</p>
+              ) : s.subjects && s.subjects.length > 0 ? (
                 <div className="space-y-2">
                   {s.subjects.map((sub: string) => (
                     <div key={sub} className="flex items-center gap-2">

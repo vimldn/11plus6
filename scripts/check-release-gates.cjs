@@ -30,7 +30,7 @@ function loadLocal(relative) {
   return loaded.exports;
 }
 
-const { lessons } = loadLocal('data/lessons.ts');
+const { allLessons: lessons } = loadLocal('lib/lessonPublishing.ts');
 const { publishedLessons, publishedLesson, lessonPreviewEnabled } = loadLocal('lib/lessonPublishing.ts');
 const previousEnv = { NODE_ENV: process.env.NODE_ENV, VERCEL_ENV: process.env.VERCEL_ENV };
 function setEnv(node, vercel) {
@@ -51,26 +51,26 @@ try {
   setEnv('production', undefined);
   assert.equal(lessonPreviewEnabled(), false, 'Unknown production deployment fails closed');
 
-  assert.ok(lessons.length > 0, 'The initial review batch must exist');
-  assert.ok(lessons.every((lesson) => lesson.status === 'draft'), 'Initial batch must remain draft');
-  assert.deepEqual(publishedLessons(), [], 'Drafts must not enter public listings/sitemap input');
-  for (const lesson of lessons) {
-    assert.equal(publishedLesson(lesson.subject, lesson.slug), undefined, 'Public lookup must hide drafts');
+  const drafts = lessons.filter(lesson => lesson.status === 'draft');
+  const released = lessons.filter(lesson => lesson.status === 'published');
+  assert.equal(released.length, 3, 'Only the reviewed maths batch is released');
+  assert.ok(released.every(lesson => lesson.subject === 'maths'));
+  assert.equal(drafts.length, 3, 'English batch stays in draft');
+  assert.ok(drafts.every(lesson => lesson.subject === 'english'));
+  assert.deepEqual(publishedLessons(), released);
+  for (const lesson of drafts) assert.equal(publishedLesson(lesson.subject, lesson.slug), undefined);
+  for (const lesson of released) {
+    assert.equal(publishedLesson(lesson.subject, lesson.slug), lesson);
+    assert.equal(publishedLesson('english', lesson.slug), undefined);
   }
-
-  const candidate = lessons[0];
-  const previousStatus = candidate.status;
+  assert.equal(publishedLesson('maths', 'missing-lesson'), undefined);
+  const candidate = drafts[0];
   try {
     candidate.status = 'published';
-    assert.deepEqual(publishedLessons().map((lesson) => lesson.slug), [candidate.slug]);
-    assert.equal(publishedLesson(candidate.subject, candidate.slug), candidate);
-    assert.equal(publishedLesson('english', candidate.slug), undefined, 'Wrong subject must not resolve');
-    assert.deepEqual(publishedLessons('english'), [], 'Subject filter must exclude unrelated lessons');
-    assert.equal(publishedLesson(candidate.subject, 'missing-lesson'), undefined);
-  } finally {
-    candidate.status = previousStatus;
-  }
-  assert.deepEqual(publishedLessons(), [], 'In-memory fixture must be restored');
+    assert.equal(publishedLesson('english', candidate.slug), candidate);
+    assert.equal(publishedLessons().length, released.length + 1);
+  } finally { candidate.status = 'draft'; }
+  assert.deepEqual(publishedLessons(), released);
 
   const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'data/schools.catalog.json'), 'utf8'));
   const qe = catalogue.find((school) => school.id === 'qe-boys');

@@ -10,7 +10,7 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 - Length follows the problem being solved; no mechanical competitor word-count target.
 - Verify dates, school classification, exam provider, admissions stages and policies against official sources for the particular entry year.
 - Document author/reviewer honestly. Never invent educator approval, parent testimonials, school affiliation or pass-rate promises.
-- Check every original question and worked answer. Qualified educator review remains a release gate for the new lesson batch.
+- Check every original question and worked answer. Record the review actually performed. For the first maths release, the owner authorised release after independent automated answer checks; qualified educator approval must not be implied. Human pedagogical review remains recommended.
 - Draft lessons are excluded from public routes, public links and sitemaps. Preview routes exist only in development or Vercel preview and are noindex.
 - Release by an explicit reviewed status change in a later pull request; no unattended scheduled publication. Merging infrastructure must not release draft lessons.
 - Approval of a batch does not imply approval of future batches. No automated task has been scheduled.
