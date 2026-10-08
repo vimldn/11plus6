@@ -6,7 +6,7 @@
   "articles": [
     {
       "slug": "what-is-the-11-plus-exam",
-      "title": "What is the 11 Plus exam? A parent’s guide for 2027",
+      "title": "What is the 11 Plus exam? A parent\u2019s guide for 2027",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-11-plus-exam",
       "status": "published",
       "researchDate": "2026-10-07",
@@ -32,7 +32,7 @@
     },
     {
       "slug": "11-plus-exam-format-multiple-choice-or-written",
-      "title": "11 Plus exam format – multiple choice or written?",
+      "title": "11 Plus exam format \u2013 multiple choice or written?",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
       "status": "pending",
       "researchDate": null,
@@ -54,16 +54,21 @@
       "slug": "when-are-the-11-plus-exam-dates-in-my-area",
       "title": "11 Plus exam dates in 2027: finding the right local timetable",
       "url": "https://www.11plusexampapers.com/blog/when-are-the-11-plus-exam-dates-in-my-area",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-registration.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -146,16 +151,21 @@
       "slug": "how-to-register-my-child-for-the-11-plus",
       "title": "How to register your child for the 11 Plus in 2027",
       "url": "https://www.11plusexampapers.com/blog/how-to-register-my-child-for-the-11-plus",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-registration.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -342,21 +352,26 @@
       "slug": "how-to-appeal-an-11-plus-result-or-school-allocation",
       "title": "How to appeal an 11 Plus result or school allocation",
       "url": "https://www.11plusexampapers.com/blog/how-to-appeal-an-11-plus-result-or-school-allocation",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-appeals.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
       "slug": "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
-      "title": "11 Plus exam stress and anxiety – how to help my child.",
+      "title": "11 Plus exam stress and anxiety \u2013 how to help my child.",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
       "status": "pending",
       "researchDate": null,
@@ -504,16 +519,21 @@
       "slug": "can-my-child-get-extra-time-in-the-11-plus-sen",
       "title": "11 Plus extra time and SEN: evidence and access arrangements",
       "url": "https://www.11plusexampapers.com/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-send.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -528,7 +548,7 @@
     },
     {
       "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
-      "title": "Online vs in-person 11 Plus tutoring – which is better?",
+      "title": "Online vs in-person 11 Plus tutoring \u2013 which is better?",
       "url": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
       "status": "pending",
       "researchDate": null,
@@ -560,16 +580,21 @@
       "slug": "how-to-choose-the-right-grammar-school-after-the-11-plus",
       "title": "How to choose the right grammar school after the 11 Plus",
       "url": "https://www.11plusexampapers.com/blog/how-to-choose-the-right-grammar-school-after-the-11-plus",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-appeals.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -654,7 +679,7 @@
     },
     {
       "slug": "what-exams-do-grammar-schools-use-gl-cem-schools-own",
-      "title": "What exams do grammar schools use (GL, CEM, school’s own)?",
+      "title": "What exams do grammar schools use (GL, CEM, school\u2019s own)?",
       "url": "https://www.11plusexampapers.com/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own",
       "status": "pending",
       "researchDate": null,
@@ -702,16 +727,21 @@
       "slug": "what-are-the-grammar-school-admission-criteria",
       "title": "Grammar-school admission criteria: how to check eligibility and priority",
       "url": "https://www.11plusexampapers.com/blog/what-are-the-grammar-school-admission-criteria",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-send.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -758,32 +788,42 @@
       "slug": "how-does-pupil-premium-priority-work-for-grammar-schools",
       "title": "Pupil premium and grammar-school admissions: how priority works",
       "url": "https://www.11plusexampapers.com/blog/how-does-pupil-premium-priority-work-for-grammar-schools",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-send.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
       "slug": "when-do-you-apply-for-grammar-school-places",
       "title": "When do you apply for grammar school places? The 2027 exam cycle",
       "url": "https://www.11plusexampapers.com/blog/when-do-you-apply-for-grammar-school-places",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-registration.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -800,32 +840,42 @@
       "slug": "how-do-i-register-my-child-for-the-grammar-school-entry-test",
       "title": "Grammar school test registration: forms, consortia and result sharing",
       "url": "https://www.11plusexampapers.com/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-registration.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
       "slug": "what-is-the-timeline-for-grammar-school-admissions",
       "title": "Grammar school admissions timeline: 2027 tests to 2028 entry",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-timeline-for-grammar-school-admissions",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-registration.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -842,16 +892,21 @@
       "slug": "how-do-waiting-lists-work-for-grammar-schools",
       "title": "How do grammar school waiting lists work?",
       "url": "https://www.11plusexampapers.com/blog/how-do-waiting-lists-work-for-grammar-schools",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-appeals.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -868,32 +923,42 @@
       "slug": "what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
       "title": "Passed the 11 Plus but no grammar-school place: what next?",
       "url": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-appeals.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
       "slug": "how-do-grammar-school-appeals-work",
       "title": "How do grammar school appeals work? Evidence and hearings explained",
       "url": "https://www.11plusexampapers.com/blog/how-do-grammar-school-appeals-work",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-appeals.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -1060,32 +1125,42 @@
       "slug": "can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
       "title": "Can children with SEN or an EHCP attend grammar school?",
       "url": "https://www.11plusexampapers.com/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-send.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
       "slug": "do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
       "title": "Grammar-school support for dyslexia, ADHD and autism: what to ask",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-08",
       "evidence": [
         "docs/research-2026-10-08-send.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 4,
         "branch": "content/daily-repairs-2026-10-08",
-        "commit": null,
-        "outcome": "awaiting_checks"
+        "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-08T08:10:28.408492+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-08.json"
       }
     },
     {
@@ -1144,5 +1219,12 @@
         "outcome": "production_verified_2026-10-07"
       }
     }
-  ]
+  ],
+  "totals": {
+    "existing": 99,
+    "checked": 25,
+    "repaired": 25,
+    "published": 25,
+    "pending": 74
+  }
 }

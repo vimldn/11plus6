@@ -1,0 +1,150 @@
+{
+  "checkedAt": "2026-10-08T08:10:28.408492+00:00",
+  "articles": [
+    {
+      "slug": "how-to-register-my-child-for-the-11-plus",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2025-04-23",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 9
+    },
+    {
+      "slug": "how-do-i-register-my-child-for-the-grammar-school-entry-test",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-03-04",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 7
+    },
+    {
+      "slug": "when-do-you-apply-for-grammar-school-places",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-03-02",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 5
+    },
+    {
+      "slug": "what-is-the-timeline-for-grammar-school-admissions",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-03-05",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 7
+    },
+    {
+      "slug": "when-are-the-11-plus-exam-dates-in-my-area",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2025-02-19",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 9
+    },
+    {
+      "slug": "can-my-child-get-extra-time-in-the-11-plus-sen",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2025-12-10",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 8
+    },
+    {
+      "slug": "can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-04-06",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 12
+    },
+    {
+      "slug": "do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-04-07",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 10
+    },
+    {
+      "slug": "what-are-the-grammar-school-admission-criteria",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-02-20",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 11
+    },
+    {
+      "slug": "how-does-pupil-premium-priority-work-for-grammar-schools",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-02-27",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 14
+    },
+    {
+      "slug": "how-to-appeal-an-11-plus-result-or-school-allocation",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2025-08-27",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 4
+    },
+    {
+      "slug": "how-do-grammar-school-appeals-work",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-03-12",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 7
+    },
+    {
+      "slug": "how-do-waiting-lists-work-for-grammar-schools",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-03-09",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 5
+    },
+    {
+      "slug": "what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-03-11",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 6
+    },
+    {
+      "slug": "how-to-choose-the-right-grammar-school-after-the-11-plus",
+      "status": 200,
+      "canonical": true,
+      "schema": true,
+      "originalDate": "2026-02-04",
+      "dateModified": "2026-10-08",
+      "renderedContentLinks": 5
+    }
+  ],
+  "sitemapCount": 188,
+  "sitemapModifiedDates": true,
+  "pr": 4,
+  "commit": "11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664",
+  "previewCommit": "9a0fd5f59dc6abd0a8584c90bec3984c7e23968e",
+  "vercelCommitStatus": "success",
+  "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/EgWdgsKp4MmRoLcMd5UfxCg2UBuN",
+  "productionBuild": "passed",
+  "existingReleaseGates": "passed",
+  "renderedChecks": "H1, canonical, Article schema headline/description/original publication date/dateModified, no robots noindex, every content link rendered, sitemap modification dates"
+}

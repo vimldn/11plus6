@@ -29,7 +29,9 @@ Repairs remove unsupported success rates, invented case studies and misleading u
 
 ## Release status
 
-Pending final checks and deployment. Queue rows remain `repaired_pending_release` until deployment and public-page verification complete. A checked or drafted article is not counted as published.
+Published through [PR4](https://github.com/vimldn/11plus6/pull/4), merge commit `11ac96b44e2c30b4f7ebc34d4e354f1faaeeb664`. Both preview and production Vercel commit checks succeeded. All 15 changed public URLs returned HTTP 200 and passed headline, metadata/schema, canonical, original/modified-date, indexability and source-link rendering checks on 8 October 2026. Sitemap verification passed with 188 URLs and correct modification dates. Exact results: `audit-repair-verification-2026-10-08.json`.
+
+Queue updated only after these live checks: 25 checked/repaired/published (10 prior plus 15 today), 74 pending, 99 total. The daily pass remains active until the remaining existing articles have been reviewed. No queued article was repeated merely to reach 15.
 
 ## Work held
 
