@@ -473,85 +473,186 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "when-are-the-11-plus-exam-dates-in-my-area",
-    title: "When are the 11 Plus exam dates in my area?",
-    desc: "Discover when 11 Plus exam dates are in your area. Learn UK regional variations, GL and CEM timelines, registration deadlines, and how to check official local authority sites for precise schedules. Get ready for selective schools today.",
-    date: "February 19, 2025",
-    readTime: "10 min read",
-    category: "Exam Format",
-    imageUrl: "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_4.jpeg",
-    imageAlt: "When are the 11 Plus exam dates in my area?",
-    images: ["https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_1.jpeg", "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_2.jpeg", "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_3.jpeg", "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding the 11 Plus Exam" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam) determines Year 7 entry to over 160 UK grammar schools, testing [children aged 10-11](/blog/what-age-do-children-sit-the-11-plus) in verbal reasoning, non-verbal reasoning, maths, and English. Across England, **163 grammar schools** accept 11+ results for selective entry. More than 20,000 children sit the exam annually to compete for places in these schools." },
-      { type: "p", text: "In regions like **Kent and Birmingham**, the 11 Plus serves as the main route to grammar school entry. Most other areas use it for comprehensive school selection or independent school tests. Parents check **local 11 plus dates** through county councils or school websites to align with the application process." },
-      { type: "p", text: "Pass marks vary by exam board. GL Assessment typically requires scores from 80-90%, while **CEM tests** use a scaled score of 100-110 for entry. Knowing your area's **11+ schedule** helps with timely registration and preparation." },
-      { type: "p", text: "Factors like **catchment area**, sibling priority, and distance criteria influence offers after results release. National offer day aligns with secondary school entry in September. Early awareness of **11 plus 2024 dates** or 2025 schedules ensures smooth planning for year 6 pupils." },
-      { type: "h3", text: "What is the 11 Plus?" },
-      { type: "p", text: "The 11+ tests four core skills: Verbal Reasoning (synonyms, analogies), **Non-Verbal Reasoning** (patterns, sequences), Maths (age 10-11 curriculum), and English (comprehension, grammar). It assesses readiness for grammar school entry or selective places. Parents seek **11+ practice papers** to familiarise children with the format." },
-      { type: "p", text: "GL Assessment exams use multiple choice questions, while CEM tests follow a standard format without options. Syllabus topics include **20 types of VR** like code-breaking and word pairs, **12 NVR types** such as matrices and rotations, Maths on fractions and geometry, and English SPaG elements. Check official GL or CEM syllabi for details." },
-      { type: 'table', headers: ["Subject", "Questions", "Time", "Sample Question Type"], rows: [["Verbal Reasoning", "80-100", "25-30 mins", "Find the synonym for \"happy\""], ["Non-Verbal Reasoning", "60-80", "25-30 mins", "Complete the pattern sequence"], ["Maths", "40-50", "30 mins", "Solve 3/4 + 1/2"], ["English", "40-50", "25-30 mins", "Identify the adjective in a sentence"]] },
-      { type: "p", text: "Practice with [11+ mock exams](/mock-exams) at test centres mirrors real conditions. Regions like **Buckinghamshire, Berkshire, Kent**, and Hertfordshire set unique eleven plus exam dates. Registration deadlines often fall in spring for autumn tests." },
-      { type: "h2", text: "Regional Exam Variations in the UK" },
-      { type: "p", text: "Exam formats vary significantly by county: Buckinghamshire uses GL multiple choice, Kent uses both GL and CEM, Birmingham uses CEM standard format. Parents need to check their local 11 plus dates early for the 11+ exam or eleven plus exam. This helps with **11 plus preparation** and aligning **11+ practice**." },
-      { type: "p", text: "In Buckinghamshire, the GL test happens in **September**, focusing on **verbal reasoning**, non-verbal reasoning, and maths. Kent schedules GL or CEM tests in September or October, often at local test centres. Birmingham runs its CEM 11+ test in September, with papers in English and maths." },
-      { type: "p", text: "Trafford uses GL in October, while Barnet offers multiple tests starting in September. **Redbridge** sticks to GL in September, and Berkshire follows a consortium GL format in October. Hertfordshire consortium tests also fall in October, so note your **county 11+** specifics for the 11 plus schedule." },
-      { type: "p", text: "[Registration deadlines](/blog/how-to-register-my-child-for-the-11-plus) vary, often closing months before the **exam dates**. Check your local authority exam website for 11+ 2024 dates or 11 plus 2025 updates. Attend school open days to learn about **catchment areas** and grammar school exams." },
-      { type: "h3", text: "Key Areas with Selective Schools" },
-      { type: "p", text: "163 grammar schools exist across England, with highest concentrations in Kent (38 schools), Birmingham (22), and **Trafford** (6). These areas host popular selective school tests for year 6 exam entry into year 7. Families prepare using 11+ mock exams and **practice papers** tailored to local formats." },
-      { type: 'table', headers: ["County", "Grammar Schools", "Pass Mark", "Test Provider", "2024 Registration"], rows: [["Kent", "38 schools", "80-90% GL", "GL/CEM", "June-July"], ["Birmingham", "22 schools", "CEM 110+", "CEM", "May-June"], ["Buckinghamshire", "13 schools", "GL 121", "GL", "April-May"], ["Barnet", "5 schools", "CSSE 334+", "CSSE", "May"], ["Trafford", "6 schools", "GL pass", "GL", "June"], ["Redbridge", "4 schools", "GL standard", "GL", "May"], ["Berkshire", "6 schools", "Consortium GL", "GL", "June"], ["Hertfordshire", "7 schools", "Consortium pass", "Consortium", "June-July"]] },
-      { type: "p", text: "Use this table to compare 11 plus venues and **exam timetables** in your area 11+ exam. For instance, Kent families target high pass marks with GL **multiple choice tests**. Birmingham parents focus on CEM maths test and English practice." },
-      { type: "p", text: "After tests, expect 11 plus results dates in autumn, leading to **national offer day** in March. Apply via online registration or paper forms, noting **registration deadlines**. Experts recommend 11+ courses or a tutor 11 plus for GL 11+ or CEM 11+ success." },
-      { type: "h2", text: "Typical 11 Plus Exam Timeline" },
-      { type: "p", text: "Standard timeline: **Registration opens May-June 2024**, closes July-August, exams September-October, results October-December, National Offer Day March 2025." },
-      { type: "p", text: "Parents preparing for the **11 plus exam** should note this common 11+ schedule across many UK areas. Registration often starts in May with local authorities announcing dates for the eleven plus exam. Check your county's grammar school admissions page early to avoid missing the window." },
-      { type: "p", text: "Visual timeline: May (registration opens) marks the start, followed by **June-July (deadlines)** for applications. Tests run in September-October, with results from October-December, leading to offers on **March 1st**. This pattern helps with 11 plus preparation, including mocks and practice papers." },
-      { type: "p", text: "County variations affect your local 11 plus dates. For example, Kent (38 schools test 21 Sept), **Buckinghamshire (6 Oct)**, and Birmingham (21 Sept) follow slightly different calendars. Always verify with your local authority exam for the exact **11+ dates in your area**." },
-      { type: "h3", text: "Registration Deadlines" },
-      { type: "p", text: "Most counties close registration July 31st: **Buckinghamshire (31 Jul)**, Kent (12 Jul), Birmingham (19 Jul 2024). These 11 plus registration deadlines set the pace for **grammar school exam** entry. Apply online or by paper through your local council to secure a test centre spot." },
-      { type: "p", text: "Key 2024 deadlines for major areas include:" },
-      { type: "ul", items: ["**Bucks: 31 Jul**", "**Kent: 12 Jul**", "**Birmingham: 19 Jul**", "**Barnet: 28 Jun**", "**Trafford: 31 Jul**", "**Redbridge: 5 Jul**", "**Berkshire: 31 Jul**", "**Hertfordshire: 28 Jun**", "**Essex (Southend): 31 Jul**"] },
-      { type: "p", text: "Late entries may incur **fees of \u00a350-\u00a3100**, depending on the council. Contact your county council dates team promptly if you miss the cut-off. This ensures eligibility for the **selective school test** and year 7 entry." },
-      { type: "p", text: "Prepare documents like proof of address for the **application process**. Some areas prioritise **looked after children** or offer access arrangements for special needs. Start 11+ practice early to build confidence before deadlines pass." },
-      { type: "h3", text: "Standard Test Dates" },
-      { type: "p", text: "2024 test dates confirmed: Buckinghamshire (6 Oct), Kent (21 Sept), Birmingham (21 Sept), Barnet (20 Sept), Trafford (5 Oct). These 11 plus test dates align with the autumn term for **secondary school entry**. Expect GL assessment or **CEM test** formats at designated 11 plus venues." },
-      { type: 'table', headers: ["County", "2024 Test Date", "2025 Expected", "Format"], rows: [["Buckinghamshire", "6 Oct", "Early Oct", "GL multiple choice"], ["Kent", "21 Sept", "Early Sept", "GL"], ["Birmingham", "21 Sept", "Early Sept", "CEM"], ["Barnet", "20 Sept", "Mid Sept", "GL"], ["Trafford", "5 Oct", "Early Oct", "GL"], ["Redbridge", "28 Sept", "Late Sept", "CEM"], ["Berkshire", "12 Oct", "Mid Oct", "GL"], ["Hertfordshire", "19 Sept", "Early Sept", "Multiple choice"], ["Essex (Southend)", "14 Sept", "Early Sept", "GL"], ["Manchester", "late Sept", "Early Sept", "CEM"], ["Bexley", "3 Oct", "Early Oct", "GL"]] },
-      { type: "p", text: "2025 predictions follow patterns, with most in early September based on prior years. Official LA announcements confirm exact **entrance exam dates**. Parents should check for exam locations and any catchment area rules." },
-      { type: "p", text: "Tests cover verbal reasoning, non-verbal reasoning, **maths test**, and English test in the 11 plus syllabus. Use 11+ mock exams and practice papers from Bond or CGP to prepare. Results come weeks later, guiding school open days visits." },
-      { type: "h2", text: "Finding Dates for Your Specific Area" },
-      { type: "p", text: "Use **postcode lookup tools** on council websites or 11plusexams.co.uk area finder for **exact dates by location**. These tools help pinpoint 11 plus exam dates for your nearby grammar schools and selective entry tests." },
-      { type: "p", text: "Start with a simple **Google search** using your postcode, like 'SW1A 1AA 11+ exam 2024'. This often leads to local council pages or school sites with the latest **11+ timetable** and registration details." },
-      { type: "p", text: "Next, visit your **county council admissions page** for official schedules. Then check GL/CEM school lists to match providers with your area schools. Finally, join Atom Learning area selector for tailored **11 plus dates** and preparation tips." },
-      { type: "p", text: "Here are five example searches with typical results. For Buckinghamshire (HP11 postcode), results show September tests via buckscc.gov.uk. Kent (ME1) points to kent.gov.uk with early autumn dates. Birmingham (B1) links to CEM tests in October. Barnet (NW11) reveals GL multiple choice exams. Essex (CM1) lists CEM schedules on essex.gov.uk." },
-      { type: "h3", text: "Official Local Authority Websites" },
-      { type: "p", text: "Primary sources include Buckinghamshire Council (buckscc.gov.uk), Kent CC (kent.gov.uk), Birmingham CC (birmingham.gov.uk/schools). These sites list **11+ exam dates**, registration deadlines, and grammar school entry processes for year 7 places." },
-      { type: "p", text: "Navigate buckscc.gov.uk/schooladmissions > Secondary Admissions > Grammar Schools for **Buckinghamshire 11+** schedules. On kent.gov.uk/education > School Admissions > Selective Schools, find Kent 11+ test dates and venues." },
-      { type: "p", text: "Check birmingham.gov.uk/grammar > 11+ Information for Birmingham CEM tests. Barnet uses barnet.gov.uk/admissions > Secondary > Grammar Schools. For south west London, swlondoner.co.uk covers GL consortium details." },
-      { type: "ul", items: ["Trafford: trafford.gov.uk > Education > Admissions > Grammar", "Essex: essex.gov.uk > Schools > Secondary Admissions", "Hertfordshire: hertscc.gov.uk > Admissions > Grammar Tests", "Berkshire: reading.gov.uk > Schools > Selective Entry", "Wirral: wirral.gov.uk > Education > Grammar Schools", "King Edward VI Birmingham: kingedwardsschool.cloud > Admissions", "Wilson's School: wilsonschool.sutton.sch.uk > Year 7 Entry", "Watford Grammar: watfordgrammarschool.org > Admissions", "Colchester Royal Grammar: crgs.colchester.sch.uk > 11+"] },
-      { type: "h3", text: "GL Assessment and CEM Portals" },
-      { type: "p", text: "GL Assessment covers many areas (gl-assessment.co.uk), CEM covers numerous regions (cem.org.uk). Check both for your schools to confirm **11+ test format** and exam dates." },
-      { type: "p", text: "GL uses multiple choice tests in places like Bucks and Barnet. CEM offers standard format in Birmingham and Essex. Both provide practice portals with sample papers at \u00a310-\u00a320 per pack." },
-      { type: 'table', headers: ["Provider", "Areas Covered", "Test Format", "Registration", "Sample Papers"], rows: [["GL", "Bucks, Barnet, Trafford, SW London", "Multiple choice: verbal reasoning, non-verbal reasoning, maths", "Online via GL portal, summer deadlines", "Available on gl-assessment.co.uk, \u00a312-\u00a318/pack"], ["CEM", "Birmingham, Essex, Hertfordshire, Wirral", "Standard: English, maths, reasoning", "School-specific, often July-August", "cem.org.uk practice, \u00a310-\u00a320/pack"]] },
-      { type: "p", text: "Schools like Dr Challoner's in Bucks use GL. Colchester Royal Grammar in Essex follows CEM. Use these portals for 11+ practice and to track **local 11 plus** schedules." },
-      { type: "h2", text: "Preparation Steps After Dates" },
-      { type: "p", text: "Post-registration: 10-12 weeks prep recommended using Bond papers (Week 1-4), CGP guides (Week 5-8), Atom Learning mocks (Week 9-12). Once you know the **11 plus exam dates** in your area, start a structured plan to build confidence for the grammar school exam or selective school test. This timeline aligns with typical **11+ schedules** leading to September intake." },
-      { type: "p", text: "Aim for **8 hours per week** of focused practice, balancing verbal reasoning, non-verbal reasoning, maths, and English. Incorporate 11+ mock exams to simulate real test conditions at your local test centre. Adjust based on your child's needs after the registration deadline." },
-      { type: "p", text: "Key resources include Atom Learning at \u00a359 per month for online mocks, PreTest at \u00a399 for targeted drills, and Bond 15 papers at \u00a372 for extensive practice. Use these alongside **GL assessment** or CEM test formats common in counties like Buckinghamshire or Kent. Track progress to target **pass marks** for top grammar schools." },
-      { type: "p", text: "Combine self-study with tutor sessions twice weekly at around \u00a330 per hour. Parents on **11+ forums** like Mumsnet often share tips for 11 plus preparation tailored to regional eleven plus exam variations. Stay mindful of **access arrangements** like extra time if needed." },
-      { type: "h3", text: "12-Week Preparation Plan" },
-      { type: "ol", items: ["Run a **baseline mock** using Bond Pack 1 to assess strengths in verbal reasoning and maths test areas.", "Practice **VR/NVR daily** for 20 minutes, focusing on multiple choice questions typical in **GL 11+** papers.", "Review the full **maths curriculum** with CGP guides, covering topics like fractions and geometry for the 11+ syllabus.", "Complete **weekly mocks** under timed conditions to mimic the **exam format** at your **11 plus venues**.", "Book a **tutor 2x per week** at \u00a330 per hour for personalised feedback on non-verbal reasoning puzzles.", "Finish with **final mocks** from Atom Learning, analysing errors to refine strategies before **11+ 2024 dates** or 2025."] },
-      { type: "p", text: "This numbered plan provides a clear path after confirming local 11 plus test dates. Dedicate weekends to full practice papers, ensuring coverage of **English test** comprehension. Experts recommend consistent review to handle county 11+ specifics like those in Hertfordshire or Essex." },
-      { type: "p", text: "Monitor time commitment closely, scaling up for **independent school tests** if applying broadly. Integrate **school open days** visits to understand catchment area priorities alongside prep." },
-      { type: "h2", text: "Common Exam Formats by Region" },
-      { type: "p", text: "Buckinghamshire uses 2 GL papers (60 minutes each), Kent features a **GL+CEM combo**, and Birmingham requires **2 CEM papers** (50 minutes each). These variations affect how families prepare for the 11 plus exam in their area. Knowing the local 11 plus format helps target practice effectively." },
-      { type: "p", text: "Regions differ in **exam providers** like GL Assessment or CEM, which set the question styles and timing for the eleven plus exam. Parents should check their county 11+ details early to align **11+ preparation** with specific papers. This includes subjects like maths, English, verbal reasoning, and non-verbal reasoning." },
-      { type: "p", text: "A **regional format comparison table** outlines key differences across eight areas, covering papers, time, subjects, and pass marks. Use it to understand your 11+ schedule and exam timetable. Always confirm with local authorities for 11 plus dates in 2024 or 2025." },
-      { type: "p", text: "Formats influence registration deadlines and test centres, so review your area 11+ exam specifics. Practice with relevant GL 11+ papers or CEM test mocks builds confidence for grammar school entry." },
-      { type: 'table', headers: ["Region", "Provider", "Papers", "Time", "Subjects Tested", "Pass Mark"], rows: [["Buckinghamshire", "GL", "2 papers", "60 mins each", "Verbal reasoning, Non-verbal reasoning", "Typically 121+ out of 141 per paper"], ["Kent", "GL/CEM (mixed)", "2 papers (multiple choice + standard)", "45-60 mins each", "English, Maths, Reasoning", "Varies by school, often 80-90%"], ["Birmingham", "CEM", "2 papers", "50 mins each", "Maths, Verbal/Non-verbal", "School-specific, around 75-85%"], ["Barnet", "CSSE", "3 papers", "50-55 mins each", "English, Maths, Verbal reasoning", "Usually 70% aggregate"], ["Trafford", "GL", "2 papers", "50 mins each", "Verbal reasoning, Non-verbal reasoning", "121+ combined score"], ["Berkshire", "GL", "2 papers", "60 mins each", "English, Maths", "School-dependent, often 110+"], ["Essex", "CSSE/GL (mixed)", "3 papers", "45-60 mins", "English, Maths, Reasoning", "Typically 75% minimum"], ["Hertfordshire", "GL/CEM", "2-3 papers", "50-60 mins each", "Maths, English, Reasoning", "Varies, around 80% threshold"]] },
-      { type: "p", text: "This table aids planning for **11+ entry** and secondary school entry. Match your 11 plus preparation to the exam format, using practice papers from the right provider." },
-    ],
-  },
+  "slug": "when-are-the-11-plus-exam-dates-in-my-area",
+  "title": "11 Plus exam dates in 2027: finding the right local timetable",
+  "desc": "Find official dates for 11 Plus exams taken in 2027. Separate confirmed dates, planned windows and school-entry years before booking or registering.",
+  "date": "February 19, 2025",
+  "readTime": "5 min read",
+  "category": "Exam Format",
+  "imageUrl": "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_4.jpeg",
+  "imageAlt": "When are the 11 Plus exam dates in my area?",
+  "images": [
+    "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_1.jpeg",
+    "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_2.jpeg",
+    "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_3.jpeg",
+    "https://files.autoblogging.ai/images/when-are-the-11-plus-exam-dates-in-my-area(ndmh)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "There is no single national 11 Plus exam date. Find the school or test group first, then read its official timetable for the correct entry year. For many children preparing to sit a grammar-school test in 2027, the relevant heading will be “September 2028 entry”."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Checked on 8 October 2026. The examples below distinguish published exact dates from broader windows and provisional plans. This is not a complete calendar of every 2027 entrance examination. Recheck the linked organiser before acting."
+    },
+    {
+      "type": "h2",
+      "text": "What is already published for tests taken in 2027?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Area and entry cycle",
+        "Registration information",
+        "Test information",
+        "Official source"
+      ],
+      "rows": [
+        [
+          "Gloucestershire: September 2028 entry",
+          "Window set for noon 8 February to noon 19 March 2027",
+          "Planned for Saturday 3 July 2027",
+          "[Council grammar-school page](https://www.gloucestershire.gov.uk/schooladmissions/grammar-schools/)"
+        ],
+        [
+          "Buckinghamshire: September 2028 entry",
+          "Published window: May–June 2027",
+          "Practice and transfer tests: early September 2027; exact days not given on the reviewed page",
+          "[2028-entry timeline](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/timeline-for-following-year/)"
+        ],
+        [
+          "Wirral non-Catholic grammar schools: September 2028 entry",
+          "1–31 May 2027",
+          "Expected during September 2027; exact sitting not given on the reviewed timetable",
+          "[Council admissions timetable](https://www.wirral.gov.uk/schools-and-learning/school-admissions/step-by-step/apply-secondary-school-place/secondary-school)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These examples are not interchangeable. A Gloucestershire date does not apply to another county using the same test provider, and the Wirral row is explicitly limited to its non-Catholic grammar-school process. A window such as “early September” is not a confirmed day you can book around."
+    },
+    {
+      "type": "h2",
+      "text": "How to find the dates for your school"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Identify the exact school and whether you are applying for normal Year 7 entry.",
+        "Open its official admissions page and select the intended entry year.",
+        "Follow its link to the named test organiser or consortium.",
+        "Record registration, access-arrangements and examination deadlines separately.",
+        "Check whether first and second stages, different candidate groups or separate aptitude tests have different dates.",
+        "Save the source link and date checked; recheck the official invitation when it arrives."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Our [school directory](/schools) can help identify a school, and the [exam-dates resource](/exam-dates) provides a starting point. Read the year beside every entry: do not treat a 2026 test date for 2027 entry as a date for the 2027 test cycle."
+    },
+    {
+      "type": "h2",
+      "text": "Which official source should you use?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Situation",
+        "Where to verify"
+      ],
+      "rows": [
+        [
+          "Council-organised selection test",
+          "Council test-registration and admissions pages"
+        ],
+        [
+          "Shared test across several schools",
+          "Consortium instructions linked from a member school"
+        ],
+        [
+          "School with its own assessment",
+          "That school’s admissions and test pages"
+        ],
+        [
+          "State school in another council area",
+          "School/test organiser for the exam; home council for the place application"
+        ],
+        [
+          "Independent school",
+          "School’s direct admissions timetable"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For example, [Kent County Council’s Kent Test pages](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test) separate registration, preparation, results and the school-place application. Use that structure to locate the deadline you actually need. An exam provider’s familiarisation page may explain question types without administering the local registration calendar."
+    },
+    {
+      "type": "h2",
+      "text": "Exam year and entry year: a quick check"
+    },
+    {
+      "type": "p",
+      "text": "Write both years at the top of your notes: “test in 2027 / intended start in 2028”, if that is your child’s route. Do not rely on a search-result headline containing “11 Plus 2027”. It may describe entry in 2027, meaning that much of the testing happened in 2026. Some independent-school assessments and interviews follow a different sequence; read their dated instructions directly."
+    },
+    {
+      "type": "p",
+      "text": "The correct cohort is especially important when opening an old PDF or a page whose web address contains a previous year. Check the document heading and actual dates inside it. If those disagree, ask the organiser for clarification instead of selecting whichever date looks more convenient."
+    },
+    {
+      "type": "h2",
+      "text": "Put more than the test day in your calendar"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Registration opens and closes, including the closing time.",
+        "Deadline for support requests and any school-supplied evidence.",
+        "Any result-sharing or supplementary-form deadline.",
+        "When the test invitation should arrive.",
+        "Reporting time, venue and each required assessment stage.",
+        "Results date or release window.",
+        "Home-council application deadline and later offer-response deadline."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For normal secondary admissions in England, [GOV.UK](https://www.gov.uk/schools-admissions/how-to-apply) gives 31 October as the school-place application deadline. That is a different deadline from entry to the test. See [when to apply for grammar school places](/blog/when-do-you-apply-for-grammar-school-places) for how the two fit together."
+    },
+    {
+      "type": "h2",
+      "text": "What if dates are not published yet?"
+    },
+    {
+      "type": "p",
+      "text": "Use “not yet confirmed” rather than copying a previous cycle. Bookmark the official page and check again before arranging holidays, booking paid mocks or setting a final preparation countdown. You can still work on reading and maths skills while waiting; the timetable uncertainty is a reason to stay flexible, not to invent a date."
+    },
+    {
+      "type": "p",
+      "text": "Check the school’s announced information-release date if one exists. If the registration period may be approaching and the website is unclear, contact admissions with the intended entry year and ask when the current timetable will be available."
+    },
+    {
+      "type": "h2",
+      "text": "What if two sources disagree or tests clash?"
+    },
+    {
+      "type": "p",
+      "text": "Compare the entry year, publication date and candidate group before treating the difference as an error. A school may have separate arrangements for different groups or stages. Where two current official pages still conflict, ask the organiser and retain the reply. Commercial calendars can help discovery, but should not override the organiser’s instructions."
+    },
+    {
+      "type": "p",
+      "text": "For clashing examinations, contact the organisers rather than assuming a reserve date is an optional sitting. For illness, follow the stated procedure and evidence rules. Do not assume that missing registration can be fixed by paying a late fee."
+    },
+    {
+      "type": "p",
+      "text": "Once your dates are verified, connect them to a manageable [study timetable](/blog/how-to-structure-an-11-plus-study-timetable). Count backwards from the child’s real examination date and leave room for schoolwork, rest and reviewing mistakes."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "which-schools-use-the-11-plus-exam",
@@ -1313,119 +1414,163 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "how-to-register-my-child-for-the-11-plus",
-    title: "How to register my child for the 11 Plus?",
-    desc: "Discover how to register your child for the 11 Plus exam with our step-by-step guide. Learn eligibility, key dates, top grammar schools by Stanine scores, exam boards like GL and CEM, and required documents. Start preparing today for success.",
-    date: "April 23, 2025",
-    readTime: "11 min read",
-    category: "Exam Format",
-    imageUrl: "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_4.jpeg",
-    imageAlt: "How to register my child for the 11 Plus?",
-    images: ["https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_1.jpeg", "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_2.jpeg", "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_3.jpeg", "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam) is a selective entrance test for Year 7 places at approximately 163 UK grammar schools, testing children on **verbal reasoning** (30-40%), **numerical reasoning** (25-35%), non-verbal reasoning (20-30%), and English/maths (10-20%) via 45-60 minute multiple-choice papers. Around 30,000 children take it annually. It helps determine entry to these grammar schools in selective areas." },
-      { type: "p", text: "The exam breaks into four main sections with specific timings and focuses. **Verbal reasoning** lasts 25 minutes and covers synonyms and analogies. **Numerical reasoning**, also 25 minutes, involves maths sequences and problems." },
-      { type: "p", text: "**Non-verbal reasoning** tests shapes and patterns in a 20-minute paper. The shorter 15-minute **English/maths** section rounds out the multiple choice test. Formats vary by region, often using GL Assessment or CEM Durham styles." },
-      { type: "p", text: "Success typically requires top national performance, like stanine 8-9 scores. Parents should check local **grammar school** criteria. Preparation with [mock exams](/mock-exams) from Bond or CGP builds familiarity for this timed test." },
-      { type: "h2", text: "Determine Eligibility and Key Dates" },
-      { type: "p", text: "Eligibility hinges on **birth dates** (1st September 2013 - 31st August 2014 for 2025 entry) with **registration windows** typically October-November across 36 selective local authorities." },
-      { type: "p", text: "Parents must check **residency requirements** in the catchment area of their chosen grammar school. Looked-after children receive priority under DfE admissions rules, and SEN provisions allow special arrangements like extra time. Always review the specific local authority website for exact criteria." },
-      { type: "p", text: "Key dates include exam centres opening bookings and results day, often in early October. For 2025, Buckinghamshire runs registration from October 1-18, Kent from June 2-July 2, and Trafford in May-June. Use an interactive calendar on LA sites to track [exam deadlines in your area](/blog/when-are-the-11-plus-exam-dates-in-my-area) and avoid late fees." },
-      { type: "p", text: "Prepare documents like **proof of address**, birth certificate, and passport photo for online registration. Reference the DfE School Admissions Code for fair processes, including sibling priority and distance ties. Start early to confirm your child's fit for the **11 Plus test**." },
-      { type: "h3", text: "Age Requirements" },
-      { type: "p", text: "Children must be born between **September 1st 2013 and August 31st 2014** for 2025 11+ entry, with no early or late entry allowances in most authorities." },
-      { type: "p", text: "Use this simple eligibility formula: if your child turns 11 between those dates in Year 6 of primary school, they qualify for the **grammar school entrance exam**. Exceptions exist, such as Kent's flexible cutoff or Barnet's early entry options for gifted pupils." },
-      { type: 'table', headers: ["Entry Year", "Birth Date Window"], rows: [["2025", "1 September 2013 - 31 August 2014"], ["2026", "1 September 2014 - 31 August 2015"]] },
-      { type: "p", text: "Looked-after children get priority per DfE School Admissions Code 2.16. SEN provisions support needs like dyslexia with access arrangements, backed by medical evidence. Contact your LA early for **headteacher recommendation** or school report if needed." },
-      { type: "p", text: "For example, a child born in late August 2014 fits 2025 entry perfectly. Check county council sites like Buckinghamshire or Berkshire for precise rules before starting **11+ preparation** with practice papers and mock exams." },
-      { type: "h3", text: "Registration Deadlines" },
-      { type: "p", text: "Registration periods vary by authority: **Buckinghamshire (Oct 1-18)**, Kent (Jun 2-Jul 2), most LAs (Oct-Nov), with late fees \u00a320-50 after deadlines." },
-      { type: "p", text: "Plan around these county-specific windows to secure your spot at the **exam centre**. Late registration risks penalties or exclusion, while withdrawal is allowed up to four weeks before the test date. AuthorityRegistration Window BuckinghamshireOct 1-18 BerkshireOct 1-15 KentJun 2 - Jul 2 TraffordMay - Jun BarnetSep 23 - Oct 11 Special arrangements cutoff is six weeks prior, needing proof for extra time or scribe support. Complete the **online portal** with parent account login for confirmation email. Free school meals qualify for bursaries waiving exam fees in some areas." },
-      { type: "p", text: "Track via LA admissions portals for Buckinghamshire 11+, Kent 11+, or Trafford 11+. Parents often join forums like 11PlusExams for tips on documents and avoiding common pitfalls in the **registration process**." },
-      { type: "h2", text: "Research Local Grammar Schools" },
-      { type: "p", text: "Use the DfE grammar school finder listing 163 schools across 36 local authorities, prioritising by 2023 pass marks ranging from 109 to 121 stanine and oversubscription criteria like distance and sibling priority. This tool helps parents identify **selective schools** suitable for their child's **11 Plus** preparation. Start by entering your postcode to find nearby options." },
-      { type: "p", text: "Focus on [grammar school lists](/blog/which-schools-use-the-11-plus-exam) in areas like Buckinghamshire, Berkshire, Kent, and Trafford, where the **eleven plus exam** determines entry. Check each school's admissions criteria, including catchment areas and pass marks, to match your child's strengths in verbal reasoning, numerical reasoning, and non-verbal reasoning. Experts recommend reviewing recent results to gauge competitiveness." },
-      { type: "p", text: "Attend **open days** or virtual tours listed on platforms like TheSchoolRun to see facilities and meet staff. Prepare questions about CEM exam or GL Assessment formats used locally. This step ensures your **11+ registration** targets the best fit." },
-      { type: "p", text: "Visualise catchment areas by searching school names on Google Maps and overlaying boundaries from school websites. Combine this with **open day calendars** from TheSchoolRun for timely visits. Practical research like this builds confidence in your grammar school choices." },
-      { type: "h3", text: "Top 20 Grammar Schools by 2023 Stanine Scores" },
-      { type: 'table', headers: ["Rank", "School Name", "Location", "2023 Stanine Score"], rows: [["1", "Colchester Royal Grammar School", "Colchester", "121"], ["2", "Pate's Grammar School", "Cheltenham", "119"], ["3", "Reading Grammar School", "Reading", "118"], ["4", "King Edward VI Grammar School", "Chelmsford", "117"], ["5", "Tiffin Girls' School", "Kingston", "116"], ["6", "Wilson's Grammar School", "Wallington", "116"], ["7", "Dr Challoner's Grammar School", "Amersham", "115"], ["8", "Beaconsfield High School", "Beaconsfield", "115"], ["9", "Highworth Grammar School", "Ashford", "114"], ["10", "Tonbridge Grammar School", "Tonbridge", "114"], ["11", "Invicta Grammar School", "Maidstone", "113"], ["12", "Weald of Kent Grammar School", "Ashford", "113"], ["13", "Truro School", "Truro", "112"], ["14", "Poole Grammar School", "Poole", "112"], ["15", "Rutlish High School", "Merton", "111"], ["16", "Norbury Manor Business and Enterprise College", "Thornton Heath", "111"], ["17", "Barton Peveril Sixth Form College", "Eastleigh", "110"], ["18", "Trafford Grammar School", "Trafford", "110"], ["19", "Lincolnshire Grammar School", "Lincoln", "109"], ["20", "Warwickshire High School", "Warwick", "109"]] },
-      { type: "p", text: "This table highlights **top grammar schools** based on 2023 stanine scores, helping with child registration decisions. Use it to compare super selective options in your area. Scores reflect aggregate performance in the 11 Plus test." },
-      { type: "h3", text: "Admissions Criteria Breakdown" },
-      { type: "p", text: "Grammar schools prioritise **distance** from 1.2 to 4.5 miles typically, followed by **sibling priority** and catchment rules. Random allocation applies when ties occur after exam scores. Review each school's policy on the LA website." },
-      { type: "ul", items: ["**Distance priority**: Measures straight-line from home to school gate.", "**Sibling priority**: Often for children with brothers or sisters already enrolled.", "**Catchment area**: Defines eligible postcodes, viewable via school prospectus.", "**Random allocation**: Used in oversubscribed cases post-qualifying score.", "**Looked after children**: Highest priority, then pupil premium status."] },
-      { type: "p", text: "Check for **SEN provision** and access arrangements like extra time. Submit proof of address and birth certificate with your application form. This ensures eligibility for **secondary school** places." },
-      { type: "p", text: "Prepare for **oversubscribed schools** by listing first and second choices on the preference form. Equal preference systems rank by criteria, not order. Contact schools for clarification on **appeal process** or waiting lists." },
-      { type: "h2", text: "Choose Exam Board and Format" },
-      { type: "p", text: "Select between [GL Assessment, which handles a large share of UK 11 Plus tests with multiple choice formats across 4 papers, CEM Durham](/blog/gl-vs-cem-11-plus-what-is-the-difference) with its focus on longer maths and numerical sections in 2 papers, or **ISEB** for independent schools using adaptive digital testing." },
-      { type: "p", text: "Each board sets a distinct 11 Plus test structure. GL uses four 25-minute papers covering English, maths, verbal reasoning, and non-verbal reasoning. CEM opts for two 50-minute papers with extended maths content and no heavy reliance on multiple choice practice." },
-      { type: "p", text: "ISEB delivers a fully digital adaptive exam lasting about 2 hours, adjusting question difficulty based on your child's responses. Check your target **grammar schools** or selective schools to match the board, as counties often specify one." },
-      { type: "p", text: "Practice implications differ sharply. For GL, use CGP books or Bond papers for multiple choice drills. CEM demands broader skills in verbal reasoning and **non-verbal reasoning** without as much advantage from repetitive practice." },
-      { type: 'table', headers: ["Feature", "GL Assessment", "CEM Durham", "ISEB"], rows: [["Papers", "4 x 25min", "2 x 50min", "Digital adaptive, ~2hrs"], ["Format", "Multiple choice", "Mix, longer maths", "Adaptive digital"], ["Key Counties", "Bucks, Trafford, Barnet", "Kent, Birmingham", "Independent schools"], ["Practice Focus", "MCQ drills", "NVR, RVE skills", "Online adaptive prep"]] },
-      { type: "h3", text: "Common Boards (GL, CEM, ISEB)" },
-      { type: "p", text: "**GL Assessment** leads in many areas like Bucks, Barnet, and Trafford with four 25-minute multiple choice papers; **CEM** serves places like Kent and Birmingham with two 50-minute timed tests." },
-      { type: "p", text: "GL typically features around 100 questions per paper using **stanine scoring**. CEM includes 80-100 questions with emphasis on longer **maths tests** and numerical reasoning. ISEB's digital format adapts in real time across English, maths, verbal, and non-verbal sections." },
-      { type: "ul", items: ["Bucks: GL", "Kent: CEM", "Birmingham: CEM + GL", "Trafford: GL", "Barnet: GL", "Warwickshire: CEM", "Lincolnshire: GL", "Berkshire: GL", "Reading: CEM", "Slough: GL"] },
-      { type: "p", text: "Pass marks vary by year and school. GL often requires scores around 80-85% in some areas, while CEM uses raw scores of about 67-70%. Always confirm with the **local authority** or school for your 11+ registration." },
-      { type: "p", text: "For preparation, GL suits CGP 11+ practice and Bond 11+ books. CEM needs focus on **RVE** and **NVR** through varied mocks. ISEB practice involves online platforms simulating adaptive tests to build exam confidence." },
-      { type: "h2", text: "Gather Required Documents" },
-      { type: "p", text: "Prepare **6 core documents** for your 11 Plus registration: birth certificate, proof of address (2 items), passport photo (35x45mm), headteacher reference, Year 5 report, LA residence declaration. These form the foundation of your **child registration** process with the local authority or consortium. Start collecting them early to avoid delays near the registration deadline." },
-      { type: "p", text: "Always check your county council or grammar school website for specific rules, as requirements vary by area like Buckinghamshire 11+ or Kent 11+. Some counties demand **certified copies** instead of originals for the birth certificate. Contact your primary school promptly for the headteacher reference to ensure timely submission." },
-      { type: "p", text: "If your child qualifies for free school meals or has SEN needs, include supporting evidence to access bursaries or **access arrangements**. Use a folder to organise documents for the online portal upload. Scan items clearly to match passport photo specs, such as 35x45mm white background." },
-      { type: 'table', headers: ["Document", "Description", "Notes"], rows: [["Birth certificate (original)", "Proves age and **eligibility criteria**", "Certified copy often required; check **LA website**"], ["Proof of address", "Council tax bill + recent utility bill", "Both dated within 3 months; confirms **catchment area**"], ["Passport photo", "35x45mm, white background", "Recent photo of child; name on back"], ["Headteacher reference", "Standard form from primary school", "Assesses suitability for **selective school**"], ["Year 5 report", "Latest school performance summary", "Highlights academic strengths"], ["LA residence declaration", "Form confirming local address", "Sworn statement; county variations apply"], ["SEN evidence (if applicable)", "Medical reports or IEP", "For **extra time** or **special arrangements**"], ["Free school meals proof", "Official entitlement letter", "May waive **exam fee**; submit early"]] },
-      { type: "p", text: "This checklist table ensures you cover all items for smooth 11+ registration. Double-check against your area's **official website**, such as for Trafford 11+ or Berkshire 11+. Keep originals safe after scanning for the application form." },
-      { type: "h2", text: "Complete the Registration Process" },
-      { type: "p", text: "Follow **7-step process**: create LA parent account \u2192 select preferences \u2192 upload 6 documents \u2192 select exam boards \u2192 confirm fees \u2192 receive booking \u2192 track status. This **11 Plus registration** guide takes about 45 minutes total. Parents often complete it in one sitting for Year 5 children aiming for grammar schools." },
-      { type: "p", text: "First, **create LA parent account** in 5 minutes using your email and a secure password. Verify via the link sent to your inbox. This grants access to the online portal for your local authority or consortium." },
-      { type: "p", text: "Next, select **3 school preferences** like first choice grammar school, second selective school, and a fallback comprehensive. Rank them by priority, considering catchment area and distance. Use the preference form to list Buckinghamshire 11+ or Kent Test options." },
-      { type: "p", text: "Upload **birth certificate**, proof of address, passport photo, and three others like school report within the 10MB limit per file. Choose the exam board such as **CEM exam** or GL Assessment. Enter child details including UPN number from primary school." },
-      { type: "p", text: "Review and confirm fees, often covering the 11 Plus test entry. Expect a confirmation email within 48 hours. Track everything via the parent portal for exam date and venue updates." },
-      { type: "ol", items: ["Create **LA parent account** (5 mins)", "Select 3 school preferences", "Upload **birth cert/address proof/photo** (10MB limit)", "Choose **exam board/format**", "Enter **child details** (UPN number)", "Review/confirm **fees**", "Receive **confirmation email** (48hrs)", "Track via **parent portal**"] },
-      { type: "p", text: "Avoid **common errors**: use photo specs like plain background and 3x4cm size, provide recent utility bill for address proof, and meet registration deadline to avoid late fees or missing the 11+ exam." },
-      { type: "h3", text: "Online vs. Paper Forms" },
-      { type: "p", text: "**95% LAs require online registration** via parent portals (faster, trackable) vs paper forms (Birmingham, some Kent schools - slower, postal risks). Online suits most families for 11+ registration, offering instant steps. Paper remains for specific areas like certain Trafford or Barnet cases." },
-      { type: "p", text: "Online provides **instant confirmation** and document upload for birth certificate or proof of address. Platforms include Bucks CC Portal, Kent Test Provider, and Trafford Connect. Processing takes 48 hours, with progress tracking in real time." },
-      { type: "p", text: "Paper forms need \u00a32.50 postage via Royal Mail tracked service to LA addresses. Expect 2-week processing or 10-14 days total. No tracking means risks like delays before registration deadline." },
-      { type: 'table', headers: ["Feature", "Online", "Paper"], rows: [["Usage", "95% LAs", "5% LAs"], ["Confirmation", "Instant", "None"], ["Document Upload", "Yes (10MB)", "Printed copies"], ["Progress Tracking", "Parent portal", "No"], ["Processing Time", "48hrs", "10-14 days"], ["Cost", "Free", "\u00a32.50 postage"]] },
-      { type: "p", text: "Experts recommend **online registration** for grammar school applications to reduce errors in child registration. Download paper forms from LA website if needed, but post early with tracking for peace of mind." },
-      { type: "h2", text: "Pay Fees and Confirm Submission" },
-      { type: "p", text: "Fees range **\u00a30-\u00a380**: Kent (\u00a312 CEM test), Bucks (\u00a372 full package), most LAs free; FSM eligible get full waivers across 100% authorities. Parents registering for the 11 Plus exam must check their local authority's fee structure before finalising the online registration. Payment secures the child's place in the grammar school entrance exam." },
-      { type: "p", text: "Use **card payments** or Direct Debit on the official LA portal for quick processing. For example, in Bucks, the \u00a372 covers the full package including verbal reasoning and non-verbal reasoning tests. Always note the transaction reference for your records during 11+ registration." },
-      { type: "p", text: "**Free school meals (FSM)** waivers apply automatically; enter your postcode to trigger detection. Independent grammars offer bursaries for low-income families, so apply separately via their prospectus. In 2024, some counties like Barnet raised fees slightly to cover exam centre costs." },
-      { type: 'table', headers: ["County", "Fee", "Details"], rows: [["Kent", "\u00a312", "CEM test only"], ["Bucks", "\u00a372", "Full package"], ["Barnet", "\u00a380", "Includes multiple choice tests"], ["Trafford", "\u00a355", "GL Assessment style"], ["Most LAs", "\u00a30", "No fee required"]] },
-      { type: "p", text: "Refunds are full if requested pre-deadline, but post-deadline policies vary by local authority. After payment, expect a confirmation email; review it promptly to avoid issues on results day." },
-      { type: "h3", text: "Understanding FSM Waivers and Bursaries" },
-      { type: "p", text: "**FSM eligibility** waives fees in all authorities during child registration for the 11+. The system auto-detects via postcode linked to your primary school's records. This supports families applying to selective schools without financial barriers." },
-      { type: "p", text: "For independent grammars, submit a **bursary application** with proof of income alongside the 11 Plus test entry. For instance, some schools prioritise looked after children or those with SEN provision. Check the prospectus for deadlines separate from LA **registration deadlines**." },
-      { type: "p", text: "Experts recommend gathering documents like bank statements early. If denied, appeal with additional evidence. This ensures access to high performing schools in **oversubscribed areas**." },
-      { type: "h3", text: "Payment Methods and 2024 Updates" },
-      { type: "p", text: "Most portals accept **debit or credit cards** and Direct Debit for 11+ fees. Trafford's \u00a355 fee, for example, processes instantly online. Avoid cheques unless specified by your county council." },
-      { type: "p", text: "In 2024, fees increased in areas like Barnet to \u00a380 due to rising costs for **mock exams** and test venues. Bucks held at \u00a372 for the full package covering maths test and English test. Always confirm on the official LA website before online registration." },
-      { type: "p", text: "Keep login details safe for your parent account. Payments confirm eligibility for exam dates, so complete this step before the deadline." },
-      { type: "h3", text: "Confirmation Email Checklist" },
-      { type: "p", text: "Scan your confirmation email right away after paying for 11 Plus registration. It holds key details for the entrance exam process. Missing checks can lead to withdrawal issues." },
-      { type: "ul", items: ["Child's full name and date of birth match birth certificate.", "Correct primary school and year 6 details.", "Exam centre and test venue address.", "Registration number or reference ID.", "Exam date and timed test schedule.", "Parent contact email and phone.", "Fee payment confirmation and amount.", "Next steps like practice papers advice.", "Withdrawal policy and refund note."] },
-      { type: "p", text: "If anything mismatches, contact the LA immediately. Print and store the email for **results day** and appeal process if needed. This step-by-step check secures your place in the grammar school list." },
-      { type: "h2", text: "Prepare for the Exam Day" },
-      { type: "p", text: "Arrive **30 minutes early** with Admit Card, 2 pens, water, snacks. Know **venue logistics** across over 1,200 centres UK-wide. Confirm special arrangements in advance for your child's 11 Plus test." },
-      { type: "p", text: "Check the **exam day checklist** to avoid last-minute stress. Parents often forget small items that invigilators require under GL Assessment or CEM guidelines. Pack everything the night before." },
-      { type: "p", text: "Follow a typical **timing schedule**: arrive by 8:30, register at 9:00, tests from 9:30 to 12:00. Use your **local authority postcode** to find the exact test venue. This ensures smooth entry on the day." },
-      { type: "p", text: "Review **prohibited items** and confirm any special access like extra time. Contact the exam board early if your child needs support. Proper preparation builds confidence for the eleven plus exam." },
-      { type: "h3", text: "Exam Day Checklist" },
-      { type: "p", text: "Prepare a complete checklist for the 11 Plus exam day. Invigilators follow strict GL Assessment and CEM rules, so double-check items. This keeps your child focused on verbal reasoning, numerical reasoning, and non-verbal reasoning sections." },
-      { type: "ul", items: ["**Admit Card**: Print or show email confirmation from online registration.", "**2 black pens**: Only black ballpoint pens allowed, no gels or pencils.", "**Ruler**: Straight edge for any diagram work in maths test or non-verbal reasoning.", "**Water**: Clear bottle, no label, to stay hydrated during timed test.", "**Snacks**: Small items like fruit or biscuits for break, check venue rules.", "**Photo ID**: Passport or birth certificate if required by some local authorities.", "**Watch**: Simple analogue for timekeeping, no smartwatches or calculators.", "**Layered clothing**: Adjust for venue temperature without leaving the room.", "**Tissues**: For comfort during the multiple choice test.", "**Spare pencils**: If practice papers used pencils, confirm with GL/CEM guidelines.", "**Headphones**: Only if pre-approved for special access arrangements.", "**Medical items**: Inhaler or glasses with case, declared in advance."] },
-      { type: "p", text: "Use this list to pack a clear bag. Test your child's watch beforehand to manage **exam anxiety**." },
-      { type: "h3", text: "Timing Schedule and Venue Finder" },
-      { type: "p", text: "Stick to the standard **11+ timing schedule**: arrive at 8:30, registration by 9:00, tests from 9:30 to 12:00. Late arrival risks missing the English test or maths test start. Plan travel around traffic in selective areas like Buckinghamshire or Kent." },
-      { type: "p", text: "Find your exam centre via local authority postcode search on their website. Search for grammar school test venues or consortium sites. Print directions for backup." },
-      { type: "p", text: "Over 1,200 centres operate UK-wide for 11 Plus registration. Confirm details from your confirmation email after online portal submission. Arriving early helps with parking and settling nerves." },
-      { type: "h3", text: "Prohibited Items and Special Access" },
-      { type: "p", text: "Avoid prohibited items like calculators, mobile phones, or correction fluid. GL/CEM invigilator guidelines ban these to ensure fair testing in entrance exam conditions. Secure them in a bag outside the room." },
-      { type: "ul", items: ["Electronic devices of any kind.", "Food wrappers that make noise.", "Highlighters or tippex.", "Smart clothing with tech."] },
-      { type: "p", text: "For **special access arrangements**, confirm extra 25% time, reader, or scribe via medical evidence like for dyslexia or ADHD. Submit requests during 11+ registration with local authority or exam board. Get headteacher recommendation early." },
-      { type: "p", text: "Contact CEM Durham or GL Assessment weeks ahead. Parents report smoother days with pre-approval. This supports children needing SEN provision in the selective school process." },
-    ],
-  },
+  "slug": "how-to-register-my-child-for-the-11-plus",
+  "title": "How to register your child for the 11 Plus in 2027",
+  "desc": "Find the correct 11 Plus registration form, prepare your documents and confirm submission for tests taken in 2027. Test entry and school applications explained.",
+  "date": "April 23, 2025",
+  "readTime": "5 min read",
+  "category": "Exam Format",
+  "imageUrl": "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_4.jpeg",
+  "imageAlt": "How to register my child for the 11 Plus?",
+  "images": [
+    "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "To register your child for the 11 Plus, start on the admissions page of the school you are considering and follow its link to the official test organiser. There is no single national registration form. The organiser might be a council, a consortium of schools or the school itself."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This guide focuses on exams taken in 2027. For many English state grammar schools, that means September 2028 entry. A page headed “2027 entry” can instead describe a test held in 2026. Check both years before completing any form."
+    },
+    {
+      "type": "h2",
+      "text": "1. Identify the correct test and admissions cycle"
+    },
+    {
+      "type": "p",
+      "text": "Write down your intended school, its entry year and the name of the accepted entrance test. Then check the relevant admissions policy and registration page. A commercial practice account, open-day booking or mailing-list subscription does not register a child for the real examination. You do not choose an exam board on the basis of which practice books you already own."
+    },
+    {
+      "type": "p",
+      "text": "If you are considering several schools, use our [shared-test registration checklist](/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test) to record which tests and permissions each school requires. Do not assume that every school in the same county accepts the same result."
+    },
+    {
+      "type": "h2",
+      "text": "2. Check whether you need to register yourself"
+    },
+    {
+      "type": "p",
+      "text": "Automatic entry is a local exception, not something to assume. For example, [Buckinghamshire’s published 2028-entry timeline](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/timeline-for-following-year/) says pupils at state-funded Buckinghamshire primary schools are entered automatically, while children attending school in Milton Keynes must be registered. Check your child’s own primary-school category with the organiser."
+    },
+    {
+      "type": "p",
+      "text": "Check the permitted date-of-birth range and what to do if your child is educated outside their normal age group. Ask the admissions team before using a form intended for a different cohort. School-place eligibility, catchment priority and permission to sit a test are related questions, but they are not interchangeable."
+    },
+    {
+      "type": "h2",
+      "text": "3. Record every deadline before collecting documents"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Task",
+        "What to record"
+      ],
+      "rows": [
+        [
+          "Test entry",
+          "Opening date, closing date and closing time"
+        ],
+        [
+          "Access arrangements",
+          "Request form, evidence deadline and school contribution"
+        ],
+        [
+          "Additional evidence",
+          "Any separate pupil-premium or other priority-category evidence"
+        ],
+        [
+          "Submission",
+          "Reference number and how to check receipt"
+        ],
+        [
+          "School place",
+          "The separate home-council application deadline"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not wait until the summer to begin checking. The [Gloucestershire timetable](https://www.gloucestershire.gov.uk/schooladmissions/grammar-schools/) for September 2028 entry already sets out a registration window from noon on 8 February to noon on 19 March 2027. Where future details are absent, mark them “not yet confirmed” and check the official page again; do not copy the previous year’s dates."
+    },
+    {
+      "type": "h2",
+      "text": "4. Prepare what your actual form requests"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Your child’s name, date of birth, current school and the contact details you want the organiser to use.",
+        "Any identity, address or photograph evidence requested by that organiser, in its specified file format.",
+        "Forms supporting access arrangements or an admissions priority, where applicable. Check whether the primary school must complete part of them.",
+        "Details of other schools or test groups with which you want the result shared, if the form provides that option."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is a preparation checklist, not a universal document list. There is no national rule that everyone must upload six documents, provide a headteacher recommendation or use a particular photograph size. If an upload is unclear, ask the organiser rather than sending unrelated personal records."
+    },
+    {
+      "type": "h2",
+      "text": "5. Complete, submit and verify"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Use the official link and create or sign into the parent account, if required.",
+        "Enter the child’s information carefully; check dates, postcode and email address before continuing.",
+        "Complete every relevant section, including result sharing and support requests.",
+        "Preview the form and attachments. Saving a draft may not submit it.",
+        "Submit using the final submission control and save the confirmation or application reference.",
+        "Check the portal status and the organiser’s stated confirmation process. Follow up if acknowledgement is missing."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Keep a copy of what you submitted and the official guidance used. For example, [Warwickshire’s registration instructions](https://www.warwickshire.gov.uk/grammar-schools-11-test/register-11-test) explain that a submission confirmation is emailed after its form is completed successfully. Other organisers may use different arrangements; there is no universal 24- or 48-hour promise."
+    },
+    {
+      "type": "h2",
+      "text": "What if something goes wrong?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Wrong information: contact the organiser promptly, quoting the reference and the correction needed. Avoid creating a duplicate application unless instructed.",
+        "No internet access or upload difficulties: request the organiser’s available help or alternative application method before the deadline.",
+        "Missed deadline: ask what the published late-registration policy permits. A payment does not create a right to a late sitting.",
+        "Support needed: make the specific access-arrangements request; do not assume that ticking a SEND box alone completes it."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Do you have to pay?"
+    },
+    {
+      "type": "p",
+      "text": "Do not confuse official test entry with paid mocks, tutoring or independent-school registration. The [King Edward VI Foundation](https://kingedwardvifoundation.co.uk/the-test/) explicitly states that Birmingham’s grammar schools cover the entrance-test costs. Paid preparation packages are separate from official registration. Check the official organiser if any payment request is unexpected."
+    },
+    {
+      "type": "h2",
+      "text": "Registration is only the first application"
+    },
+    {
+      "type": "p",
+      "text": "For a state secondary place in England you must also use the home-council application process. See [when to apply for grammar school places](/blog/when-do-you-apply-for-grammar-school-places) and [GOV.UK’s application guidance](https://www.gov.uk/schools-admissions/how-to-apply). A test acknowledgement confirms a test application, not an offer of a school place."
+    },
+    {
+      "type": "p",
+      "text": "Once registration is secure, match preparation to the official familiarisation material and the subjects actually tested. Our [subject guides](/subjects) and [practice papers](/papers) can support learning, but they do not replace the organiser’s instructions."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "how-to-prepare-for-the-11-plus-at-home",
@@ -2982,117 +3127,143 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "how-to-appeal-an-11-plus-result-or-school-allocation",
-    title: "How to appeal an 11 Plus result or school allocation.",
-    desc: "Learn how to appeal an 11 Plus result or school allocation with proven steps. Discover key differences, valid grounds, evidence checklists, deadlines, and hearing tips. Thousands succeed yearly\u2014boost your child's future today.",
-    date: "August 27, 2025",
-    readTime: "6 min read",
-    category: "Results",
-    imageUrl: "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_4.jpeg",
-    imageAlt: "How to appeal an 11 Plus result or school allocation.",
-    images: ["https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_1.jpeg", "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_2.jpeg", "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_3.jpeg", "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding 11 Plus Appeals" },
-      { type: "p", text: "11 Plus appeals fall into two distinct categories: **result appeals** challenging exam marks (success rate 5-10% per GL Assessment data) and **school allocation appeals** disputing placement decisions (35% success rate per 2023 DfE statistics)." },
-      { type: "p", text: "Result appeals focus on potential errors in [how the 11 Plus is scored and marked](/blog/how-is-the-11-plus-scored-and-marked), like misread answers. They require quick action within days. Allocation appeals target **secondary school admission** choices, often due to oversubscribed grammar schools." },
-      { type: "p", text: "Key terms matter in these processes. **Looked after children** get top priority, meaning children in care or previously in care. **Distance criterion** ranks applicants by straight line distance from home to school gate, using GIS coordinates." },
-      { type: "p", text: "A real example shows impact. One London borough handled 1,247 appeals, with 432 successful on allocation. DfE 2023 data notes 35% allocation appeals succeed versus 8% exam remark appeals overall." },
-      { type: "p", text: "Follow this simple flowchart for appeal paths:" },
-      { type: "ul", items: ["Receive **11 plus result** or allocation letter.", "Check if it's a remark (5 days) or allocation dispute (28 days).", "Gather evidence: mark sheets for remarks, family circumstances for allocations.", "Submit to local authority or exam board, attend **appeal hearing** if needed.", "Receive binding decision from **independent appeal panel**."] },
-      { type: "h3", text: "11 Plus Result Appeals vs School Allocation Appeals" },
-      { type: "p", text: "Result appeals target **exam scoring errors** (must submit within 5 days, costs \u00a350-\u00a380), while allocation appeals challenge admission decisions (28-day window, free to file)." },
-      { type: "p", text: "Both types need strong preparation. Result appeals use **mark verification** to check totals. Allocation appeals highlight **exceptional circumstances** like medical evidence or sibling priority." },
-      { type: 'table', headers: ["Aspect", "Result Appeal", "Allocation Appeal"], rows: [["Window", "5 days", "28 days"], ["Cost", "\u00a350-\u00a380", "Free"], ["Success Rate", "8% (GL data)", "35% (DfE)"], ["Evidence", "Mark sheets", "Family circumstances"]] },
-      { type: "p", text: "In 2023, a Birmingham boy won a **remark appeal**, gaining 3 marks to secure his grammar place. Parents often add tutor reports or [practice papers](/papers) as supporting evidence. For allocations, focus on **catchment area** issues or compassionate grounds like family relocation." },
-      { type: "p", text: "Prepare your **appeal letter** clearly. State grounds like procedural irregularity for results, or unmet needs for places. Attend the **appeal panel** to present your case calmly." },
-      { type: "h2", text: "Grounds for Appealing an 11 Plus Result" },
-      { type: "p", text: "**11 Plus result appeals** succeed on specific technical grounds, with GL Assessment reporting 8.2% mark changes in 2023 verified appeals. Parents must identify clear errors in the **11+ exam** process to have a chance. Focus on evidence like mark sheets for a strong case." },
-      { type: "p", text: "Common grounds include **clerical errors**, such as a misread verbal reasoning answer leading to +4 marks. Another is multiple choice ambiguity in CEM Select papers where options confuse candidates. Document everything with timestamps or witness notes." },
-      { type: "p", text: "**Timing irregularities** count if a late start is recorded, affecting fairness. Medical incidents require a GP letter detailing the issue during the test. Submit appeals quickly to meet deadlines." },
-      { type: "p", text: "GL Assessment handles the appeal process: submit within **5 days** of results, pay a \u00a362 fee, and expect a 10-day turnaround. Request a mark verification first. Success often leads to revised scores for **grammar school** eligibility." },
-      { type: "h3", text: "Common Valid Reasons" },
-      { type: "p", text: "Top valid reasons include **clerical marking errors** (42% of successful appeals per GL 2023) and ambiguous questions (29%). These form the basis for most **11 plus remark** requests. Gather supporting documents early." },
-      { type: "ol", items: ["**Clerical errors**: An NFER paper bubble sheet misread can shift scores. Refunds are available if upheld. Check your mark sheet against practice papers.", "**Question ambiguity**: The CEM maths 'fish tank' problem in 2022 caused disputes over wording. Provide the exact question text.", "**Administrative errors**: Wrong candidate paper used during the exam. Verify candidate numbers match records.", "**Special arrangements failure**: Agreed extra time not provided. Include confirmation emails from the test centre."] },
-      { type: "p", text: "Rejection rates hit 92% without **mark sheet evidence**. Always include this in your appeal letter. Prepare for the appeal deadline to avoid missing grammar school places." },
-      { type: "h2", text: "Grounds for Appealing School Allocation" },
-      { type: "p", text: "School allocation appeals succeed when **admission authorities breach published criteria** or fail the proportionality test under the School Admissions Code 2021. This legal framework sets out clear rules for secondary school admissions, including how local authorities must handle **oversubscribed schools** and grammar school places. Breaches often involve errors in applying admission criteria like distance or siblings." },
-      { type: "p", text: "The School Admissions Code 2021 requires fairness in the **appeal process**. Admission panels must consider if their decision was reasonable and proportionate. Common issues include incorrect distance measuring points or ignoring exceptional circumstances." },
-      { type: "p", text: "Success varies by area and school type. DfE data shows a **35% success rate** for general allocation appeals, compared to **12% for grammar school appeals**. Regional differences exist, such as 28% in Kent and 41% in Barnet for 2023." },
-      { type: "p", text: "Parents should review their **local authority appeal** guidance and gather evidence early. Focus on procedural irregularity, unmet child needs, or irrational decisions to build a strong **school allocation appeal**. Alongside an appeal, weigh up [what happens if the child does not pass](/blog/what-happens-if-my-child-fails-the-11-plus) and whether [your child can retake the 11 Plus](/blog/can-my-child-retake-the-11-plus) in your area." },
-      { type: "h3", text: "Key Eligibility Criteria" },
-      { type: "p", text: "Strongest grounds include procedural irregularity, such as ranking a child fourth on the list despite a clear sibling policy. Other key areas are **child's needs unmet**, like special educational needs (SEN) not addressed, and irrational decisions, for example offering a place five miles away when a sibling attends at 0.8 miles. These form the basis for many **successful appeals**." },
-      { type: "p", text: "Eligibility often hinges on specific **admission criteria** breaches. Parents must show how the decision violated published rules. Evidence strengthens cases involving sibling priority, distance errors, or **looked after children** status." },
-      { type: 'table', headers: ["Criteria", "Success Rate", "Evidence Needed"], rows: [["**Sibling**", "62%", "Birth certificates, school letters"], ["**Distance**", "41%", "Utility bills, council measurements"], ["**Looked After**", "95%", "Social services documents"]] },
-      { type: "p", text: "In a 2023 Trafford case, parents won on a **distance measuring point error**, proving the authority used straight line distance instead of the correct walking route. This highlights how precise evidence can overturn decisions. Always verify **GIS coordinates** and request panel scrutiny." },
-      { type: "h2", text: "Gathering Evidence and Documentation" },
-      { type: "p", text: "Winning appeals require **10-15 documents** in chronological 'bundle of evidence' format per DfE guidelines. This structured approach shows the independent appeal panel your case meets admission criteria or proves exceptional circumstances. Start collecting items early to meet the appeal deadline." },
-      { type: "p", text: "Focus on relevance to your 11 plus result or school allocation appeal. For grammar school appeals, include 11+ exam related proof like mark verification. Tailor evidence to issues such as distance from school, medical evidence, or **sibling priority**." },
-      { type: "p", text: "Organise documents chronologically to build a clear narrative. Use **yellow highlighter** on key sections of the admission letter. This helps the clerk to the panel and appeal panel chair follow your presenting your case during the appeal hearing." },
-      { type: "p", text: "Limit the bundle of evidence to 50 pages maximum with indexed tabs. Prepare 6 copies: one for you, the panel, the local authority, and witnesses. This ensures smooth **appeal preparation** and respects the **proportionality test**." },
-      { type: "h3", text: "Evidence Checklist" },
-      { type: "p", text: "Use this **numbered checklist** to gather essential items for your secondary school admission challenge. Each piece strengthens claims of procedural irregularity or **unmet needs**. Verify dates and authenticity before inclusion." },
-      { type: "ol", items: ["**Admission letter + criteria** (yellow highlighter): Highlight how your child qualifies under catchment area or **priority admission**. Include the full **prospectus review** and **Ofsted report** for context on **oversubscribed school**.", "**Distance evidence** (GIS map printout): Show **straight line distance** from **distance measuring point** using official GIS coordinates. Compare to allocated places to question **waiting list** fairness.", "**Medical evidence** (GP letter less than 3 months old): Detail **SEN provision** needs or **disability discrimination** under the **Equality Act**. Add **consultant report** or **therapist statement** for **compassionate grounds**.", "**Educational evidence** (tutor report + baseline CATs): Provide **tutor reports**, **previous school reports**, and **cognitive ability test** scores from **GL assessment** or **CEM exam**. Include 11 plus remark results and **practice papers** scores in **verbal reasoning** or **maths test**.", "**Social evidence** (vicar letter for faith schools): Submit for **faith school appeal** or **church school priority**, plus **witness statements** on **bullying incident** or **safeguarding concern**. Cover **family relocation** or **caring responsibilities**."] },
-      { type: "p", text: "Cross-check against local authority appeal rules. Supplement with **pupil premium** proof or looked after children status if applicable. This builds a compelling **stage 1 appeal** or stage 2 appeal package." },
-      { type: "h3", text: "Assembling Your Bundle" },
-      { type: "p", text: "Create a professional bundle of evidence to present at the appeal hearing. Arrange documents in chronological order starting with the admission appeal form. Use **indexed tabs** labelled clearly, like \"Medical Evidence\" or \"Educational Tests\"." },
-      { type: "p", text: "Keep under **50 pages** to avoid overwhelming the independent appeal panel. Print 6 copies on A4 paper, bound neatly. Include a cover sheet with your appeal letter summarising grounds for appeal." },
-      { type: "p", text: "Reference items in your **parental representation**, such as \"See tab 2 for GIS map\". Practice with mock appeal to ensure flow. This preparation boosts chances in **selective school** disputes." },
-      { type: "h2", text: "Deadlines and Timelines" },
-      { type: "p", text: "National allocation day on 16th April 2025 triggers a 28-day window for **stage 1 appeals**, extendable to 56 days for complex cases. Parents must act quickly after receiving 11 plus results or school offers to lodge a school allocation appeal. Missing this starts the clock on potential rejection." },
-      { type: "p", text: "Key dates form a clear **appeal timeline**. Offer day marks the start, with stage 1 appeals closing around mid-May. Local authorities handle hearings from June to August, issuing binding decisions by September 1st." },
-      { type: "p", text: "Visualise the timeline as a straightforward graphic: **March 1st** for early notifications, **16th April** as National Offer Day, 14th April wait no, adjust to post-offer: actually 14th May for result appeals close, 12th May stage 1 deadline, June-August for appeal hearings, and 1st September for final binding decisions. Arrows connect each milestone, highlighting urgency." },
-      { type: "p", text: "Local variations matter in secondary school admission. Bucks requires appeals within **20 days**, while Wirral allows **40 days**. Check your local authority appeal rules to avoid procedural errors." },
-      { type: "h3", text: "Strict Appeal Windows" },
-      { type: "p", text: "Missing the **28-day window** after National Offer Day voids most **11 plus appeals**, as Local Government Ombudsman rulings stress timely submission. Parents risk outright rejection without prompt action on stage 1 appeal forms. Always verify dates with your education authority." },
-      { type: "p", text: "Critical dates carry serious consequences in the appeal process. Submit stage 1 appeals within 28 days of offer day, or face dismissal. For stage 2, act within 20 days of hearing decisions to pursue judicial review." },
-      { type: "ul", items: ["**National Offer Day +28 days**: Deadline for **stage 1 school allocation appeal**; late entries rarely accepted.", "**Hearing decision +20 days**: Window for **stage 2 appeal** or judicial review; delays end chances.", "**Late appeals rejected** unless exceptional circumstances proven, per LGO precedent."] },
-      { type: "p", text: "A Barnet parent succeeded with a late grammar school appeal by submitting hospital discharge papers proving incapacity during the **appeal deadline**. Gather medical evidence like GP notes early. Experts recommend diarising all dates to protect your **first choice school** bid." },
-      { type: "h2", text: "Writing Your Appeal Letter" },
-      { type: "p", text: "Effective appeal letters follow **5-part structure**: Facts, Breach, Impact, Remedy, Evidence References (max 1,500 words)." },
-      { type: "p", text: "Keep your appeal letter concise and focused on specific issues like your child's 11 plus result or school allocation appeal. Use Arial 12pt font with 1.5 line spacing for clarity. Always include your **allocation reference number** at the top." },
-      { type: "p", text: "Structure the letter in numbered sections: 1) Introduction with allocation ref. number, 2) Case facts such as child's score of 109 vs 111 cutoff, 3) Admission criteria breach quoting para. 2.14, 4) Child's prejudice like mental health impact, 5) Requested remedy of admission or waiting list placement." },
-      { type: "p", text: "Attach a **bundle of evidence** including exam remark results, medical evidence, or tutor reports. Proofread for errors to strengthen your **grammar school appeal**. Submit before the appeal deadline to the clerk to the panel." },
-      { type: "h3", text: "Structure and Key Elements" },
-      { type: "p", text: "Paragraph 1 must state specific breach: 'School applied distance from lamppost not house per criteria 3.2'." },
-      { type: "p", text: "Use this template for your appeal letter: [REF NO] \u00d7\u00d7\u00d7. I appeal because: [QUOTE CRITERIA] breached by [SPECIFIC FACT]. Impact: [MEDICAL/EDUCATIONAL HARM]. Remedy: [ADMISSION]. **Evidence bundle** attached." },
-      { type: "ul", items: ["Introduction: State your allocation reference number and child's details clearly.", "Case facts: Detail the 11 plus result, like score near cutoff, and exam verification steps taken.", "Admission criteria breach: Quote exact policy, such as para. 2.14 on sibling priority or distance measuring point.", "Child's prejudice: Explain harm, e.g., **mental health impact** from separation from first choice school.", "Remedy: Request admission or waiting list placement specifically."] },
-      { type: "p", text: "Avoid red flag phrases like 'We live close' or 'My child deserves place'. Focus on procedural irregularity or unmet exceptional circumstances. Reference supporting documents like GP notes or school reports in your independent appeal panel submission." },
-      { type: "h2", text: "Submitting the Appeal" },
-      { type: "p", text: "Submit via **local authority portal** or recorded delivery to the **Clerk to the Panel** by the 5pm deadline. Most appeals now use electronic submission through the local authority website. This ensures your 11 plus appeal or school allocation appeal reaches the right place on time." },
-      { type: "p", text: "Start by downloading the **admission appeal form** from your local authority site, such as slough.gov.uk/admissions. Complete page 1 with basic facts like your child's details and the oversubscribed school in question. Then fill page 2 outlining your grounds for appeal, such as exceptional circumstances or issues with admission criteria." },
-      { type: "p", text: "Prepare a bundle of evidence as a PDF under 10MB, including 11 plus remark results, tutor reports, or medical evidence. Attach it to the form and submit. Save the email confirmation receipt as proof of timely lodgement for your grammar school appeal." },
-      { type: "p", text: "Follow up with a call to the Clerk to the Panel two days later to confirm receipt. Portal examples vary: Enfield uses a single form for both 11 plus result and allocation. Kent requires separate forms for results and school places, so check your area's appeal process carefully." },
-      { type: "h2", text: "Attending the Appeal Hearing" },
-      { type: "p", text: "Panel hearings last 8-12 minutes with higher success when parents present compared to paper-only appeals according to DfE 2023 data. The independent appeal panel typically includes a chair who is a lawyer, two panelists with one having education experience and the other being a lay member, plus a clerk who takes notes. This setup ensures fair decisions on school allocation appeals." },
-      { type: "p", text: "Hearings can be **in-person or virtual**, with many now held via Zoom for convenience. The Academy Admissions Guide outlines the order: parents speak first for 5 minutes, followed by panel questions for 3 minutes, then the governor's response for 5 minutes. Know this structure to stay composed during your **11 plus appeal**." },
-      { type: "p", text: "Focus on **presenting your case** clearly, using evidence like tutor reports or medical notes to show why your child needs this oversubscribed school. Panels weigh prejudice to the school against public interest in admission. Preparation turns nerves into confidence for better **appeal outcomes**." },
-      { type: "p", text: "Arrive early or log in ahead for virtual sessions, and bring your bundle of evidence. The **clerk to the panel** manages proceedings, so direct answers to the appeal panel chair keep things smooth. Successful appeals often hinge on calm, factual delivery." },
-      { type: "h3", text: "Preparation Tips" },
-      { type: "p", text: "Practice 3x with a timer: deliver your **5-minute speech** and handle questions like prejudice versus public interest. Record mock hearings on your phone to review body language and pacing for the appeal hearing. This builds confidence for presenting your 11 plus result case." },
-      { type: "p", text: "Create a **1-page cheat sheet** with key quotes from admission criteria and your strongest evidence points. Prepare answers for Why this school by matching your childs needs to its curriculum, like strong SEN provision or academic focus. Quantify impacts, such as \u00a31,200 annual travel costs to a second choice school." },
-      { type: "ol", items: ["Run **mock hearings** with family, recording on your phone for self-review.", "Prepare a 1-page cheat sheet quoting exact admission criteria.", "Rehearse Why this school, linking to specifics like curriculum match or pastoral support.", "Opt for **smart casual dress code**, avoiding anything too formal or casual.", "Test tech 30 minutes early for Zoom, ensuring stable internet and quiet space."] },
-      { type: "p", text: "Follow appeal dos and donts: DO use facts like previous school reports or GP notes, DONT emotionalise by calling it your childs dream school. Strong preparation respects the appeal timeline and boosts chances in grammar school appeals or faith school priority cases. Review forums like Mumsnet for parent tips on common pitfalls." },
-      { type: "h2", text: "Possible Outcomes and Next Steps" },
-      { type: "p", text: "Outcomes: **35% upheld**, 28% waiting list, **37% refused**. Successful appellants admitted by Sept 1st; refused get stage 2 rights." },
-      { type: "p", text: "These figures come from recent **appeal statistics** across local authorities. Understanding each outcome helps parents plan ahead in the appeal process. Check your local authority appeal notification for exact details." },
-      { type: "p", text: "The table below breaks down typical appeal outcomes, percentages, and timelines for clarity." },
-      { type: 'table', headers: ["Outcome", "%", "Timeline"], rows: [["Upheld", "35%", "Sept 1st"], ["Waiting List", "28%", "Rolling"], ["Refused", "37%", "10 days"]] },
-      { type: "p", text: "After an 11 plus result or school allocation appeal, next steps depend on the decision. Monitor portals daily if on a waiting list. In 2023, the Ombudsman found **15% councils faulted** in handling complaints." },
-      { type: "h3", text: "Monitoring the Waiting List" },
-      { type: "p", text: "If your school allocation appeal lands you on a waiting list, check the online portal every day. Places often open up due to withdrawals from oversubscribed schools. Parents report success by staying persistent through the summer term." },
-      { type: "p", text: "Keep records of all checks, including dates and responses. Contact the clerk to the panel if no updates after two weeks. This step fits into the **rolling timeline** shown in appeal statistics." },
-      { type: "p", text: "Combine this with exploring **alternative schools** like non-selective options. For example, a family moved up the list when a higher-ranked child accepted another grammar school appeal offer. Patience pays off here." },
-      { type: "h3", text: "Stage 2 Appeal Options" },
-      { type: "p", text: "A refused stage 1 appeal triggers **stage 2 rights** within 20 days. This involves grounds for judicial review, such as procedural errors or bias in the independent appeal panel. Gather evidence like witness statements or bundle of evidence showing procedural irregularity." },
-      { type: "p", text: "Present your case to the panel chair, focusing on **irrational decision** or unmet needs. Experts recommend professional help for complex cases involving **medical evidence** or equality act appeal claims. Success here can overturn refusals." },
-      { type: "p", text: "Prepare thoroughly with **mock appeal** practice. For instance, highlight exceptional circumstances like a family relocation or safeguarding concern. This stage tests the admission authority's original choice." },
-      { type: "p", text: "Timeline pressure means acting fast on the appeal deadline. If unsuccessful, consider **Ombudsman complaint** next." },
-      { type: "h3", text: "In-Year Applications and Alternatives" },
-      { type: "p", text: "From the September term, submit in-year applications for in-year transfer to your preferred school. Target **second choice school** or comprehensives if grammar spots fill up. Local authorities handle these under **fair access protocol**." },
-      { type: "p", text: "Strengthen with **evidence for appeal** like tutor reports or 11 plus remark results. Parents often succeed by citing sibling priority or catchment area changes post-allocation." },
-      { type: "p", text: "Explore academy appeal or faith school routes with church school priority. Check Ofsted report and school performance data. This provides solid **next steps after appeal**." },
-    ],
-  },
+  "slug": "how-to-appeal-an-11-plus-result-or-school-allocation",
+  "title": "How to appeal an 11 Plus result or school allocation",
+  "desc": "Understand result checks, selection reviews and school admission appeals, with a practical checklist for choosing the right next step.",
+  "date": "August 27, 2025",
+  "readTime": "4 min read",
+  "category": "Results",
+  "imageUrl": "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_4.jpeg",
+  "imageAlt": "How to appeal an 11 Plus result or school allocation.",
+  "images": [
+    "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-to-appeal-an-11-plus-result-or-school-allocation(943o)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Start by identifying what you want reconsidered: the recording of a test result, whether your child meets the academic standard, or a refusal to offer a school place. These involve different procedures. An admission appeal is not simply a request for an exam paper to be marked again."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? An autumn 2027 test commonly relates to September 2028 entry. This guide explains the current England state-school framework, checked on 8 October 2026. Confirm the school-entry year and that cycle’s official procedure before acting; future local deadlines are not confirmed here."
+    },
+    {
+      "type": "h2",
+      "text": "Which route fits your situation?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Situation",
+        "What to check first",
+        "What not to assume"
+      ],
+      "rows": [
+        [
+          "A score or recorded detail appears wrong",
+          "The test organiser’s published result-check or clerical-check procedure",
+          "That a full remark, paper disclosure or score increase is available"
+        ],
+        [
+          "Your child did not qualify and circumstances affected the test",
+          "Whether the area offers a selection review and what evidence it accepts",
+          "That every area operates a review or that review means an automatic school place"
+        ],
+        [
+          "A school has refused admission",
+          "The refusal notice and named admission authority’s appeal instructions",
+          "That being on a waiting list starts an appeal"
+        ],
+        [
+          "You think an appeal was handled improperly",
+          "The complaint route stated in the decision and official guidance",
+          "That there is an automatic second appeal on the merits"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Contact the organiser named in the result letter for a result query. Describe the precise issue and ask which procedure applies. Do not send sensitive records to a guessed email address. A school’s official website or your council’s admissions team can confirm the correct contact."
+    },
+    {
+      "type": "h2",
+      "text": "A selection review is different from an admission appeal"
+    },
+    {
+      "type": "p",
+      "text": "Some areas review whether a child who did not reach the test standard should nevertheless be treated as qualified. The existence, evidence rules and timing of that process are local. The [DfE parent guidance](https://www.gov.uk/government/publications/admission-appeals-for-school-places/advice-for-parents-and-guardians-on-school-admission-appeals) explains that a previous review can affect what an appeal panel may consider. Ask for the review guidance before deciding how to proceed."
+    },
+    {
+      "type": "p",
+      "text": "Keep the review application, supporting documents and written outcome together. If you later appeal a refusal, you will need to explain the earlier process accurately. Do not describe a successful review as an allocation of a place unless the authority has actually made an offer."
+    },
+    {
+      "type": "h2",
+      "text": "How to start a school admission appeal"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Read the refusal notice. Identify the school, entry year, reason for refusal, appeal route and deadline.",
+        "Download the admission arrangements for the relevant entry year and the appeal guidance. Keep copies with the dates you accessed them.",
+        "Submit the appeal using the specified form or channel. Explain your reasons clearly and retain confirmation.",
+        "Record any separate evidence deadline. Ask the clerk about missing documents or accessibility needs promptly.",
+        "Keep a suitable school place secure and follow any waiting-list instructions while the appeal is considered."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Under [GOV.UK appeal guidance](https://www.gov.uk/schools-admissions/appealing-a-schools-decision), the admission authority must allow at least 20 school days from sending its decision letter for you to lodge an appeal. That is a minimum period, not a universal exact deadline. Read the published timetable; a result-check deadline is a separate matter. If a deadline has passed, contact the authority rather than assuming there is no route left."
+    },
+    {
+      "type": "h2",
+      "text": "Build a useful case file"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Result letter and refusal notice: these show which decisions you are querying.",
+        "Relevant policy: mark the actual criterion or procedure you believe matters.",
+        "Dated correspondence: keep requests, replies and submission receipts in order.",
+        "Evidence linked to your reason: explain what each document establishes.",
+        "A short chronology: test, result, review if any, application, refusal and next deadline."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "You do not need to manufacture a large bundle. If illness affected the test, describe when it happened and what evidence exists; avoid claiming that a diagnosis proves a particular lost score. For academic suitability, current school evidence may be relevant. Do not buy a professional report solely because an online article calls it compulsory."
+    },
+    {
+      "type": "h2",
+      "text": "Two hypothetical examples"
+    },
+    {
+      "type": "p",
+      "text": "Example 1: a family believes the result letter records the wrong candidate number. Their first step is a precise query through the organiser’s result-check route. They still track the school-application deadline instead of waiting indefinitely for the query to finish."
+    },
+    {
+      "type": "p",
+      "text": "Example 2: a child qualifies, but a school refuses a place because other eligible children have higher admissions priority. The family asks how the policy was applied, follows the waiting-list procedure and decides whether to appeal that refusal. Asking for an exam remark would not address the stated allocation reason."
+    },
+    {
+      "type": "h2",
+      "text": "What happens after submission?"
+    },
+    {
+      "type": "p",
+      "text": "Prepare from the instructions sent by the appeal clerk. Our [grammar-school appeal hearing guide](/blog/how-do-grammar-school-appeals-work) explains evidence and the panel’s role. Read [how waiting lists work](/blog/how-do-waiting-lists-work-for-grammar-schools) separately; a vacancy and an upheld appeal are different routes to a place."
+    },
+    {
+      "type": "p",
+      "text": "If an appeal is unsuccessful, read the reasons and the official complaint information. There is no routine “stage two appeal” that simply repeats your case. A complaint about administration is different from disagreeing with the outcome. This guide concerns state admissions in England; independent schools and EHC-plan disputes follow different routes."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
@@ -4665,111 +4836,190 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "can-my-child-get-extra-time-in-the-11-plus-sen",
-    title: "Can my child get extra time in the 11 Plus (SEN)?",
-    desc: "Discover if your child qualifies for extra time in the 11 Plus exam due to SEN. Learn about legal frameworks, common conditions, standard and enhanced allowances, eligibility criteria, and regional variations across England. Get application tips now.",
-    date: "December 10, 2025",
-    readTime: "7 min read",
-    category: "Exam Day",
-    imageUrl: "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_4.jpeg",
-    imageAlt: "Can my child get extra time in the 11 Plus (SEN)?",
-    images: ["https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_1.jpeg", "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_2.jpeg", "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_3.jpeg", "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The **11 Plus exam**, taken by children aged 10-11, determines entry to over 160 grammar schools across England using GL Assessment (multiple choice) or **CEM Select** (standardised) formats. In 2023, 52,000 students sat exams across 36 local authorities. This test acts as a gateway to selective schools for those who perform well." },
-      { type: "p", text: "GL Assessment typically includes **verbal reasoning (VR)**, non-verbal reasoning (NVR), and maths across three 25-minute papers. CEM Select uses two 60-minute combined papers covering similar skills. Both formats test core abilities under timed conditions to assess suitability for grammar school." },
-      { type: "p", text: "Pass marks range from **109 to 121 scaled scores**, depending on the area. For example, Trafford offers 90% grammar places based on these results. Parents often prepare children with practice papers to build familiarity." },
-      { type: "ul", items: ["Focus on speed and accuracy in GL papers.", "Emphasise comprehension and problem-solving for CEM.", "Review **local authority guidelines** for exact formats."] },
-      { type: "h3", text: "Common Formats and Structures" },
-      { type: "p", text: "Most **11 Plus exams** follow GL or CEM structures, with variations by consortium. GL uses multiple-choice questions for quick marking, while CEM standardises scores across diverse content. Understanding your area's format helps target preparation effectively." },
-      { type: "p", text: "Exams often occur in September for Year 6 pupils. Some regions combine VR, NVR, maths, and English. Practice with timed mocks simulates real pressure, aiding children with **processing speed** challenges." },
-      { type: "p", text: "Selective schools like those in Trafford prioritise high scorers. **Grammar school entrance** relies on these tests, so early familiarisation matters. Check school websites for sample questions." },
-      { type: "h3", text: "Pass Marks and Selective Places" },
-      { type: "p", text: "Scaled scores from **109 to 121** typically secure places, but cut-offs vary yearly. Areas like Trafford fill 90% of places with top performers. This ensures **merit-based selection** for academic potential." },
-      { type: "p", text: "Local authorities set thresholds based on applicant numbers. Children scoring above average often qualify. Parents track trends via forums to gauge competitiveness." },
-      { type: "p", text: "Preparation focuses on consistent practice as part of your wider [11 Plus preparation](/blog/how-to-prepare-for-the-11-plus-at-home). Timed [mock exams](/mock-exams) reveal strengths in working memory or fluid reasoning. Aim for scores reflecting full potential under exam conditions." },
-      { type: "h2", text: "Understanding SEN and Special Needs" },
-      { type: "p", text: "Special Educational Needs (**SEN**) affects many pupils in England, qualifying children for 11+ exam accommodations under the Equality Act 2010. The SEND Code of Practice 2015 defines SEN as a learning difficulty that requires special educational provision beyond what most children receive. This includes difficulties in cognition, communication, or sensory processing that impact school performance." },
-      { type: "p", text: "Parents often seek extra time for the **11+ exam** when their child has a formal SEN diagnosis. Common examples include slower processing speed in dyslexia, where children struggle with timed reading tasks. An Educational Psychologist report can demonstrate this need, supporting applications for access arrangements like time extensions." },
-      { type: "p", text: "Schools assess SEN through tools such as cognitive assessments and classroom observations. For grammar school entrance tests like GL Assessment or CEM Select, evidence must show consistent difficulties over time. This ensures reasonable adjustments create a level playing field without compromising merit-based selection." },
-      { type: "p", text: "The role of the SENCO is key in gathering evidence, including teacher reports and **IEP** details. Parents should request early assessments to meet application deadlines for 11+ exams. Such provisions promote **inclusive education** and recognise neurodiversity in selective schools." },
-      { type: "h3", text: "Common SEN Conditions Qualifying for Support" },
-      { type: "p", text: "Dyslexia often presents challenges in reading speed for UK children, evidenced by scores on tests like WIAT-III. This condition commonly affects performance in the 11+ exam, particularly under time pressure. Parents can apply for **extra time** with a formal diagnosis from an Educational Psychologist." },
-      { type: 'table', headers: ["Condition", "Prevalence", "Key 11+ Impact", "Evidence Needed"], rows: [["Dyslexia", "10% of pupils", "Processing speed deficit, slower reading", "WIAT-III or Shikari standardised scores"], ["ADHD", "5% of pupils", "Working memory issues, attention lapses", "WISC-V cognitive assessment"], ["Autism", "1.8% of pupils", "Anxiety in timed settings, social processing", "ADOS-2 diagnostic observation"], ["Dyspraxia", "3% of pupils", "Handwriting speed, motor coordination", "BOT-2 motor proficiency test"], ["Visual Impairment", "2.2% of pupils", "Tracking text, visual fatigue", "Ophthalmologist report, functional vision assessment"], ["Hearing Impairment", "0.3% of pupils", "Auditory processing, following instructions", "Audiologist report, speech therapy notes"]] },
-      { type: "p", text: "A processing speed score below the **10th percentile** often correlates with approvals for extra time in 11+ exams. Schools submit evidence to exam boards following JCQ guidelines. This table highlights how SENCOs and headteachers verify needs for arrangements like rest breaks or coloured paper." },
-      { type: "p", text: "For **grammar school entrance**, consistent evidence from psychometric testing strengthens applications. Parents should collect multi-disciplinary reports, including paediatrician or occupational therapy input. Early preparation with **mock exams** helps demonstrate the child's need for test modifications." },
-      { type: "h2", text: "Legal Framework for Access Arrangements" },
-      { type: "p", text: "The Equality Act 2010 mandates reasonable adjustments for disabled pupils. This duty under section 20 requires schools and exam boards to avoid substantial disadvantage for children with **special educational needs** in the 11 Plus exam. These rules apply to grammar school entrance tests like GL Assessment and CEM Select." },
-      { type: "p", text: "The **SEND Code of Practice 2014**, particularly Chapter 7, outlines support for pupils with SEND. It emphasises normal way of working provisions, such as extra time if a child routinely receives it in school exams due to processing speed issues from dyslexia or ADHD. Schools must evidence this through an **Individual Education Plan** or teacher reports." },
-      { type: "p", text: "JCQ Access Arrangements guidelines, pages 12-15, detail exam accommodations like time extension, separate rooms, or word processors. In the case of R (on behalf of child) vs LA [2022] EWHC, courts upheld a parent's right to extra time for a child with autism, stressing consistent need. Parents should check **exam board guidelines** early in the application process." },
-      { type: "ul", items: ["**Formal diagnosis**: From an **Educational Psychologist report** or paediatrician, showing learning difficulties like dyspraxia.", "**Evidence of need**: **Cognitive assessment** with low **working memory** scores, plus classroom observations.", "**Normal way of working**: Proof of extra time in SATs or mock 11 Plus exams.", "**Headteacher approval**: Signed by the **SENCO**, confirming history over at least 12 months."] },
-      { type: "h2", text: "Types of Extra Time Available" },
-      { type: "p", text: "11+ exams offer **25% extra time** as standard for eligible pupils, up to **50% enhanced time**, plus rest breaks under JCQ and AQE guidelines. Parents of children with special educational needs (SEN) can request these accommodations to level the playing field in grammar school entrance tests. This support helps those with processing speed issues or multiple learning difficulties." },
-      { type: "p", text: "**Standard extra time** applies to a single area of need, like dyslexia or ADHD, backed by cognitive assessments. Enhanced time suits more complex cases, such as autism combined with working memory deficits. Schools follow exam board rules from GL Assessment or CEM Select to approve these." },
-      { type: "p", text: "Rest breaks allow pupils to pause without clock penalty, useful for anxiety or medical conditions. Evidence from an Educational Psychologist report or IEP strengthens applications. Headteachers and SENCOs review requests before deadlines." },
-      { type: "p", text: "Understanding these options aids parental requests for **access arrangements**. Practice with mock exams simulates real conditions. This prepares children for selective schools while ensuring fairness." },
-      { type: "h3", text: "Standard and Enhanced Time Allowances" },
-      { type: "p", text: "Standard 25% extra time follows JCQ criteria used across exams, including GCSEs, and applies similarly to 11+ tests. This adjustment suits pupils with processing speed below the 10th percentile on a single standardised test. Schools verify need through psychometric reports or teacher observations." },
-      { type: "p", text: "For a typical 30-minute verbal reasoning paper, standard time extends it to 37.5 minutes. Enhanced **50% extra time** requires evidence from two tests below the 9th percentile or one below the 5th. This covers multiple needs like dyspraxia and visual impairment together." },
-      { type: 'table', headers: ["Type", "Percentage", "Evidence Required", "Example Adjustment (30-min paper)"], rows: [["Standard", "25%", "Single test <10th percentile", "37.5 minutes"], ["Enhanced", "50%", "2+ tests <9th percentile OR single <5th", "45 minutes"]] },
-      { type: "p", text: "GL Assessment often grants **automatic 25%** for pupils on the SEN register, while CEM Select assesses case-by-case with full diagnostic reports. Parents should submit applications via the school SENCO early. Additional aids like coloured paper or a scribe may combine with time extensions for comprehensive support." },
-      { type: "h2", text: "Eligibility Criteria for Extra Time" },
-      { type: "p", text: "To qualify for extra time in the 11 Plus exam, children with **special educational needs (SEN)** must show consistency of need over 12+ months via school evidence. This aligns with exam board guidelines that emphasise long-term proof of **learning difficulties**. Parental requests alone rarely suffice without formal backing." },
-      { type: "p", text: "Key **eligibility criteria** include five main requirements set by bodies like JCQ. Schools must provide evidence such as teacher statements confirming the **normal way of working** under timed conditions. A history of need spanning at least 12 months is essential, often documented in an Individual Education Plan (IEP) or Educational Psychologist report." },
-      { type: "ul", items: ["Normal way of working: Teacher statement verifying use of access arrangements in school exams.", "**History of 12+ months**: Consistent evidence of SEN like dyslexia or ADHD.", "**Test scores below 10th percentile**: Standardised cognitive assessments showing low processing speed or working memory.", "**SENCO recommendation**: Input from the **Special Educational Needs Coordinator**.", "Headteacher approval: Final sign-off for **exam accommodations**."] },
-      { type: "p", text: "Many applications fail due to **insufficient history**, with guidelines noting high rejection rates on this point. Success improves with combined test evidence and teacher reports. Parents should gather records early, including from SATs or mock 11+ exams, to support the **application process**." },
-      { type: "p", text: "For conditions like **autism**, dyspraxia, or visual impairments, additional proofs such as paediatrician reports strengthen cases. Experts recommend organising evidence around **Equality Act 2010** principles for reasonable adjustments. This creates a level playing field for grammar school entrance." },
-      { type: "h2", text: "Required Evidence and Assessments" },
-      { type: "p", text: "EP reports cost \u00a3800-\u00a31500 and are required for formal diagnosis per SEND Code. These **Educational Psychologist reports** provide detailed cognitive assessments essential for 11 Plus access arrangements. Parents often seek them when schools lack resources for in-depth testing." },
-      { type: "p", text: "To qualify for extra time in the 11+ exam, evidence must show consistent need from special educational needs like dyslexia or ADHD. The hierarchy prioritises EP report first, then Local Authority tests, followed by school-based assessments. This ensures **reasonable adjustments** meet exam board guidelines from GL Assessment or CEM Select." },
-      { type: "p", text: "Gather reports early in the application process. Include teacher observations, **IEP details**, and parental testimony alongside psychometric tests. Headteacher or **SENCO approval** relies on this structured evidence to support time extension requests." },
-      { type: "p", text: "Common examples include WISC-V scores highlighting working memory issues or WIAT-III reading data for processing difficulties. Submit everything via the school's **exam invigilator** before deadlines. This approach strengthens cases for grammar school entrance accommodations." },
-      { type: "h3", text: "Standardised Test Scores Needed" },
-      { type: "p", text: "**Processing Speed Index less than the 10th percentile** (scaled score \u226480) on WISC-V qualifies for 25% extra time. This score indicates significant processing speed challenges affecting 11 Plus performance. Schools use it to justify test modifications like rest breaks." },
-      { type: "p", text: "Key tests focus on cognitive areas linked to learning difficulties. For instance, low working memory on WISC-V or phonological skills on CTOPP-2 support **SEN access arrangements**. Combine with WIAT-III for reading comprehension evidence under the 85th percentile." },
-      { type: 'table', headers: ["Test", "Subtest", "Qualifying Score", "Example Report Data"], rows: [["WISC-V", "Processing Speed Index (PSI)", "<10th percentile (\u226480)", "PSI scaled score 75; impacts exam speed"], ["WIAT-III", "Reading Comprehension", "<85th percentile", "Standard score 82; slow decoding noted"], ["CTOPP-2", "Phonological Awareness", "<10th percentile", "Composite score 78; affects word reading"]] },
-      { type: "p", text: "Interpret sample score sheets by checking percentile ranks against eligibility criteria. An EP report template must detail behavioural observations, classroom impacts, and history of need. This proves consistency for **11+ exam accommodations**." },
-      { type: "p", text: "Experts recommend multi-disciplinary input like occupational therapy reports for dyspraxia. Ensure scores are recent, from approved publishers. Submit with **SENCO endorsement** to avoid rejection in the **approval process**." },
-      { type: "h2", text: "Application Process Timeline" },
-      { type: "p", text: "Apply by **1 September Year 6** (GL Assessment) via Form 8, with complete applications processed quickly when all evidence is included. This starts the formal request for extra time or other access arrangements in the 11 Plus exam. Parents must work closely with the school to meet this key deadline." },
-      { type: "p", text: "The timeline requires planning ahead to gather **evidence of need** from sources like an Educational Psychologist report. Delays often happen due to missing teacher evidence, which affects many applications. Starting early helps avoid common pitfalls in the **SEN application process**." },
-      { type: "ol", items: ["By **Easter Year 5**: Arrange an **EP assessment** for diagnoses like dyslexia or ADHD, providing essential cognitive data on processing speed and working memory.", "**September Year 6**: SENCO completes **Form 8** with school reports, IEP details, and parental testimony for **GL Assessment** or CEM Select.", "**October Year 6**: Secure **headteacher approval** based on classroom observations and consistency of need over time.", "**November Year 6**: Receive **exam board confirmation** for arrangements like rest breaks or a reader during the test."] },
-      { type: "p", text: "Downloadable **JCQ forms** such as Form 8 ensure compliance with exam board guidelines. Schools handle submission, but parents should track progress to support their child's reasonable adjustments for grammar school entrance." },
-      { type: "h2", text: "Regional Variations Across England" },
-      { type: "p", text: "Trafford **auto-grants 25% extra time** to all pupils on the SEN register. This policy simplifies access for children with diagnosed dyslexia or ADHD. Parents find it straightforward during the 11 Plus exam application." },
-      { type: "p", text: "Kent requires **individual JCQ applications** with evidence like an Educational Psychologist report. This case-by-case approach ensures reasonable adjustments match the child's specific needs. Schools submit these via the SENCO for grammar school entrance tests." },
-      { type: "p", text: "Other areas show stark contrasts in access arrangements. For instance, Birmingham uses strict CEM guidelines needing formal diagnosis. Slough allows provisional approvals for GL tests if evidence arrives late." },
-      { type: "p", text: "Parents should check local exam board guidelines early. Contact the school's SENCO for the application process and deadlines. This prepares your child for selective schools without last-minute stress." },
-      { type: 'table', headers: ["Area", "Provider", "SEN Policy", "Extra Time Approach"], rows: [["Trafford", "GL", "Automatic for SEN register", "25% standard grant"], ["Kent", "GL", "Case-by-case JCQ", "Individual assessment"], ["Birmingham", "CEM", "Strict evidence required", "Diagnosis mandatory"], ["Slough", "GL", "Provisional OK", "Flexible with follow-up"]] },
-      { type: "p", text: "These differences highlight the need for **regional research** before 11 Plus preparation. Trafford's model supports quick **time extensions** for processing speed issues. In contrast, Kent's process demands detailed IEPs or paediatrician reports." },
-      { type: "p", text: "Use practice papers from tuition centres to simulate exam accommodations. Discuss with headteachers about separate rooms or rest breaks. This levels the playing field for neurodiversity in county selection tests." },
-      { type: "h2", text: "Alternatives to Extra Time" },
-      { type: "p", text: "**Separate invigilation** is granted to 23% of SEN pupils compared to 18% receiving extra time, according to JCQ 2023 data. This **access arrangement** allows children with special educational needs to take the 11 Plus exam in a quiet, distraction-free space. It helps those with ADHD or [exam anxiety](/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child) by reducing sensory overload during the test, and pairs well with a calm [exam day checklist](/blog/11-plus-exam-day-checklist-what-to-bring)." },
-      { type: "p", text: "Coloured paper supports 12% of dyslexic candidates by minimising visual stress. Parents can request this alongside other reasonable adjustments through the school application process. Evidence from an Educational Psychologist report often strengthens such requests for grammar school entrance exams." },
-      { type: "p", text: "JCQ guidelines require consistent evidence of need, such as from an Individual Education Plan or formal diagnosis. Schools must demonstrate the child's normal way of working, like using a separate room in mock exams. This ensures fairness in the 11+ exam for pupils with dyslexia, autism, or processing speed difficulties." },
-      { type: "p", text: "Below is a ranked list of **alternatives to extra time** by approval rate, with JCQ evidence requirements. Parents should consult the SENCO early to meet eligibility criteria and deadlines for GL Assessment or CEM Select tests." },
-      { type: 'table', headers: ["Rank", "Alternative", "Approval Rate", "JCQ Evidence Requirements"], rows: [["1", "Separate room", "65%", "History of use in school exams, teacher statement, SENCO approval"], ["2", "Rest breaks", "42%", "Medical evidence or Educational Psychologist report showing fatigue"], ["3", "Coloured overlays", "28%", "Diagnostic assessment confirming visual stress, trial evidence"], ["4", "Word processor", "22%", "Evidence of handwriting issues, like dyspraxia diagnosis, no typing in recent exams"], ["5", "Reader", "8%", "Standardised scores showing reading below average, classroom observations"], ["6", "Scribe", "5%", "Physical disability or motor difficulties confirmed by occupational therapy"], ["7", "Screen reader", "1%", "Visual impairment diagnosis, assistive technology training record"]] },
-      { type: "h2", text: "Appeals and Common Challenges" },
-      { type: "p", text: "65% of **provisional arrangement appeals** succeed when new Educational Psychologist (EP) evidence is submitted. Parents facing rejection for extra time in the 11 Plus exam often need to navigate a structured appeal process. Understanding the steps helps strengthen your case for SEN access arrangements." },
-      { type: "p", text: "The process starts with a centre appeal within 7 days of refusal. Next comes a **Chair review** within 14 days if needed. For final recourse, escalate to a **SENDIST tribunal**, which may involve costs over \u00a3500." },
-      { type: "p", text: "Common rejection reasons include insufficient history of need, lack of test evidence, and inconsistent provision. Families can address these by gathering teacher reports, **classroom observations**, and recent psychometric testing. A real success story is the SENDIST [2023] Case 456, where 50% time extension was granted after initial denial for a child with dyslexia." },
-      { type: "ul", items: ["Collect **recent EP reports** showing processing speed deficits.", "Document **history of provision** from school exams or SATs.", "Submit evidence of **normal test conditions** performance to prove need.", "Seek SENCO endorsement for consistency.", "Prepare for tribunal with **parental testimony** on daily impacts."] },
-      { type: "h3", text: "Understanding the Appeal Stages" },
-      { type: "p", text: "The first stage is the **centre appeal**, submitted to the test centre within 7 days. Provide any new evidence of need, such as an updated Individual Education Plan (IEP) or **EHCP**. This quick review often resolves issues if documentation is clear." },
-      { type: "p", text: "If unsuccessful, request a Chair review within 14 days. The Chair examines the full application against exam board guidelines from GL Assessment or CEM Select. Include standardised scores from cognitive assessments to demonstrate eligibility." },
-      { type: "p", text: "Escalation to SENDIST tribunal is the final step for 11+ exam accommodations. Tribunals consider the Equality Act 2010 for reasonable adjustments. Prepare multi-disciplinary evidence, like **paediatrician reports** or occupational therapy notes." },
-      { type: "p", text: "Parents report success by organising evidence chronologically. Focus on **consistency of need** across settings, from practice papers to mock exams. Advocacy services can guide through **Local Authority involvement**." },
-      { type: "h3", text: "Top Reasons for Rejection and How to Overcome Them" },
-      { type: "p", text: "Insufficient history tops rejection reasons, where past access arrangements are absent. Build this with records from **school exams**, SATs, or tuition centres. Show long-term learning difficulties like ADHD or dyspraxia." },
-      { type: "p", text: "Lack of test evidence under normal conditions is common. Arrange mock 11 Plus exams to compare timed versus untimed scores. Highlight gaps in working memory or processing speed." },
-      { type: "p", text: "**Inconsistent need** arises if accommodations vary. Ensure SENCO and teacher reports align on requirements like rest breaks or coloured paper. Tribunals value behavioural observations proving ongoing impact." },
-      { type: "ul", items: ["Gather **formal diagnosis** from specialists for dyslexia or autism.", "Include **percentile ranks** below average in relevant areas.", "Address **medical conditions** with GP letters for anxiety disorders."] },
-      { type: "h3", text: "Success Strategies from Real Cases" },
-      { type: "p", text: "In SENDIST [2023] Case 456, initial refusal for a dyslexic child was overturned with fresh EP evidence. The tribunal granted 50% extra time based on **full-scale IQ** discrepancies and school history. Parents replicated this by submitting detailed parental testimony." },
-      { type: "p", text: "Experts recommend bundling evidence into a clear timeline. For **physical disabilities** or visual impairments, prove need for large print or a reader. Success hinges on showing **performance under time pressure** hinders academic potential." },
-      { type: "p", text: "Join **parent forums** for shared timelines and templates. Prepare for **self-advocacy skills** in older children via mock tribunal practice. This levels the playing field for grammar school entrance." },
-    ],
-  },
+  "slug": "can-my-child-get-extra-time-in-the-11-plus-sen",
+  "title": "11 Plus extra time and SEN: evidence and access arrangements",
+  "desc": "How to request 11 Plus extra time or other access arrangements, gather school evidence and check the right deadlines for exams taken in 2027.",
+  "date": "December 10, 2025",
+  "readTime": "5 min read",
+  "category": "Exam Day",
+  "imageUrl": "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_4.jpeg",
+  "imageAlt": "Can my child get extra time in the 11 Plus (SEN)?",
+  "images": [
+    "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_1.jpeg",
+    "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_2.jpeg",
+    "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_3.jpeg",
+    "https://files.autoblogging.ai/images/can-my-child-get-extra-time-in-the-11-plus-sen(uozw)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Your child may be able to receive extra time or another adjustment in an 11 Plus test if the evidence supports it and the test organiser approves the arrangement. Being on a SEN register, having a diagnosis or holding an education, health and care plan (EHCP) does not create a single automatic entitlement to 25% extra time across every 11 Plus exam."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? Check the school-entry year on every policy. An autumn 2027 test commonly leads to September 2028 entry. A page headed “2027 entry” may describe a test taken in 2026. Unpublished future arrangements should be treated as unconfirmed."
+    },
+    {
+      "type": "h2",
+      "text": "Who decides whether extra time is appropriate?"
+    },
+    {
+      "type": "p",
+      "text": "Start with the school, consortium or local authority organising the particular test. Its access-arrangements policy tells you who applies, what evidence is needed and who makes the decision. Your child’s current SENCO—the special educational needs co-ordinator—and headteacher can help explain the support already used in school."
+    },
+    {
+      "type": "p",
+      "text": "[Buckinghamshire’s official guidance](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/adjustments-to-the-testing/), for example, describes a panel process based on the child’s needs and ordinary classroom support. This is a local procedure, not a national rule for all GL Assessment papers. The same test provider’s name does not mean every school uses an identical application process."
+    },
+    {
+      "type": "h2",
+      "text": "Does dyslexia, ADHD or autism automatically qualify a child?"
+    },
+    {
+      "type": "p",
+      "text": "The useful question is how the child’s needs affect access to the specific assessment. Two children with the same diagnosis may face different barriers. A report naming a condition may need to be accompanied by an explanation of its practical impact and the support used in school. Ask the organiser what it requires; do not assume one diagnostic score, a particular private report or a fixed length of history is mandatory everywhere."
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK explains schools’ duties towards disabled pupils](https://www.gov.uk/rights-disabled-person/education-rights), including reasonable adjustments. Those duties do not mean parents can choose any adjustment or percentage of extra time. Equally, an unfinished assessment should prompt an early discussion about existing evidence, rather than waiting silently until the deadline has passed."
+    },
+    {
+      "type": "h2",
+      "text": "Extra time is only one possible arrangement"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Arrangement to discuss",
+        "Question for the organiser"
+      ],
+      "rows": [
+        [
+          "Additional working time",
+          "Is it appropriate to this child’s barrier, and which papers or sections would it cover?"
+        ],
+        [
+          "Supervised rest or movement breaks",
+          "How are breaks managed, and is working on the paper allowed during them?"
+        ],
+        [
+          "Alternative room or smaller group",
+          "What setting is available and how will instructions be delivered?"
+        ],
+        [
+          "Modified print or other accessible materials",
+          "What format can be provided and when must it be requested?"
+        ],
+        [
+          "Reader, scribe or technology",
+          "Is the aid permitted for the particular skill being tested, and who supplies it?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These are discussion points, not a list of guaranteed options. A reader may be treated differently in a test of reading from another assessment. Additional working time and a rest break are also different: get the actual conditions in writing rather than assuming that a longer session means more time to answer questions."
+    },
+    {
+      "type": "h2",
+      "text": "Prepare evidence around the barrier, not just the label"
+    },
+    {
+      "type": "p",
+      "text": "Use this practical worksheet with the SENCO. It is an organisational aid, not an official eligibility test."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "What to record",
+        "Example of the information to request"
+      ],
+      "rows": [
+        [
+          "The task that is difficult",
+          "Which aspect of reading, recording answers, hearing instructions or sustaining work causes difficulty?"
+        ],
+        [
+          "What school currently does",
+          "Which adjustments are used, in what situations and how consistently?"
+        ],
+        [
+          "What the evidence shows",
+          "Relevant teacher observations, support plans and professional reports requested by the organiser."
+        ],
+        [
+          "The proposed adjustment",
+          "How would it address the identified barrier without changing the skill assessed?"
+        ],
+        [
+          "Outstanding information",
+          "What is missing, who will provide it and by when?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Before paying for a new private assessment, ask which professional qualifications, report content and evidence dates the organiser accepts. A commercial mock result alone is not a substitute for its published evidence requirements. Send sensitive reports through the submission route it specifies and keep a copy of the acknowledgement."
+    },
+    {
+      "type": "h2",
+      "text": "A checklist for 2027 test applications"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Identify each actual test your child may take; several school preferences can share one test, while others need separate requests.",
+        "Record the access-arrangements deadline separately from the test-registration and school-application deadlines.",
+        "Ask the SENCO or headteacher who must complete and submit each part. Allow time for school holidays and missing documents.",
+        "Submit the required evidence and check that the organiser has received it. If an assessment is pending, ask what can be submitted now.",
+        "Obtain the decision in writing. Confirm the papers covered, room, breaks, equipment and any different test time or venue.",
+        "Tell your child calmly what to expect. Use the confirmed conditions for familiarisation where appropriate."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not import a GCSE or A-level JCQ deadline or Form 8 requirement into an 11 Plus application unless this particular organiser asks for it. SATs arrangements also do not automatically transfer. Keep the [exam-day checklist](/blog/11-plus-exam-day-checklist-what-to-bring) alongside the individual confirmation."
+    },
+    {
+      "type": "h2",
+      "text": "What if the request is refused, late or needs changing?"
+    },
+    {
+      "type": "p",
+      "text": "Ask for the reason and the organiser’s procedure for reconsideration, complaints or new evidence. Explain precisely what you believe was missed. If an injury or other need arises close to the test, contact the organiser immediately; do not assume staff can approve a change at the door or that extra marks will be added afterwards."
+    },
+    {
+      "type": "p",
+      "text": "A dispute about access arrangements, an appeal against refusal of a school place and a dispute about an EHCP are different matters. Seek help from your local SEND information, advice and support service when the correct route is unclear. There is no universal seven-day appeal process or guaranteed outcome for all 11 Plus tests."
+    },
+    {
+      "type": "h2",
+      "text": "Keep testing and future school support separate"
+    },
+    {
+      "type": "p",
+      "text": "Approval for an entrance-test adjustment does not settle what support a child will need in Year 7. Read our separate guides to [grammar-school admission with SEN or an EHCP](/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools) and [checking support for dyslexia, ADHD or autism](/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism)."
+    },
+    {
+      "type": "h2",
+      "text": "Sources checked"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "[Buckinghamshire Council: access arrangements](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/adjustments-to-the-testing/)",
+        "[GOV.UK: disability rights in education](https://www.gov.uk/rights-disabled-person/education-rights)",
+        "[British Dyslexia Association: exam access arrangements](https://www.bdadyslexia.org.uk/advice/children/my-childs-education/exam-access-arrangements)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reviewed on 8 October 2026. Check the organiser’s current policy before applying; this guide does not confirm future local deadlines or an individual child’s entitlement."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "what-level-of-ks2-is-needed-for-the-11-plus",
@@ -5176,107 +5426,176 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "how-to-choose-the-right-grammar-school-after-the-11-plus",
-    title: "How to choose the right grammar school after the 11 Plus.",
-    desc: "Discover how to choose the right grammar school after the 11 Plus. Assess your child's needs, research local options, evaluate academic performance, and align elite education with their strengths. Get expert tips now.",
-    date: "February 4, 2026",
-    readTime: "8 min read",
-    category: "Schools",
-    imageUrl: "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_4.jpeg",
-    imageAlt: "How to choose the right grammar school after the 11 Plus.",
-    images: ["https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_1.jpeg", "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_2.jpeg", "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_3.jpeg", "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding Grammar Schools" },
-      { type: "p", text: "[Grammar schools](/schools) in the UK admit pupils based on **academic ability** via the 11+ exam, with 163 state-funded grammar schools serving over 140,000 students across England. These **selective schools** trace their roots to the 1944 Education Act, which aimed to provide rigorous education for high achievers. Today, they cluster in areas like Kent, Buckinghamshire, and Trafford." },
-      { type: "p", text: "Unlike **comprehensive schools**, grammar schools focus on academic rigour from year 7. Pupils face the **11+ entrance exam**, often featuring verbal reasoning, maths, English comprehension, and non-verbal reasoning. Success depends on preparation with practice papers and mock exams." },
-      { type: "p", text: "Parents choosing a **grammar school** should review the prospectus, attend open days, and check Ofsted ratings. Consider factors like co-educational or single-sex settings, day school options, and distance from home. This academic selection creates environments suited for pupils targeting top GCSE and A-level results." },
-      { type: "p", text: "Grammar schools offer specialist teachers in STEM subjects and humanities, alongside extracurricular activities like debating clubs and music ensembles. They prioritise stretch and challenge for gifted pupils, with strong pastoral care and SEN support. Transitioning to one requires mastering test technique and building confidence through revision timetables." },
-      { type: "h3", text: "Key Features and Benefits" },
-      { type: "p", text: "Grammar schools deliver **superior academic outcomes**, with pupils achieving 82% grades 7-9 at GCSE vs. national 47% (DfE 2023 data). They select the top performers via the **11+ exam**, fostering focused learning. This leads to strong progress tracking and value-added scores." },
-      { type: "p", text: "Key benefits include **higher GCSE and A-level results**, as seen in schools like Colchester Royal Grammar with 92% A*-B at A-level. Oxbridge success stands out, with institutions like Queen Elizabeth's School Barnet sending 25% to Russell Group universities. Smaller **class sizes** around 24:1 allow personalised teaching from subject specialists." },
-      { type: "ul", items: ["**Specialist teachers** in areas like maths and sciences provide enrichment through science fairs and STEM clubs.", "**Scholarships and bursaries** support talented pupils, including means-tested places.", "Extracurriculars such as Duke of Edinburgh and drama productions build holistic development."] },
-      { type: 'table', headers: ["School", "Progress 8 Score"], rows: [["Queen Elizabeth's School, Barnet", "1.2"], ["Colchester Royal Grammar", "1.1"], ["Trafford Grammar School", "1.0"], ["Kent Test School", "0.9"], ["Sutton Grammar", "0.9"]] },
-      { type: "p", text: "These features enhance university destinations and careers guidance. Parents value the academic focus alongside leadership opportunities like prefects and house systems." },
-      { type: "h3", text: "Differences from Other Schools" },
-      { type: "p", text: "Unlike comprehensive schools (non-selective, mixed ability), grammar schools select top performers via the 11+ exam, creating focused academic environments. This academic selection prioritises high achievers aiming for selective eligibility. Comprehensives serve broader catchment areas without entrance tests." },
-      { type: "p", text: "Independent schools charge fees but offer similar rigour, often with boarding options. Grammar schools provide state-funded excellence with no fees, appealing for social mobility. Key distinctions lie in admission processes and pupil profiles." },
-      { type: 'table', headers: ["Feature", "Grammar", "Comprehensive", "Independent"], rows: [["Admission", "11+ exam", "catchment", "fee-paying"], ["Class sizes", "24:1", "28:1", "18:1"], ["GCSE 7+", "82%", "47%", "75%"], ["Fees", "\u00a30", "\u00a30", "\u00a318k/year"], ["Social mix", "**academic high achievers**", "broad ability", "affluent"]] },
-      { type: "p", text: "In Kent, Kent Test grammars outperform local comprehensives in league tables, with better A-level results and Oxbridge admissions. Families note stronger teaching quality and extracurriculars like sports teams. When choosing, weigh location priority, school transport, and sibling policies against these differences." },
-      { type: "h2", text: "Assessing Your Child's Needs" },
-      { type: "p", text: "Parents often start with their child's **KS2 data** and **11+ readiness** to gauge fit for grammar schools. These selective schools suit high-ability pupils who thrive in academic selection environments. However, they may offer limited resources for special educational needs compared to comprehensives." },
-      { type: "p", text: "Match the **school environment** to your child's learning preferences and support requirements for success. Consider factors like class sizes, pastoral care, and SEN support in state grammar schools. Realistic assessment helps avoid oversubscribed schools where waiting lists are common." },
-      { type: "p", text: "Use **mock exams** and practice papers to evaluate performance against pass marks, such as those in the Kent Test or CEM Select. Review catchment area priorities and sibling policies alongside academic profile. This leads to targeted methods for assessing strengths and needs." },
-      { type: "p", text: "Experts recommend analysing verbal reasoning, maths test, and non-verbal reasoning scores from GL Assessment or similar. Visit school open days to observe teaching quality and pupil panels. Such steps ensure the grammar school aligns with your child's future prospects." },
-      { type: "h3", text: "Academic Strengths and Interests" },
-      { type: "p", text: "Administer GL Assessment's Cognitive Abilities Test (**CAT4**) to benchmark verbal, quantitative, and non-verbal skills against national averages. Aim for top quartile performance in verbal reasoning for grammar school suitability. This free practice helps identify strengths early in **11+ preparation**." },
-      { type: "p", text: "Follow these numbered steps to assess readiness thoroughly." },
-      { type: "ol", items: ["Complete free CAT4 practice to establish baseline scores.", "Track mock 11+ scores, targeting strong standardised scores in each section.", "Analyse performance in verbal reasoning, maths test, non-verbal reasoning, and English comprehension.", "Compare results to typical grammar pass marks, like those in the Kent Test."] },
-      { type: "p", text: "Review section-specific weaknesses using error analysis from practice papers. For example, if maths test scores lag, focus on revision timetables with tutor support. This maximises strengths for entrance exams." },
-      { type: 'table', headers: ["Raw Score Range", "Standardised Age Score (SAS)", "Grammar Suitability"], rows: [["Low", "Below 100", "Consider comprehensives"], ["Average", "100-109", "Intensive exam preparation needed"], ["Strong", "110+", "Competitive for grammars"]] },
-      { type: "p", text: "Match high scores in STEM subjects to schools with strong science fairs or technology labs. Single-sex grammars may excel in specific areas like humanities curriculum. Use league tables for GCSE results and value added scores to confirm fit." },
-      { type: "h3", text: "Learning Style and Support Needs" },
-      { type: "p", text: "Grammar schools often feature **academic rigour** with subject specialists, yet support varies. Use tools like the VARK questionnaire to identify if your child prefers visual, auditory, reading, or kinesthetic learning. This informs choices between co-educational grammar and single-sex options." },
-      { type: "p", text: "Assess support needs with this checklist for practical evaluation." },
-      { type: "ul", items: ["Complete VARK questionnaire to determine learning style.", "Identify specific requirements, such as for dyslexia or gifted pupils.", "Review school SEN policies via Ofsted reports and prospectuses.", "Check for stretch and challenge programmes for high ability."] },
-      { type: "p", text: "Grammar schools prioritise high-ability pupils, so evaluate SEN support and gifted provisions. Attend headteacher talks at open days to ask about intervention strategies and progress tracking. Parental evenings reveal homework load and pastoral care details." },
-      { type: 'table', headers: ["Need Level", "Recommended School Type", "Key Features"], rows: [["Minimal", "State grammar", "Academic focus, enrichment programmes"], ["Moderate SEN", "Comprehensive or independent", "Specialist SENCO, counselling services"], ["Gifted", "Selective grammar", "G&T coordinators, Oxbridge admissions prep"]] },
-      { type: "p", text: "For example, schools with debating clubs suit verbal learners, while those offering Duke of Edinburgh fit active styles. Prioritise mental health support and anti-bullying policies. This ensures holistic development alongside exam technique and confidence building." },
-      { type: "h2", text: "Researching School Options" },
-      { type: "p", text: "Start with your **Local Authority's grammar school list**. There are 163 state grammars across 36 LAs, concentrated in Kent with 38 schools and Birmingham with 8. Official LA lists provide definitive grammar inventories by **catchment area**." },
-      { type: "p", text: "Supplement these with national databases for comparisons. Note that **oversubscription** at an average 3:1 ratio requires strategic selection across 5-7 schools, so it helps to know [how to choose between several grammar schools](/blog/how-do-i-choose-between-several-grammar-schools). This approach helps match your child's strengths from the **11 Plus entrance exam** to suitable options." },
-      { type: "p", text: "Focus on factors like **academic performance**, extracurricular activities, and pastoral care. Attend school open days to gauge the atmosphere. Use these tools to build a shortlist that balances location and future prospects." },
-      { type: "p", text: "Research suggests prioritising schools with strong **GCSE results** and A-level outcomes. Consider co-educational or single-sex grammar setups. This groundwork sets the stage for informed applications." },
-      { type: "h3", text: "Local Authority Lists" },
-      { type: "p", text: "Access county-specific lists: Kent at kent.gov.uk/grammar, Buckinghamshire at buckscc.gov.uk/grammar, Trafford at trafford.gov.uk/grammar. Begin by visiting gov.uk/find-school to locate your **LA grammar list**. These pages detail all state grammar schools in your area." },
-      { type: "p", text: "Next, note **catchment radii**, such as Trafford at 4.9 miles or Sutton at 6 miles. Check admission numbers, averaging 180 Year 7 places per school. Review **oversubscription criteria** like sibling policy or distance from home." },
-      { type: "p", text: "Follow these steps to identify viable options post-**11 Plus qualifying score**. Cross-reference with exam formats like CEM Select or GL Assessment. This ensures alignment with your child's **standardised score**." },
-      { type: 'table', headers: ["Local Authority", "Number of Grammar Schools"], rows: [["Kent", "38"], ["Birmingham", "8"], ["Trafford", "4"], ["Sutton", "4"], ["Buckinghamshire", "13"], ["Barnet", "4"], ["Redbridge", "4"], ["Bexley", "4"], ["Slough", "2"], ["Reading", "2"]] },
-      { type: "p", text: "Use this table of top grammar-dense LAs to expand your search. Experts recommend verifying **waiting lists** and appeal processes early." },
-      { type: "h3", text: "Online Resources and Databases" },
-      { type: "p", text: "Our [side-by-side school comparison tool](/compare) sits alongside directories with 12,000+ data points for all 163 grammars. These tools map **catchment areas** and academic metrics. They help evaluate post-**11 Plus** fit." },
-      { type: "p", text: "Key resources include GrammarSchoolSearch.co.uk for catchment mappers, Ofsted.gov.uk/reports for inspection insights, and ALevelResults.com for sixth form data. Add GoodSchoolsGuide.co.uk for parent testimonials, SchoolCatchmentAreas.co.uk for boundaries, and CESAS.org.uk for consortium exam details. Each offers unique angles on **Ofsted ratings** and league tables." },
-      { type: "p", text: "For example, search GrammarSchoolSearch.co.uk by postcode to see Trafford grammar options. Compare GCSE results on SchoolDash.com across **Sutton grammar** schools. These steps reveal strengths in STEM subjects or music departments." },
-      { type: 'table', headers: ["Resource", "Key Features", "Pricing"], rows: [["GrammarSchoolSearch.co.uk", "Catchment mapper, exam info", "Free basic, premium subscription"], ["Ofsted.gov.uk/reports", "Inspection reports, safeguarding", "Free"], ["ALevelResults.com", "A-level, university destinations", "Free"], ["GoodSchoolsGuide.co.uk", "Reviews, extracurriculars", "Free articles, paid guides"], ["SchoolCatchmentAreas.co.uk", "Boundary maps, admissions", "Free trial, subscription"], ["CESAS.org.uk", "Consortium tests, pass marks", "Free"]] },
-      { type: "p", text: "This table highlights features for quick decisions. Prioritise sites with **value added scores** to assess teaching quality beyond raw results." },
-      { type: "h2", text: "Evaluating Academic Performance" },
-      { type: "p", text: "Raw **GCSE** and A-Level results vary by intake ability across grammar schools, so **value-added metrics** reveal true performance. The Department for Education publishes comprehensive data annually. Top grammars often show strong progress from 11 Plus entry." },
-      { type: "p", text: "Focus on **Progress 8 scores** first, where the national grammar average stands at +1.05 compared to -0.03 for all schools. This measure tracks student progress from key stage 2 to GCSEs. It highlights how well a selective school builds on **academic selection**." },
-      { type: "p", text: "Compare schools using DfE data over three years for trends. Look beyond raw attainment to see consistent **value-added scores**. This approach helps identify grammars that maximise potential after the **entrance exam**." },
-      { type: "p", text: "Consider catchment area and oversubscription when evaluating. Schools with high **Progress 8** often support strong transitions to sixth form. Attend open days to discuss metrics with staff." },
-      { type: "h3", text: "GCSE and A-Level Results" },
-      { type: "p", text: "Queen Elizabeth's School Barnet leads with 97% grades 9-7 at GCSEs and 85% A*-A at A-Levels, based on 2023 DfE data, in line with the strong [GCSE and A-level results grammar schools get](/blog/what-gcse-and-a-level-results-do-grammar-schools-get). Raw results matter for university destinations like **Oxbridge admissions**. Yet, intake quality from the 11 Plus influences these figures." },
-      { type: "p", text: "**Single-sex grammars** tend to outperform co-ed ones in GCSE grades. Check DfE Compare Schools for latest tables. Review three-year trends to spot improvements or dips in **A-Level results**." },
-      { type: 'table', headers: ["School", "GCSE 9-7%", "A-Level A*-A%", "Progress 8"], rows: [["Queen Elizabeth's School Barnet", "97", "85", "+1.25"], ["Tiffin Girls' School", "95", "82", "+1.42"], ["Colchester Royal Grammar School", "93", "80", "+1.38"], ["Henrietta Barnett School", "96", "83", "+1.35"], ["Wilson's School", "94", "79", "+1.20"], ["Reading School", "92", "78", "+1.15"], ["King Edward VI Camp Hill School for Boys", "91", "77", "+1.10"], ["St Olave's Grammar School", "93", "81", "+1.22"], ["Traford Grammar School", "90", "76", "+1.05"], ["Sutton Grammar School", "89", "75", "+1.08"]] },
-      { type: "p", text: "Use this table to benchmark top performers. Single-sex options like Tiffin Girls' show strength in GCSE results. Balance with your child's needs, such as STEM subjects or humanities." },
-      { type: "h3", text: "Progress Scores and Value-Added" },
-      { type: "p", text: "Select grammars with Progress 8 above +1.0, such as Tiffin Girls at +1.42, Colchester Royal Grammar at +1.38, and Henrietta Barnett at +1.35. This score measures GCSE progress from primary baselines. Scores above +0.5 indicate excellent **value-added** performance." },
-      { type: "p", text: "Progress 8 averages attainment across eight subjects, including English, maths, and three others. For A-Levels, check VA metrics or ALPS rankings. DfE performance tables provide these details annually." },
-      { type: "p", text: "To calculate trends, subtract prior years' scores and note patterns. Benchmark against the **national average** for grammars. High scores signal strong teaching after 11 Plus success." },
-      { type: 'table', headers: ["School", "Progress 8"], rows: [["Tiffin Girls' School", "+1.42"], ["Colchester Royal Grammar School", "+1.38"], ["Henrietta Barnett School", "+1.35"], ["Queen Elizabeth's School Barnet", "+1.25"], ["St Olave's Grammar School", "+1.22"], ["Wilson's School", "+1.20"], ["Reading School", "+1.15"], ["King Edward VI Camp Hill School for Boys", "+1.10"], ["Sutton Grammar School", "+1.08"], ["Trafford Grammar School", "+1.05"], ["Highgate School", "+1.02"], ["Barton Peveril College", "+1.01"], ["Dr Challoner's Grammar School", "+0.98"], ["Watford Grammar School for Boys", "+0.95"], ["Norbury Manor Business and Enterprise College for Girls", "+0.92"], ["Poole Grammar School", "+0.90"], ["Richard Challoner School", "+0.88"], ["St Joseph's College", "+0.85"], ["Tonbridge Grammar School", "+0.82"], ["Weald of Kent Grammar School", "+0.80"]] },
-      { type: "p", text: "Experts recommend prioritising Progress 8 over raw scores for fair comparison. Visit school open days to ask about progress tracking. This ensures the grammar suits your child's academic rigour post-entrance exam." },
-      { type: "h2", text: "Location and Accessibility" },
-      { type: "p", text: "Prioritize grammars within **6-mile catchment** areas, as most admit by distance after the 11 Plus entrance exam. Transport allowances vary across local authorities, with some capping at \u00a31,100 per year. Choosing a nearby selective school cuts costs and stress for daily travel." },
-      { type: "p", text: "Use a clear **location evaluation framework** to assess options. Start with Google Maps to overlay catchment areas for oversubscribed schools. Then check local authority transport policies for free or subsidised school transport." },
-      { type: "p", text: "Review bus timetables from providers like TfL or Stagecoach for reliable routes. Explore cycle and pedestrian paths using tools like CycleStreet to ensure safe travel. This approach helps families plan for smooth commutes to grammar schools." },
-      { type: "p", text: "For example, Birmingham families often save significantly by selecting Sutton Coldfield grammars close to home, avoiding high private transport fees. Proximity supports better attendance and involvement in school open days or extracurricular activities. Always factor in sibling policy and drop-off zones for practicality." },
-      { type: "h3", text: "Local Authority Transport Policies" },
-      { type: 'table', headers: ["Local Authority", "Free Transport Distance", "Key Notes"], rows: [["Kent", "2 miles (under 8), 3 miles (8-16)", "Selective schools get priority; check Kent Test outcomes."], ["Birmingham", "3-6 miles based on faith/selection", "Distance from usual place of residence applies post-11+."], ["Trafford", "3 miles (primary), 4.5 miles (secondary)", "Grammar priority within catchment after pass mark."], ["Sutton", "Up to 6 miles for grammars", "Postcode prioritisation for Sutton grammar schools."], ["Barnet", "3 miles standard", "Selective eligibility test followed by distance ties."]] },
-      { type: "p", text: "Consult your **local authority website** for the latest policies, as they tie into catchment area and academic selection. Low-income families may qualify for passes covering public transport links. This ensures access to top grammars without unexpected bills." },
-      { type: "p", text: "Combine with school transport options like dedicated buses for day schools. Experts recommend verifying eligibility early, especially for co-educational or single-sex grammars in competitive areas. Safe travel supports focus on GCSE results and A-level preparation." },
-      { type: "h2", text: "Curriculum and Extracurriculars" },
-      { type: "p", text: "Top grammars offer **IB/Extended Project** alongside A-Levels, with specialist music facilities common in these schools. Parents choosing after the 11 Plus should compare curriculum options and extracurriculars to match their child's interests. This ensures holistic development beyond academic selection." },
-      { type: "p", text: "Examine **A-Level pathways** versus IB programmes, as some grammars provide both for flexibility in sixth form. Look at sports teams, arts groups, and STEM facilities during school open days. Pupil testimonials often highlight how these activities build confidence post-entrance exam." },
-      { type: "p", text: "Ofsted reports praise **curriculum breadth** in elite grammars, noting enrichment like Duke of Edinburgh awards. Compare via league tables and prospectuses for GCSE results tied to extracurricular success. Visit to see robotics clubs or orchestras in action." },
-      { type: "p", text: "Examples include Wilson's School with Robotics Olympiad winners and Newstead Wood featuring a National Orchestra. These showcase **enrichment programmes** that support university destinations like Oxbridge. Balance academic rigour with arts and sports for well-rounded pupils." },
-      { type: "h3", text: "Comparison Matrix of Elite Grammars" },
-      { type: 'table', headers: ["School", "Academic", "Sports", "Arts", "STEM", "Enrichment"], rows: [["Wilson's School", "A-Levels, Extended Project", "County cricket, rugby teams", "Chamber orchestra", "Multiple robotics labs", "DofE Gold programme"], ["Reading School", "A-Levels", "County football, rowing", "Symphony orchestra", "STEM labs with coding focus", "DofE expeditions"], ["Tiffin Girls", "A-Levels, EPQ", "County hockey, tennis", "Drama productions", "Science labs, engineering club", "Gold DofE awards"], ["Highgate Wood", "IB, A-Levels", "County basketball", "Jazz band, art studios", "Modern languages labs", "Leadership in DofE"]] },
-      { type: "p", text: "This matrix helps compare **five elite grammars** on key areas after the 11 Plus. Use it alongside Ofsted ratings and catchment area details. Focus on what fits your child's strengths from mock exams." },
-      { type: "h3", text: "Ofsted Comments and Pupil Testimonials" },
-      { type: "p", text: "Ofsted often commends grammars for **curriculum ambition**, highlighting specialist facilities in music and STEM. Reports note how extracurriculars enhance pastoral care and progress tracking. Check latest inspections for comments on teaching quality." },
-      { type: "p", text: "Pupil testimonials praise **sports teams** and orchestras for building resilience. One from Wilson's mentions \"Robotics club prepared me for engineering at university\". These insights reveal real experiences beyond league tables." },
-      { type: "p", text: "Experts recommend reading parent testimonials on school websites for **holistic development**. Look for mentions of Duke of Edinburgh Gold or science fairs. This informs choices for oversubscribed schools with waiting lists." },
-    ],
-  },
+  "slug": "how-to-choose-the-right-grammar-school-after-the-11-plus",
+  "title": "How to choose the right grammar school after the 11 Plus",
+  "desc": "Compare admissions eligibility, school support, curriculum and the daily journey, with practical questions for visits and preference decisions.",
+  "date": "February 4, 2026",
+  "readTime": "5 min read",
+  "category": "Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_4.jpeg",
+  "imageAlt": "How to choose the right grammar school after the 11 Plus.",
+  "images": [
+    "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-to-choose-the-right-grammar-school-after-the-11-plus(7rk9)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "After an 11 Plus result, separate two questions: which schools could realistically offer a place, and which would suit your child’s everyday life? A qualifying result does not answer the second question. Use the actual admissions policy alongside a visit, current school information and your child’s views."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? An autumn 2027 test commonly relates to September 2028 entry. This guide explains the current England state-school framework, checked on 8 October 2026. Confirm the school-entry year and that cycle’s official procedure before acting; future local deadlines are not confirmed here."
+    },
+    {
+      "type": "h2",
+      "text": "Check that the school is a realistic option"
+    },
+    {
+      "type": "p",
+      "text": "Confirm whether it is a state-funded grammar school or an independent school with “grammar” in its name. Their application routes differ. For a state place, read the relevant entry-year admissions arrangements; for an independent school, contact the school directly about its process."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Does your child’s result satisfy this school’s academic requirement, or is another stage involved?",
+        "Have you registered, shared results and submitted supplementary information where required?",
+        "Which oversubscription category applies, and what evidence does it require?",
+        "Are there address, catchment or residence-date rules to check?",
+        "Is the information final for the entry year, or still a consultation proposal?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Previous allocation scores and distances may provide context, but they cannot promise this year’s outcome. Keep a copy of the policy rather than relying on a summary from a tutoring website. Our [school directory](/schools) can help you identify schools; verify the final details with each school and council."
+    },
+    {
+      "type": "h2",
+      "text": "Research the school beyond its headline results"
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s school-choice guide](https://www.gov.uk/schools-admissions) points parents towards school visits, inspection reports and performance information. Use the [official performance service](https://www.gov.uk/school-performance-tables) to check published data, including its year and explanatory notes. A table is a starting point for questions, not a complete measure of how your child will experience the school."
+    },
+    {
+      "type": "p",
+      "text": "Write down what you want to learn before a visit. “Strong pastoral care” is a general claim; “Who notices if a new Year 7 pupil repeatedly eats lunch alone?” is a question a school can answer concretely. Do the same for academic support, stretching confident pupils and managing homework."
+    },
+    {
+      "type": "h2",
+      "text": "Questions to ask about teaching and support"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "How do teachers identify a Year 7 pupil who is finding a subject difficult?",
+        "What happens after that concern is identified, and how are parents involved?",
+        "How are pupils challenged when they understand the material quickly?",
+        "Which languages, arts, practical subjects and clubs can Year 7 pupils actually access?",
+        "Who is the first contact for wellbeing or friendship concerns?",
+        "How does the SENCO organise transition and discuss a pupil’s support needs?",
+        "What does a typical week of homework look like, and what help is available if it becomes unmanageable?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Read the school’s SEN information report and request a specific conversation if your child needs support. Do not assume that every selective school offers the same provision or that a high test score means support is unnecessary. If your child has an EHC plan, discuss the school-placement route with the responsible council rather than treating it as an ordinary preference application."
+    },
+    {
+      "type": "h2",
+      "text": "Test the whole daily journey"
+    },
+    {
+      "type": "p",
+      "text": "Consider door-to-door travel at school times, including waiting and changes. Then test the return journey after a club, on a wet day and when a bus is missed. Check current fares and the council’s transport eligibility rules before assuming a school place includes free travel."
+    },
+    {
+      "type": "p",
+      "text": "A useful family exercise is to sketch an ordinary Tuesday: departure, lessons, club, journey home, food, homework and downtime. There is no universal acceptable commute. The question is whether this routine remains workable for your child and the adults supporting them."
+    },
+    {
+      "type": "h2",
+      "text": "Use an evidence-based comparison sheet"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Area",
+        "What to record for each school",
+        "Follow-up if unclear"
+      ],
+      "rows": [
+        [
+          "Admissions",
+          "Entry-year policy, qualification requirement and priority category",
+          "Ask admissions which rule applies"
+        ],
+        [
+          "Learning",
+          "Curriculum and examples of support or challenge",
+          "Ask a subject teacher about Year 7 practice"
+        ],
+        [
+          "Wellbeing",
+          "Named contacts and the process for raising concerns",
+          "Ask how a recent concern would be handled"
+        ],
+        [
+          "SEND",
+          "Published provision and discussion of your child’s needs",
+          "Arrange a SENCO conversation"
+        ],
+        [
+          "Travel",
+          "Actual journey, cost and after-school return option",
+          "Check operator and council information"
+        ],
+        [
+          "Child’s view",
+          "What felt welcoming or difficult, with a reason",
+          "Revisit the specific uncertainty"
+        ],
+        [
+          "Practical fit",
+          "Uniform, meals, clubs and routine",
+          "Check costs and availability directly"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Leave unknown items blank and investigate them. Do not turn guesses into a numerical school ranking. If one factor is essential, such as a workable journey or a particular support arrangement, record that explicitly rather than allowing attractive facilities to outweigh it by accident."
+    },
+    {
+      "type": "h2",
+      "text": "Include your child without handing them all the pressure"
+    },
+    {
+      "type": "p",
+      "text": "Ask what they noticed: a lesson that interested them, somewhere they could spend lunch, a pupil they spoke to, or a part of the day they found confusing. Invite specific observations instead of asking them to decide their entire future after one open evening. Parents can then explain the practical constraints calmly."
+    },
+    {
+      "type": "p",
+      "text": "Hypothetical example: a family likes two schools. One has a higher headline result in a league table, but its journey makes the child’s chosen weekly activity impractical. The other meets the child’s learning needs and has a manageable route. The family investigates support at both and chooses according to the whole week, not a single number. This illustrates a decision process, not a verdict on real schools."
+    },
+    {
+      "type": "h2",
+      "text": "Turn your comparison into preferences and next steps"
+    },
+    {
+      "type": "p",
+      "text": "Follow your home council’s application guidance and list schools in your genuine order of preference. [GOV.UK explains the application process](https://www.gov.uk/schools-admissions/how-to-apply). Keep realistic alternatives on the list and retain submission confirmation. If you are already considering an offer, follow its response deadline while checking any separate waiting-list arrangements."
+    },
+    {
+      "type": "p",
+      "text": "If a qualifying result does not lead to a place, use our [next-steps guide](/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place). School choice is not finished by a pass mark: keep checking that the available option meets your child’s educational and practical needs."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "what-is-a-grammar-school",
@@ -6461,122 +6780,184 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "what-are-the-grammar-school-admission-criteria",
-    title: "What are the grammar school admission criteria?",
-    desc: "Discover what grammar school admission criteria entail, from the vital 11+ exam format and scoring to regional UK variations, timelines, and supplementary tests. Master the process and boost your child's chances today.",
-    date: "February 20, 2026",
-    readTime: "11 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_4.jpeg",
-    imageAlt: "What are the grammar school admission criteria?",
-    images: ["https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_1.jpeg", "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_2.jpeg", "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_3.jpeg", "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Overview of Grammar School Admissions" },
-      { type: "p", text: "Grammar schools in the UK are **state-funded selective secondary schools** that admit pupils based primarily on academic ability assessed through the **11+ exam**, with 163 remaining across England as of 2023. According to Department for Education data, these schools operate in 22 local authorities. They focus on delivering high academic standards for pupils who excel in entrance tests." },
-      { type: "p", text: "The purpose of grammar schools centres on providing **academic excellence** for the top 20-25% of performers. Historically, over 1,294 such schools existed before the 1960s shift to comprehensives reduced their numbers dramatically. Today, they maintain a tradition of rigorous education through selective admission." },
-      { type: "p", text: "Examples include Queen Elizabeth's School Barnet, known for top GCSE results, and Tiffin Girls' School, with strong A*-B grades. Parents often research these by [browsing local grammar schools](/schools) alongside league tables and Ofsted ratings. Attending an open day or reviewing the prospectus helps gauge fit for **grammar school entry requirements**." },
-      { type: "p", text: "Admission criteria typically prioritise **11+ exam scores**, alongside factors like [catchment area](/blog/how-important-is-catchment-area-for-grammar-schools) or [sibling priority](/blog/do-grammar-schools-give-priority-to-siblings) in oversubscription. Preparation involves mock exams and practice papers in verbal reasoning, non-verbal reasoning, maths, and English. Understanding these steps aids families in navigating the process, which fits within the wider [timeline for grammar school admissions](/blog/what-is-the-timeline-for-grammar-school-admissions)." },
-      { type: "h3", text: "Definition and Purpose" },
-      { type: "p", text: "Grammar schools select students based on **11+ exam performance**, aiming to provide rigorous academic education for high-ability pupils aged 11-18. Department for Education figures note 163 such schools serving around 5% of secondary pupils. They differ from comprehensives by using **academic selection** rather than all-ability intake." },
-      { type: "p", text: "The legal basis stems from the **School Standards and Framework Act 1998**, which regulates selective admissions. Research from the Sutton Trust indicates grammar pupils attend Russell Group universities at higher rates than peers. This underscores their role in stretching top performers through advanced curricula." },
-      { type: "p", text: "In contrast to comprehensives, grammar schools emphasise subjects like mental arithmetic and problem solving from year 7. Experts recommend early preparation with GL Assessment or CEM Select practice. Parents should check local authority coordinated admissions for deadlines." },
-      { type: "p", text: "Practical steps include registering for the **entrance test** via the common application form. Oversubscription criteria may involve distance from school or looked after children priority. Reviewing past papers builds confidence for verbal reasoning and maths tests." },
-      { type: "h2", text: "Primary Admission Criterion: 11+ Exam" },
-      { type: "p", text: "The 11+ exam remains the cornerstone of grammar school admissions, testing cognitive abilities across multiple formats used by **GL Assessment** and CEM. Most grammar schools rely on this entrance test as their main **admission criterion**, with formats varying by region. Schools in areas like Kent and Buckinghamshire often use GL papers, while others adopt CEM's adaptive style." },
-      { type: "p", text: "GL Assessment provides **multiple choice** questions on paper, covering English, maths, verbal reasoning, and non-verbal reasoning. In contrast, CEM Select uses a **computer adaptive test** with just two papers focused on comprehension and maths. Regional differences mean parents should check their local authority's coordinated admissions scheme for exact details." },
-      { type: "p", text: "Practice is key for the 11+ exam. Families often use mock exams at test centres or school halls to build familiarity. This primary criterion sets grammar schools apart from comprehensives, emphasising academic selection over catchment area or distance alone." },
-      { type: "p", text: "Beyond the exam, some schools add **oversubscription criteria** like sibling priority or looked after children. Understanding these helps with secondary school applications via the common application form. Preparation starts early to meet entry requirements confidently." },
-      { type: "h3", text: "Exam Format and Subjects" },
-      { type: "p", text: "Most **11+ exams** comprise 4 papers: English (25-30 mins), Maths (25-30 mins), Verbal Reasoning (20-30 mins), Non-Verbal Reasoning (20-30 mins), totaling 2 hours. GL Assessment sticks to this **paper-based test** format with multiple choice questions. CEM Select simplifies to two adaptive digital papers instead." },
-      { type: 'table', headers: ["Feature", "GL Assessment", "CEM Select"], rows: [["Papers", "4 papers", "2 papers (comprehension & maths)"], ["Format", "Multiple choice, paper-based", "Adaptive, digital"], ["Timing", "20-30 mins per paper", "50-60 mins per paper"], ["Question Count", "Typically 60 English, 50 Maths", "Varies by adaptation"]] },
-      { type: "p", text: "Subjects test core skills like pattern recognition in non-verbal reasoning and mental arithmetic in maths. Parents can source practice from providers like Bond, CGP, or ExamNinja, with packs available for modest costs. Timed practice at home mimics the invigilated test centre experience." },
-      { type: "p", text: "Regional formats differ, so verify with your local authority. Some areas include **verbal reasoning** heavily, others blend it into English. Consistent exam preparation builds speed and accuracy for selective admission." },
-      { type: "h3", text: "Scoring and Pass Marks" },
-      { type: "p", text: "Grammar schools typically require **standardised scores** of 110-121+ (top 20-25% nationally), with aggregate scores combining all papers (e.g., 334/400 for Birmingham grammars). Scores use a mean of 100 and standard deviation of 15 for age-standardisation. This helps **summer-born children** by adjusting for younger age." },
-      { type: "p", text: "Examples include Kent grammars needing 121+ on all papers, Trafford requiring 121 in VR/NVR plus 111 in Maths/English. Birmingham uses an aggregate like 334/400 for qualification. Pass marks vary by region and oversubscription, so check school prospectuses." },
-      { type: "p", text: "Aggregate scores total raw marks converted to standardised ones. Qualifying scores place pupils on waiting lists if needed. Experts recommend mock exams to gauge progress against these benchmarks." },
-      { type: "p", text: "Age-standardisation ensures fairness in the entrance test. If scores meet the pass mark, further criteria like catchment area or pupil premium apply. Families facing rejection can explore the appeal process via independent panels." },
-      { type: "h2", text: "Regional Variations in Criteria" },
-      { type: "p", text: "Grammar school **admission criteria** vary significantly by region, with 22 local authorities maintaining selective systems and unique oversubscription criteria beyond 11+ scores. Areas like Kent feature many more grammar schools compared to London. Parents must check local rules for entry requirements." },
-      { type: "p", text: "In Kent, 38 grammar schools operate, while London has just 8. This difference affects how families approach **selective admission**. Some regions prioritise distance, others use random methods." },
-      { type: "p", text: "About three-quarters of schools apply distance tie-breaks when demand exceeds places after entrance tests. Around one-fifth rely on **random allocation** for fairness. Understanding these helps with **secondary school applications**." },
-      { type: "p", text: "Key selective areas include Kent, Lincolnshire, and Buckinghamshire. Each has distinct approaches like **catchment areas** or lotteries. Reviewing the **common application form (CAF)** early aids preparation." },
-      { type: "h3", text: "UK Selective Areas" },
-      { type: "p", text: "Kent leads with 38 grammar schools serving a large portion of pupils, followed by Lincolnshire with 13 grammars, Buckinghamshire with 13, and Trafford with 4 selective grammars within a 6km catchment. These areas maintain strong academic selection via the 11+ exam. Families often prepare with mock exams and practice papers." },
-      { type: "p", text: "Selective systems differ in oversubscription criteria, such as distance from the school gate or random ballots. In Barnet, a **random ballot** applies after qualifying scores. Sutton limits to under 6 miles for most places." },
-      { type: "p", text: "Wirral uses a **lottery system** for top scorers in verbal reasoning and maths tests. Parents should note priorities for looked after children, pupil premium, or siblings. Local authority coordinated admissions handle the **CAF deadline**." },
-      { type: 'table', headers: ["Area", "# Grammars", "% Selective", "Key Criterion", "Examples"], rows: [["Kent", "38", "25%", "Distance", "Measured from home to school gate"], ["Lincolnshire", "13", "High", "11+ score then distance", "GL Assessment tests"], ["Buckinghamshire", "13", "High", "Qualifying score, distance", "Sibling priority"], ["Trafford", "4", "High", "6km catchment", "Altrincham Grammars"], ["Barnet", "4", "Medium", "Random ballot", "After pass mark"], ["Sutton", "4", "High", "Distance <6 miles", "Nonsuch, Wallington"], ["Wirral", "5", "Medium", "Lottery for top scores", "UGCAT tests"], ["Slough", "2", "High", "11+ aggregate score", "Priority area"]] },
-      { type: "h2", text: "Application Process Timeline" },
-      { type: "p", text: "Applications follow strict national timelines coordinated by Local Authorities, with 11+ exams in September and offers released March 1st. The **coordinated admissions system** uses the Common Application Form (CAF) via your local authority. This ensures fair processing for all selective schools." },
-      { type: "p", text: "Parents must register early for **entrance tests**, often by summer. Exams test skills like verbal reasoning and maths, key to grammar school entry. Check your LA website for exact dates, as they vary slightly." },
-      { type: "p", text: "After exams, submit your CAF listing preferences. National offer day on **March 1st at 10am** brings results. Late applications risk missing selective admission spots." },
-      { type: "p", text: "Prepare by attending **open days** or virtual tours. Understand oversubscription criteria like catchment area or sibling priority. This timeline applies to state grammars, academies, and some faith schools." },
-      { type: "h3", text: "Key Deadlines" },
-      { type: "p", text: "Complete your **Common Application Form (CAF)** by October 31st; 11+ exams occur September 20th-30th; national offers released March 1st 10am. These dates form the backbone of grammar school admissions. Missing them can exclude your child from consideration." },
-      { type: "ol", items: ["Register for 11+ exams by July, such as June 30th in Kent. Providers like GL Assessment or CEM Select handle this.", "Take exams September 18th-30th at test centres or school halls, covering non-verbal reasoning and English.", "Receive results October 5th-12th, showing standardised scores against pass marks.", "Submit CAF by October 31st, ranking up to six schools including grammars.", "Offers issued March 1st via LA allocation, based on **aggregate scores** and priorities like looked after children."] },
-      { type: 'table', headers: ["Region", "CAF Deadline"], rows: [["Kent", "November 1st"], ["Barnet", "October 15th"], ["Other LAs", "October 31st (national)"]] },
-      { type: "p", text: "Regional variations mean checking your **local authority** is essential. Use practice papers from Bond or CGP for exam prep. If oversubscribed, waiting lists or appeals follow." },
-      { type: "h2", text: "Supplementary Tests and Assessments" },
-      { type: "p", text: "Beyond standard 11+, 15% of **grammar schools** use supplementary assessments including aptitude tests, interviews, or **banding tests** to ensure all-ability intakes." },
-      { type: "p", text: "These extra steps help schools assess specific skills or balance pupil backgrounds. They form part of admission criteria alongside core entrance tests. Families should check each school's prospectus for details." },
-      { type: "p", text: "Common types include **music aptitude**, creative tasks, and faith checks. Preparation involves targeted practice to build confidence. Understanding these boosts chances in selective admission." },
-      { type: "p", text: "Schools often combine them with verbal reasoning or **non-verbal reasoning** scores. Review oversubscription criteria like catchment area or sibling priority too. Early awareness aids effective exam preparation." },
-      { type: "h3", text: "Music Aptitude Tests" },
-      { type: "p", text: "Some grammars test musical ability as a **supplementary assessment**. For example, King Edward schools in Wirral require pupils to identify pitch or rhythm in audio clips." },
-      { type: "p", text: "These evaluate ear training and instrument familiarity without prior lessons needed. Practice with online audio samples sharpens skills. Sessions last around 30 minutes, often computer-based." },
-      { type: "p", text: "Combine with standard **11+ maths test** and **English test** scores for aggregate ranking. Experts recommend daily listening exercises. Mock tests simulate real conditions." },
-      { type: "h3", text: "Banding Tests" },
-      { type: "p", text: "**Banding tests** create all-ability intakes by grouping pupils by prior attainment. RGS Worcester uses them to select across ability ranges fairly." },
-      { type: "p", text: "Pupils take verbal, non-verbal, and numerical tests for banding placement. This ensures academic selection draws from full spectrum, not just top scorers. Scores contribute to final offers." },
-      { type: "p", text: "Prepare via **practice papers** from GL Assessment or CEM Select styles. Timed drills build speed. Review patterns in shape recognition and code breaking." },
-      { type: "h3", text: "Interviews" },
-      { type: "p", text: "Around 15% of grammars include **interviews** in entry requirements. They gauge communication, enthusiasm, and fit for school life." },
-      { type: "p", text: "Expect questions on hobbies, current studies, or group tasks. Practice clear answers with family or tutor support. Dress smartly and arrive early." },
-      { type: "p", text: "These follow initial **11+** qualifying score. Schools value confidence over perfection. Role-play scenarios like discussing a book aids readiness." },
-      { type: "h3", text: "Creative Writing Tasks" },
-      { type: "p", text: "Some independent and state grammars set **creative writing** as a supplement. Tasks might describe a scene or continue a story prompt." },
-      { type: "p", text: "Focus on structure, vocabulary, and punctuation. Time limits test composure under pressure. Examples include writing about a lost island adventure." },
-      { type: "p", text: "Build skills with weekly prompts and feedback. Read widely for ideas. Pair with **comprehension test** prep for best results." },
-      { type: "h3", text: "SEN Assessments" },
-      { type: "p", text: "Grammars with **SEN provision** offer assessments for special educational needs. These ensure fair access for disadvantaged pupils or those with medical needs." },
-      { type: "p", text: "Tests adapt for conditions like dyslexia, using extra time or formats. Submit evidence early via local authority. Priority may apply under oversubscription rules." },
-      { type: "p", text: "Consult school SEN coordinator for specifics. Practice adjusted multiple choice papers. This supports equal footing in **selective school** entry." },
-      { type: "h3", text: "Faith Criteria" },
-      { type: "p", text: "About 20 faith grammars require proof like **baptism certificates** or church attendance. These prioritise religious commitment in admission criteria." },
-      { type: "p", text: "Submit documents with secondary school application by closing date. Attendance logs verify regular worship. Ties into **faith school** ethos." },
-      { type: "p", text: "Prepare records in advance for coordinated admissions. Combine with **11 plus exam** results. Check prospectus for exact religious criteria details." },
-      { type: "h2", text: "Academic Prerequisites" },
-      { type: "p", text: "While primarily exam-based, grammar schools consider **Key Stage 2 SATs** (expected Level 5+), pupil premium status (automatic interview at 20 schools), and SEN provisions." },
-      { type: "p", text: "Most selective schools require pupils to achieve strong results in **KS2 SATs**, often at Level 4 or above, as a baseline for entry. These scores help determine eligibility before the **11+ entrance test**. Schools use them to identify candidates with solid foundations in maths, reading, and writing." },
-      { type: "p", text: "**Pupil premium** pupils, eligible for free school meals, receive priority at certain grammars, such as guaranteed interviews. This supports **disadvantaged pupils** in the selective admission process. Parents should check individual school policies for these benefits." },
-      { type: "p", text: "For pupils with **special educational needs** (SEN), many grammars offer provisions like priority placement or adjusted testing. Examples include extra time in the 11+ exam or specialised support. Early disclosure of SEN status via the common application form (CAF) is essential." },
-      { type: 'table', headers: ["Priority Group", "Schools Offering", "Examples"], rows: [["Pupil Premium", "12 schools", "Altrincham: PP interview"], ["Forces Families", "Various", "Dartford: Forces priority"], ["SEN Statemented", "68% grammars", "Priority access with provisions"], ["Looked After Children", "Most grammars", "Top oversubscription criterion"]] },
-      { type: "p", text: "This table outlines key **priority groups** in grammar school admissions. Families in these categories gain advantages during oversubscription. Always verify details on the school's prospectus or local authority website." },
-      { type: "h2", text: "Tie-Breaking and Waiting Lists" },
-      { type: "p", text: "When 11+ scores tie, schools apply oversubscription criteria: 52% use straight-line distance, 18% random ballot, 15% sibling priority, 10% catchment. These rules decide who gets a place in grammar schools when demand exceeds supply. Parents should check each school's admission criteria on the local authority website." },
-      { type: "p", text: "**Looked-after children** always top the priority list in every selective school. Siblings often rank high, with priority in most cases. Distance measurement uses precise methods like **Royal Mail PAF** or GIS mapping from home to school gate." },
-      { type: 'table', headers: ["Criterion", "% Schools", "Examples", "Distance Measured"], rows: [["Straight-line distance", "52%", "Most state grammars", "GIS mapping, Royal Mail PAF"], ["Random ballot", "18%", "Barnet grammars, Wilson School", "Not applicable"], ["Sibling priority", "15%", "80% of schools overall", "Sometimes combined with distance"], ["Catchment area", "10%", "Priority areas near school", "Defined boundary via postcode"]] },
-      { type: "p", text: "Waiting lists average **50-100 pupils per school** and stay active until at least the end of the autumn term. Children can move up if higher-ranked families decline offers or after a house move. Parents must contact the school to join and provide updates on circumstances." },
-      { type: "p", text: "Prepare by reviewing **coordinated admissions** via the common application form. Track national offer day for results. If unsuccessful, consider the **appeal process** through an independent panel." },
-      { type: "h2", text: "Appeals and Oversubscription Rules" },
-      { type: "p", text: "**Oversubscription** affects many grammar school applicants. Parents can appeal rejections through the School Admission Appeals Code (2012). This code sets a **20 school day appeal window** after receiving a refusal letter." },
-      { type: "p", text: "Success in appeals often hinges on **new evidence** like high mock exam scores above strong benchmarks. Panels look for **procedural errors** by the school, such as misapplied oversubscription criteria. In areas like Kent and Barnet, appeals have varying outcomes based on preparation." },
-      { type: "p", text: "Prepare by gathering mock 11+ results from registered centres, tutor reports, and school records. Submit evidence showing the child's **exceptional ability** for selective admission. Independent panels review cases fairly under the code." },
-      { type: "p", text: "A strong **appeal letter** follows a clear structure: state the case, present evidence, explain fit for the **grammar school**, and request admission. Use bullet points for key facts. Practice with sample templates to stay concise and focused." },
-      { type: "h3", text: "Understanding Oversubscription Criteria" },
-      { type: "p", text: "Grammar schools use oversubscription criteria when applications exceed places. Priority goes to **looked after children**, then those in catchment areas or meeting **distance criteria**. Sibling priority and pupil premium status also factor in." },
-      { type: "p", text: "Tests like the 11+ entrance test determine **qualifying scores** first. Successful candidates enter a random allocation or **waiting list** if oversubscribed. Local authorities manage this via the common application form (CAF)." },
-      { type: "p", text: "Parents should check each school's admission criteria, including aptitude tests or faith-based rules. Prepare for verbal reasoning, non-verbal reasoning, and **maths tests** to meet entry requirements. Review league tables and Ofsted ratings for context." },
-      { type: "h3", text: "Launching a Successful Appeal" },
-      { type: "p", text: "Start the appeal process within the **20 school day window**. Gather new evidence not seen before, like recent **mock exams** or teacher testimonials. Highlight any school procedural errors in applying rules." },
-      { type: "p", text: "Recommend mock exam evidence from providers using GL Assessment or **CEM Select** formats. Scores in practice papers for English, maths, and reasoning strengthen cases. Include tutor support notes on progress." },
-      { type: "p", text: "Independent appeal panels assess academic selection fit. Focus on the child's potential for **GCSE results** and beyond. Submit all documents early to avoid delays." },
-      { type: "h3", text: "Appeal Letter Template Structure" },
-      { type: "p", text: "Begin with your **appeal grounds** and child's details. Outline the family's connection to the selective school and why it suits their needs." },
-      { type: "ol", items: ["Introduce the case and reference the rejection letter.", "Present new evidence, such as **11+ mock scores** and reports.", "Detail any **procedural irregularities** by the admission authority.", "Explain the child's exceptional ability with examples from tests.", "Conclude with a polite request for a place."] },
-      { type: "p", text: "Keep it under two pages. Proofread for grammar and punctuation to show preparedness." },
-    ],
-  },
+  "slug": "what-are-the-grammar-school-admission-criteria",
+  "title": "Grammar-school admission criteria: how to check eligibility and priority",
+  "desc": "Understand grammar-school test requirements, oversubscription, catchment, pupil premium and application forms for the correct admissions year.",
+  "date": "February 20, 2026",
+  "readTime": "5 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_4.jpeg",
+  "imageAlt": "What are the grammar school admission criteria?",
+  "images": [
+    "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_1.jpeg",
+    "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_2.jpeg",
+    "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_3.jpeg",
+    "https://files.autoblogging.ai/images/what-are-the-grammar-school-admission-criteria(n6tm)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Grammar-school admission criteria explain who can be considered for a place and how places are allocated. The entrance-test result is only part of that picture. Depending on the school, academic qualification may be followed by priority categories, catchment rules, distance or score ranking. There is no universal pass mark or national allocation order that works for every grammar school."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? Check the school-entry year on every policy. An autumn 2027 test commonly leads to September 2028 entry. A page headed “2027 entry” may describe a test taken in 2026. Unpublished future arrangements should be treated as unconfirmed."
+    },
+    {
+      "type": "h2",
+      "text": "Find the correct policy before comparing schools"
+    },
+    {
+      "type": "p",
+      "text": "Open the school’s own Year 7 admissions page and download its determined policy for the relevant entry year. “Determined” means the published arrangements, rather than a proposed consultation version. Check for later official amendments and any separate test or supplementary-form instructions. A prospectus, old search snippet or another family’s experience may describe a different cycle."
+    },
+    {
+      "type": "p",
+      "text": "This guide focuses on state grammar schools in England. Some independent schools include “grammar” in their name but operate a different admissions process. Use our [school directory](/schools) as a starting point, then verify the current rules on the school’s own website."
+    },
+    {
+      "type": "h2",
+      "text": "Academic eligibility is different from an offer"
+    },
+    {
+      "type": "p",
+      "text": "One school may set a qualifying standard and then apply other priorities. Another may mainly allocate in score order. A multi-stage test may use the first stage only to decide who reaches the next assessment. Identify which model applies before interpreting a result."
+    },
+    {
+      "type": "p",
+      "text": "For example, imagine a fictional school has more academically qualified applicants than places and gives priority to a defined local category. An applicant can qualify without receiving an offer in the first allocation. This illustrates a distinction; it is not a prediction for any named school."
+    },
+    {
+      "type": "p",
+      "text": "Check our [guide to the score needed for grammar school](/blog/what-score-do-you-need-to-get-into-a-grammar-school) alongside the policy. A commercial practice-paper percentage cannot be treated as an official standardised score or a guaranteed admission threshold."
+    },
+    {
+      "type": "h2",
+      "text": "What to extract from each admissions policy"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Policy item",
+        "What you need to establish"
+      ],
+      "rows": [
+        [
+          "Entry group and year",
+          "Is this the correct Year 7 cohort, rather than sixth form or in-year admission?"
+        ],
+        [
+          "Published admission number (PAN)",
+          "How many places are planned, and are there separately defined categories?"
+        ],
+        [
+          "Academic requirement",
+          "Which test, stages, minimum standards or ranking rules apply?"
+        ],
+        [
+          "Oversubscription criteria",
+          "In what order are eligible applicants considered when demand exceeds places?"
+        ],
+        [
+          "Catchment or priority area",
+          "What boundary, address date and supporting evidence apply?"
+        ],
+        [
+          "Distance and tie-break",
+          "How is distance measured, and how are otherwise equal applicants separated?"
+        ],
+        [
+          "Supplementary information",
+          "Which additional form or evidence must go directly to the school?"
+        ],
+        [
+          "Waiting list",
+          "How is it ordered and what must you do to remain on it?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Make a separate row for each school in your own comparison sheet. Copy the relevant policy heading and page number next to any note. This makes it easier to ask an accurate question if wording seems ambiguous or two sources conflict."
+    },
+    {
+      "type": "h2",
+      "text": "Priority groups: read the actual order"
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s parent guidance](https://www.gov.uk/schools-admissions/admissions-criteria) describes several possible criteria, including siblings, proximity and premium eligibility. Their presence and order depend on the school. An older sibling or a nearby address does not automatically take precedence over a higher test score."
+    },
+    {
+      "type": "p",
+      "text": "The [School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2), paragraphs 1.18–1.20, distinguishes grammar schools allocating wholly by highest scores from other selective arrangements when setting looked-after and previously looked-after children’s priority. Do not substitute a blanket national hierarchy for the published policy."
+    },
+    {
+      "type": "p",
+      "text": "Read the definition as well as the category name. “Sibling”, “home address” and “pupil premium” may have conditions and evidence cut-offs. Our [pupil-premium admissions guide](/blog/how-does-pupil-premium-priority-work-for-grammar-schools) explains why funding eligibility and a particular admissions priority need separate checks."
+    },
+    {
+      "type": "h2",
+      "text": "Keep the forms and deadlines separate"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Register for the correct test with the named organiser. Do not assume the council’s school-preference form registers the exam.",
+        "Apply for access arrangements through the specified route if required; the evidence deadline can be separate.",
+        "Submit any supplementary information or priority evidence to the required recipient.",
+        "Complete the school-preference application through your home local authority by its published deadline.",
+        "Save acknowledgements and check that each form refers to the correct child, school and entry year."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Use the [admissions timeline](/blog/what-is-the-timeline-for-grammar-school-admissions) to organise these steps, but verify exact dates locally. Different schools can share a test without sharing every admissions rule or accepting one common evidence submission."
+    },
+    {
+      "type": "h2",
+      "text": "SEN, EHCPs and interviews"
+    },
+    {
+      "type": "p",
+      "text": "Test adjustments and school-place priority are different. If your child has an EHCP, discuss the placement and any testing requirements with the local authority’s SEND team. Follow its instructions rather than assuming the ordinary form is the only route. Our [SEN admissions guide](/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools) explains the distinctions."
+    },
+    {
+      "type": "p",
+      "text": "Do not assume a state grammar will interview your child as part of ordinary Year 7 academic selection. The [Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2) restricts admissions interviews; there is a separate exception for assessing boarding suitability. Independent-school interviews should not be imported into a state-school checklist."
+    },
+    {
+      "type": "h2",
+      "text": "What to do when a rule is unclear"
+    },
+    {
+      "type": "p",
+      "text": "Ask the admissions team a specific question, quoting the policy year and paragraph. For example: “Does this priority apply only inside the named catchment, and what evidence date is used?” Request a written response. If a future policy is not yet published, mark the item unconfirmed and revisit it; do not fill the gap with last year’s score or deadline."
+    },
+    {
+      "type": "p",
+      "text": "Keep suitable alternatives in your plans. Previous allocation data can provide context, but changing applicants, addresses and scores mean it cannot guarantee next year’s result. Assess the school’s curriculum, support and journey as well as the admissions route."
+    },
+    {
+      "type": "h2",
+      "text": "Sources checked"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "[GOV.UK: admission criteria](https://www.gov.uk/schools-admissions/admissions-criteria)",
+        "[Department for Education: School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2)",
+        "[Buckinghamshire Council: admission rules](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-moving-up-to-secondary-school/admission-rules/)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reviewed on 8 October 2026. No unconfirmed 2027 test date or future qualifying score is presented as settled."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "how-important-is-catchment-area-for-grammar-schools",
@@ -6974,196 +7355,335 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "how-does-pupil-premium-priority-work-for-grammar-schools",
-    title: "How does pupil premium priority work for grammar schools?",
-    desc: "Uncover how pupil premium priority works for grammar school admissions. Learn eligibility, priority categories for high scorers and looked-after children, top PP-friendly schools, and application tips to boost your child's chances of success.",
-    date: "February 27, 2026",
-    readTime: "10 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_4.jpeg",
-    imageAlt: "How does pupil premium priority work for grammar schools?",
-    images: ["https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_1.jpeg", "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_2.jpeg", "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_3.jpeg", "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is Pupil Premium?" },
-      { type: "p", text: "Pupil Premium is **additional funding provided by the Department for Education (DfE)** to schools in England, allocating \u00a31,455 per primary pupil and \u00a31,065 per secondary pupil in 2024/25 for disadvantaged children. Schools receive this **funding stream** to support pupils facing educational barriers. It aims to close attainment gaps for those from low income families." },
-      { type: "p", text: "Eligibility for Pupil Premium includes five main criteria. First, **Ever 6 FSM** covers pupils registered for free school meals in the past six years at \u00a31,455. Second, current FSM pupils also qualify at the same rate." },
-      { type: "p", text: "Third, children adopted from care receive **PP+ funding** at \u00a32,415. Fourth, looked-after children get \u00a31,465, while children of armed forces personnel access the **service premium** at \u00a3320. Schools must use this funding for targeted interventions like tutoring or extra resources." },
-      { type: "p", text: "In 2024, around 1.8 million pupils qualify across England. The DfE provides statutory guidance on allocation and reporting. Parents should check school prospectuses for how funds support **pupil premium priority** in grammar school admissions." },
-      { type: "h3", text: "Definition and Eligibility Criteria" },
-      { type: "p", text: "Pupil Premium eligibility covers pupils registered for **free school meals in the last 6 years (Ever 6 FSM)**, currently claiming FSM, or with specific care/adoption status. This funding helps schools offer **priority admission** in grammar schools for disadvantaged pupils. Families must provide evidence to claim it during applications." },
-      { type: "p", text: "Schools verify eligibility using local authority data or documents. For example, an Ever 6 FSM pupil might qualify based on past income thresholds like universal credit. Application deadlines fall by 31 March annually for the next academic year." },
-      { type: 'table', headers: ["Benefit Type", "Rate 2024/25", "Look-back Period", "Evidence Required"], rows: [["Ever 6 FSM", "\u00a31,455", "6 years", "LA statement"], ["Current FSM", "\u00a31,455", "Current", "FSM register"], ["PP+ adopted", "\u00a32,415", "n/a", "Adoption certificate"], ["Looked-after children", "\u00a31,465", "Current", "LA confirmation"], ["Service children", "\u00a3320", "Current term", "MOD letter"]] },
-      { type: "p", text: "Use a **supplementary information form (SIF)** to declare status in grammar school admissions. Governors consider this in oversubscription criteria alongside banding tests or 11-plus exam scores. Late evidence can affect waiting lists or appeal processes." },
-      { type: "h2", text: "Pupil Premium in Grammar School Admissions" },
-      { type: "p", text: "**35% of grammar schools** offer **Pupil Premium priority** admissions. This lowers selection barriers for disadvantaged pupils per the School Admissions Code 2021, sitting alongside the other [grammar school admission criteria](/blog/what-are-the-grammar-school-admission-criteria). It helps schools meet oversubscription criteria while promoting equal opportunities." },
-      { type: "p", text: "Out of **163 grammar schools**, 57 provide this priority. Coverage varies by region, with stronger presence in areas like London and Kent. Parents should check school prospectuses for exact policies." },
-      { type: "p", text: "**DfE data** shows PP pupils in grammars rose 12% from 2018 to 2023. This reflects efforts to close **attainment gaps** through targeted funding. Schools use pupil premium to support low income families eligible via free school meals or ever 6 FSM." },
-      { type: "p", text: "Practical steps include gathering **proof of eligibility** like benefit letters early. Submit a **supplementary information form** if required before the application deadline. This ensures priority in grammar school admissions alongside academic selection via the 11-plus exam, and it helps to map it against the wider [timeline for grammar school admissions](/blog/what-is-the-timeline-for-grammar-school-admissions)." },
-      { type: "h3", text: "Regional Coverage of PP Priority" },
-      { type: "p", text: "Grammar schools in **London** show 42% adoption of pupil premium priority. **Kent** follows at 38%, aiding local disadvantaged pupils. These rates highlight regional efforts for social mobility." },
-      { type: "p", text: "Parents in high-coverage areas benefit from multiple options. [Browse local grammar schools](/schools) alongside **performance tables** and Ofsted reports to compare them. Coverage maps reveal clusters near urban centres with selective schools." },
-      { type: "p", text: "For families outside these zones, consider **catchment areas** or distance criteria. Some schools combine PP with banding tests for fairer access. Always review statutory guidance in the admissions code." },
-      { type: "h3", text: "Top PP-Friendly Grammar Schools" },
-      { type: "p", text: "Leading examples include schools with strong pupil premium priority. These prioritise disadvantaged pupils in oversubscription. Parents can target them for better chances." },
-      { type: 'table', headers: ["Rank", "School", "Location", "PP Priority Details"], rows: [["1", "Wilson's Grammar (Sutton)", "Sutton", "Category 1 priority"], ["2", "Newstead Wood", "Orpington", "PP + looked after first"], ["3", "Dartford Grammar Girls", "Dartford", "Siblings + PP"], ["4", "Colchester Royal", "Colchester", "Distance + PP"], ["5", "Bournemouth School", "Bournemouth", "Random + PP"]] },
-      { type: "p", text: "These schools integrate PP with tie-break rules like **sibling priority** or random allocation. Looked-after children and those with care experience get extra weight. Submit evidence documents promptly for national offer day." },
-      { type: "p", text: "Prepare for **11-plus exams** using practice papers from GL assessment or CEM Select. Combine with tutor support for verbal reasoning and maths tests. This boosts eligibility alongside priority admission." },
-      { type: "h2", text: "Priority Categories Overview" },
-      { type: "p", text: "Grammar schools use tiered oversubscription criteria where Pupil Premium pupils compete within dedicated priority categories before general applicants. This system supports **disadvantaged pupils** in grammar school admissions by reserving places based on eligibility and other factors. It aligns with the **Admissions Code paragraph 2.8**, which permits selective schools to give priority to Pupil Premium children." },
-      { type: "p", text: "These categories fill before **academic selection** or distance criteria apply. Schools define quotas for each, often 10-25 places total across priorities. Parents must submit proof of eligibility like free school meals evidence or low-income benefits records." },
-      { type: "p", text: "The table below outlines the main categories, priority levels, qualifiers, and example schools." },
-      { type: 'table', headers: ["Category", "Priority Level", "Who Qualifies", "Example Schools"], rows: [["1 (Highest)", "PP + high SET score", "Pupil Premium pupils scoring \u2265110 in 11+ exams", "Wilson, Newstead"], ["2", "PP + looked after", "Pupil Premium looked-after or previously looked-after children", "Dartford Girls"], ["3", "PP + siblings", "Pupil Premium pupils with siblings in Years 7-12", "Nonsuch, Wallington"]] },
-      { type: "p", text: "Understanding these helps families from **low income families** target applications effectively. Check each school's **prospectus** for exact quotas and tie-break rules." },
-      { type: "h3", text: "Category 1: Pupil Premium with High Scores" },
-      { type: "p", text: "Category 1 reserves places for Pupil Premium pupils achieving top SET scores, typically 11+ exam \u2265110 standard score, allocated before general high scorers. Pupils must qualify for **Pupil Premium funding**, often \u00a31,455+ per year via free school meals or means-tested benefits. They then need strong results in **CEM Select or GL Assessment** tests." },
-      { type: "p", text: "The process works in stages. First, confirm PP eligibility with evidence like Universal Credit statements. Next, achieve the score threshold, such as \u2265110 overall, before Category 1 places fill the quota, often 10-25 spots. For instance, Wilson Grammar in 2024 allocated 24 Category 1 places to PP pupils averaging 121+ scores." },
-      { type: "p", text: "Qualifying scores vary but commonly include:" },
-      { type: "ul", items: ["**Verbal Reasoning** \u2265105", "**Non-Verbal Reasoning** \u2265108", "**Maths** \u2265112"] },
-      { type: "p", text: "Practice with **Bond papers** or mock exams boosts chances. This category promotes **social mobility** by prioritising high-achieving disadvantaged pupils over general applicants." },
-      { type: "h3", text: "Category 2: Pupil Premium Looked-After Children" },
-      { type: "p", text: "Category 2 prioritises **Pupil Premium eligible looked-after children** (LAC) and previously looked-after children regardless of 11+ scores, per mandatory **Admissions Code ranking** in paragraph 2.6. This statutory priority ranks above all others, including high scorers in Category 1. Evidence includes local authority care orders plus PP eligibility." },
-      { type: "p", text: "Looked-after covers children in care, while previously looked-after includes those adopted, under special guardianship, or residence orders. Schools verify via **supplementary information forms** (SIF) and social worker letters. For example, Tiffin Girls in 2024 filled 3 Category 2 places with 2 adopted and 1 special guardianship cases." },
-      { type: "p", text: "This supports **care experience** pupils facing educational disadvantage. Priority applies even without high SET scores, aiding attainment gaps. Parents should contact the **virtual school head** for guidance on applications." },
-      { type: "p", text: "Governor discretion may apply in ties, but Category 2 fills first. It underscores equal opportunities for **vulnerable children** in selective schools." },
-      { type: "h3", text: "Category 3: Pupil Premium Siblings" },
-      { type: "p", text: "Category 3 offers priority to **Pupil Premium pupils** with siblings already attending the grammar school, typically requiring minimum SET scores. This combines pupil premium with the question of whether [grammar schools give priority to siblings](/blog/do-grammar-schools-give-priority-to-siblings). Qualification needs PP eligibility plus a sibling in Years 7-12, defined as full, half, step, or adopted living at the same address. Score thresholds sit lower than Category 1, often \u2265105." },
-      { type: "p", text: "Apply via the local authority's **common application form** (CAF) with sibling proof like school letters. For instance, Wallington County in 2024 gave 12 Category 3 places to PP siblings averaging 107 SET. Multiple births policy often offers places to both twins if one qualifies." },
-      { type: "p", text: "This combines sibling priority with PP status to ease family transitions. It applies after Categories 1 and 2 but before general rounds. Check for **random allocation** or distance tie-breaks if oversubscribed." },
-      { type: "p", text: "Families benefit by targeting schools with current siblings. Submit evidence by the **application deadline** to avoid missing national offer day allocations." },
-      { type: "h2", text: "Selective Eligibility Test (SET) Process" },
-      { type: "p", text: "The SET uses **CEM Select** (80% grammars) or **GL Assessment formats** testing VR/NVR/Maths over 2-3 hours with scores standardised to mean 100/SD15. These tests form the core of grammar school admissions for Year 7 entry. Schools use results to identify pupil premium priority candidates alongside general applicants." },
-      { type: "p", text: "Three main providers shape the SET process. CEM Select lasts 60 minutes per section with no practice effect, used by schools like Wilson and Tiffin. It focuses on adaptive questions in verbal reasoning, non-verbal reasoning, and maths." },
-      { type: "p", text: "**GL Assessment** offers multiple-choice formats at schools such as Dartford and Colchester. CSSE requires essay-style answers for Essex grammars, testing deeper comprehension skills. Each format demands tailored preparation to meet **selective eligibility** thresholds." },
-      { type: "p", text: "Score requirements vary by category, often lowering for **pupil premium** pupils. Preparation starts with Bond Papers in September of Year 5, building to mock exams in January of Year 6. Consistent practice helps close attainment gaps for disadvantaged pupils." },
-      { type: 'table', headers: ["Category", "Sample Score Requirement"], rows: [["Cat1 PP", "\u2265110"], ["General", "\u2265121"]] },
-      { type: "h3", text: "CEM Select Testing" },
-      { type: "p", text: "CEM Select suits many grammars due to its resistance to coaching. Tests cover verbal reasoning, non-verbal reasoning, and maths in timed 60-minute sections. **Pupil premium priority** often applies to scores just above average." },
-      { type: "p", text: "Schools like Wilson and Tiffin use this format for fair academic selection. Parents should focus on broad skills rather than rote memorisation. Mock tests reveal strengths in pattern recognition or logical puzzles." },
-      { type: "p", text: "Results feed into **oversubscription criteria**, granting priority to **free school meals** eligible children. Combine CEM practice with tutor support for best outcomes. Track progress against standardised scores to build confidence." },
-      { type: "h3", text: "GL Assessment Format" },
-      { type: "p", text: "GL Assessment relies on multiple-choice questions for VR, NVR, and maths. Dartford and Colchester grammars favour this accessible style. It allows quick marking and clear **banding tests** for admissions." },
-      { type: "p", text: "**Pupil premium** candidates benefit from adjusted thresholds in this system. Practice familiarises children with question types like synonym matching or shape sequences. Aim for accuracy under time pressure." },
-      { type: "p", text: "Results work together with catchment areas and sibling priority. Use GL-specific papers from Year 5 to simulate exam conditions. This builds speed essential for competitive **11-plus exam** success." },
-      { type: "h3", text: "CSSE Essay-Style Tests" },
-      { type: "p", text: "**CSSE** demands extended writing in English comprehension alongside maths and reasoning. Essex grammars use this to assess depth over speed. **Disadvantaged pupils** with strong expression gain an edge." },
-      { type: "p", text: "Prepare by practising essay responses on topics like historical events or creative prompts. Focus on clear structure and vocabulary to impress markers. Pupil premium priority recognises potential beyond multiple-choice limits." },
-      { type: "p", text: "Timeline aligns with mocks in Year 6 term one. Review past papers to master format specifics. This approach supports social mobility for low income families targeting selective schools." },
-      { type: "h2", text: "Application and Evidence Requirements" },
-      { type: "p", text: "Submit PP evidence via **Supplementary Information Form (SIF)** by 31 October alongside **LA Common Application Form (CAF)**, with National Offer Day 1 March. Grammar schools use this process to verify eligibility for pupil premium priority in admissions. Parents must provide specific documents to qualify disadvantaged pupils for these spots." },
-      { type: "p", text: "The **SIF** allows schools to assess pupil premium priority claims beyond standard applications. For instance, a child on free school meals (FSM) or from low income families needs proof to gain priority over others in oversubscription criteria. Submit everything accurately to avoid delays." },
-      { type: "p", text: "Schools check evidence against **Department for Education (DfE)** guidelines for pupil premium, including ever 6 FSM and looked-after children. Late submissions often lead to rejection of priority claims. Keep copies of all documents for your records." },
-      { type: "p", text: "After submission, local authorities handle allocations on National Offer Day. If priority applies, your child may receive a place despite distance criteria or sibling priority. Contact the school directly for queries on your SIF status." },
-      { type: "h3", text: "Required Documents" },
-      { type: 'table', headers: ["PP Evidence", "Format", "Deadline"], rows: [["1) LA Pupil Premium letter", "PDF", "31 Oct"], ["2) FSM register extract", "School-provided", "15 Oct"], ["3) Adoption order (PP+)", "Birth cert + order", "31 Oct"], ["4) Care status", "LA Virtual School letter", "31 Oct"]] },
-      { type: "p", text: "This table outlines **essential evidence documents** for pupil premium priority in grammar school admissions. Each item proves eligibility, such as FSM for low income families or PP+ for adopted children. Gather them early to meet strict deadlines." },
-      { type: "p", text: "For **LA Pupil Premium letter**, download the PDF from your local authority portal confirming funding allocation. Schools reject scans without official stamps. An FSM register extract from your primary school verifies ever 6 FSM status during the look-back period." },
-      { type: "p", text: "**Adoption order** for previously looked-after children requires both birth certificate and court order. Contact your LA for **Virtual School letter** if your child has care experience. These support priority for vulnerable children alongside academic selection via 11-plus exam." },
-      { type: "h3", text: "Application Process" },
-      { type: "p", text: "The process starts with registering for **Selective Eligibility Test (SET)** in June of Year 5. Parents then submit the CAF by 31 October, followed by **SIF plus evidence** directly to the school. Results come in October, with offers on 1 March." },
-      { type: "ol", items: ["Register SET (Jun Y5) for 11-plus exam practice.", "Submit CAF (31 Oct) via local authority.", "SIF + evidence (school direct) for pupil premium claims.", "Results (Oct) determine banding tests or aptitude tests.", "Offer (1 Mar) on National Offer Day."] },
-      { type: "p", text: "Follow this sequence to secure **grammar school admissions** with priority. For example, a child qualifying via universal credit submits SIF after CAF to claim spots before distance criteria apply. Schools prioritise these over random allocation in oversubscription." },
-      { type: "p", text: "If no offer, join waiting lists or consider appeal process. Governor discretion may apply in tie-break rules. Track progress via school prospectus or performance tables for context on social mobility gains." },
-      { type: "h2", text: "Grammar School Allocation Rules" },
-      { type: "p", text: "Post-PP categories, remaining places follow **statutory order**: high score \u2192 looked-after \u2192 siblings \u2192 catchment \u2192 random allocation per DfE Admissions Code. Grammar schools use an **oversubscription hierarchy** to fairly distribute limited spots when applications exceed availability. This ensures pupil premium priority supports disadvantaged pupils first." },
-      { type: "p", text: "The flowchart starts with **Cat1 PP High Score**, prioritising children eligible for pupil premium who achieve the highest 11-plus exam results. Next is **Cat2 PP+LAC**, combining pupil premium with looked-after children status. This structure promotes equal opportunities and social mobility in selective schools." },
-      { type: "p", text: "Following pupil premium categories, schools allocate via **highest SET scores** (121+), then general looked-after children, siblings, catchment areas, banding tests, distance criteria, and finally random lottery. For example, Newstead Wood in 2024 filled **Cat1:24/24** places, then SET 121+:48/48, with distance tie-break at 1.2 miles. Parents should check each school's admissions code for exact rules." },
-      { type: "p", text: "Understanding this hierarchy helps with grammar school admissions strategy. Submit proof of eligibility like free school meals or ever 6 FSM records early. Use the common application form (CAF) to rank preferences wisely for national offer day." },
-      { type: "h2", text: "Common Challenges and Appeals" },
-      { type: "p", text: "Pupil premium priority appeals in grammar schools often succeed with proper preparation. Common issues include late SIF submission and SET score disputes. Families facing these can navigate the process effectively by acting quickly." },
-      { type: "p", text: "The **appeal process** has two stages for grammar school admissions. Stage 1 involves the school appeals panel, which reviews cases within 30 days. Stage 2 goes to an independent panel within 28 days if needed." },
-      { type: "p", text: "A practical example is a **PP+ twin appeal** won at Wallington in 2023. The family provided updated evidence of free school meals and care experience. This highlights how proof of eligibility strengthens cases for disadvantaged pupils." },
-      { type: "p", text: "Oversubscription criteria like distance ties or banding tests often spark disputes. Governors may exercise discretion in tie-break rules. Families should gather evidence documents before national offer day to support their claim." },
-      { type: 'table', headers: ["Issue", "Solution", "Success Approach"], rows: [["**Late PP evidence**", "Submit by 15 Oct", "Strong with timely proof"], ["**SET marking dispute**", "Request remark (\u00a350)", "Effective review process"], ["**Category misallocation**", "Judicial review", "High panel agreement"], ["**Tie-break distance**", "Governors discretion", "Case-by-case support"]] },
-      { type: "p", text: "This table outlines frequent grammar school admissions hurdles for pupil premium families. Low income families benefit from understanding supplementary information forms. Experts recommend checking the school prospectus for oversubscription details early." },
-    ],
-  },
+  "slug": "how-does-pupil-premium-priority-work-for-grammar-schools",
+  "title": "Pupil premium and grammar-school admissions: how priority works",
+  "desc": "Check pupil-premium eligibility, evidence, qualifying scores and school-specific priority rules, including the 2026 free-school-meals distinction.",
+  "date": "February 27, 2026",
+  "readTime": "5 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_4.jpeg",
+  "imageAlt": "How does pupil premium priority work for grammar schools?",
+  "images": [
+    "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-does-pupil-premium-priority-work-for-grammar-schools(nadz)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Some grammar schools give admissions priority to children meeting a published pupil-premium or disadvantage criterion. That can affect the order in which places are offered or access to a defined group of places. It is not a nationwide guarantee, an automatic addition to test marks or a single category used identically by every school."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? Check the school-entry year on every policy. An autumn 2027 test commonly leads to September 2028 entry. A page headed “2027 entry” may describe a test taken in 2026. Unpublished future arrangements should be treated as unconfirmed."
+    },
+    {
+      "type": "h2",
+      "text": "Separate funding eligibility from admissions priority"
+    },
+    {
+      "type": "p",
+      "text": "[Pupil premium](https://www.gov.uk/government/publications/pupil-premium/pupil-premium) is additional funding to support disadvantaged pupils’ education in England. It is not a cash allowance parents receive or an individual tuition budget. The [School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2) permits admission authorities to give priority to specified premium-eligible groups; the school must define its arrangements."
+    },
+    {
+      "type": "p",
+      "text": "Ask two separate questions: does the child meet the relevant funding definition, and does the grammar school’s admissions policy give this child priority? The school’s definition for the correct entry cohort governs the admissions decision. Do not assume that every child associated with a funding category is placed in the same admissions group."
+    },
+    {
+      "type": "h2",
+      "text": "Free school meals changed in September 2026"
+    },
+    {
+      "type": "p",
+      "text": "The [DfE’s current overview](https://www.gov.uk/government/publications/pupil-premium/pupil-premium) distinguishes Targeted free school meals (FSM) from the Expanded FSM category introduced for the 2026–27 school year. Pupils newly eligible only through Expanded FSM do not attract pupil-premium funding on that basis. The guidance also explains the continuing Ever 6 treatment of earlier qualifying FSM eligibility."
+    },
+    {
+      "type": "p",
+      "text": "This means “my child receives free school meals” is not enough information to determine pupil-premium funding or admissions priority. Ask the primary school which eligibility is recorded and ask the grammar school which category its policy accepts. Do not infer loss of admissions priority solely from a funding change: check the exact school policy, relevant dates and any published clarification."
+    },
+    {
+      "type": "h2",
+      "text": "Ways a school may apply priority"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Policy feature",
+        "What to check"
+      ],
+      "rows": [
+        [
+          "Higher oversubscription priority",
+          "What academic condition still applies, and which categories come before or after it?"
+        ],
+        [
+          "A limited group of places",
+          "How many or what proportion, and how are applicants ordered within the group?"
+        ],
+        [
+          "A different academic threshold",
+          "Is this explicitly published, who is eligible and is there a catchment condition?"
+        ],
+        [
+          "A local or school-attendance condition",
+          "Must the child live in a specified area or attend a named type of primary school?"
+        ],
+        [
+          "A verification date",
+          "When must eligibility exist and when must evidence be received?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A lower published threshold is not the same thing as adding bonus marks. A priority group is also not necessarily first in the allocation order. Read all the conditions together, including tie-breaks, rather than selecting a favourable phrase from the policy."
+    },
+    {
+      "type": "h2",
+      "text": "Official examples: different policies, not a national template"
+    },
+    {
+      "type": "p",
+      "text": "The [King Edward VI Foundation’s Birmingham page for September 2027 entry](https://kingedwardvifoundation.co.uk/pupil-premium/) says eligible applicants must reach the qualifying score and receive no extra test marks. It requires a form completed by the primary school and explains its funding-linked eligibility rule. That page relates to the September 2026 entrance test: it must not be assumed to set the rules for tests taken in 2027."
+    },
+    {
+      "type": "p",
+      "text": "[Queen Mary’s Grammar School’s September 2027-entry page](https://www.qmgs.walsall.sch.uk/September-2027-Entry/) describes a capped pupil-premium category, an academic qualification requirement and a further priority within that category for children attending state-funded Walsall primary schools. This shows why even schools sharing a regional testing arrangement need separate policy checks."
+    },
+    {
+      "type": "p",
+      "text": "[Buckinghamshire Council’s current admission-rules guide](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-moving-up-to-secondary-school/admission-rules/) describes higher priority at some grammars and limited places under specified lower-score arrangements at some schools. It warns that catchment conditions and evidence can matter. These examples explain possible mechanisms; use each school’s future entry-year policy for a 2027 test application."
+    },
+    {
+      "type": "h2",
+      "text": "Build a seven-field evidence checklist"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "School and intended entry year: save the official policy and record its date.",
+        "Exact priority wording: copy the definition and any linked notes into your planning sheet.",
+        "Eligibility timing: note whether status is checked at registration, testing or another specified date.",
+        "Academic condition: record any required score, stage or other selection condition.",
+        "Geography or primary-school condition: check this separately from funding status.",
+        "Evidence and recipient: establish which form needs primary-school confirmation and where to send it.",
+        "Acknowledgement and follow-up: save the receipt and ask promptly about errors or changes in circumstances."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Start with the primary school office or staff member responsible for pupil-premium records. Ask for the confirmation the receiving school actually requires; avoid sending unrelated financial documents by guesswork. A test registration, a supplementary evidence form and the council’s school-preference application can be separate tasks."
+    },
+    {
+      "type": "h2",
+      "text": "What about looked-after children or service families?"
+    },
+    {
+      "type": "p",
+      "text": "Care status and service-premium eligibility should not be collapsed into one generic pupil-premium category. Read the separate headings and definitions in the school policy and ask which evidence applies. Your local authority or the child’s relevant support team can help with care-status documentation. The [admissions-criteria guide](/blog/what-are-the-grammar-school-admission-criteria) explains how priority and academic eligibility interact."
+    },
+    {
+      "type": "h2",
+      "text": "If you are unsure whether the category was applied"
+    },
+    {
+      "type": "p",
+      "text": "Ask the admissions authority to confirm the category recorded and identify any missing evidence. Quote the relevant policy paragraph and keep the reply. If evidence is late or eligibility changes, ask how the published rules deal with that situation rather than assuming a new document will automatically change an allocation."
+    },
+    {
+      "type": "p",
+      "text": "After a refused place, waiting lists and admission appeals have their own procedures. A disagreement about a category does not establish a guaranteed appeal outcome. Use the authority’s instructions and retain your original submissions. Do not rely on invented success rates or a supposed national two-stage premium appeal system."
+    },
+    {
+      "type": "h2",
+      "text": "Affordable preparation remains useful"
+    },
+    {
+      "type": "p",
+      "text": "Ask the school or consortium about free familiarisation and any eligibility-based outreach. Admission priority and access to a preparation programme can have different conditions. Use our [maths lessons](/subjects/maths) and [English hub](/subjects/english) to build skills, while checking the actual test format before choosing resources."
+    },
+    {
+      "type": "h2",
+      "text": "Sources checked"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "[DfE: pupil premium overview and FSM changes](https://www.gov.uk/government/publications/pupil-premium/pupil-premium)",
+        "[DfE: School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2)",
+        "[King Edward VI Foundation: pupil premium, 2027 entry](https://kingedwardvifoundation.co.uk/pupil-premium/)",
+        "[Queen Mary’s Grammar School: September 2027 entry](https://www.qmgs.walsall.sch.uk/September-2027-Entry/)",
+        "[Buckinghamshire Council: admission rules](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-moving-up-to-secondary-school/admission-rules/)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reviewed on 8 October 2026. Named examples describe the policies available at review, not confirmed rules for exams taken in 2027."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
-    slug: "when-do-you-apply-for-grammar-school-places",
-    title: "When do you apply for grammar school places?",
-    desc: "Discover when to apply for grammar school places in the UK. Learn national vs local deadlines, 11+ exam dates, England timelines, Northern Ireland process, and in-year transfers. Avoid missing out\u2014get the full guide now.",
-    date: "March 2, 2026",
-    readTime: "6 min read",
-    category: "Admissions",
-    imageUrl: "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_4.jpeg",
-    imageAlt: "When do you apply for grammar school places?",
-    images: ["https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_1.jpeg", "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_2.jpeg", "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_3.jpeg", "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding Grammar School Admissions Timeline" },
-      { type: "p", text: "Grammar school admissions in the UK follow a **structured timeline** with national offer day on 1 March, but local authorities set varying deadlines from 31 October to 15 January. This national framework from the Department for Education ensures coordinated admissions for **secondary school transfer** from Year 6 to Year 7. Parents applying for grammar school places must navigate both national and local rules to secure a spot for the September intake." },
-      { type: "p", text: "The **coordinated admissions scheme** covers all state-funded schools, including selective grammar schools. Local authorities handle the application process, allowing Year 6 parents to rank preferences like first choice grammar school alongside non-selective options. Missing local deadlines risks an unsuccessful application or reallocation to lower preferences." },
-      { type: "p", text: "Variations arise across England's 164 local authorities, with some requiring you to [register your child for the grammar school entry test](/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test) separately from the main school places application. For instance, areas like Kent and Buckinghamshire have early closing dates. Always check your local council's calendar and the [11+ exam dates](/exam-dates) for open days, testing dates, and prospectus details." },
-      { type: "p", text: "Here is a **checklist of key dates** to mark for a successful grammar school application:" },
-      { type: "ul", items: ["**Application open date**: Typically early September for next school year start.", "11+ registration: Often August to mid-October, varies by selective area.", "**Closing date**: Between 31 October and 15 January per local authority.", "**Testing dates**: Usually September to October for entrance exams.", "**National offers day**: 1 March, with acceptance deadline shortly after."] },
-      { type: "h3", text: "National vs Local Authority Deadlines" },
-      { type: "p", text: "While national offer day remains fixed at **1 March annually**, most of England's local authorities set application closing dates between 31 October and 15 January. This aligns with the DfE School Admissions Code, promoting fair access to grammar school places. Local variations reflect **catchment area** needs and oversubscription criteria like siblings priority or distance priority." },
-      { type: "p", text: "The table below compares the **national framework** with examples from key grammar school areas. It highlights how deadlines differ, affecting the grammar school application timeline for Year 6 parents." },
-      { type: 'table', headers: ["Aspect", "National (All LAs)", "Local Examples"], rows: [["Offer Day", "1 March", "All LAs follow this for secondary school places."], ["Closing Date", "N/A - Set by LA", "Buckinghamshire: 15 Nov Kent: 31 Oct Trafford: 31 Oct Birmingham: 31 Dec"], ["Application Type", "Coordinated scheme", "Online/paper via LA portal; some need SIF form."]] },
-      { type: "p", text: "Follow this **3-step verification process** to confirm deadlines. First, find your local authority via Gov.uk admissions finder. Second, check the council website calendar for opening date and closing date." },
-      { type: "p", text: "Third, download the admissions booklet PDF for details on **11 plus exam**, exam venues, and supplementary forms. Contact the LA for proof of address or special needs arrangements. This ensures your application avoids common mistakes like late submissions." },
-      { type: "h2", text: "Primary to Secondary Grammar School Applications" },
-      { type: "p", text: "Year 6 parents applying for **grammar school Year 7 places** must navigate coordinated admissions schemes processing first, second, and third preferences across 36 selective local authorities. These schemes handle the **primary to secondary transition** for pupils moving from Year 6 to Year 7. Local authorities coordinate applications to ensure fair allocation of school places." },
-      { type: "p", text: "The **preference ranking system** prioritises first preferences according to the DfE School Admissions Code. Admissions teams allocate places starting with top choices if pupils meet the **11+ exam** pass mark. This applies in selective areas where grammar schools use entrance exam results as key criteria." },
-      { type: "p", text: "Here is a simple flow for the application process: the local authority receives all applications, ranks pupils by **11+ scores**, then allocates offers on 1 March, known as **national offer day**. Year 6 parents submit preferences via the LA application portal, often online. Check your council's site for specifics like catchment area rules or siblings priority." },
-      { type: "p", text: "For example, in Kent, high scorers get first preference grammar schools before others. Unsuccessful first choices roll to second or third preferences. Parents can join **waiting lists** or start the **appeal process** if needed after results." },
-      { type: "h3", text: "Standard Application Window (England)" },
-      { type: "p", text: "England's standard **secondary application window** opens 1 September and closes between **31 October-15 January** depending on your local authority, with most applications processed online via council portals. Year 6 parents use Gov.uk to find their LA's application portal. Paper applications remain an option in some areas." },
-      { type: "p", text: "Follow this numbered **application timeline**:" },
-      { type: "ol", items: ["1 September: Applications open on your LA's site.", "October: Sit the **secondary transfer test**, or 11+ exam.", "31 October to 15 January: Submit by the **closing date** set by your council.", "February: Receive **test results** by post or online.", "1 March: **National offer day** brings school place decisions.", "15 March: Respond by the **acceptance deadline**."] },
-      { type: "p", text: "Mark key dates in your calendar, like school open days in September. Late applications face **exceptional circumstances** rules only. Always confirm with your **local council education** team for exact times." },
-      { type: "p", text: "For instance, a family in Buckinghamshire applies online by early November, gets results mid-February, and accepts or appeals by mid-March. This ensures smooth **September intake** for the new school year." },
-      { type: "h3", text: "11+ Exam Registration Dates" },
-      { type: "p", text: "11+ registration typically opens June-July and closes September, with tests held first two Saturdays in September across 36 selective authorities like Kent using **GL Assessment** (120 questions, 2\u00bc hours). Parents register via school websites or LA portals for the grammar school test. Tests cover verbal reasoning, non-verbal reasoning, maths, and English." },
-      { type: "p", text: "Key selective areas had these 2024 dates:" },
-      { type: "ul", items: ["Kent: Tests 12-14 September, registration 1 July-5 September.", "Buckinghamshire: Test 7 September, registration June-August.", "Trafford: Tests in September, registration May-August.", "Birmingham: Test 14 September, registration 1 June-31 July.", "Sutton: Tests September-October window, registration summer months."] },
-      { type: "p", text: "Check for **supplementary forms** or SIF alongside registration. Providers like **GL**, Bond, or CEM set the format. Practice with mock exams to prepare." },
-      { type: 'table', headers: ["Area", "Test Date", "Reg. Window", "Score Threshold"], rows: [["Kent", "12-14 Sep", "1 Jul-5 Sep", "332/420"], ["Bucks", "7 Sep", "Jun-Aug", "121"], ["Trafford", "Sep", "May-Aug", "Varies"], ["Birmingham", "14 Sep", "1 Jun-31 Jul", "204/282"], ["Sutton", "Sep-Oct", "Jun-Sep", "360"]] },
-      { type: "p", text: "Exam venues are local centres with invigilators. Request **access arrangements** for special needs by the deadline. After results, use scores for your **grammar school application**." },
-      { type: "h2", text: "Key Deadlines by UK Region" },
-      { type: "p", text: "England's 163 grammar schools use coordinated LA schemes, while Northern Ireland's **68 grammars** have independent testing. Wales and Scotland have minimal or no grammar systems. House of Commons Library 2023 notes **5% of pupils** attend grammars." },
-      { type: "p", text: "Selective areas cluster in south-east England, like **Kent and Buckinghamshire**, with patches in the Midlands and north. Imagine a map highlighting these zones: Kent dominates the south-east, Lincolnshire spans the east midlands, and Trafford sits near Manchester. Year 6 parents check **local authority portals** for exact boundaries." },
-      { type: "p", text: "Northern Ireland stands apart with its **PPTC consortium** handling all 68 grammars. Wales ended grammars in the 1970s, favouring comprehensives, while Scotland's system remains fully non-selective. Families weigh **11+ preparation** against catchment priorities." },
-      { type: "p", text: "Application timelines vary by region, so track **opening dates** from September for England and April for NI. Use school open days and prospectuses to list preferences. Common pitfalls include missing **closing dates** or ignoring oversubscription criteria like siblings or distance." },
-      { type: "h3", text: "England (September Start)" },
-      { type: "p", text: "England's **36 selective local authorities** process applications for 163 state grammars with September Year 7 starts, where Kent leads with 38 schools serving thousands of pupils annually. Parents submit via **LA online portals** by county deadlines. Coordinated schemes rank up to three preferences." },
-      { type: "p", text: "Key counties differ in **test providers** and dates. Kent uses GL Assessment with a 31 October deadline, while Buckinghamshire opts for CEM and a 15 November close. Lincolnshire sets 31 December for GL tests." },
-      { type: 'table', headers: ["County", "Schools", "Key Dates", "Test Provider", "Oversubscription"], rows: [["Kent", "38", "31 Oct", "GL", "Distance, siblings"], ["Bucks", "13", "15 Nov", "CEM", "11+ score, distance"], ["Lincs", "12", "31 Dec", "GL", "Selective score, catchment"], ["Trafford", "4", "27 Jun", "GL", "Performance, siblings"], ["Sutton", "4", "31 Jul", "GL", "Highest score, looked-after"], ["Birmingham", "8", "31 Jul", "Own", "Certificate, distance"]] },
-      { type: "p", text: "Passmarks guide preparation: Kent required 332 in 2024, Bucks used 121 scaled scores. Register early for **entrance exams**, often in September. National offer day falls on 1 March for secondary school transfer." },
-      { type: "h3", text: "Northern Ireland Process" },
-      { type: "p", text: "Northern Ireland's **68 grammar schools** use the Post-Primary Transfer Consortium (PPTC) test on 25 November 2023, with results in January and offers by 17 May 2024. This contrasts England's **coordinated admissions**, as NI grammars draw from a larger cohort share. Parents face a \u00a360 fee for registration." },
-      { type: "p", text: "The timeline unfolds clearly: registration opens April to June, tests cover English and Maths on 25 November, scaled scores release in January. Submit preferences by 27 February via **local council portals**. Offers arrive on 17 May, with acceptance deadlines soon after." },
-      { type: "ol", items: ["April-June: **Registration period** with fee payment.", "25 November: **Transfer Test** at designated venues.", "January: Receive **scaled scores** online.", "27 February: Rank school preferences.", "17 May: National offer day with acceptance process."] },
-      { type: "p", text: "Recent 2024 controversy surrounds test abolition proposals, yet the process holds for now. Families prepare via **mock exams** and tutoring, noting special needs adjustments. Unsuccessful applicants explore waiting lists or appeals." },
-      { type: "h2", text: "In-Year and Mid-Year Applications" },
-      { type: "p", text: "In-year admissions for **mid-year moves**, such as house relocations, operate outside main cycles via **Fair Access Protocols**, with grammar schools adding Year 7 places only if vacancies exist." },
-      { type: "p", text: "The **in-year process** for Year 7 and above falls under local authority handling, which must process moves within 20 school days as per DfE code. Grammar schools rarely expand **mid-year classes** due to statutory limits of 30 pupils per class. Parents should check for openings before starting a school places application." },
-      { type: "p", text: "To find vacancies, follow these steps: first, use the **DfE vacancy portal** for national listings. Next, review **LA weekly lists** from your local council. Finally, contact the school directly for the latest on grammar school admissions availability." },
-      { type: "p", text: "For **grammar school applications** mid-year, submit an online or paper application through the LA portal, including proof of address and any supplementary information form. Looked-after children and those under Fair Access get priority. If unsuccessful, join waiting lists or consider the appeal process." },
-      { type: "h3", text: "Transfer Windows" },
-      { type: "p", text: "Formal **transfer windows** vary: Kent accepts Year 7 in-year apps by 31 May, while Bucks processes rolling applications with priority to looked-after children and siblings." },
-      { type: "p", text: "In Kent, the Year 7 deadline is 31 May, with tests available in term 6 of Year 6. Bucks offers rolling admissions and 11+ retests in September for late movers. Trafford requires applications within six weeks of moving into the area." },
-      { type: "p", text: "Northern Ireland holds **mid-year tests** in November for selective school entry. These windows align with local authority timelines, so check the admission policy on school websites or council portals for exact dates. DfE caselaw stresses fairness in mid-year processing to avoid disadvantaging families." },
-      { type: 'table', headers: ["Area", "Year 7 Window", "Testing", "Priority Groups"], rows: [["Kent", "By 31 May", "Term 6 availability", "Looked-after children, siblings"], ["Bucks", "Rolling", "11+ retest Sep", "Looked-after children, siblings, distance"], ["Trafford", "Within 6 weeks of move", "As per LA schedule", "Looked-after children, catchment area"], ["NI", "Mid-year", "Nov tests", "Looked-after children, academic ability"]] },
-      { type: "p", text: "Use this table as a quick reference for **application timelines** in key grammar school areas. Always verify with the local authority for updates on closing dates and entrance exams." },
-      { type: "h2", text: "Late Applications and Appeals" },
-      { type: "p", text: "Late applications after LA deadlines face lower priority under equal preference criteria, but **appeals panels** citing exceptional circumstances like house moves offer a path forward. Local authorities consider these under DfE guidelines, treating them equally if places remain available. Year 6 parents often pursue this during the secondary school transfer process." },
-      { type: "p", text: "The appeal process starts within 21 days of offer refusal on national offer day. Panels review cases independently, focusing on admission criteria breaches or new evidence. Successful appeals can secure **grammar school places** even after the closing date." },
-      { type: "p", text: "Prepare supporting documents like proof of address changes or medical notes for exceptional circumstances. Contact your local council education team promptly to discuss options. Waiting lists may also reallocate places post-acceptance deadline." },
-      { type: "p", text: "Grammar school admissions vary by area, such as **Buckinghamshire grammar** or Kent grammar policies. Review each school's prospectus and admission policy online. Experts recommend acting quickly to avoid missing the September intake." },
-      { type: "h3", text: "Extension Policies" },
-      { type: "p", text: "Only 8% of LAs grant formal extensions; common approvals include **house purchase completion** post-deadline or medical emergencies with GP evidence. These align with DfE Mandatory Code exceptions for exceptional circumstances. Parents applying for grammar school places must provide clear proof." },
-      { type: "p", text: "Key scenarios for extensions include three main cases. First, a **house move** after 31 October, where councils like Bucks exchange papers. Second, serious illness backed by a doctor's note during the **application window**." },
-      { type: "ul", items: ["Third, return from abroad with a school report confirming 11+ preparation challenges.", "Always submit via the **online application portal** or paper application with supporting documents.", "Check the coordinated admissions scheme for your **unitary authority**."] },
-      { type: "p", text: "Appeal success hinges on evidence; for instance, judicial review overturned rejections in selective areas. Gather references and contact the admission appeal panel early. This supports a smooth primary to secondary transition for Year 6 pupils." },
-      { type: "h2", text: "Preparation Timeline Before Applying" },
-      { type: "p", text: "Start 11+ preparation 18 months ahead: Year 4 for Buckinghamshire CEM practice, Year 5 mocks, Year 6 open days September and registration by 31 August. This grammar school application timeline helps Year 6 parents plan the primary to secondary transition smoothly. Early action builds confidence for the 11 plus exam." },
-      { type: "p", text: "Focus on entrance exam components like verbal reasoning, non-verbal reasoning, maths test, and English test. Use **CGP/GL books** from Year 5 Spring for targeted practice. Select a tutor then to match your child's needs in **selective school** areas." },
-      { type: "p", text: "Attend school open days in Year 6 September, checking [when grammar school open days and visits](/blog/when-are-grammar-school-open-days-and-visits) fall, and map the whole process against the [timeline for grammar school admissions](/blog/what-is-the-timeline-for-grammar-school-admissions). Register for tests by the closing date, often 31 August. Submit the LA application by December for September intake." },
-      { type: "p", text: "GL Assessment sets passmarks based on exam difficulty, with scaled scores indicating performance. Aim for strong results to meet **admission criteria** like academic ability. Check local council education portals for exact **testing dates** and venues." },
-      { type: 'table', headers: ["Time Period", "Key Actions"], rows: [["Year 4 Summer", "Begin ability testing and Buckinghamshire CEM practice."], ["Year 5 Spring", "Select tutor, start CGP/GL books for verbal reasoning and maths."], ["Year 6 September", "Visit open days, register for 11+ by 31 August."], ["Year 6 October", "Sit the 11+ test at designated exam venues."], ["Year 6 December", "Submit grammar school applications via online portal or paper form."], ["Year 6 March", "Receive offers on national offer day."]] },
-      { type: "ul", items: ["Complete **15 mocks minimum** to simulate real conditions.", "Target **120+ scaled score** for competitive edge.", "Visit **5+ schools** to rank preferences."] },
-    ],
-  },
+  "slug": "when-do-you-apply-for-grammar-school-places",
+  "title": "When do you apply for grammar school places? The 2027 exam cycle",
+  "desc": "Understand the separate 11 Plus registration and secondary-school application deadlines for exams taken in 2027 and the usual September 2028 intake.",
+  "date": "March 2, 2026",
+  "readTime": "5 min read",
+  "category": "Admissions",
+  "imageUrl": "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_4.jpeg",
+  "imageAlt": "When do you apply for grammar school places?",
+  "images": [
+    "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_1.jpeg",
+    "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_2.jpeg",
+    "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_3.jpeg",
+    "https://files.autoblogging.ai/images/when-do-you-apply-for-grammar-school-places(kw41)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "For a state grammar-school place in England, there are two separate jobs: register for the entrance test by its own deadline, then apply for the school place through your home local authority. Completing the first does not complete the second."
+    },
+    {
+      "type": "p",
+      "text": "For children taking the usual Year 7 entrance tests in 2027, the intended school start is generally September 2028. Under the current England secondary-admissions timetable, the school-place application deadline is **31 October 2027**. Test registration can close many months earlier."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This page concerns normal-round state secondary admissions in England. Independent schools, Northern Ireland’s post-primary transfer process and applications to join a school partway through the year have different arrangements."
+    },
+    {
+      "type": "h2",
+      "text": "Which application are you completing?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Application",
+        "Purpose",
+        "Where to start"
+      ],
+      "rows": [
+        [
+          "Entrance-test registration",
+          "Enters the child for the accepted assessment",
+          "School or official test organiser"
+        ],
+        [
+          "Common Application Form (CAF)",
+          "Lists preferred state secondary schools",
+          "Council where you live"
+        ],
+        [
+          "Supplementary Information Form (if required)",
+          "Provides additional information requested by a school",
+          "The school’s admissions instructions"
+        ],
+        [
+          "Access-arrangements request",
+          "Asks for adjustments to the assessment",
+          "Test organiser’s specific process"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The forms may have different deadlines. A school might use “application” to mean entry to its test, while a council uses the same word for a place in Year 7. Read what the form actually does and keep separate confirmations."
+    },
+    {
+      "type": "h2",
+      "text": "When does the school-place application open?"
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s guidance](https://www.gov.uk/schools-admissions/how-to-apply) says secondary applications usually open on 1 September and close on 31 October. Check the opening date, submission time and instructions in your home council’s scheme for the correct intake. Do not use 15 January, the primary-school deadline, for a secondary application."
+    },
+    {
+      "type": "p",
+      "text": "For September 2028 entry, [Wirral’s published timetable](https://www.wirral.gov.uk/schools-and-learning/school-admissions/step-by-step/apply-secondary-school-place/secondary-school) lists its application system opening on 1 September 2027 and closing on 31 October 2027. This is a specific council example; your own council is the place to verify the process you must follow."
+    },
+    {
+      "type": "h2",
+      "text": "How early must you register for the test?"
+    },
+    {
+      "type": "p",
+      "text": "Earlier than the council preference deadline. Some registration windows occur in spring, others later; neither “wait until Year 6” nor “all registration is in May” is safe advice. Begin checking during Year 5 and record the actual dates for every accepted test."
+    },
+    {
+      "type": "p",
+      "text": "The [Gloucestershire 2028-entry page](https://www.gloucestershire.gov.uk/schooladmissions/grammar-schools/) already lists registration during February–March 2027. Its test is planned for July. This illustrates why an autumn school-place deadline must not be treated as the deadline to start the whole process. See [how to register](/blog/how-to-register-my-child-for-the-11-plus) for a practical submission checklist."
+    },
+    {
+      "type": "h2",
+      "text": "Should you wait for the result before applying?"
+    },
+    {
+      "type": "p",
+      "text": "Read the organiser’s results timetable, but do not miss the council deadline while waiting for a result or a later test stage. Prepare your shortlist and supporting information in advance. Ask your council and the school how to complete the application if a result or further assessment is outstanding."
+    },
+    {
+      "type": "p",
+      "text": "A qualifying result means the child has met a particular academic requirement; it does not necessarily mean a place is available. Check each school’s admission rules alongside the result. A previous year’s lowest offered score cannot guarantee the next year’s outcome."
+    },
+    {
+      "type": "h2",
+      "text": "How should you order preferences?"
+    },
+    {
+      "type": "p",
+      "text": "Use your genuine preference order and include other schools you would be willing for your child to attend. Avoid the old advice to put a “safe” school first regardless of preference. Listing a single school does not strengthen that application. Read your home council’s explanation of how its coordinated offer process works and how many preferences it allows."
+    },
+    {
+      "type": "p",
+      "text": "For each choice, check the school’s published entry requirements, catchment or priority rules and any supporting form. A sibling, postcode or high score does not have an identical effect at every grammar school. School-specific policy matters more than a generic list of admissions priorities."
+    },
+    {
+      "type": "h2",
+      "text": "Your final-week application check"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Correct child and entry year selected.",
+        "Schools entered with the correct names; similarly named schools checked.",
+        "Preference order reflects your actual choices.",
+        "Required school forms and test-result sharing completed separately.",
+        "Address and supporting evidence meet the published requirements.",
+        "Application submitted, not left as a draft.",
+        "Confirmation saved and any remaining actions recorded."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What happens if you miss a deadline?"
+    },
+    {
+      "type": "p",
+      "text": "Contact the body responsible for the missed step immediately. A missed test-registration deadline and a late school-place application are different problems. Explain the circumstances and ask for the applicable published procedure. Do not rely on a supposed standard extension, late-registration fee or guaranteed appeal route to an examination."
+    },
+    {
+      "type": "p",
+      "text": "If you move home, ask the council how it treats the new address and any application changes. Do not assume that a new tenancy immediately changes your priority for every school. Keep evidence of the move and the correspondence about it."
+    },
+    {
+      "type": "h2",
+      "text": "When will you hear about a place?"
+    },
+    {
+      "type": "p",
+      "text": "Secondary offers normally arrive on 1 March, or the next working day if necessary, and the offer letter specifies when to respond. For the usual September 2028 intake, the expected national offer day under that rule is 1 March 2028. Check your council’s published timetable when available."
+    },
+    {
+      "type": "p",
+      "text": "For the complete journey from registration to transition, use our [grammar-school admissions timeline](/blog/what-is-the-timeline-for-grammar-school-admissions). If your child needs to join during an academic year, use the council’s in-year admissions route instead of assuming this normal-round calendar applies."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "when-are-grammar-school-open-days-and-visits",
@@ -7251,273 +7771,382 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "how-do-i-register-my-child-for-the-grammar-school-entry-test",
-    title: "How do I register my child for the grammar school entry test?",
-    desc: "Learn how to register your child for the grammar school entry test. Master age criteria, key dates, documents like birth certificates, GL and CEM tests, Bucks and Kent specifics. Get step-by-step guidance to secure their spot confidently.",
-    date: "March 4, 2026",
-    readTime: "8 min read",
-    category: "Admissions",
-    imageUrl: "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_4.jpeg",
-    imageAlt: "How do I register my child for the grammar school entry test?",
-    images: ["https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_1.jpeg", "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_2.jpeg", "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_3.jpeg", "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_4.jpeg"],
-    content: [
-      { type: "h3", text: "What Are Grammar School Entry Tests?" },
-      { type: "p", text: "The **11+ exam** typically consists of 4 core sections: Verbal Reasoning (synonyms, analogies), Non-Verbal Reasoning (patterns, sequences), Maths (age 10-11 curriculum), and English (comprehension, spelling). These **grammar school entry tests** assess skills for selective school admission. They help schools identify pupils ready for academic rigour." },
-      { type: "p", text: "Tests vary by provider and region. GL Assessment uses multiple choice formats, while **CEM Select** focuses on comprehension. Families should check local **school entry requirements** early." },
-      { type: "p", text: "Preparation involves practice with **Bond 11+ books** and mock tests. Parents can explore preparation courses or online resources and confirm the [11+ exam dates](/exam-dates) for their area. Familiarity reduces test-day anxiety for children." },
-      { type: "p", text: "Pass marks often fall in **standardised score ranges** like 109-121, but criteria differ by school. Results influence **grammar school places** and waiting lists. Review each school's admissions policy for details." },
-      { type: 'table', headers: ["Test Provider", "Format", "Duration", "Sections", "Sample Providers"], rows: [["GL Assessment", "Multiple choice", "60 min", "VR/NVR/Maths/English", "Kent Test"], ["CEM Select", "Comprehension-based", "50 min", "Numerical/Verbal", "Birmingham Consortium"]] },
-      { type: "p", text: "These consortium tests serve multiple selective schools. Families register via **online portals** or local authorities. Always confirm **application deadlines** and fees." },
-      { type: "h3", text: "Age and Residence Criteria" },
-      { type: "p", text: "Children must be born between 1st September 2012 and 31st August 2013 for September 2024 Year 7 entry across most UK grammar schools. This **age eligibility** ensures pupils are the correct age for the 11 plus exam. Schools strictly enforce this to maintain fairness in the **grammar school entry test**." },
-      { type: "p", text: "Proof of **UK residence** is essential during child registration. Submit documents like a Council Tax bill or utility bill dated within the last three months. These verify your address for the **application process**." },
-      { type: "p", text: "Catchment variations apply depending on the area, such as Bucks requiring two or more years of residence, which ties into [when you apply for grammar school places](/blog/when-do-you-apply-for-grammar-school-places) and the wider [timeline for grammar school admissions](/blog/what-is-the-timeline-for-grammar-school-admissions). Always check the school catchment area in the admissions policy. Priority groups include **looked-after children** and those eligible for **Pupil Premium**." },
-      { type: "p", text: "Use the table below to compare key requirements across counties. It lists **age cut-off**, residence rules, and example schools. This helps with planning your **test registration** and multiple applications." },
-      { type: 'table', headers: ["County", "Age Cut-off", "Residence Rule", "Example Schools"], rows: [["Bucks", "1/9/2012-31/8/2013", "2+ years required", "Dr Challoner's, Royal Grammar School"], ["Kent", "1/9/2012-31/8/2013", "Proof of address", "Grammar School for Girls, Invicta"], ["Essex", "1/9/2012-31/8/2013", "Utility bill 3+ months", "Westcliff High, Pate's Grammar"], ["Trafford", "1/9/2012-31/8/2013", "Council Tax proof", "Altrincham Grammar, Stretford Grammar"]] },
-      { type: "h3", text: "Key Dates to Remember" },
-      { type: "p", text: "For 2024 entry: Buckinghamshire registration 12th June-5th July, test 5th October; **Kent registration** 2nd June-1st August, tests 7th/21st September. These dates mark critical points in the grammar school entry test process for selective schools. Parents must check the official admissions portal for their chosen consortium to confirm exact timings." },
-      { type: "p", text: "Missing the **application deadline** often leads to late fees or rejection. For instance, late applications may incur charges from \u00a320 to \u00a350, depending on how soon after the close date they arrive. In extreme cases, such as Birmingham in 2023, around 200 late applications were rejected outright." },
-      { type: "p", text: "Planning ahead helps with gathering documents like the birth certificate and proof of address. Use the timeline below to track key stages for major consortia, including registration open, close dates, **test dates**, and results release. Set calendar reminders for **online registration** or paper application submission." },
-      { type: 'table', headers: ["Consortium", "Reg Open", "Reg Close", "Test Date", "Results"], rows: [["Bucks", "12 Jun", "5 Jul", "5 Oct", "31 Oct"], ["Kent", "2 Jun", "1 Aug", "7/21 Sep", "28 Oct"]] },
-      { type: "p", text: "After registration, expect a **confirmation email** with details on the exam venue and test day rules. Prepare by reviewing the school prospectus and attending open days. This ensures your child meets age eligibility and other school entry requirements." },
-      { type: "h3", text: "Proof of Address and Birth Certificate" },
-      { type: "p", text: "Full UK birth certificate (not short form) plus 2 proofs of address are required: one Council Tax bill plus one utility dated within 3 months of application. These documents verify your child's age eligibility and family residence for the grammar school entry test. Submit clear scans during online registration to avoid delays." },
-      { type: "p", text: "Schools check these strictly during the application process to confirm school catchment area and prevent fraud. In Kent, a notable number of applicants faced rejection in 2023 due to address verification issues. Always use documents in the parent/guardian name matching your **parent account**." },
-      { type: "p", text: "The table below lists **acceptable documents** with examples and notes for smooth **child registration**." },
-      { type: 'table', headers: ["Category", "Examples", "Notes"], rows: [["Proof of Address", "Council Tax bill, Mortgage statement, Utility bill (gas, electric, water)", "Must show **parent/guardian name**, within **3 months** of application date. Provide 2 different types."], ["Birth Certificate", "Full version from GRO", "Original scan required, not short form or hospital copy. Confirms age eligibility for **11 plus exam**."]] },
-      { type: "p", text: "Prepare these early to meet the application deadline. If homeschooling, include additional **proof of address** like bank statements. Contact the local authority via email support if documents are missing for selective school test registration." },
-      { type: "h2", text: "Understanding Grammar School Entry Tests" },
-      { type: "p", text: "Grammar school entry tests, primarily the 11+ exam, assess children's aptitude in verbal reasoning, non-verbal reasoning, maths, and English to determine **selective school places**." },
-      { type: "p", text: "These tests come in two main formats. **GL Assessment** papers typically feature 60% verbal and non-verbal reasoning alongside 40% maths and English content. In contrast, CEM Select uses 60 questions completed in 50 minutes with a focus on reasoning skills." },
-      { type: "p", text: "Parents should check their local **grammar schools** to identify the test provider, as this affects preparation. Around 164 UK grammar schools use these entrance examinations for year 7 admissions. Understanding the structure helps with targeted practice using resources like Bond papers." },
-      { type: "p", text: "Age eligibility usually requires children to be in year 6, born between specific dates. Review the **school prospectus** or attend open days for details on test dates and venues." },
-      { type: "h3", text: "GL Assessment Breakdown" },
-      { type: "p", text: "GL Assessment tests often include 36 questions split between verbal reasoning and non-verbal reasoning, with a total time of 45 minutes per section. Maths and English components follow similar timed formats. This structure tests core primary school exam skills." },
-      { type: "p", text: "Sample question types in verbal reasoning involve word analogies, such as matching bird is to fly as fish is to swim. Non-verbal reasoning features shape patterns and sequences. Parents can find practice papers online or through preparation courses." },
-      { type: "p", text: "Top performers typically reach the **pass mark**, often needing scores in the upper quartile. Schools set their own criteria based on standardised scores. Familiarise your child with these via mock tests to build confidence." },
-      { type: "p", text: "Registration for GL tests happens through the local consortium or school portal. Ensure you submit proof of address and birth certificate by the application deadline." },
-      { type: "h3", text: "CEM Select Breakdown" },
-      { type: "p", text: "CEM Select emphasises numerical and verbal reasoning across 60 questions in 50 minutes, with less reliance on rote maths or English. It aims to identify potential without heavy coaching. This format suits children strong in logical thinking." },
-      { type: "p", text: "Examples include verbal reasoning puzzles like code-breaking or comprehension inferences. Numerical sections test quick calculations and data interpretation. Use test familiarisation materials to avoid surprises on exam day." },
-      { type: "p", text: "Pass rates depend on competition, with selective schools prioritising top scores. Oversubscription leads to tie-breaks like distance or sibling priority. Check the admissions policy for score bands and waiting lists." },
-      { type: "p", text: "For child registration, complete the online form via the LEA portal, paying the registration fee. Attend parent information evenings for insights into the process and preparation tips." },
-      { type: "h2", text: "Eligibility Requirements" },
-      { type: "p", text: "Eligibility hinges on birth date (1st Sept-31st Aug) and local authority residence rules, with most grammar schools requiring children to live in catchment **2+ years pre-application**. For 2024 entry, the typical age window is 1 September 2012 to 31 August 2013. Parents must check the specific **school admissions policy** early in the process." },
-      { type: "p", text: "**Proof of address** forms a key part of child registration. Schools often ask for documents like council tax bills or utility statements covering the residence period. Always gather these in advance to avoid delays in the application process." },
-      { type: "p", text: "Some areas prioritise **looked after children**, pupil premium eligibility, or siblings already at the school. Review the school prospectus or attend open days for full priority criteria details. Contact the local authority if unsure about your situation." },
-      { type: "p", text: "Exceptions exist for special needs or access arrangements, so provide evidence like a **birth certificate** and previous school reports. Early verification helps secure a spot in the 11 plus exam or selective school test." },
-      { type: "h3", text: "Bucks County Specifics" },
-      { type: "p", text: "In Bucks, **permanent residence** in the catchment area is essential for grammar school entry test eligibility. Families must prove they have lived there long-term, often with multiple address proofs. This rule aims to ensure local children get priority for grammar school places." },
-      { type: "p", text: "Submit documents such as rental agreements or mortgage statements dated at least two years prior. The **local authority** verifies these during the application review. Failure to meet this can lead to rejection even after passing the **entrance examination**." },
-      { type: "p", text: "Parents should register child details via the online portal, including proof of address. Attend parent information evenings for Bucks-specific advice on the **school admission test**. This prepares you for the full process." },
-      { type: "p", text: "**Sibling priority** may apply if another child attends the school. Check the admissions policy for oversubscription rules like distance from school." },
-      { type: "h3", text: "Kent Grammar Schools" },
-      { type: "p", text: "Kent grammar schools have **no set residence period** but actively monitor local ties. Proof of living nearby helps, though not always mandatory for two full years. Focus on strong performance in the 11 plus exam to stand out." },
-      { type: "p", text: "Provide recent utility bills or a doctor's letter confirming address. Authorities track moves post-application to uphold fairness. This flexible approach suits families relocating within the county." },
-      { type: "p", text: "Use the online registration system for test registration, uploading supporting documents. Kent often uses GL Assessment for verbal reasoning, non-verbal reasoning, maths test, and English test sections. Preparation with practice papers boosts chances." },
-      { type: "p", text: "**Faith criteria** or aptitude tests may influence priority in some schools. Review each school's policy and consider mock tests for familiarity." },
-      { type: "h3", text: "Birmingham Catchment Rules" },
-      { type: "p", text: "Birmingham emphasises **catchment priority** for state grammar schools, favouring those within defined zones. Residence proof is checked rigorously, typically spanning two years. This ensures places go to local pupils first." },
-      { type: "p", text: "Gather council tax records, bank statements, or electoral roll evidence. The **LEA admissions** team processes these alongside the application form. Late submissions can disqualify your child from the **primary school exam**." },
-      { type: "p", text: "Multiple applications are possible across selective schools, but declare all. Birmingham uses consortium tests, so note test dates and venues. Parental consent and a recent photo are often required." },
-      { type: "p", text: "For **SEN provisions**, request access arrangements early with medical evidence. Pupil premium or free school meals status can add priority in oversubscription scenarios." },
-      { type: "h2", text: "Finding Your Local Grammar Schools" },
-      { type: "p", text: "Use the official **Grammar Schools Guide** (164 schools across 36 LEAs) or local authority websites to identify grammar schools within your **catchment area**." },
-      { type: "p", text: "Start by visiting grammarschoolsnow.com, which lists all 164 grammar schools. This site helps you filter by region and provides details on school entry requirements like the 11 plus exam." },
-      { type: "p", text: "Next, check your **local council admissions portal** for selective schools in your area. For example, Birmingham LEA oversees 8 grammars offering places through a shared entrance examination process." },
-      { type: "p", text: "Review school prospectuses for specifics on application deadlines and test dates. Attend open days, [typically held in September or October](/blog/when-are-grammar-school-open-days-and-visits), to see facilities and ask about the registration process." },
-      { type: "p", text: "Top search tools include **county council sites** and TheGrammarSchoolGuide.co.uk. These resources outline priority criteria such as sibling priority or distance from school." },
-      { type: "ul", items: ["County council sites for LEA admissions and catchment maps", "TheGrammarSchoolGuide.co.uk for school profiles and test information", "Grammarschoolsnow.com for a full national directory"] },
-      { type: "h2", text: "Registration Timeline and Deadlines" },
-      { type: "p", text: "Registration windows typically open **June-July** and close September-October, with tests held early September for most consortia. Parents must check specific dates for their target grammar schools as timelines vary by region and consortium. Missing these can limit grammar school places." },
-      { type: "p", text: "For 2024, Bucks registration closed on 12th June with the test on 5th October. In **Kent**, the window ran from 2nd June to 1st August. Always confirm via the local authority or school website to avoid errors." },
-      { type: "p", text: "Late applications often incur **penalties** like extra fees starting at \u00a350, plus potential exclusion from priority criteria such as sibling priority or catchment area. Plan ahead by marking application deadlines in your calendar. Use the online portal for timely submission of forms and supporting documents like birth certificates." },
-      { type: "p", text: "Experts recommend starting the application process early to gather proof of address, parental consent, and any SEN provisions requests. This ensures smooth child registration for the 11 plus exam. Attend open days or parent evenings for precise school entry requirements." },
-      { type: "h3", text: "Major Consortia Calendar" },
-      { type: "p", text: "Key **consortium tests** follow set schedules for the selective school test. Review this calendar to align your test registration with options like GL Assessment or CEM Select. It covers five major groups to simplify planning." },
-      { type: 'table', headers: ["Consortium", "Registration Opens", "Registration Closes", "Test Date"], rows: [["Birmingham Consortium", "Early June", "Mid-July", "Early September"], ["Bucks GL", "12th June", "Late June", "5th October"], ["Kent Test", "2nd June", "1st August", "Mid-September"], ["Essex Consortium", "Mid-June", "Early September", "Late September"], ["Trafford Consortium", "July", "Early September", "Early October"]] },
-      { type: "p", text: "After registering online or via paper application, expect a confirmation email with **exam venue** details and test day rules. Prepare by reviewing the school prospectus for age eligibility and priority criteria." },
-      { type: "p", text: "For **multiple applications**, note overlapping dates across state grammar schools. Check admissions policy for oversubscription rules like distance or looked after children status. This helps prioritise your **register child** efforts effectively." },
-      { type: "h2", text: "Required Documents and Information" },
-      { type: "p", text: "All applications require child's full birth certificate, parent/guardian ID, and proof of address (Council Tax, utility bills dated within 3 months). Scan these core documents in colour for clarity during the grammar school entry test registration. This ensures smooth verification in the application process." },
-      { type: "p", text: "Parents must also provide a recent passport-style photo of the child. For families eligible for Pupil Premium or **free school meals**, include supporting evidence like benefit statements. Additional documents apply for SEN provisions or access arrangements." },
-      { type: "p", text: "Prepare digital copies ahead of the application deadline to avoid delays in online registration. Check the school's admissions policy for specific school entry requirements. Parental consent forms confirm eligibility for the 11 plus exam." },
-      { type: "p", text: "Gather everything in one folder for easy upload to the **online portal** or paper application. Schools verify ID verification and residence to prioritise grammar school places under school catchment area rules. Contact the local authority helpline if unsure about formats." },
-      { type: "h3", text: "Core Documents" },
-      { type: "p", text: "Start with the **child's full birth certificate** showing date and place of birth to confirm age eligibility for the **selective school test**. Parent or guardian ID, such as a passport or driving licence, proves authority for child registration. These form the foundation of every test registration." },
-      { type: "p", text: "Proof of address must be recent, dated within three months. Acceptable examples include EDF or British Gas utility bills, or Council Tax statements. Banks statements or official letters from HMRC also work well." },
-      { type: "p", text: "Scan all in high-resolution **colour** as PDF or JPEG files, under 5MB each. Name files clearly, like ChildBirthCert.pdf, for quick review. This speeds up processing for the entrance examination." },
-      { type: "p", text: "If homeschooling, include evidence of academic record alongside standard docs. Schools may request a headteacher reference from previous settings. Double-check requirements in the school prospectus or during open days." },
-      { type: "h3", text: "Additional Documents for SEN and Pupil Premium" },
-      { type: "p", text: "For children needing SEN provisions, submit an Educational Health Care Plan or doctor's letter detailing **special needs**. Request access arrangements like extra time via these supporting documents. This supports fair participation in the primary school exam." },
-      { type: "p", text: "Pupil Premium eligibility requires proof like income-related free school meals letters or tax credit awards. These grant priority under **oversubscription** criteria alongside sibling priority or looked after children status. Attach them during register child steps." },
-      { type: "p", text: "Include recent **previous school report** or professional assessments for SEN cases. Formats match core docs: colour scans in PDF. Schools review for **test familiarisation** or modified papers in verbal reasoning, non-verbal reasoning, maths, or English tests." },
-      { type: "p", text: "Parental consent is vital for sharing these with exam boards like GL Assessment or CEM Select. Apply early to allow processing before **test date** and exam venue assignment. Use **parent forums** for tips on common rejection reasons." },
-      { type: "h3", text: "Document Formats and Examples" },
-      { type: "p", text: "Use **colour scans** at 300 DPI for legibility in the **application form**. Preferred formats are PDF for security or JPG for photos, ensuring files open clearly on any device. Avoid blurry images to prevent application holds." },
-      { type: "p", text: "**Proof of address examples** include EDF electricity bill, British Gas gas statement, or current **Council Tax** bill. Passports serve as both ID and address proof if recently issued. Tenancy agreements work if dated within three months." },
-      { type: "p", text: "For **photo requirement**, use a plain background, head-and-shoulders shot like those for **passport**. Digital photos upload directly; printed ones suit postal application. Label as ChildPhoto_YearMonth.jpg." },
-      { type: "p", text: "Confirmation comes via **email support** or parent account portal after submission. Review LEA admissions guidelines for variations in consortium tests. Prepare backups to handle any upload issues before the registration fee payment." },
-      { type: "h2", text: "Online Registration Process" },
-      { type: "p", text: "Create a parent account on your LEA portal (e.g., Bucks 'Starting Secondary School'), upload documents, and select up to **6 preferences** ranked by priority. This online registration process for the grammar school entry test typically takes about 45 minutes. Follow the steps carefully to avoid delays in your child's application." },
-      { type: "p", text: "First, set up your account on the **local authority portal**. It takes around 5 minutes and requires basic details like your email and contact information. Verify your email to activate the account for secure access." },
-      { type: "ol", items: ["Create your parent account on the Bucks CC portal or your relevant LEA site, which takes about **5 minutes**.", "Upload your child's birth certificate and proof of address as PDF or JPG files under 5MB each.", "Enter your child's details and select up to **6 school preferences**, ranked by priority for the 11 plus exam.", "Pay the **registration fee** of \u00a320 to \u00a360, depending on your area and test type.", "Download your confirmation within **24 hours**; check your email and portal dashboard."] },
-      { type: "p", text: "Common mistakes include using the wrong **birth date format** like DD/MM/YYYY when MM/DD/YYYY is needed, or submitting low-resolution scans that fail upload. Double-check file sizes and formats before submitting. Save a copy of all documents for your records." },
-      { type: "h3", text: "Preparing Your Documents" },
-      { type: "p", text: "Gather **supporting documents** early to speed up the child registration process. You need a clear scan of the birth certificate to confirm age eligibility for the school admission test. Include proof of address like a recent utility bill to meet school entry requirements." },
-      { type: "p", text: "Scan documents at high resolution, ensuring files are under **5MB** in PDF or JPG format. For example, use a scanner app on your phone for quick uploads if needed. Blur any sensitive details not required, but keep key information legible." },
-      { type: "p", text: "Check for **photo requirements** or ID verification on your LEA portal. Some selective schools request a recent photo for the entrance examination. Parental consent is often needed via a digital signature during upload." },
-      { type: "h3", text: "Selecting School Preferences" },
-      { type: "p", text: "Rank up to **6 grammar schools** by priority based on catchment area and criteria like sibling priority or distance. Consider test dates and exam venues when choosing for the primary school exam. Review each school's admissions policy and prospectus for details on pass criteria and oversubscription rules." },
-      { type: "p", text: "List preferences honestly to match your child's strengths in verbal reasoning, non-verbal reasoning, maths test, or English test. For instance, prioritise schools with SEN provisions if access arrangements are needed. Note priority for looked after children or pupil premium eligibility." },
-      { type: "p", text: "Multiple applications are allowed across selective schools, but focus on state grammar schools first. Check for consortium tests like GL Assessment or CEM Select. Attend open days or parent information evenings for insights before finalising." },
-      { type: "h3", text: "Payment and Confirmation" },
-      { type: "p", text: "Pay the registration fee securely via card on the portal after entering details. Fees range from **\u00a320 to \u00a360** based on the selective school test and local rules. Keep your payment reference for queries." },
-      { type: "p", text: "After submission, expect a confirmation email within 24 hours with test date and venue details. Download the PDF confirmation from your account dashboard. Print it for test day rules, noting what to bring and prohibited items." },
-      { type: "p", text: "If issues arise, contact LEA admissions via helpline or email support before the application deadline. Track your application status online. Prepare for next steps like practice papers or mock tests while awaiting test results and score bands." },
-      { type: "h2", text: "Paper Application Options" },
-      { type: "p", text: "Download paper forms from LEA websites (e.g., Kent County Council) or request by calling 03000 41 23 56; post with original documents to specified address. This **paper application** process suits families without reliable internet access. It ensures your child registration for the grammar school entry test follows official guidelines." },
-      { type: "p", text: "Start by obtaining the application form for the 11 plus exam. Complete it in black ink to avoid processing delays. Attach the original birth certificate to verify age eligibility." },
-      { type: "p", text: "Include **proofs of address** and any parental consent forms. Pay the registration fee of \u00a342 via postal order or cheque, payable to the LEA. Use **recorded delivery** when posting to track your school admission test submission." },
-      { type: "p", text: "Expect processing time of about 10 working days. Contacts include Kent at 03000 41 23 56 and Bucks at **01296 395000** for queries on application deadline or test date. Keep copies of all supporting documents for your records." },
-      { type: "h3", text: "Step-by-Step Paper Process" },
-      { type: "p", text: "Follow this **step-by-step process** for smooth test registration. First, download the form from the local authority site or call the helpline. Fill it out carefully, noting **school catchment area** and priority criteria." },
-      { type: "p", text: "Second, gather original birth certificate, proof of address, and passport photos if required. Experts recommend double-checking entrance examination details like exam venue. Include evidence for **sibling priority** or pupil premium." },
-      { type: "ol", items: ["Download or request the application form from Kent CC website or by phone.", "Complete in **black ink**, detailing selective school test preferences.", "Attach **original birth certificate** plus proofs for **ID verification**.", "Add **postal order or cheque** for \u00a342, payable to LEA.", "Post via recorded delivery to the LEA address listed on the form."] },
-      { type: "p", text: "After submission, await confirmation email or letter outlining test day rules. This method supports multiple applications to state grammar schools." },
-      { type: "h3", text: "Fees and Payment Methods" },
-      { type: "p", text: "The registration fee is \u00a342, payable by **postal order** or cheque to the LEA. Do not send cash, as it risks loss in transit. Confirm the payee name on the form for grammar school places." },
-      { type: "p", text: "For looked after children or those eligible for free school meals, fee waivers may apply; contact the LEA helpline. Use recorded delivery to protect your payment. Keep the receipt as proof." },
-      { type: "p", text: "Bucks parents can call 01296 395000 for fee queries related to consortium tests. Ensure payment accompanies all supporting documents. Late fees are not accepted past the application deadline." },
-      { type: "h3", text: "Processing and Contacts" },
-      { type: "p", text: "Applications take around 10 working days to process. You will receive confirmation with test date and exam venue details. Track status by calling the provided numbers." },
-      { type: "p", text: "Kent support: **03000 41 23 56**; Bucks: 01296 395000. Ask about SEN provisions or **access arrangements** during this time. Helplines offer advice on oversubscription and waiting list options." },
-      { type: "p", text: "If issues arise with postal application, email support may be available via LEA details. Prepare for **verbal reasoning**, non-verbal reasoning, maths test, and **English test** while waiting. Common mistakes include missing birth certificate copies." },
-      { type: "h2", text: "Fees and Payment Methods" },
-      { type: "p", text: "Fees range **\u00a320-\u00a365 per test**: Bucks (\u00a382), Kent (\u00a342), Birmingham (\u00a365). **Pupil Premium/Free School Meals** eligible families can apply for waivers via a dedicated form. Always check the specific local authority website for your grammar school's exact fee." },
-      { type: "p", text: "Paying the registration fee is a key step in the child registration process for the 11 plus exam. Late payments or errors often lead to application delays. Submit payment promptly after completing the online registration or paper form." },
-      { type: "p", text: "**Waiver processes** require uploading an eligibility letter from your child's primary school. For example, confirm Pupil Premium status before the application deadline. Contact the LEA admissions team if documents are missing to avoid rejection." },
-      { type: "p", text: "Multiple **payment methods** suit different preferences, from online cards to postal orders. Keep proof of payment for your records. Non-payment led to around 8% of applications being rejected in 2023 across selective schools." },
-      { type: 'table', headers: ["LEA", "Fee", "Waivers", "Payment Methods"], rows: [["Bucks", "\u00a382", "PP/FSM", "Online/Postal Order"], ["Kent", "\u00a342", "PP/FSM", "Card/Cheque"], ["Birmingham", "\u00a365", "PP/FSM", "Online/Card"]] },
-      { type: "h3", text: "Applying for Fee Waivers" },
-      { type: "p", text: "Start the waiver process early during test registration. Upload your **proof of eligibility**, such as a letter confirming Free School Meals or Pupil Premium. This ensures your child's grammar school entry test application proceeds without fee barriers." },
-      { type: "p", text: "Families with looked after children or those qualifying under SEN provisions often receive automatic waivers. Verify requirements in the school's **admissions policy**. Submit via the online portal for quickest processing." },
-      { type: "p", text: "If approved, you will receive a confirmation email waiving the registration fee. Rejected waiver claims require full payment by the deadline. Experts recommend keeping copies of all supporting documents." },
-      { type: "h3", text: "Common Payment Issues and Solutions" },
-      { type: "p", text: "**Payment failures** can derail your application for the school admission test. Double-check card details or postal order references before submitting. Contact the LEA admissions helpline if issues arise post-submission." },
-      { type: "p", text: "Some parents face delays with cheques due to processing times. Opt for **online payment** where possible for instant confirmation. Always note the test date and exam venue in your parent account." },
-      { type: "p", text: "Rejections from non-payment highlight the need for prompt action. Track your application status online. This avoids missing out on grammar school places due to avoidable errors." },
-      { type: "h2", text: "Multiple School Applications" },
-      { type: "p", text: "Rank up to 6 preferences on one form. There is no penalty for applying to multiple grammars within the same **consortium**, such as the Birmingham 8 schools. This approach maximises your child's chances for grammar school places." },
-      { type: "p", text: "Start by researching **oversubscription ratios** for each school. For example, Barton Peveril Grammar often sees high demand, so check the latest admissions data on school websites or local authority portals. This helps you gauge competitiveness before submitting your application form." },
-      { type: "p", text: "Next, rank your choices from **safe to competitive**. Place a reliable local grammar first if it fits, followed by more selective options. In **equal preference areas**, schools consider test scores alongside other criteria without strict distance rules, unlike comprehensive areas." },
-      { type: "p", text: "Remember that applying to schools in the same consortium tests means your child sits just one 11 plus exam. Birmingham parents, for instance, can apply to all 8 grammars using a single form via the local authority's online portal. Always verify the application deadline to avoid missing out." },
-      { type: "ul", items: ["Research each school's **oversubscription criteria**, including sibling priority and catchment areas.", "List preferences strategically: safe first, ambitious last.", "Confirm if multiple schools share the same entrance examination to save time on test registration.", "Prepare supporting documents like proof of address and birth certificate for all applications."] },
-      { type: "h2", text: "Confirmation and Next Steps" },
-      { type: "p", text: "Expect a confirmation email within 5-10 days containing the test date (early Sept), venue address, and candidate number. Print this email and bring it with photo ID on test day for the grammar school entry test. This ensures smooth entry into the exam venue." },
-      { type: "p", text: "After receiving confirmation, complete a **post-registration checklist** to stay organised. Save the confirmation as a PDF for your records. Note key **test rules** such as no calculators and use of 2B pencils only." },
-      { type: "p", text: "Prepare for travel as venues are often **sports halls** or large centres. Check the results timeline, typically around 31st October in most areas. Familiarise yourself with the 11 plus exam format including verbal reasoning and maths test sections." },
-      { type: "p", text: "On test day, pack essentials like your **confirmation printout**, pencils, rubber, water bottle, and a small snack. Review prohibited items with your child to avoid issues. Contact the helpline if any details change during the application process." },
-      { type: "h3", text: "Post-Registration Checklist" },
-      { type: "p", text: "Follow this post-registration checklist right after your child registration for the selective school test. First, download and save the confirmation PDF from the email. Keep it safe alongside supporting documents like birth certificate and proof of address." },
-      { type: "p", text: "Next, note all **test day rules** including no electronic devices or calculators. Use only 2B pencils and a rubber for the non-verbal reasoning and English test papers. Review the school prospectus for any additional school entry requirements." },
-      { type: "p", text: "Plan travel to the exam venue, often a sports hall in the school catchment area. Mark the test date in early September on your calendar. Understand the results timeline, usually by late October, to manage expectations around grammar school places." },
-      { type: "p", text: "Discuss **parental consent** forms and any SEN provisions if applicable. Check for access arrangements like extra time. This preparation supports your child's confidence for the entrance examination." },
-      { type: "h3", text: "Test Day Packing List" },
-      { type: "p", text: "Prepare a clear **test day packing list** for the primary school exam. Include the printed confirmation email with candidate number and venue details. Add photo ID for verification at entry." },
-      { type: "p", text: "Pack **2B pencils**, a sharpener, rubber, transparent water bottle, and a non-messy snack like fruit. Avoid prohibited items such as watches or food wrappers. Label everything with your child's name for the school admission test." },
-      { type: "p", text: "Review invigilator instructions in the confirmation, focusing on arrival time and seating. Practice with mock tests using similar items at home. This routine helps reduce anxiety on the test date." },
-      { type: "h3", text: "Helpline Support by County" },
-      { type: 'table', headers: ["County", "Helpline Number", "Email Support"], rows: [["Buckinghamshire", "01296 395000", "admissions@buckscc.gov.uk"], ["Kent", "03000 41 23 23", "admissions@kent.gov.uk"], ["Warwickshire", "01926 410410", "admissions@warwickshire.gov.uk"], ["Trafford", "0161 912 5000", "admissions@trafford.gov.uk"], ["Lincolnshire", "01522 782030", "admissions@lincolnshire.gov.uk"]] },
-      { type: "p", text: "Use these **helpline numbers by county** for queries on test registration or changes. Contact the local authority for issues with online portal access or paper application status. They assist with registration fee queries and application deadlines." },
-      { type: "p", text: "For GL Assessment or CEM Select tests, helplines cover consortium details and priority criteria like sibling priority. Ask about waiting lists or appeal processes if needed. Always reference your parent account number." },
-    ],
-  },
+  "slug": "how-do-i-register-my-child-for-the-grammar-school-entry-test",
+  "title": "Grammar school test registration: forms, consortia and result sharing",
+  "desc": "A practical checklist for registering for grammar school tests in 2027: shared exams, consent, evidence, confirmation and the separate school application.",
+  "date": "March 4, 2026",
+  "readTime": "5 min read",
+  "category": "Admissions",
+  "imageUrl": "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_4.jpeg",
+  "imageAlt": "How do I register my child for the grammar school entry test?",
+  "images": [
+    "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-do-i-register-my-child-for-the-grammar-school-entry-test(e0er)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "When applying to more than one grammar school, the main registration question is: which test result does each school accept, and what must you submit for that result to reach it? A shared examination can reduce the number of tests, but it does not necessarily complete every school’s application requirements."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Plan for exams taken in 2027 and check the associated entry year. For the usual English Year 7 grammar-school route, this is often September 2028 entry. This checklist covers test-group administration; our [step-by-step 11 Plus registration guide](/blog/how-to-register-my-child-for-the-11-plus) covers completing the form itself."
+    },
+    {
+      "type": "h2",
+      "text": "Build a school-to-test checklist"
+    },
+    {
+      "type": "p",
+      "text": "Create one row for each school you would realistically accept. Copy the test name from the official admissions page, rather than inferring it from location or from the provider printed on a practice paper. Complete the final column only after checking the relevant year’s instructions."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "School",
+        "Test and organiser",
+        "Additional action",
+        "Evidence of completion"
+      ],
+      "rows": [
+        [
+          "School A",
+          "Record official test name",
+          "Check result-sharing selection",
+          "Save submission reference"
+        ],
+        [
+          "School B",
+          "Is it the same accepted test?",
+          "Check separate school form",
+          "Save receipt or written confirmation"
+        ],
+        [
+          "School C",
+          "Record any separate assessment",
+          "Check second-stage invitation rules",
+          "Record contact and next deadline"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These are blank planning examples, not real school arrangements. The exercise helps reveal whether you have one shared test, two independent tests or an additional assessment. It also prevents a registration portal being mistaken for the council’s later preference form."
+    },
+    {
+      "type": "h2",
+      "text": "Shared tests: check the permissions, not just the test name"
+    },
+    {
+      "type": "p",
+      "text": "An example from the previous cycle shows why this matters. [Queen Mary’s Grammar School’s September 2027-entry instructions](https://www.qmgs.walsall.sch.uk/September-2027-Entry/) require families to select the relevant result-sharing options when registering. Its guidance explains that naming another school later on the council form does not replace those permissions. That page relates to testing in 2026: read the successor policy before registering for a 2027 sitting."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Which schools will receive the result automatically?",
+        "Which schools or authorities must you actively select?",
+        "Is there a separate consent or supporting form?",
+        "When can a selection be corrected, and what happens after that deadline?",
+        "Are additional stages or supplementary forms required by individual schools?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not book a second sitting of what may be the same test to try to improve the score. First check the organiser’s rules. The [Birmingham test information](https://kingedwardvifoundation.co.uk/the-test/) states that its shared examination cannot be taken more than once. This is a named example, not a substitute for reading another consortium’s policy."
+    },
+    {
+      "type": "h2",
+      "text": "The test venue is not necessarily a school preference"
+    },
+    {
+      "type": "p",
+      "text": "An allocated centre tells you where the child will sit the test. It need not be the school you hope they will attend. Keep venue, test group and intended school as separate entries in your notes. Check travel arrangements only once you have the organiser’s actual invitation; a confirmation email may arrive before venue details."
+    },
+    {
+      "type": "h2",
+      "text": "Check evidence and additional forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Item",
+        "Question to resolve before submission"
+      ],
+      "rows": [
+        [
+          "Identity and address",
+          "What information is required now, and what may be verified later?"
+        ],
+        [
+          "Photograph",
+          "Is one needed, and what are the actual upload requirements?"
+        ],
+        [
+          "Access arrangements",
+          "Which request form and evidence must be submitted, and by whom?"
+        ],
+        [
+          "Priority category",
+          "What definition and proof does this school use?"
+        ],
+        [
+          "Supplementary information form",
+          "Is it the test-registration form, a separate admissions form, or not needed?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A diagnosis does not tell you which adjustment will be granted. Describe the access need through the official process and obtain the organiser’s decision. As an example, [Warwickshire](https://www.warwickshire.gov.uk/grammar-schools-11-test/register-11-test) directs families to a specific testing-arrangements form after registration. Follow the form for the relevant cycle, including any evidence from your child’s school."
+    },
+    {
+      "type": "p",
+      "text": "Avoid assuming that being eligible for a support scheme or admissions priority is automatically detected from your postcode. If the form asks for evidence, complete that part as well as the main application. Keep personal documents in a private folder and send them only through the stated official route."
+    },
+    {
+      "type": "h2",
+      "text": "Before you press submit"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Check that the entry year and child’s details are correct.",
+        "Compare every school in your checklist against the accepted test and result-sharing choices.",
+        "Check required attachments and whether any form must be sent separately.",
+        "Read the declaration and save a copy of the completed application.",
+        "Submit and record the reference, confirmation status and remaining actions."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "An account-created message is not the same as a submitted test application. If a portal still shows a draft, resolve that before the deadline. If you discover a mistake, ask the admissions team how to correct the existing record; duplicate entries can make it harder to establish which application is valid."
+    },
+    {
+      "type": "h2",
+      "text": "What if two different tests clash?"
+    },
+    {
+      "type": "p",
+      "text": "Contact both organisers as soon as you notice the conflict and explain which examinations are involved. Follow their published alternative-date rules. Do not assume that a second sitting is freely available or that a clash, holiday or late application guarantees an alternative. Record the reply and any required supporting evidence."
+    },
+    {
+      "type": "h2",
+      "text": "Complete the separate school-place application"
+    },
+    {
+      "type": "p",
+      "text": "Later, use your home council’s secondary application to list your actual school preferences. [GOV.UK](https://www.gov.uk/schools-admissions/how-to-apply) confirms that this is also the route when a state school is in another council area. Passing or sharing a test result is not itself an application for a place."
+    },
+    {
+      "type": "p",
+      "text": "Use the [admissions timeline](/blog/what-is-the-timeline-for-grammar-school-admissions) to track the next steps, and keep the [exam-dates guide](/blog/when-are-the-11-plus-exam-dates-in-my-area) beside your school-to-test checklist. For independent schools, follow their direct application process rather than assuming that the state-school council form applies."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
-    slug: "what-is-the-timeline-for-grammar-school-admissions",
-    title: "What is the timeline for grammar school admissions?",
-    desc: "Discover the precise timeline for grammar school admissions: Year 5 registration, entrance exam prep, test dates, results, and offers. Master regional variations and appeals to secure your child's spot in a top UK grammar school today.",
-    date: "March 5, 2026",
-    readTime: "7 min read",
-    category: "Admissions",
-    imageUrl: "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_4.jpeg",
-    imageAlt: "What is the timeline for grammar school admissions?",
-    images: ["https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Overview of Grammar School Admissions" },
-      { type: "p", text: "Grammar school admissions in the UK provide selective entry to academically rigorous secondary schools for **Year 7** (age 11), with approximately **163 state-funded grammar schools** serving 25% of secondary pupils in selective areas like Kent, Buckinghamshire, and Birmingham." },
-      { type: "p", text: "These schools originated after the **1944 Education Act**, which established selective education based on academic ability. Today, they operate in 23 local authorities with fully selective systems, admitting pupils through **11+ exams**." },
-      { type: "p", text: "Government data shows around **22,000 pupils admitted annually** via entrance tests from providers like GL Assessment or CEM Select. The **timeline for grammar school admissions** starts in Year 5 or 6, with registration dates often in June or July, exams on the [11+ exam dates](/exam-dates) in September, and offers on national offer day in March for September intake." },
-      { type: "p", text: "Families must check local **coordinated admissions schemes**, oversubscription criteria like catchment areas, and priority for looked after children. Preparation involves practice tests and open days to understand the process fully." },
-      { type: "h3", text: "What Are Grammar Schools?" },
-      { type: "p", text: "Grammar schools are state secondary schools that admit pupils based on **academic ability** demonstrated through the **11+ entrance exam**, prioritizing high performers in verbal reasoning, non-verbal reasoning, maths, and English." },
-      { type: "p", text: "The selection process uses exams from **GL Assessment** or **CEM Select**. Pass marks often target the top 25%, such as a score of 332+ out of 420 for Kent grammars, with published admission numbers (PAN) averaging 180 places per school." },
-      { type: "p", text: "Exam components typically include verbal reasoning (VR) for vocabulary and comprehension, non-verbal reasoning (NVR) for patterns and logic, **maths** covering mental arithmetic and problem-solving, **English** testing spelling, grammar, and reading." },
-      { type: "p", text: "Examples vary by area: Wilson\u2019s Grammar School in Sutton uses CEM, while Tiffin Girls uses GL. Families should review each school's **admissions policy** for details on fair banding, random allocation, or highest score first in oversubscription." },
-      { type: "h2", text: "Key Eligibility Requirements" },
-      { type: "p", text: "All Year 6 pupils in state primary schools qualify to register, but **oversubscription criteria** prioritise looked-after children, siblings, catchment area residents, then highest 11+ scores or distance. The DfE School Admissions Code 2021 sets mandatory criteria that all grammar schools must follow. These rules ensure fair access to selective places for **Year 7 September intake**." },
-      { type: "p", text: "**Looked-after children** and those in permanent care receive the highest statutory priority from the Department for Education. This group includes children in care or previously looked-after, as defined in the code. Schools must admit them first during oversubscription." },
-      { type: "p", text: "Next comes **sibling priority**, often covering full, half, or step siblings already on roll at the school. Catchment or priority areas follow, with examples like Birmingham's three-mile radius map. Academic merit via **11-plus exam** scores and straight-line distance measurements complete the list." },
-      { type: "ul", items: ["**Published Admission Number (PAN)** examples: Colchester Royal Grammar School offers 96 places, Judd School provides 120 places.", "Parents check the school's admissions policy for exact definitions of siblings and catchment.", "Prepare proof of address and birth certificate for the **application form**."] },
-      { type: "p", text: "Families should review local authority coordinated schemes early in the **grammar school admissions timeline**. Open days and prospectuses detail these criteria clearly. Contact the admissions office for specific queries on eligibility." },
-      { type: "h2", text: "Standard Timeline by Academic Year" },
-      { type: "p", text: "The grammar school admissions timeline spans 18 months from Year 5 open days to Year 7 national offer day, with key milestones including registration (May-June), exams (September-October), and offers (March 1st)." },
-      { type: "p", text: "Parents start with open days in March of Year 5 to visit selective schools and review prospectuses, so it helps to know [when grammar school open days and visits](/blog/when-are-grammar-school-open-days-and-visits) take place. Registration follows in May-June via local authority portals, demanding proof of address and birth certificates." },
-      { type: "p", text: "Entrance exams occur in September-October, with results released by late October. Families then submit the **secondary school application form** in November-December through their home council, listing preferences based on 11-plus scores." },
-      { type: "p", text: "Offers arrive on **national offer day**, March 1st, under the coordinated admissions scheme. Late applications go on waiting lists, prioritised by oversubscription criteria like distance or sibling priority." },
-      { type: 'table', headers: ["Month/Period", "Key Milestone"], rows: [["March (Year 5)", "Open days and prospectus review"], ["May-June (Year 5)", "Registration for 11-plus exam"], ["September-October (Year 5)", "Entrance exams (GL Assessment or CEM Select)"], ["October (Year 5)", "Exam results released"], ["November-December (Year 5)", "Submit application form to local authority"], ["March 1st (Year 6)", "National offer day for September intake"]] },
-      { type: "p", text: "For 2024, check LA websites: Bucks registration closed June 4th, Birmingham June 28th. Details follow in subsections on registration and preparation." },
-      { type: "h3", text: "Year 5: Registration Period" },
-      { type: "p", text: "**Registration** opens May 1st and closes June 30th in most areas (e.g., Buckinghamshire, Kent), requiring online forms via local authority portals with proof of address and birth certificate." },
-      { type: "p", text: "Begin by attending open days in March-April to assess schools like Tiffin Grammar or Wilson Grammar. Review the admissions policy, published admission number (PAN), and oversubscription criteria such as catchment area or looked after children priority." },
-      { type: "ol", items: ["Attend open days or review prospectus (March-April).", "Register online via LA portal (search 'your council' + 'grammar registration'), noting exactly [when you apply for grammar school places](/blog/when-do-you-apply-for-grammar-school-places).", "Submit **birth certificate** and address proof by June 30th.", "Receive confirmation email with centre number (July)."] },
-      { type: "p", text: "For 2024, deadlines included Bucks (May 3-June 4), Birmingham (June 3-28), Trafford (May 1-June 30). Required documents cover passport or birth certificate, plus council tax bill or utility bill for proof of address." },
-      { type: "h3", text: "Year 5: Entrance Exam Preparation" },
-      { type: "p", text: "Begin preparation January Year 5 with **Bond Assessment Papers**, progressing to GL/CEM-specific mocks by July; aim for 6-12 months study (2-3 hours weekly) using CGP 11+ books and Bond Online." },
-      { type: "p", text: "Focus on 11-plus exam components: verbal reasoning, non-verbal reasoning, maths test, and English test. Practice builds literacy skills, numeracy skills, comprehension, and mental arithmetic for GL Assessment or CEM Select formats." },
-      { type: 'table', headers: ["Period", "Recommended Activities and Resources"], rows: [["January-March", "Bond Papers for basics in verbal and non-verbal reasoning"], ["April-June", "CGP topic books for maths test and English test practice"], ["July-September", "Mock exams: GL Select materials, Exam Ninja papers"]] },
-      { type: "p", text: "Experts recommend resources like **GL Select test provider materials**, CEM-specific (Durham University style), Bond 11+ Complete set, and online platforms. Schedule one full mock weekly in August-September to master exam technique, time management, and multiple choice sections." },
-      { type: "h2", text: "Entrance Exams Schedule" },
-      { type: "p", text: "11+ exams occur September 7th-21st across England, with single-day tests (2-2.5 hours total) at designated centres. Multiple-area testing is allowed up to 6 regions, such as Bucks + Barnet + Kent. This flexibility helps families target several **grammar school admissions** options." },
-      { type: "p", text: "Key 2024 dates by consortium include Bucks on Sept 11, Birmingham and Sutton on Sept 14, Trafford on Sept 18, and Kent and Barnet on Sept 21. Tests use either GL Assessment (60-80 questions, 50min sections) or CEM Select (VR/NVR/Maths combo). Parents should check the **admissions booklet** for exact formats per area." },
-      { type: "p", text: "On test day, arrive by **8:30am** at the allocated centre. Bring **photo ID** and admit card, but no calculators. Prohibited items include mobile phones, smartwatches, and revision notes." },
-      { type: "p", text: "Test day logistics emphasise focus and preparation. Centres assign seats by postcode, and invigilators enforce strict rules like no rough paper beyond provided sheets. Practice with bond papers and **mock exams** builds familiarity with time management and **exam technique**." },
-      { type: "h3", text: "Typical Test Dates" },
-      { type: "p", text: "Buckinghamshire grammars test September 11th, Birmingham September 14th, Kent September 21st (latest date), with most consortia scheduling second weekend of September. These dates form the core of the grammar school admissions timeline. Families often apply to multiple consortia for broader chances in **selective schools**." },
-      { type: 'table', headers: ["Region", "Test Provider", "Date", "Schools"], rows: [["Bucks", "GL", "11th Sept", "13 schools"], ["Birmingham", "CEM", "14th Sept", "8 schools"], ["Kent", "GL", "21st Sept", "38 schools"], ["Trafford", "GL", "18th Sept", "4 schools"], ["Sutton", "CEM", "14th Sept", "4 schools"], ["Barnet", "GL", "21st Sept", "Various"]] },
-      { type: "p", text: "Some areas like Kent grammar offer multiple sittings, such as AM/PM sessions, to manage demand. Centre allocations depend on postcode or catchment area. Check the **application portal** after **online registration** for your slot." },
-      { type: "p", text: "Preparing for **consortium exams** involves targeting **verbal reasoning**, non-verbal reasoning, and maths test sections. Use practice tests tailored to GL or CEM styles. This aligns with the overall preparation timeline from Year 5 onwards." },
-      { type: "h2", text: "Results and Offers Timeline" },
-      { type: "p", text: "Exam results release October 2nd-31st (area-specific), with **standardised scores** (e.g., 111+ pass for GL areas); **National Offer Day** is March 1st when LA portals reveal place allocations." },
-      { type: "p", text: "The sequence starts with results in October, followed by the **November 15th preference deadline** for primary school year 6 parents submitting choices via their local authority portal. Parents then face the **January 31st National Closing** date for coordinated admissions schemes across selective school areas." },
-      { type: "p", text: "By **March 1st Offers** day, families learn allocations based on entrance exam scores, oversubscription criteria like highest score first, and priorities such as looked after children or sibling priority. Score examples include Kent (332/420 raw = 111 standardised), Bucks (121+ standardised), and Sutton (360+/400 raw)." },
-      { type: "p", text: "Respond to offers online by **March 4th**; you can hold multiple offers until National Offer Day. This allows time to consider options like waiting lists, appeal process, or reserve lists in grammar school admissions." },
-      { type: "h3", text: "Exam Results Release" },
-      { type: "p", text: "Results post online **October 1st-31st** via school portals (password from registration), showing standardised scores: GL areas typically 111+, CEM 100+ average with school-specific thresholds." },
-      { type: "p", text: "Check your school portal or email **6-8 weeks post-exam** for the 11-plus exam outcome. These scores apply to all schools in the area, with allocation favouring the **highest score first** under many admission criteria." },
-      { type: "p", text: "Examples from 2024 include Bucks on October 4th (121 pass), Birmingham on October 18th (school-reported), Kent on October 25th via Kent Test, and Sutton on October 18th. Scores convert from raw marks to **age-standardised** format, with a mean of 100 and standard deviation of 15, reflecting academic ability in verbal reasoning, non-verbal reasoning, maths test, and English test." },
-      { type: "p", text: "Prepare by reviewing your child's results against local pass marks for Buckinghamshire grammar, Birmingham grammar, Kent grammar, or others. Use this time for open days, prospectus checks, and ranking preferences before the **November 15th deadline** in the application process." },
-      { type: "h2", text: "Appeal and Waiting Lists" },
-      { type: "p", text: "Unsuccessful candidates join **automatic waiting lists** ranked by score or distance. These lists move until **September 30th**, as all grammar schools must maintain them under DfE rules. Parents should check their local authority portal regularly for updates." },
-      { type: "p", text: "The appeal process runs alongside waiting lists through independent panels, and it helps to understand [how grammar school appeals work](/blog/how-do-grammar-school-appeals-work) before you start. Families exercise appeal rights within 20 school days of March 1st offers, with deadlines to lodge by March 22nd. Hearings typically occur in May or June, requiring new evidence for success." },
-      { type: "p", text: "Waiting lists follow oversubscription criteria like highest score first or distance from school. Reserve lists are mandatory per DfE admissions code, offering fair chances post-national offer day. Contact the school for your position on the list." },
-      { type: "p", text: "For appeals, prepare a clear case with supporting documents such as teacher assessments or medical evidence. Panels ensure procedural fairness and natural justice. In a 2023 Kent case study, places filled via appeals and waiting lists after initial allocations." },
-      { type: "h2", text: "Regional Variations (UK Focus)" },
-      { type: "p", text: "England has **36 selective areas** with 163 grammars. Kent leads with 38 schools using GL tests, Bucks has 13 schools with a 121+ pass mark, Birmingham offers 8 schools via CEM, while Scotland, Northern Ireland and Wales have no state grammars." },
-      { type: "p", text: "These **regional variations** affect the entire grammar school admissions timeline. Parents must check local **catchment areas** and cross-border rules early, as testing dates and providers differ sharply between counties." },
-      { type: "p", text: "**Cross-border testing** allows children from neighbouring areas to sit exams in one location, with results shared via coordinated systems. This simplifies applications but requires careful review of reciprocal agreements and data sharing policies." },
-      { type: "p", text: "Families applying across **county borders** should confirm eligibility through the local authority portal. Shared tests prevent multiple sittings, streamlining the process for year 6 pupils targeting year 7 entry." },
-      { type: 'table', headers: ["Area", "Schools", "Test Provider", "Pass Mark", "Testing Dates"], rows: [["Kent", "38", "GL", "332/420", "Sept 21"], ["Bucks", "13", "GL", "121 std", "Sept 11"], ["Birmingham", "8", "CEM", "School-specific", "Sept 14"], ["Trafford", "4", "GL", "110+", "Sept 18"], ["Barnet", "5", "GL", "115+", "Sept 21"], ["Sutton", "4", "CEM", "360+/400", "Sept 14"]] },
-      { type: "p", text: "This table highlights key differences in 11-plus exam setups. Note how GL and CEM formats demand tailored preparation, like bond papers for GL or CEM Select practice." },
-      { type: "h2", text: "Next Steps After Admission" },
-      { type: "p", text: "Accepted pupils receive **induction day invitations** (April-May) and transition booklets, with summer schools (e.g., Tiffin Girls 4-day programme) and peer mentoring starting June for September intake." },
-      { type: "p", text: "Parents must act quickly to secure the place. The first step involves accepting the offer **online by March 4th**, often through the local authority application portal. This confirms commitment before national offer day deadlines." },
-      { type: "p", text: "Following acceptance, schools arrange **induction day** events where new Year 7 pupils meet their form tutor and tour facilities. These sessions introduce the **safeguarding policy** and outline pastoral care expectations. Families also receive homework agreements and uniform policies." },
-      { type: "ul", items: ["Accept the offer online by March 4th via the secondary school admissions portal.", "Attend induction day to meet form tutor, tour the school, and discuss SEN provisions.", "Complete **uniform and homework agreement** by July, including home-school agreement details.", "Join **summer transition events** with peer buddies assigned for smooth September intake.", "Receive **GCSE options booklet** in Year 9 to plan future pathways."] },
-      { type: "p", text: "Specific schools offer tailored support. For example, Wilson's Grammar hosts an April open morning for new Year 7 entrants, while Judd School provides a summer reading list to build literacy skills. These steps ensure a strong start in the grammar school admissions timeline." },
-    ],
-  },
+  "slug": "what-is-the-timeline-for-grammar-school-admissions",
+  "title": "Grammar school admissions timeline: 2027 tests to 2028 entry",
+  "desc": "Follow the grammar-school admissions stages from Year 5 research and 2027 entrance tests to applications, offers and starting Year 7 in September 2028.",
+  "date": "March 5, 2026",
+  "readTime": "5 min read",
+  "category": "Admissions",
+  "imageUrl": "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_4.jpeg",
+  "imageAlt": "What is the timeline for grammar school admissions?",
+  "images": [
+    "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_1.jpeg",
+    "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_2.jpeg",
+    "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_3.jpeg",
+    "https://files.autoblogging.ai/images/what-is-the-timeline-for-grammar-school-admissions(nohy)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "A grammar-school admissions timeline should track four different things: the accepted test, the school’s admission rules, your home council’s application and the eventual offer. Preparation can run alongside these steps, but completing practice papers does not complete any admissions form."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This planning timeline focuses on exams taken in 2027, usually for September 2028 entry to state grammar schools in England. Exact test and registration dates are local. It is not a calendar for every school, independent-school assessment or Northern Ireland transfer test."
+    },
+    {
+      "type": "h2",
+      "text": "The 2027-exam journey at a glance"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stage",
+        "Planning period",
+        "What to finish"
+      ],
+      "rows": [
+        [
+          "Research schools",
+          "Year 5, including autumn 2026",
+          "Shortlist schools and identify their accepted tests"
+        ],
+        [
+          "Registration and support requests",
+          "During the published 2027 window; check early",
+          "Submit test form, evidence and permissions"
+        ],
+        [
+          "Entrance assessment",
+          "On the organiser’s date in 2027",
+          "Attend all required stages"
+        ],
+        [
+          "Results and school preferences",
+          "Before the council application deadline",
+          "Read the result and admissions policies"
+        ],
+        [
+          "School-place application",
+          "By 31 October 2027 under the current England timetable",
+          "Submit home-council preferences"
+        ],
+        [
+          "Offers and response",
+          "Normally March 2028",
+          "Read offer and respond by its deadline"
+        ],
+        [
+          "Transition",
+          "Before September 2028 entry",
+          "Complete the offered school’s joining arrangements"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is an order of tasks, not a promise that all tests happen in September. For example, [Gloucestershire’s 2028-entry information](https://www.gloucestershire.gov.uk/schooladmissions/grammar-schools/) plans the entrance test for 3 July 2027. Set preparation and family commitments around the official timetable for your own school."
+    },
+    {
+      "type": "h2",
+      "text": "Stage 1: research while there is time to compare"
+    },
+    {
+      "type": "p",
+      "text": "Read each school’s admissions policy for the intended intake. Note the academic requirement, any geographical priority, additional information forms and the accepted examination. Consider the everyday journey, pastoral support and suitability for your child as well as the entrance requirements."
+    },
+    {
+      "type": "p",
+      "text": "Prepare a small admissions folder containing a school checklist, official-source links, deadlines and copies of confirmations. A separate row per school is useful even when several schools share a test: the test might be shared while the school-place rules remain different."
+    },
+    {
+      "type": "h2",
+      "text": "Stage 2: register and request support"
+    },
+    {
+      "type": "p",
+      "text": "Check whether a parent must actively register or whether the local process enters the child automatically. Record the opening and closing time rather than relying on a month alone. Submit requests for access arrangements through the stated process and involve the primary school early if its evidence is needed."
+    },
+    {
+      "type": "p",
+      "text": "Use our [11 Plus registration guide](/blog/how-to-register-my-child-for-the-11-plus) for the form and [consortium checklist](/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test) for result-sharing and school-specific actions. Put a reminder to check submission status beside the deadline: an unfinished form is still unfinished even if you created the account weeks earlier."
+    },
+    {
+      "type": "h2",
+      "text": "Stage 3: prepare for the actual assessment"
+    },
+    {
+      "type": "p",
+      "text": "Use the school or organiser’s familiarisation material to check subjects, question format and answer recording. Then identify skills to practise. Keep the administrative record separate from the learning plan: a revision timetable should not obscure an approaching form deadline."
+    },
+    {
+      "type": "p",
+      "text": "When the test invitation arrives, check the centre, reporting time, collection arrangements, permitted items and procedure for illness. Do not take a generic online packing list as an official instruction. If something does not match your registration, contact the organiser promptly and retain its reply."
+    },
+    {
+      "type": "h2",
+      "text": "Stage 4: understand results without treating them as offers"
+    },
+    {
+      "type": "p",
+      "text": "A result may report a score, eligibility, a rank or an invitation to a further stage. Read what the particular result actually means. A qualifying threshold and the level needed to secure a place in an oversubscribed school are different things."
+    },
+    {
+      "type": "p",
+      "text": "Make a note of any follow-up deadline included with the result. If a later stage or result falls after the application deadline, ask how the school should be listed; do not simply wait and submit the council form late."
+    },
+    {
+      "type": "h2",
+      "text": "Stage 5: apply to your home council"
+    },
+    {
+      "type": "p",
+      "text": "For the normal English state-secondary round, [GOV.UK](https://www.gov.uk/schools-admissions/how-to-apply) sets the application deadline at 31 October and directs families to their home council, including cross-boundary school choices. For this preparation cohort, keep 31 October 2027 in view and verify the relevant council scheme."
+    },
+    {
+      "type": "p",
+      "text": "Before submitting, compare the council form with your school checklist. Are the intended schools named correctly? Is the preference order right? Have all separate forms been sent? Then save the submitted version and acknowledgement. Our [application-deadline guide](/blog/when-do-you-apply-for-grammar-school-places) covers this stage in more detail."
+    },
+    {
+      "type": "h2",
+      "text": "Stage 6: read the offer and decide the next action"
+    },
+    {
+      "type": "p",
+      "text": "Under the current national timetable, secondary offers are normally sent on 1 March or the next working day. Your council’s letter explains the response deadline. Do not assume a universal three-day or two-week acceptance period."
+    },
+    {
+      "type": "p",
+      "text": "If the outcome is disappointing, check waiting-list and appeal information promptly while making sure your child has a school place. [GOV.UK’s waiting-list guidance](https://www.gov.uk/schools-admissions/school-waiting-lists) explains that you can request a waiting-list place even when another school has offered. Do not assume every list is automatic or first-come, first-served."
+    },
+    {
+      "type": "h2",
+      "text": "Stage 7: prepare for the school you will attend"
+    },
+    {
+      "type": "p",
+      "text": "Use the offered school’s joining information to arrange uniform, travel, induction and any support discussion. Keep checking messages about transition events. These dates are set by the school; they should not be invented as national milestones."
+    },
+    {
+      "type": "h2",
+      "text": "Build a timeline you can actually maintain"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Record",
+        "Why it helps"
+      ],
+      "rows": [
+        [
+          "Official link and entry year",
+          "Prevents using a page for the wrong cohort"
+        ],
+        [
+          "Date plus status",
+          "Distinguishes confirmed, planned and not-yet-published details"
+        ],
+        [
+          "Person responsible",
+          "Makes clear who completes the form or obtains evidence"
+        ],
+        [
+          "Submission proof",
+          "Lets you distinguish an intention from a completed task"
+        ],
+        [
+          "Next check date",
+          "Keeps unfinished actions visible"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If a date is not published, leave it unconfirmed and plan a check rather than filling the gap with last year’s date. The [local exam-dates guide](/blog/when-are-the-11-plus-exam-dates-in-my-area) explains how to find the correct official source. A useful timeline shows uncertainty clearly; it does not manufacture precision."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "do-all-grammar-schools-use-the-same-11-plus-test",
@@ -7633,94 +8262,135 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "how-do-waiting-lists-work-for-grammar-schools",
-    title: "How do waiting lists work for grammar schools?",
-    desc: "Discover how grammar school waiting lists work, from eligibility and joining to ranking factors and offer timelines. Turn post-results disappointment into a selective school place. Learn the process now and boost your child's chances.",
-    date: "March 9, 2026",
-    readTime: "9 min read",
-    category: "Admissions",
-    imageUrl: "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_4.jpeg",
-    imageAlt: "How do waiting lists work for grammar schools?",
-    images: ["https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_1.jpeg", "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_2.jpeg", "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_3.jpeg", "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What Are Grammar School Waiting Lists?" },
-      { type: "p", text: "Grammar school waiting lists manage oversubscription when qualified applicants exceed available places, with 2023 data showing 25% of England's 163 grammar schools operating lists averaging 50-100 children. These lists serve as formal **reserve lists** ranked by the school's published admissions criteria, as outlined in the School Admissions Code 2021, paragraph 2.13. They ensure fair access to **grammar school places** when spots open up due to withdrawals or other changes." },
-      { type: "p", text: "The main purpose of these lists is to allocate **places becoming available** after National Offer Day, typically 16 April for secondary schools. They matter most for families asking [what happens if a child passes the 11 Plus but doesn't get a place](/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place). Schools must contact families in rank order as vacancies arise, often through the **local authority**." },
-      { type: "p", text: "Waiting lists operate from offer day through the **summer term**, with movement due to **parent preferences** shifting or mid-term changes. For example, a child initially offered a non-selective school might accept a grammar place if one becomes available. This process supports competitive admissions in high-demand selective schools." },
-      { type: "p", text: "Grammar schools prioritise based on factors like 11-plus exam scores, **catchment area**, or sibling priority. Parents should contact the school to confirm **waiting list position** and update details, as lists reset at the end of the academic year in many cases." },
-      { type: "h3", text: "Definition and Purpose" },
-      { type: "p", text: "A grammar school waiting list is a ranked reserve list of eligible applicants who meet the school's published **admissions criteria** but couldn't be offered places on National Offer Day (16 April for secondary). This statutory definition comes from the School Admissions Code 2021, paragraphs 2.13 to 2.15. It applies to state-funded grammars handling **oversubscription**." },
-      { type: "p", text: "The lists have three key purposes. First, they enable **fair allocation of turnover places** as families decline offers or move. Second, they ensure compliance with **equal opportunities** by sticking to transparent priority rules. Third, they promote transparency through published criteria on the school prospectus or website." },
-      { type: "p", text: "For instance, Sutton Grammar ranks its list by 11+ score bands, such as top 10% for highest priority. This fair banding system gives every qualified child a chance based on **academic ability**. Parents receive a refusal letter on offer day but can stay on the list by notifying the **admissions authority**." },
-      { type: "p", text: "Schools must clear lists by the end of summer term unless specified otherwise, with reapplication needed for the next year. Contact the school directly to check waiting list movement or update **home address** proof, as house moves can affect **distance tie-breaks**. This setup balances parental choice with limited places in selective education, and it sits within the wider [timeline for grammar school admissions](/blog/what-is-the-timeline-for-grammar-school-admissions)." },
-      { type: "h2", text: "Eligibility for Waiting Lists" },
-      { type: "p", text: "Waiting list eligibility mirrors main admissions criteria, typically passing the **11+ exam** (e.g., 110+ standardised score for Kent grammars) plus living in catchment or meeting priority categories. According to the **School Admissions Code para 1.35**, waiting lists apply only to qualified applicants. This ensures fairness in selective schools." },
-      { type: "p", text: "Children must meet the original **oversubscription criteria** to join. Automatic inclusion often happens for those who ranked high enough but missed out on offer day. Some grammar schools require parents to opt-in via supplementary forms or by contacting the admissions authority." },
-      { type: "p", text: "Check the school prospectus or attend **school open days** for specific rules. Local authorities manage waiting lists for many state-funded grammars. Keep contact details updated, as places become available throughout the year." },
-      { type: "p", text: "Eligibility focuses on academic ability proven by entrance exams like verbal reasoning, non-verbal reasoning, maths tests, and English tests. Priority categories such as looked-after children or Pupil Premium can boost positions. Parents should prepare with mock exams or tutor support for competitive admissions." },
-      { type: "h3", text: "Who Qualifies?" },
-      { type: "p", text: "Only children who passed the school's entrance exam and rank within oversubscription criteria qualify, including **looked-after children** (highest priority, Admissions Code para 1.15) and Pupil Premium siblings. These rules follow examples like **Wilson\u2019s School 2023 criteria**. Qualification ties to passing the 11-plus exam and fitting priority bands." },
-      { type: "ul", items: ["**Looked-after children (LAC) or previously LAC**: Rank 1 priority, often top of lists regardless of distance.", "**Pupil Premium**: Rank 2, for eligible free school meal children or service families, with examples like siblings already attending.", "**Siblings**: Rank 3, prioritising brothers or sisters at the school, common in grammar school alliances.", "**Catchment residents**: Those living in defined areas, verified by proof of address and fraud checks.", "**11+ pass plus random allocation or fair banding**: For high demand schools using selection by ability bands.", "**Distance**: Last resort tie-break, measured by straight line distance from home address to school gate."] },
-      { type: "p", text: "Governors' discretion applies for medical needs, social needs, or hardship cases. Families with house moves must notify the school for waiting list updates. Multiple waiting lists across parent preferences are common in secondary school transitions." },
-      { type: "p", text: "Contact the admissions authority after refusal letters or by the acceptance deadline. Waiting list movement happens as places become available, even mid-term for in-year admissions. Reapplication rules vary, so review the transparency code for equal opportunities." },
-      { type: "h2", text: "How to Join a Waiting List" },
-      { type: "p", text: "Join via your local authority's post-offer process or direct school application, with many grammars requiring explicit **waiting list consent forms** by 30 April. This step follows the **National Admissions Code**, which outlines fair procedures for oversubscription. Parents must act quickly after offer day on 1 March for secondary places." },
-      { type: "p", text: "Check your **refusal letter** for specific instructions from the admissions authority. Some grammar schools use parent portals for applications, while others need direct emails. Always confirm **deadlines** to avoid missing out on reserve lists." },
-      { type: "p", text: "Provide key documents like proof of address, UPN, and date of birth. Update details for **house moves** or changes in priority criteria such as siblings or looked-after children. Schools rank applicants using **entrance exam** scores from the 11-plus exam." },
-      { type: "p", text: "Multiple waiting lists are allowed across selective schools, respecting parental choice. Contact the school if places become available due to **withdrawals**. Expect **waiting list movement** until the end of summer term." },
-      { type: "h3", text: "Application Process" },
-      { type: "p", text: "Follow this 7-step process to join a grammar school waiting list, matching admissions code requirements. It takes about **15-30 minutes** if prepared. A common error is missing deadlines, so note dates like 28 April for schools such as Wilson's School." },
-      { type: "ol", items: ["Receive your refusal letter on or around 16 April and note any reference numbers.", "Check the **school website** or prospectus for **waiting list policy**, such as email requirements by specific dates.", "Submit your request to the admissions email, like admissions@school.uk.", "Include your child's **UPN**, **date of birth**, and **reference number** from the refusal letter.", "Complete any **supplementary forms** if required and provide **updated proof of address**.", "Update for house moves or changes affecting catchment area or distance tie-breaks.", "Request placement on **multiple waiting lists** and track progress via the **parent portal**."] },
-      { type: "p", text: "Expect a confirmation email with your initial waiting list position within 1-2 weeks. Use this **template email**: \"Dear Admissions Team, I request placement on the waiting list for [Child's Name], UPN [number], following refusal reference [number]. Please confirm receipt.\"" },
-      { type: "p", text: "Schools apply priority criteria like fair banding, **pupil premium**, or random allocation for ranking. Keep contact details current to avoid automatic removal. If **places become available**, higher priority bands move first." },
-      { type: "h2", text: "Ranking on the Waiting List" },
-      { type: "p", text: "Lists rank identically to main offers using **published oversubscription criteria**, with siblings and looked-after children always ranking above distance measurements. Schools must follow the **Admissions Code para 1.8**, which requires transparency in how they rank applicants on waiting lists. This ensures parents understand their child's position clearly." },
-      { type: "p", text: "Grammar schools apply the same **priority criteria** from offer day to waiting lists. For example, if a higher-ranked child declines a place, those below move up automatically. Parents receive updates on their waiting list position as changes occur." },
-      { type: "p", text: "Local authorities or the admissions authority manage this process. They use software to track ranks based on home address, sibling links, and other factors. Contact the school regularly to confirm your details and stay informed about movement." },
-      { type: "p", text: "Understanding these rules helps manage expectations during the **secondary school transition**. Places become available throughout the summer and into the autumn term as families accept or refuse offers from parent preferences. Keep proof of address ready for any checks." },
-      { type: "h3", text: "Key Ranking Factors" },
-      { type: "p", text: "Ranking follows a **5-tier hierarchy**: 1) Looked-after children with 100% priority, 2) Pupil Premium for 15-25% of places, 3) Siblings automatically above distance, 4) Catchment or random allocation, 5) Straight-line distance measured on 1 September via local authority software. This structure mirrors the main **grammar school admissions** process. Schools like Reading Grammar School prioritise these in their policies." },
-      { type: 'table', headers: ["Criterion", "Weighting", "Example"], rows: [["Looked-after children", "100% priority", "All places reserved before others"], ["Pupil Premium", "15-25% places", "Colchester Royal Grammar sets aside quota"], ["Siblings", "Automatic above distance", "Tiffin Girls reserves 25 places for siblings"], ["Catchment/random", "Area-specific", "Defined zones or lottery within bands"], ["Straight-line distance", "Tie-break", "68% of lists use this final measure"]] },
-      { type: "p", text: "Check the school's **prospectus** or supplementary forms for exact details. For instance, Tiffin Girls' policy places siblings clearly before distance calculations. This tiered approach ensures equal opportunities within competitive admissions." },
-      { type: "p", text: "Parents should note that house moves after applications may require updates, subject to fraud checks. Temporary addresses do not count, only permanent home addresses qualify. Governors' discretion applies rarely for medical or social needs." },
-      { type: "h3", text: "Selective vs. Non-Selective Lists" },
-      { type: "p", text: "**Selective lists**, used by most grammars, rank by 11+ score bands such as 121+ or 115-121; non-selective use random allocation post-qualification. Selective schools base rankings on **entrance exams** like verbal reasoning, non-verbal reasoning, maths, and English tests. This creates stable positions with less reshuffling." },
-      { type: 'table', headers: ["Aspect", "Selective (e.g., Kent grammars)", "Non-Selective (e.g., Birmingham fair banding)"], rows: [["Ranking basis", "11+ score bands", "Random post-pass"], ["Stability", "Fixed after results", "Frequent reshuffles"], ["Examples", "High academic ability priority", "Fair banding for balance"], ["Movement", "Slow, score-driven", "Quick via lottery"]] },
-      { type: "p", text: "In Kent grammars, higher **priority bands** fill first from exam performance. Birmingham's fair banding spreads ability across the intake, reducing bias as research suggests. Parents of gifted children often prefer selective stability." },
-      { type: "p", text: "Non-selective lists suit broader **parental choice**, with places via random draws after qualification. Attend school open days to compare. Selective systems align with academic selection, while fair banding promotes mixed comprehensive intakes." },
-      { type: "h2", text: "When Waiting List Offers Are Made" },
-      { type: "p", text: "Offers begin **17 April post-Offer Day**, peaking in June and August, with the largest turnover during the **Year 7 settling-in period**. Parents often see movement after families accept or decline places at grammar schools. This follows national guidelines from the Department for Education on school admissions timelines." },
-      { type: "p", text: "Early offers come from **initial refusals** as families prioritise other selective schools or non-selective options. June sees higher activity due to **summer term decisions** and international moves. By August, more places open as pupils settle or families relocate." },
-      { type: "p", text: "Track your waiting list position by contacting the admissions authority regularly. Update **contact details** to avoid missing opportunities. Factors like siblings or catchment area can speed up offers during oversubscription." },
-      { type: "p", text: "Families with multiple waiting lists should monitor local authority portals and [browse local grammar schools](/schools) to line up alternatives. Refusal letters include reserve list info. Patience helps, as places becoming available often cluster before the new term." },
-      { type: "h3", text: "Timeline After Results Day" },
-      { type: "p", text: "Standard timeline: **17 Apr-15 May** (first wave, positions 1-10), **16 May-31 Jul** (main wave, positions 11-50), 1 Aug-30 Sep (final wave, positions 51+), with most offers by summer term end. This pattern helps parents plan after 11-plus exam results. Trafford Grammars show quicker movement for top spots." },
-      { type: 'table', headers: ["Date Range", "Expected Positions Offered", "Key Factors"], rows: [["17 Apr - 15 May", "Positions 1-10", "Early declines, priority criteria matches"], ["16 May - 31 Jul", "Positions 11-50", "International moves, sibling priorities"], ["1 Aug - 30 Sep", "Positions 51+", "Settling-in turnover, house moves"]] },
-      { type: "p", text: "Offers accelerate with distance tie-breaks or looked-after children status. Parents should submit proof of address promptly. Contact the school for **waiting list criteria** updates." },
-      { type: "p", text: "During the main wave, check for **fair banding** shifts or random allocation changes. Mid-term places may arise from in-year admissions. Reapply if removed automatically after set periods." },
-      { type: "h2", text: "Factors Affecting Movement" },
-      { type: "p", text: "Waiting list movement in **grammar schools** depends on several key factors tied to local authority allocation data. Primary drivers include families accepting higher preferences, international relocations, house moves outside catchment, and switches from private schools. These shifts create openings as parents adjust their **school choices** after offer day." },
-      { type: "p", text: "**Oversubscription criteria** play a major role, with places often freed up when higher priority bands secure spots elsewhere. Local authorities manage reserve lists, notifying families when spots arise due to withdrawals or relocations. Parents should contact the school regularly to stay informed on their waiting list position." },
-      { type: "p", text: "House moves can trigger re-evaluations based on **straight line distance** from the school. Fraud checks on **proof of address** also lead to removals, opening places for others. Understanding these dynamics helps manage expectations during the secondary school transition." },
-      { type: "p", text: "Timing matters, as most movement happens by the **end of summer term**. Families with siblings or those qualifying under looked-after children criteria may see faster progress. Keep contact details updated to avoid automatic removal from the list." },
-      { type: "h3", text: "Common Reasons for Turnover" },
-      { type: "p", text: "Top causes of waiting list movement in grammar schools stem from changing family circumstances. These include accepting higher preferences, international moves, house moves over three miles, private school offers, and medical or social withdrawals. Local authorities track such turnover to allocate grammar school places fairly." },
-      { type: "p", text: "Families often shift due to parent preferences changing after the 11-plus exam results. For instance, a child might gain entry to a first-choice selective school, freeing a spot. **Entrance exams** outcomes influence many decisions around offer day." },
-      { type: "ul", items: ["**Higher preference accepted**: Families prioritise top choices, vacating lower ones.", "**International relocations**: Overseas moves, like those seen in Kingston Grammar cases, create sudden openings.", "**House moves**: Relocating beyond catchment or distance tie-breaks alters priority.", "**Private school switches**: Offers from independents pull pupils from state grammars.", "**Medical or social withdrawals**: Needs-based exits under governors' discretion.", "**False address detection**: Annual fraud checks remove ineligible applicants.", "**In-year admissions**: Mid-term places from various hardships open Year 7 spots."] },
-      { type: "p", text: "Parents can monitor **performance tables** and attend school open days for insights. Update details promptly and consider multiple waiting lists to improve chances. This approach aids navigation of competitive admissions." },
-      { type: "h2", text: "Accepting or Declining Offers" },
-      { type: "p", text: "Offers require response within **5-10 school days**; accepting removes you from all waiting lists, declining keeps current positions but risks removal for non-responders. Parents must coordinate across multiple schools and local authorities during this **multi-school coordination** process. This ensures fair access to grammar school places under the school admissions code." },
-      { type: "p", text: "When you accept an offer from one selective school, it signals the end of your child's place on all other **waiting lists**. Declining keeps your child ranked on reserve lists, but you must respond promptly to avoid automatic removal. Always check the specific **acceptance deadline** in your offer letter from the local authority." },
-      { type: "p", text: "Experts recommend reviewing parent preferences carefully before deciding. For instance, if your top-choice grammar is oversubscribed, declining a lower preference might position you better for places becoming available. Contact the admissions authority if you face delays in offer day responses." },
-      { type: "p", text: "Keep records of all communications during secondary school transition. This helps if you later need to understand [how grammar school appeals work](/blog/how-do-grammar-school-appeals-work). Update contact details regularly to stay informed about waiting list movement." },
-      { type: "h3", text: "Deadlines and Implications" },
-      { type: "p", text: "Respond within **5 school days** (email or phone confirmation). Accept equals exit from all lists; decline means stay ranked; ignore leads to automatic removal under **Admissions Code para 2.14**. Update contact details bi-termly to maintain your waiting list position." },
-      { type: "p", text: "Follow these numbered action steps for smooth handling of grammar school offers:" },
-      { type: "ol", items: ["Log all offer details, including school names, dates, and priority criteria like catchment area or siblings.", "Notify the local authority within 48 hours via their preferred method.", "Confirm your preferred school and accept or decline clearly.", "Update for address changes, providing proof of address to avoid fraud checks.", "Request your position across 3-5 grammars to track multiple waiting lists."] },
-      { type: "p", text: "Use a template response email like: \"Dear Admissions Team, We accept/decline the offer for [Child's Name] at [School]. Our preferences remain [list]. Contact: [details].\" This keeps records transparent. Escalate errors to the admissions authority or governors if responses are delayed." },
-      { type: "p", text: "Implications vary by situation. For house moves, resubmit evidence of straight line distance from school. Non-responders face removal, but reapplication rules allow rejoining lists under fair banding or random allocation in some state-funded grammars." },
-    ],
-  },
+  "slug": "how-do-waiting-lists-work-for-grammar-schools",
+  "title": "How do grammar school waiting lists work?",
+  "desc": "Learn how grammar-school waiting lists are ranked, why positions change, how to join and what to check before a later offer.",
+  "date": "March 9, 2026",
+  "readTime": "4 min read",
+  "category": "Admissions",
+  "imageUrl": "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_4.jpeg",
+  "imageAlt": "How do waiting lists work for grammar schools?",
+  "images": [
+    "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-do-waiting-lists-work-for-grammar-schools(3u1p)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "A grammar-school waiting list ranks eligible applicants for places that may become available. It is not a first-come, first-served queue and a position is not a promise of admission. Start with the school’s published arrangements and the council’s instructions for your entry year."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? An autumn 2027 test commonly relates to September 2028 entry. This guide explains the current England state-school framework, checked on 8 October 2026. Confirm the school-entry year and that cycle’s official procedure before acting; future local deadlines are not confirmed here."
+    },
+    {
+      "type": "h2",
+      "text": "How are waiting lists ranked?"
+    },
+    {
+      "type": "p",
+      "text": "The [School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2) requires oversubscribed schools’ waiting lists to be ordered using their published oversubscription criteria. The date someone joined must not determine their priority. Depending on the school, relevant rules may involve priority categories, test scores, catchment, distance or tie-breakers. Read their order and definitions rather than assuming all grammar schools rank pupils in the same way."
+    },
+    {
+      "type": "p",
+      "text": "Grammar-school eligibility also matters. Ask whether the test result qualifies your child for this particular list and how any review or appeal outcome is treated. Passing one school’s assessment does not establish eligibility everywhere."
+    },
+    {
+      "type": "h2",
+      "text": "How do you join?"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Read the allocation letter and the current council or school waiting-list page.",
+        "Check whether your child is added automatically or whether you must request inclusion.",
+        "Confirm the correct school, entry year and any eligibility requirements.",
+        "Save confirmation and check the contact details held for you.",
+        "Record renewal instructions and when responsibility transfers from the council to the school, if applicable."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "There is no single national enrolment form for all grammar-school lists. [GOV.UK waiting-list guidance](https://www.gov.uk/schools-admissions/school-waiting-lists) directs parents to the school or council. Follow that official route rather than assuming that submitting an appeal or calling the school once has added your child."
+    },
+    {
+      "type": "h2",
+      "text": "Why can a position move backwards?"
+    },
+    {
+      "type": "p",
+      "text": "A new eligible applicant may have higher priority under the rules. Corrected information can also change the order. Movement in the wrong direction does not automatically show an error, although you can ask how the published criteria were applied."
+    },
+    {
+      "type": "p",
+      "text": "Hypothetical example: your child is fifth on a list. A new applicant joins and belongs to a higher-priority category under that school’s policy. Your child becomes sixth even though no place was offered. Later, two families ahead leave the list, moving your child to fourth. The example explains ranking; it predicts nothing about a real school."
+    },
+    {
+      "type": "h2",
+      "text": "When do offers happen?"
+    },
+    {
+      "type": "p",
+      "text": "Offers depend on vacancies and the authority’s allocation process. There is no reliable national schedule of how many places will open each month. Ask when the next allocation round occurs, whether position updates are available and how the school will contact you."
+    },
+    {
+      "type": "p",
+      "text": "Secondary National Offer Day is normally 1 March, or the next working day where necessary; 16 April relates to primary offers. See [GOV.UK application guidance](https://www.gov.uk/schools-admissions/how-to-apply). For an autumn 2027 test leading to September 2028 entry, do not confuse the 2027 test result with the later school allocation."
+    },
+    {
+      "type": "h2",
+      "text": "Keep a confirmed place, and check replacement rules"
+    },
+    {
+      "type": "p",
+      "text": "You can be on a waiting list while holding an offer elsewhere. Follow the offer’s response instructions and continue making practical plans. Do not give up the available place merely because you hope a vacancy will arise."
+    },
+    {
+      "type": "p",
+      "text": "Check what happens if a higher-preference place becomes available. As a local example, [Buckinghamshire’s published guidance](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-moving-up-to-secondary-school/waiting-lists/) says a higher-preference waiting-list offer replaces the previous offer; families are not given a choice between keeping both. This is why you should remove a school from a list if you would no longer want it. Recheck your own authority’s rules for the relevant year."
+    },
+    {
+      "type": "h2",
+      "text": "A waiting-list enquiry checklist"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Is my child definitely on the correct list, and from what date?",
+        "How is eligibility established for this school?",
+        "Which priority category applies to my child?",
+        "When, and through which channel, can we obtain position updates?",
+        "When must we renew our request to remain on the list?",
+        "Will a later offer automatically replace our current place?",
+        "How will you contact us, and what response deadline will apply?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Keep a simple log with the date, contact name, answer and next action. Record what the authority actually confirms; a comment in a parent group about last year’s movement is not a current offer."
+    },
+    {
+      "type": "h2",
+      "text": "How long do lists stay open?"
+    },
+    {
+      "type": "p",
+      "text": "The Code requires waiting lists for oversubscribed schools to be maintained at least until 31 December of the admission year. Local arrangements can involve renewal requests and changes of administrator. Beyond that, check the school’s in-year admission rules; do not assume an old test qualification remains valid indefinitely."
+    },
+    {
+      "type": "h2",
+      "text": "Waiting list or appeal?"
+    },
+    {
+      "type": "p",
+      "text": "These are separate processes. A waiting list allocates vacancies under the published rules; an appeal considers a refusal. Read [how grammar-school appeals work](/blog/how-do-grammar-school-appeals-work) if you are considering both. If your child has no school place at all, contact your home council for help rather than relying only on a waiting list."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "can-my-child-join-a-grammar-school-in-year-8-or-later",
@@ -7826,200 +8496,302 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
-    title: "What happens if my child passes the 11 Plus but doesn\u2019t get a place?",
-    desc: "Child passed 11 Plus but no grammar school place? Learn why oversubscription, distance, and priority criteria cause this. Discover immediate next steps, appeal strategies for success, and options like non-selective or private schools. Get expert advice now.",
-    date: "March 11, 2026",
-    readTime: "6 min read",
-    category: "Admissions",
-    imageUrl: "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_4.jpeg",
-    imageAlt: "What happens if my child passes the 11 Plus but doesn\u2019t get a place?",
-    images: ["https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_1.jpeg", "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_2.jpeg", "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_3.jpeg", "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding the 11 Plus Outcome" },
-      { type: "p", text: "The **11+ exam** determines selective eligibility, but only 20-25% of test-takers secure grammar school places due to limited spots across UK authorities like Kent (5,200 places) and Buckinghamshire (3,800 places). In 2023, GL Assessment data showed over **115,000 children tested** nationwide, yet just around 25,000 grammar places available. This gap highlights why passing the exam does not ensure a school place." },
-      { type: "p", text: "Local authorities manage **oversubscription** through criteria like distance from school, sibling priority, and catchment area. For instance, in Kent, high demand means even qualified children often miss out. Parents face disappointment when their child passes the **11+ test** but gets no offer on National Offer Day." },
-      { type: "p", text: "Understanding this process helps set realistic expectations during **Year 6** to **Year 7** transfer, and mapping it against the [timeline for grammar school admissions](/blog/what-is-the-timeline-for-grammar-school-admissions) makes the stages clearer. Check your Local Authority's coordinated admissions scheme for details on equal preference systems or straight preference systems. Early research into grammar school lists and school open days prepares families for outcomes." },
-      { type: 'table', headers: ["Authority", "Total 11+ Tested", "Grammar Places", "Pass Rate", "Place Rate"], rows: [["Kent", "15,000", "5,200", "50%", "35%"]] },
-      { type: "p", text: "This table illustrates the difference between passing and securing a place in areas like **Kent grammars**." },
-      { type: "h3", text: "Passing the Exam vs. Selective Places" },
-      { type: "p", text: "Passing the **11+** (typically 110+ standardised score on CEM/GL tests) qualifies your child but guarantees no place. Birmingham grammars had **4 applicants per spot** in 2023, showing intense competition. Selective eligibility alone does not overcome limited published admission numbers." },
-      { type: "p", text: "Schools use **oversubscription criteria** such as distance tiebreak, looked after children priority, and pupil premium status after initial qualification. A child might excel in verbal reasoning, non-verbal reasoning, maths test, and English test, yet rank low due to proximity to school. Parents should review admission criteria on school websites early." },
-      { type: 'table', headers: ["Metric", "Pass Exam", "Get Place"], rows: [["Score Needed", "110+", "121+ Kent grammars"], ["Test Type", "CEM/GL", "Same + Distance Tiebreak"], ["Guarantee", "No", "No"], ["Success Rate 2023", "48%", "22%"]] },
-      { type: "p", text: "This comparison underscores why a 112 score might rank a child 150th for just 120 places at an oversubscribed grammar." },
-      { type: "p", text: "If no school offer arrives, learn [how waiting lists work for grammar schools](/blog/how-do-waiting-lists-work-for-grammar-schools) or start an [appeal via the Independent Appeal Panel](/blog/how-do-grammar-school-appeals-work). Consider alternatives like comprehensive schools, non-selective options, or private schools. Contact your Local Authority for LA allocation updates and next steps after pass." },
-      { type: "h2", text: "Reasons for No Grammar School Place" },
-      { type: "p", text: "Despite passing, **70%+ of qualified 11+ candidates** receive no grammar offer due to strict oversubscription criteria enforced by Local Authorities. 2023 National Offer Day data highlights 18% grammar rejections even among those who pass the 11 Plus exam. Parents often face disappointment on March offers despite strong **11+ test scores**." },
-      { type: "p", text: "Analysis from the **11plusexams.co.uk forum** identifies top reasons for no school place. **Oversubscription** tops the list, followed by distance issues and catchment limits. Sibling priority and pupil premium quotas also block many qualified children." },
-      { type: "p", text: "The top four reasons include: oversubscription (most common), **distance from school**, catchment area restrictions, and priority categories like looked-after children. Families in areas like Kent or Birmingham report these issues yearly. Understanding admission criteria helps parents plan school choices." },
-      { type: "p", text: "Local Authorities use an equal preference system, ranking all applications by oversubscription criteria regardless of first choice school. This leads to **selective school rejection** even for high scorers. Parents can check **parent forums** for regional insights on grammar school places." },
-      { type: "h3", text: "Oversubscription and Priority Criteria" },
-      { type: "p", text: "Grammar schools prioritise **looked-after children** (100% allocation), pupil premium (10-15% quota), siblings (20% places), leaving distance as final tiebreak. These oversubscription criteria fill places before general applicants. Local Authorities enforce strict priority tiers for Year 7 places." },
-      { type: "p", text: "Common priority tiers are:" },
-      { type: "ul", items: ["**Looked-after children**, e.g. Trafford reserves 5 places.", "**Pupil premium** children, e.g. Kent allocates 260 places.", "**Siblings** at the school, e.g. Birmingham fills 25% this way.", "**Catchment area** residents get next priority.", "**Distance from school**, often with cutoffs like 0.8 miles.", "**Random ballot** for remaining spots in oversubscribed cases."] },
-      { type: "p", text: "Each grammar school publishes its **planned admission number (PAN)**. In 2023, top grammars like those in Kent and Barnet exceeded demand. Parents should review **school admission** booklets for exact tiers." },
-      { type: 'table', headers: ["School", "2023 PAN", "Actual Offers"], rows: [["Trafford Grammar", "180", "180"], ["Kent Weald of Kent", "180", "180"], ["Barnet Henrietta Barnett", "96", "96"], ["Birmingham King Edward", "120", "120"], ["Reading Grammar", "120", "120"]] },
-      { type: "h3", text: "Distance and Catchment Issues" },
-      { type: "p", text: "Living **1.2 miles from Reading School** versus 0.7 miles for an offered child means rejection despite a 115 score. **Straight-line measurements** cut off at 0.5-2 miles across grammars. This tie break criteria affects many who pass the 11+ exam." },
-      { type: "p", text: "Real 2023 examples show tight cutoffs:" },
-      { type: "ul", items: ["**Kent Weald of Kent**: 1.4 miles cutoff, 180 places offered, 120+ on waiting list.", "**Barnet Henrietta Barnett**: 0.6 miles cutoff, 96 places, 200+ waiting list.", "Trafford Altrincham: 0.9 miles, 150 places, 80+ waiting.", "Birmingham selective: 1.1 miles, 100 places, 150+ list.", "Slough grammar: 0.5 miles, 120 places, 100+ list."] },
-      { type: "p", text: "Schools measure via **Ordnance Survey** straight-line from home to school gate, not Google Maps driving distance. Catchment areas add another layer, prioritising residents first. Parents in **catchment area** still face distance tiebreaks if oversubscribed." },
-      { type: "p", text: "Appeal loss is common due to strict admission criteria; panels uphold cutoffs unless exceptional reasons apply. Check **waiting list position** after National Offer Day. Consider **appeal process** or reserve list movement for late chances." },
-      { type: "h2", text: "Immediate Next Steps" },
-      { type: "p", text: "By 5pm March 31st (National Offer Day +14 days), accept your LA offer to secure Year 7 place while joining grammar waiting lists. This step ensures your child has a school place even if they passed the **11 Plus** but missed out on the grammar school. Delaying risks losing the allocated spot under the coordinated admissions process." },
-      { type: "p", text: "Parents often face disappointment when their child **passes the 11+ exam** yet gets no grammar offer due to oversubscription criteria like catchment area or distance from school. Act quickly to explore parental options such as reserve lists and appeals. Common mistakes include ignoring the LA allocation or missing deadlines for supplementary forms." },
-      { type: "ol", items: ["Log in to your **Local Authority portal** and **accept the offer online within 14 days** to avoid automatic withdrawal of the place.", "**Email three grammar school waiting lists** immediately, using a polite template: \"Dear Admissions, Our child passed the 11+ with [score] and we request addition to your waiting list. Contact: [details].\"", "**Join reserve lists** for selective schools, checking academy or trust admissions for additional opportunities.", "**Track list movement weekly** via LA portals and school websites, noting changes in waiting list position.", "**Prepare appeal documents** early, gathering 11+ results, tutor reports, and evidence of academic ability."] },
-      { type: "p", text: "A simple timeline helps manage this process. Use school open days and parent forums like 11plusexams.co.uk for updates on **list movement** and **grammar school appeals**." },
-      { type: 'table', headers: ["Timeline", "Action"], rows: [["National Offer Day (mid-March)", "Review offers, note grammar waiting lists"], ["By 31 March, 5pm", "Accept LA offer online"], ["April", "Join lists, email schools, track weekly"], ["May-June", "Lodge appeals if needed, monitor movement"], ["July", "Expect potential list shifts before September intake"]] },
-      { type: "h2", text: "Appeal Process Explained" },
-      { type: "p", text: "Over **60,000 annual 11+ appeals** succeed at a 15-25% rate before Independent Appeal Panels, overturning grammar refusals yearly. Parents facing oversubscription after a child passes the 11+ exam often turn to this process for a grammar school place. Local Authorities handle initial stages, with panels deciding later." },
-      { type: "p", text: "The **two-stage appeal process** starts with Stage 1, a Local Authority review of your case. Submit evidence of flaws in the **admission decision** within set deadlines. This step checks for basic errors before escalation." },
-      { type: "p", text: "Stage 2 involves an **Independent Appeal Panel hearing**, where parents present arguments in person. Panels assess if the school acted unfairly under oversubscription criteria. Hearings typically occur in June or July after National Offer Day notices by late April." },
-      { type: "p", text: "Prepare by gathering documents like test scores and preference forms. Attend open events or check parent forums for tips on appeal hearings. Success hinges on clear evidence of procedural issues or new facts." },
-      { type: "h3", text: "Grounds for Successful Appeals" },
-      { type: "p", text: "**Winning appeals** cite procedural errors, new evidence like SEN diagnosis, or irrational distance decisions. Common grounds include flaws in how schools apply catchment area rules or pupil premium priority. Parents strengthen cases with targeted evidence." },
-      { type: "p", text: "Key grounds for grammar school appeals include these five areas:" },
-      { type: "ul", items: ["**Procedural flaw**: Show late changes to Published Admission Number (PAN) or ignored sibling priority. Use admission letters as evidence.", "**Medical or SEN evidence**: Provide GP letters or EHCP drafts for priority needs. Explain how the grammar school meets specific requirements.", "**Flawed distance measure**: Challenge incorrect home-to-school calculations with maps or Ordnance Survey data.", "**Pupil premium misapplied**: Prove the school overlooked free school meal eligibility in tie-breaks.", "**Human rights Article 2 Protocol 1**: Argue denial of state education harms the child's right to suitable schooling post-11+ pass."] },
-      { type: "p", text: "In a Buckinghamshire 2023 case, parents won on SEN grounds with fresh diagnosis evidence, securing a Year 7 place. Another High Court example overturned a distance ruling due to measurement errors. A third succeeded via procedural unfairness in random allocation." },
-      { type: "p", text: "Build your **witness statement** with school data and test scores. Practice for the panel by reviewing case law on **procedural fairness**. Consult forums like 11plusexams.co.uk for regional grammar insights." },
-      { type: "h2", text: "Applying to Non-Selective Schools" },
-      { type: "p", text: "**Top comprehensives** like Nonsuch High in Sutton or Wilson's School accept **11+ passers** via banding tests. These schools offer strong academic results. They provide solid alternatives when grammar school places fall short." },
-      { type: "p", text: "Banding tests assess **academic ability** across the full range, not just top performers. Children who pass the 11+ exam often qualify well here. This route suits pupils overlooked by selective schools due to oversubscription." },
-      { type: "p", text: "In-year applications let families apply mid-year if a **school place** opens up. Contact the Local Authority for forms and deadlines. Success depends on availability and meeting **admission criteria** like distance or siblings." },
-      { type: "p", text: "Research suggests these schools match grammar standards for many pupils. [Browse local schools](/schools) and attend open days to compare options. Parent forums discuss real experiences with banding and transfers." },
-      { type: 'table', headers: ["School", "Location", "Entry", "2023 GCSE", "PAN"], rows: [["Nonsuch High", "Sutton", "Banding", "89% 9-7", "180"], ["Tauheedul Islam", "Blackburn", "Ability", "95%", "200"], ["Wilson's School", "Sutton", "Banding", "92% 9-7", "190"], ["St Olave's", "Orpington", "Selective", "96% 9-7", "140"], ["Westminster City", "London", "Comprehensive", "85% 9-7", "200"], ["Reading School", "Reading", "Banding", "91% 9-7", "160"], ["Trafford Grammar", "Trafford", "11+ Band", "88% 9-7", "180"], ["Lincolnshire Comp", "Lincolnshire", "Ability", "87% 9-7", "210"]] },
-      { type: "p", text: "Use this table to spot **non-selective alternatives** with high results. Check each school's website for current oversubscription criteria. Prioritise based on catchment and transport." },
-      { type: "h2", text: "Private School Options" },
-      { type: "p", text: "Over 35 independent schools accept **11+ passers mid-year** at \u00a315,000-\u00a325,000 per year, with stronger results to Russell Group universities compared to grammar schools. These schools offer a direct path for children who pass the 11+ exam but miss out on a grammar school place due to oversubscription or catchment issues. Parents can secure a **Year 7 place** without starting from scratch." },
-      { type: "p", text: "Independent schools often use their own entry tests, like the Common Entrance at 11 or 13 plus, but many recognise the 11+ test as sufficient proof of ability. This avoids extra exams for qualified pupils. Mid-year intakes in July fill available spots from withdrawals or late moves." },
-      { type: "p", text: "Fees cover small class sizes and extras like sports facilities, unlike free **grammar schools**. Bursaries reduce costs for families in need. Check school websites for **July intake** details and apply early." },
-      { type: "p", text: "A comparison highlights key differences between day grammars and top independents. Use this to weigh options after a **no school offer**." },
-      { type: 'table', headers: ["School Type", "Fees", "Entry Test", "Academic Results", "Scholarships"], rows: [["Day Grammar", "\u00a30", "11+", "82% RG", "None"], ["Top 20 Independents", "\u00a318k", "CE/13+", "92% RG", "30% available"]] },
-      { type: "h3", text: "Schools with July Intake Availability" },
-      { type: "p", text: "Six independent schools often have **places available for July intake**, ideal for 11+ passers facing waiting lists or appeal failures. Contact admissions directly to confirm spots after National Offer Day. These cater to mid-year secondary school transfers." },
-      { type: "ul", items: ["**King Edward's School, Birmingham**: Day places from Year 7, recognises 11+ scores, bursaries open until June.", "**Magdalen College School, Oxford**: Flexible entry for qualified boys, July intake possible, apply by May for bursaries.", "**St Paul's School, London**: Day options, accepts **grammar school rejects**, scholarship deadline mid-June.", "**Westminster School, London**: Mid-year for day pupils, strong on **11+ success**, bursary apps close early July.", "**Manchester Grammar School**: Boys' day school, July spots via own test or 11+, bursaries by late spring.", "**Haberdashers' Aske's Boys' School, Elstree**: Recognises 11+ exam, available places, apply for means-tested aid before June end."] },
-      { type: "h3", text: "Bursary Application Deadlines" },
-      { type: "p", text: "Most schools require **bursary applications** well before July intake to assess family finances. Submit evidence like income statements early. Deadlines typically fall in **May or June** for autumn starts." },
-      { type: "p", text: "Experts recommend contacting the **bursary office** alongside the main application. This shows commitment after a **grammar school place** disappointment. Some offer up to full fee coverage based on need." },
-      { type: "p", text: "Prepare by visiting open days or parent forums like 11plusexams.co.uk. Track admission criteria changes yearly. This step opens doors to top academics without state school limits." },
-      { type: "h2", text: "Alternative Pathways Forward" },
-      { type: "p", text: "A poll on 11plusexams.co.uk indicates that 42% of families reapply the following year while 25% consider moving house for better catchment area access. Many parents face disappointment when their child passes the 11 Plus but misses out on a grammar school place due to oversubscription. This section outlines practical next steps." },
-      { type: "p", text: "**70% of disappointed families** pursue re-sits, catchment moves, or independent schools. Around 45% secure a grammar school place within two years through these routes. Families often combine options like tutoring with appeals or reserve lists." },
-      { type: "p", text: "Key pathways include **tutoring and re-sitting**, exploring waiting lists and appeals, considering comprehensive or faith schools, and evaluating private options. Each offers a way to match your child's abilities. Parent forums like **11plusexams.co.uk** share real experiences from regions such as Kent and Birmingham grammars." },
-      { type: "p", text: "Start by accepting any school offer on National Offer Day to secure a Year 7 place. Then, pursue alternatives while monitoring **reserve list** movement. This multi-step approach helps manage the **secondary school transfer** process effectively." },
-      { type: "h3", text: "Tutoring and Re-sitting Opportunities" },
-      { type: "p", text: "Target **125+ scores** for Birmingham grammars via 20-week courses using Bond Papers and CGP books. A structured tutoring roadmap boosts chances for children who passed but missed places due to tie break criteria. Re-sitting suits Year 6 pupils aiming for next year's 11+ exam." },
-      { type: "p", text: "Begin with a **diagnostic test** like 11plusexams.co.uk mocks to identify weak areas in verbal reasoning or maths. Follow with two weekly lessons at around \u00a335 per hour. Complete 80 practice papers to build exam stamina for GL Assessment or CEM formats." },
-      { type: "p", text: "Enrol in technique courses focusing on **verbal reasoning matrices** and non-verbal reasoning. Track progress with weekly mocks. Many families report gains after consistent **11+ preparation** in oversubscribed areas like Trafford or Buckinghamshire." },
-      { type: 'table', headers: ["Provider", "Cost", "Success Rate", "Format"], rows: [["Kats Tutoring", "\u00a340/hr", "72%", "Online"], ["Bond Online", "\u00a399 course", "65%", "Self-study"]] },
-      { type: "p", text: "Re-sit windows vary by **Local Authority**. For example, Kent allows applications in June for September intake. Check LA sites for **coordinated admissions** deadlines and grammar school lists." },
-    ],
-  },
+  "slug": "what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+  "title": "Passed the 11 Plus but no grammar-school place: what next?",
+  "desc": "Why qualifying does not guarantee a grammar-school offer, plus practical steps on refusals, waiting lists, appeals and alternative places.",
+  "date": "March 11, 2026",
+  "readTime": "5 min read",
+  "category": "Admissions",
+  "imageUrl": "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_4.jpeg",
+  "imageAlt": "What happens if my child passes the 11 Plus but doesn’t get a place?",
+  "images": [
+    "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_1.jpeg",
+    "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_2.jpeg",
+    "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_3.jpeg",
+    "https://files.autoblogging.ai/images/child-11-plus-results-options(38il)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Passing the 11 Plus can establish that your child is eligible for consideration without guaranteeing a place. If more eligible children apply than the school can admit, its published admissions rules determine priority. A disappointing allocation is not a reversal of your child’s test achievement."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? An autumn 2027 test commonly relates to September 2028 entry. This guide explains the current England state-school framework, checked on 8 October 2026. Confirm the school-entry year and that cycle’s official procedure before acting; future local deadlines are not confirmed here."
+    },
+    {
+      "type": "h2",
+      "text": "First check which result you have received"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Document",
+        "What it tells you",
+        "Next question"
+      ],
+      "rows": [
+        [
+          "Test result",
+          "A score, qualification outcome or invitation to another stage",
+          "Have we completed every required school application step?"
+        ],
+        [
+          "School allocation or refusal",
+          "Whether a place has been offered through admissions",
+          "Why was this preference refused, and what options are stated?"
+        ],
+        [
+          "Waiting-list update",
+          "A current list position or eligibility decision",
+          "What action or renewal is needed, and when?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you have only received the exam result, it may be too early for a school offer. Locate the admissions calendar for the correct entry year. Test registration, the common application form and an actual offer are different stages."
+    },
+    {
+      "type": "h2",
+      "text": "Why might a qualifying child miss out?"
+    },
+    {
+      "type": "p",
+      "text": "The refusal reason may relate to oversubscription priority, the way preferences were processed, missing required information or a late application. Ask for the reason in your case. Avoid diagnosing it from another child’s score or a parent forum: priority rules may distinguish otherwise similar applicants."
+    },
+    {
+      "type": "p",
+      "text": "Hypothetical example: a school’s policy requires a qualifying result, then gives priority to eligible children in a defined category before other qualifying applicants. A child outside that category passes but is not offered a place when the school fills. The pass has done its job; it has not overridden the later priority rule. This is an illustration, not a description of every grammar school."
+    },
+    {
+      "type": "h2",
+      "text": "Your first actions after a refusal"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Read the allocation letter in full, including the response deadline for any offered school.",
+        "Keep a suitable offered place secure while you explore other routes.",
+        "Ask the admission authority to explain the relevant refusal criterion if it is unclear.",
+        "Check the correct waiting-list process, eligibility and renewal dates.",
+        "Read the appeal instructions separately if you wish to challenge the refusal.",
+        "Save the application confirmation, result, policy, refusal and correspondence together."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Under [GOV.UK application guidance](https://www.gov.uk/schools-admissions/how-to-apply), if none of your preferences is offered, the council must provide a place at another school. If you have no offer, contact your home council promptly and ask what is available. Listing only one preferred school does not improve the chance of admission."
+    },
+    {
+      "type": "h2",
+      "text": "Can accepting another place harm an appeal?"
+    },
+    {
+      "type": "p",
+      "text": "The [DfE parent appeal guidance](https://www.gov.uk/government/publications/admission-appeals-for-school-places/advice-for-parents-and-guardians-on-school-admission-appeals) recommends considering acceptance of an offered place so your child has somewhere to attend if the appeal does not succeed. Keep the appeal and acceptance records separate. Follow the actual response instructions rather than leaving an offer unanswered."
+    },
+    {
+      "type": "p",
+      "text": "Tell your child what is confirmed and what is still uncertain. For example: “You have achieved the qualifying result. We are checking the school’s allocation rules, and we also have a school to visit and prepare for.” Avoid making promises about a future vacancy."
+    },
+    {
+      "type": "h2",
+      "text": "Use waiting lists carefully"
+    },
+    {
+      "type": "p",
+      "text": "Find out whether your child has been added automatically or whether you need to request inclusion. Ask about position updates and what happens to your current offer if a higher-preference place is allocated. Our [grammar-school waiting-list guide](/blog/how-do-waiting-lists-work-for-grammar-schools) covers ranking and renewal in detail."
+    },
+    {
+      "type": "p",
+      "text": "A position near the top is still not a guarantee. Make decisions about uniform, travel and transition using the confirmed place and the school’s practical deadlines. If a later formal offer arrives, confirm the change with the relevant authority and both schools before changing arrangements."
+    },
+    {
+      "type": "h2",
+      "text": "Consider an appeal on its actual issues"
+    },
+    {
+      "type": "p",
+      "text": "For a qualified child refused because of oversubscription, the panel considers the relevant admission issues and, where required, balances the family’s reasons against the school’s case. The [DfE panel guidance](https://www.gov.uk/government/publications/admission-appeals-for-school-places/advice-for-clerks-and-appeal-panels-on-school-admission-appeals) explains the framework. Passing alone does not mean an appeal must succeed."
+    },
+    {
+      "type": "p",
+      "text": "If you identify a possible error, explain it with reference to the policy and your application records. If your reason concerns your child’s particular needs, explain those needs and why the school matters. Read [how grammar-school appeals work](/blog/how-do-grammar-school-appeals-work) before assembling evidence."
+    },
+    {
+      "type": "h2",
+      "text": "Make the alternative school a real option"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Visit or contact the offered school and ask about Year 7 transition.",
+        "Discuss subject interests, clubs and support needs rather than its label alone.",
+        "Check the journey at the time your child would actually travel.",
+        "Ask who will handle any SEND or pastoral handover from primary school.",
+        "Include your child in a practical discussion about their new routine."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you consider an independent school, ask that school directly about availability, fees and any assistance; do not assume there are late vacancies or a universal bursary deadline. Likewise, later grammar-school transfer depends on vacancies and the school’s admission rules, not a guaranteed annual retake."
+    },
+    {
+      "type": "p",
+      "text": "Our [school-choice guide](/blog/how-to-choose-the-right-grammar-school-after-the-11-plus) provides a comparison checklist. The aim now is a secure, suitable school place and clear next steps, while any eligible waiting-list or appeal route runs separately."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
-    slug: "how-do-grammar-school-appeals-work",
-    title: "How do grammar school appeals work?",
-    desc: "Discover how grammar school appeals work, from eligibility and strong grounds like admission errors to timelines and evidence preparation. Thousands succeed yearly\u2014learn the process and boost your chances today.",
-    date: "March 12, 2026",
-    readTime: "11 min read",
-    category: "Admissions",
-    imageUrl: "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_4.jpeg",
-    imageAlt: "How do grammar school appeals work?",
-    images: ["https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_1.jpeg", "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_2.jpeg", "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_3.jpeg", "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What Are Grammar School Appeals?" },
-      { type: "p", text: "Grammar school appeals are formal challenges against admission refusals, governed by the School Admission Appeals Code 2012 (updated 2021), allowing parents to contest decisions when **oversubscription criteria** exclude their child despite eligibility. This right stems from Section 94 of the School Standards and Framework Act 1998. Parents can appeal to an **independent appeal panel** if their child is refused a place at a selective state grammar school." },
-      { type: "p", text: "The Department for Education notes over **35,000 secondary appeals** annually, with grammar school cases showing a 25-30% success rate based on 2023 data. These appeals address issues like 11-plus exam results or distance from the school. Success often hinges on strong **supporting evidence** and clear presentation." },
-      { type: "p", text: "Two main hearing types exist under the School Admission Appeals Code paragraphs 2.1-2.5: **oral hearings**, which make up 70% of cases and allow parents to speak directly, and **written hearings** for straightforward submissions. Choose oral if you have compelling personal circumstances to share. Panels consist of a chair, panel members, and a clerk who ensures fairness." },
-      { type: "p", text: "Common grounds include **procedural irregularities**, such as errors in applying admission criteria, or new evidence like an educational psychologist report. Appeals often run in parallel with reserve lists, so it helps to know [how waiting lists work for grammar schools](/blog/how-do-waiting-lists-work-for-grammar-schools). Understanding the **appeal timeline** is key, as you typically have 20 school days from the refusal letter to submit, all within the wider [timeline for grammar school admissions](/blog/what-is-the-timeline-for-grammar-school-admissions)." },
-      { type: "h2", text: "Eligibility Criteria" },
-      { type: "p", text: "Every parent whose child is refused a grammar school place has an automatic statutory right to appeal, regardless of original application timing or distance from school. This right stems from the School Admission Appeals Code, which sets clear rules for **grammar school appeals**. Parents must act quickly to meet the **appeal deadlines**." },
-      { type: "p", text: "The appeal timeline requires submission within **20 school days** of the refusal letter. Missing this window means losing the right to appeal for that academic year. Local authorities provide appeal forms and guidance upon refusal." },
-      { type: "p", text: "Certain cases, like looked-after children or medical needs, may strengthen eligibility. This route matters most for families weighing up [what happens if a child passes the 11 Plus but doesn't get a place](/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place). Understanding these criteria helps navigate the **school appeals process** effectively." },
-      { type: "p", text: "Experts recommend reviewing the refusal letter carefully for any procedural errors. This forms solid grounds for appeal in oversubscription cases common to **selective school appeals**. Preparation sets the stage for a strong case before the independent appeal panel." },
-      { type: "h3", text: "Who Can Appeal?" },
-      { type: "p", text: "Every parent whose child is refused a **grammar school place** has an automatic statutory right to appeal, regardless of original application timing or distance from school. This is outlined in the **School Admission Appeals Code para 2.13**. Most refusals qualify under DfE guidance." },
-      { type: "ul", items: ["All **refused applicants** hold a statutory right to launch a **school admission denial appeal**, even if they live far from the school.", "**Late applicants** can appeal if they submit within the designated **appeal window** after refusal notification.", "Parents of **looked-after children** or those with **sibling priority** cases often have strong grounds, especially if priority criteria were overlooked.", "**Medical or social priority applicants** qualify by providing evidence like doctor letters showing exceptional needs.", "**Previous appeal losers** may re-appeal only with fresh evidence, such as new academic records or changed circumstances."] },
-      { type: "p", text: "Submit your **appeal form** within 20 school days of the refusal letter to the local authority's **LA admissions team**. Include initial supporting evidence to outline your case. This starts the appeal procedure towards an oral hearing or written review." },
-      { type: "p", text: "For 11-plus appeals or entrance test disputes, highlight any **procedural irregularity**. Panels consider fairness in **oversubscription appeals** and admission criteria. Contact the appeal clerk for clarification on your specific situation." },
-      { type: "h2", text: "Grounds for a Successful Appeal" },
-      { type: "p", text: "Successful grammar school appeals hinge on proving either admission process errors or exceptional child circumstances that override published criteria." },
-      { type: "p", text: "The **Department for Education Code** sets a two-stage test for school appeals process. Stage one checks if the admission authority followed the correct process. Stage two weighs if prejudice to your child outweighs any to the school." },
-      { type: "p", text: "In **grammar school admission appeals**, panels focus on procedural irregularity or unique needs. The landmark case R (on the application of C) v SSSRB [2015] succeeded due to such an error. Parents often win by presenting clear supporting evidence." },
-      { type: "p", text: "Prepare for the **appeal hearing** with documents like refusal letters and test scores. Common wins involve grounds for appeal tied to the **School Admission Appeals Code**. Panels include a chair, panel members, and clerk for fair appeal decision." },
-      { type: "h3", text: "Admission Errors" },
-      { type: "p", text: "**Admission errors** occur when schools fail to follow published criteria or make calculation mistakes, voiding their decision regardless of your child's qualifications." },
-      { type: "p", text: "These **procedural irregularity appeals** form a key part of selective school appeals. Gather proof such as original letters and independent checks. Panels uphold appeals if errors are proven." },
-      { type: "ul", items: ["**Wrong distance measurements**: Schools use GIS tools, but errors happen. Verify with your own measurements, like using online maps to check straight-line distance from home to school gates.", "**Misapplied banding or test scores**: Confirm scores match published bands. Request raw data if banding was overlooked for your child's 11-plus result.", "**Sibling priority ignored**: Provide birth certificates showing siblings already attend. This **sibling priority appeal** succeeds if criteria were not applied.", "**Tie-break errors**: Check random allocation or distance tie-breaks. Evidence includes dated admission lists.", "**Unlawful waiting list removal**: Waiting lists must run until a set date. Show proof of prior inclusion via emails.", "**Unpublished criteria changes**: Criteria must be set beforehand. Compare original prospectus to decision letter for discrepancies."] },
-      { type: "p", text: "Submit evidence with your appeal form within appeal deadlines, often 20 school days from refusal. Focus on facts in your appeal letter to strengthen **oversubscription appeal** chances." },
-      { type: "h3", text: "Significant Changes in Circumstances" },
-      { type: "p", text: "**Circumstance changes** succeed when medical, social, or educational needs make grammar school uniquely essential for your child." },
-      { type: "p", text: "These **medical grounds appeals** or **SEN appeals** require strong witness statements. Explain why alternatives were rejected. Use templates like \"Grammar provides X therapy unavailable elsewhere.\"" },
-      { type: "ul", items: ["**Medical needs**: Submit a consultant letter detailing conditions. Include evidence other schools lack specialist care.", "**SEN requirements**: Provide an **educational psychologist report** showing grammar best fits needs. Highlight specialist teaching not offered locally.", "**Family crisis**: Get a social worker statement on upheaval. Link it to why stability at this **grammar school** matters.", "**11+ re-mark success**: Present new score sheet from re-mark. Argue it changes banding or qualification."] },
-      { type: "p", text: "At the **oral hearing**, present calmly with **academic records**. Panels consider compassionate grounds if prejudice to child is clear. Avoid common appeal mistakes like emotional pleas without evidence." },
-      { type: "h2", text: "The Appeal Timeline" },
-      { type: "p", text: "Grammar school appeals follow a strict 20-school-day submission deadline from the refusal letter, with hearings within 40 school days. This timeline is outlined in the School Admission Appeals Code, paragraphs 5.2 to 5.4. Parents must act quickly to meet these appeal deadlines." },
-      { type: "p", text: "Day 0 marks when you receive the **refusal letter**. Use this as your starting point for the entire appeal timeline. Note the exact date to track school days accurately, excluding holidays and weekends." },
-      { type: "p", text: "The process includes submitting your appeal form and supporting evidence early. Local authorities handle grammar school admission appeals with slight variations. For example, Barnet LA schedules hearings within 30 days, while Kent aims for 28 days." },
-      { type: 'table', headers: ["Timeline Stage", "Days (School Days)", "Key Actions"], rows: [["Day 0", "Refusal letter received", "Read letter carefully, note appeal rights and deadlines"], ["Days 1-20", "Submit appeal", "Complete appeal form, gather evidence like academic records or educational psychologist report"], ["Days 21-40", "Hearing scheduled", "Prepare for oral or written hearing, contact appeal clerk if needed"], ["Days 41-50", "Decision sent", "Receive appeal decision from independent appeal panel"]] },
-      { type: "p", text: "Summer holidays often cause **common delays**, extending timelines by about 15 days. Check with your LA admissions team for local appeal procedure details. This ensures you prepare for the appeal hearing without surprises." },
-      { type: "h2", text: "Preparing Your Appeal" },
-      { type: "p", text: "Effective preparation converts average success rates to higher outcomes through **structured evidence** and compelling narratives in grammar school appeals." },
-      { type: "p", text: "Follow this **5-phase process** for the school appeals process. First, read the **refusal letter thoroughly three times** to spot any procedural errors or overlooked details in your grammar school admission appeals." },
-      { type: "p", text: "Next, identify clear **grounds for appeal**, such as admission criteria issues or medical grounds. Then gather supporting evidence, draft a statement of 800-1200 words, and practice your presentation by recording a 10-minute run-through." },
-      { type: "p", text: "Prepared appeals prove **2.5 times more likely to win**, according to the APPG 2022 report on education appeals. Parents often succeed by linking child-specific facts to the School Admission Appeals Code, turning oversubscription appeal denials into upheld appeals." },
-      { type: "h3", text: "Gathering Evidence" },
-      { type: "p", text: "Winning appeals present 8-12 pieces of **dated, professional evidence** proving your case beyond the original application in **11-plus appeals** or secondary school appeals." },
-      { type: "p", text: "Create an **evidence checklist table** to organise documents. This ensures every item ties to your grounds for appeal, like distance criterion appeal or SEN appeal, for the independent appeal panel." },
-      { type: 'table', headers: ["Document", "Source", "Purpose", "Strength (1-5)"], rows: [["**EP report**", "Educational psychologist (\u00a3450-\u00a3650)", "Proves academic potential", "5"], ["Tutor assessments", "Private tutor", "Shows recent progress", "4"], ["Medical letters", "GP/Consultant", "Supports medical grounds appeal", "5"], ["School reports", "Current school", "Demonstrates character", "4"], ["Character references", "Teachers/Community leaders", "Highlights strengths", "3"], ["Distance evidence", "LA admissions team maps", "Challenges distance criterion", "4"], ["11+ remark certificate", "Exam board", "Questions entrance test appeal", "5"], ["Sibling proof", "Birth certificates/school records", "Supports sibling priority appeal", "4"]] },
-      { type: "p", text: "Order the **EP report immediately** due to its 6-week turnaround in the appeal timeline. Combine with school reports and tutor assessments for a strong case at the oral hearing, avoiding common appeal mistakes like weak witness statements." },
-      { type: "h2", text: "Submitting the Appeal" },
-      { type: "p", text: "Submit appeals via LA online portal or email within 20 school days, including all evidence as PDFs under 10MB total. This starts the grammar school appeals process after receiving your refusal letter. Missing the **appeal deadline** means you lose your right to appeal." },
-      { type: "p", text: "Download the appeal form from the local authority website by searching '[LA name] school appeals'. Complete Sections A-C with a maximum of 200 words explaining your case. Focus on clear grounds like procedural irregularity or admission criteria errors." },
-      { type: "p", text: "Attach an **evidence index** listing all supporting documents, such as academic records or educational psychologist reports. Email to **appeals@[LA].gov.uk** requesting a read receipt for confirmation. Follow up by phone on Day 22 if no response arrives." },
-      { type: "p", text: "Submission methods vary by LA, affecting the appeal timeline. Email offers quicker **2-day confirmation**, while post takes about 7 days. Check your LA's specific procedure to avoid delays in the school appeals process." },
-      { type: "h3", text: "LA Submission Examples" },
-      { type: 'table', headers: ["Local Authority", "Method", "Details"], rows: [["Buckinghamshire", "Online only", "Use the dedicated portal; no paper or email options available."], ["Trafford", "Email + post", "Send digitally and by recorded post for dual confirmation."], ["Kent", "Parent portal", "Log in via the secure parent portal to upload forms and evidence."], ["Barnet", "Microsoft Forms", "Complete the online Microsoft Form with attached PDFs."], ["Slough", "Paper form", "Download, print, and post the physical form with evidence."]] },
-      { type: "p", text: "These examples show variety in local authority appeals. Always verify the latest on your LA's site. Using the correct method ensures your selective school appeals reach the **appeal clerk** promptly." },
-      { type: "h2", text: "The Hearing Process" },
-      { type: "p", text: "Independent panels of **3 members** (chair, LA rep, lay member) conduct 85% oral hearings lasting **20-40 minutes** in school halls or virtual via Teams. These panels follow the DfE Code para 9 for composition. The chair is trained, often a lawyer or teacher, while the LA officer has no admissions role, and the lay member acts as a parent representative." },
-      { type: "p", text: "Panels handle grammar school appeals and other selective school cases fairly. About 15% use written hearings, which tend to have weaker outcomes. Virtual hearings have become common, making up 60% post-COVID for easier access." },
-      { type: "p", text: "Preparation matters for your school appeals process. Arrive 15 minutes early, dress smart-casual, and bring three copies of all evidence. This shows respect for the independent appeal panel and keeps things smooth." },
-      { type: "p", text: "Focus on clear presentation during the appeal hearing. Practice your points to stay within time limits. Good organisation boosts confidence in this key stage of 11-plus appeals." },
-      { type: "h3", text: "What Happens on the Day" },
-      { type: "p", text: "Hearings follow a 45-minute structure: 10-min LA presentation, 15-min your case, 10-min questions, 10-min deliberation. The appeal clerk welcomes everyone with introductions first. This numbered timeline keeps the grammar school admission appeals organised and fair." },
-      { type: "ol", items: ["Clerk welcomes and handles introductions.", "LA presents the **refusal reasons** in about 10 minutes.", "You deliver your **appeal statement**, practised to fit 12 minutes.", "LA asks questions for 5 minutes.", "Panel questions both sides for 8 minutes.", "Both parties exit while the panel deliberates."] },
-      { type: "p", text: "Body language plays a big role, with **eye contact** and clear speech aiding success. Maintain a calm tone throughout the **appeal procedure**. Experts recommend practising to handle nerves effectively." },
-      { type: 'table', headers: ["Do's", "Don'ts"], rows: [["Bring notes and supporting evidence like academic records or witness statements.", "Don't argue with the **panel chair** or panel members."], ["Speak clearly and stick to your grounds for appeal.", "Don't interrupt the LA or go off-topic."], ["Thank the panel at the end.", "Don't use emotional outbursts."]] },
-      { type: "p", text: "Avoid **common appeal mistakes** like poor preparation. For example, reference a procedural irregularity calmly with evidence. This strengthens your **appeal outcome** chances in secondary school appeals." },
-      { type: "h2", text: "Appeal Outcomes" },
-      { type: "p", text: "Panels issue **binding decisions** within 5 school days. An **upheld appeal** means an immediate place is offered at the grammar school. A dismissed appeal means no place is offered, and you cannot re-appeal without fresh evidence." },
-      { type: "p", text: "In 2023, appeal verdicts broke down as upheld (28%), dismissed (68%), and adjourned or withdrawn (4%). These figures reflect national trends in grammar school appeals and selective school appeals. Parents often track local **appeal statistics** to gauge chances in their area." },
-      { type: "p", text: "The **decision letter** details reasons in over 300 words, evidence weighed, and the **two-stage test result**. Stage one checks if admission arrangements were followed correctly. Stage two assesses if the refusal was reasonable given oversubscription." },
-      { type: "p", text: "For **upheld appeals**, the local authority must offer a place by Day 10 after the decision. Examples include \"Panel finds procedural error in distance calculation - appeal upheld.\" This ensures quick resolution in the school appeals process." },
-      { type: "h2", text: "Next Steps After Decision" },
-      { type: "p", text: "Upheld appeals trigger immediate enrollment; dismissed cases offer complaint routes but no automatic re-appeal. Parents must act quickly based on the appeal outcome from the independent appeal panel. This ensures clarity in the school appeals process for grammar school places." },
-      { type: "p", text: "If the appeal is **upheld**, accept the place within five days and complete enrollment. The local authority will confirm the school place and provide next steps for starting dates. Delays here can risk losing the offered spot." },
-      { type: "p", text: "For **dismissed appeals**, explore formal complaints rather than fresh appeals right away, and [browse local grammar schools](/schools) to keep other options open. Options include local authority complaints, ombudsman reviews, or judicial review in extreme cases. Each path has strict timelines and requirements." },
-      { type: "p", text: "A **fresh appeal** requires new evidence, such as an updated educational psychologist report or a new sibling birth affecting priority. Gather strong supporting evidence before resubmitting. Pro bono advice from groups like AppealAid or the Education Law Association can guide parents through these stages." },
-      { type: "h3", text: "Upheld Appeal: Accepting and Enrolling" },
-      { type: "p", text: "When your **grammar school appeal** is upheld, the panel chair notifies you promptly via the decision letter. You have **five days** to accept the offered place from the local authority admissions team. This starts the enrollment process smoothly." },
-      { type: "p", text: "Contact the LA admissions team immediately to confirm acceptance and submit required documents like proof of address. They will outline uniform needs, start dates, and any transition meetings. Missing this window could lead to the place going to waiting lists." },
-      { type: "p", text: "Prepare for entry by organising transport and discussing the move with your child. An upheld appeal often means starting mid-term, so schools provide catch-up support. Celebrate this success in your **11-plus appeal** journey." },
-      { type: "h3", text: "Dismissed Appeal: Complaint and Review Options" },
-      { type: "p", text: "A **dismissed appeal** ends the standard school admission appeals process, but escalation paths exist. Start with a **local authority complaint** within 20 days of the decision letter. This reviews procedural issues without guaranteeing a new hearing." },
-      { type: "p", text: "Next, if maladministration is suspected, contact the **Local Government Ombudsman** for education complaints. They investigate fairness in the appeal procedure, such as errors by the appeal clerk or panel. Research suggests these routes help in cases of clear mistakes." },
-      { type: "p", text: "For serious legal flaws, consider **judicial review** in the High Court, though costs exceed \u00a310,000 with low success rates around 3%. Seek pro bono support early. Always document everything from the appeal hearing for these steps." },
-      { type: "h3", text: "Fresh Appeals and New Evidence" },
-      { type: "p", text: "You cannot re-appeal the same **appeal decision** without fresh grounds, per the School Admission Appeals Code. New evidence might include a recent educational psychologist report showing changed needs or a sibling now qualifying for priority. Submit within appeal deadlines for the next cycle." },
-      { type: "p", text: "Gather supporting evidence like updated academic records or medical grounds appeals. For example, a new diagnosis could strengthen a **SEN appeal**. Consult DfE guidance on what counts as fresh for selective school appeals." },
-      { type: "p", text: "Avoid common mistakes like reusing old witness statements. Parents often succeed by focusing on procedural irregularity or oversubscription changes. Track local appeal data for timing your fresh attempt." },
-      { type: "h3", text: "Pro Bono Support and Resources" },
-      { type: "p", text: "Free advice eases the burden of **appeal costs**. Organisations like AppealAid.org.uk offer pro bono help for grammar school admission appeals. The Education Law Association provides guidance on legal aid options too." },
-      { type: "p", text: "These groups assist with **appeal preparation**, letter writing, and hearing etiquette. For instance, they review your appeal form for strong grounds like distance criterion issues. Access them early to build a solid case." },
-      { type: "p", text: "Experts recommend documenting all interactions with the **appeal panel**. This helps in ombudsman complaints or High Court steps. Use parent appeal tips from these sources for successful strategies." },
-    ],
-  },
+  "slug": "how-do-grammar-school-appeals-work",
+  "title": "How do grammar school appeals work? Evidence and hearings explained",
+  "desc": "Understand qualification and oversubscription appeals, the independent panel, useful evidence and what happens after a grammar-school appeal.",
+  "date": "March 12, 2026",
+  "readTime": "5 min read",
+  "category": "Admissions",
+  "imageUrl": "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_4.jpeg",
+  "imageAlt": "How do grammar school appeals work?",
+  "images": [
+    "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-do-grammar-school-appeals-work(ry8y)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "A grammar-school admission appeal asks an independent panel to consider a refusal of a place. The issues depend on whether your child has met the academic standard, whether a local review took place and why the school refused admission. There is no national success percentage that predicts your child’s outcome."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? An autumn 2027 test commonly relates to September 2028 entry. This guide explains the current England state-school framework, checked on 8 October 2026. Confirm the school-entry year and that cycle’s official procedure before acting; future local deadlines are not confirmed here."
+    },
+    {
+      "type": "h2",
+      "text": "The framework and the people involved"
+    },
+    {
+      "type": "p",
+      "text": "The current [School Admission Appeals Code](https://www.gov.uk/government/publications/school-admissions-appeals-code) linked by the Department for Education is the 2022 Code. It covers state-school admission appeals in England. The admission authority explains its refusal; the independent panel decides the appeal; the clerk supports the procedure. The clerk is not another voting panel member."
+    },
+    {
+      "type": "p",
+      "text": "First establish that you are using the correct process. If you are still querying the test result or considering a local selection review, start with our [result checks and appeal routes](/blog/how-to-appeal-an-11-plus-result-or-school-allocation) guide."
+    },
+    {
+      "type": "h2",
+      "text": "If your child has qualified"
+    },
+    {
+      "type": "p",
+      "text": "For an eligible child refused because the school is oversubscribed, the panel considers the admission arrangements, how they were applied and the school’s case about the effect of admitting additional pupils. Where required, it then weighs your reasons for admission against that case. The [DfE guidance for panels](https://www.gov.uk/government/publications/admission-appeals-for-school-places/advice-for-clerks-and-appeal-panels-on-school-admission-appeals) explains this two-stage process."
+    },
+    {
+      "type": "p",
+      "text": "A suspected administrative mistake should be described precisely. Name the policy provision, the information used and why you think a correction matters to the decision. Do not assume that any small error automatically gives a child a place."
+    },
+    {
+      "type": "h2",
+      "text": "If your child has not qualified"
+    },
+    {
+      "type": "p",
+      "text": "Where a local review has taken place, the panel considers whether it was fair, consistent and objective; it does not simply repeat that review. Where no review took place, or that standard was not met, the panel needs evidence of the required academic standard and, where applicable, reasons that outweigh the school’s case about admitting more children. See the [DfE selective-appeal guidance](https://www.gov.uk/government/publications/admission-appeals-for-school-places/advice-for-clerks-and-appeal-panels-on-school-admission-appeals)."
+    },
+    {
+      "type": "p",
+      "text": "Keep academic suitability and your reasons for this particular school separate in your preparation. Evidence that a child is capable does not by itself explain why a full school should admit an additional pupil. Equally, a strong preference for a school does not establish the academic standard."
+    },
+    {
+      "type": "h2",
+      "text": "Match each document to an issue"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Issue you raise",
+        "Potentially useful material",
+        "Question to ask yourself"
+      ],
+      "rows": [
+        [
+          "Academic suitability",
+          "Current school reports or relevant teacher evidence",
+          "What does this show about the required academic standard?"
+        ],
+        [
+          "Test-day circumstances",
+          "Dated records relating to the event and its effect",
+          "Does this evidence support what I say happened?"
+        ],
+        [
+          "A disputed priority category",
+          "Application records and the relevant policy wording",
+          "Was the authority given accurate information by the required date?"
+        ],
+        [
+          "Why this school",
+          "Specific educational, social or medical reasons with relevant evidence",
+          "How does this school meet the identified need?"
+        ],
+        [
+          "Previous review procedure",
+          "Review submission, guidance and outcome",
+          "Which specific procedural concern am I asking the panel to consider?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is an organising tool, not a compulsory document list or a ranking of evidence. Follow the named authority’s instructions about accepted material. A concise explanation of a relevant document is more useful than repeatedly asserting that your child deserves a place."
+    },
+    {
+      "type": "h2",
+      "text": "Preparing for the hearing"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Read the school’s case and note points you want clarified, with page references.",
+        "Prepare a short outline of your reasons so you can return to them if interrupted.",
+        "Check the hearing arrangements, evidence deadline and how to contact the clerk.",
+        "Tell the clerk early if you need an interpreter, accessible documents or other support.",
+        "Separate facts you can evidence from questions you want answered.",
+        "If something is missing or you cannot attend as arranged, contact the clerk promptly."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "At the hearing the authority explains the refusal and you explain your reasons. There is an opportunity for relevant questions. The independent panel then reaches its decision privately. Avoid relying on an online script promising a fixed number of minutes or a particular sequence for every hearing; use the arrangements supplied for yours."
+    },
+    {
+      "type": "h2",
+      "text": "Deadlines and late evidence"
+    },
+    {
+      "type": "p",
+      "text": "Use the deadline in the refusal notice and appeal timetable. The [GOV.UK overview](https://www.gov.uk/schools-admissions/appealing-a-schools-decision) sets out the minimum lodging period and hearing arrangements. Evidence may have its own deadline. Ask the clerk about anything late: bringing a new report on the day does not guarantee it will be considered."
+    },
+    {
+      "type": "h2",
+      "text": "After the decision"
+    },
+    {
+      "type": "p",
+      "text": "Read the written decision carefully. If the appeal is upheld, follow the authority’s arrangements for admission. If it is not, continue with the offered school and any eligible waiting lists. The [DfE parent guidance](https://www.gov.uk/government/publications/admission-appeals-for-school-places/advice-for-parents-and-guardians-on-school-admission-appeals) explains decisions, complaints and limits on further appeals. Do not assume that a new document automatically entitles you to another hearing for the same place."
+    },
+    {
+      "type": "p",
+      "text": "You can prepare for the school your child currently holds while another route remains open. Keep contact details current, complete transition paperwork and make travel plans that work for the confirmed place. Our [waiting-list guide](/blog/how-do-waiting-lists-work-for-grammar-schools) explains what to monitor separately."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools",
@@ -9525,233 +10297,352 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
-    title: "Can children with SEN or extra time needs attend grammar schools?",
-    desc: "Discover if children with SEN or extra time needs can attend grammar schools. Learn Equality Act rights, 11-plus accommodations, reasonable adjustments, and real case studies. Unlock inclusive opportunities now.",
-    date: "April 6, 2026",
-    readTime: "8 min read",
-    category: "Wellbeing",
-    imageUrl: "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_4.jpeg",
-    imageAlt: "Can children with SEN or extra time needs attend grammar schools?",
-    images: ["https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_1.jpeg", "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_2.jpeg", "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_3.jpeg", "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding Grammar Schools" },
-      { type: "p", text: "[Grammar schools](/schools) in the UK admit approximately **25% of 11-year-olds** through selective 11-plus exams testing verbal reasoning, non-verbal reasoning, maths, and English, with pass marks typically at standardized scores of 110+ on GL Assessment or CEM tests. These **selective schools** focus on high-ability pupils and maintain academic rigour. Around 163 grammar schools remain open as of 2024 DfE data." },
-      { type: "p", text: "Regions with high concentrations include Birmingham (38 schools), Kent (38 schools), and Buckinghamshire (13 schools). Pupils often face **60-75 questions per section** within 45-60 minutes. This format tests speed and problem-solving under pressure." },
-      { type: "p", text: "Test providers shape the exams: **GL Assessment** uses multiple-choice formats, while **CEM** offers adaptive testing. Children with SEN or extra time needs may qualify for accommodations like additional time. Schools must consider the Equality Act 2010 for fair access." },
-      { type: "p", text: "Grammar schools prioritise **academic selection**, but legal duties support inclusive education. Local authorities assess eligibility via EHC plans or medical evidence. Parents should review [how grammar schools support dyslexia, ADHD or autism](/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism) and other learning difficulties." },
-      { type: "h3", text: "Selective Admission Process" },
-      { type: "p", text: "The 11-plus exam consists of 4 core sections: English (comprehension/spelling, 50 questions), Maths (problem-solving, 50 questions), Verbal Reasoning (codes/analogies, 80 questions), and Non-Verbal Reasoning (patterns/shapes, 60 questions). Timings vary: **VR and NVR at 25 minutes each**, Maths and English at 45-50 minutes. Raw scores convert to **standardised age scores (SAS 110+ for selection)**." },
-      { type: "p", text: "Sample **English questions** include: spotting errors in sentences like \"The boy run to school\"; comprehension on short passages; spelling words such as accommodation. For **Maths**: solve 24 \u00f7 6 \u00d7 3; find perimeter of shapes; word problems on time. These test core skills relevant to grammar curricula." },
-      { type: "ul", items: ["**Verbal Reasoning examples**: complete analogies like cat is to kitten as dog is to?; decode letter shifts; identify word pairs.", "**Non-Verbal Reasoning examples**: rotate shapes to match patterns; spot next in sequences; fold nets into 3D figures."] },
-      { type: "p", text: "Preparation aids include **Bond 11+ books**, CGP practice papers, and Atom Learning platform. Children with **extra time needs** from autism or processing speed issues can apply for access arrangements under JCQ rules. Schools offer reasonable adjustments like rest breaks during oversubscription." },
-      { type: "h2", text: "Defining SEN and Extra Time Needs" },
-      { type: "p", text: "Special Educational Needs (SEN) affects a significant number of pupils, including conditions like dyslexia, **ADHD**, and autism spectrum disorders, often impacting processing speed and **working memory** required for 11-plus timed tests. These needs fall under categories outlined in the SEND Code of Practice 2015. Children with SEN may struggle in grammar school admissions due to the demands of selective 11-plus exams." },
-      { type: "p", text: "The main categories include cognition and learning needs, such as dyslexia or dyscalculia, which affect reading and maths skills. **Communication and interaction needs** cover speech and language disorders. Social, emotional and mental health needs encompass ADHD, while **sensory and physical needs** involve hearing or mobility issues." },
-      { type: "ul", items: ["**Dyslexia**: Slower reading speed hinders English tests and verbal reasoning.", "ADHD: Difficulty sustaining attention impacts timed sections like maths.", "**Autism**: Challenges with social reasoning affect comprehension questions."] },
-      { type: "p", text: "On the Wechsler scale, scores below 85 indicate significant cognitive difficulties. Schools assess these for **access arrangements** like extra time. Parents should gather evidence from educational psychologists for **reasonable adjustments** under the Equality Act 2010." },
-      { type: "h2", text: "Legal Framework for Inclusion" },
-      { type: "p", text: "The **Equality Act 2010** mandates 'reasonable adjustments' for disabled pupils, classifying dyslexia, ADHD, and autism as protected characteristics requiring exam accommodations. This law applies to **grammar schools** during the 11-plus exam and admission process. Schools must avoid discrimination against children with SEN." },
-      { type: "p", text: "The **SEND Code of Practice 2015**, particularly Chapter 7, guides local authorities and schools on inclusive education. It emphasises fair access for pupils with EHC plans or statements of SEN in selective admissions. Grammar schools balance academic selection with legal duties to support **neurodiversity**." },
-      { type: "p", text: "Under the **Education Act 1996**, schools consider oversubscription criteria like looked-after children and Pupil Premium alongside SEN needs. JCQ regulations limit extra time to 25% maximum for access arrangements. The precedent in **R (on application of C) v London Borough of Merton [2018] EWHC** requires grammar schools to review medical evidence for children with processing difficulties." },
-      { type: "p", text: "Parents can appeal rejections through tribunal or independent review if schools overlook evidence. This framework promotes **inclusive education** while upholding selective entry. Practical steps include gathering EP reports early for **admission tests**." },
-      { type: "h3", text: "Equality Act 2010 Requirements" },
-      { type: "p", text: "Section 20 requires schools to provide **auxiliary aids** and exam adjustments like 25% extra time for pupils with 'substantial disadvantage' evidenced by formal diagnosis. This duty covers **grammar school admissions** for children with learning difficulties. Schools must anticipate needs during verbal reasoning or maths tests." },
-      { type: "p", text: "To qualify, identify **disability** using DSM-5 or ICD-11 criteria from an educational psychologist. Show normal ability with **Wechsler Full Scale IQ** in typical ranges. Evidence a processing deficit, such as working memory below standard limits." },
-      { type: "ul", items: ["Gather an **EP report** detailing cognitive profile and recent school tests.", "Complete **JCQ form 8** for access arrangements like scribing or word processor.", "Submit applications 8-10 weeks before the 11-plus exam for approval."] },
-      { type: "p", text: "For example, a child with dyslexia might receive reading support or coloured overlays. Schools assess spread of scores and separate assessment trails. Parents should check school policies on catchment area and priority groups alongside these requirements." },
-      { type: "h2", text: "Admissions Policies and Exceptions" },
-      { type: "p", text: "Grammar schools must publish clear **admissions criteria** prioritizing **looked-after children** (25% places), Pupil Premium (10-20%), then highest 11+ scores, with SEN/EHC plans creating additional priority categories. These rules follow the DfE School Admissions Code 2021 (para 2.8), ensuring fair access for children with special educational needs." },
-      { type: "p", text: "In cases of **oversubscription**, priority goes to looked-after children, then those with an **EHCP** naming the school, followed by Pupil Premium pupils, and finally score order. This structure supports inclusive education while maintaining academic selection. Schools must comply with the Equality Act 2010 to avoid discrimination." },
-      { type: "p", text: "For example, **Wilson's School** in Sutton allocates 15% places for SEN provision, offering tailored support. **Colchester Royal Grammar School** uses a medical/social priority panel for pupils with disabilities or learning difficulties like dyslexia or ADHD. Parents should check individual school policies for details." },
-      { type: "p", text: "Children with an EHC plan gain higher priority, but grammar schools can refuse if they cannot meet needs, subject to local authority input. Appeals via tribunal protect **parental rights**. Always gather medical evidence early in the **application process**." },
-      { type: "h3", text: "Reasonable Adjustments in Testing" },
-      { type: "p", text: "JCQ permits 12 specific **adjustments** including 25% extra time, separate invigilation, coloured overlays, and laptop use for qualifying pupils. These access arrangements help children with SEN, such as those with dyslexia, ADHD, or autism, during the **11-plus exam**. Schools must provide them under JCQ regulations if evidence supports eligibility." },
-      { type: "p", text: "Approved adjustments include up to **50% extra time** (average 25%), rest breaks of 10-15 minutes, word processor like Typewell software, and reader/scribe options via human or Librium Reader. Submit **JCQ Form 8** by 4pm during October half-term. Include evidence from an educational psychologist for best results." },
-      { type: "ul", items: ["**Extra time** for processing speed or working memory issues.", "**Rest breaks** in a supervised room for anxiety or medical conditions.", "**Word processor** or laptop for handwriting difficulties.", "**Reader or scribe** for reading or writing support."] },
-      { type: "p", text: "Experts recommend recent assessments showing significant cognitive processing differences. Schools assess practical difficulties during tests like verbal reasoning or maths. This ensures **fair access**, which matters when deciding [who grammar schools are suitable for](/blog/who-are-grammar-schools-suitable-for)." },
-      { type: "h2", text: "11-Plus Exam Accommodations" },
-      { type: "p", text: "11+ providers GL Assessment and CEM Durham approve **accommodations** matching GCSE standards for children with **SEN** or extra time needs. These rules ensure fair access to grammar schools during the 11-plus exam. Parents must follow provider-specific processes to secure support." },
-      { type: "p", text: "GL Assessment uses **centre-declared** accommodations, where test centres handle approvals on the day. CEM Durham requires **pre-approval** with evidence submitted in advance. Both align with JCQ guidelines under the Equality Act 2010 for reasonable adjustments." },
-      { type: "p", text: "Evidence timelines vary by condition. For dyslexia, submit a report less than two years old from an educational psychologist. ADHD needs current medication evidence, while autism may require a formal diagnosis or EHC plan details." },
-      { type: "p", text: "Centres manage practical setup, like using a **familiar room** on school premises for comfort. They provide **noise reduction** and SENCO supervision to minimise distractions. This supports children with processing speed issues or anxiety during verbal reasoning and maths tests." },
-      { type: "p", text: "Parents should contact the test centre early to confirm **eligibility criteria**. Gather medical evidence and recent assessments to strengthen applications. These steps promote inclusive education and equal chances in selective admissions." },
-      { type: "h3", text: "Extra Time Provisions" },
-      { type: "p", text: "Standard provision is **25% extra time** for processing speed deficits evidenced by Wechsler Working Memory Index below 85. This applies to VR sections changing from 25 to 31 minutes, and maths from 45 to 56 minutes. It helps children with dyslexia or ADHD compete fairly." },
-      { type: "p", text: "Calculations follow a simple formula: normal time multiplied by 1.25 gives the adjusted duration. Qualifying scores include **dyslexia** with reading below the 16th percentile, or processing speed under the 9th percentile. Approval demands long-standing needs lasting three or more years." },
-      { type: "ul", items: ["FSIQ within **normal Wechsler limits** of 80 to 120.", "Spread of scores justifying support per JCQ 8.3.", "Separate assessment trail for cognitive processing difficulties."] },
-      { type: "p", text: "Experts recommend documenting practical difficulties, like slow handwriting in English tests. Submit history teacher reports alongside formal diagnoses for stronger cases. This ensures reasonable adjustments under SEND Code of Practice." },
-      { type: "p", text: "For non-verbal reasoning, extra time aids neurodiverse pupils with working memory challenges. Centres may add rest breaks or separate invigilation. Parents can appeal refusals via the provider's process, citing Equality Act duties." },
-      { type: "h2", text: "Case Studies and Examples" },
-      { type: "p", text: "Alex (dyslexia, WMI 78) gained 25% extra time at Kent grammars, improving SAS from 108\u2192115. Sophie (ADHD/EHC Plan) secured P1 priority at Reading School via SENDIST tribunal. These cases show how **children with SEN** can attend grammar schools with proper support." },
-      { type: "p", text: "In TJ v Essex CC [2022], the tribunal ordered a **grammar school placement** via EHC plan. The local authority had to fund this under the Equality Act 2010. It highlights **legal obligations** for reasonable adjustments in selective admissions." },
-      { type: "p", text: "A Birmingham boy with **dyspraxia** won approval for a **laptop** and SAS +12 points in his 11-plus exam. This allowed fair access despite processing speed issues. Parents used educational psychologist evidence to secure these concessions." },
-      { type: "p", text: "DOT 2023 reports **tribunal success at 34%**, rising to 82% with **EP evidence**. A Barnet appeal granted coloured paper and pens for visual stress. Trafford parents obtained separate invigilation, leading to a grammar offer for their child with anxiety." },
-      { type: "h3", text: "Real-World Tribunal Wins" },
-      { type: "p", text: "Tribunals often uphold parental rights for SEN children in grammar schools. In the Essex case, the EHC plan specified grammar placement over mainstream alternatives. This set a precedent for inclusive education in selective settings." },
-      { type: "p", text: "The Birmingham example involved JCQ regulations for access arrangements. Medical evidence and teacher reports proved **practical difficulties**. Success came from detailed formal diagnosis submissions." },
-      { type: "p", text: "Barnet's decision on coloured overlays addressed learning difficulties like dyslexia. Trafford's **separate room** concession reduced **noise sensitivity** for autism. These show exam concessions can level the playing field." },
-      { type: "p", text: "Parents should gather **recent assessments** and EP reports for appeals. Local authorities must consider **SEND Code of Practice** in oversubscription criteria. Such evidence boosts chances in competitive entry processes." },
-      { type: "h3", text: "Practical Steps from Cases" },
-      { type: "p", text: "Start with **access arrangements application** early for 11-plus tests. Submit history teacher reports and Wechsler scores showing spread. Cases like Alex's prove **extra time** aids working memory challenges." },
-      { type: "p", text: "For EHC plans, request **grammar school naming** in annual reviews. Sophie's tribunal win used **priority groups** for looked-after children equivalents. Involve SENCO for school policy alignment." },
-      { type: "p", text: "Appeal rejections via **independent review** if discrimination occurs. Trafford's **supervised rest room** was key for ADHD. Track Ofsted inclusion policies for stronger arguments." },
-      { type: "p", text: "Combine tutoring with practice papers tailored to needs. Monitor **verbal reasoning** and non-verbal reasoning progress. Long-term, these support **transition plans** to sixth form." },
-      { type: "h2", text: "Challenges and Limitations" },
-      { type: "p", text: "Only 34% of SENDIST appeals succeed due to strict evidence requirements: recent (**<2 years**) formal diagnosis, Wechsler scores, and proof of 'substantial disadvantage'. Grammar schools prioritise academic selection through the 11-plus exam, which creates barriers for children with SEN or extra time needs. These selective schools often struggle to balance high standards with reasonable adjustments under the Equality Act 2010." },
-      { type: "p", text: "**Educational psychologist (EP) reports** must be recent, typically costing over \u00a3800 and valid for just two years. Without this fresh evidence, applications for access arrangements like extra time fail. Parents face tight deadlines before the 11-plus exam, complicating preparation for children with dyslexia or ADHD." },
-      { type: "p", text: "Key challenges include **IQ thresholds**, where a Full Scale IQ (FSIQ) below 70 leads to automatic rejection in some cases. Small test centres may reject applicants due to limited capacity, while **practice effects** can inflate recent scores, raising doubts about validity. Differences between providers, such as stricter CEM assessments, add further hurdles." },
-      { type: "ul", items: ["**Evidence age**: EP reports expire quickly, demanding new assessments.", "IQ thresholds: Low FSIQ scores disqualify despite other strengths.", "**Centre capacity**: Oversubscribed venues turn away candidates.", "**Practice effect**: Familiarity with tests skews results.", "**Provider differences**: CEM demands higher precision than others."] },
-      { type: "p", text: "Solutions exist, such as hiring a **private EP** at around \u00a360 per hour for tailored reports. Retrospective evidence or multi-centre applications can bypass some limits. Parents should consult the SEND Code of Practice for guidance on EHC plans and tribunal appeals." },
-      { type: "h2", text: "Application Process Tips" },
-      { type: "p", text: "Apply **12 weeks pre-exam** for children with SEN or extra time needs: Week 1 EP assessment, Week 4 school tests, Week 8 JCQ Form 8 submission to 5+ test centres like Bluecoat, Sutton, Newstead Woods. This timeline ensures access arrangements for the 11-plus exam in grammar schools. Early action meets **JCQ regulations** and supports fair access." },
-      { type: "p", text: "Follow this 8-step timeline to build a strong case for reasonable adjustments under the Equality Act 2010. Gather evidence from educational psychologists, schools, and medical professionals. Parents must coordinate with the **local authority** for seamless submission." },
-      { type: "ol", items: ["**September**: Commission an EP report costing around \u00a3850 to document learning difficulties like dyslexia or ADHD.", "**October**: Collect **school evidence** such as teacher observations and recent test scores showing processing speed issues.", "**November**: Submit **Form 8** to the test centre and a copy to the local authority for accommodations like extra time.", "**November/January**: Arrange **mock exams** to trial arrangements such as rest breaks or separate invigilation.", "**Registration**: Select 6 schools, including 3 local authority and 3 own admission grammar schools.", "**If needed**: Complete medical or social forms for conditions like autism or anxiety management.", "**February**: Review results and prepare for **appeals** if concessions are denied.", "**1st March**: National Offer Day for places in selective schools."] },
-      { type: "p", text: "A **success checklist** includes all four evidence types: EP report, school evidence, Form 8, and mock results. This combination strengthens applications for **EHC plans** or access arrangements. Experts recommend practicing in familiar settings to reduce anxiety." },
-      { type: "h3", text: "Evidence Requirements for Approval" },
-      { type: "p", text: "Secure approval for extra time needs by providing **formal diagnosis** and recent assessments. Schools require proof of significant cognitive processing difficulties, such as spread of scores on Wechsler tests. Always include a history teacher report spanning two years." },
-      { type: "p", text: "JCQ Form 8 demands evidence like provisional findings from specialists. For dyslexia, show reading support needs; for ADHD, highlight working memory challenges. Submit to multiple centres to increase options in oversubscribed grammar schools." },
-      { type: "p", text: "Use a **separate assessment trail** for practical difficulties, including scribing or laptop use. Parents should document normal Wechsler limits exceeded by the child. This meets SEND Code of Practice standards for inclusive education." },
-      { type: 'table', headers: ["Evidence Type", "Purpose", "Example"], rows: [["EP Report", "Confirms disability", "Dyslexia diagnosis"], ["School Tests", "Shows spread of scores", "Verbal reasoning gap"], ["Teacher Report", "Details daily impact", "Processing speed issues"], ["Mock Exam Results", "Trials accommodations", "Extra time benefit"]] },
-      { type: "h3", text: "Common Accommodations and Trials" },
-      { type: "p", text: "Request **extra time allowance**, coloured overlays, or word processor for the 11-plus tests in maths, English, verbal reasoning. Grammar schools must provide reasonable adjustments without lowering academic selection standards. Trial these in mocks to prove effectiveness." },
-      { type: "p", text: "For autism or ADHD, seek supervised rest room, noise reduction, or support staff. Familiarity with school premises aids children with sensory needs. Include auxiliary aids like reading support in Form 8." },
-      { type: "p", text: "Address **medical conditions** with evidence for rest breaks or alternative rooms. Behavioural needs may qualify for separate invigilation. This ensures fair access for high-ability pupils with neurodiversity." },
-    ],
-  },
+  "slug": "can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
+  "title": "Can children with SEN or an EHCP attend grammar school?",
+  "desc": "Understand grammar-school applications with SEN, extra-time needs or an EHCP, and separate test adjustments from admission and ongoing support.",
+  "date": "April 6, 2026",
+  "readTime": "5 min read",
+  "category": "Wellbeing",
+  "imageUrl": "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_4.jpeg",
+  "imageAlt": "Can children with SEN or extra time needs attend grammar schools?",
+  "images": [
+    "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_1.jpeg",
+    "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_2.jpeg",
+    "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_3.jpeg",
+    "https://files.autoblogging.ai/images/can-children-with-sen-or-extra-time-needs-attend-grammar-schools(yq8s)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Yes. Having special educational needs, a disability or a need for extra time does not in itself rule a child out of grammar school. The important questions are which admissions route applies, how the child can access any assessment fairly and whether the school can provide the support they need day to day."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? Check the school-entry year on every policy. An autumn 2027 test commonly leads to September 2028 entry. A page headed “2027 entry” may describe a test taken in 2026. Unpublished future arrangements should be treated as unconfirmed."
+    },
+    {
+      "type": "h2",
+      "text": "Separate three decisions"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "Who to speak to"
+      ],
+      "rows": [
+        [
+          "How will my child access the entrance test?",
+          "The test organiser, with evidence from the current school’s SENCO or headteacher."
+        ],
+        [
+          "How is a school place decided?",
+          "The admission authority and, where an EHCP is involved, the local authority’s SEND team."
+        ],
+        [
+          "What support will be in place after admission?",
+          "The prospective school’s SENCO, relevant staff and the local authority where appropriate."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not treat an approved test adjustment as a reserved school place, or a good practice score as confirmation that a school will suit your child. Keeping the three questions separate makes conversations more productive and prevents paperwork for one process being mistaken for another."
+    },
+    {
+      "type": "h2",
+      "text": "If your child has SEN Support but no EHCP"
+    },
+    {
+      "type": "p",
+      "text": "Families normally use the ordinary school-admissions process and follow the published academic and allocation rules. Check test registration, any supplementary forms and the local-authority school application. Tell the organiser about access needs using its process; this may have a separate deadline."
+    },
+    {
+      "type": "p",
+      "text": "The [School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2) prohibits admission arrangements that discriminate against or disadvantage disabled children or children with SEN. It does not create a nationwide SEN quota or an automatic waiver of selective entry requirements. Our [admissions-criteria guide](/blog/what-are-the-grammar-school-admission-criteria) explains the distinction between meeting an academic requirement and being offered a place."
+    },
+    {
+      "type": "h2",
+      "text": "If your child has an education, health and care plan"
+    },
+    {
+      "type": "p",
+      "text": "Discuss secondary transfer with the local authority’s EHCP caseworker and your current SENCO early. Naming a school in an EHCP is a separate statutory process. [GOV.UK states that a school named in the plan must admit the child](https://www.gov.uk/schools-admissions). That does not mean a parent can unilaterally name any grammar school or that an entrance assessment can always be skipped."
+    },
+    {
+      "type": "p",
+      "text": "Ask how academic suitability will be considered, what the authority needs from the school and whether test registration or any additional admissions form is required. Get the answer for the school and entry year you are considering."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Official example checked in October 2026",
+        "What it demonstrates"
+      ],
+      "rows": [
+        [
+          "[Buckinghamshire’s guidance](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-moving-up-to-secondary-school/understanding-the-terms-we-use/)",
+          "It describes particular grammar qualification routes for children with EHCPs and says they do not make the ordinary secondary application through its Admissions and Transport Team."
+        ],
+        [
+          "[Essex’s SEND admissions guidance](https://www.essex.gov.uk/schools-and-learning/schools/admissions/school-places-children-send)",
+          "It asks EHCP families pursuing grammar-school tests to register for the examination and complete a normal admissions application containing grammar-school preferences."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These local instructions differ. Follow your own authority’s process rather than copying another county’s checklist. If an EHC needs assessment is still in progress, ask what ordinary applications must also be made so that you do not miss a deadline while waiting."
+    },
+    {
+      "type": "h2",
+      "text": "Can my child receive extra time?"
+    },
+    {
+      "type": "p",
+      "text": "Possibly, but there is no single rule giving every child with SEN or an EHCP the same adjustment across all 11 Plus tests. Request the organiser’s access-arrangements guidance and ask the current school to explain the child’s usual support. The adjustment must be appropriate to the specific need and assessment."
+    },
+    {
+      "type": "p",
+      "text": "Our [extra-time and access-arrangements guide](/blog/can-my-child-get-extra-time-in-the-11-plus-sen) covers evidence and confirmation. Avoid assuming that a diagnosis, a particular IQ score, private tuition or an arrangement used in a different exam settles this decision."
+    },
+    {
+      "type": "h2",
+      "text": "How to decide whether the school is a good fit"
+    },
+    {
+      "type": "p",
+      "text": "Academic challenge and support should be discussed together. Take examples of what helps your child learn and what makes a school day difficult. Include your child’s own views: the journey, noise at lunch, changing classrooms, homework organisation and asking for help can matter as much as the entrance paper."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Read the school’s current SEND information report and accessibility information before the meeting.",
+        "Ask who will share information with subject teachers and how it will be kept up to date.",
+        "Discuss how existing provision could transfer and how new needs would be identified.",
+        "Ask how the school reviews progress and wellbeing with the pupil and family.",
+        "Compare the answers with other suitable schools rather than assuming one school type always offers better support."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "A two-track planning sheet"
+    },
+    {
+      "type": "p",
+      "text": "Keep one page for admissions and one for support. On the admissions page record the relevant entry year, test requirements, access request, forms and named contacts. On the support page record the child’s strengths, barriers, successful adjustments, questions still unanswered and agreed next steps. Date the notes after each conversation so that you can see what has actually been confirmed."
+    },
+    {
+      "type": "p",
+      "text": "If the school gives a broad reassurance such as “we support all learners”, ask for a practical example of how the particular need would be addressed. An open-day conversation is useful, but it is not a substitute for the formal EHCP process where that applies. Our [school-support guide](/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism) offers more detailed questions."
+    },
+    {
+      "type": "h2",
+      "text": "What if there is a disagreement?"
+    },
+    {
+      "type": "p",
+      "text": "Ask for the decision and reasons in writing, then establish which process it belongs to. A refused place under ordinary admissions, a decision about the school named in an EHCP and an access-arrangements dispute have different routes. Your local SEND information, advice and support service can help identify the right one. Do not rely on a generalised tribunal success rate or assume that one family’s case determines your child’s outcome."
+    },
+    {
+      "type": "h2",
+      "text": "Sources checked"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "[GOV.UK: School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2)",
+        "[GOV.UK: school admissions and EHC plans](https://www.gov.uk/schools-admissions)",
+        "[Essex Council: SEND school places](https://www.essex.gov.uk/schools-and-learning/schools/admissions/school-places-children-send)",
+        "[Buckinghamshire Council: SEN and grammar admissions](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-moving-up-to-secondary-school/understanding-the-terms-we-use/)",
+        "[GOV.UK: disability rights in education](https://www.gov.uk/rights-disabled-person/education-rights)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reviewed on 8 October 2026. This guide concerns England’s state grammar-school routes; independent-school and other UK admissions processes differ."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
-    slug: "do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
-    title: "Do grammar schools offer support for dyslexia, ADHD or autism?",
-    desc: "Discover if grammar schools offer support for dyslexia, ADHD or autism. Explore legal SEND requirements, common accommodations like extra time and sensory strategies, and how these selective UK schools balance rigour with inclusion. Get essential insights now.",
-    date: "April 7, 2026",
-    readTime: "9 min read",
-    category: "Admissions",
-    imageUrl: "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_4.jpeg",
-    imageAlt: "Do grammar schools offer support for dyslexia, ADHD or autism?",
-    images: ["https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_1.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_2.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_3.jpeg", "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What Are Grammar Schools?" },
-      { type: "p", text: "[Grammar schools](/schools) in the UK are **state-funded selective secondary schools** admitting top 25% of 11-plus exam performers, with 163 operating across 36 local authorities as of 2023 per DfE data. They focus on **academic rigour** and high standards, serving about 5% of pupils nationwide. These schools aim to nurture talent through challenging curricula." },
-      { type: "p", text: "Entry relies on the **11-plus exam**, often using GL Assessment or CEM formats. Some include interviews to assess potential. The DfE maintains a public list of grammar schools for reference." },
-      { type: "p", text: "Compared to comprehensives, grammar schools prioritise **selective admission** based on ability. Comprehensives admit all local pupils, offering broader access. Grammar schools boast higher GCSE pass rates, around 98% versus the 80% national average per DfE 2023 figures." },
-      { type: "p", text: "Parents check local authority policies for **entrance processes**. Preparation involves practice tests in verbal reasoning, maths, and English. This system supports the UK education structure by identifying high achievers early." },
-      { type: "h2", text: "Support for Dyslexia in Grammar Schools" },
-      { type: "p", text: "Grammar schools must follow the **SEND code of practice** to support pupils with dyslexia. They offer **individualised education plans** or IEPs, including reading interventions like structured literacy programmes. Specialist teachers provide phonics-based help, such as Orton-Gillingham methods." },
-      { type: "p", text: "**Exam accommodations** like extra time or coloured overlays assist with specific learning difficulties. Assistive technology, including text-to-speech software, aids writing support. Schools often screen for dyslexia via diagnostic assessments from educational psychologists." },
-      { type: "p", text: "Classroom adaptations include **multisensory learning** and dyslexia-friendly fonts. Small group instruction or one-on-one tutoring targets weak areas. Parent involvement ensures tailored strategies." },
-      { type: "p", text: "Challenges arise from academic rigour, but early intervention builds self-esteem. Transition support eases entry, with homework clubs reinforcing skills. This holistic approach promotes equity for neurodiverse pupils." },
-      { type: "h2", text: "Support for ADHD in Grammar Schools" },
-      { type: "p", text: "Grammar schools address **ADHD challenges** like attention deficit and hyperactivity through behavioural support plans. **Executive function coaching** helps with organisation and impulsivity. Fidget tools and quiet rooms manage sensory needs." },
-      { type: "p", text: "**Differentiated instruction** uses visual aids and flexible grouping. Teacher training equips staff for co-teaching models. Educational psychologists contribute to multidisciplinary teams for assessments." },
-      { type: "p", text: "Exam provisions grant **extra time** or rest breaks. Study skills workshops and peer mentoring build focus. This sits alongside the wider [pastoral care and wellbeing support grammar schools offer](/blog/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support) to tackle anxiety common in selective settings." },
-      { type: "p", text: "Parents advocate via **EHCPs** or statements of SEN. Homework clubs offer structured environments. Long-term, these measures narrow attainment gaps for pupils with ADD." },
-      { type: "h2", text: "Support for Autism in Grammar Schools" },
-      { type: "p", text: "For autism spectrum disorders, grammar schools provide **sensory integration** and social skills training. **IEPs outline accommodations** like visual schedules and small group settings. Specialist teachers deliver tailored academic support." },
-      { type: "p", text: "**Classroom assistance** includes quiet zones and fidget tools. Speech therapy and occupational therapy access comes via local authority referrals. Transition programmes smooth 11-plus entry." },
-      { type: "p", text: "Behavioural support manages challenges, with **peer mentoring** fostering inclusion. Curriculum adaptations use multisensory approaches. Governor responsibilities ensure resource allocation." },
-      { type: "p", text: "Ofsted inspections review **SEN provision**. Parental rights include advocacy through groups like the National Autistic Society. This fosters inclusive education despite high standards." },
-      { type: "h2", text: "Understanding Dyslexia, ADHD, and Autism" },
-      { type: "p", text: "Dyslexia affects around **10% of the UK population** according to the British Dyslexia Association. ADHD impacts **5-7% of children** as noted in NICE guidelines. Autism spectrum disorder prevalence stands at 1.76% from National Autistic Society data." },
-      { type: "p", text: "These conditions fall under DSM-5 definitions for **neurodevelopmental disorders**. Common misconceptions include viewing dyslexia as low intelligence or ADHD as mere laziness. In reality, they involve specific processing differences that grammar schools must address through **SEN support**." },
-      { type: "p", text: "Parents often worry about **grammar school entry** for children with these needs, and it is worth reading whether [children with SEN or extra time needs can attend grammar schools](/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools). Selective schools emphasise academic rigor yet follow the SEND code of practice. Early understanding helps in seeking EHCPs or accommodations like extra time in 11-plus exams." },
-      { type: "p", text: "Experts recommend **multidisciplinary assessments** involving educational psychologists. This clarifies needs for dyslexia-friendly fonts or sensory breaks in high-standards environments. Proper support fosters neurodiversity in mainstream selective education." },
-      { type: "h3", text: "Key Characteristics of Each Condition" },
-      { type: "p", text: "Use this comparison table for clear diagnosis differentiation in grammar school contexts." },
-      { type: 'table', headers: ["Condition", "Core Symptoms", "Prevalence", "School Impact"], rows: [["Dyslexia", "Phonological processing deficits, slow reading", "10%", "Reading and writing challenges"], ["ADHD", "Inattention, hyperactivity, impulsivity", "5-7%", "Focus and homework difficulties"], ["Autism", "Social communication issues, sensory sensitivities, repetitive behaviours", "1.8%", "Social interactions and transitions"]] },
-      { type: "p", text: "These traits draw from **DSM-5 criteria** and NICE guidelines for diagnosis. Grammar schools use screening tools like Dyslexia Screener for early identification. This aids in creating **individualised education plans** or IEPs tailored to selective academic demands." },
-      { type: "p", text: "For dyslexia, children may excel in **visual-spatial skills** yet struggle with phonics, benefiting from Orton-Gillingham programs. ADHD often involves executive function needs, addressed via fidget tools or quiet rooms. Autism requires social skills training alongside sensory integration support." },
-      { type: "p", text: "In grammar schools, teachers trained in **neurodiversity** apply accommodations like text-to-speech software. Parents should request assessments through the Local Authority for EHCPs. This ensures equity amid high standards and entrance exam pressures." },
-      { type: "h2", text: "Legal Requirements for Support in UK Schools" },
-      { type: "p", text: "Under the **SEND Code of Practice 2015**, grammar schools must provide **reasonable adjustments** for pupils with special educational needs such as dyslexia, ADHD or autism. These rules ensure inclusive education in selective schools. Schools balance academic rigor with support for neurodiversity." },
-      { type: "p", text: "Support follows four legal tiers. First, **Quality First Teaching** offers universal strategies like multisensory learning for all pupils. Second, **SEN Support** involves individual plans with teacher input." },
-      { type: "p", text: "The third tier is the EHCP, a statutory plan funded by the Local Authority with a maximum **20-week assessment timeline**. The fourth tier covers duties under the **Disability Discrimination Act** to prevent exclusion. SEND Code section 6.23 states schools must use their \"best endeavours to secure inclusive practice\"." },
-      { type: "ol", items: ["Quality First Teaching: Classroom adaptations like visual aids and differentiated instruction for dyslexia or ADHD.", "SEN Support: Personalised plans with interventions such as phonics programs or executive function coaching.", "**EHCP**: Formal assessment leading to specialist teachers, speech therapy or occupational therapy.", "**Disability Discrimination Act duties**: Reasonable adjustments like extra time in exams or quiet rooms."] },
-      { type: "p", text: "In the case of **Ridout v. TCAG [2010]**, a grammar school faced a ruling for discrimination against a pupil with dyslexia. This highlights parental rights to challenge inadequate support. Parents can request diagnostic assessments from multidisciplinary teams." },
-      { type: "h2", text: "Common Support Measures in Grammar Schools" },
-      { type: "p", text: "Grammar schools follow a **tiered approach** to support pupils with special educational needs, starting with universal adjustments in the classroom. This progresses to targeted interventions and specialist input from educational psychologists or therapists. Such measures align with DfE guidance and SEND code of practice, helping neurodiverse students thrive in selective environments." },
-      { type: "p", text: "Quality First Teaching forms the foundation, where teachers adapt lessons for all pupils. Individualised education plans, or IEPs, outline specific accommodations like extra time or assistive technology. Parent involvement ensures these plans meet each child's needs during academic rigour." },
-      { type: "p", text: "Grammar schools often provide **classroom assistance** through trained teaching assistants and access to multidisciplinary teams. Transition support, peer mentoring, and study skills workshops further aid pupils with dyslexia, ADHD, or autism. This inclusive education model balances high standards with personalised learning." },
-      { type: "p", text: "Common tools include visual aids, multisensory learning, and differentiated instruction. Schools collaborate with Local Authorities for EHCPs where needed. Overall, these supports promote equity, self-esteem, and long-term outcomes in mainstream education." },
-      { type: "h3", text: "Accommodations for Dyslexia" },
-      { type: "p", text: "Grammar schools implement tiered support per DfE guidance, with many SEN pupils receiving **Quality First Teaching accommodations**." },
-      { type: "p", text: "Dyslexic pupils receive **extra processing time** plus dyslexia-friendly fonts across grammar schools. Tools like text-to-speech software and coloured overlays assist with reading. Arial 12pt or larger formatting reduces visual stress in worksheets and exams." },
-      { type: "p", text: "Structured literacy programmes, such as multisensory phonics, build reading skills. Proofreading software helps with writing support. Teachers offer small group instruction or one-on-one tutoring for spelling and comprehension." },
-      { type: 'table', headers: ["Accommodation", "Typical Use", "Evidence Base", "Grammar School Adoption"], rows: [["Text-to-speech software", "Reading support", "Research suggests improved comprehension", "Widely used"], ["Coloured overlays", "Reducing visual distortion", "Experts recommend for reading comfort", "Common in classrooms"], ["Orton-Gillingham methods", "Phonics interventions", "Supports structured literacy", "In reading programmes"], ["Exam extra time", "Assessments", "Standard SEND adjustment", "Applied per need"], ["Dyslexia-friendly formatting", "All materials", "Aids accessibility", "Policy in most schools"], ["Proofreading software", "Writing tasks", "Enhances editing skills", "Provided via IT"]] },
-      { type: "h3", text: "Strategies for ADHD" },
-      { type: "p", text: "ADHD strategies include **movement breaks** and classroom tracking tools used in grammar schools." },
-      { type: "p", text: "**Fidget tools** and visual schedules help manage attention deficit and hyperactivity. Quiet rooms offer short sessions for focus recovery. Timers support executive function during lessons." },
-      { type: "p", text: "Working memory training programmes build capacity over weeks. Executive function coaching in small groups teaches organisation skills. Teachers use differentiated instruction and positive reinforcement." },
-      { type: "ul", items: ["Movement breaks every 20 minutes keep pupils engaged.", "ClassDojo or similar apps track behaviour and rewards.", "One-on-one sessions address impulsivity.", "Homework clubs provide structured support.", "NICE guidelines inform tailored interventions."] },
-      { type: "h3", text: "Interventions for Autism" },
-      { type: "p", text: "Autistic pupils access **sensory circuits** and social narratives across selective schools." },
-      { type: "p", text: "**Sensory integration** tools like weighted blankets calm during transitions. Visual timetables reduce anxiety in daily routines. TEACCH workstations promote independent work." },
-      { type: "p", text: "LEAP social skills training occurs in small groups. Exam accommodations include readers or scribes. National Autistic Society standards guide these supports." },
-      { type: "ul", items: ["Daily sensory breaks for regulation.", "Social Stories for behaviour guidance.", "Structured teaching environments.", "Peer mentoring for inclusion.", "Mental health support via pastoral teams."] },
-      { type: "h2", text: "Challenges Grammar Schools Face" },
-      { type: "p", text: "Grammar schools reject **68% of EHCP applicants** citing 'academic rigor incompatible' (FOI data 2023), creating equity gaps despite legal duties. This stems from the **high academic pace** in selective schools, where fast-moving lessons often overwhelm students with dyslexia, ADHD or autism. Research suggests these pupils face higher dropout risks due to the intense curriculum demands." },
-      { type: "p", text: "**Resource constraints** add another layer of difficulty, as grammar schools receive standard per-pupil funding far below the levels allocated for EHCP support. Staff training gaps mean many teachers lack preparation for neurodiversity, leaving pupils without essential accommodations like extra time or sensory breaks. Selection processes also contribute to lower SEN representation compared to comprehensives." },
-      { type: "p", text: "To address these, schools can adopt **co-teaching models** pairing specialist teachers with classroom staff for better retention. Targeted funding bids to the Local Authority enable access to educational psychologists or speech therapy. Practical steps include screening tests at entry and parent involvement in crafting individualised education plans." },
-      { type: "p", text: "Experts recommend **differentiated instruction** such as visual aids and small group instruction to bridge gaps. Success stories highlight grammar schools using fidget tools and quiet rooms, fostering inclusion while upholding standards. These approaches promote equity in the UK education system." },
-      { type: "h3", text: "Academic Pace and SEN Dropout Risk" },
-      { type: "p", text: "The rapid **academic pace** in grammar schools challenges students with dyslexia, ADHD or autism, as lessons advance quickly without much repetition. Pupils may struggle with executive function coaching needs or working memory demands, leading to frustration. Mainstream education here prioritises high standards over flexible pacing." },
-      { type: "p", text: "Research suggests early **diagnostic assessments** help identify issues post-11-plus entry. Schools can offer phonics programs or Orton-Gillingham methods for dyslexia, slowing down key concepts. Transition support eases the shift from primary settings." },
-      { type: "h3", text: "Resource Constraints and Funding Gaps" },
-      { type: "p", text: "Grammar schools face **resource constraints**, with per-pupil funding insufficient for intensive SEN support like occupational therapy. EHCP pupils often require more, straining budgets for assistive technology or classroom assistance. This limits access to specialist teachers or math tutoring." },
-      { type: "p", text: "Targeted **funding bids** to the DfE or LA can secure extras like text-to-speech tools. Homework clubs and study skills workshops stretch existing resources effectively. Parent advocacy groups push for fair allocation under SEND code of practice." },
-      { type: "h3", text: "Staff Training Gaps" },
-      { type: "p", text: "Many grammar school staff lack **teacher training** in neurodiversity, per Ofsted insights, hindering support for ADHD impulsivity or autism sensory needs. Without expertise, accommodations like colored overlays go unused. Multidisciplinary teams are rare in selective settings." },
-      { type: "p", text: "Solutions include **staff development** via British Dyslexia Association resources. In-house workshops on structured literacy build skills. Governor responsibilities ensure ongoing professional growth for inclusive education." },
-      { type: "h3", text: "Selection Bias and Representation" },
-      { type: "p", text: "**Selection bias** in grammar schools results in fewer SEN pupils, as entrance exams favour neurotypical strengths over diverse needs. This creates barriers for dyslexia reading interventions or autism social skills training. Equity gaps persist despite legal inclusive mandates." },
-      { type: "p", text: "Schools can mitigate with **adjusted admission criteria**, like pre-screening for SpLD. Peer mentoring and self-esteem building aid integration. Long-term, this boosts attainment and mental health support." },
-      { type: "h2", text: "Case Studies and Real-World Examples" },
-      { type: "p", text: "Queen Elizabeth's School Barnet supported dyslexic pupil Josh to 3 A* GCSEs using **EHCP-funded 1:1 Lexplore screening** and extra time (Ofsted Outstanding 2023)." },
-      { type: "p", text: "The school identified Josh's **dyslexia** through Lexplore assessments, which track reading fluency. They provided individualised education plans with reading interventions and exam accommodations like extra time. This approach helped him thrive in a selective grammar school environment." },
-      { type: "p", text: "Ofsted reports praise the school's **special educational needs** provision, noting strong parent involvement and multidisciplinary teams. Josh's success shows how grammar schools can adapt to **learning disabilities** while maintaining academic rigor." },
-      { type: "p", text: "Similar stories emerge across UK grammar schools, where early intervention and **assistive technology** bridge attainment gaps for neurodiverse pupils." },
-      { type: "h3", text: "Queen Elizabeth's School Barnet: Dyslexia Support" },
-      { type: "p", text: "At Queen Elizabeth's, **Lexplore screening** pinpointed Josh's reading challenges early. The school allocated **EHCP funding** for one-on-one tutoring and structured literacy programs like Orton-Gillingham." },
-      { type: "p", text: "Teachers used multisensory learning techniques, including colored overlays and dyslexia-friendly fonts. Josh gained confidence, achieving top GCSE grades despite his specific learning difficulty." },
-      { type: "p", text: "Ofsted's 2023 inspection highlighted the school's **SEN support services**, crediting specialist teachers and educational psychologists. Parents report improved self-esteem through regular reviews of his IEP." },
-      { type: "p", text: "This case demonstrates grammar schools' commitment to **inclusive education**, blending high standards with personalised accommodations." },
-      { type: "h3", text: "Colchester Royal Grammar School: ADHD Interventions" },
-      { type: "p", text: "Colchester Royal Grammar School aided pupil Alex with **ADHD** using ClassDojo for behavior tracking and focus building. The platform rewarded positive actions, leading to better executive function." },
-      { type: "p", text: "Staff implemented **executive function coaching**, fidget tools, and quiet rooms to manage hyperactivity and impulsivity. Alex's participation in class rose noticeably with these adjustments." },
-      { type: "p", text: "Ofsted commended the school's **behavioral support** and teacher training on neurodiversity. The approach included small group instruction and homework clubs tailored to attention deficits." },
-      { type: "p", text: "Such strategies show how grammar schools address ADHD challenges through practical tools and consistent classroom assistance." },
-      { type: "h3", text: "Wallington High School for Girls: Autism Accommodation" },
-      { type: "p", text: "Wallington High created a **sensory room** for autistic pupil Sophie, reducing anxiety and boosting attendance. Visual aids and sensory integration tools formed the core intervention." },
-      { type: "p", text: "The school offered **social skills training** and peer mentoring alongside curriculum adaptations like differentiated instruction. Sophie's engagement improved, supporting her progress in a mainstream setting." },
-      { type: "p", text: "Ofsted reports note the school's **student welfare** focus, with occupational therapy referrals and transition support. Parents value the holistic approach to spectrum disorders." },
-      { type: "p", text: "This example illustrates grammar schools' role in **autism support**, fostering equity through resource allocation and staff expertise." },
-      { type: "h2", text: "Parental and Student Experiences" },
-      { type: "p", text: "IPSEA survey 2023 found 62% of grammar school SEN parents report inadequate support versus 28% in comprehensives, driving 45% tribunal appeals. These figures highlight ongoing challenges in **grammar schools** for students with dyslexia, ADHD or autism. Parents often feel sidelined in shaping individualised education plans." },
-      { type: "p", text: "A Contact 2022 survey revealed **73% of parents feel excluded from IEPs**. This exclusion can worsen learning disabilities and neurodiversity needs. Real accounts from forums paint a vivid picture of these struggles." },
-      { type: "p", text: "One parent on the British Dyslexia Association forum shared, \"Extra time was denied for my dyslexic son despite diagnosis, leaving him anxious before every exam.\" An ADHD student recounted, \"The fidget ban increased my meltdowns, with no **quiet rooms** or sensory breaks offered.\" These stories underscore gaps in classroom assistance and accommodations." },
-      { type: "p", text: "A parent from the **National Autistic Society** noted, \"Social isolation hit hard in the rigid grammar environment, lacking social skills training.\" Yet success shines through, as one family said, \"Securing an EHCP transformed grades with **one-on-one tutoring** and exam accommodations.\" These experiences stress the need for parent involvement and early intervention." },
-      { type: "h2", text: "Alternatives if Support is Insufficient" },
-      { type: "p", text: "Switch to SEN specialist schools like Maple Hayes, which caters to 100% dyslexic students with a strong track record of university progression, or pursue a comprehensive appeal where the Local Authority has a duty to name a suitable school. Grammar schools may lack the depth of support for **dyslexia, ADHD or autism**, prompting parents to explore options aligned with their child's **Education Health Care Plan (EHCP)**. These alternatives prioritise individualised education plans and specialist interventions." },
-      { type: "p", text: "**Specialist independent schools** offer tailored academic support, including multisensory learning and Orton-Gillingham phonics programs for dyslexia. They provide one-on-one tutoring, occupational therapy and executive function coaching for ADHD and autism. Costs often exceed **\u00a320,000 per year**, but outcomes show improved attainment through small group instruction and sensory integration." },
-      { type: "p", text: "In the **UK education system**, comprehensives support around **15% SEN pupils** using co-teaching models and differentiated instruction. Home education with tutoring at about \u00a335 per hour allows flexible pacing and assistive technology like text-to-speech tools. Online platforms such as Wolsey Hall Oxford deliver personalised curricula with exam accommodations." },
-      { type: "p", text: "For disputes, the **LA appeal process** typically takes two months, leading to tribunals where parents often succeed. Contact **IPSEA** for advocacy on parental rights under the SEND code of practice. These paths address barriers in selective schools' high academic rigor." },
-      { type: "h3", text: "SEN Independent Schools" },
-      { type: "p", text: "SEN independent schools specialise in neurodiversity, offering structured literacy programs and speech therapy absent in many grammar schools. Students receive diagnostic assessments and IEPs with accommodations like extra time and quiet rooms. Annual fees surpass **\u00a320,000**, yet they bridge attainment gaps via specialist teachers." },
-      { type: "p", text: "Examples include schools focusing on **specific learning difficulties (SpLD)**, with visual aids and working memory training for ADHD. Autism support features social skills training and behavioral support. Parents report gains in self-esteem and long-term outcomes through early intervention." },
-      { type: "h3", text: "Comprehensive Schools" },
-      { type: "p", text: "**Comprehensive schools** integrate SEN pupils, with about **15% receiving support** through co-teaching and small group instruction. They adapt curricula for dyslexia via dyslexia-friendly fonts and coloured overlays, unlike grammar schools' selective focus. This fosters inclusive education with peer mentoring." },
-      { type: "p", text: "For ADHD and autism, they provide fidget tools, study skills workshops and mental health support. Transition programs ease 11-plus shifts, emphasising holistic student welfare over pure academic standards." },
-      { type: "h3", text: "Home Education and Tutoring" },
-      { type: "p", text: "**Home education** paired with tutoring at roughly **\u00a335 per hour** enables custom pacing for learning disabilities. Parents implement phonics programs and math tutoring tailored to EHCPs. It suits those needing sensory breaks or hyperactivity management." },
-      { type: "p", text: "Tutors offer one-on-one sessions in executive function coaching and reading interventions. This bypasses grammar school entrance exams, prioritising personalised learning and family involvement." },
-      { type: "h3", text: "Online Learning Options" },
-      { type: "p", text: "Platforms like **Wolsey Hall Oxford** provide online courses with accommodations such as screen readers for dyslexia. They support ADHD through short modules and autism via clear visual aids. Flexible scheduling aids attention deficits without mainstream pressures." },
-      { type: "p", text: "Homework clubs and progress tracking mimic school structures. Costs vary, offering accessible alternatives to grammar schools' resource allocation limits." },
-      { type: "h3", text: "Tribunals and Appeals" },
-      { type: "p", text: "The LA appeal process lasts about two months, challenging insufficient grammar school support under DfE guidelines. Tribunals uphold parental rights, with strong parent success rates. IPSEA offers free advice on EHCP amendments for specialist provisions." },
-      { type: "p", text: "Evidence from educational psychologists strengthens cases for occupational therapy or classroom assistance. This ensures equity, addressing Ofsted-noted gaps in selective schools." },
-    ],
-  },
+  "slug": "do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
+  "title": "Grammar-school support for dyslexia, ADHD and autism: what to ask",
+  "desc": "A practical guide to evaluating grammar-school SEND provision, SENCO support, classroom adjustments and transition for your child.",
+  "date": "April 7, 2026",
+  "readTime": "5 min read",
+  "category": "Admissions",
+  "imageUrl": "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_4.jpeg",
+  "imageAlt": "Do grammar schools offer support for dyslexia, ADHD or autism?",
+  "images": [
+    "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_1.jpeg",
+    "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_2.jpeg",
+    "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_3.jpeg",
+    "https://files.autoblogging.ai/images/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism(3nw8)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Grammar schools can support pupils with dyslexia, ADHD, autism and other special educational needs. Provision varies between schools and children, so the useful question is not simply whether a school “does SEND”. Ask how it would identify and respond to your child’s actual barriers to learning, participation and wellbeing."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning for an exam taken in 2027? Check the school-entry year on every policy. An autumn 2027 test commonly leads to September 2028 entry. A page headed “2027 entry” may describe a test taken in 2026. Unpublished future arrangements should be treated as unconfirmed."
+    },
+    {
+      "type": "h2",
+      "text": "Start with the SEND information report"
+    },
+    {
+      "type": "p",
+      "text": "Read the school’s SEND information report, SEND policy and accessibility information. Look for how needs are identified, how parents and pupils contribute, who co-ordinates support and how progress is reviewed. Check the document date and ask whether the arrangements will change before your child joins."
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s SEN support guidance](https://www.gov.uk/children-with-special-educational-needs/special-educational-needs-support) directs families to the teacher or SENCO to discuss additional help. Support can include adapted learning, help in class or with communication, and smaller-group work. A child does not need to struggle in every subject before a specific concern deserves attention."
+    },
+    {
+      "type": "h2",
+      "text": "What published grammar-school provision looks like"
+    },
+    {
+      "type": "p",
+      "text": "[Ermysted’s Grammar School](https://ermysteds.uk/our-school/send/) describes gathering information from teachers, previous schools and professionals, then reviewing individual support. Its examples include adapted teaching, resources and individual or small-group help. [Stretford Grammar School](https://www.stretfordgrammar.com/send-information) describes pupil learning passports shared with staff, review cycles and its HUB support space."
+    },
+    {
+      "type": "p",
+      "text": "These are examples from the schools’ own published accounts, not a ranking or a guarantee for another school. Ask the school you are considering to explain the equivalent process for your child. Avoid assuming that a room, a named intervention or a learning-support team automatically means a particular service is available every day."
+    },
+    {
+      "type": "h2",
+      "text": "Questions to ask about your child’s needs"
+    },
+    {
+      "type": "p",
+      "text": "Use the prompts below to structure a conversation with the SENCO. They are questions to explore, not a prescription: children with the same diagnosis can need different support."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Area to discuss",
+        "Useful question",
+        "What to clarify"
+      ],
+      "rows": [
+        [
+          "Reading and written work",
+          "How would teachers support access to lengthy texts or recording ideas?",
+          "Which adaptations are used in lessons, who decides on them and how their usefulness is reviewed."
+        ],
+        [
+          "Attention and organisation",
+          "How are tasks, homework instructions and changes of activity made manageable?",
+          "How subject teachers communicate consistent expectations and how the pupil asks for help."
+        ],
+        [
+          "Sensory or communication needs",
+          "What happens if busy corridors, unexpected changes or unclear instructions become difficult?",
+          "How staff learn the individual pupil’s needs and what agreed support is available."
+        ],
+        [
+          "Assessment",
+          "How are classroom assessment arrangements considered?",
+          "How school tests and later public-exam requirements are handled separately."
+        ],
+        [
+          "Pastoral support",
+          "Who notices if a pupil is coping academically but struggling emotionally?",
+          "A named contact, escalation process and communication with home."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For dyslexia, ask about the specific reading or writing barrier rather than assuming a font or coloured overlay solves it. For ADHD, explore how attention and organisation are supported rather than asking only about extra time. For an autistic child, discuss their own communication and sensory preferences rather than assuming all autistic pupils need the same environment."
+    },
+    {
+      "type": "h2",
+      "text": "Support should be planned and reviewed"
+    },
+    {
+      "type": "p",
+      "text": "Ask how a concern becomes an agreed plan: what information is gathered, which actions are tried, who carries them out and when the school checks whether they help. You might encounter terms such as learning passport, individual education plan or assess–plan–do–review. Ask staff to explain how the document changes classroom practice."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "How will every subject teacher receive relevant information?",
+        "Who will be the family’s first contact?",
+        "How can the pupil say an adjustment is not helping?",
+        "What would trigger a change in support or further assessment?",
+        "When will the family receive an update, and what evidence will be discussed?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If your child has an EHCP, discuss the provision specified in it with the school and local authority. A general SEND webpage cannot confirm that a particular package of support will be delivered. Keep clear notes of what is being proposed and what remains to be agreed."
+    },
+    {
+      "type": "h2",
+      "text": "Prepare the move from primary school"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Ask the current SENCO which successful strategies and records should be passed on.",
+        "Share your child’s strengths and interests as well as areas of difficulty.",
+        "Discuss the journey, arrival, lunch, changing rooms and homework routine—not just lessons.",
+        "Ask whether an additional visit, a visual guide or a meeting with a named adult would help and is available.",
+        "Agree an early review after the move, including the child’s own account of what is working."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "An original one-page handover can help organise the discussion: “What I enjoy”, “What I find difficult”, “What helps”, “How I ask for help” and “Who to contact”. Complete it with your child and the school. It should support, rather than replace, formal records and professional advice."
+    },
+    {
+      "type": "h2",
+      "text": "Entrance-test adjustments are a separate decision"
+    },
+    {
+      "type": "p",
+      "text": "A school’s ability to support a pupil in Year 7 does not automatically approve extra time for its entrance exam. Likewise, an entrance-test adjustment does not guarantee the same arrangement in later public exams. Check the [11 Plus access-arrangements process](/blog/can-my-child-get-extra-time-in-the-11-plus-sen) and the [admissions route for children with SEN or an EHCP](/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools) separately."
+    },
+    {
+      "type": "h2",
+      "text": "If support is not working"
+    },
+    {
+      "type": "p",
+      "text": "Raise the specific problem with the teacher or SENCO and ask for an agreed next step and review date. Describe what is happening, when and its effect on learning or participation. If it remains unresolved, consult the school’s complaints procedure and your local SEND information, advice and support service. EHCP and disability-related disputes may require a different route from a general school complaint."
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s disability-rights guidance](https://www.gov.uk/rights-disabled-person/education-rights) explains the duty to make reasonable adjustments. There is no responsible way to promise a therapy, staffing level or legal outcome from the diagnosis alone. Compare individual schools on the evidence they provide and your child’s experience."
+    },
+    {
+      "type": "h2",
+      "text": "Sources checked"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "[Ermysted’s Grammar School: SEND](https://ermysteds.uk/our-school/send/)",
+        "[Stretford Grammar School: SEND information](https://www.stretfordgrammar.com/send-information)",
+        "[GOV.UK: SEN support](https://www.gov.uk/children-with-special-educational-needs/special-educational-needs-support)",
+        "[GOV.UK: disability rights in education](https://www.gov.uk/rights-disabled-person/education-rights)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reviewed on 8 October 2026. School examples describe published provision at the review date; confirm current arrangements directly."
+    }
+  ],
+  "updatedAt": "2026-10-08"
+},
 
   {
     slug: "are-grammar-schools-too-pressured-or-stressful-for-some-children",

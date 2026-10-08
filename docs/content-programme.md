@@ -15,6 +15,7 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 - Owner authorised scheduled publication on 7 October 2026: Friday mornings Europe/London, starting 9 October, up to three researched and verified new pages; Monday mornings site-health review starting 12 October. These hosted tasks use the existing Git-to-Vercel workflow.
 - Every topic must pass live UK SERP research BEFORE writing: intent, competing pages, entities, trust sources and useful depth; record a brief in the repository. Hold drafts if research or verification fails.
 - Target exams TAKEN in calendar 2027. Always distinguish exam year from school-entry year. Do not mechanically relabel old admissions data.
+- Daily existing-article repair task owns up to 15 unrepaired blog articles per run from 8 October 2026. Read docs/article-audit-queue.json and open PRs before selecting work; do not duplicate a batch in progress. Record research, repair and publication outcomes separately. Pause the daily task after the existing-article pass completes.
 - Site Search Console property is not connected; do not claim traffic, ranking, indexing or conversion outcomes without evidence.
 - Existing-URL repairs were authorised after the 7 October content audit. Proposed irreversible culls and final redirect destinations remain contingent on search/backlink evidence.
 
