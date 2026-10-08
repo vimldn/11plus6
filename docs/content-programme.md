@@ -16,7 +16,7 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 - Every topic must pass live UK SERP research BEFORE writing: intent, competing pages, entities, trust sources and useful depth; record a brief in the repository. Hold drafts if research or verification fails.
 - Target exams TAKEN in calendar 2027. Always distinguish exam year from school-entry year. Do not mechanically relabel old admissions data.
 - Daily existing-article repair task owns up to 15 unrepaired blog articles per run from 8 October 2026. Read docs/article-audit-queue.json and open PRs before selecting work; do not duplicate a batch in progress. Record research, repair and publication outcomes separately. Pause the daily task after the existing-article pass completes.
-- Site Search Console property is not connected; do not claim traffic, ranking, indexing or conversion outcomes without evidence.
+- Owner authorised Search Console access and connected the exact URL-prefix property https://www.11plusexampapers.com/ through Windsor.ai on 8 October 2026. Read docs/search-console-review-2026-10-08.md before selecting the next repairs. Use this site’s actual dated data, keep search types separate and do not claim repair effects from pre-release data. Query visibility and backlink evidence remain incomplete.
 - Existing-URL repairs were authorised after the 7 October content audit. Proposed irreversible culls and final redirect destinations remain contingent on search/backlink evidence.
 
 ## Batch 01
