@@ -200,15 +200,18 @@
     },
     {
       "slug": "free-11-plus-resources-and-websites",
-      "title": "Free 11 Plus resources and websites.",
+      "title": "Free 11 Plus resources and websites for 2027 preparation",
       "url": "https://www.11plusexampapers.com/blog/free-11-plus-resources-and-websites",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-practical.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -384,15 +387,18 @@
     },
     {
       "slug": "11-plus-exam-day-checklist-what-to-bring",
-      "title": "11 Plus exam day checklist (what to bring).",
+      "title": "11 Plus exam-day checklist: what to bring and check",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-practical.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -503,15 +509,18 @@
     },
     {
       "slug": "how-long-is-the-11-plus-exam",
-      "title": "How long is the 11 Plus exam?",
+      "title": "How long is the 11 Plus exam? Timings and breaks explained",
       "url": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-practical.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -579,13 +588,16 @@
       "slug": "how-many-11-plus-mock-exams-should-my-child-sit",
       "title": "How many 11 Plus mock exams should my child sit?",
       "url": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-practical.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -758,54 +770,66 @@
     },
     {
       "slug": "how-important-is-catchment-area-for-grammar-schools",
-      "title": "How important is catchment area for grammar schools?",
+      "title": "Grammar school catchment: what matters for 2027 exams?",
       "url": "https://www.11plusexampapers.com/blog/how-important-is-catchment-area-for-grammar-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-catchment.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "how-far-can-you-live-from-a-grammar-school-and-still-get-in",
-      "title": "How far can you live from a grammar school and still get in?",
+      "title": "How far from a grammar school can you live and still get in?",
       "url": "https://www.11plusexampapers.com/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-catchment.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-grammar-schools-have-feeder-primary-schools",
       "title": "Do grammar schools have feeder primary schools?",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-feeder-primary-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-grammar-schools-give-priority-to-siblings",
       "title": "Do grammar schools give priority to siblings?",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-give-priority-to-siblings",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -937,13 +961,16 @@
       "slug": "can-my-child-join-a-grammar-school-in-year-8-or-later",
       "title": "Can my child join a grammar school in Year 8 or later?",
       "url": "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -990,54 +1017,66 @@
     },
     {
       "slug": "what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools",
-      "title": "What is the catchment or priority area map for my local grammar schools?",
+      "title": "How to find your grammar school catchment or priority area map",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-catchment.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "can-we-move-house-to-get-into-a-grammar-school",
-      "title": "Can we move house to get into a grammar school?",
+      "title": "Moving house for grammar school: planning for 2027 exams",
       "url": "https://www.11plusexampapers.com/blog/can-we-move-house-to-get-into-a-grammar-school",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-catchment.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-grammar-schools-offer-places-based-on-distance-or-score-first",
-      "title": "Do grammar schools offer places based on distance or score first?",
+      "title": "Do grammar schools put test score or distance first?",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-catchment.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-grammar-schools-have-banding-or-lotteries",
-      "title": "Do grammar schools have banding or lotteries?",
+      "title": "Do grammar schools use banding or lotteries?",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-banding-or-lotteries",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1144,13 +1183,16 @@
       "slug": "how-do-i-choose-between-several-grammar-schools",
       "title": "How do I choose between several grammar schools?",
       "url": "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1209,13 +1251,16 @@
       "slug": "are-grammar-schools-too-pressured-or-stressful-for-some-children",
       "title": "Are grammar schools too pressured or stressful for some children?",
       "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-09",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-09-practical.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 5,
         "branch": "content/daily-repairs-2026-10-09",
-        "outcome": "claimed_for_research_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
