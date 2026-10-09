@@ -22,7 +22,9 @@ Root independently read Buckinghamshire's published 2028-entry timeline, Borlase
 
 Content integrity passed: 99 slugs and original publication dates retained; the other 84 blog objects are unchanged. Internal blog destinations and supported content blocks validated. Existing publication/draft-access gates and diff checks passed. Production build passed with 220 generated pages and lint/type checks. All 15 rendered HTML pages passed headline, description, canonical, indexability, article schema, original/modified dates and rendered-source-link checks. The 188-URL sitemap contains all 15 correct update dates.
 
-Awaiting Vercel deployment checks and public HTTP verification; queue rows remain repaired_pending_release until those gates pass.
+Published through [PR5](https://github.com/vimldn/11plus6/pull/5), merge commit `72ad6a4320206bc42c1d9a4640e2d7f41b2247b1`. Preview and production Vercel checks succeeded. All 15 changed live URLs returned HTTP 200 and passed headline, description/schema, canonical, indexability, original/modified-date and rendered-source-link checks on 9 October 2026. The 188-URL public sitemap contains all 15 correct modification dates. Exact results: `audit-repair-verification-2026-10-09.json`.
+
+Queue updated only after those checks: 40 reviewed/repaired/published; 59 pending; 99 total. The daily existing-article pass continues, with no completed article repeated to fill the quota.
 
 ## Held work
 

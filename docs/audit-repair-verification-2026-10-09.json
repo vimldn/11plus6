@@ -1,0 +1,123 @@
+{
+  "verifiedAt": "2026-10-09T06:08:03.403558+00:00",
+  "mode": "public_http",
+  "articles": [
+    {
+      "slug": "how-important-is-catchment-area-for-grammar-schools",
+      "url": "https://www.11plusexampapers.com/blog/how-important-is-catchment-area-for-grammar-schools",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "how-far-can-you-live-from-a-grammar-school-and-still-get-in",
+      "url": "https://www.11plusexampapers.com/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools",
+      "url": "https://www.11plusexampapers.com/blog/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "can-we-move-house-to-get-into-a-grammar-school",
+      "url": "https://www.11plusexampapers.com/blog/can-we-move-house-to-get-into-a-grammar-school",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "do-grammar-schools-offer-places-based-on-distance-or-score-first",
+      "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "can-my-child-join-a-grammar-school-in-year-8-or-later",
+      "url": "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "do-grammar-schools-give-priority-to-siblings",
+      "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-give-priority-to-siblings",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "do-grammar-schools-have-feeder-primary-schools",
+      "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-feeder-primary-schools",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "do-grammar-schools-have-banding-or-lotteries",
+      "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-banding-or-lotteries",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "how-do-i-choose-between-several-grammar-schools",
+      "url": "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "how-long-is-the-11-plus-exam",
+      "url": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "11-plus-exam-day-checklist-what-to-bring",
+      "url": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "how-many-11-plus-mock-exams-should-my-child-sit",
+      "url": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "free-11-plus-resources-and-websites",
+      "url": "https://www.11plusexampapers.com/blog/free-11-plus-resources-and-websites",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    },
+    {
+      "slug": "are-grammar-schools-too-pressured-or-stressful-for-some-children",
+      "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children",
+      "httpStatus": 200,
+      "checksPassed": true,
+      "failures": []
+    }
+  ],
+  "sitemapUrls": 188,
+  "sitemapPassed": true,
+  "pr": 5,
+  "commit": "72ad6a4320206bc42c1d9a4640e2d7f41b2247b1",
+  "previewCommit": "9b866acb7f9f997625e0bfb641ceb4f4554581bc",
+  "deploymentChecks": [
+    {
+      "context": "Vercel",
+      "state": "success",
+      "targetUrl": "https://vercel.com/vchatwani-7631s-projects/11plus6/7eCJmT7LaExsGpWu344mXqekcmuS"
+    }
+  ]
+}
