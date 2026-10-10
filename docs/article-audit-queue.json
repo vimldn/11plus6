@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "scope": "Existing 99 blog articles; no new lessons",
   "note": "A repaired article is not marked published until the corresponding GitHub deployment succeeds and its live URL is checked. Do not repeat completed rows.",
   "articles": [
     {
       "slug": "what-is-the-11-plus-exam",
-      "title": "What is the 11 Plus exam? A parent\u2019s guide for 2027",
+      "title": "What is the 11 Plus exam? A parent’s guide for 2027",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-11-plus-exam",
       "status": "published",
       "researchDate": "2026-10-07",
@@ -24,31 +24,40 @@
       "slug": "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
       "title": "What subjects are in the 11 Plus (English, maths, verbal, non-verbal)?",
       "url": "https://www.11plusexampapers.com/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "11-plus-exam-format-multiple-choice-or-written",
-      "title": "11 Plus exam format \u2013 multiple choice or written?",
+      "title": "11 Plus exam format – multiple choice or written?",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "what-age-do-children-sit-the-11-plus",
       "title": "What age do children sit the 11 Plus?",
       "url": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "when-are-the-11-plus-exam-dates-in-my-area",
@@ -75,11 +84,14 @@
       "slug": "which-schools-use-the-11-plus-exam",
       "title": "Which schools use the 11 Plus exam?",
       "url": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "gl-vs-cem-11-plus-what-is-the-difference",
@@ -322,41 +334,53 @@
       "slug": "difference-between-grammar-schools-and-independent-schools-11-plus",
       "title": "Difference between grammar schools and independent schools 11 Plus.",
       "url": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "do-independent-schools-use-the-11-plus",
       "title": "Do independent schools use the 11 Plus?",
       "url": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "what-happens-if-my-child-fails-the-11-plus",
       "title": "What happens if my child fails the 11 Plus?",
       "url": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "can-my-child-retake-the-11-plus",
       "title": "Can my child retake the 11 Plus?",
       "url": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "how-to-appeal-an-11-plus-result-or-school-allocation",
@@ -381,7 +405,7 @@
     },
     {
       "slug": "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
-      "title": "11 Plus exam stress and anxiety \u2013 how to help my child.",
+      "title": "11 Plus exam stress and anxiety – how to help my child.",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
       "status": "pending",
       "researchDate": null,
@@ -578,7 +602,7 @@
     },
     {
       "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
-      "title": "Online vs in-person 11 Plus tutoring \u2013 which is better?",
+      "title": "Online vs in-person 11 Plus tutoring – which is better?",
       "url": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
       "status": "pending",
       "researchDate": null,
@@ -641,41 +665,53 @@
       "slug": "what-is-a-grammar-school",
       "title": "What is a grammar school?",
       "url": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "are-grammar-schools-free-or-private",
       "title": "Are grammar schools free or private?",
       "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "how-many-grammar-schools-are-there-in-england",
       "title": "How many grammar schools are there in England?",
       "url": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "what-is-the-difference-between-grammar-and-comprehensive-schools",
       "title": "What is the difference between grammar and comprehensive schools?",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "are-grammar-schools-better-than-other-state-schools",
@@ -701,11 +737,14 @@
       "slug": "how-do-you-get-into-a-grammar-school",
       "title": "How do you get into a grammar school?",
       "url": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "do-you-have-to-sit-the-11-plus-for-grammar-school",
@@ -719,13 +758,16 @@
     },
     {
       "slug": "what-exams-do-grammar-schools-use-gl-cem-schools-own",
-      "title": "What exams do grammar schools use (GL, CEM, school\u2019s own)?",
+      "title": "What exams do grammar schools use (GL, CEM, school’s own)?",
       "url": "https://www.11plusexampapers.com/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "what-score-do-you-need-to-get-into-a-grammar-school",
@@ -962,11 +1004,14 @@
       "slug": "do-all-grammar-schools-use-the-same-11-plus-test",
       "title": "Do all grammar schools use the same 11 Plus test?",
       "url": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
-      "status": "pending",
-      "researchDate": null,
+      "status": "research_in_progress",
+      "researchDate": "2026-10-10",
       "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "action": "review_in_progress",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-10",
+        "outcome": "claimed_not_repaired"
+      }
     },
     {
       "slug": "how-do-waiting-lists-work-for-grammar-schools",
