@@ -1,0 +1,262 @@
+{
+  "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+  "mode": "live",
+  "articles": [
+    {
+      "slug": "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
+      "url": "https://www.11plusexampapers.com/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 6
+    },
+    {
+      "slug": "11-plus-exam-format-multiple-choice-or-written",
+      "url": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 6
+    },
+    {
+      "slug": "what-age-do-children-sit-the-11-plus",
+      "url": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 7
+    },
+    {
+      "slug": "which-schools-use-the-11-plus-exam",
+      "url": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 10
+    },
+    {
+      "slug": "difference-between-grammar-schools-and-independent-schools-11-plus",
+      "url": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 7
+    },
+    {
+      "slug": "do-independent-schools-use-the-11-plus",
+      "url": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 6
+    },
+    {
+      "slug": "what-happens-if-my-child-fails-the-11-plus",
+      "url": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 6
+    },
+    {
+      "slug": "can-my-child-retake-the-11-plus",
+      "url": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 5
+    },
+    {
+      "slug": "what-is-a-grammar-school",
+      "url": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 12
+    },
+    {
+      "slug": "are-grammar-schools-free-or-private",
+      "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 10
+    },
+    {
+      "slug": "how-many-grammar-schools-are-there-in-england",
+      "url": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 7
+    },
+    {
+      "slug": "what-is-the-difference-between-grammar-and-comprehensive-schools",
+      "url": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 7
+    },
+    {
+      "slug": "how-do-you-get-into-a-grammar-school",
+      "url": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 10
+    },
+    {
+      "slug": "what-exams-do-grammar-schools-use-gl-cem-schools-own",
+      "url": "https://www.11plusexampapers.com/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 10
+    },
+    {
+      "slug": "do-all-grammar-schools-use-the-same-11-plus-test",
+      "url": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+      "httpStatus": 200,
+      "h1MetadataCanonicalSchemaDatesLinks": "passed",
+      "sourceAndInternalLinks": 6
+    }
+  ],
+  "sitemap": {
+    "httpStatus": 200,
+    "urlCount": 188,
+    "all15UpdatedDates": "passed"
+  },
+  "release": {
+    "pr": 6,
+    "codeCommit": "bccb550dc3179e8cc47de077716a5e1348e865ef",
+    "mergeCommit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+    "preview": {
+      "context": "Vercel",
+      "state": "success",
+      "targetUrl": "https://vercel.com/vchatwani-7631s-projects/11plus6/Eii598e8GMeRngqTYqbeoV5vob4v"
+    },
+    "production": {
+      "context": "Vercel",
+      "state": "success",
+      "targetUrl": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL"
+    }
+  },
+  "build": {
+    "result": "passed",
+    "generatedPages": 220,
+    "publishingGates": "passed",
+    "integrity": "99 URLs and original dates preserved; other84 unchanged",
+    "renderedVerification": {
+      "verifiedAt": "2026-10-10T11:20:33.404784+00:00",
+      "mode": "rendered_build",
+      "articles": [
+        {
+          "slug": "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
+          "url": "https://www.11plusexampapers.com/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "11-plus-exam-format-multiple-choice-or-written",
+          "url": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "what-age-do-children-sit-the-11-plus",
+          "url": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "which-schools-use-the-11-plus-exam",
+          "url": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 10
+        },
+        {
+          "slug": "difference-between-grammar-schools-and-independent-schools-11-plus",
+          "url": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "do-independent-schools-use-the-11-plus",
+          "url": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "what-happens-if-my-child-fails-the-11-plus",
+          "url": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "can-my-child-retake-the-11-plus",
+          "url": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "what-is-a-grammar-school",
+          "url": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 12
+        },
+        {
+          "slug": "are-grammar-schools-free-or-private",
+          "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 10
+        },
+        {
+          "slug": "how-many-grammar-schools-are-there-in-england",
+          "url": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "what-is-the-difference-between-grammar-and-comprehensive-schools",
+          "url": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "how-do-you-get-into-a-grammar-school",
+          "url": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 10
+        },
+        {
+          "slug": "what-exams-do-grammar-schools-use-gl-cem-schools-own",
+          "url": "https://www.11plusexampapers.com/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 10
+        },
+        {
+          "slug": "do-all-grammar-schools-use-the-same-11-plus-test",
+          "url": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        }
+      ],
+      "sitemap": {
+        "httpStatus": null,
+        "urlCount": 188,
+        "all15UpdatedDates": "passed"
+      }
+    }
+  },
+  "queueTotals": {
+    "completed": 54,
+    "pending": 45,
+    "total": 99,
+    "checkedThisBatch": 15,
+    "safeCorrectionsPublished": 15,
+    "completedThisBatch": 14,
+    "partialPendingThisBatch": 1
+  }
+}

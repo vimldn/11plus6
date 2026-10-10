@@ -18,7 +18,9 @@ The Commons Library’s January 2022 count is explicitly historical, not a fresh
 
 Content integrity passed: 99 slugs and original publication dates retained, the other 84 blog objects unchanged, supported blocks and internal blog destinations validated. Existing publication/draft-access gates and diff checks passed. All 15 rendered HTML pages passed headline, description, canonical, indexability, article schema, original/modified dates and rendered-source/internal-link checks. The 188-URL built sitemap contains all 15 correct modification dates.
 
-Production build passed, including lint/type checks and 220 generated pages. Awaiting Vercel release. Queue entries remain in progress until production verification is evidenced; the latest-count blocker will remain pending after safe corrections are published. No production deployment is claimed at this stage.
+Production build passed, including lint/type checks and 220 generated pages. Published through [PR6](https://github.com/vimldn/11plus6/pull/6), merge commit `e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3`. Vercel preview and production checks succeeded. All 15 changed public URLs returned HTTP 200 and passed headline, description, canonical, indexability, schema, original/modified-date and rendered-link checks on 10 October 2026. The 188-URL public sitemap contains all 15 modification dates. Detailed evidence: `audit-repair-verification-2026-10-10.json`.
+
+Queue reconciled after live checks: 54 fully completed/published, 45 pending, 99 total. This batch checked 15 and published safe corrections to all 15; 14 reviews are complete and the latest national-count verification remains pending despite its safe historical rewrite being live. Do not repeat completed articles or count that unresolved item as fully complete.
 
 ## Held work
 

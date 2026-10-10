@@ -24,7 +24,7 @@
       "slug": "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
       "title": "What subjects are in the 11 Plus? A guide for 2027 exams",
       "url": "https://www.11plusexampapers.com/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-test-routes.md"
@@ -33,14 +33,21 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "11-plus-exam-format-multiple-choice-or-written",
       "title": "11 Plus exam format: multiple choice, written or online?",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-test-routes.md"
@@ -49,14 +56,21 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "what-age-do-children-sit-the-11-plus",
       "title": "What age do children sit the 11 Plus? A guide to 2027 exams",
       "url": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-admissions.md"
@@ -65,8 +79,15 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "when-are-the-11-plus-exam-dates-in-my-area",
@@ -93,7 +114,7 @@
       "slug": "which-schools-use-the-11-plus-exam",
       "title": "Which schools use the 11 Plus? Finding the right route for 2027",
       "url": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-admissions.md"
@@ -102,8 +123,15 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "gl-vs-cem-11-plus-what-is-the-difference",
@@ -346,7 +374,7 @@
       "slug": "difference-between-grammar-schools-and-independent-schools-11-plus",
       "title": "Grammar vs independent schools: comparing 11+ entry routes",
       "url": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-school-types.md"
@@ -355,14 +383,21 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "do-independent-schools-use-the-11-plus",
       "title": "Do independent schools use the 11 Plus? Entry routes explained",
       "url": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-test-routes.md"
@@ -371,14 +406,21 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "what-happens-if-my-child-fails-the-11-plus",
       "title": "What happens if my child does not pass the 11 Plus?",
       "url": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-admissions.md"
@@ -387,14 +429,21 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "can-my-child-retake-the-11-plus",
       "title": "Can my child retake the 11 Plus? Resits and later-entry options",
       "url": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-admissions.md"
@@ -403,8 +452,15 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "how-to-appeal-an-11-plus-result-or-school-allocation",
@@ -689,7 +745,7 @@
       "slug": "what-is-a-grammar-school",
       "title": "What is a grammar school? A guide for parents in England",
       "url": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-school-types.md"
@@ -698,14 +754,21 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "are-grammar-schools-free-or-private",
       "title": "Are grammar schools free or private? Fees and other costs",
       "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-school-types.md"
@@ -714,14 +777,21 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "how-many-grammar-schools-are-there-in-england",
       "title": "How many grammar schools are there in England? Count and sources",
       "url": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
-      "status": "repaired_pending_release",
+      "status": "pending",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-school-types.md"
@@ -730,16 +800,22 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "partial_repair_production_verified_current_count_pending",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
       },
       "reviewState": "checked_partial_repair",
-      "remainingWork": "Verify the latest January 2026 selective-state-secondary school count from official DfE data. Historical January 2022 count is safely dated; do not repeat routine rewrite to fill a quota."
+      "remainingWork": "Verify the latest January 2026 selective-state-secondary school count from official DfE data. Historical January 2022 count is safely dated; do not repeat routine rewrite to fill a quota.",
+      "repairStatus": "published"
     },
     {
       "slug": "what-is-the-difference-between-grammar-and-comprehensive-schools",
       "title": "Grammar vs comprehensive schools: what is the difference?",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-school-types.md"
@@ -748,8 +824,15 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "are-grammar-schools-better-than-other-state-schools",
@@ -775,7 +858,7 @@
       "slug": "how-do-you-get-into-a-grammar-school",
       "title": "How to get into a grammar school: a 2027 exam application guide",
       "url": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-admissions.md"
@@ -784,8 +867,15 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "do-you-have-to-sit-the-11-plus-for-grammar-school",
@@ -801,7 +891,7 @@
       "slug": "what-exams-do-grammar-schools-use-gl-cem-schools-own",
       "title": "Which exams do grammar schools use? Providers and 2027 changes",
       "url": "https://www.11plusexampapers.com/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-test-routes.md"
@@ -810,8 +900,15 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "what-score-do-you-need-to-get-into-a-grammar-school",
@@ -1048,7 +1145,7 @@
       "slug": "do-all-grammar-schools-use-the-same-11-plus-test",
       "title": "Do all grammar schools use the same 11 Plus test?",
       "url": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
-      "status": "repaired_pending_release",
+      "status": "published",
       "researchDate": "2026-10-10",
       "evidence": [
         "docs/research-2026-10-10-test-routes.md"
@@ -1057,8 +1154,15 @@
       "release": {
         "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "awaiting_build_and_deployment"
-      }
+        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+      },
+      "repairStatus": "published",
+      "reviewState": "completed"
     },
     {
       "slug": "how-do-waiting-lists-work-for-grammar-schools",
