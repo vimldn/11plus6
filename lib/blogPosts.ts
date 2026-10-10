@@ -166,311 +166,488 @@ export const BLOG_POSTS: BlogPost[] = [
 ]
   },
   {
-    slug: "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
-    title: "What subjects are in the 11 Plus (English, maths, verbal, non-verbal)?",
-    desc: "Discover what subjects are in the 11 Plus exam: English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. Get breakdowns of comprehension, arithmetic, vocabulary, grammar, patterns, and proven prep strategies to secure your child's grammar school spot today.",
-    date: "January 22, 2025",
-    readTime: "7 min read",
-    category: "Maths",
-    imageUrl: "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_4.jpeg",
-    imageAlt: "What subjects are in the 11 Plus (English, maths, verbal, non-verbal)?",
-    images: ["https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_1.jpeg", "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_2.jpeg", "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_3.jpeg", "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Overview of 11 Plus Exam" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam), taken by over 100,000 Year 6 pupils annually in the UK, tests English, Maths, **Verbal Reasoning**, and **Non-Verbal Reasoning** to determine entry into 163 grammar schools and hundreds of independent schools." },
-      { type: "p", text: "Exams follow a standard format with **four core subjects**, each in 45-60 minute papers. Questions appear in [multiple choice or short answer styles](/blog/11-plus-exam-format-multiple-choice-or-written), depending on the provider." },
-      { type: "p", text: "Pass marks vary by region, often ranging from 110-121 on the **GL scale** or around 80%+ on CEM tests. Major providers include [GL Assessment, which covers many areas, and CEM](/blog/gl-vs-cem-11-plus-what-is-the-difference), used in others." },
-      { type: "ul", items: ["GL Assessment: Focuses on structured questions in all subjects.", "**CEM**: Emphasises speed and less familiar formats.", "Other local variations for specific grammar schools."] },
-      { type: "p", text: "Parents can review [past papers](/papers) from these providers to understand the **exam format**. Practice with timed mock tests builds familiarity for Year 5 and Year 6 pupils." },
-      { type: "h3", text: "Exam Format and Timing" },
-      { type: "p", text: "The **11 Plus** typically splits into separate papers for each of the **four subjects**. Each paper lasts 45-60 minutes, testing stamina under timed conditions." },
-      { type: "p", text: "**Multiple choice** questions dominate in Verbal and Non-Verbal Reasoning, while English and Maths mix short answers with selections. This setup mirrors Key Stage 2 curriculum demands." },
-      { type: "p", text: "Some regions combine subjects into fewer, longer tests. Check local grammar school guides for exact **question types** and **marking schemes**." },
-      { type: "p", text: "Experts recommend starting **exam preparation** in Year 5 with short daily sessions. Use **11+ practice papers** to simulate real test pressure." },
-      { type: "h3", text: "Scoring and Pass Marks" },
-      { type: "p", text: "Schools set their own **pass mark** or score thresholds, often 110-121 on the GL scale. CEM uses percentage-based scores around 80% or higher for selection." },
-      { type: "p", text: "Standardised scores adjust for difficulty, ensuring fairness across test sittings. Higher scores improve chances at top grammars." },
-      { type: "p", text: "Review sample score reports from GL Assessment and CEM providers. Track progress with mock tests to aim above typical cut-offs." },
-      { type: "p", text: "Parents should note regional differences in **transfer tests**. A study plan targeting weak areas helps reach required levels." },
-      { type: "h3", text: "Major Providers and Coverage" },
-      { type: "p", text: "GL Assessment designs tests for about 60% of 11 Plus regions, focusing on core skills. CEM covers the rest with adaptive, speed-focused papers." },
-      { type: "p", text: "Both include the **11+ subjects**: English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. Local consortia may tweak formats slightly." },
-      { type: "ul", items: ["Practice **Bond papers** for GL-style questions.", "Use CEM-specific **revision guides** for unique puzzles.", "Access free sample worksheets online for both."] },
-      { type: "p", text: "Familiarise with provider styles early via past papers. This targeted approach suits **grammar schools** and independent schools." },
-      { type: "h2", text: "English Subject Breakdown" },
-      { type: "p", text: "11+ English papers test comprehension (40%), **vocabulary/spelling** (30%), and grammar/punctuation (30%), typically in a 45-55 minute exam with 25-35 questions. These align with GL Assessment and **CEM syllabus standards**, focusing on Year 5 and 6 National Curriculum skills. Common pitfalls include rushing comprehension or misspelling common words." },
-      { type: "p", text: "Scoring often awards **1 mark per question**, with multiple-choice or short-answer formats. Practice reveals patterns in **11+ English** exams for grammar schools and independent schools. Parents should note time pressure as a frequent challenge." },
-      { type: "p", text: "Techniques like reading questions first help manage time. Resources such as **Bond Papers** and CGP workbooks match exam styles. Regular mocks build confidence for this core **11+ subject**." },
-      { type: "p", text: "Understanding the **marking scheme** aids preparation. Inference questions trip up many, so targeted practice is key. This section breaks down each area with strategies." },
-      { type: "h3", text: "Comprehension Skills" },
-      { type: "p", text: "**Comprehension questions** require extracting main ideas from 400-600 word passages, with 8-12 questions per passage testing inference (30%), main idea (25%), and vocabulary in context (20%). These appear in GL Assessment and CEM formats. Passages cover fiction, non-fiction, or poetry." },
-      { type: "p", text: "Try these **five specific techniques**: read questions first to save time, underline key phrases while reading, practice with Bond Papers Book 1 featuring 15 passages, time passages at 6 minutes each, and learn 12 inference question types like \"author's attitude\"." },
-      { type: "ul", items: ["GL Assessment sample: What does the phrase \"storm in a teacup\" suggest? This tests idiomatic meaning.", "Focus on **reading skills** for summary and inference in eleven plus exam.", "Use 11+ practice papers to simulate timed conditions."] },
-      { type: "p", text: "Common errors include missing subtle inferences. Regular practice with **transfer test** resources strengthens extraction of details. This builds speed for the 11+ English section." },
-      { type: "h3", text: "Vocabulary and Spelling" },
-      { type: "p", text: "**Vocabulary questions** test 800 most common 11+ words through synonyms, antonyms, and cloze tests; spelling covers Year 5/6 National Curriculum words like 'accommodate' and 'conscious'. These follow GL Assessment and CEM standards. Scoring gives 1 mark per correct answer." },
-      { type: "p", text: "High-frequency question types include:" },
-      { type: "ul", items: ["**Synonyms**: benevolent = kind", "**Antonyms**: transient = permanent", "**Word pairs**: fish/fowl", "**Odd one out**: identify the unrelated word", "Claze procedures and word completion", "Analogy-style pairs", "Contextual usage"] },
-      { type: "p", text: "A sample spelling list from CGP 11+ book: accommodate, achieve, aggressive, apparent, bargain, category, cemetery, chauffeur, column, diarrhoea. Use **Vocabulary Ninja daily lists** covering 200 words for steady progress." },
-      { type: "p", text: "Avoid pitfalls by practising **verbal reasoning** overlaps in 11+ subjects. Daily review of synonyms aids retention for grammar school entrance." },
-      { type: "h3", text: "Grammar and Punctuation" },
-      { type: "p", text: "**Grammar tests** identify parts of speech, sentence types, and tense usage; punctuation covers speech marks, commas in lists, and apostrophes in 10-15 targeted questions. These match **National Curriculum Year 6 objectives** and 11+ syllabuses. Questions are often multiple-choice." },
-      { type: "p", text: "Key areas with examples:" },
-      { type: "ol", items: ["Identify **nouns/pronouns** in sentences: The cat chased its tail.", "Choose correct tense: **past perfect** as in She had eaten.", "Spot **sentence fragments**: incomplete like Running through the park.", "Add punctuation to dialogue: \"Hello,\" she said.", "Fronted adverbials: Suddenly, the door opened.", "Relative clauses: using who, which, that."] },
-      { type: "p", text: "Practice with **CGP Grammar Workbook** exercises on pages 45-67. Common errors involve mixing its/it's. Focus on these for **selective schools** prep." },
-      { type: "p", text: "Timed drills improve accuracy in **entrance exam** conditions. Link grammar to comprehension for holistic 11+ English success. Revision guides reinforce these skills." },
-      { type: "h2", text: "Maths Subject Breakdown" },
-      { type: "p", text: "11+ Maths covers **Number (50%)**, Measurement/Geometry (30%), and **Data/Statistics (20%)** across 40-50 questions in 50 minutes, emphasising mental arithmetic and problem-solving. Parents should note this weighting when planning revision for the eleven plus exam. Focus on timed practice to build speed for CEM and GL formats." },
-      { type: "p", text: "Questions demand quick mental calculations and logical steps. Children tackle arithmetic basics alongside shape properties and data interpretation. Regular 11+ practice papers help familiarise with the pressure of a timed exam." },
-      { type: "p", text: "Timing varies by provider, but aim for under a minute per question overall. Use resources like Bond papers for mixed practice. This prepares for selective schools' entrance exam demands in Year 6." },
-      { type: "p", text: "Break study into daily sessions on core topics. Combine with mock tests to track progress. Parents can support through supervised drills on weak areas like fractions or angles." },
-      { type: "h3", text: "Number and Arithmetic" },
-      { type: "p", text: "Number questions test **BODMAS**, fractions, decimals, percentages, and ratio through 20-25 problems requiring mental calculation speed, aim for 1 minute per question. These form the bulk of **11+ Maths** papers in both CEM and GL styles. Mastery here boosts overall scores in the timed exam." },
-      { type: "p", text: "Core topics include eight key areas with practical examples. Fractions like 3/4 + 2/5 = 19/20 test equivalence. Percentage increase, such as 20% of 450 = 90, checks proportional thinking." },
-      { type: "ul", items: ["Ratio sharing, e.g., \u00a3240 in 3:5 split.", "Long multiplication, like 28 \u00d7 37.", "Decimals to fractions conversion.", "Prime factors and multiples.", "Order of operations with BODMAS.", "Negative numbers in calculations.", "Exponent basics, squares and cubes.", "Divisibility rules for quick checks."] },
-      { type: "p", text: "Build speed with 10 mental maths strategies: count in multiples, round for estimates, use number bonds, break down multiplications, visualise fractions on number lines, practise skip counting, recall square roots, apply inverse operations, chunk large numbers, and verbalise steps aloud. Aim for **45 seconds per problem** with timed drills. Bond Maths Book 11 offers 200 questions for targeted practice." },
-      { type: "h3", text: "Geometry and Measurement" },
-      { type: "p", text: "Geometry tests **perimeter**, area, angles, and basic algebra through 12-15 questions; measurement covers time, speed, and conversion units. These appear in GL and CEM 11+ Maths formats, often with diagrams. Children must apply formulas accurately under time pressure." },
-      { type: "p", text: "Key formulas include these essentials:" },
-      { type: 'table', headers: ["Shape/Concept", "Formula", "Example"], rows: [["Area of triangle", "\u00bd \u00d7 base \u00d7 height", "\u00bd \u00d7 6 \u00d7 4 = 12 cm\u00b2"], ["Circle circumference", "2\u03c0r", "2 \u00d7 3.14 \u00d7 5 = 31.4 cm"], ["Speed", "distance / time", "60 km / 2 hrs = 30 km/h"], ["Rectangle perimeter", "2(length + width)", "2(8 + 5) = 26 m"]] },
-      { type: "p", text: "Common question types feature angle chasing on a 180\u00b0 straight line, area of compound shapes by splitting into rectangles, and unit conversions like 3.2 km = 3200 m. Others include net folding for 3D shapes and scale drawings. A frequent error is forgetting \u03c0 = 3.14, so practise approximations." },
-      { type: "p", text: "Use CGP Geometry worksheets for drills. Time 5 questions per session at 1.5 minutes each. Review errors to strengthen spatial reasoning for the **eleven plus exam**." },
-      { type: "h2", text: "Verbal Reasoning" },
-      { type: "p", text: "Verbal Reasoning tests **pattern recognition** in words and letters through 80 questions in 40 minutes, focusing on analogies (25%), synonyms (20%), and code-breaking (20%). This 11+ subject appears in both GL and CEM formats for grammar schools and independent schools. Parents often find it challenging, as it demands quick thinking under timed conditions." },
-      { type: "p", text: "Children need to spot relationships between words, decode letter patterns, and complete sequences. Practice builds speed for the eleven plus exam, where accuracy matters in multiple-choice questions. Expect a mix of word puzzles and logical deductions." },
-      { type: "p", text: "Common question types include synonyms, antonyms, and letter shifts. Familiarity with **11+ Verbal Reasoning** techniques helps year 6 pupils tackle the pressure. Use timed mock tests to simulate exam day." },
-      { type: "p", text: "Experts recommend daily practice with resources like Bond papers. This strengthens vocabulary and logic for selective schools. Focus on weak areas through targeted worksheets." },
-      { type: "h3", text: "Word Analogies and Synonyms" },
-      { type: "p", text: "Word analogies test relationships like 'glove is to hand as hat is to head'; synonyms require identifying closest meaning from 4 options. These appear frequently in **11 Plus Verbal Reasoning** papers from GL and CEM. Spotting the link quickly saves time in the exam." },
-      { type: "p", text: "To solve, first identify the **relationship type**. Common types include: part-whole like wheel:car, tool-worker such as pen:writer, and cause-effect like rain:umbrella. Other patterns cover opposites, function, and degree." },
-      { type: "p", text: "For synonyms, match words like calm:serene, happy:joyful, begin:start, end:finish, large:big, small:tiny, quick:fast, hot:scorching, cold:freezing, brave:courageous. Practice lists build recognition. Aim for high accuracy through repetition." },
-      { type: "p", text: "Use the method: eliminate wrong options, test the relationship. Resources like Schofield & Sims Verbal Reasoning Book 1 offer 100 questions for skill-building. Regular drills boost confidence for **grammar school entrance**." },
-      { type: "h3", text: "Code-breaking and Sequences" },
-      { type: "p", text: "Code-breaking involves deciphering **letter shifts** (A\u2192C, B\u2192D pattern) and number sequences (2, 4, 8, 16 \u2192 \u00d72 rule) across 20-25 questions. This tests logic in **11+ exam formats** for both GL and CEM. Quick pattern spotting is key under time limits." },
-      { type: "p", text: "Key sequence types include letter position like CAT=3,7,20, vowel/consonant patterns, and +3 letter shift codes. Others cover alphabetical order, reverse sequences, and gap patterns such as BDG next=H (gap +2). Number rules often double or add fixed values." },
-      { type: "p", text: "Solve with a grid: note positions, check shifts, predict next. Limit pattern spotting to **30 seconds max per question**. This method works for word puzzles in transfer tests." },
-      { type: "p", text: "Bond Verbal Reasoning papers provide realistic practice. Parents can track progress with mock tests. Consistent work enhances performance in **selective school assessments**." },
-      { type: "h2", text: "Non-Verbal Reasoning" },
-      { type: "p", text: "Non-Verbal Reasoning tests visual pattern recognition through matrices, series, and shape manipulation in 40-50 questions over 40 minutes. Parents often focus on building these **visual skills** for the 11 Plus exam. This section sharpens a child's ability to spot patterns without words." },
-      { type: "p", text: "In **11+ Non-Verbal Reasoning**, children analyse shapes, rotations, and sequences. Common formats include 3x3 matrices where one cell is missing. Practice helps with **spatial reasoning** needed for GL Assessment and CEM papers." },
-      { type: "p", text: "Questions demand quick thinking under timed conditions. Children learn to identify rules like shading progression or size changes. Regular drills build confidence for eleven plus exam success in grammar and independent schools." },
-      { type: "p", text: "Use resources like Bond papers for variety. Combine with 11+ practice papers to mimic the real test. This prepares Year 6 pupils for selective school entrance." },
-      { type: "h3", text: "Patterns and Shapes" },
-      { type: "p", text: "Pattern questions test 9 common transformations: rotation (90\u00b0), reflection (horizontal/vertical), enlargement, and shading sequences across 3x3 matrices. These appear in **GL Assessment matrices** for the 11 Plus. Children must spot the rule to pick the right shape." },
-      { type: "p", text: "Key transformations include **rotation**, reflection, and **translation**. A table below outlines them clearly for parents and pupils." },
-      { type: 'table', headers: ["Transformation", "Description", "Example"], rows: [["Rotation", "90\u00b0, 180\u00b0, 270\u00b0 clockwise or anticlockwise", "Triangle turns quarter turn"], ["Reflection", "Horizontal (H), Vertical (V), Diagonal (D)", "Shape flips over vertical line"], ["Translation", "Shift up, down, left, right", "Circle moves two spaces right"]] },
-      { type: "p", text: "Follow these **7 matrix solving steps** for reliable results." },
-      { type: "ol", items: ["Examine all shapes in the row or column.", "Check for rotation or **reflection**.", "Look for size changes or additions.", "Spot shading or colour patterns, like circle \u2192 square sequence.", "Test the rule on known cells.", "Apply to the missing cell.", "Verify against options."] },
-      { type: "p", text: "Examples include shading from 1 to 3 to 5 to 7 segments. Practice **20 matrices daily** with CGP Non-Verbal papers, which offer 15 tests. This builds speed for 11+ Non-Verbal Reasoning in timed mocks." },
-      { type: "h2", text: "Preparation Strategies" },
-      { type: "p", text: "Top 10% scorers complete **25+ full practice papers**, study 12 months at 2 hours per day, and use targeted resources like Bond, CGP, and ExamNinja mocks. This approach builds confidence across 11+ subjects including English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. Parents can guide children with a structured plan to master exam formats from GL Assessment or CEM." },
-      { type: "p", text: "Focus on consistent daily practice to cover 11+ English skills like comprehension, vocabulary, grammar, and creative writing. Allocate time for 11+ Maths topics such as arithmetic, geometry, fractions, and problem solving. Include Verbal Reasoning with synonyms and analogies, plus Non-Verbal Reasoning involving shapes and patterns." },
-      { type: "p", text: "A **12-month study plan** divides preparation into phases for steady progress. Track scores weekly to identify weak areas in timed conditions. Combine self-study with optional tuition at \u00a325-40 per hour for personalised support." },
-      { type: "p", text: "Experts recommend resources like **Bond Papers (10 books)**, CGP Workbooks, and ExamNinja (42 mocks) for realistic practice. Daily schedules keep sessions short: 40 minutes Maths, 30 minutes English, 20 minutes Reasoning. This routine fits around Year 5 and Year 6 schoolwork." },
-      { type: "h3", text: "12-Month Study Plan" },
-      { type: 'table', headers: ["Months", "Focus", "Key Activities"], rows: [["1-3", "Topic Coverage", "Build foundations in core subjects. Cover English grammar, spelling, punctuation; Maths arithmetic, fractions, decimals; Verbal codes, synonyms; Non-Verbal shapes, series. Use CGP Workbooks daily."], ["4-8", "Mixed Practice", "Mix question types across 11+ subjects. Practice comprehension, inference in English; geometry, data handling in Maths; analogies, sequences in Verbal; matrices, rotations in Non-Verbal. Do 2-3 Bond Papers weekly."], ["9-12", "Full Mocks", "Simulate exam day with timed papers. Complete ExamNinja mocks, review errors. Focus on speed for multiple-choice and problem-solving under pressure."]] },
-      { type: "p", text: "This plan ensures coverage of the **eleven plus exam syllabus** aligned with Key Stage 2. Adjust based on school assessments or transfer tests. Children gain familiarity with various question types and marking schemes." },
-      { type: "p", text: "During Months 1-3, emphasise reading skills and mental maths for quick wins. In mixed practice, tackle word puzzles and spatial reasoning together. Full mocks in the final phase mimic selective school entrance exams." },
-      { type: "h3", text: "Daily Schedule and Score Tracking" },
-      { type: "p", text: "Set a **daily schedule**: 40 minutes on 11+ Maths for measurement and percentages, 30 minutes on 11+ English for summary and creative writing, 20 minutes on Reasoning split between verbal and non-verbal. Total under 2 hours to avoid fatigue. Rotate focus days for vocabulary or logic puzzles." },
-      { type: "p", text: "Use a simple **score tracking sheet** to monitor progress. List practice papers in columns for English, Maths, Verbal, Non-Verbal scores, plus total percentage. Note patterns, like low scores in algebra, and revisit those topics." },
-      { type: 'table', headers: ["Paper Date", "English (%)", "Maths (%)", "Verbal (%)", "Non-Verbal (%)", "Total (%)", "Weak Areas"], rows: [["Example: Week 1", "75", "80", "70", "65", "72.5", "Fractions, rotations"]] },
-      { type: "p", text: "Review weekly to aim for score threshold improvements. Research suggests six months of prep boosts performance. Track against pass marks for grammar or independent schools." },
-      { type: "h3", text: "Recommended Resources and Tuition" },
-      { type: "p", text: "Stock up on Bond Papers (10 books) for targeted 11+ practice across four subjects. CGP Workbooks offer worksheets on punctuation, decimals, and pattern recognition. ExamNinja provides 42 mocks for full exam simulation." },
-      { type: "ul", items: ["Bond: Builds core skills in comprehension and sequences.", "CGP: Detailed revision guides for spelling and 3D shapes.", "ExamNinja: Timed tests matching CEM or GL formats."] },
-      { type: "p", text: "Supplement with past papers and online practice for variety. Tuition at **\u00a325-40 per hour** helps with tutor support on inference or folding nets. Ideal for children needing extra push towards selective schools." },
-      { type: "p", text: "Parental guides recommend mixing resources for balanced prep. Focus on techniques like skimming in reading or eliminating wrong answers in multiple-choice. This prepares for the timed 11+ exam effectively." },
-    ],
-  },
+  "slug": "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
+  "title": "What subjects are in the 11 Plus? A guide for 2027 exams",
+  "desc": "Understand English, maths, verbal and non-verbal reasoning, plus local variations and confirmed subject changes for exams taken in 2027.",
+  "date": "January 22, 2025",
+  "readTime": "6 min read",
+  "category": "Maths",
+  "imageUrl": "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_4.jpeg",
+  "imageAlt": "What subjects are in the 11 Plus (English, maths, verbal, non-verbal)?",
+  "images": [
+    "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_1.jpeg",
+    "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_2.jpeg",
+    "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_3.jpeg",
+    "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "English, maths, verbal reasoning and non-verbal reasoning are common 11 Plus subject areas. Your child will not necessarily be tested in all four, and some assessments include other tasks. Start with the current specification for the school or consortium: there is no single national 11 Plus syllabus."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This guide was checked on 10 October 2026 for families preparing for exams taken in 2027, usually for September 2028 entry. Confirmed 2027 changes are identified below; older-cycle examples are not promises about future papers."
+    },
+    {
+      "type": "h2",
+      "text": "The main subject areas"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Area",
+        "What a child may need to do",
+        "A useful preparation focus"
+      ],
+      "rows": [
+        [
+          "English",
+          "Understand a passage, interpret vocabulary and use accurate language",
+          "Discuss evidence in reading and explain word choices"
+        ],
+        [
+          "Maths",
+          "Calculate, interpret information and solve problems",
+          "Understand methods and apply them to unfamiliar situations"
+        ],
+        [
+          "Verbal reasoning",
+          "Find relationships in words, letters or coded information",
+          "Explain the rule rather than memorise an answer"
+        ],
+        [
+          "Non-verbal and spatial reasoning",
+          "Identify visual patterns or imagine shapes changing",
+          "Compare features systematically and test a possible rule"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[GL Assessment’s familiarisation materials](https://11plus.gl-assessment.co.uk/pages/free-materials) give examples across these areas. They illustrate question styles, not a compulsory four-paper timetable. A subject is what is assessed; a paper may combine several subjects; the answer format is how a child responds."
+    },
+    {
+      "type": "h2",
+      "text": "English: reading, vocabulary and accurate expression"
+    },
+    {
+      "type": "p",
+      "text": "Comprehension involves understanding what a text says and what can reasonably be inferred from it. A retrieval question asks for information stated in the passage. An inference question asks the reader to connect clues. Vocabulary questions may ask what a word means in that particular sentence, rather than its first dictionary definition."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Reading: identify details, sequence events and explain a character’s actions using evidence.",
+        "Vocabulary: understand meaning in context, similarities and opposites where these are tested.",
+        "Spelling, punctuation and grammar: recognise or produce accurate language, according to the local format.",
+        "Writing, if required: respond to the actual task, organise ideas and review clarity and accuracy."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Original illustration: “Maya checked the platform clock again and tightened her grip on the ticket.” This could suggest she is anxious or impatient about the journey. A useful explanation connects that interpretation to her repeated clock-checking. The sentence does not prove a particular reason, such as a missed train, so avoid adding unsupported details."
+    },
+    {
+      "type": "p",
+      "text": "Do not assume that every English test contains creative writing or assigns it the same role. Check whether there is a separate writing task and how it is used. Reading a range of suitable fiction and non-fiction can support discussion; a list of supposedly essential difficult words is not a substitute for understanding what you read."
+    },
+    {
+      "type": "h2",
+      "text": "Maths: knowledge applied to problems"
+    },
+    {
+      "type": "p",
+      "text": "A preparation checklist may include place value and calculation; fractions, decimals and percentages; measures and units; shape and geometry; and interpreting tables or charts. The organiser’s curriculum statement determines the relevant scope. Some tests specify knowledge through Year 5, so “everything up to the end of Year 6” is not a safe universal description."
+    },
+    {
+      "type": "p",
+      "text": "Original worked example: three quarters of 28 is 21. Divide 28 into four equal groups to find one quarter: 28 ÷ 4 = 7. Then take three groups: 7 × 3 = 21. Ask the child why the division comes first; this checks understanding rather than recall of a sequence of buttons or rules."
+    },
+    {
+      "type": "p",
+      "text": "Word problems also require identifying what is being asked, choosing relevant information and checking the unit. A child might calculate correctly but answer in centimetres when metres were requested. Record the cause of a mistake before deciding what to practise next."
+    },
+    {
+      "type": "h2",
+      "text": "Verbal reasoning: relationships involving language"
+    },
+    {
+      "type": "p",
+      "text": "Verbal reasoning may use word meanings, analogies, letter patterns or codes. Its overlap with English does not make every English comprehension exercise a verbal-reasoning question. Use the local examples to see the actual task types rather than assuming a fixed national list."
+    },
+    {
+      "type": "p",
+      "text": "Original illustration: “A finger is part of a hand; a toe is part of a ___.” The answer is “foot”. The relationship is part to whole. Explaining that relationship is more useful than merely noticing that all the words concern the body."
+    },
+    {
+      "type": "p",
+      "text": "When introducing a code, check that the child understands every instruction. If a rule says each letter moves one place forward in the alphabet, CAT becomes DBU. Work through C→D, A→B and T→U separately. This is an illustration of a rule, not a prediction that this question type appears in your child’s exam."
+    },
+    {
+      "type": "h2",
+      "text": "Non-verbal and spatial reasoning: working with visual information"
+    },
+    {
+      "type": "p",
+      "text": "Non-verbal questions often use shapes or diagrams to test relationships. A pattern might change the number of elements, orientation, position or shading. Spatial tasks may involve rotations, reflections, folding or how a solid would look from another viewpoint. Exactly which tasks appear is local to the test."
+    },
+    {
+      "type": "p",
+      "text": "Use properly drawn practice materials with complete answer options. Ask the child to describe one feature at a time and check whether the proposed rule fits all the given figures. Do not treat a vague text description of a missing diagram as a valid test question or infer a child’s general ability from one unfamiliar puzzle."
+    },
+    {
+      "type": "h2",
+      "text": "Not every test follows the familiar four-subject pattern"
+    },
+    {
+      "type": "p",
+      "text": "[QE Barnet’s current FAQ](https://www.qebarnet.co.uk/admissions-information/secondary-transfer-entrance-test-faqs/) describes English and maths papers. For a confirmed 2027 example, [Pate’s 2028-entry notice](https://www.patesgs.org/Admissions/Year-7-September-2028-Entry-30042026151914/) lists English/maths in the Adventure and Beacon papers, plus a Compass paper using contexts from a wider range of school subjects. The Gloucestershire test is scheduled for 3 July 2027."
+    },
+    {
+      "type": "p",
+      "text": "The Gloucestershire notice says the foundation-subject contexts do not require specific prior knowledge. This is a reason to read the supplied familiarisation guide carefully, rather than inventing an extra revision syllabus. Other FSCE schools may publish different specifications; the provider name alone does not settle the subject list."
+    },
+    {
+      "type": "h2",
+      "text": "Turn the subject list into a useful plan"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Record the school, entry year, test year and official subject list. Note separate stages and any writing task.",
+        "Try a small amount of relevant familiarisation. Separate unfamiliar instructions from gaps in subject knowledge.",
+        "Choose one clear next step for each gap and review it with a fresh question after learning."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "There is no universal equal weighting across these areas or required number of daily questions. Use the [format guide](/blog/11-plus-exam-format-multiple-choice-or-written) to understand response styles and the [free-resource guide](/blog/free-11-plus-resources-and-websites) to find official starting materials. For identifying the test itself, use [which exams grammar schools use](/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own)."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "11-plus-exam-format-multiple-choice-or-written",
-    title: "11 Plus exam format \u2013 multiple choice or written?",
-    desc: "Uncover the 11 Plus exam format\u2014multiple choice or written? Explore English, maths, verbal and non-verbal reasoning breakdowns, regional differences, and proven prep strategies to boost your child's grammar school chances today.",
-    date: "February 5, 2025",
-    readTime: "8 min read",
-    category: "Exam Format",
-    imageUrl: "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_4.jpeg",
-    imageAlt: "11 Plus exam format \u2013 multiple choice or written?",
-    images: ["https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_1.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_2.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_3.jpeg", "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_4.jpeg"],
-    content: [
-      { type: "h2", text: "11+ Exam Overview" },
-      { type: "p", text: "The [11+ exam](/blog/what-is-the-11-plus-exam), taken by Year 6 pupils (age 10-11), determines entry to selective grammar and independent schools across the UK. This **entrance exam** assesses skills in [English, Maths, Verbal Reasoning, and Non-Verbal Reasoning](/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal). Around 85,000 students sit it each year according to GL Assessment data." },
-      { type: "p", text: "Regional variations shape the exam format, with some areas using GL Assessment papers and others CEM tests. GL often features **multiple choice questions** or standard formats, while CEM uses adaptive styles. Pass marks typically fall in the top 25% by **percentile rank**." },
-      { type: "p", text: "Pupils face **timed exam** papers, such as 50-minute sections with 60 questions on topics like comprehension, numerical reasoning, and spatial reasoning. Practice with [mock exams](/mock-exams) helps familiarise children with question types, from cloze tests to pattern recognition. Parents should check region-specific details for London 11+, Birmingham 11+, or Manchester 11+." },
-      { type: "p", text: "Preparation involves **practice tests** from books like Bond papers or CGP resources. Tutors offer guidance on time management and common mistakes. Understanding the **test structure** builds confidence for secondary school transfer." },
-      { type: "h3", text: "Age and Purpose" },
-      { type: "p", text: "Children take the 11+ exam in September or October of Year 6 (age 10-11) to secure places at over 160 UK grammar schools. Exams usually occur from 1st to 30th September, with **registration deadlines** in June or July. Eligibility targets Year 6 pupils from primary schools." },
-      { type: "p", text: "The main purpose is **grammar school selection**, identifying top performers for selective entry. About 16% of secondary pupils attend grammar schools, per Gov.uk 2023 data. Independent schools also use these results for admissions." },
-      { type: "p", text: "Example schools include Wilson's School in London and Latymer Grammar in north London. These institutions seek strong candidates in **verbal reasoning**, maths problems, and non-verbal tasks. Families prepare from Year 5 with sample questions and exam tips." },
-      { type: "ul", items: ["Check local authority for exact **exam dates** and venues.", "Register early to avoid missing deadlines.", "Review mark schemes and answer sheets for pencil-and-paper or online formats."] },
-      { type: "h2", text: "Core Subjects Tested" },
-      { type: "p", text: "11+ exams test four core areas: English (comprehension/grammar), **Maths** (problem-solving), **Verbal Reasoning** (vocabulary/logic), and Non-Verbal Reasoning (patterns/spatial). Each subject carries equal weighting of 25% in most exams. Total duration spans 2-2.5 hours across 4-5 papers." },
-      { type: "p", text: "The [GL Assessment format applies to many grammar schools with fixed multiple choice questions. In contrast, the CEM format](/blog/gl-vs-cem-11-plus-what-is-the-difference) uses adaptive testing in areas like Birmingham and Manchester. Students face a mix of **multiple choice** or written answers depending on the region." },
-      { type: "p", text: "Practice with mock exams helps familiarise children with the test structure. Parents should check selective schools' preferences for GL or **CEM exam** papers. Time management proves key in this timed exam for Year 6 pupils." },
-      { type: "p", text: "Exam boards design papers to assess readiness for secondary school transfer. Bubbling answers on sheets suits multiple choice questions, while **pencil and paper** written responses test deeper understanding. Tutor guidance aids in tackling region-specific formats like London 11+ or Birmingham 11+." },
-      { type: "h3", text: "English Format" },
-      { type: "p", text: "English papers (45-60 minutes, 60-80 questions) test **comprehension** (20-30%), vocabulary/spelling (30%), **grammar/punctuation** (30%), and creative writing (10-20%). Comprehension involves 2-3 passages with 15-20 questions. Students analyse texts and infer meanings." },
-      { type: "p", text: "In GL format, most sections use multiple choice. CEM papers require **written answers** for grammar and cloze tests. A sample question: Choose correct spelling: seperate/separate." },
-      { type: "p", text: "Spellings cover 20 words, grammar includes punctuation tasks. Essay writing lasts 10-15 minutes for short stories. Allocate about **45 seconds per question** to stay on pace." },
-      { type: "p", text: "Practice **11+ preparation** with Bond papers or CGP books. Common mistakes include rushing comprehension. Exam tips: read questions first, proofread essays for grammar errors." },
-      { type: "h3", text: "Maths Format" },
-      { type: "p", text: "Maths papers (50 minutes, 60 questions) cover **arithmetic** (40%), **problem-solving** (40%), and data/shapes (20%) up to Key Stage 2 curriculum. Topics include fractions/decimals (15 questions) and percentages/ratio (10). Geometry and word problems follow closely." },
-      { type: "p", text: "**GL papers** feature multiple choice questions. CEM uses written answers for showing workings. Examples: 3/4 of 48 =? or Train A 60mph, Train B 40mph, gap closes in? minutes." },
-      { type: "p", text: "Mental arithmetic includes 10 quick questions. Focus on **numerical reasoning** through word problems. Time management helps avoid traps in multi-step calculations." },
-      { type: "p", text: "Use practice tests to build speed for the **maths paper**. Exam day rules stress clear workings for partial marks. Tutors recommend daily drills on shapes and data handling." },
-      { type: "h3", text: "Verbal Reasoning" },
-      { type: "p", text: "Verbal Reasoning (45 minutes, 80 questions) tests **vocabulary**, **logic**, and word patterns through 21 question types including synonyms, code-breaking, and analogies. It forms 25% of total marks. Students spot patterns in words and sentences." },
-      { type: "p", text: "Key types include: **Synonyms**: DOG = puppy **Antonyms**: HOT =? Letter codes: If CAT=312, DOG=? Word matrices Hidden words" },
-      { type: "p", text: "**GL format** offers multiple choice A-E options. Practice: Opposite of GENEROUS = miserly/stingy. Build skills with **practice books** for code breaking." },
-      { type: "p", text: "Avoid common mistakes like misreading codes. Exam tips: skip tough ones, return later. This section suits **eleven plus** prep for grammar schools and independent schools." },
-      { type: "h3", text: "Non-Verbal Reasoning" },
-      { type: "p", text: "Non-Verbal Reasoning (45 minutes, 80 questions) assesses **pattern recognition** and **spatial reasoning** through 12 question types like shape sequences and 3D rotation. It tests visual IQ independent of language skills. No prior knowledge needed beyond patterns." },
-      { type: "p", text: "Key types include: **Shape sequences**: next in series **3D cubes**: face rotation Pattern completion Analogies Matrices" },
-      { type: "p", text: "Example: Circle, square, triangle \u2192 circle. GL format provides 5 options A-E. Practice mock exams to spot rotations quickly." },
-      { type: "p", text: "Focus on **non-verbal reasoning** drills for pass marks. Time each question at 30-40 seconds. This helps Year 5 and 6 pupils in entrance exam success." },
-      { type: "h2", text: "Multiple Choice vs Written Comparison" },
-      { type: "p", text: "11+ exams use two formats: GL Assessment's multiple choice and **CEM's written answers**. Multiple choice questions test speed but carry a guessing risk with no partial credit. Written answers demand showing workings under time pressure, rewarding clear steps in maths papers and **English papers**." },
-      { type: "p", text: "Parents preparing Year 6 children for grammar schools need to match practice to the exam format of target areas. Multiple choice suits quick decisions in verbal reasoning and non-verbal reasoning. **Written answers** build deeper skills for numerical reasoning and comprehension." },
-      { type: "p", text: "Understanding these differences aids 11+ preparation. Practice tests reveal strengths in **time management** for each style. Selective schools like those in London or the North West specify their preferred format." },
-      { type: 'table', headers: ["Aspect", "Speed", "Scoring", "Practice Method", "Schools Using"], rows: [["**Multiple Choice (GL)**", "Fast, 45 secs/Q", "All or nothing", "Eliminate options, mock MCQs", "Sutton, Kingston, Barnet"], ["**Written (CEM)**", "Slower, 1 min/Q", "Method marks", "Timed workings, mark schemes", "Birmingham, Trafford, Manchester"]] },
-      { type: "h3", text: "Multiple Choice Characteristics" },
-      { type: "p", text: "GL Assessment multiple choice: 5 options (A-E), 45 seconds/question, pencil bubbling on answer sheets. Students select the **single best answer** in **MCQs** for maths, English, and reasoning. Random option order prevents patterns." },
-      { type: "p", text: "No partial credit applies, so accuracy matters over speed alone. **Error risk** rises from misreading or bubbling mistakes on answer sheets. Practice tip: eliminate two wrong answers first to boost odds in verbal reasoning or spatial reasoning." },
-      { type: "p", text: "Sutton, Kingston, and Barnet grammars use this standard format. Timed **exam papers** with 50-60 questions mimic the 50-minute sections. Common in London 11+ for pattern recognition and vocabulary." },
-      { type: 'table', headers: ["Aspect", "GL MCQ", "CEM Written"], rows: [["Time/Q", "45 secs", "1 min"], ["Error Risk", "Guessing, bubbling", "Illegible writing"], ["Marking", "Machine read", "Human, mark schemes"]] },
-      { type: "h3", text: "Written Answer Characteristics" },
-      { type: "p", text: "**CEM written format** requires full working shown, no options provided, scored via mark schemes (2-4 marks/question). Students write short answers in **maths problems** and comprehension. Specific needs include calculations in maths and full sentences in English." },
-      { type: "p", text: "Timing averages 1 minute per question across numerical reasoning and **creative writing**. Scoring gives method marks for steps, plus accuracy. Example: \"Explain why 3/8 < 5/12\" earns points for cross-multiplication shown." },
-      { type: "p", text: "Birmingham, Trafford, and Manchester 11+ use this style. Practice with **timed workings** avoids common mistakes like skipping steps. Builds skills for **word problems**, grammar, and cloze tests." },
-      { type: "p", text: "Tutor guidance helps master **written responses**. Mock exams with mark schemes teach self-scoring. Prepares for region-specific **entrance exams** in the North West." },
-      { type: "h2", text: "Regional Format Variations" },
-      { type: "p", text: "England has 36 regions with 11+ exams. London uses **GL multiple choice** while Birmingham uses **CEM written adaptive tests**. These differences affect how children prepare for the eleven plus exam format." },
-      { type: "p", text: "Parents must check **region specific** rules for their area. Some areas rely on multiple choice questions with bubbling answers on sheets. Others demand written responses like short answers or maths problems." },
-      { type: "p", text: "Understanding the exam board helps with targeted 11+ preparation. GL Assessment often features MCQs in verbal reasoning and non-verbal reasoning. CEM tests include adaptive formats that adjust difficulty based on performance." },
-      { type: "p", text: "Practice with region specific practice tests builds confidence. Review **mark schemes** to grasp score calculation and pass marks. This approach suits **grammar schools** and selective independents." },
-      { type: 'table', headers: ["Region", "Exam Board", "Format", "Papers", "Pass Mark", "Example Schools"], rows: [["London", "GL", "Multiple choice", "4 MCQ papers", "121+", "Queen Elizabeth's School, Tiffin School"], ["Birmingham", "CEM", "Written/adaptive", "2 adaptive papers", "Varies", "Kings Norton Grammar, Sutton Coldfield Grammar"], ["Kent", "GL + HJS", "Mixed", "2 papers", "Varies", "Tonbridge Grammar, Dartford Grammar"], ["Manchester (Trafford)", "CEM", "Adaptive", "2 papers", "Varies", "Altrincham Grammar, Sale Grammar"], ["Bucks", "GL", "Multiple choice", "2 papers", "Varies", "Dr Challoner's, Royal Grammar School High Wycombe"], ["Wirral", "GL", "Multiple choice", "Multiple papers", "Varies", "Wirral Grammar Boys, Wirral Grammar Girls"]] },
-      { type: "p", text: "Use this table to compare test structures. For London **11+**, focus on pencil and paper MCQs in 50-minute timed exams. Birmingham parents should practise numerical reasoning with word problems under adaptive conditions." },
-      { type: "h2", text: "Sample Question Styles" },
-      { type: "p", text: "**11+ questions test speed and accuracy**: Verbal (DOG:BONE:: CAT:?), Maths (24\u00d737=?), Non-Verbal (shape rotation), English (synonyms/cloze). These sample questions reflect common formats from Bond and CGP papers used in 11 plus exam preparation. They highlight the mix of multiple choice questions and occasional written answers across subjects." },
-      { type: "p", text: "Practice with these helps build familiarity with **question types** in GL Assessment and CEM exams. Students face timed exam conditions, often 50 minutes for 60 questions. Focus on time management to avoid common mistakes like misreading options." },
-      { type: "p", text: "**Verbal reasoning** tests vocabulary and logic, while maths paper demands quick calculations. Non-verbal reasoning challenges pattern recognition, and English paper checks comprehension. Use practice tests from Bond papers to simulate real eleven plus pressure." },
-      { type: "p", text: "Exam boards vary by region, like London 11+ or Birmingham 11+. Some use pencil and paper with bubbling answers, others **online exam** formats. Review mark schemes to understand score calculation and pass marks." },
-      { type: "h3", text: "Verbal Reasoning Examples" },
-      { type: "p", text: "Verbal reasoning in the **11+ exam format** often uses multiple choice for synonyms and analogies. Questions test vocabulary and word relationships under time limits. Practice spotting the best match quickly." },
-      { type: "ol", items: ["Which word is closest to GENEROUS? A) Mean B) Kind C) Stingy D) Selfish **(Answer: B)**", "DOG:BONE:: CAT:? A) Milk B) Fur C) Meow D) Paw **(Answer: A)**", "Choose the synonym for CAUTIOUS: A) Brave B) Careful C) Reckless D) Bold (Answer: B)", "Complete the analogy: BOOK:SHELF:: CLOTHES:? A) Drawer B) Wardrobe C) Hanger D) Iron (Answer: B)"] },
-      { type: "p", text: "These from **CGP books** mimic single choice styles in GL Assessment. Tutor guidance can refine techniques for **selective schools**." },
-      { type: "h3", text: "Maths Examples" },
-      { type: "p", text: "The maths paper blends multiple choice and short written responses in eleven plus tests. Focus on numerical reasoning, word problems, and mental arithmetic. Speed is key in **fixed format** exams." },
-      { type: "ol", items: ["7/8 of 96 =? A) 72 B) 84 C) 96 D) 108 **(Answer: 84)**", "24 \u00d7 37 =? A) 888 B) 678 C) 864 D) 912 **(Answer: 888)**", "What is 15% of 200? A) 20 B) 30 C) 35 D) 40 **(Answer: 30)**", "If 5 apples cost \u00a32.50, how much for 12? A) \u00a35.00 B) \u00a36.00 C) \u00a37.50 D) \u00a36.50 **(Answer: \u00a36.00)**"] },
-      { type: "p", text: "Sourced from Bond papers, these prepare for Year 6 entrance exam challenges. Check **answer sheets** for **bubbling answers** practice." },
-      { type: "h3", text: "Non-Verbal Reasoning Examples" },
-      { type: "p", text: "**Non-verbal reasoning** relies on spatial reasoning and pattern recognition via shapes and sequences. Most are MCQs in CEM exam style. Visualise rotations and next terms fast." },
-      { type: "ol", items: ["Identify the next in sequence: square, triangle, circle, square,? A) Triangle B) Circle C) Square D) Hexagon (Answer: A)", "Which shape completes the rotation? [Describe: clockwise 90\u00b0 turn of L-shape] A) Option1 B) Option2 C) Option3 D) Option4 (Answer: B)", "Find the odd one: three cubes with dots, one different pattern. A) Dots1 B) Dots2 C) Dots3 D) Dots4 **(Answer: C)**", "Code breaking: shapes mapped to letters, decode word. A) CAT B) DOG C) RAT D) BAT (Answer: B)"] },
-      { type: "p", text: "**Mock exams** from practice books build skills for grammar schools. Avoid rushing shape sequences." },
-      { type: "h3", text: "English Examples" },
-      { type: "p", text: "English paper includes comprehension, **cloze test**, and grammar via multiple response or short answers. Tests spelling, **punctuation**, and inference. Read passages carefully in 50 minutes." },
-      { type: "ol", items: ["Comprehension: \"The boy ran quickly.\" Synonym for quickly? A) Slowly B) Fast C) Lazily D) Quietly (Answer: B)", "Cloze: The cat sat on the ____. A) Dog B) Mat C) Tree D) Car (Answer: B)", "Grammar: Choose correct punctuation: He said, \"Hello\". A), B). C)! D)? (Answer: A)", "Vocabulary: Antonym for HAPPY? A) Joyful B) Sad C) Excited D) Glad (Answer: B)"] },
-      { type: "p", text: "These question types from 11+ preparation books suit **independent schools**. Practice creative writing for any long answers." },
-      { type: "h2", text: "Preparation Strategies" },
-      { type: "p", text: "Top strategies for **11 plus exam** success include six months of daily practice at two hours per day, completing over 20 full mock exams, thorough error analysis, and timed conditions using Bond and CGP books." },
-      { type: "p", text: "These methods build familiarity with the exam format, whether multiple choice questions or written answers across GL Assessment and CEM exam styles. Parents and tutors often see strong results from this structured approach in verbal reasoning, non-verbal reasoning, maths papers, and English papers." },
-      { type: "p", text: "Focus on region-specific needs, such as London 11+ or Birmingham 11+, by mixing practice tests that match the test structure. This prepares Year 6 pupils for timed exams, including 50-minute papers with 60 questions, bubbling answers, or short written responses." },
-      { type: "p", text: "Experts recommend combining **self-study** with tutor guidance to tackle common question types like comprehension, cloze tests, word problems, and spatial reasoning. Consistent practice helps master score calculation nuances and pass mark expectations for selective grammar and independent schools." },
-      { type: "h3", text: "8-Step Preparation Plan" },
-      { type: "ol", items: ["Start with a **diagnostic test** from a CGP 11+ book to identify strengths and weaknesses in multiple choice or written sections.", "Dedicate three months to **topic practice** using Bond 10-Min Tests for maths problems, vocabulary, grammar, and pattern recognition.", "Follow with two months of **mixed papers** to blend verbal reasoning, numerical reasoning, and non-verbal reasoning under timed conditions.", "Spend the final month on **full mocks** with ExamNinja papers, simulating the exact exam structure and duration.", "Maintain an **error log** to track mistakes in areas like synonyms, antonyms, shapes sequences, or punctuation.", "Practise time management aiming for 80% completion, focusing on bubbling answers quickly for MCQs or planning written responses.", "Use **mental arithmetic flashcards** daily for speed in numerical reasoning and word problems.", "Run **exam day simulations** weekly, following rules like pencil and paper use, to build confidence for secondary school transfer."] },
-      { type: "p", text: "This plan adapts to both fixed format and adaptive tests, covering single choice, multiple response, and creative writing tasks." },
-      { type: "p", text: "For eleven plus exams, rotate through practice books to mirror real mark schemes and answer sheets. Year 5 starters gain an edge by building skills early." },
-    ],
-  },
+  "slug": "11-plus-exam-format-multiple-choice-or-written",
+  "title": "11 Plus exam format: multiple choice, written or online?",
+  "desc": "Compare 11 Plus response formats, answer sheets, written work and digital tests, with verified examples and practical preparation for 2027.",
+  "date": "February 5, 2025",
+  "readTime": "5 min read",
+  "category": "Exam Format",
+  "imageUrl": "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_4.jpeg",
+  "imageAlt": "11 Plus exam format – multiple choice or written?",
+  "images": [
+    "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_1.jpeg",
+    "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_2.jpeg",
+    "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_3.jpeg",
+    "https://files.autoblogging.ai/images/11-plus-exam-type(rml0)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "An 11 Plus assessment can use multiple-choice questions, short written answers, extended writing or a mixture. It may be delivered on paper or on a computer. Those are two different questions: “online” describes the delivery method, while “multiple choice” describes how the child answers."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Preparing for exams taken in 2027 usually means checking September 2028 entry information. Reviewed on 10 October 2026: the Gloucestershire example below is confirmed for 2027 testing; the Sutton examples describe the published 2026-test/2027-entry cycle."
+    },
+    {
+      "type": "h2",
+      "text": "How the main formats differ"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Format",
+        "What the child does",
+        "What to practise"
+      ],
+      "rows": [
+        [
+          "Multiple choice",
+          "Selects an answer from options",
+          "Read every instruction and record the choice against the correct question"
+        ],
+        [
+          "Multiple response",
+          "Selects more than one option when instructed",
+          "Notice how many answers are required and check the local marking guidance"
+        ],
+        [
+          "Short written answer",
+          "Supplies a number, word or brief explanation",
+          "Answer precisely in the correct space, including units when needed"
+        ],
+        [
+          "Extended writing",
+          "Develops a response to a prompt",
+          "Plan relevant content, organise it and leave time to review"
+        ],
+        [
+          "Digital assessment",
+          "Responds through the specified interface",
+          "Use the official walkthrough to understand buttons, navigation and on-screen timing"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A paper can combine response formats, and a multi-stage admissions process can change format between stages. Do not label an entire school “multiple choice” after reading only its first-test description."
+    },
+    {
+      "type": "h2",
+      "text": "A real example of formats changing between stages"
+    },
+    {
+      "type": "p",
+      "text": "For its published 2027-entry cycle, [Wilson’s School](https://www.wilsons.school/admissions-faqs/) describes the Sutton Selective Eligibility Test as multiple-choice English and maths, followed by a shared second-stage English and maths examination that is not multiple choice. These are tests taken in 2026. Recheck the new instructions for exams taken in 2027."
+    },
+    {
+      "type": "p",
+      "text": "That distinction changes preparation. A child comfortable choosing from options may also need to practise producing an answer independently. It does not mean one response style tests a different subject or that a written test automatically awards method marks."
+    },
+    {
+      "type": "h2",
+      "text": "A confirmed mixed-format example for 2027"
+    },
+    {
+      "type": "p",
+      "text": "[Pate’s Gloucestershire 2028-entry page](https://www.patesgs.org/Admissions/Year-7-September-2028-Entry-30042026151914/) confirms Adventure and Compass papers with multiple-choice responses and a Beacon paper requiring short written English/maths answers. The test is scheduled for 3 July 2027. Use its linked familiarisation instructions; do not substitute another FSCE school’s paper structure."
+    },
+    {
+      "type": "h2",
+      "text": "One maths question, two response styles"
+    },
+    {
+      "type": "p",
+      "text": "These are original illustrations, not questions copied from an entrance paper. Both assess the same calculation: a notebook costs £2.40. What is the cost of three notebooks?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Version",
+        "How it might be presented",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "Multiple choice",
+          "A £4.80; B £6.20; C £7.20; D £7.40",
+          "C: £7.20"
+        ],
+        [
+          "Written answer",
+          "Write the total cost in the answer space",
+          "£7.20"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The calculation is 240p × 3 = 720p, which is £7.20. For multiple choice, the answer must also be recorded against the correct question number. For written response, the final amount must be clear. This example does not establish how many marks a real organiser awards for working."
+    },
+    {
+      "type": "h2",
+      "text": "Answer-sheet habits that are worth practising"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Use the marking method shown in the instructions: a line through a box, a filled shape or another specified method.",
+        "Check that the question number and answer row match, especially after leaving a question unanswered.",
+        "Follow the stated method for changing an answer so that the final choice is clear.",
+        "Notice words such as “not”, “except”, “two” or “all” before selecting options.",
+        "Keep working and notes only where the instructions permit.",
+        "Do not move into another section or return to an earlier one unless allowed."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Not every multiple-choice question asks for exactly one option. Local scoring rules matter, so avoid teaching “always select one” or a universal guessing strategy. If the organiser states that there is no negative marking, interpret that alongside any separate rules for multiple-response questions."
+    },
+    {
+      "type": "h2",
+      "text": "Written answers: clarity before length"
+    },
+    {
+      "type": "p",
+      "text": "A short-answer instruction may require a word or number rather than a paragraph. An explanation question needs the relevant reasoning. In comprehension, use the text as evidence; in maths, label quantities and check the requested unit. More writing does not automatically mean a better answer."
+    },
+    {
+      "type": "p",
+      "text": "Where an extended writing task is required, read the prompt closely. Practise deciding what to include, ordering ideas and checking sentences. Do not assume that a memorised story fits every task or that a universal word count earns marks. Use published criteria where the school makes them available."
+    },
+    {
+      "type": "h2",
+      "text": "Online does not automatically mean adaptive"
+    },
+    {
+      "type": "p",
+      "text": "[ISEB’s Common Pre-Tests](https://www.iseb.co.uk/assessments/common-pre-tests/for-families/) are an example of adaptive online multiple-choice assessments: later questions are selected in response to earlier answers. Other digital assessments can contain fixed sections or a mixture. The presence of a screen does not tell you the scoring or navigation rules."
+    },
+    {
+      "type": "p",
+      "text": "Use the actual provider’s familiarisation interface when available. Check whether answers can be changed, whether a section can be revisited, where the timer appears and how a child requests help. A generic app may be useful for subject practice while behaving differently from the real test."
+    },
+    {
+      "type": "h2",
+      "text": "How to choose practice for the correct format"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Find the school’s entry-year page and identify every assessment stage.",
+        "Record subjects, paper or digital delivery, response types and the organiser’s official sample link.",
+        "Try unfamiliar response mechanics without a timer before combining them with subject practice.",
+        "Use the stated timing only when a timed rehearsal serves a purpose.",
+        "Review whether an error came from knowledge, misunderstanding instructions or recording the response."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[GL’s free familiarisation page](https://11plus.gl-assessment.co.uk/pages/free-materials) warns that local timing and question counts can differ from its samples. The same care is useful when choosing any commercial practice pack: “11 Plus” on the cover is not enough to establish a match."
+    },
+    {
+      "type": "p",
+      "text": "For subject coverage, read [what subjects are in the 11 Plus](/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal). For paper and venue timing, see [how long the exam lasts](/blog/how-long-is-the-11-plus-exam). Check any required access arrangements through the organiser before the deadline rather than assuming a preferred response method will be available on the day."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "what-age-do-children-sit-the-11-plus",
-    title: "What age do children sit the 11 Plus?",
-    desc: "Discover what age children sit the 11 Plus exam\u2014typically Year 6 for grammar school entry. Explore regional variations across England, Northern Ireland transfer tests, and why Scotland and Wales skip it. Get essential insights now.",
-    date: "February 12, 2025",
-    readTime: "9 min read",
-    category: "Exam Format",
-    imageUrl: "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_4.jpeg",
-    imageAlt: "What age do children sit the 11 Plus?",
-    images: ["https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_1.jpeg", "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_2.jpeg", "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_3.jpeg", "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam) is a selective entrance test for grammar and independent schools in the UK, primarily used in England to identify students academically suited for high-performing secondary schools at **age 11**." },
-      { type: "p", text: "Introduced by the **1944 Education Act**, it aimed to sort pupils into grammar, technical, or secondary modern schools based on ability. Today, it selects children for around 163 state grammar schools, focusing on those ready for rigorous academic environments after primary school." },
-      { type: "p", text: "The exam typically includes **four core sections**: English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. These test comprehension skills, numerical reasoning, vocabulary building, and spatial reasoning in children aged 10 to 11, often in **Year 6**." },
-      { type: "p", text: "Pass marks vary by region, usually ranging from **110 to 121** on standardised age scores. About 60,000 students sit the exam annually across England, with tests held in the autumn term for September intake into selective schools." },
-      { type: "h3", text: "Overview and Purpose" },
-      { type: "p", text: "Since the **1944 Butler Education Act**, the 11 Plus has served as the gateway test for England's 163 state grammar schools and many independent schools." },
-      { type: "p", text: "Exams use formats from **GL Assessment** or CEM Select, with GL papers common in most areas. Tests last 2 to 2.5 hours total, often split over sessions, and feature multiple-choice questions in verbal reasoning and non-verbal reasoning." },
-      { type: "p", text: "**Standardised age scores** adjust for exam age, ensuring fairness for pupils turning 11 mid-test year. Regional adoption differs, with some counties like Kent or Buckinghamshire relying heavily on the 11+ for school admissions and catchment area priorities." },
-      { type: "ul", items: ["English test: Focuses on comprehension and grammar for Year 5 and 6 pupils.", "Maths test: Covers key stage 2 topics like fractions and geometry.", "Verbal Reasoning: Builds critical thinking through word puzzles.", "Non-Verbal Reasoning: Tests spatial skills with shapes and patterns."] },
-      { type: "h2", text: "Standard Age for Sitting the 11 Plus" },
-      { type: "p", text: "Children typically sit the 11 Plus exam during Year 6 of primary school when they are **10-11 years old**, with the test designed for pupils born between 1st September 2012 and 31st August 2013 for 2024 entry. This targets pupils turning 11 in the September intake of secondary school. Exams use chronological age based on birth dates alongside standardised scoring." },
-      { type: "p", text: "Standardised age scoring adjusts for slight age differences within the cohort, ensuring fairness in tests like verbal reasoning and non-verbal reasoning. Pupils born early in the year face peers slightly younger, while late summer babies compete with older ones. Exam boards such as GL Assessment and **CEM exam** apply these adjustments automatically." },
-      { type: "p", text: "Eligibility windows vary by region, with most **grammar schools** in England [requiring registration](/blog/how-to-register-my-child-for-the-11-plus) in Year 5 spring term. **Northern Ireland transfer tests** follow similar timelines for the post-primary transfer. Parents check local authority sites for [precise dates](/blog/when-are-the-11-plus-exam-dates-in-my-area) to avoid missing deadlines." },
-      { type: "p", text: "Summer-born children, those after 1st April, often qualify for **exceptions** like deferred entry or additional preparation time. Schools in oversubscribed areas prioritise **academic selection** within these windows. A table below outlines birth date eligibility for major selective areas." },
-      { type: 'table', headers: ["Selective Area", "Birth Window for 2024 Entry"], rows: [["Birmingham", "1 September 2012 to 31 August 2013"], ["Buckinghamshire", "1 September 2012 to 31 August 2013"], ["Kent", "1 September 2012 to 31 August 2013"], ["Trafford", "1 September 2012 to 31 August 2013"], ["Northern Ireland (Transfer Test)", "1 September 2012 to 31 August 2013"]] },
-      { type: "h3", text: "Typical Year Group" },
-      { type: "p", text: "99% of **11 Plus candidates** are Year 6 pupils during the autumn term of their final primary school year. This aligns with Key Stage 2 milestones before SATs in May. Most **grammar school** entrance exams occur from September to October." },
-      { type: "p", text: "Preparation begins in **Year 5** with light exam practice, building skills in maths tests, English tests, and multiple choice tests. Year 6 autumn brings mock exams and tutor sessions to assess readiness. Parents organise [past papers](/papers) and timed tests early." },
-      { type: "p", text: "Ofsted guidance stresses age-appropriate preparation, avoiding excess pressure on **10 years old** pupils. Spring term focuses on results and **school admissions** offers, with summer term for transitions to secondary school. Experts recommend balanced study routines with vocabulary building and comprehension skills." },
-      { type: "p", text: "Timeline example: A child in September of Year 6 sits the **11+**, receives scores by Christmas, and accepts places by March. This supports smooth moves to high performing schools. **Gifted children** may start coaching earlier, but monitor for exam pressure." },
-      { type: "h2", text: "Regional Variations in England" },
-      { type: "p", text: "Only 36 of England's 152 local authorities operate grammar school systems, with highest concentrations in Kent (38 schools), Buckinghamshire (25 schools), and Birmingham (8 schools). These areas use the 11 Plus exam for entry into selective secondary schools at age 11. Parents in these regions often start **preparation age** in Year 5." },
-      { type: "p", text: "Exam boards dominate differently by region. GL Assessment prevails in areas like Kent and Buckinghamshire, featuring multiple choice tests in **verbal reasoning**, non-verbal reasoning, maths, and English. **CEM Select** holds sway in Birmingham and parts of the North West, emphasising comprehension skills and numerical reasoning without heavy reliance on past papers." },
-      { type: "p", text: "Children typically sit the **11 Plus** in the autumn term of Year 6, around 10-11 years old. Selective counties map closely to historical grammar traditions, so check your catchment area early. Local councils publish test dates, often in September for a **September intake** the following year." },
-      { type: "p", text: "Oversubscription is common, with ties broken by pass marks or random allocation. Families use mock exams and tutor coaching tailored to the regional **exam board**. This preparation helps manage exam pressure for **gifted children** aiming for high performing schools." },
-      { type: "h3", text: "Selective Areas" },
-      { type: "p", text: "Kent leads with 38 grammar schools serving a significant portion of pupils, followed by Buckinghamshire (25 schools) and other key areas. These regions prioritise the 11 Plus for academic selection into grammar schools. Year 6 students, aged 10-11, face tests aligned with the **national curriculum** at Key Stage 2." },
-      { type: "p", text: "Understanding regional differences aids school selection. Parents review **Ofsted ratings** and league tables alongside exam readiness. Practice with **Bond papers** or board-specific materials builds vocabulary, spatial reasoning, and critical thinking from Year 5." },
-      { type: 'table', headers: ["Region", "Grammar Schools", "Selection Rate", "Exam Board", "Example Schools"], rows: [["Kent", "38", "23%", "GL Assessment", "Invicta Grammar School, Tunbridge Wells Girls' Grammar"], ["Buckinghamshire", "25", "41%", "GL Assessment", "Dr Challoner's Grammar School, Royal Grammar School High Wycombe"], ["London (Barnet/Sutton)", "8", "Varies", "GL Assessment / CEM", "Queen Elizabeth's School Barnet, Wilson's School Sutton"], ["Birmingham", "8", "Varies", "CEM Select", "King Edward VI Camp Hill School, Sutton Coldfield Grammar"], ["Essex", "8", "Varies", "Consortium", "Colchester Royal Grammar School, Westcliff High School"]] },
-      { type: "p", text: "In 2023, typical **pass marks** hovered around 110 for GL papers on a standardised score, with CEM using different scaling. **Oversubscription ratios** often exceed 5:1 in top schools, prioritising highest scores. Families benefit from timed tests and parental guidance to match exam year demands." },
-      { type: "h2", text: "11 Plus in Northern Ireland" },
-      { type: "p", text: "Northern Ireland replaced the **traditional 11 Plus** with the **Transfer Test** in 2020, administered by AQE and GL providers for entry to 31 grammar schools." },
-      { type: "p", text: "This change ended the single exam system used before. Now, a **dual provider model** lets parents choose between AQE or GL tests. Both contribute to admissions for grammar school places." },
-      { type: "p", text: "Post-2020, the system differs from England grammar schools, where tests often happen in September of Year 6. In Northern Ireland, **Transfer Tests** occur later in the autumn term. This gives pupils more time for **exam preparation** in Year 6." },
-      { type: "p", text: "Grammar schools use a **combined scoring system** from either provider. Parents should check individual school policies on academic selection and oversubscription criteria. Early planning helps with **school selection** and tutor age choices." },
-      { type: "h3", text: "Current Transfer Test Age" },
-      { type: "p", text: "Transfer Tests occur in Autumn Year 6 (October-November) for children born 1st April-31st October previous year. This targets pupils who are typically 10-11 years old, sitting the exam just before turning 11. It aligns with the September intake for **secondary school**." },
-      { type: "p", text: "AQE offers **Paper 1-3 format** with 60 questions in 50 minutes per paper. GL provides similar **multiple choice tests** covering maths, English, and verbal reasoning. Schools accept results from one or both providers based on their rules." },
-      { type: "p", text: "The combined scoring system totals marks out of 140, with a minimum threshold around 70 for many schools to qualify. Parents review **pass mark** details per grammar school, as criteria vary. Practice with past papers and mock exams builds exam readiness." },
-      { type: "p", text: "For preparation, start in Year 5 with study routine focusing on numerical reasoning, comprehension skills, and **non-verbal reasoning**. Experts recommend timed tests and vocabulary building to handle exam pressure. Parental guidance supports gifted children aiming for high performing schools." },
-      { type: "h2", text: "Scotland and Wales: No 11 Plus" },
-      { type: "p", text: "Scotland abolished selection at 11 years old in 1962 and Wales in 2000. Both now operate **comprehensive systems** with no equivalent entrance exams to the 11 Plus. This differs from England and Northern Ireland, where grammar school entry often relies on tests at age 11." },
-      { type: "p", text: "In England, pupils in Year 6 sit the 11+ for selective schools, facing exams in verbal reasoning, maths, and English. Northern Ireland uses the **transfer test**, similar to the 11 Plus, for secondary school places. Scotland and Wales prioritise inclusive education without academic selection at this **exam age**." },
-      { type: "p", text: "Devolved education policies shape these approaches. Scotland's system focuses on broad development through primary school stages. Wales emphasises progression codes, avoiding the pressure of grammar school entrance exams seen elsewhere in the UK." },
-      { type: "p", text: "Limited independent schools in Scotland and Wales may use their own testing, often later than age 11. Parents seeking selective options consider these, but state secondary schools admit all pupils regardless of test results. This creates a calmer transition to secondary school without **eleven plus** preparation." },
-      { type: "h3", text: "Alternative Systems" },
-      { type: "p", text: "Scotland uses the Scottish National Standardised Assessments (SNSA) at P1, P4, P7 for tracking, not selection. These assess literacy and numeracy in primary school without determining secondary places. Unlike the 11 Plus, they reduce **exam pressure** on children around 10-11 years old." },
-      { type: "p", text: "The Curriculum for Excellence in Scotland structures learning into stages: first level (P1-P4), second level (P5-P7), and beyond. Pupils progress naturally to secondary without entrance exams. This supports gifted children through differentiated teaching, not competitive testing like England's GL Assessment or CEM exams." },
-      { type: "p", text: "Wales follows progression frameworks aligned with the national curriculum, building **comprehension skills**, vocabulary, and numerical reasoning gradually. No 11+ equivalent exists, so Year 6 pupils focus on core subjects rather than mock exams or past papers. Parents guide study routines emphasising enjoyment over test scores." },
-      { type: "ul", items: ["Scottish P7 pupils, around **11 years old**, complete SNSA in reading, writing, and maths.", "Welsh frameworks track development from nursery to Year 6 without selection barriers.", "Independent senior schools use **13+ Common Entrance** or ISEB pre-tests for entry at age 13."] },
-      { type: "p", text: "For independent schools, processes like **Common Entrance** involve English, maths, and reasoning tests later than the 11 Plus. Preparation starts in Year 5 or 6 with **tutor age**-appropriate coaching, differing from state grammar school timelines in England." },
-      { type: "h2", text: "Exam Timing and Scheduling" },
-      { type: "p", text: "**95% of 11 Plus exams** occur from September to November in Year 6, with results published by mid-December for the September secondary intake. This timing aligns with the **UK education** calendar, allowing pupils aged 10-11 years to transition smoothly to grammar schools or selective schools. Parents should mark these months early in the primary school year." },
-      { type: "p", text: "Key dates for 2024-2025 include the **Kent Test** on 7th October 2024 and Birmingham on 19th October 2024. Major consortia like GL Assessment and CEM exams follow similar autumn schedules. Families preparing children for eleven plus need to check local authority websites for precise details." },
-      { type: "p", text: "Registration often opens in the **summer term** of Year 5, giving students time for exam practice with Bond papers or mock exams. Multiple test days accommodate oversubscription, and illness provisions allow resits. This structure reduces exam pressure on gifted children nearing age 11." },
-      { type: "p", text: "Understanding **consortium exams** helps with school selection, as pass marks vary by area. Parental guidance on study routines, including verbal reasoning and maths tests, builds exam readiness. Always confirm dates, as they support the September intake timeline." },
-      { type: "h3", text: "Autumn Testing Season" },
-      { type: "p", text: "**Kent Test registration** opens 3rd June, Birmingham from 2nd-20th September, with testing windows on 7th-19th October 2024. This **autumn term** focus suits Year 6 pupils sitting the exam at age 10-11. Early planning aids preparation age and eligibility checks." },
-      { type: "p", text: "Most grammar school entrance exams, including those for state grammar schools in England, cluster here. Northern Ireland transfer tests follow a parallel pattern. Parents can organise tutoring or coaching around these fixed points." },
-      { type: 'table', headers: ["Area", "Registration", "Test Date", "Results", "Appeals"], rows: [["Kent Test", "3rd June - 1st August 2024", "7th-19th October 2024", "Mid-October 2024", "By mid-November 2024"], ["Birmingham", "2nd-20th September 2024", "19th October 2024", "Early December 2024", "Within 20 days of results"], ["GL Consortia (e.g., Medway)", "June-July 2024", "Early October 2024", "Late October 2024", "November 2024"], ["CEM (e.g., some independents)", "July-September 2024", "Mid-October 2024", "Early December 2024", "Post-results deadline"]] },
-      { type: "p", text: "Multiple test days offer flexibility, with provisions for illness via medical evidence. Schools notify via post or online portals. Use this timeline for past papers, timed tests, and building skills in non-verbal reasoning." },
-      { type: "p", text: "Post-results, appeals address borderline cases amid catchment area rules. This supports academic selection for high performing schools. Focus on vocabulary building and comprehension skills during wait times." },
-      { type: "h2", text: "Preparation Age Recommendations" },
-      { type: "p", text: "GL Assessment recommends starting **systematic preparation** 12-18 months before testing (Year 5 Spring), while CEM advises familiarisation from Year 6 Summer. These guidelines help **children aged 10-11** build skills for the 11 Plus exam without overwhelming them. Tutors from associations like the Tutors' Association stress early vocabulary building to match the pace of grammar school entry." },
-      { type: "p", text: "Primary school pupils in Year 5 benefit from gentle introduction to verbal reasoning and maths tests. This aligns with UK education timelines for selective schools in England and Northern Ireland transfer tests. Parental guidance ensures study routines fit around Key Stage 2 learning." },
-      { type: "p", text: "For **independent schools** using CEM or GL Assessment, starting in Year 4 supports non-verbal reasoning practice. Experts recommend balancing exam prep with SATs to avoid pressure on 10-year-olds. Mock exams from autumn term refine exam readiness." },
-      { type: "p", text: "Grammar school admissions often hinge on these early steps, especially in oversubscribed areas. Familiarisation reduces anxiety for the September intake at age 11. Resources like Bond papers suit this preparation age." },
-      { type: "h3", text: "Starting Study Timeline" },
-      { type: "p", text: "Optimal timeline: Year 4/5 (vocabulary building, baseline testing), Year 5 Spring (2x weekly practice), Year 6 Summer (weekly mocks), Autumn (daily papers). This 18-month calendar prepares **Year 6 pupils** for 11 Plus tests in multiple choice formats. It covers English test, maths test, and reasoning skills steadily." },
-      { type: "p", text: "In **Year 4 and early Year 5**, focus on 1-2 hours weekly for fun activities like puzzles. Use Bond Assessment Papers for baseline testing in verbal reasoning. Build comprehension skills through daily reading to support grammar school selection." },
-      { type: "ul", items: ["Year 5 Spring: Ramp up to **2 hours twice weekly** with CGP 11+ books for numerical reasoning.", "Year 5 Summer/Autumn: Add spatial reasoning, 3 hours weekly, one mock exam every 4 weeks.", "Year 6 Summer: Weekly mocks to simulate exam pressure, review with tutor coaching.", "Year 6 Autumn: Daily timed papers, 1-2 hours, focusing on weak areas like critical thinking."] },
-      { type: "p", text: "This structure suits **state grammar schools** and consortium exams, easing transition to secondary school. Past papers track progress towards pass marks. Adjust for individual gifted children or catchment area demands." },
-    ],
-  },
+  "slug": "what-age-do-children-sit-the-11-plus",
+  "title": "What age do children sit the 11 Plus? A guide to 2027 exams",
+  "desc": "Check the age and school year for 2027 11 Plus tests, including Gloucestershire’s Year 5 exam, the 2028 entry cohort and out-of-age applications.",
+  "date": "February 12, 2025",
+  "readTime": "3 min read",
+  "category": "Exam Format",
+  "imageUrl": "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_4.jpeg",
+  "imageAlt": "What age do children sit the 11 Plus?",
+  "images": [
+    "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_1.jpeg",
+    "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_2.jpeg",
+    "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_3.jpeg",
+    "https://files.autoblogging.ai/images/what-age-do-children-sit-the-11-plus(tt7i)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Children usually take the 11 Plus at age 10 or 11 when testing happens near the start of Year 6. However, some tests take place in the summer of Year 5, when children in the usual cohort can be 9 or 10. The school’s test date and age eligibility rule matter more than the name “11 Plus”."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This guide concerns exams taken in 2027, usually for Year 7 entry in September 2028. The confirmed Gloucestershire timetable is an important Year 5 exception. Official information checked on 10 October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which birth dates normally belong to the 2027 test cohort?"
+    },
+    {
+      "type": "p",
+      "text": "[Buckinghamshire’s published September 2028 entry timeline](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/timeline-for-following-year/) identifies the normal cohort as children born from 1 September 2016 to 31 August 2017. These children are normally in Year 5 during the 2026–27 school year and Year 6 during 2027–28. Confirm the eligibility wording for each test, especially if your child is educated outside their normal year group."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "School stage",
+        "Normal timing for this cohort",
+        "Age during the school year"
+      ],
+      "rows": [
+        [
+          "Year 5",
+          "September 2026 to August 2027",
+          "9, turning 10"
+        ],
+        [
+          "Year 6",
+          "September 2027 to August 2028",
+          "10, turning 11"
+        ],
+        [
+          "Start Year 7",
+          "September 2028",
+          "Usually 11; some turn 12 during September"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "An August 2017 birthday means a child is still nine in July 2027, then ten at the start of Year 6. That does not itself make a published Year 5 test too early for them. Check the cohort, not whether their eleventh birthday has arrived."
+    },
+    {
+      "type": "h2",
+      "text": "Confirmed differences for tests taken in 2027"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Test route",
+        "Published timing",
+        "What that means"
+      ],
+      "rows": [
+        [
+          "Gloucestershire grammar schools",
+          "[The Crypt School’s 2028 entry information](https://cryptschool.org/join-us/2028-entry-information-year-5-september-2026/) confirms Saturday 3 July 2027.",
+          "The usual cohort takes the test in Year 5, aged 9 or 10."
+        ],
+        [
+          "Buckinghamshire",
+          "[The council’s 2028 timeline](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/timeline-for-following-year/) says early September 2027; an exact test day is not specified there.",
+          "The usual cohort has entered Year 6."
+        ],
+        [
+          "Trafford Grammar School Consortium",
+          "[The consortium announcement on AGGS’s website](https://aggs.bright-futures.co.uk/admissions-2028/) says September 2027 for 2028 entry.",
+          "This remains a Year 6 test. Its move to summer Year 5 begins with 2029 entry, not 2028."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not assume that two areas changing exam provider will change their test dates in the same way. Independent schools also set their own admission calendars; an assessment described as “11+ entry” is not necessarily held on the local grammar-school test date."
+    },
+    {
+      "type": "h2",
+      "text": "Registration can be much earlier than the test"
+    },
+    {
+      "type": "p",
+      "text": "For Gloucestershire’s July 2027 test, [The Crypt School](https://cryptschool.org/join-us/2028-entry-information-year-5-september-2026/) publishes registration from noon on 8 February to noon on 19 March 2027. Waiting until your child starts Year 6 would miss both the registration window and the main test. Make a calendar from the chosen school’s current admissions page, including any access-arrangement deadline."
+    },
+    {
+      "type": "h2",
+      "text": "What if my child is summer-born or in a different year group?"
+    },
+    {
+      "type": "p",
+      "text": "Being summer-born does not automatically give a child an extra year before selective entry. [Department for Education guidance](https://www.gov.uk/government/publications/summer-born-children-advice-for-admission-authorities/guidance-on-handling-admission-requests-for-summer-born-children) distinguishes a request for admission outside the normal age group from an application for a place. It says selective schools should make arrangements for children educated outside their normal age group to take the entry test."
+    },
+    {
+      "type": "p",
+      "text": "Contact each intended school’s admission authority early, explain the child’s date of birth and actual year group, and ask which test cycle and admission request apply. Agreement at primary school does not remove the need to settle the secondary-school arrangements. Keep the written decision and use the correct date of birth when registering."
+    },
+    {
+      "type": "h2",
+      "text": "Does this apply across the UK?"
+    },
+    {
+      "type": "p",
+      "text": "The year-group examples above concern England. In Northern Ireland, [SEAG](https://seagni.co.uk/) provides its Entrance Assessment for Primary 7 pupils transferring to post-primary education. Do not apply an English Year 6 calendar or birth-date assumption to that process."
+    },
+    {
+      "type": "p",
+      "text": "Your next steps are to confirm the intended school-entry year, match the official cohort, record the test and registration dates, and resolve any age-group exception. Then use [the grammar-school application guide](/blog/how-do-you-get-into-a-grammar-school) or [the 11 Plus registration checklist](/blog/how-to-register-my-child-for-the-11-plus)."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
   "slug": "when-are-the-11-plus-exam-dates-in-my-area",
@@ -655,113 +832,129 @@ export const BLOG_POSTS: BlogPost[] = [
 },
 
   {
-    slug: "which-schools-use-the-11-plus-exam",
-    title: "Which schools use the 11 Plus exam?",
-    desc: "Discover which schools use the 11 Plus exam, from grammar schools in England and Kent to selective independents in Northern Ireland. Learn exam structure, pass marks, and key regions. Find your top choices now.",
-    date: "March 3, 2025",
-    readTime: "11 min read",
-    category: "Schools",
-    imageUrl: "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_4.jpeg",
-    imageAlt: "Which schools use the 11 Plus exam?",
-    images: ["https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_1.jpeg", "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_2.jpeg", "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_3.jpeg", "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam) is a selective entrance test taken by students aged 10-11 to gain admission to approximately [163 grammar schools](/schools) across England and selective independent schools, assessing verbal reasoning, non-verbal reasoning, maths, and English with standardised scores typically requiring 110+ to pass." },
-      { type: "p", text: "This **eleven plus** test originated with the 1944 Education Act. It aimed to identify pupils for grammar school places based on ability. By the 1960s, over 400 grammar schools used it at its peak." },
-      { type: "p", text: "Today, **163 state grammar schools** remain per 2023 DfE data. In 2023, more than 140,000 pupils sat the exam across various regions. Parents often seek **11+ preparation** through practice papers and tutors." },
-      { type: "p", text: "Exam formats vary by provider. [GL Assessment papers suit 55% of schools with multiple choice questions. CEM Select](/blog/gl-vs-cem-11-plus-what-is-the-difference) covers 40% with longer comprehension tasks, while CSSE serves 5% with essay-style elements." },
-      { type: "h3", text: "Exam Structure and Pass Marks" },
-      { type: "p", text: "The 11+ test typically includes sections on **verbal reasoning**, **non-verbal reasoning**, maths 11+, and English 11+. Schools choose from GL Assessment, CEM Select, or CSSE formats. Multiple choice tests dominate in most areas." },
-      { type: "p", text: "Pass marks differ by region. In Kent, pupils need 380 out of 400 raw score. Barnet requires 112+ on standardised scores." },
-      { type: "p", text: "Parents check 11+ syllabus specifics for target schools. Practice with **11+ mock exams** and **11+ past papers** builds familiarity. Experts recommend regular 11+ practice papers like Bond 11+ or CGP 11+." },
-      { type: "p", text: "Standardised scores adjust for age. A score of 110 often qualifies as the **11+ pass mark**. Review school catchment areas and **11+ registration dates** early." },
-      { type: "h3", text: "Key Regions and Schools Using 11 Plus" },
-      { type: "p", text: "Grammar schools cluster in regions like Kent grammar schools, Buckinghamshire grammar schools, and Lincolnshire grammar schools. London areas feature **Barnet grammar schools** and **Sutton grammar schools**. Other hotspots include Trafford and Warwickshire." },
-      { type: "p", text: "Examples include Newstead Wood School, Nonsuch High School, and Tiffin School in London. Kent has Tonbridge Grammar School and Weald of Kent Grammar. Buckinghamshire offers Dr Challoner's Grammar School." },
-      { type: "ul", items: ["Trafford: **Altrincham Grammar School for Girls**, Altrincham Grammar School for Boys", "Birmingham: King Edward VI Camp Hill, King Edward VI Five Ways", "Slough: **Langley Grammar School**, Burnham Grammar School"] },
-      { type: "p", text: "Check **list of 11+ schools** for your area. Note [11+ exam dates](/blog/when-are-the-11-plus-exam-dates-in-my-area) and application processes vary. Northern Ireland uses the **transfer test** or PATE exam similarly." },
-      { type: "h2", text: "Geographic Regions Using 11 Plus" },
-      { type: "p", text: "The 11 Plus exam operates in 36 local authorities across England plus Northern Ireland, with 163 state grammar schools serving 5% of secondary pupils according to 2023 Department for Education statistics. Parents seeking **grammar school entrance** must check local 11+ regions for specific exam boards like GL Assessment or CEM Select. Preparation involves **11+ practice papers** tailored to each area's eleven plus format." },
-      { type: "p", text: "In England, high-density areas include Kent and Buckinghamshire, while Northern Ireland 11+, known as the Transfer Test, uses GL papers for 67 grammars. Families should note 11+ registration dates and **11+ exam dates** vary by council. Selective schools often prioritise standardised scores above local averages." },
-      { type: "p", text: "Understanding **school catchment areas** helps with the 11+ application process. Experts recommend starting 11+ preparation early with resources like Bond 11+ or CGP 11+ books. This guides entry to top UK grammar schools." },
-      { type: "p", text: "Smaller regions like Wirral and Slough also feature 11+ tests, alongside independents in Bristol. Parents can explore list of 11+ schools per area for specifics on verbal reasoning or non-verbal reasoning content." },
-      { type: "h3", text: "England" },
-      { type: "p", text: "England hosts 163 state grammar schools across 36 local authorities, with highest concentrations in Kent grammar schools (38 schools), London/Trafford (20+), and **Buckinghamshire grammar schools** (13). These **selective secondary schools** use exam boards like GL Assessment or CEM for 11+ syllabus covering maths, English, and reasoning. Families target schools such as Dartford Grammar School or Altrincham Grammar School for Girls." },
-      { type: 'table', headers: ["County", "Grammar Schools", "Exam Board", "2024 Test Date", "Registration Deadline"], rows: [["Kent", "38", "GL", "September", "June"], ["Buckinghamshire", "13", "CEM", "October", "July"], ["Trafford", "5", "GL", "September", "June"], ["Barnet", "5", "CEM", "September", "June"], ["Birmingham", "8", "GL", "September", "June"], ["Lincolnshire", "9", "CSSE", "September", "June"]] },
-      { type: "p", text: "Density peaks in the South East, with **Trafford grammar schools** and Birmingham grammar schools drawing applicants for **multiple choice tests**. Use 11+ mock exams to match formats, and review 11+ past papers from GL or CEM Select. Schools like Queen Elizabeth's School Barnet or King Edward VI Grammar set high 11+ pass mark standards." },
-      { type: "p", text: "Preparation tip: Focus on **maths 11+** and English 11+ with 11+ tutors or courses. Check **11+ qualifying score** per school, as London grammar schools like Tiffin School compete fiercely." },
-      { type: "h3", text: "Northern Ireland" },
-      { type: "p", text: "Northern Ireland's 11+ equivalent, the **Transfer Test**, admits students to 67 grammar schools serving 39% of pupils via GL Assessment papers in November annually. It features two papers: Maths with 75 questions in 60 minutes, and **English** with 65 questions in 60 minutes. Standardised scores average 100, with top grammars requiring 115+ for entry." },
-      { type: "p", text: "For 2024, tests occurred on 4th November, with results on 15 January. Strong performers include Lurgan College and Sullivan Upper. Parents prepare using **11+ sample questions** focused on the **PATE exam** style, now fully GL-based." },
-      { type: "ul", items: ["Practice verbal reasoning and comprehension daily.", "Attend **11+ courses** or use **Bond 11+** resources.", "Track **11+ scores** from mocks to aim above local thresholds."] },
-      { type: "p", text: "Grammar schools like Loreto Grammar School emphasise consistent performance. Register early via the official portal, and consider transfer test tutors for edge in competitive admissions." },
-      { type: "h3", text: "Other UK Regions" },
-      { type: "p", text: "Regions outside traditional grammar heartlands include Wirral grammar schools (5 schools, GL Assessment), **Slough grammar schools** (3 schools, CEM), and Bristol independents using **11+ style tests**. Examples are Upton-by-Chester in Wirral, Langley Grammar School and Burnham Grammar School in Slough, plus Reading Boys and Kendrick School in Reading using CEM. These areas offer selective places beyond core zones." },
-      { type: "p", text: "Wales and Scotland phased out the 11 Plus exam in the 1970s and 1960s, focusing on comprehensive systems. Parents in **Bristol grammar schools** like independents may face similar entrance exams. Preparation mirrors England with CGP 11+ books for reasoning sections." },
-      { type: "ul", items: ["Wirral: GL multiple choice, early registration key.", "Slough: CEM format, check **Dr Challoner's Grammar School** catchment.", "Reading: CEM tests for Royal Grammar School High Wycombe peers."] },
-      { type: "p", text: "Independents like Bristol Grammar School adapt **11+ syllabus** for private entry. Use 11+ practice papers and mocks to build confidence across these grammar school entrance options." },
-      { type: "h2", text: "Types of Schools Requiring 11 Plus" },
-      { type: "p", text: "11 Plus exams serve both **state grammar schools** (163 total, free tuition) and 50+ **selective independent schools** charging \u00a315,000-\u00a325,000 annual fees." },
-      { type: "p", text: "State grammar schools use the **11+ test** for entry into fully funded places, often in regions like Buckinghamshire grammar schools, Kent grammar schools, and London grammar schools. Independent schools pair the eleven plus with interviews or CEM Select tests for their fee-paying spots." },
-      { type: "p", text: "Parents preparing for secondary school admissions should check school catchment areas and 11+ registration dates, as usage varies by area. For example, Trafford grammar schools and Sutton grammar schools rely heavily on GL Assessment papers." },
-      { type: "p", text: "Understanding this split helps with 11+ preparation. State options offer free education for high achievers, while independents provide scholarships alongside 11+ practice papers from Bond 11+ or CGP 11+." },
-      { type: "h3", text: "Grammar Schools" },
-      { type: "p", text: "State-funded **grammar schools** (163 total) admit via 11+ with top performers like **Queen Elizabeth's Barnet** achieving strong GCSE rates." },
-      { type: 'table', headers: ["State Grammar School", "Tuition", "Capacity", "Academic Results", "Examples"], rows: [["Queen Elizabeth's Barnet", "Free", "240 places", "85% Oxbridge", "Barnet grammar schools"], ["Tiffin Girls", "Free", "180 places", "92% A*-A", "London grammar schools"], ["Wilson's School", "Free", "192 places", "100% 5+ GCSEs 9-7", "Sutton grammar schools"]] },
-      { type: "p", text: "These UK grammar schools focus on verbal reasoning, non-verbal reasoning, maths 11+, and English 11+ via GL Assessment or CEM. Schools like Newstead Wood School, Nonsuch High School, and Tiffin School draw from competitive 11+ regions." },
-      { type: "p", text: "Reference to 2023 Sutton Trust data highlights grammar school advantage in GCSE grades. Parents target Henrietta Barnett School or St Olave's Grammar School with 11+ mock exams and **11+ tutors** for the 11+ pass mark." },
-      { type: "h3", text: "Selective Independent Schools" },
-      { type: "p", text: "Selective independents like **Manchester Grammar School** (\u00a316,000/yr) and **Withington Girls** (\u00a315,500/yr) use 11+ or CEM-style tests alongside interviews." },
-      { type: 'table', headers: ["Independent School", "Fees", "11+ Type", "Scholarships", "Key Stats"], rows: [["MGS", "\u00a316k", "CEM + interview", "40 scholarships", "Manchester Grammar School"], ["Withington", "\u00a315.5k", "School test", "Available", "98% A*-A"], ["Latymer Upper", "\u00a323k", "CEM", "Means-tested bursaries", "London independents"]] },
-      { type: "p", text: "Over 70% charge \u00a315k+ annually per ISC 2023, covering **private schools 11+** entry. Examples include King Edward VI Camp Hill and St Ambrose College, using multiple choice tests in the 11+ syllabus." },
-      { type: "p", text: "Families explore **independent schools 11+** with 11+ past papers and 11+ courses. Check 11+ exam dates for schools like Altrincham Grammar School for Girls or Loreto Grammar School, noting standardised scores and 11+ qualifying score." },
-      { type: "h2", text: "Key County Guides" },
-      { type: "p", text: "Kent (38 grammar schools, largest concentration) and Buckinghamshire (13 schools) represent high-competition **11+ counties** with pass rates under 25%." },
-      { type: "p", text: "Parents preparing for the 11 Plus exam often focus on these regions due to the high number of **selective schools**. Kent uses GL Assessment papers, while Buckinghamshire relies on CEM Select tests. Understanding county-specific details helps with 11+ preparation." },
-      { type: "p", text: "Other areas like Essex, Birmingham, and Trafford also feature **UK grammar schools** with entrance exams. Families should check 11+ registration dates and practice with 11+ practice papers from providers like Bond 11+ or CGP 11+. Local 11+ mock exams build confidence for real test conditions." },
-      { type: "p", text: "Competition varies by school catchment areas, so early planning for secondary school admissions is key. Experts recommend starting 11+ courses or hiring 11+ tutors a year in advance to cover verbal reasoning, non-verbal reasoning, maths 11+, and English 11+." },
-      { type: "h3", text: "Essex and Kent" },
-      { type: "p", text: "Kent's 38 **grammars** (GL Assessment, Sept 21st 2024 test) include Dartford Grammar (cut-off 374/400) and Tonbridge Grammar Girls (368)." },
-      { type: "p", text: "These **Kent grammar schools** attract thousands for the 11+ test. Schools like Dartford Grammar School for boys and Tonbridge Grammar School for girls demand strong scores in multiple choice tests. Parents register early via county portals for the 11+ exam dates." },
-      { type: 'table', headers: ["School", "Type", "2023 Cut-off", "Exam Date", "Website"], rows: [["Dartford Grammar Boys", "Boys", "374", "Sept 21st 2024", "-"], ["Tonbridge Grammar Girls", "Girls", "368", "Sept 21st 2024", "-"], ["Weald of Kent", "Mixed", "373", "Sept 21st 2024", "-"], ["Wilmington", "Boys", "374", "Sept 21st 2024", "-"], ["Tunbridge Wells Girls", "Girls", "362", "Sept 21st 2024", "-"]] },
-      { type: "p", text: "Essex has 5 grammars under the CSSE board with Feb test dates. Practice 11+ past papers tailored to GL or CSSE formats to master the 11+ syllabus. Schools like Weald of Kent Grammar prioritise high 11+ scores alongside catchment." },
-      { type: "h3", text: "Birmingham and Buckinghamshire" },
-      { type: "p", text: "Buckinghamshire's 13 **CEM-test grammars** (Oct 2024) include Dr Challoner's (top choice, 300+ applications/60 places)." },
-      { type: "p", text: "Buckinghamshire grammar schools use CEM Select for their eleven plus entry, focusing on standardised scores without heavy verbal reasoning. Popular options like Dr Challoner's Grammar School and Royal Grammar School High Wycombe fill quickly. Check school catchment areas during the 11+ application process." },
-      { type: 'table', headers: ["School", "Selective Level", "CEM Score", "2024 Test Date"], rows: [["Dr Challoner's Grammar", "High", "121+", "Oct 2024"], ["Royal Grammar High Wycombe", "High", "121+", "Oct 2024"], ["Burnham Grammar", "Medium", "118+", "Oct 2024"], ["John Hampden Grammar", "High", "121+", "Oct 2024"], ["Sir William Borlase's", "High", "121+", "Oct 2024"]] },
-      { type: "p", text: "Birmingham's 8 **GL schools**, including King Edward VI Grammar (112+ standardised), test in maths 11+ and English 11+. Use 11+ sample questions for CEM and GL to prepare. Families often combine 11+ mock exams with tuition for Birmingham grammar schools success." },
-      { type: "h2", text: "Finding Specific School Lists" },
-      { type: "p", text: "Use the official 2024 Grammar Schools Guide (163 schools) and **ElevenPlusExams.co.uk database** for verified lists by county and exam board. These resources help parents identify grammar schools using 11 Plus exams in regions like Kent, Buckinghamshire, and London. They organise schools by **11+ test providers** such as GL Assessment and CEM Select." },
-      { type: "p", text: "Start with the DfE Grammar School List Excel for a full download of state grammar schools across the UK. Cross-reference with ElevenPlusExams.co.uk directory to filter by **11+ regions** like Trafford grammar schools or Sutton grammar schools. This approach ensures you find accurate details on selective secondary schools and their entrance exams." },
-      { type: "p", text: "For targeted searches, use syntax like 'Kent grammar schools 2025 GL' on search engines. Check the **GL Assessment school finder** and CEM Select participating schools PDF for exam board specifics. County council admissions portals provide local insights into 11+ registration dates and catchment areas." },
-      { type: "p", text: "Top schools by A-Level results include Queen Elizabeth's School Barnet, Wilson's School, Tiffin School, Newstead Wood School, Nonsuch High School, St Olave's Grammar School, Henrietta Barnett School, Latymer Grammar School, Dartford Grammar School, and Tonbridge Grammar School. These **London grammar schools** and others often use multiple choice tests in verbal reasoning, non-verbal reasoning, maths 11+, and English 11+." },
-      { type: "h3", text: "DfE Grammar School List Excel" },
-      { type: "p", text: "The DfE Grammar School List Excel offers a complete overview of all state grammar schools in England. Download it to see schools using 11 Plus sorted by location, ideal for families targeting areas like Kent grammar schools or **Lincolnshire grammar schools**. It includes key details on **secondary school admissions** processes." },
-      { type: "p", text: "Combine this with county-specific data for precision. For example, Buckinghamshire grammar schools like Dr Challoner's Grammar School appear clearly. This resource supports 11+ preparation by highlighting grammar school entrance requirements early." },
-      { type: "p", text: "Update your search annually as lists evolve with admissions policies. Experts recommend pairing it with 11+ practice papers from providers like Bond 11+ or CGP 11+. Focus on schools' 11+ syllabus for verbal reasoning and maths 11+." },
-      { type: "h3", text: "ElevenPlusExams.co.uk Directory" },
-      { type: "p", text: "The ElevenPlusExams.co.uk directory provides a user-friendly database of 11+ schools by county and exam board. It covers UK grammar schools from Warwickshire grammar schools to Wirral grammar schools. Parents can filter for CEM Select or GL Assessment users easily." },
-      { type: "p", text: "Explore forums for insights on 11+ mock exams and pass marks. Schools like Altrincham Grammar School for Girls and Stretford Grammar School feature prominently. This tool aids in understanding **standardised scores** and qualifying scores." },
-      { type: "p", text: "Use it alongside 11+ tutors or courses for targeted prep. It lists details on 11+ exam dates and application processes for selective schools. Practical for regions like Trafford grammar schools." },
-      { type: "h3", text: "GL Assessment School Finder" },
-      { type: "p", text: "The GL Assessment school finder pinpoints grammar schools using their 11+ test format. It focuses on areas with multiple choice tests in English 11+ and non-verbal reasoning. Ideal for finding **Birmingham grammar schools** or Slough grammar schools." },
-      { type: "p", text: "Search for schools like Langley Grammar School or Royal Grammar School High Wycombe. This resource clarifies 11+ sample questions and past papers availability. It supports families planning 11+ courses." },
-      { type: "p", text: "Combine with local portals for catchment details. Experts suggest practising GL-style papers for 11+ scores. Covers schools in Reading and Bristol too." },
-      { type: "h3", text: "CEM Select Participating Schools PDF" },
-      { type: "p", text: "The CEM Select participating schools PDF lists institutions using this adaptive **11+ exam** board. It includes Northern Ireland 11+ options like the transfer test or PATE exam. Useful for independent schools 11+ and state grammar schools." },
-      { type: "p", text: "Spot schools such as King Edward VI Camp Hill or Sutton Coldfield Grammar. Download for details on verbal reasoning and maths sections. Helps with 11+ syllabus alignment." },
-      { type: "p", text: "Review alongside **county council admissions portals** for dates. Prepares parents for non-standard formats in grammar school entrance." },
-      { type: "h3", text: "County Council Admissions Portals" },
-      { type: "p", text: "**County council admissions portals** deliver localised info on 11+ regions. Check for Kent, Worcestershire, or Barnet grammar schools directly. They outline school catchment areas and registration processes." },
-      { type: "p", text: "Examples include portals for Redbridge grammar schools like Beal Grammar School or Woodford County High School. Find exam specifics for schools like Weald of Kent Grammar. Essential for timely 11+ preparation." },
-      { type: "p", text: "Search with terms like 'Lincolnshire grammar schools 11+ dates'. Pair with 11+ past papers for practice. Covers areas like the Wirral and Trafford comprehensively." },
-      { type: "h2", text: "Recent Changes in Usage" },
-      { type: "p", text: "Since 2018, **11+ testing** shifted with CEM dominance (60% schools by 2023) and new regulations banning coaching advantages in Trafford. The 2016 launch of CEM disrupted GL Assessment's lead in grammar school entrance exams. Parents now face choices between CEM Select and GL Assessment formats for 11+ preparation." },
-      { type: "p", text: "In 2021, Trafford introduced a coaching ban to level the playing field for Trafford grammar schools like Altrincham Grammar School for Girls and Altrincham Grammar School for Boys. This aimed to reduce reliance on 11+ tutors and 11+ courses. Families must focus on natural skills in verbal reasoning, non-verbal reasoning, maths 11+, and English 11+." },
-      { type: "p", text: "Barnet raised cut-offs by 5 points in 2023, affecting schools such as Queen Elizabeth's School Barnet and Henrietta Barnett School. Kent expanded to **multiple test centres** in 2024 for Kent grammar schools like Tonbridge Grammar School and Weald of Kent Grammar. These changes reflect DfE 2023 admissions data and ISC reports showing rising demand." },
-      { type: "p", text: "Grammar places have grown slightly to around 23,000 total, yet **competition ratios** reached 6:1 nationally. Check 11+ registration dates and 11+ exam dates early for secondary school admissions. Use 11+ practice papers from Bond 11+ or CGP 11+ to adapt to these shifts in selective schools." },
-    ],
-  },
+  "slug": "which-schools-use-the-11-plus-exam",
+  "title": "Which schools use the 11 Plus? Finding the right route for 2027",
+  "desc": "Find verified grammar-school test groups and independent-school examples, with the 2027 FSCE changes and a checklist for checking your target school.",
+  "date": "March 3, 2025",
+  "readTime": "3 min read",
+  "category": "Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_4.jpeg",
+  "imageAlt": "Which schools use the 11 Plus exam?",
+  "images": [
+    "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_1.jpeg",
+    "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_2.jpeg",
+    "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_3.jpeg",
+    "https://files.autoblogging.ai/images/which-schools-use-the-11-plus-exam(slvo)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "State grammar schools use academic selection for their main Year 7 intake, commonly through a test called the 11 Plus. Some independent schools also describe their entrance process as “11+”. These schools do not all use one exam, one provider or one application form. Start with the exact school and its admission arrangements."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "For tests taken in 2027, usually look for September 2028 entry. The examples below were checked against official sources on 10 October 2026. They are a starting list, not an exhaustive national directory."
+    },
+    {
+      "type": "h2",
+      "text": "Named grammar-school test groups"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Group",
+        "Schools listed by the official source",
+        "Where to check the test route"
+      ],
+      "rows": [
+        [
+          "Bexley",
+          "Beths Grammar School; Bexley Grammar School; Chislehurst and Sidcup Grammar School; Townley Grammar School.",
+          "[Bexley Council’s selection-test guide](https://www.bexley.gov.uk/services/schools-and-education/selection-tests/about-test) lists these four schools using one test. The detailed guide currently covers 2026 testing for 2027 entry: confirm the successor arrangements for 2027 tests."
+        ],
+        [
+          "Trafford Grammar School Consortium",
+          "Altrincham Grammar School for Boys; Altrincham Grammar School for Girls; Sale Grammar School; Stretford Grammar School; Urmston Grammar School.",
+          "[The consortium’s official announcement](https://aggs.bright-futures.co.uk/admissions-2028/) confirms a shared FSCE test in September 2027 for 2028 entry."
+        ],
+        [
+          "Gloucestershire",
+          "Pate’s Grammar School; Denmark Road High School; Ribston Hall High School; Sir Thomas Rich’s School; The Crypt School; Marling School; Stroud High School.",
+          "[Gloucestershire County Council](https://www.gloucestershire.gov.uk/schooladmissions/grammar-schools) links the seven schools. Their FSCE test for 2028 entry is scheduled for 3 July 2027; registration and testing are administered by the schools."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A shared test does not mean identical admission rules. Check each school’s qualifying requirements, priority categories, catchment where relevant, and any score-sharing choices. The school where a child takes the exam may simply be their allocated test venue."
+    },
+    {
+      "type": "h2",
+      "text": "Other routes to investigate"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Buckinghamshire uses the Secondary Transfer Test. The [official 2028 entry timeline](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/timeline-for-following-year/) is the starting point for families planning tests in 2027.",
+        "Kent has the Kent Test route. Its [grammar-school application guidance](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/apply-for-a-kent-grammar-school-place) explains that being assessed suitable does not guarantee a place: each school applies its own admissions criteria.",
+        "The [King Edward VI Foundation’s test page](https://kingedwardvifoundation.co.uk/the-test/) describes the shared West Midlands entrance test. Its detailed information currently concerns 2027 entry, so use it to locate the participating schools and check their next-cycle arrangements."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Schools elsewhere may use a school-specific assessment, a shared first stage followed by another stage, or a different local selection process. Geography alone is not proof that two schools accept the same test result. In particular, do not buy preparation materials solely because a third-party county list assigns one provider to every school."
+    },
+    {
+      "type": "h2",
+      "text": "Independent schools have a separate process"
+    },
+    {
+      "type": "p",
+      "text": "The [London 11+ Consortium](https://london11plus.co.uk/) is an independent-school group, including Channing School and Godolphin and Latymer. It is distinct from London’s state grammar-school tests. Other independent schools run their own assessments or use another shared assessment; their registration, interviews, offers, fees and bursary processes must be checked directly."
+    },
+    {
+      "type": "p",
+      "text": "The word “Grammar” in a school’s name does not establish whether it is state-funded or independent. Check the school’s official admissions and fees information before applying. Likewise, a mixed sixth form does not necessarily mean the school admits both boys and girls in Year 7."
+    },
+    {
+      "type": "h2",
+      "text": "Northern Ireland uses a different transfer system"
+    },
+    {
+      "type": "p",
+      "text": "[SEAG’s official website](https://seagni.co.uk/) explains its Entrance Assessment for Primary 7 pupils and links the member schools that use its outcomes. That is a separate route from an English council school-place application. Check the intended school’s admission criteria and the relevant transfer-year information."
+    },
+    {
+      "type": "h2",
+      "text": "Make a reliable shortlist"
+    },
+    {
+      "type": "p",
+      "text": "Create one row per school with these fields, then fill them from official sources:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Exact school name, location, funding type and Year 7 eligibility.",
+        "Intended entry year and the test or consortium it accepts.",
+        "Registration portal, deadline and any score-sharing requirement.",
+        "Subjects, response format and official familiarisation materials for that cycle.",
+        "Academic qualification and oversubscription criteria, including address rules.",
+        "School-place application route and any supplementary form."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If the 2028 details are not published, record that gap and a date to check again. A current school list can help you discover options, but an old provider label should not determine a year of preparation."
+    },
+    {
+      "type": "p",
+      "text": "Once the shortlist is clear, read [how to get into a grammar school](/blog/how-do-you-get-into-a-grammar-school) for the full process and [the age and year-group guide](/blog/what-age-do-children-sit-the-11-plus) to check the correct cohort."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
     slug: "gl-vs-cem-11-plus-what-is-the-difference",
@@ -2859,366 +3052,652 @@ export const BLOG_POSTS: BlogPost[] = [
 ]
   },
   {
-    slug: "difference-between-grammar-schools-and-independent-schools-11-plus",
-    title: "Difference between grammar schools and independent schools 11 Plus.",
-    desc: "Discover key differences between grammar schools and independent schools for 11+ entry, from funding and selection to exams, curriculum, class sizes, and costs. Uncover which path suits your child best and boost your 11+ prep success today.",
-    date: "July 23, 2025",
-    readTime: "9 min read",
-    category: "Schools",
-    imageUrl: "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_4.jpeg",
-    imageAlt: "Difference between grammar schools and independent schools 11 Plus.",
-    images: ["https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_1.jpeg", "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_2.jpeg", "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_3.jpeg", "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Overview of 11+ Exam Context" },
-      { type: "p", text: "The **11+ exam** determines entry to over **160 UK grammar schools** serving 140,000 students annually, testing Year 6 pupils transitioning to Year 7 through verbal reasoning, numerical reasoning, and non-verbal reasoning." },
-      { type: "p", text: "UK government statistics confirm 163 grammar schools offer around **22% selective places** within the state sector. These state-funded grammar schools focus on academic selection via the 11 Plus, contrasting with non-selective comprehensive schools. Parents often compare this to **independent schools**, which use separate entrance exams." },
-      { type: "p", text: "The typical timeline starts with registration from June to September, followed by **exams in September to November**, and results from October to December. Year 6 families should check local authority deadlines early. This schedule aligns with the Year 7 transition, allowing time for **practice papers** and mock exams." },
-      { type: "p", text: "Regional variations shape preparation. Kent has 36 grammars, Birmingham has 8, and Trafford has 4, each with unique **catchment area** and **oversubscription criteria**. DfE data highlights grammar pupils' strong performance, with 79% achieving A*-C at GCSE compared to the 64% national average. Families explore grammar school league tables alongside independent school options like ISEB pre-tests." },
-      { type: "h2", text: "Definition of Grammar Schools" },
-      { type: "p", text: "[Grammar schools](/schools) are **state-funded selective secondary schools** that admit pupils based solely on **11+ exam performance**, prioritising academic ability over catchment area. These institutions form part of the state education system and focus on high academic standards from Year 7. Parents often choose them for their rigorous curriculum and strong university pathways." },
-      { type: "p", text: "In the context of **academic selection**, grammar schools stand apart from non-selective comprehensive schools. They cater to pupils transitioning from Year 6, using entrance exams to identify top performers. This model supports focused learning in subjects like maths and English." },
-      { type: "p", text: "Many grammar schools appear high in **grammar school league tables**, with excellent GCSE and A-level results. They offer extracurricular activities alongside core academics, such as sports and music. Families prepare through practice papers and mock exams to meet the demands." },
-      { type: "p", text: "Unlike fee-paying independent schools, [grammar schools are free with no tuition costs](/blog/are-grammar-schools-free-or-private). Selection relies on **11 Plus** scores rather than interviews or assessments like the ISEB pre-test. This makes them accessible for motivated pupils from state primary schools." },
-      { type: "h3", text: "Funding and Selection Process" },
-      { type: "p", text: "Fully funded by government with **zero tuition fees**, grammar schools use **11+ scores** with pass marks typically 110+ on GL/CEM standardised scales, followed by oversubscription criteria ranking. This state funding covers all costs, around \u00a36,500 per pupil annually. Pupils benefit from resources comparable to private options without school fees." },
-      { type: "p", text: "The **selection process** involves GL Assessment papers in five subjects or CEM's two papers, testing verbal reasoning, numerical reasoning, and non-verbal reasoning. Exams feature multiple choice or standard format questions on maths test, English test, and more. Preparation includes bond papers, CGP books, and timed tests for speed accuracy." },
-      { type: "p", text: "Oversubscription follows strict rules, often: Distance from the school or catchment area Siblings already attending Random allocation for tied scores For example, Wilson's School in Sutton admits the top 120 scorers from over 2,000 applicants each year." },
-      { type: "p", text: "Parents boost chances with **exam preparation** like tutoring, private tuition, or 11 Plus courses. Focus on exam technique, vocabulary building, mental arithmetic, and comprehension helps. Attending school open days reveals prospectus details and uniform policy." },
-      { type: "h2", text: "Definition of Independent Schools" },
-      { type: "p", text: "Independent schools operate outside **state funding**, charging annual fees while maintaining complete autonomy over curriculum, admissions, and teaching methods. Unlike grammar schools, which rely on state resources and follow the 11 Plus for entry, these **fee-paying schools** attract families seeking tailored education. This private funding model enables smaller class sizes and specialised resources." },
-      { type: "p", text: "These schools, often called **public schools** historically, cater to diverse needs with options like co-educational or single-sex settings. Parents value the freedom from catchment areas and oversubscription criteria common in state schools. Entrance often involves custom tests rather than the standard 11 Plus." },
-      { type: "p", text: "Academic rigour stands out, with emphasis on **extracurricular activities**, subject specialists, and strong university destinations including Oxbridge pathways. Many offer boarding or day places, supported by teacher-pupil ratios that foster individual attention. Families attend open days to explore prospectuses and interview processes." },
-      { type: "p", text: "Compared to **comprehensive schools**, independent schools prioritise academic selection through their own exams, such as ISEB pre-tests or Common Entrance. This contrasts with grammar schools' focus on GL Assessment or CEM for verbal reasoning, numerical reasoning, and non-verbal reasoning. Preparation involves practice papers and tutoring for year 6 to year 7 transition." },
-      { type: "h3", text: "Fees and Admission Autonomy" },
-      { type: "p", text: "Average day fees stand at \u00a318,063/year, boarding at \u00a339,000/year; schools set **custom entrance exams**, interviews, and offer means-tested bursaries covering 70-100% fees. This autonomy allows deviation from the 11 Plus used by grammar schools. Families benefit from flexibility in admissions beyond standard format tests." },
-      { type: 'table', headers: ["School Type", "Annual Fees Range"], rows: [["**Day Schools**", "\u00a312,000 - \u00a325,000"], ["**Boarding Schools**", "\u00a330,000 - \u00a345,000"]] },
-      { type: "p", text: "Examples include Eton College at \u00a348,090 for boarding and St Paul\u2019s School exceeding \u00a326,000 for day pupils. These institutions use their own assessments, often including aptitude tests with IQ test elements. Bursaries and scholarships ease access for talented students from varied backgrounds." },
-      { type: "p", text: "Admission processes feature **assessment days** with multiple-choice questions, essays, and group tasks, differing from grammar school **maths tests** and English tests. Parents prepare via mock exams, private tuition, and online resources like Bond papers or CGP books. Experts recommend focusing on exam technique, speed, and accuracy." },
-      { type: "p", text: "Many independent schools join consortia for shared testing, yet retain control over pass marks and score thresholds. This contrasts with state-funded grammar schools' uniform 11 Plus via GL Assessment or CEM. Families explore options at school open days to match needs like STEM focus or music drama programmes." },
-      { type: "h2", text: "11+ Exam Requirements" },
-      { type: "p", text: "The 11+ exam tests core cognitive skills through multiple-choice and standard format questions, with 60-75% pass rates required for grammar entry. Requirements differ markedly between grammar schools and independent schools. Grammar schools focus on standardised tests from providers like GL Assessment or CEM, while independents often use adaptive online pre-tests and interviews." },
-      { type: "p", text: "Parents preparing for **Year 6 to Year 7 transition** should note these variations early. Grammar exams emphasise speed and accuracy in **verbal reasoning**, numerical reasoning, and non-verbal reasoning. Independent tests add school-specific elements like essays or assessments." },
-      { type: "p", text: "Practice with **mock exams** builds exam technique. Attend school open days to understand oversubscription criteria and catchment areas. Tutoring helps with vocabulary building and mental arithmetic." },
-      { type: "p", text: "Both types prioritise academic selection, but independents may include **aptitude tests** with IQ test elements. Review prospectuses for timelines, often October to December. Experts recommend timed tests using past papers for confidence." },
-      { type: "h3", text: "Grammar School 11+ Specifics" },
-      { type: "p", text: "Grammar schools use GL Assessment (English, Maths, VR, NVR, 4x25min papers) or CEM Select (2x60min untimed reasoning papers), requiring top 20-25% scores. **GL Assessment** suits Birmingham grammars with five papers and 100 questions each. **CEM exams** appear in Trafford and Redbridge, adapting difficulty to performance." },
-      { type: 'table', headers: ["Provider", "Papers", "Format", "Examples"], rows: [["GL Assessment", "5 papers", "Multiple choice, 100 questions each", "Birmingham grammars"], ["CEM Select", "2 papers", "Adaptive, untimed reasoning", "Trafford, Redbridge"]] },
-      { type: "p", text: "Practice resources include Bond Papers for multiple choice drills and CGP 11+ books for comprehension and shape recognition. Focus on **speed accuracy** through timed tests. **Private tuition** targets weak areas like code-breaking or grammar rules." },
-      { type: "p", text: "Aim for **80%ile+** pass marks, varying by school. Use online resources for **11 Plus courses** and mock exams. Parents check grammar school league tables for score thresholds and state-funded selective education policy." },
-      { type: "h3", text: "Independent School Entrance Exams" },
-      { type: "p", text: "Independent schools primarily use **ISEB Common Pre-Test** (online adaptive: Maths, English, VR, NVR) plus school-specific exams and interviews, with 40% requiring CE at 13+, though [some independent schools do use the 11 Plus](/blog/do-independent-schools-use-the-11-plus). The pre-test lasts two hours with around 100 questions. Many fee-paying schools add custom tests from October to December." },
-      { type: "ul", items: ["**ISEB Pre-Test**: Adaptive format tests core skills quickly.", "**Consortium tests**: Four papers for groups of schools.", "Examples like Harrow include own papers and interviews."] },
-      { type: "p", text: "Westminster uses custom tests with essays, assessing deeper thinking. Prepare with exam preparation focusing on English tests and verbal reasoning. **Assessment days** often follow, evaluating fit for academic rigour." },
-      { type: "p", text: "Success involves applying to 5-10 schools, considering **independent school bursaries** and scholarships. Review school performance tables for GCSE results and Oxbridge entry. Visit open days to gauge class sizes, teacher pupil ratio, and extracurricular activities like music drama or sports facilities." },
-      { type: "h2", text: "Curriculum and Academic Focus" },
-      { type: "p", text: "**Grammar schools** deliver the national curriculum with an accelerated pace (IGCSE Year 9), while independents offer IB/AP alongside A-Levels, both achieving Progress 8 scores +1.0+. This setup suits pupils preparing via 11 Plus exams like CEM or GL Assessment. Parents often compare these paths during **Year 6** transitions." },
-      { type: "p", text: "Grammar schools emphasise **STEM-heavy** subjects such as maths and sciences, building on numerical reasoning and non-verbal reasoning from entrance tests. Independent schools balance this with **languages** and classics, offering broader options like humanities or music drama. For example, a grammar pupil might focus on mental arithmetic drills, while an independent learner explores Latin texts." },
-      { type: "p", text: "Attainment 8 scores highlight differences: grammar at 65.2 versus independent at **68.4** (2023). Both foster academic rigour, but independents provide flexibility with IB programmes for global perspectives. Families weigh this against **school fees** and catchment areas." },
-      { type: 'table', headers: ["Curriculum Type", "Grammar Schools", "Independent Schools"], rows: [["**Core Framework**", "National Curriculum, accelerated to IGCSE in Year 9", "IB, AP, or A-Levels with custom options"], ["**Subject Specialisms**", "STEM focus (maths, sciences)", "Languages, classics, humanities"], ["**Exam Prep Alignment**", "Maths test, English test, verbal reasoning", "ISEB pre-test, common entrance"], ["**Progress Measure**", "Progress 8 +1.0+", "Progress 8 +1.0+, higher Attainment 8"]] },
-      { type: "h2", text: "Class Sizes and Teaching Styles" },
-      { type: "p", text: "Grammar schools average **28-30 pupils per class** with a 1:16 teacher-pupil ratio, while independent schools typically have 16-20 pupils per class with a 1:9 ratio. This difference enables seminar-style teaching in independents versus a more lecture format in grammars. Parents preparing for the 11 Plus should consider how these sizes affect daily learning during the **year 6 to year 7 transition**." },
-      { type: "p", text: "Smaller class sizes in independent schools allow for personalised feedback, vital for subjects like verbal reasoning and numerical reasoning in entrance exams. Grammar schools, often state-funded and selective, rely on **whole-class teaching** to manage larger groups efficiently. This impacts exam preparation, where practice papers and mock exams mimic the structured environment." },
-      { type: "p", text: "Independent schools emphasise **discussion-based lessons**, fostering skills for ISEB pre-test or common entrance interviews. Grammar pupils benefit from disciplined routines suited to CEM exam or GL Assessment formats. Experts recommend visiting **school open days** to observe these styles firsthand." },
-      { type: 'table', headers: ["Aspect", "Grammar Schools", "Independent Schools"], rows: [["**Average Class Size**", "28 pupils", "16 pupils"], ["**Teacher-Pupil Ratio**", "1:16", "1:9"], ["**Grouping**", "60% in sets (ISC survey)", "82% in sets (ISC survey)"], ["**Teaching Style**", "Whole-class", "Discussion-based"]] },
-      { type: "p", text: "Setting pupils by ability, more common in independents, supports targeted tutoring for **maths test** or English test weaknesses. In grammars, uniform pacing builds **exam technique** under pressure. Choose based on your child's need for individual attention versus group discipline." },
-      { type: "h2", text: "Extracurricular Opportunities" },
-      { type: "p", text: "Independent schools invest heavily in facilities, offering a wider range of extracurricular activities compared to grammar schools. These fee-paying schools provide options like Combined Cadet Force, orchestras, and international trips. In contrast, grammar schools focus on local sports and debating clubs." },
-      { type: "p", text: "Grammar schools, as state-funded selective schools, often have **limited budgets** for extracurriculars. They emphasise county-level sports teams and basic STEM clubs. This setup suits pupils preparing for the **11 Plus entrance exam** but offers fewer advanced pursuits." },
-      { type: "p", text: "Independent schools boast superior **sports facilities** and cultural programmes. Pupils enjoy music tours abroad and Duke of Edinburgh awards at higher levels. Grammar schools prioritise academic rigour over such extensive **enrichment activities**." },
-      { type: "ul", items: ["Grammar: Local sports events, debating society, science club.", "Independent: International exchanges, CCF expeditions, professional orchestra performances."] },
-      { type: "p", text: "Parents considering the **Eleven Plus** should visit school open days to observe these differences. This helps assess fit for year 7 transition beyond exam preparation like verbal reasoning and maths tests." },
-      { type: "h2", text: "Costs and Financial Implications" },
-      { type: "p", text: "Grammar schools charge **\u00a30 tuition** plus around \u00a3200 for uniforms. Independent schools cost \u00a315k-\u00a345k per year plus **\u00a32k in extras**; 37% of families access bursaries averaging \u00a38,500 per pupil." },
-      { type: "p", text: "Over seven years, **grammar schools** total about **\u00a3600** in direct costs. Day independent schools reach around \u00a3126k, while boarding schools climb to \u00a3315k. These figures [highlight the stark contrast between state-funded grammar and privately funded independent options](/compare) for 11 Plus pathways." },
-      { type: "p", text: "Hidden costs add layers to budgeting. Grammar school families often spend **\u00a32k on tutoring** for the Eleven Plus entrance exam, covering verbal reasoning, numerical reasoning, and non-verbal reasoning. Independent schools include extras like **uniforms at \u00a31k** and school trips at \u00a32k." },
-      { type: 'table', headers: ["School Type", "7-Year Total Cost", "Key Hidden Costs"], rows: [["**Grammar**", "\u00a3600", "Tutoring \u00a32k"], ["**Day Independent**", "\u00a3126k", "Uniforms \u00a31k, trips \u00a32k"], ["**Boarding Independent**", "\u00a3315k", "Uniforms \u00a31k, trips \u00a32k"]] },
-      { type: "p", text: "Consider independent school bursaries and **scholarships** to offset fees. Families preparing for ISEB pre-test or common entrance should review prospectuses at school open days. Experts recommend early financial planning alongside exam preparation like practice papers and mock exams." },
-    ],
-  },
+  "slug": "difference-between-grammar-schools-and-independent-schools-11-plus",
+  "title": "Grammar vs independent schools: comparing 11+ entry routes",
+  "desc": "Compare grammar and independent school applications, tests, fees and offer deadlines, and build a clear plan for exams taken in 2027.",
+  "date": "July 23, 2025",
+  "readTime": "5 min read",
+  "category": "Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_4.jpeg",
+  "imageAlt": "Difference between grammar schools and independent schools 11 Plus.",
+  "images": [
+    "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_1.jpeg",
+    "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_2.jpeg",
+    "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_3.jpeg",
+    "https://files.autoblogging.ai/images/difference-between-grammar-schools-and-independent-schools-11-plus(u2ek)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "A state grammar school provides free education and uses academic selection. An independent school charges fees and sets its own admission process, which may include exams, interviews or other assessments. Families can apply to both, but the registrations, school-place applications and offer conditions are separate."
+    },
+    {
+      "type": "p",
+      "text": "This guide focuses on England and on planning the two routes together. For the usual Year 7 grammar transition, tests taken in autumn 2027 commonly relate to September 2028 entry. Independent assessments can take place on different schedules or be used for entry at a later age, so record the intended start year for every school."
+    },
+    {
+      "type": "h2",
+      "text": "A practical comparison"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Task",
+        "State grammar route",
+        "Independent school route"
+      ],
+      "rows": [
+        [
+          "Apply for a place",
+          "Use the home council’s normal secondary application process, alongside any required school forms.",
+          "Apply directly as instructed by the school."
+        ],
+        [
+          "Arrange testing",
+          "Check the school, local authority or consortium registration requirements.",
+          "Check the school’s assessment and any separate provider registration."
+        ],
+        [
+          "Understand selection",
+          "Read the qualifying/ranking and oversubscription rules.",
+          "Read that school’s selection stages; not every independent school uses the same academic criteria."
+        ],
+        [
+          "Budget",
+          "Education is free; allow for real travel and other family costs.",
+          "Check tuition, extras, any assessment/registration charges and confirmed financial assistance."
+        ],
+        [
+          "Handle an offer",
+          "Follow the council or admission authority’s response instructions.",
+          "Check acceptance dates, deposits and contractual terms."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s school-admissions guidance](https://www.gov.uk/schools-admissions) directs private-school applicants to the school itself. The [independent-school overview](https://www.gov.uk/types-of-school/private-schools) also explains that these schools must be registered and inspected: independent does not mean unregulated."
+    },
+    {
+      "type": "h2",
+      "text": "Is the 11+ the same exam for both?"
+    },
+    {
+      "type": "p",
+      "text": "No. “11+” can describe the age of entry rather than one shared test. A grammar school might use an area-wide test, a consortium process or school-specific stages. An independent school might use its own papers, a shared assessment, or additional tasks. The provider name alone is not enough to establish subjects, timings or question format."
+    },
+    {
+      "type": "p",
+      "text": "The [ISEB Common Pre-Tests](https://www.iseb.co.uk/assessments/common-pre-tests/for-families/) are one example: four online adaptive assessments covering English, mathematics, verbal reasoning and non-verbal reasoning. ISEB says they can be used for Year 7 entry or as part of a process leading to Year 9. Its currently published 2026/27 session dates are not a confirmed timetable for tests in autumn 2027."
+    },
+    {
+      "type": "p",
+      "text": "Do not confuse these Pre-Tests with [ISEB Common Entrance at 11+ or 13+](https://www.iseb.co.uk/families-hub/). Ask your target school exactly which assessment it requires, who registers the child, where testing takes place and whether another stage follows. Do not assume an English writing paper, interview or reasoning test appears everywhere."
+    },
+    {
+      "type": "h2",
+      "text": "Prepare from the actual specification"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "List the subjects and response formats required by each shortlisted school.",
+        "Identify shared foundations such as reading comprehension and mathematical accuracy.",
+        "Practise school-specific requirements separately, for example extended writing if it is assessed.",
+        "Use the school’s or organiser’s official familiarisation guidance to understand the format.",
+        "Check access-arrangement procedures with each organiser rather than assuming approval transfers between tests.",
+        "Keep the workload manageable; adding schools can add assessments, travel and administrative deadlines."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "There is no national score that guarantees admission across these routes. An age-standardised score, a raw practice percentage and an independent-school assessment result are not interchangeable. For grammar schools, an eligible result can still leave a child without an offer when the school is oversubscribed."
+    },
+    {
+      "type": "h2",
+      "text": "Keep two application trackers"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Record for each school",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "Start year and year group",
+          "A test at age 10 or 11 can relate to different entry points."
+        ],
+        [
+          "Registration and application deadlines",
+          "Provider registration may not be the school application."
+        ],
+        [
+          "Assessment stages and dates",
+          "A later interview or writing task may still be required."
+        ],
+        [
+          "Documents and access arrangements",
+          "Different organisations may need separate submissions."
+        ],
+        [
+          "Results and offer dates",
+          "Receiving a test result is not always receiving an offer."
+        ],
+        [
+          "Acceptance, deposit and notice terms",
+          "An independent offer may require a decision before another result arrives."
+        ],
+        [
+          "Costs and financial-assistance outcome",
+          "An unconfirmed award should not be treated as money already secured."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Read the school’s actual written terms before accepting a fee-paying place. If deadlines clash, contact the admissions office to clarify the options; do not assume a deposit will be refundable or that withdrawing later has no cost."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Hypothetical example: School A, an independent school, requests acceptance before School B’s state-school offer is known. The family records the deposit and withdrawal terms, asks School A whether an extension is possible, and keeps the state application active according to the council’s instructions. These are invented schools and timings, not a prediction of a particular 2027 or 2028 timetable."
+    },
+    {
+      "type": "h2",
+      "text": "Fees, bursaries and school names"
+    },
+    {
+      "type": "p",
+      "text": "The word Grammar does not guarantee free education. [North London Grammar School](https://northlondongrammar.com/school-fees/), for example, publishes independent-school fees. For a fee-paying choice, use the current total, check whether VAT is included, and ask which meals, transport or activities cost extra. A 2026/27 price is not a confirmed 2028 fee."
+    },
+    {
+      "type": "p",
+      "text": "Ask schools offering bursaries or scholarships what the award covers, whether it depends on financial circumstances or an assessed talent, and what conditions apply over time. Do not assume either label means a full-fee place. Our [grammar-school costs guide](/blog/are-grammar-schools-free-or-private) separates tuition, boarding, optional preparation and other expenses."
+    },
+    {
+      "type": "h2",
+      "text": "Which route is better for your child?"
+    },
+    {
+      "type": "p",
+      "text": "The label alone cannot answer that. Compare the actual curriculum, pastoral care, SEND provision, journey, activities and affordability. Visit schools and ask for examples of how pupils are supported and challenged. Do not infer smaller classes, better teaching or a particular university outcome merely from fees or selective entry."
+    },
+    {
+      "type": "p",
+      "text": "Once you have named schools, use [the comparison questions in our school-choice guide](/blog/how-do-i-choose-between-several-grammar-schools). Keep future test details marked unconfirmed until published, retain a realistic range of school options, and build preparation around the requirements your child will actually face."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "do-independent-schools-use-the-11-plus",
-    title: "Do independent schools use the 11 Plus?",
-    desc: "Wondering if independent schools use the 11 Plus exam? Learn which 25% of grammar-style independents require it, plus CE users, prep feeders, and non-selective options. Get regional insights and alternatives to ace UK admissions now.",
-    date: "August 6, 2025",
-    readTime: "10 min read",
-    category: "Schools",
-    imageUrl: "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_4.jpeg",
-    imageAlt: "Do independent schools use the 11 Plus?",
-    images: ["https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_1.jpeg", "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_2.jpeg", "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_3.jpeg", "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The **11 Plus exam** is a selective entrance test taken by Year 6 pupils (age 10-11) for entry into [grammar schools](/schools) and some independent schools, typically consisting of verbal reasoning (50 questions, 25 mins), numerical reasoning (50 questions, 25 mins), non-verbal reasoning (50 questions, 25 mins), and English/maths assessments." },
-      { type: "p", text: "Providers like **GL Assessment** and **CEM Select** set the exam formats. GL Assessment uses traditional multiple-choice questions, while CEM Select focuses on broader reasoning with varied question types. Parents often choose practice papers from these providers to match local consortium exams." },
-      { type: "p", text: "The test lasts 2 to 2.5 hours in total, split across sessions. Pass marks range from **109 to 121+** on age-standardized scores, with top **25%** percentile ranks commonly needed for selective places. Schools adjust thresholds based on applicant numbers and catchment areas." },
-      { type: "p", text: "According to **2023 GL Assessment data**, over 180,000 pupils sit the exam annually. The four core subjects include:" },
-      { type: "ul", items: ["**Verbal reasoning**: 50 questions, 25 minutes, testing vocabulary and logic.", "**Numerical reasoning**: 50 questions, 25 minutes, covering maths skills without a calculator.", "**Non-verbal reasoning**: 50 questions, 25 minutes, using shapes and patterns.", "**English or maths**: Varies by provider, often 30-50 questions in 25-30 minutes."] },
-      { type: "p", text: "Preparation involves **practice tests** like Bond papers to build speed and accuracy. Experts recommend regular mock exams to familiarise children with the format and reduce **stress management** issues on test day." },
-      { type: "h2", text: "Overview of Independent Schools" },
-      { type: "p", text: "UK independent schools (3,000+ institutions per ISC 2023 data) charge **average termly fees** of \u00a35,000-\u00a315,000 and educate 7% of pupils, offering superior A-Level results (48% A*-A vs 25% state sector). The Independent Schools Council (ISC) represents around **2,500 member schools** with over 500,000 pupils. These schools often feature smaller class sizes, with 80% having fewer than 20 pupils per class." },
-      { type: "p", text: "Independent schools divide into categories like **prep schools** (around 60%), senior schools (30%), and boarding schools (20%). Prep schools focus on children up to age 13, preparing them for Common Entrance or **11 Plus** exams. Senior schools cater to ages 11-18, while boarding options provide residential education." },
-      { type: "p", text: "Fee ranges vary widely, from \u00a34,000 per term for day places to over \u00a312,000 for boarding, as noted in the ISC Annual Census 2023. Academic outcomes shine, with high rates of pupils progressing to top universities. Parents choose these for **selective admissions** processes, including entrance exams like the 11 Plus or ISEB PreTest." },
-      { type: "p", text: "Many independent schools act as feeders to **Oxbridge** and Russell Group institutions. They offer bursaries and scholarships to support access. This overview sets the stage for understanding their role in 11 Plus usage during school admissions." },
-      { type: "h3", text: "Definition and Characteristics" },
-      { type: "p", text: "Independent schools are privately funded via fees (avg \u00a318,000/year), regulated by ISC/GSA/HMC, and characterized by **selective academic entry** (60%+ use entrance testing), superior facilities, and 95% university progression rates. These **fee-paying schools** receive no state funding, relying on parental payments. They hold charitable status, benefiting from tax relief while serving the public good." },
-      { type: "p", text: "Key traits include **smaller classes** with a typical 12:1 pupil-teacher ratio, allowing personalised attention. Specialist facilities like science labs, theatres, and sports centres enhance learning. Academic selection often involves **11 Plus exams**, verbal reasoning, and maths tests for year 6 entry to year 7." },
-      { type: "ul", items: ["**Fee-funded** operations with no state money.", "Charitable status for community benefits.", "**Smaller classes** for focused teaching.", "Specialist facilities beyond state school norms.", "Academic selection via 11 Plus or PreTests.", "Broad curriculum with arts and sports.", "High GCSE pass rates, often 100%.", "Feeder status for Oxbridge and top universities."] },
-      { type: "p", text: "Per DfE 2023 data on private schools, these characteristics drive parental preference for **independent school admissions**. Processes include exam papers, interviews, and assessment days. Parents prepare via practice tests and open days to match their child's academic ability." },
-      { type: "h2", text: "Do All Independent Schools Use the 11+?" },
-      { type: "p", text: "No, only 25-30% of independent schools use the **11+ exam**. Around **45% use Common Entrance (CE)**, 20% rely on school-designed tests, and 10% are fully non-selective, according to ISC admissions data. This mix reflects diverse approaches to selective admission in the UK education system." },
-      { type: "p", text: "Parents often confuse **independent schools** with grammar schools, but there are real [differences between grammar and independent schools at 11 Plus](/blog/difference-between-grammar-schools-and-independent-schools-11-plus), and only some independents mimic that grammar-style selection via the 11+. Others prioritise Common Entrance at 13+ or internal assessments. Understanding these categories helps with targeted exam preparation." },
-      { type: "p", text: "The breakdown shows **prep-to-senior feeders** using custom tests for year 6 to year 7 transitions. **Non-selective schools** focus on interviews and reports instead. Check school prospectuses and open days for exact entrance requirements." },
-      { type: "h3", text: "Grammar-Style Independents (25%)" },
-      { type: "p", text: "These independent schools use the traditional 11+ exam much like state grammars, where in almost every selective area you [have to sit the 11 Plus for grammar school](/blog/do-you-have-to-sit-the-11-plus-for-grammar-school). They test **verbal reasoning**, numerical reasoning, and non-verbal reasoning, often via GL Assessment or CEM Select formats. Expect multiple choice papers and a pass mark based on age-standardised scores." },
-      { type: "p", text: "Examples include Manchester Grammar School, which requires the 11+ for entry into year 7. King Edward's School, Birmingham uses a similar **transfer test** with English and maths components. Haberdashers' Aske's Boys' School also employs the 11+ alongside an **interview process**." },
-      { type: "p", text: "Preparation involves practice tests, bond papers, and **11+ tuition**. Attend mock exams to build familiarity with exam papers. These schools seek high achievers and gifted children through academic selection." },
-      { type: "h3", text: "Prep-to-Senior Feeders (20%)" },
-      { type: "p", text: "These schools design their own entrance exams, often called PreTests or ISEB assessments. They feed from prep schools to **senior schools**, testing core skills in **English test**, maths test, and reasoning at 11+. This suits fee-paying schools with sibling policies or bursaries." },
-      { type: "p", text: "Examples are St Paul's School, using an ISEB **PreTest** followed by interview. Westminster School requires a computer-based test at 11, then CE at 13. No, wait\u2014guideline specifies Westminster=CE, but adjusting: Latymer Upper School uses school-designed tests for initial screening." },
-      { type: "p", text: "Focus on **school open days** and parent information evenings for details. Tutor agencies or online courses help with bespoke prep. These emphasise **academic ability** over rigid pass marks." },
-      { type: "h3", text: "CE Users (45%)" },
-      { type: "p", text: "The majority opt for Common Entrance (CE) exam at 13+, run by ISEB. Prep starts earlier, but some assess at 11 via assessment day. This suits **HMC schools** and **GSA** members, bypassing the 11+." },
-      { type: "p", text: "Examples include Westminster School, which uses CE papers in English, maths, and science. Eton College requires CE at 13 after early assessments. Wycombe Abbey School follows CE for **selective admission** into year 9." },
-      { type: "p", text: "Practice with **CE exam papers** and aim for high percentile ranks. Combine with **headteacher** references from preparatory schools. Scholarships often reward strong CE performance." },
-      { type: "h3", text: "Non-Selective (10%)" },
-      { type: "p", text: "These non-selective schools admit based on reports, interviews, and availability, not exams. They welcome a broad range, including from **comprehensive schools**, with focus on character over tests. **School fees** and catchment may influence places." },
-      { type: "p", text: "Examples are Bedales School, which uses no entrance exam, just references and visits. Sevenoaks School assesses via discussion for some entry points. Millfield School prioritises **co-educational** fit through **admissions tutor** meetings." },
-      { type: "p", text: "Visit for **prospectus** details and sibling policy info. This path reduces stress management needs for child psychology reasons. Ideal for balanced school choice." },
-      { type: "h2", text: "Schools That Commonly Use the 11+" },
-      { type: "p", text: "Twenty to twenty-five top independent schools use the 11+ including Manchester Grammar School, King Edward's Birmingham, and Haberdashers' Aske's, typically requiring scores above 120 with GL/CEM formats. These selective schools attract high achievers through **entrance exams** like verbal reasoning, numerical reasoning, and non-verbal reasoning. Parents often attend school open days to learn about the interview process and assessment day." },
-      { type: "p", text: "Regional spread shows strong use in the North, London, and Midlands. Schools balance **day schools** and boarding schools, with options for co-educational or single sex settings. **Bursaries** and scholarships help families with school fees." },
-      { type: 'table', headers: ["School", "Region", "Test Provider", "Pass Mark", "Bursaries Available"], rows: [["Manchester Grammar School", "North", "CEM Select", "Above 120", "Yes"], ["King Edward's Birmingham", "Midlands", "GL Assessment", "Above 120", "Yes"], ["Haberdashers' Aske's", "London", "GL Assessment", "Above 120", "Yes"], ["King's School Canterbury", "South East", "ISEB Common PreTest", "Above 120", "Yes"], ["St Paul's School", "London", "Own format", "Above 120", "Yes"], ["Westminster School", "London", "CEM Select", "Above 120", "Yes"], ["Magdalen College School", "South East", "GL Assessment", "Above 120", "Yes"], ["King Edward's School Birmingham", "Midlands", "CEM Select", "Above 120", "Yes"], ["Trinity School Croydon", "London", "ISEB", "Above 120", "Yes"], ["Whitgift School", "South East", "GL Assessment", "Above 120", "Yes"]] },
-      { type: "p", text: "Experts recommend early **11+ preparation** with practice tests and mock exams. Families check the prospectus for sibling policy and catchment area details from the admissions tutor." },
-      { type: "h3", text: "Prep Schools and Senior School Entry" },
-      { type: "p", text: "Prep schools for ages 7 to 13 feed **11+** candidates to senior independents, with many pupils progressing internally and others competing via exams for top HMC schools. The Year 3 to 6 curriculum targets 11+ and Common Entrance or CE exam. Parents value these pathways for smooth transitions to Year 7." },
-      { type: "p", text: "These schools prepare for **multiple choice** exam papers in English test, maths test, and reasoning. **IAPS** members guide families on exam coaching and tutor agencies. Success comes from consistent practice with Bond papers and online courses." },
-      { type: "ul", items: ["Dragon School to Winchester via **11+ equivalent**.", "Ludgrove to Eton through selective assessment.", "Westminster Under to Westminster Senior.", "Caversham Prep to Radley College.", "Summer Fields to top boarding schools."] },
-      { type: "p", text: "Headteachers at parent information evenings explain transfer test details and stress management. Research suggests focusing on academic ability fits gifted children best for these HMC schools." },
-      { type: "h2", text: "Alternatives to the 11+ in Independent Schools" },
-      { type: "p", text: "Many independent schools opt for alternatives to the traditional 11 Plus exam. These include **Common Entrance** at 13 plus, **ISEB PreTest** around 11 plus, and various school-specific tests between 10 and 13 years old. Such options assess broader skills beyond multiple-choice reasoning in verbal reasoning, numerical reasoning, and non-verbal reasoning." },
-      { type: "p", text: "These alternatives suit **selective schools** and grammar schools seeking diverse evaluation methods. Parents preparing children in Year 6 for Year 7 entry often explore these during school open days or parent information evenings. They allow focus on creative thinking, interviews, and group exercises alongside academic tests." },
-      { type: "p", text: "A comparison highlights key differences in these entrance exams." },
-      { type: 'table', headers: ["Test Type", "Age", "Format", "Schools Using", "Timing"], rows: [["Common Entrance (CE)", "13+", "Written papers, core subjects plus optionals", "Prep schools, senior HMC schools", "June"], ["ISEB PreTest", "10-12", "Online adaptive, English/maths/VR/NVR", "2,000+ independent schools", "Autumn term"], ["School Tests", "10-13", "Bespoke, adaptive or essay-based", "Individual **private schools**", "Flexible, often October-May"]] },
-      { type: "p", text: "This table shows how fee-paying schools and boarding schools adapt assessments for selective admission. Families can use prospectuses and admissions tutors to match tests with their child's strengths in English tests or maths tests." },
-      { type: "h3", text: "Common Entrance (CE) Exams" },
-      { type: "p", text: "CE exams at **13+** test English, Maths, and Science with 60 marks each in 60 minutes, plus optionals in humanities or modern languages. Used by over 500 schools and administered by ISEB, they feature a pass mark typically between 55 and 70 per cent. Scholarship papers demand higher performance for gifted children seeking bursaries." },
-      { type: "p", text: "The structure includes **core subjects** everyone takes and optional papers chosen by the prep school. For example, English might involve comprehension and essay writing, while Science covers biology, chemistry, and physics. This format prepares students from preparatory schools for senior school entry." },
-      { type: "p", text: "Major users include **Eton College**, **Harrow School**, and Cheltenham College. Pass rates hover around standard levels for entry, with scholarships requiring stronger results. Parents often arrange exam preparation through tutors or mock exams to build exam confidence." },
-      { type: "p", text: "CE suits day schools and boarding schools in the UK education system. It evaluates deeper understanding over speed, differing from 11+ multiple choice. Families attend assessment days with interview processes to complete the selective education pathway." },
-      { type: "h3", text: "School-Specific Tests" },
-      { type: "p", text: "Over 200 schools employ bespoke tests like the ISEB PreTest, an online adaptive exam lasting 2.5 hours, or Winchester's WHYS with its essay-based focus. These emphasise creative thinking rather than pure reasoning skills seen in the 11 Plus. They help independent schools identify high achievers for Year 7 transfer." },
-      { type: "p", text: "Key examples include six main systems. The ISEB PreTest, used by 2,000+ schools, covers English, maths, verbal reasoning, and non-verbal reasoning with adaptive scoring. Winchester WHYS tests thinking skills through essays, while St Pauls uses CEM-style questions blending multiple formats." },
-      { type: "ul", items: ["**Dulwich College** adaptive VR and NVR for precise ability measurement.", "Group exercises in some assessments evaluate teamwork during assessment days.", "Scoring often uses percentile ranks or age-standardised scores for fairness."] },
-      { type: "p", text: "These tests fit co-educational and single-sex schools, often alongside interviews or school reports. Parents review sibling policies and catchment areas via the prospectus. Preparation involves practice tests from bond papers or online courses, reducing stress for exam day." },
-      { type: "h2", text: "Regional Variations in 11+ Usage" },
-      { type: "p", text: "11+ usage varies across regions. In the **North West**, around 45% of selective admissions involve tests like those at Manchester Grammar School. London sees about 30% uptake with GL Assessment providers." },
-      { type: "p", text: "Kent relies heavily on **selective grammars** using the 11 Plus for entry. Scotland has **minimal 11+ usage**, where such exams remain rare in the state sector." },
-      { type: "p", text: "Parents should check **school prospectuses** and attend open days to understand local practices. **Independent schools** in these areas often pair 11+ with interviews or assessments." },
-      { type: "p", text: "Recent **DfE regional admissions data from 2023** highlights these patterns. Families preparing for **Year 6 transfer** need region-specific strategies, including practice with verbal reasoning and maths tests." },
-      { type: 'table', headers: ["Region", "11+ Usage", "Test Provider", "Example Schools", "Entry Rate"], rows: [["North West", "45%", "CEM Select", "Manchester Grammar, Bolton School", "High"], ["London", "30%", "GL Assessment", "Alleyn's, Dulwich College", "Moderate"], ["Kent", "High", "GL Assessment", "Invicta Grammar, Tonbridge Grammar", "Very High"], ["Birmingham", "40%", "Birmingham Consortium", "King Edward's School, Sutton Coldfield Grammar", "High"], ["Sussex", "35%", "GL Assessment", "Brighton College, Sevenoaks School", "Moderate"], ["East Midlands", "25%", "CEM Select", "Nottingham High School, Derby Grammar", "Moderate"], ["South West", "20%", "Multiple", "Clifton College, Plymouth College", "Low"], ["Yorkshire", "35%", "GL Assessment", "Wakefield Grammar, Bradford Grammar", "Moderate"]] },
-      { type: "p", text: "This table draws from **DfE 2023 admissions** trends. It helps parents [compare independent schools and grammar schools by region](/compare) for selective admission." },
-      { type: "h2", text: "Trends and Changes in Admissions" },
-      { type: "p", text: "Trends show ISEB PreTest usage up 40% with over 3,000 schools in 2024, while the traditional 11 Plus remains stable at 25% of independent schools. Increasing numbers now place greater weight on interviews, with 60% including them in their process, according to the ISC 2024 Census. These shifts reflect a move towards broader assessment methods in independent school admissions." },
-      { type: "p", text: "Digital testing has surged by 35%, allowing schools to administer entrance exams online for greater flexibility. Adaptive tests like the ISEB have grown by 40%, tailoring questions to a child's ability in real time. This helps assess verbal reasoning, **numerical reasoning**, and **non-verbal reasoning** more accurately during year 6 transitions to year 7." },
-      { type: "p", text: "Meanwhile, 60% of schools emphasise VR or interview focus to evaluate soft skills alongside academic tests. Bursary expansion covers 20% more places, promoting access for families beyond **school fees**. Non-selective growth at 15% shows some private schools prioritising holistic entry over pure exam scores." },
-      { type: 'table', headers: ["Year", "Digital Testing (%)", "Adaptive Tests (%)", "Interview Focus (%)", "Bursaries (%)", "Non-Selective (%)"], rows: [["2020", "10", "15", "30", "5", "2"], ["2021", "15", "20", "35", "8", "5"], ["2022", "20", "25", "45", "12", "8"], ["2023", "28", "32", "52", "16", "12"], ["2024", "35", "40", "60", "20", "15"]] },
-      { type: "p", text: "Parents preparing for selective schools should attend school open days and review prospectuses to understand these trends. Experts recommend balancing 11+ tuition with interview practice for a well-rounded application." },
-      { type: "h2", text: "Pros and Cons for Independent Schools" },
-      { type: "p", text: "The 11 Plus exam offers advantages for independent schools. It identifies high achievers suited to rigorous academic environments and provides efficient screening of large applicant pools. Challenges include limited assessment of creativity and the rise of **coaching inflation**, where many candidates receive extensive tutoring." },
-      { type: "p", text: "Independent schools often use the 11 Plus alongside other tests like PreTest or ISEB Common Entrance to select pupils for Year 7 entry. This selective admission process helps match students' academic ability with school demands. Sutton Trust research highlights how coaching affects access, raising questions about fairness in **school admissions**." },
-      { type: "p", text: "Child psychology experts note that entrance exams can increase stress for Year 6 pupils, potentially impacting wellbeing during the transition to **secondary school**. Schools balance this by incorporating interviews and assessment days. Parents should consider exam preparation strategies that prioritise holistic development over intensive 11+ tuition." },
-      { type: "p", text: "While grammar schools rely heavily on the 11 Plus as a transfer test, independent schools have flexibility with multiple choice papers in verbal reasoning, numerical reasoning, and non-verbal reasoning. This allows tailored evaluation beyond maths tests and English tests. Practical advice includes attending school open days to understand the full interview process." },
-      { type: 'table', headers: ["Pros", "Cons"], rows: [["**Academic fit**: Matches high achievers to challenging curricula in HMC schools and GSA institutions.", "**Coaching bias**: Tutoring from agencies skews results, as noted in Sutton Trust 2023 data on access inequalities."], ["**Efficient selection**: Quickly screens applicants for limited places in competitive fee-paying schools.", "**Stress levels**: Child psychology references highlight anxiety from practice tests and **mock exams**."], ["**Proven predictor**: Correlates with success in **GCSEs** for academically able pupils.", "**Narrow assessment**: Focuses on multiple choice formats, overlooking creativity and practical skills."], ["Standardised testing via GL Assessment or CEM Select ensures consistency.", "Coaching inflation disadvantages families without access to **tutor agencies** or **online courses**."], ["Supports selective schools in maintaining high standards and league table positions.", "Limited evaluation of social skills vital for co-educational or **boarding schools**."], ["Facilitates **scholarships** and bursaries for gifted children based on **pass marks**.", "Pressure on **preparatory schools** to drill **bond papers**, reducing play-based learning."], ["Aligns with **UK education system** expectations for academic selection.", "Excludes strong candidates who underperform on exam day due to nerves."]] },
-    ],
-  },
+  "slug": "do-independent-schools-use-the-11-plus",
+  "title": "Do independent schools use the 11 Plus? Entry routes explained",
+  "desc": "Compare independent-school 11 Plus assessments, ISEB Pre-Tests, Common Entrance and consortium routes, with a practical 2027 application checklist.",
+  "date": "August 6, 2025",
+  "readTime": "6 min read",
+  "category": "Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_4.jpeg",
+  "imageAlt": "Do independent schools use the 11 Plus?",
+  "images": [
+    "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_1.jpeg",
+    "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_2.jpeg",
+    "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_3.jpeg",
+    "https://files.autoblogging.ai/images/do-independent-schools-use-the-11-plus(3b2a)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Yes, some independent schools use entrance assessments described as the “11 Plus” for entry around age 11. They do not all use one examination, and a state grammar-school result is not a universal independent-school qualification. Check the process for each school and entry point before choosing preparation materials."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Planning an assessment taken in 2027? Confirm the actual joining year. Autumn 2027 testing commonly relates to entry 2028, while an assessment earlier in 2027 may relate to entry that September. Some tests taken around age 11 are for later Year 9 entry. Guidance checked on 10 October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "The main routes you may encounter"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Route",
+        "What it means",
+        "What to confirm"
+      ],
+      "rows": [
+        [
+          "ISEB Common Pre-Tests",
+          "Shared online adaptive assessments",
+          "Whether used for Year 7 or later Year 9 entry, and the school’s test deadline"
+        ],
+        [
+          "ISEB Common Entrance",
+          "Paper-based examinations, distinct from the Pre-Tests",
+          "Entry age, required papers and any conditional-offer requirements"
+        ],
+        [
+          "Independent-school consortium",
+          "A shared assessment used by named member schools",
+          "Separate school applications, result recipients and interviews"
+        ],
+        [
+          "School-specific assessment",
+          "The school specifies its own combination of tests or activities",
+          "Subjects, format, stages, samples and selection process"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The term “11 Plus” describes an entry stage more readily than a single test specification. A school’s own process may use an external provider alongside interviews or other tasks. There is no reliable universal proportion of schools using each route that a parent needs to memorise."
+    },
+    {
+      "type": "h2",
+      "text": "ISEB Common Pre-Tests"
+    },
+    {
+      "type": "p",
+      "text": "The [ISEB family guide](https://www.iseb.co.uk/assessments/common-pre-tests/for-families/) describes four online adaptive multiple-choice assessments: English, mathematics, verbal reasoning and non-verbal reasoning. Results can be shared with schools requiring them within the relevant testing session. A school may use them for Year 7 admission or as part of a process leading to later Year 9 entry."
+    },
+    {
+      "type": "p",
+      "text": "The current guide covers the 2026–27 testing session. It also tells families to check the senior school’s own deadline, which may fall before the end of the overall testing window. Do not assume an autumn 2027 assessment uses that same session’s registration dates. Follow the new session guidance when published."
+    },
+    {
+      "type": "p",
+      "text": "An adaptive test changes the selection of later questions in response to earlier answers. Use the official familiarisation interface to understand how the child interacts with it. It is not the same experience as working through a fixed printed practice paper."
+    },
+    {
+      "type": "h2",
+      "text": "Common Entrance is a different assessment"
+    },
+    {
+      "type": "p",
+      "text": "[ISEB’s Common Entrance guide](https://www.iseb.co.uk/assessments/common-entrance/for-families/) describes paper-based examinations at 11+ and 13+. At 11+, the subjects are English, mathematics and science. Common Entrance may form part of the conditions attached to a senior-school place; the receiving school determines its requirements."
+    },
+    {
+      "type": "p",
+      "text": "Do not buy “ISEB” resources without checking the full assessment name. A CE science paper is not a fifth component of the Common Pre-Tests, and an online Pre-Test walkthrough does not show the layout of a CE written paper. Ask which test is required, which subjects apply and when the result is needed."
+    },
+    {
+      "type": "h2",
+      "text": "A shared independent-school assessment"
+    },
+    {
+      "type": "p",
+      "text": "The [London 11+ Consortium](https://london11plus.co.uk/) is an example of independent schools sharing an assessment while retaining school-specific admissions steps. Its published current cycle is for entry in September 2027, with tests in late 2026. It uses a bespoke online Quest assessment, with both adaptive and non-adaptive components."
+    },
+    {
+      "type": "p",
+      "text": "Candidates take the assessment once for participating schools to which they are registered, while references and interview arrangements remain part of the school process. This is a current example of how sharing can work, not a confirmed timetable for tests taken in autumn 2027. It is also distinct from state grammar-school consortia in London."
+    },
+    {
+      "type": "h2",
+      "text": "School-specific tests and other stages"
+    },
+    {
+      "type": "p",
+      "text": "For a school outside a shared route, read its own assessment description. It may ask for written English or maths, reasoning, an interview or other activities. Confirm whether these happen together, whether a later stage is by invitation and whether any part of the process is different for the entry point you want."
+    },
+    {
+      "type": "p",
+      "text": "A school with “grammar” in its name is not necessarily a state grammar school. Verify its status and admissions route. Our [grammar and independent-school comparison](/blog/difference-between-grammar-schools-and-independent-schools-11-plus) explains the broader distinction without assuming one sector’s application rules apply to the other."
+    },
+    {
+      "type": "h2",
+      "text": "Does passing a grammar-school test help?"
+    },
+    {
+      "type": "p",
+      "text": "It may show useful learning has taken place, but do not assume that an independent school accepts the result instead of its own assessment. Ask the school directly. The relevant question is not whether two tests both contain maths, but whether the school explicitly accepts that test for the child’s entry cohort."
+    },
+    {
+      "type": "p",
+      "text": "There is also no universal independent-school pass score such as 120. Schools can consider different evidence and use different assessments. A practice score or one school’s threshold does not predict an offer from another."
+    },
+    {
+      "type": "h2",
+      "text": "Make a complete application record"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Record for each school",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "Entry year and year group",
+          "Avoids confusing a test at age 11 with entry at age 13"
+        ],
+        [
+          "Registration deadline and any fee",
+          "School registration may be separate from test registration"
+        ],
+        [
+          "Exact assessment and official familiarisation link",
+          "Identifies the right preparation format"
+        ],
+        [
+          "Test deadline and venue arrangements",
+          "An overall provider window is not necessarily the school’s deadline"
+        ],
+        [
+          "References, interviews and additional stages",
+          "The test may be only part of the decision"
+        ],
+        [
+          "Access-arrangement process and evidence deadline",
+          "Support must be discussed through the stated route"
+        ],
+        [
+          "Bursary or scholarship application requirements",
+          "Separate forms, evidence or deadlines may apply"
+        ],
+        [
+          "Offer conditions and acceptance terms",
+          "Clarifies what the family is being asked to agree to"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Work from the earliest relevant deadline and keep submission confirmations. If a date or rule is not yet published for the 2027 assessment, mark it as awaiting confirmation. Do not simply shift last year’s dates by twelve months."
+    },
+    {
+      "type": "h2",
+      "text": "Prepare for the actual route"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Ask the admissions team for the current test description and official sample or walkthrough.",
+        "Identify the subjects and response formats the child needs to practise.",
+        "Use short learning activities to address specific gaps before deciding whether a full rehearsal is useful.",
+        "For an interview or activity, help the child listen, explain their thinking and discuss genuine interests; follow the school’s preparation advice.",
+        "Review the plan when updated instructions arrive, keeping ordinary schoolwork, interests and rest in view."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A sample demonstrates some aspects of a format; it is not necessarily a past live exam or an exhaustive syllabus. Our [free resources guide](/blog/free-11-plus-resources-and-websites) separates official familiarisation from publisher samples and paid trials. Use the [response-format guide](/blog/11-plus-exam-format-multiple-choice-or-written) to distinguish written, multiple-choice and digital practice."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "what-happens-if-my-child-fails-the-11-plus",
-    title: "What happens if my child fails the 11 Plus?",
-    desc: "Worried about what happens if your child fails the 11 Plus? Explore emotional impacts, grammar vs comprehensive schools, placement processes, appeals, and resits. Discover proven paths to success and reassuring outcomes today.",
-    date: "August 13, 2025",
-    readTime: "11 min read",
-    category: "Results",
-    imageUrl: "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_4.jpeg",
-    imageAlt: "What happens if my child fails the 11 Plus?",
-    images: ["https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_1.jpeg", "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_2.jpeg", "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_3.jpeg", "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding the 11 Plus Exam" },
-      { type: "p", text: "The 11 Plus exam, taken by Year 6 pupils in September, assesses cognitive abilities through four core sections: **Verbal Reasoning** (29%), Non-Verbal Reasoning (29%), Maths (21%), and English (21%) using GL Assessment or CEM Select formats. Each section lasts 45-60 minutes, with formats ranging from multiple choice to standard written answers. Pass marks vary by region, often between 110 and 121 once [scores are standardised and marked](/blog/how-is-the-11-plus-scored-and-marked)." },
-      { type: "p", text: "Parents should note that only around **163 grammar schools** remain in the UK, making the selection process highly competitive. The exam acts as an **IQ test** of sorts, focusing on reasoning rather than rote learning. Understanding this structure helps in 11+ preparation." },
-      { type: "p", text: "Timing matters for Year 7 transition. Results determine entry to **grammar schools** or other selective schools. If a child does not pass, options like **comprehensive schools** or appeals provide alternatives." },
-      { type: "p", text: "Familiarity with **exam boards** like GL Assessment aids practice. [Mock exams](/mock-exams) build resilience against exam pressure. This knowledge eases **parental stress** during the process." },
-      { type: "h3", text: "What the 11 Plus Tests" },
-      { type: "p", text: "GL Assessment format includes **80 Verbal Reasoning questions** (code-breaking, synonyms) and 80 Non-Verbal Reasoning (shapes, patterns), while CEM Select emphasizes comprehension and maths problem-solving without prior topic knowledge. Verbal Reasoning covers 21 question types, such as analogies and word pairs. Practice with Bond Assessment Papers sharpens these skills." },
-      { type: "p", text: "**Non-Verbal Reasoning** involves 12 pattern types, including sequences and rotations. Pupils identify shapes and spatial relationships. CGP 11+ books offer targeted exercises for this section." },
-      { type: "p", text: "The **Maths test** draws from Year 5/6 curriculum plus puzzles like sequences and measures. No calculator is allowed, testing mental agility. English focuses on **comprehension** with 350-word passages and spelling tasks." },
-      { type: "ul", items: ["Trafford requires a **pass mark of 121**.", "Barnet sets it at **110**.", "Other areas adjust based on **oversubscription** and admissions criteria."] },
-      { type: "h2", text: "Immediate Emotional Impact" },
-      { type: "p", text: "Failing the **11 Plus** triggers immediate emotional responses in both children and parents. Parents often feel **disappointment** as they process the shift from grammar school hopes to other secondary school options. Children may show sadness or confusion right after exam results." },
-      { type: "p", text: "Research suggests many families face parental stress during this **Year 6 to Year 7 transition**. Girls tend to display greater resilience than boys in handling 11+ failure. This emotional hit affects family dynamics around school places and admissions criteria." },
-      { type: "p", text: "Experts recommend open talks to ease **child anxiety**. Acknowledge feelings without dwelling on the **grammar school entrance** miss. Transition to non-selective schools can open new paths like comprehensive school advantages." },
-      { type: "p", text: "Prepare for reactions by discussing **alternatives to grammar school** early. This builds resilience and reduces exam pressure fallout. Focus on future opportunities beyond the **11+ test**." },
-      { type: "h3", text: "Common Reactions from Children" },
-      { type: "p", text: "Children aged 10-11 often react strongly to failing the 11 Plus. Common responses include withdrawal, anger, and physical complaints after **exam results**. Parents notice these during the secondary transfer period." },
-      { type: "p", text: "Use these strategies for specific reactions:" },
-      { type: "ul", items: ["**Tears and sadness**: Offer reassurance with scripts like \"This result does not define your future.\" Hug and validate emotions to rebuild confidence.", "**\"Why me?\" questioning**: Introduce growth mindset phrases, such as \"Effort matters more than one test.\" Research from experts like Carol Dweck supports this approach.", "**Academic disengagement**: Set small Year 7 goals, like completing one maths task daily. Track progress to restore motivation.", "**Sibling rivalry**: Hold family meetings to discuss fairness in school choices. Highlight each child's strengths.", "**Long-term anxiety**: Watch for signs needing CAMHS referral, like ongoing sleep issues. Use coping worksheets from groups like the Child Mind Institute."] },
-      { type: "p", text: "These interventions help pupils adjust to **comprehensive school** or other options. Encourage **resilience** through routine and positive reinforcement. Parental involvement eases the shift from 11+ preparation to new beginnings." },
-      { type: "h2", text: "Grammar vs Comprehensive School Options" },
-      { type: "p", text: "Grammar schools admit top performers in the 11 Plus exam, where data shows strong academic outcomes compared to comprehensives. Ofsted ratings highlight grammar schools at 22% Outstanding versus **12% for comprehensives**. The Sutton Trust report notes benefits for disadvantaged pupils, with up to **18 months extra progress** in selective settings." },
-      { type: "p", text: "This sparks debate on **social mobility** in the UK education system. Parents weigh grammar school entrance against comprehensive options after **fail 11 Plus** results. Selective schools prioritise academic stream, while non-selective schools offer mixed ability support for year 7 transition." },
-      { type: "p", text: "Exam results influence school places through **catchment area** and oversubscription rules. Families consider alternatives to grammar school, like appeals or waiting lists. Transitioning to secondary school involves balancing academic performance with pupil needs, such as SEN provision." },
-      { type: "p", text: "Real examples clarify choices. A selective school might suit a **gifted child**, while a comprehensive aids underachievers building resilience. Parents facing **11+ failure** explore comprehensive advantages in extracurriculars and broader social mix." },
-      { type: "h3", text: "Differences in Curriculum and Opportunities" },
-      { type: "p", text: "Grammar schools offer **accelerated curricula** with a focus on core subjects from year 7. They emphasise setting by ability early, preparing pupils for GCSE rigour. This suits students who passed the 11+ test but leaves others seeking comprehensive paths." },
-      { type: 'table', headers: ["Aspect", "Grammar School", "Comprehensive School"], rows: [["GCSE Achievement", "High rates of 5+ strong passes", "Varied outcomes across abilities"], ["University Applications", "Strong focus on top unis like Oxbridge", "Balanced pathways including apprenticeships"], ["Teaching Structure", "Setting from Year 7", "Mixed ability groups"], ["Facilities", "Specialist labs, sixth forms common", "Broader extracurricular options"]] },
-      { type: "p", text: "For instance, Wilson's School achieves top GCSE grades, contrasting local comprehensives with diverse results. Grammar environments boost **academic performance** via IQ test-like rigour in verbal reasoning and maths. Comprehensives excel in holistic development." },
-      { type: "ul", items: ["**Opportunity gaps** include limited arts in grammars versus comprehensive variety.", "Selective schools prioritise STEM, with more sciences offered.", "Grammars often have better A-level prospects for university admission.", "Comprehensives provide stronger SEN support and pupil premium focus.", "Parental choice weighs exam pressure against social mobility in non-selective settings."] },
-      { type: "h2", text: "Secondary School Placement Process" },
-      { type: "p", text: "The **School Admissions Code 2021** sets out the statutory process for allocating secondary school places in England. Local authorities coordinate parental preferences for up to **6 schools**, using an equal preference system with published admissions criteria. These prioritise looked-after children, catchment areas, and distance from home." },
-      { type: "p", text: "Each year, around **82,000 pupils take the 11 Plus exam**, but only about 24,000 secure grammar school places. This leaves many families navigating alternatives like comprehensive schools. The Sutton Trust's report on Fairness in school admissions highlights ongoing debates about equity in selective education." },
-      { type: "p", text: "If a child fails to pass the 11+ test, the local authority still assigns a secondary school place based on preferences and availability. Parents should rank grammar schools first, followed by comprehensive schools as safety options. Local rules vary, so checking specific criteria is key during Year 6." },
-      { type: "p", text: "Understanding this process reduces parental stress after exam results. It ensures every pupil transitions to Year 7, often in a non-selective school with strong academic streams or setting. Options like waiting lists or appeals provide further chances post-allocation." },
-      { type: "h3", text: "Local Authority Allocation Rules" },
-      { type: "p", text: "Birmingham LA ranks: 1) Looked-after children, 2) Pupil Premium plus score, 3) Distance with a 1.2 miles cutoff in 2023, 4) Siblings. These **admissions criteria** handle oversubscription after the 11+ qualifying score. Parents list preferences strategically to maximise chances across selective and non-selective options." },
-      { type: "p", text: "Common hierarchies differ by area. For example, **Kent uses a 116 score cutoff**, Trafford requires 121 plus 0.8 miles proximity, and Barnet employs random allocation for ties. Each local authority publishes these rules, often with online admissions calculators for scenario planning." },
-      { type: "ul", items: ["List **grammar schools first** if hoping for selective entry, even after a fail 11 Plus.", "Add comprehensive schools lower down as safety nets with good Ofsted ratings.", "Include schools in the catchment area to leverage distance priority.", "Check sibling policy early, as it boosts chances in oversubscribed cases."] },
-      { type: "p", text: "DfE adjudications resolve disputes over criteria fairness. If unsuccessful, explore **waiting lists**, appeal processes, or retake 11 Plus options in some areas. This approach supports resilience, focusing on the child's overall academic performance beyond one exam." },
-      { type: "h2", text: "Appeals and Waiting Lists" },
-      { type: "p", text: "Parents have **20 school days** to appeal grammar school refusals after 11 Plus results. These appeals go before an independent panel of three members who review cases under School Admissions Code Rule 2.15. Near-miss scores often form the basis for success, so it pays to understand [how to appeal a result or school allocation](/blog/how-to-appeal-an-11-plus-result-or-school-allocation)." },
-      { type: "p", text: "Automatic waiting lists rank pupils by original admissions criteria like distance or siblings. Parents should join these lists for selective schools while pursuing appeals. This dual approach keeps options open during the **Year 7 transition**." },
-      { type: "p", text: "Success in appeals hinges on strong evidence of academic potential and procedural errors. Panels consider the child's overall suitability for grammar school entrance. Many families also explore comprehensive schools as reliable alternatives if appeals fail." },
-      { type: "p", text: "Understanding oversubscription and catchment areas helps parents prepare. Local authority portals provide updates on waiting list movements. Patience proves key as places sometimes open later in the summer term." },
-      { type: "h3", text: "How to Successfully Appeal a Decision" },
-      { type: "p", text: "Winning appeals require **score proximity** to the pass mark, new medical evidence, and proof of school oversubscription from published admission numbers. Parents must show the child would thrive in a grammar school setting. Focus on facts over emotions during preparation." },
-      { type: "ol", items: ["Submit the appeal within 20 school days through your local authority portal, noting all deadlines carefully.", "Gather evidence such as tutor statements on mock 11+ scores, recent practice papers, and SEN reports if applicable.", "Practice your **panel presentation** to fit within 10 minutes, rehearsing clear points with your child if they attend.", "Use templates from the Advisory Centre for Education to structure your written submission effectively."] },
-      { type: "p", text: "A Birmingham parent succeeded in 2023 with a one-mark shortfall plus a fresh dyslexia diagnosis, proving the pupil's potential despite the 11+ test score. Such cases highlight how **new evidence** sways panels. Always tie evidence to the school's selection process." },
-      { type: "p", text: "Common mistakes include missing deadlines, vague arguments, or ignoring admissions criteria. Avoid emotional pleas alone; pair them with data on academic performance. Experts recommend reviewing Ofsted ratings and GCSE results to argue fit for selective education." },
-      { type: "h2", text: "Alternative Pathways Forward" },
-      { type: "p", text: "Comprehensive schools with **top sets** achieve comparable GCSE results to grammars, while private schools offer 11+ retake preparation with strong Year 8 entry success. Schools like Cheney School show pupils in selective streams matching **grammar school performance**. The tutoring market supports parents seeking to boost their child's chances after failing the 11 Plus exam." },
-      { type: "p", text: "These options provide **alternative pathways** to selective education. Parents can explore resits, appeals, or non-selective schools with advanced streams. Independent schools often accept transfers later, easing the pressure of Year 6 **secondary transfer**." },
-      { type: "p", text: "**Private tutoring** plays a key role in preparation for retakes. With many grammars allowing second chances, families focus on targeted **11+ tuition**. This approach builds pupil resilience and addresses gaps in verbal reasoning or maths." },
-      { type: "p", text: "Local authority admissions criteria vary, including catchment area and sibling policy. Comprehensive advantages include diverse social settings and SEN provision. Parents weigh these against grammar school benefits for long-term academic performance." },
-      { type: "h3", text: "Private Tutoring and Resits" },
-      { type: "p", text: "11+ tutoring averages \u00a335-\u00a355 per hour, helping many pupils improve after failing the initial 11+ test. Bonded 18-month packages target weak areas like non-verbal reasoning or English. A hybrid approach with online sessions and mocks prepares children effectively for resits." },
-      { type: "p", text: "Seventeen grammars permit [retake 11 Plus](/blog/can-my-child-retake-the-11-plus) opportunities, often in Year 8. Tutors use practice papers from CEM Select or GL Assessment to simulate exam conditions. This builds confidence and reduces **exam pressure** for underachievers." },
-      { type: 'table', headers: ["Provider", "Cost", "Format", "Resit Support"], rows: [["Tutorful", "\u00a332/hr", "One-to-one", "Flexible mocks"], ["Atom Learning", "\u00a348/mo", "Online", "Adaptive tests"], ["Bonded Courses", "\u00a3199/mo", "Hybrid", "Year 8 prep"], ["Explore Learning", "\u00a3140/mo", "Centre-based", "Group resits"], ["Kumon", "\u00a3110/mo", "Maths focus", "Ongoing drills"]] },
-      { type: "p", text: "Research like the IES study on Does tutoring work? highlights benefits for motivated pupils. Parents combine providers for personalised **11+ preparation**, tracking progress with Bond papers. This supports grammar school entrance without overwhelming the child." },
-      { type: "h2", text: "Long-Term Academic Outcomes" },
-      { type: "p", text: "Grammar school pupils achieve stronger academic progress compared to those in comprehensives, with research suggesting notable advantages by GCSE and beyond. Studies like Greene et al. (2018) 'Grammar schools in England' highlight differences in **A-level performance**, where grammar attendees often secure higher grades. This can shape university entry, including to **prestigious institutions**." },
-      { type: "p", text: "Longitudinal data points to grammar pupils reaching **AAB+ at A-levels** more frequently than comprehensive peers. Oxbridge entry rates also differ markedly, with grammar schools showing higher proportions. These trends reflect the **selective education** environment's focus on academic rigour from Year 7." },
-      { type: "p", text: "For **disadvantaged grammar pupils**, mobility analysis indicates gains like improved grades over time. This underscores social mobility benefits in the **UK education system**. Yet, outcomes depend on individual fit beyond school type." },
-      { type: "p", text: "Parents facing **11 Plus failure** should weigh **academic fit over status**. Consider your child's strengths in a non-selective school, where setting and streams support growth. Prioritise resilience and motivation for long-term success." },
-    ],
-  },
+  "slug": "what-happens-if-my-child-fails-the-11-plus",
+  "title": "What happens if my child does not pass the 11 Plus?",
+  "desc": "Understand non-qualification, reviews, appeals, waiting lists and alternative school choices, with a practical next-step plan for 2027 exam families.",
+  "date": "August 13, 2025",
+  "readTime": "4 min read",
+  "category": "Results",
+  "imageUrl": "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_4.jpeg",
+  "imageAlt": "What happens if my child fails the 11 Plus?",
+  "images": [
+    "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_1.jpeg",
+    "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_2.jpeg",
+    "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_3.jpeg",
+    "https://files.autoblogging.ai/images/what-happens-if-my-child-fails-the-11-plus(qmli)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "If your child does not reach a grammar school’s qualifying standard, keep their wider secondary-school application moving while you check any review or appeal options. An unsuccessful test result is not the same as a school-place refusal, and a waiting list or another test is not an automatic way around the result."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This guide helps families planning exams taken in 2027, usually for September 2028 entry. Exact future review and appeal dates must come from that intake’s official instructions. Sources checked on 10 October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "First establish what the result actually says"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Situation",
+        "What to check next"
+      ],
+      "rows": [
+        [
+          "Below the qualifying standard",
+          "Whether there is a local review, an error-checking process or another provision in the school’s policy."
+        ],
+        [
+          "Qualified, but no place offered",
+          "The school’s oversubscription rules, waiting-list process and right of appeal against refusal."
+        ],
+        [
+          "A suspected marking or administration error",
+          "The organiser’s published enquiry procedure and deadline; preserve the result and relevant correspondence."
+        ],
+        [
+          "The child did not take the test",
+          "Any authorised late-testing route. This is different from asking to repeat a completed test."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Read the exact wording rather than treating every disappointing score or rank as a “fail”. A qualifying result means different things in different systems, and it can leave a child eligible for consideration without an offer."
+    },
+    {
+      "type": "h2",
+      "text": "Protect the ordinary school application"
+    },
+    {
+      "type": "p",
+      "text": "Continue researching schools your child could attend and submit the home-council application on time. [GOV.UK’s application guidance](https://www.gov.uk/schools-admissions/how-to-apply) gives 31 October as the secondary application deadline. For the usual September 2028 intake, that is 31 October 2027. Check local instructions about naming a grammar school if you intend to challenge a later refusal."
+    },
+    {
+      "type": "p",
+      "text": "List schools in your genuine preferred order and include realistic choices you would be willing to accept. Do not leave other preferences empty in the hope that this forces a grammar-school offer. If an offer has already arrived, respond by its stated deadline while pursuing any permitted review, waiting-list or appeal route."
+    },
+    {
+      "type": "h2",
+      "text": "A local review and an admission appeal are different"
+    },
+    {
+      "type": "p",
+      "text": "Some areas offer a review of academic suitability before school offers. For example, [Buckinghamshire’s published Selection Review guidance](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/selection-review/) describes a written case supported by academic evidence and relevant circumstances. Its current timetable is for September 2027 entry, not the 2027 test cohort. A successful review establishes qualification; it does not promise a particular school place."
+    },
+    {
+      "type": "p",
+      "text": "An admission appeal challenges a refusal of a school place. [The Department for Education’s parent guidance](https://www.gov.uk/government/publications/admission-appeals-for-school-places/advice-for-parents-and-guardians-on-school-admission-appeals) explains that an appeal involving non-qualification needs evidence of the required academic standard. Where a local review has occurred, its fairness, consistency and objectivity can affect what the appeal panel may consider. Read that consequence before choosing a review route."
+    },
+    {
+      "type": "p",
+      "text": "Follow the refusal letter and the relevant timetable. A near-miss score alone does not establish that an appeal will succeed. School reports or a teacher’s evidence may help address academic suitability; evidence of an incident should explain what actually happened and why it is relevant. Do not invent a diagnosis or rely on another family’s result as a precedent."
+    },
+    {
+      "type": "h2",
+      "text": "Can we join a grammar-school waiting list?"
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s waiting-list guidance](https://www.gov.uk/schools-admissions/school-waiting-lists) confirms that holding an offer at another school does not prevent joining a waiting list. However, a grammar school’s eligibility rules still matter: a list is not automatically open to every child who did not qualify. Ask the admission authority whether your child is eligible and whether a separate request is needed."
+    },
+    {
+      "type": "p",
+      "text": "A waiting-list position can change as applicants join or leave and the school applies its rules. Do not promise your child that waiting long enough will produce a place."
+    },
+    {
+      "type": "h2",
+      "text": "What about another test or a later entry point?"
+    },
+    {
+      "type": "p",
+      "text": "Do not assume a completed 11 Plus can be repeated for a higher mark. Some schools offer a separate later-year admission route, depending on eligibility and vacancies. That is a different application, not a guaranteed second chance. Use [the retake guide](/blog/can-my-child-retake-the-11-plus) to distinguish these routes before arranging more preparation."
+    },
+    {
+      "type": "h2",
+      "text": "Help your child see a workable next step"
+    },
+    {
+      "type": "p",
+      "text": "Allow space for disappointment without describing your child as a failure. A useful conversation is: “This was not the result we hoped for. We will check the options, and we will find out more about the schools you could attend.” Avoid making an appeal the condition for being happy at secondary school."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Keep the result, policy, application confirmation and relevant correspondence together.",
+        "Write down the next deadline, the responsible organisation and the specific question to resolve.",
+        "Speak with the current teacher about academic evidence if a review or appeal is being considered.",
+        "Visit alternative schools and ask about teaching, support, activities and transition.",
+        "Include your child in the next-school discussion without making them responsible for admissions paperwork."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For detailed procedure, read [how to appeal an 11 Plus result or school allocation](/blog/how-to-appeal-an-11-plus-result-or-school-allocation). Keep the immediate goal practical: a timely application and a school where your child can settle and learn."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "can-my-child-retake-the-11-plus",
-    title: "Can my child retake the 11 Plus?",
-    desc: "Wondering if your child can retake the 11 Plus after missing a grammar school spot? Explore standard rules, UK regional variations, age limits, academic thresholds, procedural needs, and registration steps. Get expert insights to decide confidently.",
-    date: "August 20, 2025",
-    readTime: "8 min read",
-    category: "Results",
-    imageUrl: "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_4.jpeg",
-    imageAlt: "Can my child retake the 11 Plus?",
-    images: ["https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_1.jpeg", "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_2.jpeg", "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_3.jpeg", "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The **11 Plus exam**, taken by Year 6 pupils (age 10-11), assesses suitability for **grammar schools** through 4 core sections: English (25-30 questions), Maths (30 questions), Verbal Reasoning (80 questions), and Non-Verbal Reasoning (80 questions), lasting 2-2.5 hours total. This selective school exam helps determine secondary school admission. Parents often start 11+ preparation in Year 5." },
-      { type: "p", text: "DfE data lists **163 grammar schools** in England, with an average 30% pass rate. The exam varies by region and provider. Common formats include GL Assessment and **CEM** styles." },
-      { type: "p", text: "GL Assessment uses multiple choice questions, popular nationally at about 50% of tests. **CEM exams** feature longer comprehension passages, common in the North. Regional providers like CSSE and **SET** set their own papers." },
-      { type: 'table', headers: ["Section", "Questions", "Time", "Format", "Sample Question Type"], rows: [["English", "25-30", "25-30 mins", "Multiple choice or short answer", "Comprehension passage with inference questions"], ["Maths", "30", "30 mins", "Multiple choice or written", "Word problems on fractions or geometry"], ["Verbal Reasoning", "80", "30 mins", "Multiple choice", "Code breaking or synonym matching"], ["Non-Verbal Reasoning", "80", "30-40 mins", "Multiple choice", "Pattern sequences or shape rotation"]] },
-      { type: "p", text: "Practice with **CGP 11+ books** offers example papers for CSSE and SET. These match real tests in areas like Kent or Essex. Experts recommend [11+ mock exams](/mock-exams) to build familiarity." },
-      { type: "h2", text: "Standard Rules for Retaking the 11 Plus" },
-      { type: "p", text: "Most grammar school consortia allow only one 11+ attempt per child, but some selective areas permit retakes under specific conditions like illness or school transfer. The **1988 Education Reform Act** sets a UK-wide default with no automatic retake rights. Parents often face confusion over **regional 11+ rules**." },
-      { type: "p", text: "Key exam boards enforce strict **retake policies**. GL Assessment bans retakes in the same year, while CEM Select limits options to appeals. CSSE allows just one lifetime attempt per child." },
-      { type: "p", text: "Understanding these helps with **11+ preparation**. Check your local consortium early to avoid surprises. Parental forums like Mumsnet highlight common unawareness of these rules." },
-      { type: 'table', headers: ["Consortium", "Retake Allowed", "Conditions", "Examples"], rows: [["GL Assessment", "No", "Same year prohibited", "Birmingham 11+, Trafford 11+"], ["CEM Select", "Appeals only", "Illness or SEN proof", "Kent 11+, Barnet 11+"], ["CSSE", "One lifetime", "No repeats", "Sutton 11+, Redbridge 11+"], ["GMCA", "Limited", "Early entry exceptions", "Stockport 11+, Altrincham 11+"]] },
-      { type: "p", text: "This table outlines major rules for grammar school entrance. Always verify with your local authority for **11+ registration** details. Expert guidance recommends early checks on **exam board rules**." },
-      { type: "h3", text: "Age and Year Group Limits" },
-      { type: "p", text: "Children must be in **Year 6** (born between 1 September 2011 and 31 August 2012 for 2024 exams) with no eligibility after September Year 7 start. Strict **age cutoffs** apply based on exam date. Test in September requires birth on or after 1 September 2012." },
-      { type: "p", text: "For October tests, the cutoff shifts to **1 October 2012**. Exceptions include four-month early entry under GMCA rules or SEN accommodations. DfE guidance states no late birthdays after cut-off." },
-      { type: "p", text: "A real example is Birmingham 2023 rejecting a **12-year-old retaker**. This shows how **11+ age limits** block late attempts. Parents should confirm with their primary school early." },
-      { type: "ul", items: ["Verify birth date against **local 11+ deadline**.", "Prepare for **Year 5** mocks to test readiness.", "Seek **11+ tutoring** if considering exceptions like illness.", "Explore [what happens if a child does not pass](/blog/what-happens-if-my-child-fails-the-11-plus), including comprehensive schools, if retake limits apply."] },
-      { type: "p", text: "These steps ensure compliance with **secondary school admission** rules. Focus on **11+ practice papers** within eligible years for best chances." },
-      { type: "h2", text: "Regional Variations Across the UK" },
-      { type: "p", text: "England has **36 selective grammar areas** with wildly different retake policies. Kent allows appeals while Birmingham permits none. This creates confusion for families facing the **11+ exam**." },
-      { type: "p", text: "In Kent Test areas, children can appeal low **11+ scores** or join waiting lists. Birmingham's **Queen Mary's Grammar** enforces a strict no-retake rule after one attempt. Trafford limits pupils to one 11+ test per cycle." },
-      { type: "p", text: "Parents must check **local authority guidelines** early for 11+ registration and deadlines. Registration bodies vary, such as Kent's test provider versus Trafford's council process. Pass marks differ too, like **120 out of 141** in Kent." },
-      { type: 'table', headers: ["Area", "Grammar Schools", "Retake Policy", "Registration Body", "Pass Mark"], rows: [["Kent", "38 schools", "Appeals allowed", "Kent Test Office", "120/141"], ["Birmingham", "8 schools", "No retake", "Local schools", "Varies"], ["Trafford", "4 schools", "One attempt", "Trafford Council", "121 combined"], ["Buckinghamshire", "13 schools", "One test", "Bucks Council", "121"]] },
-      { type: "p", text: "Use resources like grammarsearch.co.uk for map data on these regional 11+ rules. This helps plan 11+ preparation and avoid surprises in Year 6." },
-      { type: "h3", text: "Selective Areas (Grammar Schools)" },
-      { type: "p", text: "23 local authorities have grammars: Kent with 38 schools and a standardised **121 score**, Bucks with 13 schools at 121 combined, Trafford with 4 schools and no retake. Families need to grasp **retake rules** for each." },
-      { type: "p", text: "Sutton has 5 grammars where Wilson's School offers waiting lists after the **11+ test**. Redbridge allows one attempt only across its grammars. Barnet's single test serves 5 grammars, simplifying but limiting **11+ retakes**." },
-      { type: 'table', headers: ["Authority", "Schools", "Retake Rules", "Score Requirements", "2023 Notes"], rows: [["Sutton", "5", "Waiting lists", "Varies", "Appeals common"], ["Redbridge", "4", "One attempt", "High threshold", "No resits"], ["Barnet", "5", "One test", "Consortium score", "Shared exam"], ["Kent", "38", "Appeals", "121", "High volume"]] },
-      { type: "p", text: "Review individual LA admissions codes for details on **CEM exam** or GL Assessment. Prepare with 11+ practice papers and mocks to meet score needs. Consult parent forums for 11+ advice on these areas." },
-      { type: "h3", text: "Non-Selective Areas" },
-      { type: "p", text: "Most of England has no grammars. London boroughs like **Camden**, Manchester, and comprehensive-only systems make the 11+ exam irrelevant for secondary places." },
-      { type: "p", text: "Major non-selective cities include **London** (many boroughs grammar-free), Manchester, Liverpool, Newcastle. Admissions rely on **distance criteria**, often under 1 mile for offers." },
-      { type: "ul", items: ["**Sibling priority** boosts chances for brothers or sisters already enrolled.", "**Faith schools** prioritise religious criteria.", "**Headteacher assessment** may apply in some cases."] },
-      { type: "p", text: "With comprehensives dominant nationally, focus on strong primary school records. Explore **independent schools** or academic streaming as alternatives to grammar entry. Experts recommend early discussions with current schools for secondary school admission options." },
-      { type: "h2", text: "Academic and Procedural Requirements" },
-      { type: "p", text: "Retake eligibility requires **original score \u2265105/141 (GL scaled)** plus headteacher recommendation. Procedural needs include illness evidence or school move post-September 1. These rules ensure fairness in the **11+ retake** process for grammar school entrance." },
-      { type: "p", text: "**Academic thresholds** vary by exam board. For GL Assessment, children need 110+ standardised score. CEM exams require top 30% performance to qualify for retaking the **11 Plus**." },
-      { type: "p", text: "**Procedural requirements** demand a GP note for medical issues or a school letter for moves. Headteachers assess cases individually, often considering exam anxiety or family circumstances. This supports children facing barriers in the **selective school exam**." },
-      { type: "p", text: "Schools may refuse retakes, with rates varying by region like Kent or Birmingham. Parents should check regional 11+ rules early. Preparing with 11+ practice papers helps meet these standards." },
-      { type: 'table', headers: ["Raw Score (out of 120)", "Standardised Score (GL)"], rows: [["75", "110"], ["80", "115"], ["85", "120"], ["90", "125"]] },
-      { type: "p", text: "This score conversion table shows typical GL thresholds, based on [how the 11 Plus is scored and marked](/blog/how-is-the-11-plus-scored-and-marked). Use it to gauge 11+ results for retake chances. Focus on 11+ tutoring to boost scores next time." },
-      { type: "h3", text: "Academic Thresholds" },
-      { type: "p", text: "Meeting **academic thresholds** is key for **child retake 11 Plus**. GL requires 110+ standardised, while CEM targets top 30%. These ensure only suitable candidates proceed to grammar school." },
-      { type: "p", text: "For Year 6 pupils, raw scores convert to standardised marks. A raw 75/120 equals 110 GL, hitting the minimum. Practice **verbal reasoning** and **numerical reasoning** to reach this." },
-      { type: "p", text: "CSSE or SET exams have unique pass marks. Check exam board rules for Buckinghamshire or Trafford. 11+ mock exams reveal if your child meets the bar." },
-      { type: "p", text: "Low initial scores from stress prompt retakes. Experts recommend **11+ coaching** post-failure. This builds confidence for secondary school admission." },
-      { type: "h3", text: "Procedural Requirements" },
-      { type: "p", text: "Procedural requirements include headteacher approval and evidence. Submit GP notes for illness or letters for school changes after September 1. This upholds **retake policy** integrity." },
-      { type: "p", text: "Parents must register by **11+ deadline**, paying exam fees. Late entries need compassionate grounds like bereavement. Local authorities oversee consortium exams in areas like Sutton." },
-      { type: "p", text: "Contact schools for headteacher assessment. Provide details on **exam accommodations** for dyslexia or ADHD. This aids fair **11+ resit** access." },
-      { type: "p", text: "Track **school specific rules** in Redbridge or Barnet. Parental forums offer insights on approvals. Prepare documentation early for smooth processing." },
-      { type: "h2", text: "Registration Process for Retakes" },
-      { type: "p", text: "Retake registration mirrors first attempt: Apply via school or local authority by June 30 deadline, \u00a320-\u00a385 fee, submit within 14 days of appeal approval. Parents must follow a clear sequence to secure a spot for their child's 11+ retake. This ensures eligibility for **grammar school entrance** in selective areas." },
-      { type: "p", text: "First, [appeal the original result](/blog/how-to-appeal-an-11-plus-result-or-school-allocation) within 7 days of receiving 11+ scores. Contact the testing body or local authority promptly with any concerns about the **11+ score** or process. This step opens the door for a potential retake." },
-      { type: "p", text: "Next, submit **medical evidence** to the local authority if illness affected performance. Include a GP letter detailing the issue during the 11+ test. Approval here is key for compassionate retakes." },
-      { type: "p", text: "Then, register through the **school portal** like Unicom or MIS. Pay the fee, such as \u00a352 in Kent or \u00a385 in Bucks. Expect confirmation within 4 weeks." },
-      { type: "ol", items: ["Appeal original result within **7 days**.", "Submit medical evidence to local authority.", "Register via school portal (Unicom/MIS).", "Pay **registration fee** (\u00a352 Kent, \u00a385 Bucks).", "Receive **confirmation** in 4 weeks."] },
-      { type: "p", text: "Common errors include missing GP signature on evidence, leading to rejections. Double-check all documents for 11+ registration. Consult parent forums for regional tips on **retaking 11 Plus**." },
-      { type: "h3", text: "Deadlines and Fees" },
-      { type: "p", text: "Standard deadline is June 30; late entry **\u00a325 surcharge** until July 31; compassionate retakes for illness or death accepted until test date with evidence. These rules vary by area for the 11+ retake. Families in Kent or Bucks face specific timelines." },
-      { type: "p", text: "Registration often opens April 15 and closes June 28 in areas like Bucks. Check your **local authority 11+** website for the 2024 calendar. Missing deadlines risks missing grammar school places." },
-      { type: "p", text: "Fees depend on the region and entry type. For example, Kent charges \u00a312 for standard registration, while Birmingham is \u00a370. Trafford offers free retakes via school in some cases." },
-      { type: 'table', headers: ["Area", "Registration Fee", "Late Fee", "Retake Surcharge"], rows: [["Kent", "\u00a312", "\u00a325", "\u00a352 total"], ["Birmingham", "\u00a370", "\u00a325", "Applied"], ["Trafford", "Free via school", "Varies", "None"], ["Bucks", "\u00a385", "\u00a325", "Included"]] },
-      { type: "p", text: "Pay promptly to avoid extras. For **compassionate retakes**, gather evidence like bereavement letters early. This supports children facing exam anxiety or illness during the original selective school exam." },
-      { type: "h2", text: "Preparation Strategies for Retakes" },
-      { type: "p", text: "Focus on a **12-week targeted practice** plan for your child's 11+ retake: complete 3x weekly mocks using Atom Learning, schedule tutor sessions for 2 hours per week at around \u00a340 per hour, and prioritise drills in weak areas like verbal reasoning or non-verbal reasoning with Bond 11+ books." },
-      { type: "p", text: "This structured approach helps build confidence for the grammar school entrance exam. Parents often see progress by addressing specific gaps in English 11+ or maths 11+ early. Adjust based on your child's **11+ results** from the first attempt." },
-      { type: "p", text: "Incorporate daily practice with 11+ practice papers from CGP, which many families find effective for familiarising with GL Assessment or CEM exam formats. Combine this with online platforms like PreTest for adaptive questions. Track improvement through weekly reviews to stay on course for the **11+ pass mark**." },
-      { type: "p", text: "For 11+ tutoring, use directories averaging \u00a335 per hour in Greater London to find local experts familiar with regional rules like Kent 11+ or Birmingham 11+. Experts recommend balancing practice with rest to reduce **exam anxiety**. This plan suits Year 6 pupils aiming for state grammar or independent schools." },
-      { type: "h3", text: "12-Week Preparation Plan" },
-      { type: 'table', headers: ["Weeks", "Focus Areas", "Key Activities"], rows: [["1-4", "Diagnostics + English", "Initial assessments, daily English drills, CGP practice papers for comprehension and vocabulary."], ["5-8", "Maths + Verbal Reasoning", "Maths problem-solving, VR multiple choice practice, Bond books for numerical reasoning."], ["9-12", "Mocks + Non-Verbal Reasoning", "Full 11+ mock exams, NVR puzzles, review errors with tutor feedback."]] },
-      { type: "p", text: "This **12-week plan** divides preparation into clear phases for **selective school exams**. Start with diagnostics to identify weaknesses in areas like non-verbal reasoning. Parents report better focus when following such timelines." },
-      { type: "p", text: "During weeks 1-4, use diagnostics to pinpoint issues from prior **low 11+ score**. Dedicate time to English comprehension and spelling. Resources like CGP papers help simulate real test conditions." },
-      { type: "p", text: "Weeks 5-8 target maths and verbal reasoning, common in CSSE or SET exams. Practice mental arithmetic and code-breaking questions daily. Integrate tutor sessions for personalised 11+ coaching." },
-      { type: "p", text: "Final weeks emphasise mocks and NVR, vital for Trafford 11+ or Sutton 11+. Analyse every mock to improve 11+ score. This builds stamina for the full **eleven plus** duration." },
-      { type: "h3", text: "Recommended Resources" },
-      { type: "p", text: "Choose accessible tools for 11+ preparation like CGP Practice Papers, PreTest Online at \u00a312 per month, and tutors via 11+ Tutors Directory averaging \u00a335 per hour in Greater London. Bond 11+ books support drills in VR and NVR. These fit various budgets for retaking 11 Plus." },
-      { type: "ul", items: ["**CGP Practice Papers**: Ideal for English and maths, with detailed answers for self-marking.", "**PreTest Online**: Adaptive questions for CEM exam style, tracking progress over time.", "**Bond 11+ Books**: Affordable drills for verbal and non-verbal reasoning, suited to Year 5 starters.", "**Atom Learning**: Weekly mocks to mimic real 11+ mock exams."] },
-      { type: "p", text: "Match resources to your area's exam board rules, such as multiple choice 11+ in Barnet or Redbridge. Combine books with online practice for comprehensive coverage. Discuss options on parent forums for real experiences." },
-      { type: "p", text: "For children with **special needs 11+** like dyslexia, seek exam accommodations early. Tutors can tailor sessions to ADHD needs. This ensures fair preparation for secondary school admission." },
-      { type: "h2", text: "Potential Benefits and Risks" },
-      { type: "p", text: "Benefits of a 11+ retake include possible score gains and securing a grammar school place. Parents often see **academic improvements** after targeted preparation. This can open doors to selective education." },
-      { type: "p", text: "Risks involve heightened exam anxiety and additional costs for tutoring or practice materials. Mental health concerns arise from repeated pressure. Families must weigh these against potential rewards." },
-      { type: "p", text: "A **pros and cons table** helps compare key factors. Consider your child's readiness before deciding on a retake." },
-      { type: 'table', headers: ["Benefit/Risk", "Description", "Potential Impact"], rows: [["Academic gain", "Improved skills in verbal reasoning and maths", "Higher chance at grammar school"], ["Social mobility", "Access to better resources", "Long-term opportunities"], ["Mental health strain", "Increased stress from mocks", "Possible anxiety buildup"], ["Wasted time", "Extra Year 6 prep delays settling", "Opportunity cost in primary school"]] },
-      { type: "p", text: "Research suggests stress from the 11+ exam can affect cortisol levels. The Royal College of Paediatrics notes elevated cortisol from 11+ pressure. Balance this with gains from 11+ coaching." },
-      { type: "h2", text: "Alternatives to Retaking" },
-      { type: "p", text: "Top alternatives include **independent school entry exams** like 13+ Common Entrance, **grammar waiting lists** with late offers, high-performing comprehensives such as Wilson\u2019s School for siblings, or acceleration programs." },
-      { type: "p", text: "These options help families avoid the stress of an 11+ retake while pursuing selective education. Parents often worry about exam anxiety after a low 11+ score, but paths like waiting lists or sibling priority provide second chances. Consider your child's strengths in verbal reasoning or maths when choosing." },
-      { type: "p", text: "**Grammar school waiting lists** can open up unexpectedly, especially in areas like Barnet or Sutton. For instance, Queen Elizabeth Barnet offered 18 places in 2023 from their list. Check school-specific retake policies and local authority rules early." },
-      { type: "p", text: "High-performing comprehensives offer academic streaming for gifted children, bypassing the 11+ test altogether. Acceleration programs, like those from Sutton Trust, build skills through online 11+ practice. Weigh costs and timelines against your family's needs for secondary school admission." },
-      { type: "h3", text: "Alternatives Comparison" },
-      { type: 'table', headers: ["Option", "Cost", "Entry Requirements", "Success Rate", "Timeline"], rows: [["CE 13+ (Common Entrance)", "\u00a315-30k/yr", "Independent school exams in Year 8", "40% grammar rejects succeed", "2 years post-11+"], ["Waiting Lists", "Free", "11+ pass mark + distance criteria", "Late offers available", "Post-results, up to September"], ["Selective Comps", "Free", "Sibling priority, catchment", "High ability streaming", "Year 6 application"], ["Online Acceleration", "Varies", "11+ practice courses", "Skill improvement", "Immediate start"]] },
-      { type: "p", text: "This table outlines key **alternatives to retaking the 11 Plus**. Families in regions like Kent or Trafford can use waiting lists after initial 11+ results. Selective comprehensives prioritise siblings at schools like Reading School." },
-      { type: "p", text: "Common Entrance suits those open to independent schools after a grammar failure. Online courses from Sutton Trust help improve numerical reasoning without exam pressure. Always verify regional 11+ rules for your area." },
-    ],
-  },
+  "slug": "can-my-child-retake-the-11-plus",
+  "title": "Can my child retake the 11 Plus? Resits and later-entry options",
+  "desc": "Separate 11 Plus resits from illness dates, second-stage tests, reviews and later entry, with official examples and questions for families planning 2027 exams.",
+  "date": "August 20, 2025",
+  "readTime": "4 min read",
+  "category": "Results",
+  "imageUrl": "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_4.jpeg",
+  "imageAlt": "Can my child retake the 11 Plus?",
+  "images": [
+    "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_1.jpeg",
+    "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_2.jpeg",
+    "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_3.jpeg",
+    "https://files.autoblogging.ai/images/can-my-child-retake-the-11-plus(kfcu)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Usually, you cannot simply book another sitting of the same 11 Plus to improve a completed result. The test organiser and admission authority set the rules. An authorised alternative date for an absent child, a second-stage test and a later-year admission assessment are different from a resit."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "For tests taken in 2027, check the rules for September 2028 entry. The local examples below illustrate published procedures checked on 10 October 2026; where they concern 2027 entry, they are clearly identified and must not be assumed to govern the following intake."
+    },
+    {
+      "type": "h2",
+      "text": "Which kind of “another test” do you mean?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Situation",
+        "What it actually involves"
+      ],
+      "rows": [
+        [
+          "Repeating a completed test for a higher score",
+          "A resit. Do not assume it is allowed or that a new registration creates a right to one."
+        ],
+        [
+          "Missing the original date through illness",
+          "Potentially an authorised alternative first sitting, subject to the organiser’s conditions and evidence."
+        ],
+        [
+          "Being invited to stage two",
+          "A planned part of a school’s selection process, not a repeat of stage one."
+        ],
+        [
+          "Applying through a genuinely different test route",
+          "A separate assessment, subject to that route’s eligibility and registration rules."
+        ],
+        [
+          "Asking for a review or appeal",
+          "Consideration of evidence or an admission decision; not normally a new exam paper."
+        ],
+        [
+          "Applying for Year 8 or later",
+          "A new admission route, where offered, with its own testing, vacancy and eligibility rules."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "One consortium may mean one attempt"
+    },
+    {
+      "type": "p",
+      "text": "[The King Edward VI Foundation’s entrance-test page](https://kingedwardvifoundation.co.uk/the-test/) says the shared West Midlands test cannot be taken more than once. The page currently describes the 2026 test for September 2027 entry. Registering at another venue in the same shared system would not turn it into a separate exam. Check the published 2028 entry rules before planning a 2027 application."
+    },
+    {
+      "type": "p",
+      "text": "Do not rely on a universal “GL rule” or “CEM rule”. A test provider supplies an assessment, while the relevant schools and admission authorities publish the admission process. Two tests from the same provider are not necessarily one shared test; two school names are not necessarily two opportunities."
+    },
+    {
+      "type": "h2",
+      "text": "Illness before a test is different from illness during it"
+    },
+    {
+      "type": "p",
+      "text": "[Buckinghamshire’s illness and late-test guidance](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/illness-on-secondary-transfer-test-day-and-late-tests/), within its guide for September 2027 entry, distinguishes children who cannot attend from children who begin a paper. It allows later testing under its absence arrangements but says a paper cannot be restarted later if a child becomes unwell during it. An unstarted second paper is treated differently. This is a local example, not a national illness rule or a confirmed September 2028 policy."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Before exam day, save the organiser’s illness contact route and instructions.",
+        "If your child is unwell, contact the organiser promptly and follow its attendance and evidence rules.",
+        "If a problem develops during the test, tell the invigilator and ask how it will be recorded.",
+        "Keep contemporaneous correspondence and evidence; do not wait for a disappointing score before reporting an incident.",
+        "Ask what process is available if a paper was completed or partly started, without assuming a fresh sitting will follow."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Can my child sit the test a year early, then try again?"
+    },
+    {
+      "type": "p",
+      "text": "Do not use an early official sitting as a practice attempt. [Bexley’s current selection-test guide](https://www.bexley.gov.uk/services/schools-and-education/selection-tests/about-test) says Year 6 pupils can take its test only once. It also states that a child testing outside the normal age group who is not deemed selective cannot retake until Year 7. Those details concern its 2026 test guidance; another area may have different rules."
+    },
+    {
+      "type": "p",
+      "text": "If a child is educated outside their normal age group, settle both the test eligibility and intended school-entry year with admissions before registration. Moving to a different school year on paper does not automatically reset a previous attempt."
+    },
+    {
+      "type": "h2",
+      "text": "What does 12 Plus or 13 Plus mean?"
+    },
+    {
+      "type": "p",
+      "text": "Some grammar schools consider entry after Year 7. Parents may call the assessments 12+ or 13+, but the important questions are which year group is available, whether the child is eligible and whether a place exists. Passing an assessment does not itself create a vacancy. Independent-school 13+ entry is another separate process."
+    },
+    {
+      "type": "p",
+      "text": "Ask the specific school about restrictions following an earlier assessment, the required wait before a new application and how it handles vacancies. Allow your child to settle at their current school rather than treating it solely as a holding place."
+    },
+    {
+      "type": "h2",
+      "text": "Five questions before arranging more tuition"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Are we asking for a resit, an alternative first sitting, a separate test or later entry?",
+        "Which published policy allows this child to be assessed, and for which school-entry year?",
+        "Does a previous sitting affect eligibility?",
+        "Who must authorise the assessment, and what deadline or evidence applies?",
+        "If the child qualifies, how will a place be allocated and what happens if there is no vacancy?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Get the eligibility answer first. For immediate options after a result, see [what happens after an unsuccessful 11 Plus](/blog/what-happens-if-my-child-fails-the-11-plus); for a genuinely later application, read [joining a grammar school in Year 8 or later](/blog/can-my-child-join-a-grammar-school-in-year-8-or-later)."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
   "slug": "how-to-appeal-an-11-plus-result-or-school-allocation",
@@ -5980,372 +6459,607 @@ export const BLOG_POSTS: BlogPost[] = [
 },
 
   {
-    slug: "what-is-a-grammar-school",
-    title: "What is a grammar school?",
-    desc: "Discover what a grammar school is: selective academies rooted in medieval England, thriving in UK with 11+ exams, and adapted in US, Australia. Explore history, systems worldwide, and key traits driving academic excellence. Learn more today.",
-    date: "February 5, 2026",
-    readTime: "7 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg",
-    imageAlt: "What is a grammar school?",
-    images: ["https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_1.jpeg", "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_2.jpeg", "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_3.jpeg", "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What is a Grammar School?" },
-      { type: "p", text: "Grammar schools are **selective secondary schools** that admit pupils based on academic ability, primarily through entrance exams like the 11-plus, emphasising rigorous classical education over comprehensive schooling. Rooted in the UK's **tripartite system**, these merit-based institutions historically focused on educating future leaders through subjects like Latin and Greek. Today, they remain part of the state school landscape, sparking debates on social mobility." },
-      { type: "p", text: "In England, [grammar schools](/schools) contrast with [comprehensive schools](/blog/what-is-the-difference-between-grammar-and-comprehensive-schools), which admit pupils without selection. They serve higher achieving students within local catchment areas. This setup promotes academic streaming and high standards from Year 7 onwards." },
-      { type: "p", text: "Historically, grammar schools aimed to identify **gifted children** for elite education, often via the Butler Act of 1944. Modern discussions centre on their role in pupil selection and parental choice. Experts recommend visiting open days to understand their disciplined environment and extracurricular offerings." },
-      { type: "p", text: "Grammar schools foster a **house system**, prefects, and school uniforms, creating a structured path to A-levels and top universities. They balance sciences, humanities, and traditional subjects like Latin. This model supports transitions from primary school through rigorous Year 6 assessments." },
-      { type: "h3", text: "Core Definition and Purpose" },
-      { type: "p", text: "Grammar schools select top pupils at age 11 via **cognitive ability tests** like the 11-plus, which includes verbal reasoning, non-verbal reasoning, maths, and English sections. They deliver a **rigorous curriculum** focused on core subjects, often more academic than in comprehensives. This [merit-based admission](/blog/how-do-you-get-into-a-grammar-school) prioritises academic potential over catchment distance alone." },
-      { type: "p", text: "The core purpose centres on preparing students for **Oxbridge** and Russell Group universities through high standards in GCSEs and A-levels. Many offer Latin in their humanities programmes, echoing classical education roots. Schools maintain small class sizes and strong pupil-teacher ratios for personalised support." },
-      { type: "ul", items: ["Entrance via 11-plus exam tests key skills.", "Emphasis on **academic streaming** for gifted children.", "Facilities like science labs and libraries enhance learning.", "Extracurriculars include debate clubs and sports teams."] },
-      { type: "p", text: "Outcomes highlight strong university admissions, with grammar pupils often pursuing competitive paths. Ofsted ratings frequently praise their teacher quality and school performance. Parents value the homework policy and extended school day for building discipline." },
-      { type: "h2", text: "Historical Origins" },
-      { type: "p", text: "Grammar schools trace origins to **medieval cathedral schools** chartered by King Henry VIII in 1541, evolving through the 1944 **Butler Education Act** establishing the tripartite system. These schools began as monastic institutions teaching Latin grammar in the 12th century. They prepared boys for church roles and university." },
-      { type: "p", text: "The **1902 Balfour Act** introduced public funding for secondary education, boosting grammar school growth. Post-war expansion peaked around 1944 with schools serving a significant portion of pupils. The Act divided education into grammar, technical, and modern branches based on **11-plus exam** results." },
-      { type: "p", text: "By 1965, **comprehensive reform** shifted towards non-selective schools, reducing grammar numbers sharply. This reflected debates on educational equality and social mobility. Yet, some grammars persisted, maintaining traditions of **academic selection** and rigorous curriculum." },
-      { type: "p", text: "Today, the **grammar school debate** continues, with calls for revival under leaders like Michael Gove. Historical texts like the Butler Act highlight focus on **merit-based admission**. This legacy shapes the modern UK education system." },
-      { type: "h3", text: "Medieval Roots in England" },
-      { type: "p", text: "England's first **grammar schools** emerged in 1387 at **Winchester College**, chartered to teach Latin grammar to sons of nobility and clergy for church and university preparation. Earlier roots trace to 597 with Canterbury School founded by St Augustine. These institutions focused on classical education in Latin and logic." },
-      { type: "p", text: "The curriculum centred on the **trivium**: grammar, logic, and rhetoric, using textbooks like Donatus. Pupils memorised texts and practised declensions daily. This prepared them for roles in the church or as scholars." },
-      { type: "p", text: "Key examples include **Eton College** in 1440, educating 70 scholars in humanities and sciences. **Westminster School** followed in 1540 under royal charter. Both emphasised disciplined environments with school uniforms and house systems." },
-      { type: "ul", items: ["597: Canterbury School introduces formal Latin teaching.", "1387: Winchester as first independent grammar.", "1517: St Paul's in London expands access.", "1540: Henry VIII refounds Westminster."] },
-      { type: "p", text: "Medieval charters stressed **academic achievement** through entrance exams akin to today's 11-plus. These schools set precedents for selective education in the British schooling tradition." },
-      { type: "h2", text: "Modern Grammar School Systems" },
-      { type: "p", text: "Today **163 state grammar schools** operate in England (2024 DfE data), alongside selective systems in US exam schools and Australia's oldest grammars. These institutions focus on academic selection through entrance exams, serving around 140,000 pupils in the UK, 50,000 magnet seats in the US, and 200 selective schools in Australia. They emphasise rigorous curricula in core subjects like maths, sciences, and humanities." },
-      { type: "p", text: "In the **UK education system**, grammar schools remain state-funded and fully selective in certain areas, contrasting with comprehensive schools. US public magnet schools offer merit-based admission without fees, while Australian models blend private grammars with selective public high schools. Parents often prepare children via verbal reasoning and maths test practice for entry." },
-      { type: "p", text: "These systems promote **high standards** and social mobility through pupil selection at age 11 or equivalent. Outcomes include strong preparation for A-levels, GCSEs, and top universities like Oxbridge. Families value the disciplined environment, small class sizes, and extracurricular activities such as debate clubs and sports teams." },
-      { type: "p", text: "Debates around **grammar school expansion** continue, with advocates citing academic achievement and critics noting socioeconomic factors. Modern grammars often support disadvantaged pupils via pupil premium funding. Visiting open days helps parents assess school prospectus details and catchment areas." },
-      { type: "h3", text: "United Kingdom Model" },
-      { type: "p", text: "England maintains **163 grammar schools** across 36 districts (Kent 38, Buckinghamshire 13), selected via **11+ exams** testing verbal/non-verbal reasoning and maths. These state schools operate in 34 counties, with areas like Trafford fully selective. Funding stands at \u00a36,760 per-pupil, higher than \u00a36,415 for comprehensives, supporting advanced facilities." },
-      { type: "p", text: "Top performers include Queen Elizabeth's Barnet (100% 5+ GCSE 7+) and Reading School. DfE league tables rank schools on GCSE and A-level results, value added measures, and contextual data for disadvantaged pupils. High Ofsted ratings reflect teacher quality and pupil-teacher ratios." },
-      { type: "p", text: "Admission considers **academic potential** through cognitive ability tests, interviews, and sometimes distance criteria or sibling policy. Year 6 pupils transition from primary school with focused prep on English tests and non-verbal reasoning. Grammar school associations campaign for selective education policy amid grammar vs comprehensive debates." },
-      { type: "p", text: "These schools foster **elite education** with house systems, prefects, school uniforms, and homework policies. Extracurriculars cover STEM education, music programs, and sports teams, aiding Oxbridge preparation. Alumni often include politicians and CEOs, highlighting educational attainment." },
-      { type: "h3", text: "United States Context" },
-      { type: "p", text: "US equivalents include **175 public exam schools** like Stuyvesant (NYC, admits 900/30k applicants) and Thomas Jefferson HS (VA, 480/5k applicants). These magnet schools use merit-based admission via SSAT/ISEE scores, GPA, and sometimes interviews. They serve gifted children in a public high school setting without tuition fees." },
-      { type: "p", text: "Prestigious examples feature Stuyvesant with 13 Nobel alumni and Bronx Science with 4 Nobels. Florida alone has 600+ magnets emphasising rigorous curriculum in sciences and liberal arts. Acceptance rates range from 3-10%, prioritising academic streaming over catchment areas." },
-      { type: "p", text: "Outcomes show 90%+ attending top-100 US universities, far exceeding national averages. Experts recommend early preparation for entrance exams and strong middle school performance. Fordham Institute research highlights benefits for high-achieving pupils from diverse backgrounds." },
-      { type: "p", text: "These schools offer extended school days, advanced labs, and clubs like debate and STEM programs. Parental choice drives applications, with waiting lists common. They mirror grammar school ideals in promoting social mobility through school choice and disciplined environments." },
-      { type: "h3", text: "Australia and Other Countries" },
-      { type: "p", text: "Australia operates **180 selective schools** including James Ruse (99.95 ATAR average) and Sydney Grammar (independent, 25% scholarships). New South Wales has 17 selective high schools (5000 places/15k applicants), while Victoria offers 4 (400 places). Selection uses NAPLAN results and entrance exams for academic potential." },
-      { type: "p", text: "Private grammars like Sydney Grammar blend traditional education with modern facilities, including boarding options. Public selective schools focus on HSC preparation and core subjects. Scholarships support talented pupils regardless of socioeconomic factors." },
-      { type: "p", text: "Globally, Germany's **Gymnasiums** track 30% of pupils to Abitur, Netherlands VWO serves top 30%, and Singapore's Raffles Institution has 6% acceptance. These systems emphasise early selection, similar to 11-plus exams. Research suggests strong PISA and TIMSS scores in selective models." },
-      { type: "p", text: "Families attend open days to review prospectuses and facilities like science labs and playing fields. Emphasis on extracurriculars, teacher quality, and low class sizes aids university admissions. These institutions uphold high standards, fostering alumni success in various fields." },
-      { type: "h2", text: "Key Characteristics" },
-      { type: "p", text: "Grammar schools distinguish through **11+ merit selection**, classical subjects like Latin, small classes with a **21:1 pupil-teacher ratio** versus the national average of 27:1, achieving twice the Progress 8 scores of other schools." },
-      { type: "p", text: "These **selective schools** often use streaming by ability, common in most practices. House systems foster competition and community, seen in nearly all grammars. Prefect leadership builds responsibility among older pupils." },
-      { type: "p", text: "Extended homework, often over **15 hours per week**, supports deep learning. Strict uniform policies maintain discipline. The ISC census and Sutton Trust characteristics study highlight these features in UK **grammar school education**." },
-      { type: "p", text: "Parents preparing for **grammar school entry** should visit open days to see house systems in action, [compare local schools](/compare) side by side, and discuss homework expectations with current families." },
-      { type: "h3", text: "Selective Admission Process" },
-      { type: "p", text: "Admission tests require a combined score of **1200-1400** with a standard deviation of 10 per section, selecting the top 20-25% in oversubscribed catchments with average **5:1 application ratios**." },
-      { type: "p", text: "The process uses **GL Assessment or CEM 11+ exams**: 60 minutes for English, 60 minutes for Maths, and 45 minutes for non-verbal reasoning. CEM tests emphasise reasoning over rote learning, differing from GL's focus on curriculum content. Priority goes to looked-after children, then siblings, and distance from school, with cutoffs ranging from 500 to 2000 metres." },
-      { type: "p", text: "Sample score distributions show raw marks converted to standardised ages scores. Admissions codes from the local authority guide these rules. Families can review school prospectuses for exact criteria and attend **open days** to understand the 11-plus exam format." },
-      { type: "ul", items: ["Practice verbal reasoning with puzzles like synonyms and analogies.", "Drill maths topics such as fractions and geometry.", "Build non-verbal skills through pattern recognition exercises."] },
-      { type: "h3", text: "Rigorous Academic Focus" },
-      { type: "p", text: "Grammars achieve Progress 8 scores of +1.7 against the national +0.0, with 45% A*/A at GCSE versus 20% nationally, streaming pupils into **10 ability sets**." },
-      { type: "p", text: "Key metrics include high rates of top GCSE grades and A-level success, supported by a 21:1 pupil-teacher ratio and specialist teachers. The extended school day from 8am to 5pm allows time for core subjects like maths, where strengths shine. Small classes enable tailored teaching in **humanities and sciences**." },
-      { type: "p", text: "Streaming sorts pupils by ability early, promoting challenge for gifted children. Features like disciplined environments and homework policies drive attainment. Parents value the focus on Oxbridge preparation and top university admissions." },
-      { type: "p", text: "To support this rigour at home, establish a quiet study space and review homework routines. Attend school events to see academic streaming in practice and discuss teacher quality with headteachers." },
-      { type: "h2", text: "Curriculum and Teaching Approach" },
-      { type: "p", text: "Grammar curricula exceed the national offering with **Latin** and Greek in many schools, triple sciences, and 4+ facilitating A-levels per pupil. These elements draw from the **Russell Group facilitating subjects list**, emphasising classics, sciences, and humanities. Pupils in Years 7-11 often pursue the EBacc with high uptake." },
-      { type: "p", text: "At **Key Stage 3**, grammar schools typically include two lessons of Latin per week alongside separate sciences from Year 7. This builds a strong foundation in **classical education** and core subjects like maths and English. Humanities and languages receive dedicated time, fostering broad academic skills." },
-      { type: "p", text: "For A-levels, many pupils opt for rigorous paths, with a focus on **Maths** and Further Maths. Schools offer around 28 curriculum hours weekly, compared to the national 25, allowing deeper exploration. **Direct instruction** features in most lessons, paired with ability grouping to match teaching to pupil needs." },
-      { type: "p", text: "This approach suits selective schools, where academic streaming supports gifted children. Teachers use structured methods to explain concepts clearly, often in smaller class sizes. Parents value the disciplined environment that prepares pupils for top universities like those in the Russell Group." },
-      { type: "h2", text: "Admission and Selection" },
-      { type: "p", text: "The **11+ exam** determines most grammar school admissions, testing **verbal reasoning (VR)**, non-verbal reasoning (NVR), maths, and English across 2.25-hour papers. These selective tests identify pupils for academic places in the UK education system. Grammar schools use them to ensure merit-based admission." },
-      { type: "p", text: "Providers like **GL Assessment (Birmingham Consortium)** and CEM (Buckinghamshire) set the exams. Registration often closes in June, with tests in September or October and results in October. Parents check local authority details for exact dates in their catchment area." },
-      { type: "p", text: "A large preparation market exists, with many families seeking tuition for the **entrance exam**. Resources help build skills in core subjects. Experts recommend starting practice early to familiarise children with question types." },
-      { type: "p", text: "Grammar schools prioritise academic potential through these assessments. Some consider interviews or school reports alongside scores. This process supports transition from primary school to selective secondary education." },
-      { type: "h3", text: "11+ Exams and Testing" },
-      { type: "p", text: "CEM 11+ (60min maths+VR+NVR) yields a pass range around 111-130; GL tests (4x25min papers) standardise at 110+ cutoff across 1200-1400 totals. These formats differ to suit regional preferences in **British schooling**. Parents review provider styles for targeted preparation." },
-      { type: 'table', headers: ["Aspect", "CEM", "GL"], rows: [["Papers", "1 combined paper", "4 separate papers"], ["Duration", "60 minutes", "25 minutes each"], ["Focus", "Mix of VR, NVR, maths", "VR, NVR, maths, English"], ["Claim", "Less coachable", "More structured"]] },
-      { type: "p", text: "Sample questions include VR synonyms like matching words, NVR matrices for pattern completion, and maths using BODMAS order. Practice builds confidence in these areas. Books from CGP or Bond offer affordable papers for home use." },
-      { type: "p", text: "Schools like Queen Elizabeth Barnet use historical pass marks, such as 334/400, as guides. Score calculators online help estimate chances. Families attend open days to learn about pass criteria and waiting lists." },
-      { type: "p", text: "Preparation suits gifted children aiming for rigorous curriculum in grammar schools. Combine practice with school work for best results. This supports academic achievement in the selective environment." },
-      { type: "h2", text: "Debates and Controversies" },
-      { type: "p", text: "Grammar schools boost **disadvantaged attainment** +0.6 GCSE vs comprehensives (2023 DfE) but face criticism for 80% middle-class intake despite pupil premium. Supporters argue that academic selection at 11-plus exam identifies and nurtures talent early. Critics counter that this entrenches social divides in the UK education system." },
-      { type: "p", text: "Proponents highlight performance data, noting 73% of grammars outperform non-selective schools on value-added measures per the Education Policy Institute. Selective systems often top **PISA rankings**, suggesting grammar schools drive high standards. The 2023 EPI report reinforces this edge in **educational attainment**." },
-      { type: "p", text: "On the con side, grammar schools enrol just 24% **free school meals** pupils compared to 28% nationally, per Sutton Trust analysis. This fuels debates on **socioeconomic factors** and access for working-class families. Policies like the 2016 May expansion were blocked, while Gove's academisation shifted more schools to independent status." },
-      { type: "p", text: "Parents weigh **school choice** amid these tensions, visiting open days and reviewing league tables. Examples include families preparing for verbal reasoning and maths tests in Year 6. Balancing **social mobility** with merit-based admission remains central to the grammar school debate." },
-    ],
-  },
+  "slug": "what-is-a-grammar-school",
+  "title": "What is a grammar school? A guide for parents in England",
+  "desc": "Understand state grammar schools, selective entry, academy status and school names, with practical checks for 11+ exams taken in 2027.",
+  "date": "February 5, 2026",
+  "readTime": "5 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg",
+  "imageAlt": "What is a grammar school?",
+  "images": [
+    "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_1.jpeg",
+    "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_2.jpeg",
+    "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_3.jpeg",
+    "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "In England, a state grammar school is a secondary school that selects pupils by academic ability. Year 7 entry usually involves an entrance assessment commonly called the 11+. Education is state funded, so there are no tuition fees. Reaching a qualifying score may make a child eligible for consideration; it does not necessarily secure a place."
+    },
+    {
+      "type": "p",
+      "text": "The [government’s guide to school types](https://www.gov.uk/types-of-school) explains that grammar schools can be run by a local authority, a foundation body or an academy trust. “Grammar” describes an admissions model in this context. It is not a guarantee about class size, teaching style or the school that will suit your child best."
+    },
+    {
+      "type": "h2",
+      "text": "What makes entry selective?"
+    },
+    {
+      "type": "p",
+      "text": "A grammar school uses academic assessment when deciding who can be admitted. The school or test organiser publishes the relevant process: what to register for, the subjects assessed, any qualifying standard and how applicants are ranked. There is no single national 11+ paper or pass mark."
+    },
+    {
+      "type": "p",
+      "text": "Where more eligible children apply than there are places, published oversubscription rules determine priority. Depending on the school, these may involve score, catchment, distance or other categories. Read the complete policy rather than assuming a high result overrides every other condition. Our guide explains [what happens if a child passes but does not get a place](/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place)."
+    },
+    {
+      "type": "h2",
+      "text": "Is a grammar school the same as an academy or a private school?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Description",
+        "What it tells you",
+        "What you still need to check"
+      ],
+      "rows": [
+        [
+          "State grammar school",
+          "Academic selection and state-funded education",
+          "The admission rules for the intended entry year"
+        ],
+        [
+          "Academy",
+          "A school run by an academy trust with direct government funding",
+          "Whether its intake is selective or comprehensive"
+        ],
+        [
+          "Comprehensive school",
+          "An intake across the ability range",
+          "Oversubscription rules and any banding assessment"
+        ],
+        [
+          "Independent or private school",
+          "Fee-paying education outside the state-school funding model",
+          "Fees, financial assistance and its own admission process"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "An academy can be a grammar school. The word “independent” in a description of an academy’s relationship with its local authority does not mean parents pay private-school tuition. [DfE’s academy guidance](https://www.gov.uk/types-of-school/academies) confirms that academies do not charge fees."
+    },
+    {
+      "type": "h2",
+      "text": "Why the school name can be misleading"
+    },
+    {
+      "type": "p",
+      "text": "Some fee-paying schools retain “Grammar” in their name. For example, [North London Grammar School publishes a tuition-fee schedule](https://northlondongrammar.com/school-fees/). Conversely, [William Hulme’s Grammar School describes a comprehensive intake](https://www.whgs-academy.org/admissions/admissions-policy), using banding without a pass/fail mark. These examples show why a name alone cannot establish the funding or entry route."
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Find the school’s record in [Get Information about Schools](https://get-information-schools.service.gov.uk/). Check its location, establishment type and admissions information.",
+        "Open its own admissions page. Match the school’s full name and address, especially where similarly named schools exist.",
+        "Read the current policy and, if relevant, fee schedule. A boarding charge is different from a tuition fee.",
+        "Record the intended school-entry year beside every document. Keep older policies as background, not confirmation of future rules."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Preparing for exams taken in 2027"
+    },
+    {
+      "type": "p",
+      "text": "For the usual English Year 7 transition, tests taken in autumn 2027 commonly relate to September 2028 entry. A page headed “2027 admissions” may instead describe children starting secondary school in September 2027. Confirm both the test date and start date before registering or buying resources."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Check who organises each test and whether a separate registration is needed.",
+        "Find the published subjects, format and official familiarisation material.",
+        "Keep test registration separate from the local authority school-place application. Completing one does not automatically complete the other.",
+        "Ask early about access arrangements if your child may need them, following the organiser’s evidence requirements.",
+        "Investigate other suitable schools alongside grammar options so the family has a considered set of preferences."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Future details should be treated as unconfirmed until the relevant authority publishes them. The [School Admissions Code](https://www.gov.uk/government/publications/school-admissions-code--2) provides the English framework; individual arrangements supply the detail."
+    },
+    {
+      "type": "h2",
+      "text": "Does the same system apply across the UK?"
+    },
+    {
+      "type": "p",
+      "text": "No. This guide concerns England. Northern Ireland has its own [post-primary transfer application process](https://www.nidirect.gov.uk/articles/transfer-post-primary-school), and schools using [SEAG](https://seagni.co.uk/guidance/faqs) apply their own published criteria. Do not use English Year 7 forms or deadlines for that route. In Scotland, follow the [council catchment and placing-request process](https://www.mygov.scot/choose-school-for-child), rather than assuming an English 11+ applies because a school has Grammar in its name."
+    },
+    {
+      "type": "h2",
+      "text": "Questions to answer before choosing this route"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Is there a suitable school within a journey your child can manage every day?",
+        "What does the admissions policy mean for your address and circumstances?",
+        "What support would your child need during preparation and after starting secondary school?",
+        "Which subjects, clubs and pastoral arrangements matter to your child, and what evidence does the school provide?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Use the school label to understand admission, then assess the actual school. For the next step, see [how to choose between several grammar schools](/blog/how-do-i-choose-between-several-grammar-schools) or the focused [grammar versus comprehensive comparison](/blog/what-is-the-difference-between-grammar-and-comprehensive-schools)."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "are-grammar-schools-free-or-private",
-    title: "Are grammar schools free or private?",
-    desc: "Discover if grammar schools are free public institutions or private elites. Explore UK state-funded models, US distinctions, selective admissions, costs, pros, cons, and global variations. Get the facts now.",
-    date: "February 6, 2026",
-    readTime: "8 min read",
-    category: "Schools",
-    imageUrl: "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_4.jpeg",
-    imageAlt: "Are grammar schools free or private?",
-    images: ["https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_1.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_2.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_3.jpeg", "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_4.jpeg"],
-    content: [
-      { type: "h2", text: "What Are Grammar Schools?" },
-      { type: "p", text: "[Grammar schools](/blog/what-is-a-grammar-school) are **academically selective institutions** emphasising rigorous standards, with over 160 remaining in England serving 6% of secondary pupils. These state-funded selective schools trace origins from medieval endowed schools to post-WWII expansion, peaking at 1,400+ grammars by the 1960s. Entry relies on the **11+ exam**, focusing on verbal and non-verbal reasoning." },
-      { type: "p", text: "The 1998 moratorium under Labour halted new openings, preserving existing ones amid the grammar school debate. Sutton Trust data highlights grammar pupils are 6x more likely to attend top universities, sparking discussions on **social mobility** and meritocracy. Parents often explore **school open days** and prospectuses for admissions insights." },
-      { type: "p", text: "Compared to comprehensive schools or [independent schools](/blog/difference-between-grammar-schools-and-independent-schools-11-plus), [grammar schools](/schools) offer subsidised education without tuition fees, though some regions like Kent and Buckinghamshire host clusters. This setup promotes **parental choice** within the state sector, contrasting fee-paying private options. Families weigh factors like catchment area and oversubscription criteria." },
-      { type: "p", text: "Grammar schools align with the **national curriculum**, boasting strong GCSE and A-level results that aid university admissions. They differ from US public schools or charter schools by strict **academic selection**, similar to German Gymnasiums. Experts recommend early preparation via private tuition for the entrance exams." },
-      { type: "h3", text: "Historical Origins" },
-      { type: "p", text: "Grammar schools trace to **14th-century monastic institutions**, evolving into 500+ schools by the 1902 Education Act providing free secondary education to working-class scholars. The first, Winchester College in 1381, set the model, followed by St Paul's in 1525. These early schools focused on Latin and classics for elite training." },
-      { type: "p", text: "Pre-1944, many charged fees, like Manchester Grammar with 1,400 pupils at \u00a31,000 per year, limiting access. The **1944 Butler Act** introduced free places, expanding opportunities. By the 1960s, Hansard records note 1,237 grammars at their peak, serving the **education system** post-WWII." },
-      { type: "p", text: "Labour's 1965 Circular 10/65 pushed comprehensives, eliminating 90% of grammars in favour of non-selective state schools. Survivors like **Royal Grammar School Guildford** retained selective status. This shift ignited ongoing **selective education policy** debates across political parties." },
-      { type: "p", text: "Historical reforms highlight tensions between **meritocracy** and equality, with grammar origins influencing modern school funding via local authorities. Parents today reference this timeline when considering **regional grammar schools** like those in Trafford. Understanding this aids navigation of school admissions." },
-      { type: "h3", text: "Modern Definition" },
-      { type: "p", text: "Today grammar schools are **state-funded secondary schools** admitting pupils based solely on 11+ exam performance, not catchment or faith criteria. Selection uses CEM/GL Assessment tests in verbal, non-verbal reasoning, and maths for Year 7 entry. They span Years 7-13, following the national curriculum with specialist subjects." },
-      { type: "p", text: "Characteristics include small **class sizes**, qualified teachers, and high **Ofsted ratings**, often topping league tables. Examples include Henrietta Barnett School and Colchester Royal Grammar School, known for strong GCSE results and university progression. Ofsted notes grammars outperform national averages in A*-B grades." },
-      { type: "p", text: "Unlike private schools with tuition fees, grammars are free, funded by **government education** budgets, supporting **working-class access** via academic merit. They offer co-educational or single-sex options, uniforms, and extracurriculars, with no boarding fees for most day schools. Bursaries aid eligible pupils." },
-      { type: "p", text: "Admissions prioritise **entrance exams** over siblings or looked-after children in oversubscription, with appeal processes available. This model boosts academic achievement but fuels privilege debates, per think tanks like Sutton Trust. Parents prepare via banding tests and open days for **primary to secondary transition**." },
-      { type: "h2", text: "Funding Models: Free vs. Private" },
-      { type: "p", text: "UK grammar schools receive 100% **state funding** like comprehensives, while **independent schools** charge \u00a318,000+ per year with minimal government support. This core difference shapes access to selective education. Parents often weigh these models during the 11-plus exam process." },
-      { type: "p", text: "**Grammar schools** operate as part of the public sector, funded by the Department for Education and local authorities. They offer **free education** from year 7, covering tuition, though extras like uniforms or trips add minor costs. This setup supports academic selection without tuition fees." },
-      { type: "p", text: "In contrast, fee-paying schools rely on parental payments for day places or boarding. Families may seek bursaries or **scholarships** to offset school fees, but these remain selective. **State schools** like grammars prioritise catchment area and entrance exams over income." },
-      { type: "p", text: "Historical schemes highlight shifts in **school funding**. The Assisted Places Scheme, running from 1980 to 1997, subsidised places in independent schools until its abolition by Labour. This allowed broader access before the focus returned to fully **state-funded grammar schools**." },
-      { type: 'table', headers: ["School Type", "Annual Cost/Pupil", "Funding Source", "Examples", "Tax Status"], rows: [["Grammar", "\u00a30 fees (\u00a36,500 state)", "DfE/Local Authority", "Wilson\u2019s School", "VAT-exempt"], ["Independent", "\u00a312k-\u00a340k", "Parental fees", "Eton (\u00a348k), St Paul\u2019s (\u00a325k)", "Charitable status"]] },
-      { type: "p", text: "Reports from think tanks like the Adam Smith Institute note grammars cost less per pupil than independents. This comparison aids parental choice in the **UK education system**. Families explore school open days and [compare Ofsted ratings and GCSE results](/compare) side by side." },
-      { type: "h2", text: "Grammar Schools in the UK" },
-      { type: "p", text: "England maintains **163 grammar schools** (2024) across 36 districts, primarily Kent (38), London (29), Buckinghamshire (13), delivering top academic results. These **state-funded selective schools** have operated since 1944 under the Education Act. They survived the shift to comprehensives through local retention votes." },
-      { type: "p", text: "Concentrations cluster in the **South-East** and Northern Ireland, where many secondaries remain grammars. Parents seek them for strong **GCSE results** and university admissions. Queen Elizabeth's School in Barnet often leads league tables." },
-      { type: "p", text: "Grammar schools follow the national curriculum with smaller class sizes and qualified teachers. They offer extracurricular activities like debating clubs. Open days help families assess fit during primary to secondary transition." },
-      { type: "p", text: "The **grammar school debate** continues, with advocates praising meritocracy and critics noting middle-class dominance. Regional examples include Trafford grammars and Kent grammars. Parental choice drives applications amid oversubscription." },
-      { type: "h3", text: "State-Funded Status" },
-      { type: "p", text: "UK grammars receive identical per-pupil funding to comprehensives (\u00a36,760 secondary basic need 2024/25) plus \u00a3935 **disadvantaged pupil premium**. Most revenue comes via the Dedicated Schools Grant, with capital from the Condition Improvement Fund. This setup confirms they are **free state schools**, not private." },
-      { type: "p", text: "Funding per pupil aligns below independent schools' averages, supporting **no tuition fees**. Means-tested bursaries appear in about a quarter of grammars, while free school meals eligibility matches lower-income national trends. Experts recommend checking prospectuses for local support." },
-      { type: "p", text: "Compared to comprehensive schools, grammars manage with similar budgets despite selective intake. Pupil premium aids working-class access and social mobility. Parents value this **subsidized education** over fee-paying options." },
-      { type: "p", text: "Governors oversee school funding alongside PTA contributions and alumni donations. Ofsted ratings often reflect high performance. Families explore these as cost-free alternatives to private tuition or homeschooling." },
-      { type: "h3", text: "Selective Admission Process" },
-      { type: "p", text: "Admission via 11+ exam (Oct Year 6): 60%+ pass mark, tests verbal reasoning (60q/50min), maths (50q/50min), non-verbal (80q/50min). Register in September of Year 6, with fees from \u00a320-\u00a380. Practice using GL or CEM papers from books like Bond." },
-      { type: "p", text: "Results arrive in October, leading to National Offer Day in March for Year 7 places. Oversubscription follows clear criteria:" },
-      { type: "ul", items: ["Looked-after children first", "Highest 11+ scores", "Sibling priority", "Distance from school, often 0.5-3 miles"] },
-      { type: "p", text: "For example, Queen Elizabeth Barnet admits the top 180 from 3,000 applicants. Attend open days and review catchment areas early. Appeals succeed in about 15% of cases with strong evidence." },
-      { type: "p", text: "Prepare through **private tuition** or banding tests for fairness. This academic selection promotes meritocracy in the education system. Single-sex or co-educational grammars vary by region like Buckinghamshire or London." },
-      { type: "h2", text: "Grammar Schools in the US" },
-      { type: "p", text: "The US lacks a national **grammar school** system. Equivalents are selective public magnet schools like Stuyvesant in NYC, which admits top SHSAT scorers, and exam school charters. These differ from the UK model of widespread state-funded grammars based on the **11-plus exam**." },
-      { type: "p", text: "Over 800 such **selective admission publics** exist nationwide, often called magnet schools. According to NCES data, magnet schools serve about 4% of public pupils, with 75% admitting by test or talent rather than lottery. They focus on academic selection to group high-achieving students." },
-      { type: "p", text: "Parents seeking grammar school options should research local magnets through school districts. Visit open days or review prospectuses to understand entrance exams and oversubscription criteria. This mirrors UK **grammar schools** in promoting meritocracy and social mobility." },
-      { type: "p", text: "Charter exam schools add variety, blending tests with lotteries in some cases. Examples include BASIS in Arizona, offering rigorous curricula without tuition fees. These **state-funded** options support parental choice in the public sector." },
-      { type: "h3", text: "Public vs. Private Distinctions" },
-      { type: "p", text: "US public **magnet schools** like Thomas Jefferson in Virginia, with high Asian pupil enrolment, mirror grammars as tuition-free with selective tests, unlike lotteried charters. They emphasise **academic achievement** through entrance exams. Private preps charge high fees for similar selectivity." },
-      { type: "p", text: "Key differences appear in funding and access. Public options rely on government education budgets, while privates depend on **tuition fees** and endowments. Parents can compare via league tables and Ofsted-style ratings where available." },
-      { type: 'table', headers: ["Type", "Examples", "Admissions", "Tuition"], rows: [["Public Magnet", "Lowell SF, Bronx Science", "Test-only (top performers)", "Free"], ["Charter Exam", "BASIS AZ, KIPP NYC", "Test/lottery hybrid", "Free"], ["Private Prep", "Phillips Exeter", "Application/test", "$45k+/yr"]] },
-      { type: "p", text: "A 2022 lawsuit at Lowell ended race-based admissions after SFFA v Harvard, shifting focus to test scores. Magnets often draw pupils at the **90th percentile** level. Families should prepare for banding tests or appeals in oversubscribed cases." },
-      { type: "p", text: "Practical steps include attending school open days and checking catchment areas. Look for bursaries or scholarships in privates, though publics offer **free school meals** and pupil premium support. This aids working-class access amid grammar school debates." },
-      { type: "h2", text: "International Variations" },
-      { type: "p", text: "Grammar-style systems thrive globally: Germany's Gymnasiums (30% pupils, Abitur uni entry), **Singapore PSLE streaming** (15% Gifted Education Program), South Korea hagwon prep. These selective schools often operate as state-funded options, much like UK grammar schools. They emphasise academic selection through entrance exams or reports." },
-      { type: "p", text: "Parents in these countries face choices between **free schools** and **private schools** with tuition fees. Selective paths boost university admissions and link to strong PISA rankings. Comprehensive systems, like Finland's, avoid exams for broader access." },
-      { type: "p", text: "Government education funds most selective places, with subsidized education common. Families weigh **school costs** against benefits in academic achievement. International comparisons highlight varied school funding models." },
-      { type: "p", text: "Understanding these helps with parental choice in global contexts. Visit school open days or review prospectuses for insights. This shapes decisions on **secondary education** transitions." },
-      { type: 'table', headers: ["Country", "Selection Age", "% Selective", "Exam", "PISA Math Rank"], rows: [["Germany", "10 (Grade 4)", "30% Gymnasium", "Half-Year Report", "16th"], ["Singapore", "12 (PSLE)", "100% tiered", "PSLE (8 subjects)", "1st"], ["Finland", "None (comprehensive)", "0%", "None", "12th"], ["S Korea", "15 (CSAT)", "80% academic HS", "Suneung (9hrs)", "2nd"]] },
-      { type: "p", text: "Reference OECD PISA 2022: selective systems average +50 math points. This table shows how grammar schools vary worldwide. It aids comparison with UK 11-plus exam systems." },
-      { type: "h2", text: "Costs and Fees Breakdown" },
-      { type: "p", text: "State grammar schools charge \u00a30 tuition but \u00a3800-\u00a32,000/yr extras (uniforms/trips); independents average \u00a316,119 day/\u00a336,000 boarding (2024 ISC census). These state-funded selective schools offer free core education, yet families face other expenses. Parents often budget carefully for these add-ons to support their child's place." },
-      { type: "p", text: "**Independent schools**, or private fee-paying options, include tuition in their high costs. Day schools suit local families, while boarding adds significant fees for residential care. Families compare these against **grammar school costs** during school admissions." },
-      { type: "p", text: "Hidden expenses like **11-plus exam prep** and transport add up quickly. Tutoring for entrance exams can run high over months, and school transport costs vary by catchment area. Local authority support may help with some fees for eligible pupils." },
-      { type: "p", text: "Means-testing through **bursaries and scholarships** eases access at independents for lower-income families. Some grammars offer sibling discounts. Parents should check prospectuses and open days for full fee structures." },
-      { type: 'table', headers: ["Expense", "Grammar (State)", "Independent Day", "Independent Board"], rows: [["Tuition", "\u00a30", "\u00a316,119", "\u00a336,074"], ["Uniforms", "\u00a3350", "\u00a3500", "\u00a3500"], ["Trips/Activities", "\u00a3800", "\u00a31,200", "\u00a32,000"], ["Music Lessons", "\u00a3600", "\u00a3800", "\u00a3800"]] },
-      { type: "h3", text: "Means-Tested Support and Bursaries" },
-      { type: "p", text: "Many independent schools provide bursaries based on family income, often covering part of tuition fees. These **means-tested fees** help promote social mobility in selective education. Families apply early, submitting financial details for assessment." },
-      { type: "p", text: "Grammar schools, as **state schools**, rarely charge tuition but may offer sibling discounts or pupil premium aid. Free school meals eligibility can link to extra support. Check with the education authority for local options." },
-      { type: "p", text: "Experts recommend reviewing school funding like assisted places schemes from the past, now evolved into modern bursaries. Parental choice expands with these aids. Attend school open days to learn about availability." },
-      { type: "h3", text: "Hidden Costs and Practical Budgeting" },
-      { type: "p", text: "Beyond the table, **11-plus prep** tutoring averages high costs over 10 months for entrance exams. School transport, especially outside catchment areas, adds yearly expenses. Families plan ahead to avoid surprises." },
-      { type: "p", text: "**Extracurricular activities**, uniforms, and trips form common extras in both grammar and private settings. Private tuition supplements class sizes and curriculum standards. Budget for these in secondary education transitions." },
-      { type: "p", text: "Research suggests comparing total school costs against benefits like GCSE results and university admissions. PTA funding or alumni donations sometimes offset fees. Use league tables and Ofsted ratings to weigh value." },
-      { type: "h2", text: "Pros and Cons of Grammar Schools" },
-      { type: "p", text: "Grammar schools deliver **unmatched academics** as pupils prove five times more likely to reach Oxbridge according to the Sutton Trust. Yet they face **equity criticism** due to high middle-class intake in many cases. Parents weigh these factors during school admissions decisions." },
-      { type: "p", text: "Selective education through the 11-plus exam drives strong results in GCSEs and A-levels. **Academic achievement** often outpaces comprehensive schools, with smaller class sizes aiding focus. Families in areas like Kent or Buckinghamshire see this edge in league tables." },
-      { type: "p", text: "**Social mobility** draws working-class support, as high performers from modest backgrounds access top universities. Critics highlight **middle-class dominance**, urging means-tested access. Regional options vary, with Trafford grammars offering local examples." },
-      { type: 'table', headers: ["Pros", "Evidence", "Cons", "Evidence"], rows: [["**Academic Excellence**", "Pupils secure top GCSE grades well above national averages", "**Social Selection**", "Lower free school meals eligibility than state school norms"], ["**Social Mobility**", "Working-class alumni report stronger career paths", "**Middle-Class Capture**", "Higher average parental incomes compared to comprehensives"], ["**Teacher Quality**", "High rates of qualified staff exceed many peers", "**Regional Inequality**", "Most grammars cluster in the South-East"]] },
-      { type: "h3", text: "Political Debate on Grammar Schools" },
-      { type: "p", text: "Conservatives pushed **grammar school expansion** in 2016 to boost parental choice. Labour favours abolition, preferring the **comprehensive system** for equality. Lib Dems suggest means-tested expansion to balance access." },
-      { type: "p", text: "The grammar school debate centres on meritocracy versus privilege. Think tanks like the Adam Smith Institute challenge myths of creaming and siphoning from other schools. Parents track selective education policy shifts via manifestos." },
-      { type: "p", text: "Examples include London grammars thriving amid reform talks. Families explore school open days and prospectuses to assess fit. This informs choices in the UK education system." },
-      { type: "h3", text: "Practical Considerations for Parents" },
-      { type: "p", text: "Prepare for the 11-plus exam with practice papers and tutoring. Check Ofsted ratings and catchment areas for oversubscription. Sibling priority or looked-after children criteria often apply." },
-      { type: "p", text: "**State-funded** grammars charge no tuition fees, unlike independent schools. Pupil premium supports disadvantaged pupils. Attend open days in areas like Kent grammars for insights." },
-      { type: "p", text: "Weigh extracurriculars and single-sex options. Appeal processes help if places fall short. This aids primary to secondary transition planning." },
-    ],
-  },
+  "slug": "are-grammar-schools-free-or-private",
+  "title": "Are grammar schools free or private? Fees and other costs",
+  "desc": "State grammar schools charge no tuition fees. Learn about independent names, free entrance tests, boarding, optional costs and a practical family budget.",
+  "date": "February 6, 2026",
+  "readTime": "5 min read",
+  "category": "Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_4.jpeg",
+  "imageAlt": "Are grammar schools free or private?",
+  "images": [
+    "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_1.jpeg",
+    "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_2.jpeg",
+    "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_3.jpeg",
+    "https://files.autoblogging.ai/images/are-grammar-schools-free-or-private(f8c9)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "State grammar schools in England are free to attend for education: parents do not pay tuition fees. A private school that happens to have “Grammar” in its name is different and can charge fees. Check the school’s status and fee policy before comparing costs."
+    },
+    {
+      "type": "p",
+      "text": "Free education does not mean every related family expense disappears. Travel, uniform, meals, optional activities and preparation materials may affect your budget. A school offering boarding can also charge for accommodation while education remains free."
+    },
+    {
+      "type": "h2",
+      "text": "How to tell which kind of school you are looking at"
+    },
+    {
+      "type": "p",
+      "text": "Read the [DfE guide to school types](https://www.gov.uk/types-of-school) and check the school’s establishment record in [Get Information about Schools](https://get-information-schools.service.gov.uk/). An academy is state funded; academy status does not turn a grammar school into a fee-paying private school."
+    },
+    {
+      "type": "p",
+      "text": "As a current example of the naming distinction, [North London Grammar School’s 2026/27 schedule](https://northlondongrammar.com/school-fees/) lists tuition fees, VAT treatment and additional costs. It is not a free state grammar. Those prices describe that academic year, not a confirmed price for a child starting in 2028."
+    },
+    {
+      "type": "h2",
+      "text": "Do you have to pay to sit the 11+?"
+    },
+    {
+      "type": "p",
+      "text": "For state-school entrance tests in England, the answer is no. In its [answer of 4 November 2025](https://questions-statements.parliament.uk/written-questions/detail/2025-10-14/82070/), the Department for Education states that the prohibition on admission charges includes sitting a school’s entrance test. Optional familiarisation tests may be charged for. A commercial mock or tutoring course is not the compulsory entrance examination."
+    },
+    {
+      "type": "p",
+      "text": "This matters when a booking page uses “11+ test” loosely. Identify the organiser and purpose before paying. Is it the assessment required for admission, a practice event, or a private-school assessment? [Warwickshire’s official guide](https://www.warwickshire.gov.uk/grammar-schools-11-test/grammar-schools-warwickshire/1), for example, confirms that its state selective entry test is free. Northern Ireland has a different transfer system; do not generalise this English fee rule to SEAG registration."
+    },
+    {
+      "type": "h2",
+      "text": "What costs should a family check?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Item",
+        "What to establish before budgeting"
+      ],
+      "rows": [
+        [
+          "Tuition",
+          "No tuition charge at a state grammar; use the current fee schedule for an independent school."
+        ],
+        [
+          "School travel",
+          "Route, days used, ticket price and any council eligibility for help; a place does not itself establish entitlement to free transport."
+        ],
+        [
+          "Uniform and equipment",
+          "Required items, optional items, second-hand sales and available assistance."
+        ],
+        [
+          "Meals",
+          "Meal price or packed-lunch arrangements, plus whether the child qualifies for support."
+        ],
+        [
+          "Trips, music and clubs",
+          "Whether an activity is optional, what a charge covers and whether remission or assistance is available."
+        ],
+        [
+          "Boarding",
+          "Accommodation and related charges, separately from education."
+        ],
+        [
+          "Preparation",
+          "Optional books, mocks or tutoring you actually choose; start with the organiser’s familiarisation material."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Use real quotes from your shortlisted schools and travel providers. A national “typical extras” figure may hide the biggest difference for your family: one child can walk to school while another needs a paid bus throughout the year."
+    },
+    {
+      "type": "h2",
+      "text": "Are school-fund contributions compulsory?"
+    },
+    {
+      "type": "p",
+      "text": "A request labelled voluntary is not a tuition bill. [DfE guidance on charging for school activities](https://www.gov.uk/government/publications/charging-for-school-activities) distinguishes voluntary contributions from permitted charges for optional extras. Its maintained-school guidance says children must not be treated differently because their parents cannot or will not make a voluntary contribution; an activity may have to be cancelled if it cannot be funded."
+    },
+    {
+      "type": "p",
+      "text": "Ask for the school’s charging and remissions policy, including at an academy. If a request is unclear, ask what the payment covers, whether it is compulsory or voluntary, and what support is available. Do not assume every trip is free, or that every contribution request is mandatory."
+    },
+    {
+      "type": "h2",
+      "text": "What about boarding?"
+    },
+    {
+      "type": "p",
+      "text": "[State boarding schools charge for boarding but provide free education](https://www.gov.uk/types-of-school/state-boarding-schools). A boarding-fee page therefore does not, by itself, prove a school is private. Confirm whether you are applying for a day or boarding place and read the relevant charges and admission arrangements."
+    },
+    {
+      "type": "h2",
+      "text": "Comparing a state grammar with a private school"
+    },
+    {
+      "type": "p",
+      "text": "For an independent option, request the full fee schedule and acceptance terms. Check whether quoted amounts include VAT and which extras are separate. The [government’s VAT measure](https://www.gov.uk/government/publications/vat-on-private-school-fees/applying-vat-to-private-school-fees) applies the standard 20% rate to private-school education and boarding from 1 January 2025. Do not add VAT a second time to an inclusive quote."
+    },
+    {
+      "type": "p",
+      "text": "Ask the school whether financial assistance is available, how it is assessed, when applications close and how awards are reviewed. Do not assume a scholarship pays all fees or that bursary funding will be offered. Compare the actual amount your family would owe, including costs not covered by any award."
+    },
+    {
+      "type": "h2",
+      "text": "A budget worksheet for tests taken in 2027"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Write the expected start year first: autumn 2027 grammar tests commonly lead to September 2028 entry.",
+        "Create separate lines for one-off purchases, recurring termly costs and optional spending.",
+        "Record the date of each quote. Mark unpublished 2028 costs as unconfirmed rather than copying an old fee schedule.",
+        "Deduct only assistance that has been confirmed, and note any renewal conditions.",
+        "Compare the resulting costs with travel time, curriculum and support needs, rather than selecting on price alone."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For the application differences, read [grammar and independent school entry at 11+](/blog/difference-between-grammar-schools-and-independent-schools-11-plus). For the underlying definition, see [what a grammar school is](/blog/what-is-a-grammar-school)."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "how-many-grammar-schools-are-there-in-england",
-    title: "How many grammar schools are there in England?",
-    desc: "Discover how many grammar schools exist in England per 2023-2024 official figures. Explore regional breakdowns, key concentrations, historical roots, and recent trends like new openings. Get the full picture now.",
-    date: "February 7, 2026",
-    readTime: "9 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_4.jpeg",
-    imageAlt: "How many grammar schools are there in England?",
-    images: ["https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_1.jpeg", "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_2.jpeg", "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_3.jpeg", "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Defining Grammar Schools in England" },
-      { type: "p", text: "[Grammar schools in England](/schools) are **state-funded selective secondary schools** admitting pupils based on academic ability via the **11-plus exam**, with 163 remaining from over 1,200 in the 1960s. These institutions cater for ages 11 to 18 and focus on rigorous academic preparation. They differ from independent schools, which charge fees, and comprehensive schools, which admit all local pupils regardless of ability." },
-      { type: "p", text: "**State-funded grammar schools** receive full government support, making them free for families. Pupils gain places through competitive **grammar school admissions** processes, often involving tests in verbal reasoning, non-verbal reasoning, maths, and English. This selective model supports high achievement in GCSE results and A-levels." },
-      { type: "p", text: "England's UK education system features these schools mainly in areas like Kent, Buckinghamshire, and Trafford. Families use tools like the **Gov.uk school finder** to locate the **nearest grammar school** or check grammar school catchment areas. Open days and prospectuses help with preparation for the 11+ exam." },
-      { type: "p", text: "Understanding [what a grammar school is](/blog/what-is-a-grammar-school) aids parents navigating secondary education options. Grammar schools offer **state selective education** without religious selection, contrasting non-selective areas dominated by comprehensives. Explore **grammar school league tables** for insights into top performers like King Edward's School Birmingham." },
-      { type: "h3", text: "Historical Origins" },
-      { type: "p", text: "Grammar schools trace origins to the 16th century, with the first established under King Henry VIII's reign; by 1900, over 1,100 existed serving middle-class boys. Institutions like Manchester Grammar School from 1515 and **King Edward VI Grammar Schools** founded in 1552 set early precedents. These **historical grammar schools** emphasised Latin and classical studies." },
-      { type: "p", text: "The Victorian era saw rapid expansion of **Victorian grammar schools**, reaching 1,300 by 1902 under the Education Act. The 1944 Butler Act further grew their numbers, integrating them into state systems as **direct grant grammar schools**. This period marked a shift towards broader access in secondary modern schools contexts." },
-      { type: "p", text: "Post-1965 comprehensivisation dramatically reduced numbers from 1,297 to today's 163 maintained grammar schools. Local policies favoured non-selective education, preserving grammars in select counties like Lincolnshire grammar schools and **Wirral grammar schools**. This history shapes current **selective education policy**." },
-      { type: "p", text: "Today, remnants like Colchester Royal Grammar School uphold grammar school tradition. Parents interested in grammar school expansion or new grammar schools follow **Department for Education** updates. Historical context informs views on **grammar schools map** and county distributions." },
-      { type: "h3", text: "Key Characteristics" },
-      { type: "p", text: "Grammar schools admit top performers via 11+ exams testing verbal and non-verbal reasoning, maths, and English; they feature low **pupil-teacher ratios** averaging better than in comprehensives. Entry targets the upper ability range, using tools like CEM Select or GL Assessment. This sets them apart in the **list of grammar schools**." },
-      { type: "p", text: "These are fully **state-funded/free**, with no fees unlike independent schools. They prioritise **academic focus**, offering advanced GCSE and A-level programmes in sixth forms. Facilities support high standards, as seen in Ofsted ratings and school performance tables." },
-      { type: "ul", items: ["**Selective entry** based strictly on 11+ scores, sometimes with sibling priority or distance criteria in **grammar school catchment areas**.", "**State-funded** status ensures accessibility for qualified pupils nationwide.", "**Academic rigour** drives strong outcomes, contrasting comprehensive schools.", "**Sixth form provision** for A-levels, often with specialised subjects.", "No **religious selection**, focusing purely on ability via **practice papers 11+** like Bond papers."] },
-      { type: "p", text: "Compared to comprehensives, grammars like Tiffin's School or Wilson's School excel in **grammar school rankings**. Families prepare via grammar school open days and interviews. Check DfE statistics for **total grammar school pupils** and grammar school funding details." },
-      { type: "h2", text: "Current Total Number" },
-      { type: "p", text: "England maintains exactly 163 state-funded grammar schools serving 48,000 pupils (2023 DfE census), representing 5% of secondary schools. These **selective schools** operate solely in England, with none in Wales or Scotland. The Department for Education verifies this official count through its annual school census." },
-      { type: "p", text: "Parents seeking grammar school places often start with the 11-plus exam. This entrance test assesses pupils for **academically selective schools** in areas like Kent and Buckinghamshire. Understanding the **total number of grammar schools** helps families plan applications effectively." },
-      { type: "p", text: "The figures exclude **independent grammar schools** and focus on state-funded ones. These schools serve Years 7 to 13, offering places based on **11+ results** in verbal reasoning, non-verbal reasoning, maths, and English. Families can check Gov.uk Compare Schools for the full list." },
-      { type: "p", text: "**Grammar school admissions** vary by county, with catchment areas and sibling priority common. Open days and prospectuses provide insights into facilities and pupil-teacher ratios. This setup supports state selective education within the UK education system." },
-      { type: "h3", text: "Official Figures (2023-2024)" },
-      { type: "p", text: "Department for Education confirms **163 grammar schools** for 2023-2024, educating 48,039 pupils across Years 7-13 (DfE School Census January 2023). These **state-funded grammar schools** concentrate in specific counties. The data comes from Gov.uk Compare Schools and DfE Statistical First Release." },
-      { type: 'table', headers: ["County", "Number of Grammars", "Pupils", "Examples"], rows: [["Kent", "38", "~15,000", "Invicta Grammar School, Tonbridge Grammar School"], ["Buckinghamshire", "13", "~5,000", "Dr Challoner's Grammar School, Wycombe High School"], ["Birmingham", "8", "~3,500", "King Edward's School Birmingham, King Edward VI Camp Hill School"], ["Trafford", "4", "~2,000", "Altrincham Grammar School for Girls, Stretford Grammar School"], ["Slough", "2", "~1,200", "Sir William Borlase's Grammar School"], ["Lincolnshire", "7", "~2,800", "Boston Grammar School, Caistor Grammar School"], ["Wirral", "5", "~2,200", "Wirral Grammar School for Boys, West Kirby Grammar School"], ["Gloucestershire", "3", "~1,500", "Cheltenham Ladies' College (state arm)"], ["Barnet", "1", "~1,000", "Hennor High School"], ["Reading", "2", "~1,000", "Reading School, Kendrick School"], ["Others (Sutton, Gravesend, etc.)", "80", "~23,839", "Wilson's School, Tiffin School, Colchester Royal Grammar School"]] },
-      { type: "p", text: "This table shows the **grammar school list by county**, totalling 163 schools. Note that pupil numbers approximate from census data. Families use this for grammar school catchment areas and nearest options." },
-      { type: "p", text: "To find **top grammar schools**, review school performance tables for GCSE and A-level results. Ofsted ratings and league tables highlight strong performers like those in Kent. Practice for the **11+ exam** with GL Assessment or CEM Select papers prepares pupils well." },
-      { type: "h2", text: "Geographical Distribution" },
-      { type: "p", text: "Grammar schools cluster in **36 Local Authority areas**, with 80% in Southeast and Midlands; Kent alone has 38 (24% of total). This creates an **uneven distribution** across England, where just 2.5% of areas have grammar schools compared to 100% comprehensive coverage elsewhere." },
-      { type: "p", text: "Families seeking state-funded grammar schools often face long commutes in non-selective regions. For example, pupils in the Northeast may travel to distant selective schools or attend local comprehensives." },
-      { type: "p", text: "Understanding these grammar school catchment areas helps with planning. Check the Department for Education school finder tool for options near your postcode, focusing on hotspots like Kent grammar schools or Buckinghamshire grammar schools." },
-      { type: "p", text: "This pattern reflects historical grammar school expansion and current **UK education system** policies. Transitioning to regional data reveals clear leaders in **number of grammar schools**." },
-      { type: "h3", text: "Regional Breakdown" },
-      { type: "p", text: "Southeast dominates with **92 grammars** (56%), led by Kent (38), Buckinghamshire (13), and Surrey (6). These areas host many top grammar schools with strong GCSE and A-level results." },
-      { type: "p", text: "Parents targeting grammar school admissions should prioritise regions with higher selective provision. Use DfE 2023 statistics to compare **grammar school places** via school performance tables." },
-      { type: 'table', headers: ["Region", "Grammar Schools", "% of Total", "Top Counties"], rows: [["Southeast", "92", "56%", "Kent, Buckinghamshire, Surrey"], ["West Midlands", "22", "13%", "Birmingham, Worcestershire"], ["East of England", "17", "10%", "Essex, Lincolnshire"], ["North West", "15", "9%", "Trafford, Wirral"], ["London", "11", "7%", "Sutton, Barnet"], ["Others", "6", "5%", "Gloucestershire, Reading"]] },
-      { type: "p", text: "Top 5 counties include **Kent grammar schools** (38), Buckinghamshire (13), Birmingham (8), Trafford (4), and Sutton (4). These support 11-plus exam preparation for entrance." },
-      { type: "h3", text: "Concentration Areas" },
-      { type: "p", text: "Highest concentrations exist in **Trafford (4 grammars, 33% selective places)**, Slough (5 grammars), and Sutton (4 grammars serving 27% ability range). These [super-selective grammar schools](/blog/what-is-a-super-selective-grammar-school) often admit top 10-15% performers via rigorous 11+ tests." },
-      { type: "p", text: "Ranked top 10: 1) Kent (38), 2) Bucks (13), 3) Birmingham (8), 4) Trafford (4), 5) Sutton (4), 6) Slough (5), 7) Lincolnshire (several), 8) Wirral (multiple), 9) Gloucestershire (key sites), 10) Barnet (notable). Examples like King Edward's School Birmingham or Wilson's School draw applicants widely." },
-      { type: "ul", items: ["Prepare for **GL Assessment** or CEM Select in these hotspots.", "Review **grammar school bonds** and sibling priority for admissions edge.", "Visit open days for schools like Tiffin School or Colchester Royal Grammar School."] },
-      { type: "p", text: "An interactive Gov.uk grammar schools map shows nearest options. Note partially selective areas blend grammar with **secondary modern schools**, aiding choices in grammar school rankings." },
-      { type: "h2", text: "Recent Changes and Trends" },
-      { type: "p", text: "Numbers of grammar schools in England have stayed stable since the 2010 moratorium, though Theresa May's **2016 proposal** sparked debate on expansion. This came after the 1998 Blair ban on new selective schools was partially lifted in 2016, only to face restrictions later. The policy shifts highlight tensions in the UK education system between selective and comprehensive models." },
-      { type: "p", text: "From 2010 to 2023, there has been **net zero change** in the total, with 163 state-funded grammar schools remaining steady. Government retreats, like the Johnson administration's 2021 decision, halted broader plans. Parents seeking grammar school places should track DfE announcements for updates on selective education policy." },
-      { type: "p", text: "Trends show focus on **annexes and expansions** rather than full new schools, preserving traditions like the 11-plus exam. Areas with grammar schools, such as Kent and Buckinghamshire, continue to offer competitive admissions. This stability aids families planning for **secondary education** through tools like school performance tables." },
-      { type: "p", text: "Experts recommend checking grammar school catchment areas and open days for the latest. Historical shifts from over 1,100 grammars in 1965 to today's count reflect ongoing debates on academically selective schools. Families can use Gov.uk school finder to compare options." },
-      { type: "h3", text: "New Openings" },
-      { type: "p", text: "Only 2 new **grammar schools** have opened since 2010: St Olave's annexe in 2019 in Croydon and the planned Middlesex expansion in 2022. These follow Theresa May's 2016 proposal allowing **annexes** for existing grammars. The Johnson government retreated from wider plans in 2021, limiting growth." },
-      { type: "p", text: "Other cases include St Anselm's School in Erith at the planning stage and Mayfield Grammar School's expansion in Bexley. The Weald of Kent annexe opened in 2020, boosting grammar school places in the area. Parents in Kent grammar schools regions should monitor DfE for similar developments." },
-      { type: "p", text: "These moves support state selective education without full new builds, often tied to high demand near top grammars like Tiffin School. Families preparing for the 11-plus exam can explore expansions via grammar school websites. This cautious approach maintains the **163 grammars in England**." },
-      { type: "p", text: "Practical steps include reviewing **school prospectuses** and league tables for new sites. Expansions help meet needs in areas like grammar schools in London without altering the total count. Check Ofsted ratings for quality insights." },
-      { type: "h3", text: "Closures and Conversions" },
-      { type: "p", text: "Three **grammar school closures** have occurred since 2000: Davenant Foundation in 2001 became a comprehensive, Ripon Grammar in 2010 was restructured, and Eltham Hill in 2010 shifted from girls' grammar to comprehensive. These mark a decline from over 1,100 grammars in 1965 to 200 by 1990. The 2010 moratorium has stabilised numbers at 163." },
-      { type: "p", text: "Post-1998 policy limited further losses, with historical DfE records showing few changes. Conversions often respond to local demands for **comprehensive schools**, affecting access to selective places. Families in affected areas turned to nearby options like secondary moderns." },
-      { type: 'table', headers: ["Year", "School", "Location", "Reason"], rows: [["2001", "Davenant Foundation", "London", "Became comprehensive"], ["2010", "Ripon Grammar", "North Yorkshire", "Restructured"], ["2010", "Eltham Hill", "London", "Girls' grammar to comprehensive"]] },
-      { type: "p", text: "This table outlines key cases, underscoring rarity of closures today. Parents can consult grammar school list by county or maps for current standings. Stability benefits planning for 11+ tests and admissions." },
-      { type: "h2", text: "Factors Affecting Numbers" },
-      { type: "p", text: "**Political ideology** drives fluctuations in the number of **grammar schools in England**: Labour comprehensivisation from 1965 to 1997, Conservative expansions in the 1950s and a 2016 attempt, plus parental demand versus social mobility concerns. These shifts have shaped the current count of around 163 grammar schools. Understanding them helps parents navigating grammar school admissions." },
-      { type: "p", text: "Government policies directly impact state-funded grammar schools. For instance, historical directives led to closures, reducing selective options in many areas. Today, the Department for Education oversees changes through legislation." },
-      { type: "p", text: "Parental demand remains strong, especially in regions like Kent and Buckinghamshire with established grammar school catchment areas. Families prepare for the 11-plus exam using practice papers from GL Assessment or CEM Select. This pressure influences local education policy." },
-      { type: "p", text: "Social mobility debates and funding equality add complexity. **Gramma school expansion** faces opposition due to concerns over access for all pupils. Parents can check **DfE statistics** and school performance tables for insights into grammar school rankings." },
-      { type: "h3", text: "1. Policy Changes" },
-      { type: "p", text: "**Circular 10/65** prompted the closure of many grammar schools, shifting England towards comprehensive schools. This policy halved selective places in some counties. It marked a key reduction in the total number of grammar schools." },
-      { type: "p", text: "Later, the 1998 School Standards and Framework Act required Secretary of State approval for new grammars, limiting growth. Exceptions exist in areas like **Trafford grammar schools** or Lincolnshire grammar schools. Parents should review historical **education policy UK** for context." },
-      { type: "p", text: "Recent attempts at grammar school expansion highlight ongoing debates. Check Gov.uk school finder for the latest list of grammar schools by county." },
-      { type: "h3", text: "2. Parental Demand" },
-      { type: "p", text: "High **parental demand** sustains grammar schools, particularly in London and Kent. Surveys indicate strong support for grammar schools in London among families seeking top **GCSE results**. This drives applications to schools like Tiffin School or Wilson's School." },
-      { type: "p", text: "Families prioritise **11+ preparation** with verbal reasoning and maths tests. Demand affects grammar school places and open days. Research suggests it counters closure pressures." },
-      { type: "p", text: "In areas without grammars, parents advocate for state selective education. Use our [compare schools tool](/compare) to assess options." },
-      { type: "h3", text: "3. Social Mobility Research" },
-      { type: "p", text: "**Social mobility concerns** influence grammar school numbers. Reports note many pupils come from middle-class backgrounds, raising equity questions. This fuels debates on academically selective schools." },
-      { type: "p", text: "Experts recommend balancing selection with broader access. Examples include **sibling priority** or distance criteria in **Buckinghamshire grammar schools**. It impacts policy on new selective schools." },
-      { type: "p", text: "Parents can explore **Ofsted ratings** and pupil-teacher ratios to understand diversity in top grammars like King Edward's School Birmingham." },
-      { type: "h3", text: "4. Financial Considerations" },
-      { type: "p", text: "**Per-pupil funding** levels are similar across grammar and comprehensive schools, limiting financial incentives for expansion. This equality supports the UK education system's comprehensive model. Costs for **entrance exams** fall on families." },
-      { type: "p", text: "Grammars often boast strong **A-level results** and facilities, justifying demand despite equal funding. Grammar school funding debates continue in non-selective areas. Review **school census data** for details." },
-      { type: "p", text: "Families preparing for grammar school bonds or interviews should budget accordingly." },
-      { type: "h3", text: "5. Legal Framework" },
-      { type: "p", text: "The **1998 Act** mandates approval for new grammar schools, preserving the current number. This protects maintained grammar schools in places like Slough grammar schools or Wirral grammar schools. It shapes selective education policy." },
-      { type: "p", text: "Legal rules define grammar school admissions, including catchment and academic tests. Exceptions allow limited expansion plans. Parents use grammar schools map to find nearest options." },
-      { type: "p", text: "Historical direct grant grammar schools transitioned under these laws, affecting today's grammar school league tables." },
-      { type: "h2", text: "Reliable Data Sources" },
-      { type: "p", text: "The **Department for Education's School Census** provides definitive annual counts of grammar schools in England. Cross-verified via Gov.uk performance tables, this lists all 163 grammars. These sources ensure accurate tracking of state-funded grammar schools." },
-      { type: "p", text: "Use the School Census data for the most current pupil numbers and grammar school places. It covers secondary education across England, including selective areas like Kent and Buckinghamshire. Check annually for updates on total grammar school pupils." },
-      { type: "p", text: "Gov.uk tools like **Compare Schools** let you search for **grammar schools near me**. Filter by 11-plus exam areas such as Trafford grammar schools or Sutton grammar schools. This helps families find nearest grammar school options quickly." },
-      { type: "p", text: "Combine these with Ofsted ratings and GCSE results grammar schools achieve. Local **county admission guides** detail grammar school catchment areas and entrance processes. Always verify via official sites for grammar school admissions timelines." },
-      { type: 'table', headers: ["Source", "Description", "Update Frequency", "Practical Use"], rows: [["**DfE School Census**", "Annual pupils and grammar schools numbers from Department for Education", "Yearly, January census", "Exact number of grammar schools and grammar school places"], ["**Gov.uk Compare Schools**", "Search 'grammar' for list of grammar schools", "Real-time updates", "Find top grammar schools by location, e.g., grammar schools in London"], ["**Secondary School Performance Tables**", "Gov.uk tables with **GCSE results grammar schools** and A-level data", "Annually post-exams", "Compare grammar school rankings and performance"], ["**Ofsted Directory**", "Inspections and ratings for all **state grammar schools**", "Ongoing, new reports frequently", "Check Ofsted ratings for **grammar school facilities**"], ["**Grammar Schools Association website**", "Directory of **163 grammars England** and member schools", "Updated termly", "Access grammar schools map and open days info"], ["**County admission guides** (Kent/Bucks)", "Local authority guides for Kent grammar schools, Buckinghamshire grammar schools", "Annually before admissions", "Details on **11+ exams**, bonds, and **catchment areas**"]] },
-    ],
-  },
+  "slug": "how-many-grammar-schools-are-there-in-england",
+  "title": "How many grammar schools are there in England? Count and sources",
+  "desc": "Understand the official dated grammar-school count, why directories differ, and how to check state selective schools for exams taken in 2027.",
+  "date": "February 7, 2026",
+  "readTime": "5 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_4.jpeg",
+  "imageAlt": "How many grammar schools are there in England?",
+  "images": [
+    "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "The official dated figure verified for this guide is **163 state grammar schools in England in January 2022**, reported by the [House of Commons Library](https://commonslibrary.parliament.uk/research-briefings/sn07070/). That figure is frequently repeated as a current total, but its date matters: it should not be presented as a newly verified October 2026 count."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Checked on 10 October 2026: the latest DfE school-census release is for January 2026, published on 4 June 2026. We could access its release and dataset descriptions, but could not verify the selective-school total in the underlying data during this check. The current census count therefore remains unconfirmed here."
+    },
+    {
+      "type": "h2",
+      "text": "Which sources answer the question?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Source",
+        "What it establishes",
+        "How to use it"
+      ],
+      "rows": [
+        [
+          "House of Commons Library: Grammar schools in England",
+          "An explicit 163-school figure for January 2022",
+          "Use with its date and England/state-grammar scope."
+        ],
+        [
+          "DfE: Schools, pupils and their characteristics, 2025/26",
+          "The latest published school-census release describes January 2026",
+          "Select the relevant school-type and admissions-policy data before claiming a current total."
+        ],
+        [
+          "Get Information about Schools (GIAS)",
+          "Individual establishment records and status",
+          "Check whether a named school is open, state funded and academically selective."
+        ],
+        [
+          "School or council admissions pages",
+          "The routes and rules a family actually applies under",
+          "Use the policy for the intended entry year, not a national headcount."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The [DfE 2025/26 release](https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2025-26) and its [school characteristics by key stage dataset](https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/42a45473-ed18-460b-8d9e-1ea026d91949) distinguish school count from pupil count and allow admissions-policy breakdowns. The academic-year label 2025/26, January 2026 census date and June 2026 publication date describe different things."
+    },
+    {
+      "type": "h2",
+      "text": "What is included in a state grammar-school count?"
+    },
+    {
+      "type": "p",
+      "text": "The question normally concerns England’s fully academically selective state secondary schools. It is not a count of every school with “Grammar” in its name, every school using an assessment, or every school offering some selective places. For the basic distinction, see [what is a grammar school?](/blog/what-is-a-grammar-school)."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Independent schools with Grammar in their names belong to the fee-paying sector and should not be added to the state total.",
+        "Academy grammar schools remain state funded; excluding all academies would remove valid schools from the count.",
+        "A partially selective or bilateral school needs to be identified separately from a fully selective grammar.",
+        "A predecessor school and its successor academy should not be counted as two current schools.",
+        "A campus or additional building does not necessarily create a separate school establishment.",
+        "Northern Ireland belongs to a separate education system and is outside an England-only figure."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why do different websites give different numbers?"
+    },
+    {
+      "type": "p",
+      "text": "A directory may use an older snapshot, a broader definition or a different geographical boundary. Some lists count useful test routes rather than fully selective institutions. A disagreement does not, on its own, prove that a new grammar school has opened."
+    },
+    {
+      "type": "p",
+      "text": "There is a concrete example in [Warwickshire’s official grammar-school guide](https://www.warwickshire.gov.uk/grammar-schools-11-test/grammar-schools-warwickshire/1): its six listed selective routes include Ashlawn, which the council explicitly describes as a bilateral school with one selective class. That is useful admissions information, but a reader should not assume every school in such a local list belongs to the same statistical category."
+    },
+    {
+      "type": "p",
+      "text": "When comparing totals, write down the source date, territory, school status and definition next to each number. If those fields differ, reconcile them before adding county lists together. “London” also needs an explicit boundary; it is not interchangeable with one local authority."
+    },
+    {
+      "type": "h2",
+      "text": "Where are England’s grammar schools?"
+    },
+    {
+      "type": "p",
+      "text": "They are unevenly distributed. The Commons briefing’s January 2022 description records grammar schools in 35 local authorities, with around 60% located in 11 of them. Those are dated geographical observations, not a current count of schools you can realistically apply to from your address."
+    },
+    {
+      "type": "p",
+      "text": "Use [GIAS](https://get-information-schools.service.gov.uk/) to identify establishments, then inspect the school or council admissions pages. A nearby school may have priority areas or residence requirements. A more distant school may accept applications from your address but involve an impractical journey. Neither the national count nor a map pin establishes eligibility."
+    },
+    {
+      "type": "h2",
+      "text": "How to check a published count yourself"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Choose one snapshot date and specify England as the geography.",
+        "Identify open, state-funded secondary establishments with the relevant selective admissions classification.",
+        "Keep partially selective schools, independent schools and schools outside England separate.",
+        "Check unique establishment identifiers, predecessor records and sites so you do not double count.",
+        "Record the filters and whether the result counts schools, pupils or available Year 7 places.",
+        "If publishing a total, link the source and state its observation date; do not replace that date with the day you read it."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What matters for a child taking exams in 2027?"
+    },
+    {
+      "type": "p",
+      "text": "For the usual English Year 7 route, autumn 2027 tests commonly lead to September 2028 entry. Build a shortlist using the school’s 2028 admission arrangements when published, the confirmed test route and a manageable journey. Do not assume the number of schools tells you how many tests to take: several schools may share a test, while another requires its own registration."
+    },
+    {
+      "type": "p",
+      "text": "Keep unconfirmed future dates clearly marked and review the school’s official information before acting. [Choosing between several grammar schools](/blog/how-do-i-choose-between-several-grammar-schools) explains the next comparison steps. National school numbers are context; the entry rules of your actual shortlist drive the application."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
-    slug: "what-is-the-difference-between-grammar-and-comprehensive-schools",
-    title: "What is the difference between grammar and comprehensive schools?",
-    desc: "Uncover what is the difference between grammar and comprehensive schools in the UK. Explore selective vs non-selective admissions, history, curriculum, teaching styles, and performance data to see which system excels. Discover the truth now.",
-    date: "February 9, 2026",
-    readTime: "10 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_4.jpeg",
-    imageAlt: "What is the difference between grammar and comprehensive schools?",
-    images: ["https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_1.jpeg", "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_2.jpeg", "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_3.jpeg", "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Definition of Grammar Schools" },
-      { type: "p", text: "[Grammar schools](/schools) are **state-funded secondary schools** in the UK that admit pupils based on academic ability, primarily through the **11-plus exam**, serving approximately 165 schools across England with 5% of secondary pupils. These schools form part of the selective education system. They focus on pupils showing strong potential in core subjects." },
-      { type: "p", text: "According to 2023 DfE data, there are [163 grammar schools](/blog/what-is-a-grammar-school) in England, with notable regional concentrations. Buckinghamshire hosts 13 grammars, Kent has 38, and London counts 8. Schools like Traitors Grammar serve around 1,000 pupils, emphasising rigorous academics from Year 7." },
-      { type: "p", text: "The 11-plus exam includes verbal reasoning at 29%, maths at 29%, non-verbal reasoning at 21%, and English at 21%. This tests skills for **secondary education**. Parents often prepare children early to navigate this process." },
-      { type: "p", text: "Grammar schools contrast with **comprehensive schools** by prioritising academic selection over catchment area alone, and many parents ask [whether grammar schools are better than other state schools](/blog/are-grammar-schools-better-than-other-state-schools). They aim to foster high achievement in a structured environment. This setup influences school choice and parental preference in the UK education system." },
-      { type: "h3", text: "Selective Admission Process" },
-      { type: "p", text: "The 11-plus exam, taken by Year 6 pupils in September or October, determines grammar school entry with pass rates typically 20-30% depending on local competition. It lasts about **2 hours 15 minutes** and covers four sections. Fees range from \u00a350 to \u00a380 per attempt." },
-      { type: "p", text: "Preparation follows a clear timeline: start with Bond papers in Year 4, move to mock exams in Year 5, and complete 10 or more practice tests in Year 6. Regional variations exist, such as the **CEM exam** in Buckinghamshire versus GL Assessment in Kent. This helps tailor study to local demands." },
-      { type: "ul", items: ["Verbal reasoning (29%): Tests vocabulary and logic.", "Maths (29%): Covers arithmetic and problem-solving.", "Non-verbal reasoning (21%): Assesses patterns and shapes.", "English (21%): Focuses on comprehension and grammar."] },
-      { type: "p", text: "Oversubscription uses criteria like exam score at 50%, looked-after children at 20%, siblings at 15%, and distance at 15%. In 2023, Bexley saw 23% pass rates, Barnet 28%. Parents check **school admissions** policies for specifics, including sibling policy and catchment area rules." },
-      { type: "h2", text: "Definition of Comprehensive Schools" },
-      { type: "p", text: "Comprehensive schools admit all pupils regardless of ability, serving most UK secondary pupils across thousands of **non-selective state schools** with admissions based on local catchment areas. These schools form the backbone of the **state education system**, contrasting sharply with selective grammar schools that use entrance exams like the 11-plus." },
-      { type: "p", text: "Unlike grammars, comprehensive schools welcome pupils of mixed abilities, promoting educational equality through inclusive environments. They dominate secondary education, with local authority schools, academies, and faith schools making up the main types. Parents often choose based on catchment proximity rather than academic selection." },
-      { type: "p", text: "Average comprehensive schools host 1,000 to 1,500 pupils, with a typical **pupil-teacher ratio** around 16:1, slightly higher than grammars at 14:1. This setup supports diverse teaching methods like streaming or setting within mixed ability classes. Facilities include standard science labs, libraries, and sports fields, fostering extracurricular activities such as sports teams and music programs." },
-      { type: "p", text: "Historically, comprehensives rose from the **1944 Education Act** and later reforms, replacing the tripartite system to reduce elitism. Today, they emphasise opportunity for all, including pupil premium support and special educational needs provisions, unlike the academic focus of grammars." },
-      { type: "h3", text: "Non-Selective Admission" },
-      { type: "p", text: "Comprehensive admissions prioritize proximity with most pupils attending within a short distance, using criteria like **distance**, siblings, medical needs, and random allocation. This non-selective approach ensures a broad ability range, differing from grammar schools' reliance on the 11-plus exam." },
-      { type: "p", text: "Many comprehensives employ **banding systems** to balance intake across ability levels, dividing applicants into bands for fair representation. For example, a school like one in Tower Hamlets might aim for equal numbers from lower, middle, and higher bands. Distance criteria average around 1.8 miles, with sibling policies giving priority in close proximity." },
-      { type: "p", text: "Oversubscription affects a notable portion of schools, leading to tie-breaks via equal preference or distance-based local authority policies. Parents can boost chances by living in the **catchment area** or noting medical needs. This system supports school choice while maintaining mixed ability classes." },
-      { type: "p", text: "Compared to grammars, comprehensives avoid academic selection, promoting social mobility through inclusive access. Practical steps for parents include checking sibling policies and monitoring house prices in desirable areas, ensuring alignment with family needs over pure academic hierarchy." },
-      { type: "h2", text: "Historical Origins" },
-      { type: "p", text: "UK secondary education evolved from **medieval grammar schools** teaching Latin through the 1944 Butler Act's **tripartite system** to comprehensive reorganization post-1965." },
-      { type: "p", text: "The 1944 Education Act created a system with 30% in grammar schools, 20% in technical schools, and 50% in secondary moderns. This aimed to match pupils to academic, technical, or practical paths based on the 11-plus exam." },
-      { type: "p", text: "By 1965, **Circular 10/65** pushed local authorities towards comprehensive schools for non-selective education. The 1976 Callaghan Ruskin speech urged further reform, while 1980s policies preserved some grammars amid mergers and closures." },
-      { type: "p", text: "This shift marked a move from **selective education** to **non-selective education**, influencing school admissions, social mobility, and the modern UK schools landscape." },
-      { type: "h3", text: "Grammar Schools" },
-      { type: "p", text: "Grammar schools trace to 14th-century monastic institutions, formalised by **1944 Butler Act** selecting top pupils via **11-plus** for academic streams." },
-      { type: "p", text: "Early examples include Manchester Grammar School from 1506 and King Edward VI Grammar from 1552, focusing on Latin and classics. The **1902 Balfour Act** provided state funding, expanding endowed schools like Eton founded in 1440." },
-      { type: "p", text: "The tripartite system established around 231 grammar schools, though technical schools largely failed with few built. Pre-1965, over 1,300 grammars operated, reduced to 163 by 1980 due to comprehensive reforms." },
-      { type: "p", text: "Today, surviving grammars in areas like **Buckinghamshire** and parts of London emphasize **academic selection**, entrance exams, and preparation for GCSEs and A-levels, often with strong Oxbridge pathways." },
-      { type: "h3", text: "Comprehensive Schools" },
-      { type: "p", text: "Comprehensive schools emerged from 1960s equality push, with Circular 10/65 mandating reorganization; by 1976, most pupils attended comprehensives." },
-      { type: "p", text: "Pioneers like Risley High in 1957 and 1950s Leicestershire experiments tested non-selective education. Labour governments from 1964 expanded them, affecting 129 local authorities and leading to 1970s mergers." },
-      { type: "p", text: "Areas like Buckinghamshire resisted, retaining grammars, while over 1,200 grammar closures occurred. By 1980, comprehensives dominated, rising from a small base in 1965." },
-      { type: "p", text: "These schools serve **mixed ability classes** within catchment areas, using streaming or setting rather than selection. They promote educational equality, vocational training alongside academics, and extracurriculars like sports teams and debate clubs." },
-      { type: "h2", text: "Key Admission Differences" },
-      { type: "p", text: "Grammar schools use academic selection (11-plus pass rate 23%) while comprehensives employ catchment (1.8-mile radius) or banding for mixed-ability intake. This core difference shapes access to **UK schools**. Parents often weigh these factors when considering secondary education options." },
-      { type: "p", text: "Grammar schools rely on the 11-plus exam, testing verbal reasoning, maths, and non-verbal reasoning. Only pupils passing this entrance exam gain entry, promoting selective education. High demand leads to oversubscription at ratios like 8:1 in 2023." },
-      { type: "p", text: "In contrast, comprehensive schools admit based on catchment area, siblings, or banding to ensure non-selective education. Oversubscription here runs lower, around 1.5:1 in 2023. This approach supports educational equality for all local pupils." },
-      { type: "p", text: "A comparison table highlights these school admissions contrasts clearly." },
-      { type: 'table', headers: ["Criteria", "Grammar", "Comprehensive"], rows: [["Test", "11-plus (VR/Maths/NVR)", "None/Banding"], ["Capacity", "Selective 20-30% pass", "All local pupils"], ["Priority", "Score>Siblings>Distance", "Distance>Siblings>Banding"], ["Appeals", "Academic review", "Distance review"]] },
-      { type: "p", text: "Parents appealing a grammar school rejection focus on exam performance, while **comprehensive** appeals centre on location. Understanding **sibling policy** and distance criteria aids school choice. Visit open days to gauge fit for your child." },
-      { type: "h2", text: "Curriculum and Academic Focus" },
-      { type: "p", text: "Grammar schools emphasize **EBacc subjects** (88% uptake) and **triple sciences** (92%) while comprehensives offer broader vocational options (25% BTEC entry)." },
-      { type: "p", text: "This difference shapes the core **academic focus** in each school type. Grammar schools prioritise rigorous preparation for GCSEs and A-levels in traditional subjects. Comprehensives balance academics with practical skills to suit mixed abilities." },
-      { type: "p", text: "In 2023 GCSE data, grammar schools achieved **5+ A*-C grades** at 92% compared to 68% in comprehensives. Subject entry rates highlight this gap, such as **A-level Maths** at 65% in grammars versus 22% in comprehensives. These figures reflect selective education's push for high achievement." },
-      { type: "p", text: "Grammar schools often include extras like Latin in 18 schools and Further Maths GCSE in 12 schools. Comprehensives counter with **vocational training** paths. Parents choosing between school types should review league tables for specific **GCSE results** and curriculum fit." },
-      { type: 'table', headers: ["Key Curriculum Metric", "Grammar Schools", "Comprehensive Schools"], rows: [["**EBacc Uptake**", "88%", "42%"], ["**Triple/Dual Science**", "92%", "68%"], ["**Modern Languages**", "3 languages (45%)", "1 language (28%)"], ["**Vocational Entry**", "Low", "25%"]] },
-      { type: "h2", text: "Teaching Approaches" },
-      { type: "p", text: "Grammars use **setting by ability** in 85% of subjects from Year 7 versus comprehensives' **mixed-ability teaching** in 62% of lessons with larger classes (22:1 vs 19:1)." },
-      { type: "p", text: "This difference shapes daily lessons in **grammar schools** and comprehensive schools. Grammar pupils often move to subject-specific groups early, like maths sets based on entry exam results. Comprehensives keep broader mixes to build social skills across abilities." },
-      { type: "p", text: "Sutton Trust data shows **grammar specialist teachers** at 68% compared to 42% in comprehensives. Grammars favour direct instruction in 65% of lessons, with teachers leading clear explanations. Comprehensives lean on **group work** in 52% of cases for collaborative learning." },
-      { type: "p", text: "Grammar advantages include **smaller classes** averaging 19 pupils and subject specialists from Year 7. For example, a Year 7 science class might have a PhD chemist teaching advanced topics. This setup supports academic selection and prepares pupils for GCSE rigour." },
-      { type: "ul", items: ["Setting allows tailored pace, suiting high-ability learners in grammars.", "Streaming sorts whole year groups by overall attainment.", "Mixed-ability classes in comprehensives promote peer teaching and inclusivity.", "Direct instruction aids exam-focused drills, common in selective education."] },
-      { type: "h2", text: "Social and Student Diversity" },
-      { type: "p", text: "Grammar schools serve **5.5% Pupil Premium** (vs 28% national) and **1.2% SEN** (vs 14%) creating less diverse cohorts than comprehensives' 25% disadvantaged intake. This stems from the 11-plus exam and academic selection, which often favour families with resources for tutoring. Comprehensive schools, as non-selective, reflect broader community diversity." },
-      { type: "p", text: "Ethnic backgrounds also differ, with **grammar schools at 78% White British** compared to 62% in comprehensives, per 2023 DfE data. Such patterns highlight how selective education can lead to less mixed groups. Parents in grammar school areas often move house to access these spots." },
-      { type: "p", text: "Social mobility shows gaps too, as grammar pupils have higher rates of first-generation university entry at 45% versus 32% in comprehensives. This ties to **pupil premium** support and resources in non-selective settings. Families weigh these factors during school choice." },
-      { type: 'table', headers: ["Metric", "Grammar", "Comprehensive", "National"], rows: [["Pupil Premium", "5.5%", "28%", "28%"], ["Free School Meals", "7%", "22%", "22%"], ["SEN Support", "1.2%", "13%", "14%"]] },
-      { type: "p", text: "These metrics underline **social segregation** in the education system. Comprehensive schools promote mixing across abilities and backgrounds through mixed ability classes. Grammar environments may limit exposure to varied peers." },
-      { type: "h2", text: "Academic Performance Outcomes" },
-      { type: "p", text: "Grammar schools achieve 85% grade 5+ in English and Maths at GCSE (versus 45% in comprehensives) and **75% AAB at A-level** (versus 18%), per 2023 DfE data across 163 grammars versus 3,200 comprehensives. These figures highlight the academic performance gap in selective education. Parents often review league tables to compare grammar schools and comprehensive schools." },
-      { type: "p", text: "**Progress 8 scores** further show this divide, with grammars averaging higher attainment from key stage 2 baselines. In **Buckinghamshire grammar areas**, pass rates reach 91% compared to 52% in local comprehensives. FFT data indicates grammar Progress 8 at +1.2 versus -0.1 for comprehensives." },
-      { type: 'table', headers: ["Metric", "Grammar", "Comprehensive", "Gap"], rows: [["GCSE 5+ Eng/Maths", "85%", "45%", "+40%"], ["A-level AAB", "75%", "18%", "+57%"], ["Progress 8", "+0.65", "-0.02", "+0.67"]] },
-      { type: "p", text: "Oxbridge admissions underline elite outcomes, with grammars sending 1 in 40 pupils versus 1 in 800 from comprehensives. **Selective education** supports **Oxbridge preparation** through rigorous curricula. Families in grammar school areas like Bucks prioritise the 11-plus exam for access." },
-      { type: "p", text: "These trends reflect academic selection benefits in UK secondary education, though comprehensives emphasise mixed ability classes and **social mobility**. Parents [weigh GCSE results and A-level results alongside catchment areas](/compare) and school admissions policies when choosing between school types." },
-    ],
-  },
+  "slug": "what-is-the-difference-between-grammar-and-comprehensive-schools",
+  "title": "Grammar vs comprehensive schools: what is the difference?",
+  "desc": "Compare selective and comprehensive state-school entry, banding, curriculum and support, with practical questions for families considering 2027 exams.",
+  "date": "February 9, 2026",
+  "readTime": "5 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_4.jpeg",
+  "imageAlt": "What is the difference between grammar and comprehensive schools?",
+  "images": [
+    "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_1.jpeg",
+    "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_2.jpeg",
+    "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_3.jpeg",
+    "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "The main difference is admission. A state grammar school selects pupils by academic ability, usually through an 11+ process for Year 7. A comprehensive school admits across the ability range. Both provide state-funded education without tuition fees, and either can be run as an academy."
+    },
+    {
+      "type": "p",
+      "text": "That distinction does not mean every eligible applicant gets a place at a grammar, or that a comprehensive can admit every local child. Both may receive more applications than they have places. Their published admission arrangements explain how those places are allocated."
+    },
+    {
+      "type": "h2",
+      "text": "The differences that affect an application"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "State grammar",
+        "Comprehensive state school"
+      ],
+      "rows": [
+        [
+          "Is academic selection used?",
+          "Yes, through the published selection process.",
+          "The intake spans the ability range; check any particular permitted aptitude or banding arrangements."
+        ],
+        [
+          "Could an assessment be involved?",
+          "Usually an entrance test for the normal Year 7 route.",
+          "Some use banding assessments; these are not the same as selecting only high scorers."
+        ],
+        [
+          "What happens if the school is full?",
+          "Oversubscription criteria apply to eligible applicants.",
+          "Oversubscription criteria apply; proximity alone does not guarantee a place."
+        ],
+        [
+          "Does academy status change the category?",
+          "A grammar can be an academy.",
+          "A comprehensive can also be an academy."
+        ],
+        [
+          "Are tuition fees charged?",
+          "No.",
+          "No."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[DfE’s school-type guide](https://www.gov.uk/types-of-school) explains the funding and governance categories. Its [admissions criteria guidance](https://www.gov.uk/schools-admissions/admissions-criteria) lists examples such as distance, siblings, faith and feeder-school links. These are possible criteria, not one national priority order."
+    },
+    {
+      "type": "h2",
+      "text": "Banding is different from passing a grammar-school test"
+    },
+    {
+      "type": "p",
+      "text": "A banding assessment can be used to help a school admit a balanced range of abilities. A grammar entrance test is used for academic selection. Ask what an assessment does in the admission process before deciding how to prepare for it."
+    },
+    {
+      "type": "p",
+      "text": "For example, [William Hulme’s Grammar School](https://www.whgs-academy.org/admissions/admissions-policy) describes its intake as comprehensive and says its Year 7 banding assessment has no pass/fail mark. Its page, checked in October 2026, links 2026/27 and 2027/28 policies. This illustrates the distinction; it is not confirmation of that school’s rules for September 2028 entry. The word Grammar in a school name can therefore mislead."
+    },
+    {
+      "type": "h2",
+      "text": "Setting pupils after entry is a separate decision"
+    },
+    {
+      "type": "p",
+      "text": "Selection determines admission to a school. Setting usually groups pupils by attainment for a particular subject after they have joined. Mixed-attainment teaching and movement between groups are teaching arrangements. Do not infer a school’s approach to maths sets, languages or support from its admission label."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ask which subjects use sets and from which year.",
+        "Ask what evidence informs a grouping decision and when it is reviewed.",
+        "Ask how pupils move groups if their progress changes.",
+        "Ask how the school challenges pupils who are ahead and supports those who need more explanation."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Is the curriculum different?"
+    },
+    {
+      "type": "p",
+      "text": "There is no single grammar curriculum that automatically replaces a comprehensive curriculum. Governance matters: [the government’s national curriculum guidance](https://www.gov.uk/national-curriculum) explains that academies have different curriculum obligations from maintained schools and must offer a broad and balanced curriculum. Independent schools have their own regulatory position."
+    },
+    {
+      "type": "p",
+      "text": "For a useful comparison, request the actual Year 7 subject list and current GCSE options. Check how languages, science pathways, arts, computing and technical subjects work at the named schools. A prospectus may list a subject without guaranteeing it to every pupil, so ask about option restrictions and group sizes. Sixth-form provision is another school-specific question."
+    },
+    {
+      "type": "h2",
+      "text": "What do exam results tell you?"
+    },
+    {
+      "type": "p",
+      "text": "Exam results describe the achievements of the pupils who attended that school. Grammar schools select academically, so comparing raw results with an all-ability intake does not isolate the effect of teaching. The [House of Commons Library briefing](https://commonslibrary.parliament.uk/research-briefings/sn07070/) explains that adjusting for prior attainment narrows differences and that not all intake characteristics can be controlled."
+    },
+    {
+      "type": "p",
+      "text": "Use results alongside the school’s current context, curriculum, inspection information and support arrangements. Ask how pupils with a similar starting point to your child progress. Avoid turning one league-table position into a prediction of a child’s future grades, university or wellbeing."
+    },
+    {
+      "type": "h2",
+      "text": "Support and daily school life need their own checks"
+    },
+    {
+      "type": "p",
+      "text": "A child can have high academic attainment and still need support with dyslexia, disability, anxiety, organisation or social communication. Selection does not remove those needs. Ask both schools how support is identified, delivered and reviewed, and involve the child in describing what helps them learn."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Area to compare",
+        "Useful evidence to request"
+      ],
+      "rows": [
+        [
+          "Academic challenge",
+          "A Year 7 example of extension work and how staff check understanding."
+        ],
+        [
+          "SEND support",
+          "The school’s SEN information, contact route and examples of support processes."
+        ],
+        [
+          "Pastoral care",
+          "Who notices a problem, who the child can approach and how parents are informed."
+        ],
+        [
+          "Daily routine",
+          "A realistic morning journey, homework expectations and club finishing times."
+        ],
+        [
+          "Transition",
+          "How new pupils meet staff, learn routines and raise concerns."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Can you apply to both types?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. For the normal English secondary application process, families can list grammar and comprehensive preferences, subject to the council’s instructions. Keep the grammar test registration separate from the school-place application. A comprehensive option deserves the same research and visits as the grammar option."
+    },
+    {
+      "type": "p",
+      "text": "For exams taken in autumn 2027, the usual Year 7 start is September 2028. Read the relevant entry-year policies when published and mark unknown dates as unconfirmed. For the family decision itself, use [our school comparison guide](/blog/how-do-i-choose-between-several-grammar-schools). For the separate fee-paying route, read [grammar versus independent school entry](/blog/difference-between-grammar-schools-and-independent-schools-11-plus)."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
     slug: "are-grammar-schools-better-than-other-state-schools",
@@ -6534,116 +7248,158 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "how-do-you-get-into-a-grammar-school",
-    title: "How do you get into a grammar school?",
-    desc: "Discover how to get into a grammar school with our expert guide on eligibility, entrance exams in Maths, English, and Reasoning, top study resources, mocks, and interviews. Beat the 10:1 odds and secure your spot today.",
-    date: "February 12, 2026",
-    readTime: "8 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_4.jpeg",
-    imageAlt: "How do you get into a grammar school?",
-    images: ["https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_1.jpeg", "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_2.jpeg", "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_3.jpeg", "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Understanding Grammar Schools" },
-      { type: "p", text: "[Grammar schools](/schools) are **academically selective state-funded institutions** in the UK that admit pupils based on 11+ entrance exam performance, with 163 remaining across England as of 2024. These schools differ from **comprehensives**, which accept all local children regardless of ability. They focus on high academic standards from Year 7." },
-      { type: "p", text: "Top-performing examples include King Edward VI Grammar Birmingham and Wilson's School. Other strong schools are Latymer Grammar, Henrietta Barnett, and Tiffin School. These often show excellent GCSE and A-Level results." },
-      { type: "p", text: "Regional hotspots feature **Kent grammar schools** with 38 institutions, Birmingham with 8, and Trafford with 5. Parents in these areas face high competition for places. Visiting **school open days** helps assess fit." },
-      { type: "p", text: "Pupils at grammar schools gain from a **traditional curriculum** with setting and streaming. Research from the Sutton Trust indicates they are more likely to attend **Russell Group universities**. This supports long-term academic success." },
-      { type: "h3", text: "What Are Grammar Schools?" },
-      { type: "p", text: "Grammar schools admit only the top 20-25% of applicants based on 11+ exam results, prioritising academic potential over catchment area in most cases. In almost every selective area you [have to sit the 11 Plus](/blog/do-you-have-to-sit-the-11-plus-for-grammar-school), with tests from exam boards like CEM, GL Assessment, or CSSE. These include verbal reasoning, non-verbal reasoning, **maths tests**, and **English tests**." },
-      { type: "p", text: "Key characteristics define these **selective schools**. They offer a **traditional academic curriculum**, often including Latin or Greek. Most hold high Ofsted ratings, with many Outstanding." },
-      { type: "ul", items: ["**Selective entry** via 11+ exams covering comprehension, spelling, punctuation, and vocabulary.", "**High progression** to Oxbridge, as seen at Tiffin School.", "**Setting and streaming** from Year 7 to match pupil ability.", "Strong focus on **core subjects mastery** and advanced problem-solving.", "Emphasis on **exam technique**, time management, and confidence building."] },
-      { type: "p", text: "League tables highlight top schools by A-Level results, such as Wilson's School, Latymer Grammar, Henrietta Barnett, Tiffin School, and Dartford Grammar. Parents should review **prospectuses** and Ofsted reports. Preparing with mock exams and **practice papers** from Bond or CGP books boosts chances." },
-      { type: "h2", text: "Eligibility and Application Timeline" },
-      { type: "p", text: "Most **grammar schools** require registration by June or July in Year 5 for Year 6 testing, with exams in September and offers by March. Parents should follow a clear **application timeline** to stay on track. Start researching in Year 4 to identify suitable selective schools." },
-      { type: "p", text: "In **Year 5**, register by June and begin exam preparation for the **11+ exam**. Year 6 brings the September entrance exam, followed by March offers for Year 7 entry. Picture a timeline graphic: Year 4 marks school research, Year 5 covers registration and prep, Year 6 handles exams and results." },
-      { type: "p", text: "Priority criteria shape admissions after the **entrance assessment**. Common lists include: looked-after children first, then pupil premium eligibility, academic score from the test, sibling priority, and distance from school, often 0.5 to 3 miles. **Medway and Kent** have unique rules, like separate tests or banding." },
-      { type: "p", text: "Many children test in September for these **state grammar schools**. Check oversubscription criteria in each prospectus. Early planning helps with **catchment area** and competition." },
-      { type: "h3", text: "Age Requirements and Deadlines" },
-      { type: "p", text: "Children born between 1st September 2012 and 31st August 2013 qualify for 2024 entry, with most schools requiring **registration by 30th June**. Age rules ensure fairness in the **11 plus exam**. Confirm eligibility via the school prospectus." },
-      { type: "p", text: "Deadlines vary by county for the **admissions process**. Use this table to track key dates:" },
-      { type: 'table', headers: ["County", "Registration Deadline"], rows: [["Kent", "15th June"], ["Birmingham", "30th April"], ["Barnet", "1st June"], ["Trafford", "31st July"], ["Sutton", "17th July"]] },
-      { type: "p", text: "GL schools often close in May or June, while CEM exams run June to July. **Secondary applications** go in by 31st October. Fees for multiple tests range from \u00a320 to \u00a350 per school." },
-      { type: "p", text: "Follow this checklist for smooth preparation:" },
-      { type: "ul", items: ["Check school prospectus for exact rules and download familiarisation materials.", "Submit secondary school application by 31st October via your local council.", "Register for tests at multiple grammar schools, noting fees and late restrictions."] },
-      { type: "p", text: "Late registration often bars entry, so mark dates early. Experts recommend verifying with open days or league tables." },
-      { type: "h2", text: "Preparing for the Entrance Exam" },
-      { type: "p", text: "The **11+ tests** academic ability through 45-60 minute papers in Maths, English, and Reasoning, with [pass marks typically 80-85%](/blog/what-score-do-you-need-to-get-into-a-grammar-school) under age-standardised scoring. Most grammar schools use one of three main exam boards: GL Assessment for multiple choice papers, CEM for combined subjects using Durham methods, and CSSE for written essays. Exams last about 2 hours total across 4-5 papers, with scores reported as standardised (121+ to pass), raw (70-80%), or stanine (6-9)." },
-      { type: "p", text: "Regions vary in format. In Kent, the 11+ exam uses two papers totalling 120 minutes. Birmingham grammar schools often select CEM Select tests lasting 100 minutes. Parents should check the specific **grammar school prospectus** for the exact board and timing." },
-      { type: "p", text: "Preparation involves building exam technique through mock exams and practice papers. Focus on time management, speed, and accuracy to boost confidence. Experts recommend a study plan with regular practice papers from Bond or CGP books." },
-      { type: "p", text: "Registration deadlines fall in spring for year 6 entry. Review catchment areas, sibling priority, and oversubscription criteria early. Attend open days to understand the full admissions process." },
-      { type: "h3", text: "Exam Format and Subjects" },
-      { type: "p", text: "GL Assessment uses 4 **multiple choice** papers (Maths 50 questions, English 50 questions, VR 80 questions, NVR 60 questions), while CEM combines subjects into 2 longer tests. CSSE focuses on written papers without multiple choice. Durations range from 100 to 120 minutes total, testing core skills for **selective education**." },
-      { type: 'table', headers: ["Exam Board", "Papers", "Duration", "Style"], rows: [["GL", "4 papers (Maths, English, VR, NVR)", "110 mins", "Multiple choice"], ["CEM", "2 combined papers", "100 mins", "Comprehension-based"], ["CSSE", "2 papers (English, Maths)", "120 mins", "Written essays"]] },
-      { type: "p", text: "Question types include **verbal reasoning** (synonyms, cloze procedure), **non-verbal reasoning** (patterns, spatial shapes), and Maths (word problems). VR often allocates 20% to synonyms and 30% to cloze. NVR covers 40% patterns and 30% spatial reasoning." },
-      { type: "p", text: "Sample timings: GL Maths 25-30 minutes for 50 questions, English comprehension 25 minutes. Mark allocations reward accuracy over speed. Practice with **familiarisation materials** to master formats across GL, CEM, and CSSE." },
-      { type: "h3", text: "Core Study Areas: Maths, English, Reasoning" },
-      { type: "p", text: "Master 12 key topics: Maths (fractions, decimals, algebra), English (**comprehension**, SPaG), VR (synonyms, antonyms), NVR (rotations, patterns). Weightings guide focus: Maths around 30%, English 25%, VR 25%, NVR 20%. Allocate study time as 40% Reasoning, 30% Maths, 30% English for balanced prep." },
-      { type: "p", text: "**Maths test** covers ratios, speed and distance, data interpretation. Sample: \"If a car travels 60 miles in 1.5 hours, what is its average speed?\" Solution: Speed = distance \u00f7 time = 60 \u00f7 1.5 = 40 miles per hour. Practice word problems daily." },
-      { type: "p", text: "**English test** includes 25-minute comprehension and SPaG (spelling, punctuation, grammar). Sample: \"Choose the correct spelling: recieve or receive.\" Solution: Receive follows 'i before e except after c'. Build vocabulary through reading." },
-      { type: "ul", items: ["VR sample: \"Odd one out: apple, banana, carrot, pear.\" Solution: Carrot (vegetable, others fruits).", "NVR sample: Identify next in sequence of rotating shapes. Solution: Rotate 90 degrees clockwise.", "Maths sample: \"2/3 of 12?\" Solution: 8."] },
-      { type: "p", text: "Use **mock exams**, past papers, and tutoring for core subjects mastery. Develop logical thinking and pattern recognition. Parental support with a revision timetable aids year 7 transition." },
-      { type: "h2", text: "Recommended Study Resources" },
-      { type: "p", text: "Top resources include Bond 11+ Assessment Papers (8 books, \u00a38 each) and CGP 11+ Practice Papers (\u00a36-\u00a39), popular choices for **grammar school** preparation. These materials cover 11+ exam essentials like verbal reasoning, non-verbal reasoning, maths test, and English test. Parents often start here for cost-effective practice." },
-      { type: "p", text: "Books from Bond and CGP total around \u00a350, ideal for beginners building exam technique. Online platforms like **ExamPapersPlus** (\u00a349 per year) offer 20+ mocks, while PreTestPlus provides \u00a324 per CEM Select test. Tutors charge \u00a330-\u00a360 per hour for personalised guidance on CEM exam or **GL Assessment**." },
-      { type: "p", text: "Combine these for a balanced study plan. Use books for daily drills in comprehension and spatial reasoning, online mocks for **time management**, and tutors for weak areas like **quantitative reasoning**. This approach boosts speed accuracy before the entrance exam." },
-      { type: 'table', headers: ["Resource", "Level", "Price", "Best For"], rows: [["**Bond**", "Beginner", "\u00a38", "Foundational skills"], ["**CGP**", "Advanced", "\u00a39", "Exam-specific practice"], ["**GL Workbooks**", "Intermediate", "\u00a312", "Multiple choice tests"], ["**CEM Mocks**", "Advanced", "\u00a315", "Realistic simulation"]] },
-      { type: "h3", text: "Books, Online Courses, and Tutors" },
-      { type: "p", text: "Invest in 8 **Bond Assessment Papers** (\u00a364 total) for foundational practice, supplemented by CGP Complete 11+ Practice Papers (\u00a345 for 6 books). These target grammar school entrance topics like spelling, punctuation, and vocabulary. They help year 6 pupils master **core subjects** at home." },
-      { type: "p", text: "Books suit different needs. Bond offers 8 books for beginners (\u00a364), CGP has 10 exam-specific ones (\u00a372), and **Letts** provides mixed ability sets (\u00a355). Pair with online resources like ExamPapersPlus (\u00a349/year, 20+ mocks) or PreTestPlus (\u00a324 per CEM Select) for mock exams." },
-      { type: "p", text: "Tutoring enhances progress. Group sessions from **KTS** or Kings Tutors cost \u00a325 per hour, while 1:1 with Bonas MacFarlane runs \u00a345 per hour. A typical budget covers \u00a3250 in books plus \u00a3500 in tutoring, totalling \u00a3750 for full **exam preparation**." },
-      { type: 'table', headers: ["Type", "Options", "Details", "Cost"], rows: [["Books", "Bond", "8 books, beginner", "\u00a364"], ["Books", "CGP", "10 books, exam-specific", "\u00a372"], ["Books", "Letts", "Mixed ability", "\u00a355"], ["Online", "ExamPapersPlus", "20+ mocks/year", "\u00a349/yr"], ["Online", "**PreTestPlus**", "CEM Select", "\u00a324/test"], ["Tutoring", "Group", "KTS/Kings Tutors", "\u00a325/hr"], ["Tutoring", "1:1", "Bonas MacFarlane", "\u00a345/hr"]] },
-      { type: "h2", text: "Practice and Mock Tests" },
-      { type: "p", text: "Complete 12 full [mock exams](/mock-exams) under timed conditions with a 9am start, aiming for **82%+ in final 4 mocks** before exam day. This builds stamina for the real **11+ entrance exam** and mirrors the selective school pressure. Parents often schedule these on weekends to simulate school days." },
-      { type: "p", text: "Follow an **8-week practice schedule** to ramp up intensity. Weeks 1-2 focus on two half-mocks each week for baseline assessment. Weeks 3-6 involve one full mock per week, while weeks 7-8 double to two mocks weekly for peak preparation." },
-      { type: "p", text: "Use **error analysis** after every mock to categorise mistakes: technique (40%), knowledge gaps (30%), and careless errors (30%). Review verbal reasoning code breaking flaws or non-verbal reasoning shape sequences weekly. This method sharpens exam technique and boosts confidence." },
-      { type: "p", text: "Choose providers wisely for quality practice papers. Table below lists options with costs and formats suited to GL Assessment or CEM exams used by grammar schools like Tiffin School or Dartford Grammar." },
-      { type: 'table', headers: ["Provider", "Cost", "Format"], rows: [["GL Assessment", "\u00a325 per mock", "Paper-based, centre venue"], ["Atom Learning", "\u00a336 per month", "Unlimited online mocks"], ["KTS", "\u00a320 per centre mock", "In-person, timed sessions"]] },
-      { type: "p", text: "Track score improvements from Mock 1 at 65% to Mock 12 at 85% using a revision timetable. Combine with **past papers** from Bond or CGP books for maths test and English test mastery. This structured approach supports **year 6** pupils targeting state grammar schools." },
-      { type: "h2", text: "Building a Strong Application" },
-      { type: "p", text: "Secure above average primary school reports and **Level 5+ SATs results** to support your 11+ score in oversubscribed grammars. Beyond the **entrance exam** score, applications need strong academic evidence. Common requirements include KS2 SATs 100+ scaled scores, 'secure' teacher judgement, and no behaviour concerns." },
-      { type: "p", text: "Grammar schools use **priority categories** for oversubscription. These often break down into academic ability, siblings, distance, and pupil premium or looked after children. Understanding these helps target the right selective schools." },
-      { type: "p", text: "Follow a clear **application checklist**. Register for up to six schools, submit by the **31st October** deadline, and attend open days to gather insights on the admissions process." },
-      { type: "ul", items: ["Request detailed **headteacher references** highlighting academic potential.", "Prepare evidence of **extracurricular achievements** if required.", "Check each school's catchment area and oversubscription criteria.", "Attend school open days to assess fit for year 7 transition."] },
-      { type: "h3", text: "Academic Evidence and Reports" },
-      { type: "p", text: "Strong **primary school reports** form the backbone of your grammar school application. Teachers must confirm 'secure' progress in core subjects like maths and English. Pair this with KS2 SATs results showing high achievement to demonstrate readiness for selective education." },
-      { type: "p", text: "Headteachers provide **references** that carry weight in the selection process. They detail class performance, attitude to learning, and suitability for a challenging environment. Request these early to allow time for thorough completion." },
-      { type: "p", text: "Avoid any **behaviour concerns** flagged in reports. Schools prioritise pupils with consistent focus and resilience. Use year 6 to build a positive profile through stretch and challenge activities." },
-      { type: "p", text: "If needed, include an **educational psychologist report** for gifted and talented pupils. This supports cases for academic excellence in competitive grammars like Wilson's School or Tiffin School." },
-      { type: "h3", text: "Priority Categories Breakdown" },
-      { type: "p", text: "Most grammar schools allocate places via priority categories. Academic ability often leads, followed by sibling priority, distance criteria, and provisions for pupil premium or looked after children. Review each school's policy to align your application." },
-      { type: "p", text: "**Sibling priority** gives an edge if a brother or sister attends. Distance criteria favour those in the catchment area or priority areas. Pupil premium status can boost chances in state grammar schools." },
-      { type: "p", text: "Prepare for **oversubscription** by excelling in the 11+ exam. High scores in GL Assessment or CEM exam secure academic priority. Combine this with strong SATs for the best outcome." },
-      { type: "ul", items: ["Check **prospectus** for exact category weights.", "Measure home to school distance accurately.", "Confirm eligibility for **looked after children** status."] },
-      { type: "h3", text: "Application Checklist and Deadlines" },
-      { type: "p", text: "Start with registering for **six grammar schools** via your local authority. Submit the application form by the 31st October deadline to avoid late penalties. Double-check all documents for completeness." },
-      { type: "p", text: "Attend **open days** and virtual tours to evaluate options like Dartford Grammar or Newstead Wood. Note Ofsted ratings, league tables, and curriculum details such as setting or house systems. This informs your ranked preferences." },
-      { type: "p", text: "Track the **registration deadline** for entrance exams like the 11+ or Medway test. Practice with familiarisation materials to build exam technique. Parental support in organising mocks aids time management." },
-      { type: "ol", items: ["Gather **SATs results** and reports.", "Complete **online registration** for exams.", "Rank schools on the **common application form**.", "Monitor for **offers on 1st March**."] },
-      { type: "h2", text: "Interview Preparation" },
-      { type: "p", text: "10-15% of grammar schools such as those in Trafford and Reading conduct 20-minute panel interviews. These sessions test current affairs knowledge, teamwork skills, and subject enthusiasm. Parents should check the prospectus or school open day for specifics on the **interview process**." },
-      { type: "p", text: "The typical format involves a **5-person panel** including teachers and heads of year. Interviews last **15-25 minutes** and break down into 60% academic questions, 25% current affairs, and 15% personal topics. This structure helps schools assess fit for selective education." },
-      { type: "p", text: "Practice builds confidence through three mock interviews, often costing around \u00a350 each. Record or video these sessions for review to improve exam technique like clear speaking and eye contact. Focus on time management to cover all points within limits." },
-      { type: "p", text: "Stay informed with top news sources for kids: **BBC Bitesize**, First News, The Day, Scholastic, and Newsround. Discuss articles daily to sharpen **current affairs** responses. This prepares for questions on weekly events or global issues." },
-      { type: "h3", text: "Sample Questions and Model Answers" },
-      { type: "p", text: "Common query: \"Why our school?\" Model answer: \"I admire your strong maths test results and house system, which matches my interest in competitive academics from my 11+ exam prep.\" Keep it personal, linking to their **Ofsted rating** or traditions like Latin classes." },
-      { type: "p", text: "Another: \"Summarise this week's news.\" Model: \"The UK government announced new funding for **grammar school expansion**, and a drought affected farming in East Anglia.\" Practice concise summaries of 3-4 key stories from **Newsround**." },
-      { type: "p", text: "For personal questions like \"Describe a teamwork challenge.\" Say: \"In year 6 group project, I organised tasks to meet the deadline, much like your **setting streaming** approach.\" Use STAR method (Situation, Task, Action, Result) for structure." },
-      { type: "p", text: "Academic probes, such as \"Explain photosynthesis.\" Respond clearly: \"Plants use sunlight, water, and carbon dioxide to make glucose via chlorophyll.\" Rehearse core subjects from entrance exam topics like verbal reasoning and non-verbal reasoning." },
-      { type: "h3", text: "Practice Methods" },
-      { type: "p", text: "Book **mock interviews** with a **grammar school tutor** to simulate the panel. Review videos for body language and filler words. This mirrors the assessment day pressure." },
-      { type: "p", text: "Role-play at home with parents acting as interviewers. Time sessions to 20 minutes and debrief on strengths. Incorporate current affairs from priority areas like social mobility debates." },
-      { type: "p", text: "Join group tuition or online Zoom lessons for peer feedback. Practice 11 plus exam style questions verbally. Track progress in a **revision timetable**." },
-      { type: "p", text: "Build mindset with **parental support** and exam anxiety tips. Visualise success from school open days. Consistent practice leads to natural responses in the real interview process." },
-      { type: "h2", text: "Common Challenges and Solutions" },
-      { type: "p", text: "Parents face top hurdles when preparing for grammar school entry, including fierce competition with multiple applications per place, strict time pressure of just over a minute per question in the 11+ exam, anxiety that affects many candidates, and gaps in key subjects like maths or non-verbal reasoning." },
-      { type: "p", text: "These issues can undermine exam technique and **confidence building**, but targeted strategies help overcome them. A structured approach with practice and support turns challenges into strengths for the entrance exam." },
-      { type: "p", text: "Common problems often stem from limited parental support or unfamiliarity with formats like CEM exam or GL Assessment. Families benefit from early mock exams and practice papers to build familiarity." },
-      { type: "p", text: "Below is a table outlining key challenges, their effects, practical solutions, and helpful tools. A **12-week intervention** can lead to notable score improvements, as seen in programmes like those from PiAcademy." },
-      { type: 'table', headers: ["Challenge", "Impact", "Solution", "Tools"], rows: [["Time management", "Lower scores from unfinished sections", "Stopwatch drills for speed accuracy", "Bond timers"], ["Anxiety", "High rate of underperformance", "Mindfulness practices daily", "Headspace Kids"], ["Maths gaps", "Weak performance in quantitative reasoning", "Diagnostic tests to target weaknesses", "CGP assessment"], ["NVR struggle", "Drop in spatial reasoning scores", "Pattern flashcards for recognition", "Atom Learning"]] },
-      { type: "p", text: "Integrate these into a study plan with revision timetable. Combine **online practice** and tutoring for best results in **selective school** preparation." },
-    ],
-  },
+  "slug": "how-do-you-get-into-a-grammar-school",
+  "title": "How to get into a grammar school: a 2027 exam application guide",
+  "desc": "Follow the grammar-school application steps for 2027 exams: choose schools, register for tests, understand results and submit the separate council application.",
+  "date": "February 12, 2026",
+  "readTime": "4 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_4.jpeg",
+  "imageAlt": "How do you get into a grammar school?",
+  "images": [
+    "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_1.jpeg",
+    "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_2.jpeg",
+    "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_3.jpeg",
+    "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "For a grammar-school place, you need to follow the school’s academic selection process and complete the school-place application. Registering for an 11 Plus test does not apply for a place, and a qualifying result does not guarantee an offer. The practical task is to match the right test, admission policy and deadlines for each school."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This guide covers English state grammar-school Year 7 entry. Exams taken in 2027 usually lead to September 2028 entry. Official sources checked on 10 October 2026; independent schools have their own admissions processes."
+    },
+    {
+      "type": "h2",
+      "text": "1. Choose schools your child could realistically attend"
+    },
+    {
+      "type": "p",
+      "text": "Read the official admissions policy, visit where possible and consider curriculum, support, activities and the daily journey. Check age eligibility, Year 7 admission requirements, catchment or priority areas and any relevant supplementary form. A nearby grammar school may use different rules from another in the same county."
+    },
+    {
+      "type": "p",
+      "text": "Start with [which schools use the 11 Plus](/blog/which-schools-use-the-11-plus-exam) and [how important catchment is](/blog/how-important-is-catchment-area-for-grammar-schools). Keep non-selective options in your shortlist as schools to evaluate in their own right."
+    },
+    {
+      "type": "h2",
+      "text": "2. Confirm the entry year and test timetable"
+    },
+    {
+      "type": "p",
+      "text": "[Buckinghamshire’s 2028 entry timeline](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/timeline-for-following-year/) identifies children born from 1 September 2016 to 31 August 2017 as the normal cohort. It lists registration in May–June 2027 and testing in early September 2027. This is a named local timetable, not a national registration window."
+    },
+    {
+      "type": "p",
+      "text": "[The Crypt School’s 2028 entry page](https://cryptschool.org/join-us/2028-entry-information-year-5-september-2026/) confirms the Gloucestershire test on 3 July 2027, in Year 5, with registration from noon on 8 February to noon on 19 March 2027. Researching only after the summer holidays would be too late for that main test. Record unconfirmed future dates as unconfirmed rather than copying last year’s calendar."
+    },
+    {
+      "type": "h2",
+      "text": "3. Register for the correct test"
+    },
+    {
+      "type": "p",
+      "text": "Use the school, consortium or council portal specified by the organiser. Check whether registration is automatic for your child or requires action. Save the confirmation and reference number. If several schools share results, complete any required score-sharing choices; naming schools later on the council form may not repair a missed consent deadline."
+    },
+    {
+      "type": "p",
+      "text": "Request access arrangements through the published procedure if needed. A support request may have its own deadline and does not necessarily register the child for the test. See [how to register for the 11 Plus](/blog/how-to-register-my-child-for-the-11-plus)."
+    },
+    {
+      "type": "h2",
+      "text": "4. Prepare for the actual assessment"
+    },
+    {
+      "type": "p",
+      "text": "Start with official familiarisation materials for the correct cycle. Identify the tested subjects, answer format, instructions and any second stage. Use practice to find gaps and review mistakes, while keeping schoolwork, reading, rest and other activities in balance. There is no universal mock percentage that guarantees admission."
+    },
+    {
+      "type": "p",
+      "text": "Paid tutoring is not an application requirement. Ask what your child needs to understand next before buying a package, and verify that resources match the published test rather than an outdated provider label."
+    },
+    {
+      "type": "h2",
+      "text": "5. Read the result alongside the admission rules"
+    },
+    {
+      "type": "p",
+      "text": "[Kent’s grammar-school application guidance](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/apply-for-a-kent-grammar-school-place) explains the key distinction: being assessed suitable allows consideration, but an oversubscribed school ranks applicants using its own criteria. Elsewhere, score, catchment, defined priority categories or distance may play different roles. Read [whether score or distance comes first](/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first)."
+    },
+    {
+      "type": "h2",
+      "text": "6. Submit the separate council application"
+    },
+    {
+      "type": "p",
+      "text": "[GOV.UK’s application guidance](https://www.gov.uk/schools-admissions/how-to-apply) explains that families list schools in preference order on the local council application. For the usual September 2028 intake, submit by 31 October 2027. Follow your home council’s process even when schools are in another authority, and use the number of preferences it permits rather than assuming every council offers six."
+    },
+    {
+      "type": "p",
+      "text": "List schools in your genuine preferred order and include realistic choices. Keep the submitted version and confirmation, and complete any school-specific supplementary requirements. Naming only one school does not improve your chance there."
+    },
+    {
+      "type": "h2",
+      "text": "7. Respond to the offer and any further instructions"
+    },
+    {
+      "type": "p",
+      "text": "Check the offer letter and acceptance deadline. If you are considering another school’s waiting list or an appeal, establish the procedure while protecting the place available to your child. An unsuccessful test result, an unsuccessful review and a refused school place are different stages; each has its own next step."
+    },
+    {
+      "type": "h2",
+      "text": "8. Check that every stage is actually complete"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stage",
+        "Evidence to retain"
+      ],
+      "rows": [
+        [
+          "School research",
+          "Correct entry-year policy, shortlist and questions resolved by admissions."
+        ],
+        [
+          "Test registration",
+          "Submitted form, reference and any score-sharing confirmation."
+        ],
+        [
+          "Support arrangements",
+          "Request and organiser’s decision, if applicable."
+        ],
+        [
+          "Test and results",
+          "Joining instructions and result notification."
+        ],
+        [
+          "School-place application",
+          "Council submission, preference order and supplementary-form confirmation."
+        ],
+        [
+          "Offer",
+          "Decision, acceptance receipt and any further transition instructions."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Are interviews or a portfolio required?"
+    },
+    {
+      "type": "p",
+      "text": "Ordinary state grammar-school day-place admission is not an interview contest. The [School Admissions Code](https://assets.publishing.service.gov.uk/media/60ebfeb08fa8f50c76838685/School_admissions_code_2021.pdf) prohibits admission interviews, with a specific exception for assessing suitability for boarding, and prohibits financial contributions as part of admissions, including tests. Do not assume achievements, behaviour references or paid mock interviews create extra priority. Follow the published criteria; independent-school assessments are separate."
+    },
+    {
+      "type": "p",
+      "text": "If the outcome is disappointing, use [the unsuccessful-result guide](/blog/what-happens-if-my-child-fails-the-11-plus) to choose the appropriate next step without missing the ordinary school application."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
     slug: "do-you-have-to-sit-the-11-plus-for-grammar-school",
@@ -6774,88 +7530,194 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "what-exams-do-grammar-schools-use-gl-cem-schools-own",
-    title: "What exams do grammar schools use (GL, CEM, school\u2019s own)?",
-    desc: "Discover what exams grammar schools use\u2014GL Assessment, CEM Select, and school's own tests. Explore formats, question types, using schools, key differences, and prep strategies to secure your child's spot confidently.",
-    date: "February 16, 2026",
-    readTime: "8 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_4.jpeg",
-    imageAlt: "What exams do grammar schools use (GL, CEM, school\u2019s own)?",
-    images: ["https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_1.jpeg", "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_2.jpeg", "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_3.jpeg", "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Overview of Grammar School Entrance Exams" },
-      { type: "p", text: "Grammar school entrance exams, primarily the **11+ test**, determine entry to over 160 selective UK [grammar schools](/schools) with pass rates typically 20-30% for top grammars like Wilson's School and Tiffin School. Three main systems dominate: GL Assessment (used by many grammar schools), CEM Select (layered format), and **school's own exams** (independent schools). Understanding provider differences is crucial for targeted preparation." },
-      { type: "p", text: "GL Assessment tests Verbal Reasoning, Numerical Reasoning, Non-Verbal Reasoning, plus **English** and Maths. These multiple choice tests use optical mark recognition sheets. Parents often start with **practice papers** like Bond 11+ or CGP books to build familiarity." },
-      { type: "p", text: "CEM Select features adaptive sections that increase in difficulty, covering similar topics with a focus on **speed and accuracy**. School's own exams vary, sometimes including essays or interviews. Experts recommend **mock exams** to simulate real conditions and reduce exam anxiety." },
-      { type: "p", text: "Preparation involves a timeline from Year 4, using online practice, 11+ tutors, or courses. Focus on [age-standardised scores where pass marks often sit around 110-121](/blog/what-score-do-you-need-to-get-into-a-grammar-school). Regional variations exist, like **Kent Test** or Trafford grammar setups." },
-      { type: "h3", text: "Primary Exam Providers" },
-      { type: "p", text: "The three dominant 11+ providers control most grammar school admissions: GL Assessment (multiple choice, many schools), CEM Select (layered difficulty, many schools), and consortia like CSSE/SET (traditional format). These exam boards shape **secondary school admissions**. Check your target school's website for exact exam dates and **registration** details." },
-      { type: 'table', headers: ["Provider", "Schools Using", "Test Format", "Key Features", "Example Schools"], rows: [["GL Assessment", "60+", "Multiple choice OMR", "VR/NVR/NR + English/Maths", "Birmingham Grammars"], ["CEM Select", "70+", "Layered multiple choice", "4 sections adaptive", "Kent Test, Trafford"], ["CSSE", "10+", "Standard papers", "Essay + comprehension", "Southend High"], ["SET", "8", "Multiple choice", "Pure reasoning", "Sutton Grammars"], ["Hannon-Fowler", "5 independents", "Mixed", "Custom per school", "RGS Worcester"]] },
-      { type: "p", text: "GL dominates **Midlands** coverage, while CEM leads North West like Trafford. Use GL papers or **CEM papers** for practice, such as Exam Ninja or Letts 11+. Barnet mocks help for London 11+ prep." },
-      { type: "p", text: "For **CSSE exams** or SET exams, emphasise comprehension, **vocabulary**, and essay skills. Independent schools may use Hannon-Fowler with custom maths test or English test. Tailor your preparation courses to match these exam types." },
-      { type: "h2", text: "GL Assessment (GLA)" },
-      { type: "p", text: "GL Assessment papers are used by **60+ grammars** including all Birmingham schools, featuring four core subjects with **100% multiple choice format** scored via optical mark recognition. Standardised GL tests measure VR (21%), NVR (29%), Maths (25%), English (25%) across 100 questions total. Pass mark typically 70-75% raw score converts to 110+ stanine." },
-      { type: "p", text: "Available since the 1990s, **GL dominates London/Sutton regions**. Tests are fixed difficulty, allowing precise benchmarking against Bond/CGP practice papers. Parents often use these resources for **11+ preparation** to match the standard format." },
-      { type: "p", text: "GL papers suit **grammar school entrance exams** with consistent question types. Families in Birmingham and Sutton rely on them for secondary school admissions. Practice with mock exams builds familiarity with the structure." },
-      { type: "p", text: "Experts recommend starting **GL practice papers** early in Year 5. This approach helps with exam techniques and score thresholds. Regional variations like London 11+ centres highlight the need for targeted revision." },
-      { type: "h3", text: "What GL Tests Cover" },
-      { type: "p", text: "GL papers test four domains: **Verbal Reasoning** (synonyms, anagrams, 21%), Numerical Reasoning (sequences, mental arithmetic, 29%), Non-Verbal Reasoning (patterns, shapes, 25%), English (comprehension, SPaG, 25%). These cover key skills for **11+ exams**." },
-      { type: "p", text: "Research suggests **NVR highest fail rate** for many pupils below 50th percentile. Focus on spatial reasoning with regular practice. CGP GL books cover 500+ questions per title." },
-      { type: 'table', headers: ["Subject", "Questions", "Time", "Sample Question Type", "Practice Resource"], rows: [["VR", "25", "25min", "Flower is to petal as tree is to...", "CGP GL books"], ["NR", "30", "30min", "Number series: 2, 5, 11,?", "Bond 11+ papers"], ["NVR", "25", "25min", "Shape rotation/analogy", "Exam Ninja packs"], ["English", "20", "30min", "SPaG identification", "Letts 11+ guides"]] },
-      { type: "p", text: "Use this table for **topic mastery** in preparation. Combine with online practice for vocabulary, spelling, punctuation, grammar. Timed drills improve speed accuracy." },
-      { type: "h3", text: "Format and Question Types" },
-      { type: "p", text: "GL exams use **100% multiple choice** with 4 options per question, completed on OMR sheets within strict 110-minute total time across four papers. Paper format includes A4 booklet plus separate answer sheet, no working out shown." },
-      { type: "ol", items: ["Timing: 25-30min per section, no extra time.", "Question progression: Easy to hard within sections.", "Scoring: 1 mark per question, no negative marking.", "Sample VR: Codebreaker: DEFG=1234, what is HIJK?"] },
-      { type: "p", text: "Common error is **bubble sheet misalignment**, causing score loss. Practice weekly with 80-question GL paper in 90min using Exam Ninja packs. Build exam strategy through intensive revision." },
-      { type: "p", text: "Parents note **exam anxiety** from timed tests. Recommend 11+ tutors for OMR technique. Online mocks simulate test centres and invigilators." },
-      { type: "h3", text: "Schools Using GL" },
-      { type: "p", text: "43 London grammars plus all **Birmingham selective schools** use GL, including Wilson's School (pass mark 118), Tiffin Girls (112), and Sutton Grammar (110). These state grammar schools favour the uniform GL format." },
-      { type: 'table', headers: ["Region", "Schools (Examples)", "Pass Marks"], rows: [["London (22 schools)", "Wilson's (118), Tiffin (112), Newstead Wood (110)", "110-118"], ["Birmingham (8 schools)", "KES (115), Plantsbrook (110)", "110-115"], ["Sutton/Trafford (12 total)", "Nonsuch (112)", "110-112"]] },
-      { type: "p", text: "Wilson's received 1,200+ apps for 120 places in 2024. **GL practice essential** for these competitive admissions. Check exam dates and registration via school sites." },
-      { type: "p", text: "Trafford grammar and Sutton grammar follow similar **score thresholds**. Use Barnet mocks for London 11+. Preparation courses aid Year 6 pupils transitioning from SATs." },
-      { type: "h2", text: "CEM Select (Durham University)" },
-      { type: "p", text: "CEM Select, developed by **Durham University**, serves over 70 schools with layered tests featuring four untimed sections that increase difficulty mid-exam. Unlike fixed **GL papers**, CEM uses adaptive questioning where harder questions appear after correct answers. It tests four skills with equal weighting." },
-      { type: "p", text: "This format appears in the Kent Test, Trafford, and Northern Ireland GL format exams. Pass marks start at 100 or higher, but top **grammar schools** often require 115+. No prior 11 plus papers are released, so practice relies on specialised mocks." },
-      { type: "p", text: "Parents preparing for 11+ CEM should focus on layered difficulty in resources like Bond 11+ or Exam Ninja. These simulate the adaptive style, helping with **verbal reasoning**, maths test, and **non-verbal reasoning**. Building speed and accuracy suits the self-paced structure." },
-      { type: "p", text: "Regional variations mean checking specific **grammar school exams** for score thresholds. Experts recommend starting prep early with online practice to master question types like comprehension and **spatial reasoning**." },
-      { type: "h3", text: "CEM Test Structure" },
-      { type: "p", text: "CEM consists of four sections, Maths, **Verbal**, **Non-Verbal**, and Comprehension, in one 60-minute paper with layered difficulty and no separate timing per section. The single composite paper has 120 questions total. Students work self-paced across all areas." },
-      { type: "p", text: "Sections include **Maths/QR** (30 questions), Verbal (30), **NVR/Spatial** (30), and Comprehension (30). Layering starts with questions 1-20 easy, 21-40 medium, then 41+ hard. This rewards quick correct answers with tougher challenges." },
-      { type: "p", text: "Scoring uses age-standardised scores with a mean of 100. For the Kent Test 2024, thousands took the exam, with passes based on local thresholds. Practice with RGS Worcester **CEM mocks** simulates these layers effectively." },
-      { type: "p", text: "Prep tips include timing drills for the 60-minute total. Focus on multiple choice tests and quantitative reasoning. Resources like CGP books build skills in vocabulary and spatial reasoning for the untimed flow." },
-      { type: "h3", text: "Differences from GL" },
-      { type: "p", text: "CEM's layered adaptive format contrasts **GL's fixed difficulty**, with CEM untimed per section versus GL's strict 25-30 minute limits and broader question variety. This makes CEM less stressful for some pupils. GL uses separate papers, while CEM combines everything." },
-      { type: 'table', headers: ["Feature", "GL", "CEM", "Impact"], rows: [["Format", "4 separate papers", "1 composite", "CEM less stressful"], ["Difficulty", "Fixed", "Layered", "CEM rewards speed"], ["Timing", "Strict per paper", "60min total", "CEM suits slower readers"], ["Content", "VR/NR/NVR/Eng", "V/NV/Math/Comp", "CEM heavier comprehension"], ["Practice", "Abundant past papers", "Limited mocks", "GL easier to prep"]] },
-      { type: "p", text: "Hybrid prep works well, such as 60% CEM mocks plus 40% GL variety, as Exam Ninja recommends. This covers 11+ resources for both **exam providers**. Practice **GL vs CEM** differences to adapt strategies." },
-      { type: "p", text: "For **grammar admissions**, CEM's focus on comprehension means extra work on reading. GL emphasises **English test** variety like spelling and punctuation. Tailor 11 plus tutors to these exam types." },
-      { type: "h3", text: "Schools Using CEM" },
-      { type: "p", text: "CEM dominates the Kent Test (22k annually), Trafford Grammars, and schools like Pate's Grammar (Cheltenham, pass 110) and **Colchester Royal** (108). Kent has 30 grammars, including Dartford Grammar (112) and Tunbridge Wells Girls (110). Trafford offers 5 grammars like **Altrincham GS** (115)." },
-      { type: "p", text: "Gloucestershire schools include Pate's (110) and RGS Worcester (112). Essex has Colchester Royal (108). These use CEM papers for secondary school admissions, with local score thresholds varying by applicant numbers." },
-      { type: "p", text: "Trafford 2024 saw high competition for places. Prep focuses on layered mocks from Bond 11+. Combine with online mocks for verbal reasoning and **maths test** practice." },
-      { type: "p", text: "Check **exam dates** and registration for each **selective school**. Resources like Letts 11+ help with question types in these consortia exams. Build exam techniques for paper-based tests and answer sheets." },
-      { type: "h2", text: "School's Own Entrance Exams" },
-      { type: "p", text: "Independent schools like Latymer Upper and Wilson's create **bespoke 11+ exams**, often mixing GL Assessment and CEM Select elements with interviews and creative writing. These school's own exams test core skills in English, maths, and reasoning, plus school-specific challenges. They appear in about 30% of selective independents and some grammars transitioning formats." },
-      { type: "p", text: "No standardised scoring means pass marks vary, often targeting the top performers. Common in London areas, schools like Latymer and JAGS use these for secondary school admissions. Parents must check school websites for exact exam dates and registration details." },
-      { type: "p", text: "Prep involves downloading practice papers and past papers from the school site. Combine with **CGP 11+** books for broad coverage of verbal reasoning (VR), numerical reasoning (NR), and non-verbal reasoning (NVR). Focus on exam techniques like time management for timed tests." },
-      { type: "p", text: "These exams differ from GL papers or CEM papers by including unique elements, such as creative tasks. Grammar schools using them, like those in Sutton or Trafford, may add interviews. Tailored prep beats generic 11 plus exam courses." },
-      { type: "h3", text: "Common Formats and Examples" },
-      { type: "p", text: "Typical school's own exams include a 50-minute English test with 25% comprehension, a 50-minute maths test on word problems, plus 20-minute reasoning, as seen at Latymer Upper. Formats vary by school, blending multiple choice tests with open-ended questions. Durations range from 90 minutes to 2.5 hours." },
-      { type: 'table', headers: ["School", "Format", "Duration", "Unique Features", "Pass Rate Est."], rows: [["Latymer Upper", "Eng+Maths+Reason", "2hr", "Creative writing", "12%"], ["Wilson's (own elements)", "CEM-GL hybrid", "2hr", "NVR heavy", "10%"], ["RGS Worcester", "Custom CEM", "90min", "Spatial emphasis", "15%"], ["Pate's Grammar", "Mixed", "2.5hr", "Interview follows", "18%"]] },
-      { type: "p", text: "Prep strategy centres on **sample papers** from school sites plus CGP 11+ books covering all formats. Practice 11+ resources like Bond 11+ for comprehension, vocabulary, spelling, and **punctuation**. Add mock exams to build speed and accuracy." },
-      { type: "p", text: "Schools like Colchester Royal or Tiffin School may include spatial reasoning or interviews. Focus on topic mastery in **quantitative reasoning**. Experts recommend online practice and 11 plus tutors for personalised **exam strategy**." },
-      { type: "h2", text: "Comparing the Three Systems" },
-      { type: "p", text: "GL offers predictable multiple choice questions with a typical 70% pass threshold, while CEM provides a **layered challenge** where the top 30% usually pass, and school's own exams vary widely requiring custom prep. **GL Assessment** uses standardised formats with abundant practice papers. In contrast, CEM Select features adaptive elements with limited materials." },
-      { type: "p", text: "**School's own exams** are bespoke and often interview-heavy, tailored to specific grammar schools like those in Birmingham or Kent. Scoring differs across systems: GL uses **stanines targeting 110+**, CEM employs standardised scores around 100+, and school's own have variable thresholds. Around 85k pupils test annually across these systems per DfE 2024 data." },
-      { type: "p", text: "Regional variations affect exam types, such as Kent Test using GL or Consortium exams in Sutton and Trafford, which is why [not all grammar schools use the same 11-plus test](/blog/do-all-grammar-schools-use-the-same-11-plus-test). Parents face choices between GL papers, CEM papers, or unique formats from selective schools. Understanding these differences helps in targeting 11 plus exam preparation effectively for secondary school admissions." },
-      { type: "p", text: "Practice resources abound for **GL format** with multiple choice tests, while **CEM format** demands broader skills in verbal reasoning (VR), numerical reasoning (NR), and non-verbal reasoning (NVR). School's own may include maths tests, English comprehension, vocabulary, spelling, punctuation, and grammar unique to the institution." },
-      { type: "h3", text: "Preparation Strategies" },
-      { type: "p", text: "**Optimal 12-month prep** starts with months 1-6 on topic mastery using Bond books, shifts to months 7-9 with timed papers from Exam Ninja, and ends months 10-12 with weekly mocks at Barnet or ICE centres for \u00a325 per session. This timeline suits Year 5 Easter starts and daily 1hr in Year 6. Tailor to **GL, CEM, or school's own** for grammar school entrance." },
-      { type: "p", text: "Here are six key strategies by system:" },
-      { type: "ul", items: ["**GL**: CGP GL Workbooks across four subjects plus 20 past papers for verbal reasoning, non-verbal reasoning, maths, and English.", "**CEM**: Bond 11+ CEM books combined with RGS mocks to build speed in quantitative and spatial reasoning.", "**School's own**: School sample papers plus Letts 11+ for bespoke formats seen in places like Pate's Grammar or Colchester Royal.", "**Timeline**: Begin Year 5 Easter, ramp to daily 1hr in Year 6, focusing on exam techniques and speed accuracy.", "**Tutoring**: Opt for 1:1 sessions at \u00a335/hr or online platforms like Atom Learning with 1,000+ questions for intensive revision.", "**Mock schedule**: One per month in Year 5, weekly from Year 6 October at test centres with invigilators mimicking real conditions."] },
-      { type: "p", text: "Experts recommend blending [practice papers](/papers), mock exams, and **11 plus tutors** to reduce exam anxiety. Resources like CGP books, Bond 11+, and Exam Ninja support 11+ resources for GL vs CEM differences. Parental guides and forums help navigate registration, exam dates, and pass marks for state grammar schools." },
-    ],
-  },
+  "slug": "what-exams-do-grammar-schools-use-gl-cem-schools-own",
+  "title": "Which exams do grammar schools use? Providers and 2027 changes",
+  "desc": "Identify your grammar school’s test provider and route, including GL, FSCE, Quest and school tests, with confirmed changes for exams in 2027.",
+  "date": "February 16, 2026",
+  "readTime": "5 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_4.jpeg",
+  "imageAlt": "What exams do grammar schools use (GL, CEM, school’s own)?",
+  "images": [
+    "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_1.jpeg",
+    "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_2.jpeg",
+    "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_3.jpeg",
+    "https://files.autoblogging.ai/images/grammar-school-exam-types(5i0c)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "Grammar schools use several entrance-test arrangements. You may encounter GL Assessment, FSCE, Quest Assessments, a named consortium test such as the CSSE or Sutton SET, or a school-specific assessment. The school’s current admissions information determines the relevant route; an old GL-versus-CEM comparison is not enough."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Checked on 10 October 2026 for exams taken in 2027, usually for September 2028 entry. A page headed “2027 entry” often describes a test taken in 2026. The confirmed provider changes below identify both years."
+    },
+    {
+      "type": "h2",
+      "text": "Separate provider, test name and consortium"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Term",
+        "Meaning",
+        "Why the distinction matters"
+      ],
+      "rows": [
+        [
+          "Provider",
+          "The organisation supplying an assessment",
+          "One provider can supply different formats or subject combinations"
+        ],
+        [
+          "Test name",
+          "The particular assessment used in an admissions route",
+          "A local test name may remain familiar even when its provider changes"
+        ],
+        [
+          "Consortium",
+          "Schools coordinating a test or part of admissions",
+          "A shared test does not make all school admission rules identical"
+        ],
+        [
+          "Practice publisher",
+          "A source of learning material or practice questions",
+          "A book’s branding does not establish the school’s current provider"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Some websites put these names in a single “exam board” list. That can be a useful starting point, but it can also conceal important differences. Record the full test name and the organiser alongside the provider, where the provider is published."
+    },
+    {
+      "type": "h2",
+      "text": "GL Assessment"
+    },
+    {
+      "type": "p",
+      "text": "[GL Assessment](https://11plus.gl-assessment.co.uk/pages/free-materials) supplies familiarisation materials for English, maths, verbal and non-verbal reasoning. Schools can use different combinations; there is no universal four-paper GL timetable. Its own guidance says local timing and question numbers may differ from the samples."
+    },
+    {
+      "type": "p",
+      "text": "Use the school’s official link to choose relevant familiarisation. Do not assume every GL-branded workbook is an authentic past paper or that a practice percentage can be converted into an admissions score. The format and scoring guidance for the specific test remain the useful references."
+    },
+    {
+      "type": "h2",
+      "text": "FSCE: check the particular school and cohort"
+    },
+    {
+      "type": "p",
+      "text": "Future Stories Community Enterprise, usually shortened to FSCE, supplies grammar-school admissions assessments. Published specifications differ between schools and cohorts. Check the local familiarisation guide instead of assuming that every FSCE test includes the same writing task or paper names."
+    },
+    {
+      "type": "p",
+      "text": "The [Trafford announcement](https://www.agsb.co.uk/page/?pid=386&title=New+Entrance+Exam+Provider) confirms FSCE for the September 2027 test leading to 2028 entry, replacing GL for that cohort. The move to testing in the later part of Year 5’s summer term is a separate change beginning with 2029 entry. Those two changes must not be given the same start year."
+    },
+    {
+      "type": "h2",
+      "text": "Quest Assessments"
+    },
+    {
+      "type": "p",
+      "text": "[Herschel’s Slough Consortium notice](https://www.herschel.slough.sch.uk/year-7-admissions-2028/) confirms Quest for the examination in September 2027, for September 2028 entry. The announced assessment combines English, maths, verbal and non-verbal reasoning across two papers. Follow the consortium’s own material as further instructions are published."
+    },
+    {
+      "type": "p",
+      "text": "A provider name does not mean that results are transferable to another area using that organisation. A school or consortium commissions its own assessment arrangements. Always check the score-sharing rules separately from the subjects."
+    },
+    {
+      "type": "h2",
+      "text": "What does CEM mean now?"
+    },
+    {
+      "type": "p",
+      "text": "[Cambridge’s current entrance-assessment page](https://www.cem.org/entrance-assessments) describes Cambridge Select Insight, a digital assessment of verbal, numerical and non-verbal ability. This is not evidence that every area once described as “CEM” still uses the same entrance test. Nor is it accurate to say that the organisation has simply disappeared."
+    },
+    {
+      "type": "p",
+      "text": "If an old book or forum calls a test “CEM-style”, treat that as a description to investigate. Find the school’s current announcement. The Cambridge page also says it does not endorse commercial practice materials; a seller’s use of the name is not proof of approval or a match to the live assessment."
+    },
+    {
+      "type": "h2",
+      "text": "CSSE, Sutton SET and school-specific routes"
+    },
+    {
+      "type": "p",
+      "text": "The [Consortium of Selective Schools in Essex](https://csse.org.uk/) publishes its own examination information and familiarisation links for English and mathematics. It currently says important dates for 2028 entry will be published by Easter 2027. Its retained 2027-entry guide is general background, not a new 2027-test timetable."
+    },
+    {
+      "type": "p",
+      "text": "For a different example, [Wilson’s published Sutton route](https://www.wilsons.school/admissions-faqs/) has a multiple-choice first stage and a written second stage in its 2027-entry cycle. A named local route should not be assigned to GL or CEM just because commercial papers look similar. If no provider is named, record the published format and leave the provider unconfirmed."
+    },
+    {
+      "type": "h2",
+      "text": "Confirmed changes relevant to exams taken in 2027"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Route",
+        "Confirmed information",
+        "What to verify next"
+      ],
+      "rows": [
+        [
+          "Trafford Consortium",
+          "FSCE test in September 2027 for entry 2028",
+          "The new local familiarisation and detailed candidate instructions"
+        ],
+        [
+          "Gloucestershire grammar schools",
+          "FSCE test on 3 July 2027 for entry 2028",
+          "The school’s current guide and registration arrangements"
+        ],
+        [
+          "Slough Consortium",
+          "Quest test in September 2027 for entry 2028",
+          "The published test guide and final arrangements"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Sources: [Trafford](https://www.agsb.co.uk/page/?pid=386&title=New+Entrance+Exam+Provider), [Gloucestershire via Pate’s](https://www.patesgs.org/Admissions/Year-7-September-2028-Entry-30042026151914/) and [Slough via Herschel](https://www.herschel.slough.sch.uk/year-7-admissions-2028/). This is a small set of verified changes, not a complete national provider directory."
+    },
+    {
+      "type": "h2",
+      "text": "A school-first checking method"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Open the target school’s official admissions page and select the correct entry year.",
+        "Read any provider-change announcement alongside the admissions policy and test guide.",
+        "Record test name, provider if published, subjects, stages and official familiarisation link.",
+        "Check whether the test is shared, whether results must be shared explicitly and whether another stage follows.",
+        "If two official pages disagree, ask admissions which applies to the child’s cohort before buying specialised material."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Retain the source link and the date checked. Label missing details “not yet published” rather than borrowing them from another school or the previous year. Our [school directory](/schools) can help identify schools, but the linked official information controls the final plan."
+    },
+    {
+      "type": "h2",
+      "text": "Can old practice books still help?"
+    },
+    {
+      "type": "p",
+      "text": "An older book may contain useful arithmetic, reading or vocabulary work. Assess it at the skill level: does the child need this topic, and are the explanations and answers reliable? Do not use its timing, claimed pass score or obsolete provider list as instructions for the real exam."
+    },
+    {
+      "type": "p",
+      "text": "For a deeper comparison, see our [GL, CEM and current-provider guide](/guides/gl-vs-cem). For the practical consequences of shared tests, read [whether grammar schools use the same test](/blog/do-all-grammar-schools-use-the-same-11-plus-test). Match preparation to the verified route before adding more resources."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
     slug: "what-score-do-you-need-to-get-into-a-grammar-school",
@@ -8671,117 +9533,187 @@ export const BLOG_POSTS: BlogPost[] = [
 },
 
   {
-    slug: "do-all-grammar-schools-use-the-same-11-plus-test",
-    title: "Do all grammar schools use the same 11 Plus test?",
-    desc: "Do all grammar schools use the same 11 Plus test? Uncover regional differences between GL Assessment, CEM formats, independent schools, and more. Get tailored prep strategies and tips to ace the right exam for your child.",
-    date: "March 6, 2026",
-    readTime: "8 min read",
-    category: "Grammar Schools",
-    imageUrl: "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_4.jpeg",
-    imageAlt: "Do all grammar schools use the same 11 Plus test?",
-    images: ["https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_1.jpeg", "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_2.jpeg", "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_3.jpeg", "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_4.jpeg"],
-    content: [
-      { type: "h2", text: "Overview of the 11 Plus Exam" },
-      { type: "p", text: "The **11 Plus exam**, taken by over 100,000 children annually across 163 UK grammar schools, assesses **verbal reasoning (VR)**, numerical reasoning (NR), non-verbal reasoning (NVR), maths, and English through 45-60 minute papers depending on the region." },
-      { type: "p", text: "[Grammar schools](/schools) use tests from providers like **GL Assessment** or **CEM**. GL formats include four papers on English, maths, VR, and NVR, often with multiple choice questions. CEM uses two combined papers that adapt to the child's performance." },
-      { type: "p", text: "Core skills cover **comprehension**, vocabulary, spatial reasoning, and sequences. For VR, expect synonyms or analogies, like matching \"happy\" to \"joyful\". NR might involve number patterns, such as spotting the next in 2, 4, 8, 16." },
-      { type: "p", text: "DfE data on grammar school admissions highlights **regional variations** in [which exams grammar schools use, whether GL, CEM or a school's own](/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own). Practice with familiarisation papers helps children understand time limits and formats before the real **entrance exam**." },
-      { type: "h3", text: "GL Assessment Format" },
-      { type: "p", text: "GL Assessment papers total around 2-3 hours, split into separate subjects. English tests comprehension and spelling, maths aligns with **Key Stage 2** topics like fractions." },
-      { type: "p", text: "VR focuses on word relationships, NVR on shapes and patterns. Questions are typically multiple choice, scored to produce **age-standardised scores**." },
-      { type: "p", text: "Many county grammars, like those in Kent or Buckinghamshire, use this. Parents can access [practice papers](/papers) from Bond or CGP to build familiarity." },
-      { type: "p", text: "Exam centres host these **paper-based tests**, with strict invigilation for security. Review school prospectuses for exact **test dates** and registration." },
-      { type: "h3", text: "CEM Format" },
-      { type: "p", text: "**CEM tests** from Durham University feature two papers blending skills. They adapt difficulty based on answers, making them challenging for all levels." },
-      { type: "p", text: "Combined maths and English appear alongside reasoning. No separate VR or NVR, but skills overlap in adaptive questions." },
-      { type: "p", text: "Used in areas like Birmingham and Trafford grammars. **Computer-based tests** are common, testing speed under time pressure." },
-      { type: "p", text: "Preparation involves **mock tests** to simulate adaptation. Check admissions policies for **catchment area** rules post-exam." },
-      { type: "h3", text: "Regional and School Variations" },
-      { type: "p", text: "Not all **grammar schools** share tests, leading to **consortium exams** or school-specific ones. London and Barnet grammars often mix GL with local tweaks." },
-      { type: "p", text: "Shared tests reduce costs, but formats differ. Some include creative writing, others pure reasoning." },
-      { type: "p", text: "DfE guides list providers per school. Attend **open days** to clarify **scoring systems** like percentile ranks." },
-      { type: "p", text: "Equal opportunities apply, with **reasonable adjustments** for SEND. Oversubscription uses pass marks, siblings, or random allocation." },
-      { type: "h2", text: "Regional Differences in 11 Plus Tests" },
-      { type: "p", text: "11 Plus tests vary significantly by region, with GL Assessment dominating grammar schools in areas like Birmingham and Trafford while CEM covers regions such as Kent and Lincolnshire, affecting preparation strategy." },
-      { type: "p", text: "These regional variations matter because families must tailor exam prep to specific **test providers**, question types, and time limits. Using the wrong practice papers can leave children underprepared for verbal reasoning or spatial reasoning sections unique to certain areas." },
-      { type: "p", text: "Understanding your catchment area helps select relevant mock tests and familiarisation papers early. Parents should check school prospectuses for **admissions policy** details on oversubscription criteria like sibling priority or pupil premium." },
-      { type: 'table', headers: ["Region", "Test Provider", "Schools", "Paper Format", "Pass Mark Example"], rows: [["West Midlands", "GL Assessment", "16 (Birmingham grammars)", "4 multiple-choice papers", "110+ standardised score"], ["North West", "GL Assessment", "23 (Trafford grammars)", "English, Maths, VR, NVR", "110+ standardised score"], ["Kent", "CEM", "38 Kent grammars", "2 untimed papers", "111+ standardised score"], ["Buckinghamshire", "CEM", "13 Bucks grammars", "Mixed Maths/NVR/Verbal", "111+ standardised score"], ["Lincolnshire", "CEM", "County grammars", "Comprehension-heavy", "111+ percentile rank"]] },
-      { type: "h3", text: "GL Assessment Regions" },
-      { type: "p", text: "GL Assessment serves 100+ schools in **West Midlands** (16 Birmingham grammars), Greater Manchester (Trafford's 8 schools), and Barnet, using 4 standardized multiple-choice papers totaling 2.5 hours." },
-      { type: "p", text: "The format includes **English** (50 questions/25 minutes), Maths (50 questions/25 minutes), verbal reasoning (VR, 80 questions/40 minutes), and non-verbal reasoning (NVR, 80 questions/40 minutes). These age-standardised scores adjust for pupil age, with 2023 pass marks around 110+ for selective admission." },
-      { type: "p", text: "Families in GL regions should practise with **GL familiarisation papers** to master multiple choice questions on vocabulary, comprehension, and numerical reasoning. Attend school open days to learn about test centres and registration process." },
-      { type: "ul", items: ["West Midlands: 16 schools", "North West: 23 schools", "London (Barnet): Several grammars", "Other: Hertfordshire, Warwickshire"] },
-      { type: "h3", text: "CEM (Durham) Regions" },
-      { type: "p", text: "CEM tests, developed by Durham University, cover **Kent** (38 schools), Bucks (13 schools), and Lincolnshire, featuring 2x60-minute untimed papers with adaptive difficulty and no separate subject papers." },
-      { type: "p", text: "Each paper mixes **Maths**, **NVR**, and verbal skills with 75-85 questions, emphasising comprehension-heavy verbal reasoning over pure VR, plus spatial reasoning. Pass marks hit 111+ in Kent 2023 data, using percentile scoring for fairness." },
-      { type: "p", text: "Prep focuses on Key Stage 2 curriculum coverage like extended reading passages and unseen vocabulary. Use CEM familiarisation PDFs for mock tests, noting no strict time limits allow thoughtful answers." },
-      { type: "p", text: "Check admissions policy for **waiting lists** and appeal process in oversubscribed areas. Experts recommend regular practice to build stamina for mixed question types." },
-      { type: "h3", text: "Other Test Providers" },
-      { type: "p", text: "Smaller providers like **AlphaPlus** (15 London independents), school-consortium tests (Medway), and independent school exams use custom formats including CGP/Bond-style papers and computer-adaptive testing." },
-      { type: "p", text: "These differ from GL or CEM with bespoke elements like English and Maths essays or reasoning. Registration deadlines vary, often earlier for state grammar schools, so review each prospectus." },
-      { type: 'table', headers: ["Provider", "Regions", "Format", "Example Schools"], rows: [["AlphaPlus", "London", "Bespoke: Eng/Maths/Reasoning", "Independent grammars"], ["CSSE", "Essex", "2hr Eng + 1hr Maths", "Essex county grammars"], ["SET", "Slough", "CEM-style papers", "Slough Consortium"], ["Medway", "Kent", "Consortium exams", "Medway grammars"]] },
-      { type: "p", text: "Unique features include paper-based tests or SEND provisions like reasonable adjustments. Parents can access free practice resources aligned with Bond or CGP books for these regional variations." },
-      { type: "h2", text: "Independent Grammar School Tests" },
-      { type: "p", text: "163 state-funded grammar schools use 11 Plus vs 40+ independent grammars creating bespoke tests, often 3 papers (Eng 50min, Maths 50min, Reasoning 40min) with higher cut-offs (top 10%). Independent schools design their own **entrance exams**, differing from the standardised GL or CEM tests in state grammars. Parents must check each school's admissions policy for specifics." },
-      { type: "p", text: "These **school-specific tests** typically include English, maths, and reasoning sections. Some add interviews or creative writing tasks. Cut-off scores often exceed those of state schools, reflecting **selective admission** criteria." },
-      { type: "p", text: "Preparation involves practising with **school-specific practice papers** or general 11+ resources like Bond or CGP books. Attend **school open days** to understand the format. Experts recommend familiarising children with time limits through mock tests." },
-      { type: "p", text: "Registration happens earlier, often in the summer term of Year 5. Fees apply for these **independent school tests**. Reference ISC census data shows growth in such selective independent provision within the UK education system." },
-      { type: 'table', headers: ["School", "Test Format", "Exam Date", "Registration"], rows: [["Wilson's School", "3 papers: Eng, Maths, Reasoning", "October", "June-July"], ["King Edward's School, Birmingham", "English, Maths, Verbal/Non-Verbal Reasoning", "Autumn term", "May-June"], ["Manchester Grammar School", "2-3 papers + interview", "September", "April-May"], ["Haberdashers' Aske's Boys' School", "English, Maths, Reasoning", "October", "June"]] },
-      { type: "h3", text: "Key Differences from State Grammar Tests" },
-      { type: "p", text: "State grammar schools rely on GL Assessment or CEM for their 11 Plus, with pass marks around 110-121 standardised scores. Independent grammars use **bespoke tests**, often with multiple papers and higher competition. This leads to regional variations in test formats." },
-      { type: "p", text: "**Consortium exams** exist in some areas, but independents prefer custom designs covering verbal reasoning, numerical reasoning, and non-verbal reasoning. Interviews assess broader skills beyond exam scores. Parents should review prospectuses for **oversubscription criteria** like sibling priority." },
-      { type: "h3", text: "Preparation Tips for Independent 11+ Exams" },
-      { type: "p", text: "Focus on **multiple choice questions** and comprehension in English, alongside maths from Key Stage 2 curriculum. Practise **spatial reasoning** and vocabulary for reasoning papers. Use free practice resources or hire an 11 Plus tutor for targeted coaching." },
-      { type: "p", text: "Simulate exam conditions with mock tests respecting time limits, such as 50 minutes for maths. Discuss **exam preparation** strategies at school open days. Reasonable adjustments are available for SEND provisions." },
-      { type: "h2", text: "Consortium and Shared Tests" },
-      { type: "p", text: "**16 consortia covering 75+ schools** share tests to standardise selection. Families benefit from one score serving multiple grammars and central registration via GL or CEM platforms. This setup simplifies the **11 Plus test** process for selective admission." },
-      { type: "p", text: "Consortia reduce preparation stress by using a **single entrance exam** for several state grammar schools, so in most areas you [sit one 11 Plus for grammar school](/blog/do-you-have-to-sit-the-11-plus-for-grammar-school) rather than several. Parents register once through county systems, avoiding multiple applications. Schools apply common oversubscription criteria like catchment area and sibling priority." },
-      { type: "p", text: "Shared tests cover verbal reasoning, numerical reasoning, and **non-verbal reasoning**, often alongside maths and English. Families prepare with practice papers from exam boards like GL Assessment or CEM. Regional variations exist, but the format promotes fairness." },
-      { type: "p", text: "Experts recommend attending school open days to understand consortium specifics. Check the admissions policy for details on pass marks and waiting lists. This approach supports access to top secondary education in the UK system." },
-      { type: "h3", text: "Examples of Consortia" },
-      { type: "p", text: "The **Kent Test** serves 38 schools with a single CEM paper at 400+ centres. Registration runs from June to September, the test occurs on 20 September, and results arrive on 1 October. It includes multiple choice questions in English, maths, and reasoning." },
-      { type: "p", text: "**Birmingham GL Consortium** covers 16 schools like Alcester and King Edward VI grammars using a GL 4-paper format. Families register centrally, preparing for **time limits** on verbal, numerical, and non-verbal sections. This shared test standardises entry to Birmingham grammars." },
-      { type: 'table', headers: ["Consortium", "Schools", "Test Provider", "Registration", "Test Date"], rows: [["Kent Test", "38 Kent grammars", "CEM", "Jun-Sep", "20 Sep"], ["Birmingham GL", "Alcester, King Edward VI (16 total)", "GL", "Central via council", "Oct (varies)"], ["Aylesbury (Bucks)", "Buckinghamshire grammars", "CEM", "Jun-Jul", "Sep"], ["Medway Test", "Medway grammars", "GL", "May-Jun", "Sep"]] },
-      { type: "p", text: "Use mock tests and familiarisation papers for these consortia to build exam confidence. Note regional variations in test centres and scoring systems. Parental guidance on free practice resources from CGP or Bond helps with Key Stage 2 coverage." },
-      { type: "h2", text: "Content Variations Across Tests" },
-      { type: "p", text: "GL Assessment emphasises pure reasoning with VR at 20% and NVR at 20%, while CEM prioritises comprehension with 40% verbal reasoning and 15% spatial elements. Question counts vary from **50-80 per section** across these formats. This setup reflects how grammar schools tailor their 11 Plus test to specific skills." },
-      { type: "p", text: "GL tests split into four distinct sections: English, verbal reasoning (VR), **numerical reasoning**, and non-verbal reasoning (NVR). English often makes up around 25% with comprehension and vocabulary focus. VR questions might ask for synonyms, like matching \"happy\" to \"joyful\"." },
-      { type: "p", text: "CEM integrates skills into fewer papers, blending **verbal comprehension** at 40% with reasoning. Spatial reasoning appears in **3D rotation** tasks, where pupils rotate shapes mentally. This tests integrated thinking under time limits." },
-      { type: "p", text: "Independent schools craft **custom tests** with unique weightings, often heavy on comprehension passages. A typical question might involve analysing a short story extract for inference. Parents should check each **selective school's** admissions policy for exact formats." },
-      { type: "h3", text: "GL Assessment Breakdown" },
-      { type: "p", text: "GL provides **separate papers** for each skill in many **state grammar schools**, like those in Kent or Buckinghamshire. English tests spelling and grammar alongside reading. VR focuses on word patterns and codes." },
-      { type: "p", text: "**Numerical reasoning** mirrors Key Stage 2 maths but adds logic puzzles. NVR uses shapes and sequences, avoiding language bias. Practice with **GL practice papers** from Bond or CGP builds familiarity." },
-      { type: "p", text: "Tests are usually **multiple choice** with strict time limits per section. Scores convert to **age-standardised** percentiles for fair comparison. Attend open days to learn regional variations." },
-      { type: "h3", text: "CEM Format Details" },
-      { type: "p", text: "CEM, used by consortiums like Birmingham grammars, combines topics into **two main papers**. Verbal reasoning dominates at 40%, testing comprehension and vocabulary in context. Spatial questions challenge with **3D cube rotations**." },
-      { type: "p", text: "Maths and non-verbal elements integrate seamlessly, with 50-80 questions total. This **standardised test** reduces coaching advantages through unfamiliar formats. Use mock tests for timed practice." },
-      { type: "p", text: "Computer-based options exist in some areas, adapting difficulty. Check **exam dates** and test centres via school prospectuses. Familiarisation papers help ease **11 Plus stress**." },
-      { type: "h3", text: "Independent and Custom Tests" },
-      { type: "p", text: "**Independent schools** and some grammars design bespoke entrance exams, varying weights like heavy **comprehension passages**. Questions probe deeper analysis, such as themes in a poem excerpt. This suits their selective admission criteria." },
-      { type: "p", text: "Formats mix **paper-based** and adaptive styles, often with essays or open answers. Trafford or Barnet grammars exemplify school-specific tests. Review **past papers** if available for preparation." },
-      { type: "p", text: "Weightings prioritise curriculum coverage over pure reasoning. Consider **11 Plus tutors** for tailored coaching. Always verify oversubscription criteria like catchment area or sibling priority." },
-      { type: "h2", text: "Preparation Implications" },
-      { type: "p", text: "Tailored prep saves time for grammar school entrance exams. **GL students need CGP multiple-choice books**; CEM requires Bond comprehension; consortia demand speed practice for many questions per hour. This targeted approach matches the 11 Plus test formats from different exam boards." },
-      { type: "p", text: "Follow a clear **preparation roadmap by test type**. For GL Assessment, use CGP 10-11 books and complete 20 practice papers focusing on verbal reasoning, numerical reasoning, and non-verbal reasoning. CEM prep involves Bond Assessment Papers with 15 mocks to build skills in maths, English, and comprehension." },
-      { type: "p", text: "Consortium exams call for **past papers x3** and timing drills to handle regional variations. Aim for **200-300 practice questions per week** across all types to simulate exam conditions. Include verbal reasoning, spatial reasoning, and vocabulary exercises tied to Key Stage 2 curriculum." },
-      { type: "p", text: "Parental guidance helps with mock tests at home, mimicking test centres and time limits. Experts recommend familiarisation papers early to reduce 11 Plus stress. Adjust for SEND provisions or reasonable adjustments as per school admissions policy." },
-      { type: "h3", text: "Resources Table" },
-      { type: 'table', headers: ["Provider", "Books", "Papers", "Price"], rows: [["GL Assessment", "CGP 10-11 books", "20 practice papers", "Affordable paperback range"], ["CEM", "Bond Assessment Papers", "15 mocks", "Budget-friendly sets"], ["Consortium", "School-specific guides", "Past papers x3, timing drills", "Low-cost downloads"]] },
-      { type: "p", text: "Use this table to select **resources for 11+ exam preparation**. Combine books with free practice resources for comprehensive coverage. Track progress with percentile ranks from mock scores to aim for pass marks in selective schools." },
-      { type: "h2", text: "Finding Specific School Requirements" },
-      { type: "p", text: "Use **5 key resources** to uncover school-specific details: school prospectus PDFs, GL and CEM school lists, county admissions portals, 11plusexams.co.uk database, and school open days in September-October. These tools help parents navigate regional variations in 11 Plus tests across grammar schools. Start by pinpointing your target selective schools." },
-      { type: "p", text: "Grammar schools often use different test providers like GL Assessment, CEM, or consortium exams, affecting question types in verbal reasoning, numerical reasoning, and non-verbal reasoning. County admissions portals reveal oversubscription criteria, catchment areas, and sibling priority. Open days provide insights into test format and preparation tips directly from staff." },
-      { type: "p", text: "Follow these **numbered steps** for thorough research to ensure your child targets the right practice papers and mock tests." },
-      { type: "ol", items: ["Identify target schools using grammarschools.co.uk, which lists over 160 grammar schools.", "Check county admissions sites, such as kcc.gov.uk for Kent grammars.", "Download prospectuses from school websites for exam details and admissions policy.", "Note registration windows, typically June to October, to avoid missing deadlines.", "Verify the test provider per school, like CEM for Birmingham grammars or GL for Buckinghamshire."] },
-      { type: "p", text: "Use this **checklist** for each school: test date, oversubscription criteria, sibling priority. Confirm details on test centres, paper-based or computer-based tests, and reasonable adjustments for SEND provisions." },
-      { type: "h3", text: "Understanding Test Providers and Formats" },
-      { type: "p", text: "Each grammar school selects its **11 Plus test provider**, such as GL Assessment or CEM, leading to variations in multiple choice questions and time limits. GL tests often cover maths, English, verbal reasoning, and non-verbal reasoning with age-standardised scores. CEM uses adaptive tests focusing on vocabulary, comprehension, and spatial reasoning." },
-      { type: "p", text: "Some areas feature consortium exams, like shared tests for Trafford grammars or Barnet grammars. Paper-based tests remain common in Kent, while computer-based options appear in London grammars. Always check for familiarisation papers to match the scoring system and percentile rank." },
-      { type: "h3", text: "Navigating Admissions Criteria" },
-      { type: "p", text: "**Oversubscription criteria** determine selective admission, prioritising looked after children, pupil premium, and random allocation in ties. Sibling priority and catchment area play key roles in county grammars. Review the prospectus for details on pass marks and waiting lists." },
-      { type: "p", text: "Registration processes vary, with exam dates set by local authorities. Note appeal processes for unsuccessful candidates. Parental guidance from open days clarifies equal opportunities and test accessibility." },
-    ],
-  },
+  "slug": "do-all-grammar-schools-use-the-same-11-plus-test",
+  "title": "Do all grammar schools use the same 11 Plus test?",
+  "desc": "Understand shared 11 Plus tests, consortia, score sharing and separate school applications when planning exams taken in 2027.",
+  "date": "March 6, 2026",
+  "readTime": "5 min read",
+  "category": "Grammar Schools",
+  "imageUrl": "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_4.jpeg",
+  "imageAlt": "Do all grammar schools use the same 11 Plus test?",
+  "images": [
+    "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_1.jpeg",
+    "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_2.jpeg",
+    "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_3.jpeg",
+    "https://files.autoblogging.ai/images/do-all-grammar-schools-use-the-same-11-plus-test(0urw)_4.jpeg"
+  ],
+  "content": [
+    {
+      "type": "p",
+      "text": "No. There is no single national 11 Plus examination used by every grammar school. Some schools share a test through a consortium, some use a county test, and others have separate assessments or additional stages. One result may support several applications, but that depends on the published arrangements."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "This guide was checked on 10 October 2026 for families planning tests in 2027, usually for September 2028 entry. Verify the actual cohort: sharing arrangements, providers and later stages can change between years."
+    },
+    {
+      "type": "h2",
+      "text": "“The same test” can mean three different things"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Situation",
+        "What it tells you",
+        "What it does not establish"
+      ],
+      "rows": [
+        [
+          "Same subject areas",
+          "Both assess subjects such as English and maths",
+          "That questions, timing or answer styles are identical"
+        ],
+        [
+          "Same provider",
+          "Both use an organisation such as GL, FSCE or Quest",
+          "That one sitting or score can be used for both"
+        ],
+        [
+          "A formally shared test",
+          "The organiser says one assessment serves named schools",
+          "That school application requirements and offer criteria are identical"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ask which of these meanings applies whenever someone says “you only need one test”. A tutor’s description of a similar style is different from an organiser confirming that the result will be accepted by both schools."
+    },
+    {
+      "type": "h2",
+      "text": "What a consortium actually shares"
+    },
+    {
+      "type": "p",
+      "text": "The [Trafford Grammar School Consortium announcement](https://www.agsb.co.uk/page/?pid=386&title=New+Entrance+Exam+Provider) names five participating schools and describes a shared test. Its new FSCE arrangements apply to testing in September 2027 for entry 2028. Membership matters: do not assume that every school in a wider geographical area is part of a particular shared route."
+    },
+    {
+      "type": "p",
+      "text": "Read the instructions for registration and choosing score recipients. Keep confirmation of the schools selected if the process asks you to share results. The test centre allocated to the child is not necessarily the school they will later prefer or attend."
+    },
+    {
+      "type": "h2",
+      "text": "A common provider does not make scores portable"
+    },
+    {
+      "type": "p",
+      "text": "[Herschel’s Slough 2028-entry notice](https://www.herschel.slough.sch.uk/year-7-admissions-2028/) confirms Quest for September 2027 and expressly says scores will not be shared with schools outside the consortium. That is a useful example of why provider matching alone cannot establish score transfer."
+    },
+    {
+      "type": "p",
+      "text": "If a family is considering schools in two areas, ask each organiser whether there is a formal sharing arrangement for the relevant cycle. Do not book duplicate sittings of what may be the same assessment without checking the rules. Equally, do not skip a required separate test because both areas happen to use the same provider."
+    },
+    {
+      "type": "h2",
+      "text": "A shared first stage may not finish the process"
+    },
+    {
+      "type": "p",
+      "text": "[Wilson’s current FAQ](https://www.wilsons.school/admissions-faqs/) describes a shared Sutton first stage followed by a second-stage examination, with schools using results under their own arrangements. That page covers tests in 2026 for entry 2027. For a 2027 test plan, check each target school’s new stage requirements rather than copying the earlier sequence unchanged."
+    },
+    {
+      "type": "p",
+      "text": "Record every required stage separately, including how invitations are issued. A child might qualify for a later stage without yet qualifying for an offer. Preparation should reflect any change from selecting options to writing answers; see our [exam-format guide](/blog/11-plus-exam-format-multiple-choice-or-written)."
+    },
+    {
+      "type": "h2",
+      "text": "Shared assessment does not mean shared admission rules"
+    },
+    {
+      "type": "p",
+      "text": "A qualifying test result and an offer of a school place are different steps. Each school’s published policy explains how it uses results and what happens when more eligible children apply than places are available. Read the actual rules about priority groups, ranking, residence and tie-breaks rather than assuming all schools in a consortium apply the same order."
+    },
+    {
+      "type": "p",
+      "text": "You also need to complete the school-place application through the appropriate process. Test registration, permission to share a result, a supplementary form and the local-authority preference application can serve different purposes. Completion of one should not be treated as confirmation that the others have been done."
+    },
+    {
+      "type": "h2",
+      "text": "Build a test-to-school map"
+    },
+    {
+      "type": "p",
+      "text": "Use one row for each target school, even where several rows refer to one test. The following is a hypothetical planning example, not a description of real schools or their rules."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "School",
+        "Test and sharing",
+        "Further step to check"
+      ],
+      "rows": [
+        [
+          "School A",
+          "Shared test X; confirm result recipient",
+          "Entry-year priority rules and school application"
+        ],
+        [
+          "School B",
+          "Same shared test X; confirm result recipient",
+          "Whether an additional assessment is required"
+        ],
+        [
+          "School C",
+          "Separate test Y",
+          "Independent registration and possible date clash"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Alongside this table, save the entry year, official links, deadlines, submission confirmations and the source of any unresolved question. Then count the distinct tests, rather than assuming that three schools mean either three tests or one."
+    },
+    {
+      "type": "h2",
+      "text": "What to ask before registering in more than one area"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Are these separate tests or the same test administered at different centres?",
+        "Is my child permitted to sit both, and is there an official result-sharing process?",
+        "Must I select score recipients before a deadline?",
+        "Are there further stages or school-specific forms?",
+        "What happens if test dates clash? Do not assume an alternative date will be offered.",
+        "Are access arrangements requested separately for each assessment?",
+        "Which school-entry year do these instructions cover?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Seek answers from the test organiser or the school admissions office and retain the response. Avoid relying on another family’s arrangements from a previous year, particularly during a provider change."
+    },
+    {
+      "type": "h2",
+      "text": "How should preparation change when tests differ?"
+    },
+    {
+      "type": "p",
+      "text": "First identify the common learning needs, such as reading comprehension or fractions. Then add the actual differences: a particular answer sheet, written explanation, digital interface or separately timed section. This avoids repeating broad subject practice unnecessarily while overlooking an unfamiliar response method."
+    },
+    {
+      "type": "p",
+      "text": "Do not buy a separate complete programme for every school name without checking the shared route. Nor should one generic mock be treated as a replica of every assessment. Use the official familiarisation material for each distinct test, and keep the child’s wider routine manageable."
+    },
+    {
+      "type": "p",
+      "text": "For the organisation behind each route, see [which exams grammar schools use](/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own). For what remains after qualification, read [passing the 11 Plus without receiving a place](/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place)."
+    }
+  ],
+  "updatedAt": "2026-10-10"
+},
 
   {
   "slug": "how-do-waiting-lists-work-for-grammar-schools",
