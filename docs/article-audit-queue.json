@@ -22,41 +22,50 @@
     },
     {
       "slug": "what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
-      "title": "What subjects are in the 11 Plus (English, maths, verbal, non-verbal)?",
+      "title": "What subjects are in the 11 Plus? A guide for 2027 exams",
       "url": "https://www.11plusexampapers.com/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-test-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "11-plus-exam-format-multiple-choice-or-written",
-      "title": "11 Plus exam format – multiple choice or written?",
+      "title": "11 Plus exam format: multiple choice, written or online?",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-test-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "what-age-do-children-sit-the-11-plus",
-      "title": "What age do children sit the 11 Plus?",
+      "title": "What age do children sit the 11 Plus? A guide to 2027 exams",
       "url": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -82,15 +91,18 @@
     },
     {
       "slug": "which-schools-use-the-11-plus-exam",
-      "title": "Which schools use the 11 Plus exam?",
+      "title": "Which schools use the 11 Plus? Finding the right route for 2027",
       "url": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -332,54 +344,66 @@
     },
     {
       "slug": "difference-between-grammar-schools-and-independent-schools-11-plus",
-      "title": "Difference between grammar schools and independent schools 11 Plus.",
+      "title": "Grammar vs independent schools: comparing 11+ entry routes",
       "url": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-school-types.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-independent-schools-use-the-11-plus",
-      "title": "Do independent schools use the 11 Plus?",
+      "title": "Do independent schools use the 11 Plus? Entry routes explained",
       "url": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-test-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "what-happens-if-my-child-fails-the-11-plus",
-      "title": "What happens if my child fails the 11 Plus?",
+      "title": "What happens if my child does not pass the 11 Plus?",
       "url": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "can-my-child-retake-the-11-plus",
-      "title": "Can my child retake the 11 Plus?",
+      "title": "Can my child retake the 11 Plus? Resits and later-entry options",
       "url": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -663,54 +687,68 @@
     },
     {
       "slug": "what-is-a-grammar-school",
-      "title": "What is a grammar school?",
+      "title": "What is a grammar school? A guide for parents in England",
       "url": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-school-types.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "are-grammar-schools-free-or-private",
-      "title": "Are grammar schools free or private?",
+      "title": "Are grammar schools free or private? Fees and other costs",
       "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-school-types.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "how-many-grammar-schools-are-there-in-england",
-      "title": "How many grammar schools are there in England?",
+      "title": "How many grammar schools are there in England? Count and sources",
       "url": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-school-types.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
-      }
+        "outcome": "awaiting_build_and_deployment"
+      },
+      "reviewState": "checked_partial_repair",
+      "remainingWork": "Verify the latest January 2026 selective-state-secondary school count from official DfE data. Historical January 2022 count is safely dated; do not repeat routine rewrite to fill a quota."
     },
     {
       "slug": "what-is-the-difference-between-grammar-and-comprehensive-schools",
-      "title": "What is the difference between grammar and comprehensive schools?",
+      "title": "Grammar vs comprehensive schools: what is the difference?",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-school-types.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -735,15 +773,18 @@
     },
     {
       "slug": "how-do-you-get-into-a-grammar-school",
-      "title": "How do you get into a grammar school?",
+      "title": "How to get into a grammar school: a 2027 exam application guide",
       "url": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-admissions.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -758,15 +799,18 @@
     },
     {
       "slug": "what-exams-do-grammar-schools-use-gl-cem-schools-own",
-      "title": "What exams do grammar schools use (GL, CEM, school’s own)?",
+      "title": "Which exams do grammar schools use? Providers and 2027 changes",
       "url": "https://www.11plusexampapers.com/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-test-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1004,13 +1048,16 @@
       "slug": "do-all-grammar-schools-use-the-same-11-plus-test",
       "title": "Do all grammar schools use the same 11 Plus test?",
       "url": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-10",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-10-test-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 6,
         "branch": "content/daily-repairs-2026-10-10",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
