@@ -836,28 +836,34 @@
     },
     {
       "slug": "are-grammar-schools-better-than-other-state-schools",
-      "title": "Are grammar schools better than other state schools?",
+      "title": "Are grammar schools better than other state schools? Reading the evidence",
       "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-choice.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "who-are-grammar-schools-suitable-for",
-      "title": "Who are grammar schools suitable for?",
+      "title": "Who are grammar schools suitable for? Assessing your child’s needs",
       "url": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-choice.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -887,13 +893,16 @@
       "slug": "do-you-have-to-sit-the-11-plus-for-grammar-school",
       "title": "Do you have to sit the 11 Plus for grammar school?",
       "url": "https://www.11plusexampapers.com/blog/do-you-have-to-sit-the-11-plus-for-grammar-school",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -937,28 +946,34 @@
     },
     {
       "slug": "what-is-a-super-selective-grammar-school",
-      "title": "What is a super-selective grammar school?",
+      "title": "What is a super-selective grammar school? Scores and admission rules",
       "url": "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-choice.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "how-competitive-are-grammar-school-places",
-      "title": "How competitive are grammar school places?",
+      "title": "How competitive are grammar-school places? Making sense of the numbers",
       "url": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-choice.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1106,15 +1121,18 @@
     },
     {
       "slug": "when-are-grammar-school-open-days-and-visits",
-      "title": "When are grammar school open days and visits?",
+      "title": "Grammar school open days: 2027 dates and booking checks",
       "url": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-checks.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1357,15 +1375,18 @@
     },
     {
       "slug": "what-gcse-and-a-level-results-do-grammar-schools-get",
-      "title": "What GCSE and A level results do grammar schools get?",
+      "title": "What GCSE and A-level results do grammar schools get?",
       "url": "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1390,80 +1411,98 @@
     },
     {
       "slug": "do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
-      "title": "Do grammar schools have strong pastoral care and wellbeing support?",
+      "title": "Grammar school pastoral care: how to check the support",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-checks.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "are-there-grammar-schools-for-boys-only-or-girls-only",
       "title": "Are there grammar schools for boys only or girls only?",
       "url": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "are-there-mixed-co-ed-grammar-schools",
-      "title": "Are there mixed (co-ed) grammar schools?",
+      "title": "Are there mixed, co-educational grammar schools?",
       "url": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-grammar-schools-provide-bus-or-transport-options",
-      "title": "Do grammar schools provide bus or transport options?",
+      "title": "Grammar school transport: buses, costs and free-travel rules",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-checks.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-grammar-schools-charge-for-uniforms-trips-and-extras",
-      "title": "Do grammar schools charge for uniforms, trips and extras?",
+      "title": "Grammar school costs: uniforms, trips and optional extras",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-checks.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
       "slug": "do-grammar-schools-offer-bursaries-or-financial-support",
       "title": "Do grammar schools offer bursaries or financial support?",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-routes.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1488,15 +1527,18 @@
     },
     {
       "slug": "what-questions-should-i-ask-on-a-grammar-school-open-day",
-      "title": "What questions should I ask on a grammar school open day?",
+      "title": "Questions to ask at a grammar school open day",
       "url": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-checks.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1583,15 +1625,18 @@
     },
     {
       "slug": "what-are-the-pros-and-cons-of-grammar-schools",
-      "title": "What are the pros and cons of grammar schools?",
+      "title": "The pros and cons of grammar schools: a practical parent guide",
       "url": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
-      "status": "research_in_progress",
+      "status": "repaired_pending_release",
       "researchDate": "2026-10-11",
-      "evidence": [],
-      "action": "review_in_progress",
+      "evidence": [
+        "docs/research-2026-10-11-school-choice.md"
+      ],
+      "action": "rewrite",
       "release": {
+        "pr": 7,
         "branch": "content/daily-repairs-2026-10-11",
-        "outcome": "claimed_not_repaired"
+        "outcome": "awaiting_build_and_deployment"
       }
     },
     {
@@ -1613,9 +1658,10 @@
   ],
   "totals": {
     "existing": 99,
-    "checked": 25,
-    "repaired": 25,
-    "published": 25,
-    "pending": 74
+    "checked": 70,
+    "repaired": 70,
+    "published": 55,
+    "completed": 54,
+    "pending": 45
   }
 }
