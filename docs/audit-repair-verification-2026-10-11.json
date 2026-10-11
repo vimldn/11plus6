@@ -1,0 +1,375 @@
+{
+  "date": "2026-10-11",
+  "pullRequest": "https://github.com/vimldn/11plus6/pull/7",
+  "deployment": {
+    "previewCommit": "9edd191ffc94908af2d5a3421471df4f01ed867a",
+    "mergeCommit": "79a644013a8da7295f31e0fb63759dd8bb527ffd",
+    "preview": {
+      "url": "https://api.github.com/repos/vimldn/11plus6/statuses/9edd191ffc94908af2d5a3421471df4f01ed867a",
+      "avatar_url": "https://avatars.githubusercontent.com/in/8329?v=4",
+      "id": 56075475205,
+      "node_id": "SC_kwDORXAMsc8AAAANDlvZBQ",
+      "state": "success",
+      "description": "Deployment has completed",
+      "target_url": "https://vercel.com/vchatwani-7631s-projects/11plus6/GKwFJaaJeYaxxys3bg3r6EyPfE1o",
+      "context": "Vercel",
+      "created_at": "2026-10-11T05:28:15Z",
+      "updated_at": "2026-10-11T05:28:15Z"
+    },
+    "production": {
+      "url": "https://api.github.com/repos/vimldn/11plus6/statuses/79a644013a8da7295f31e0fb63759dd8bb527ffd",
+      "avatar_url": "https://avatars.githubusercontent.com/in/8329?v=4",
+      "id": 56075504261,
+      "node_id": "SC_kwDORXAMsc8AAAANDlxKhQ",
+      "state": "success",
+      "description": "Deployment has completed",
+      "target_url": "https://vercel.com/vchatwani-7631s-projects/11plus6/28fhK8k7kxTahC2KPeMoBFjDV19X",
+      "context": "Vercel",
+      "created_at": "2026-10-11T05:29:43Z",
+      "updated_at": "2026-10-11T05:29:43Z"
+    },
+    "githubChecks": "Vercel Preview Comments success; clean mergeability before merge"
+  },
+  "checks": {
+    "integrity": "99 URLs and original publication dates retained; other 84 articles unchanged",
+    "build": "npm run build passed",
+    "publishingGates": "scripts/check-release-gates.cjs passed",
+    "rendered": {
+      "verifiedAt": "2026-10-11T05:26:39.409400+00:00",
+      "mode": "rendered_build",
+      "articles": [
+        {
+          "slug": "are-grammar-schools-better-than-other-state-schools",
+          "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "who-are-grammar-schools-suitable-for",
+          "url": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "do-you-have-to-sit-the-11-plus-for-grammar-school",
+          "url": "https://www.11plusexampapers.com/blog/do-you-have-to-sit-the-11-plus-for-grammar-school",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 9
+        },
+        {
+          "slug": "what-is-a-super-selective-grammar-school",
+          "url": "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "how-competitive-are-grammar-school-places",
+          "url": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "when-are-grammar-school-open-days-and-visits",
+          "url": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "what-gcse-and-a-level-results-do-grammar-schools-get",
+          "url": "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "are-there-grammar-schools-for-boys-only-or-girls-only",
+          "url": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "are-there-mixed-co-ed-grammar-schools",
+          "url": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 8
+        },
+        {
+          "slug": "do-grammar-schools-provide-bus-or-transport-options",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "do-grammar-schools-charge-for-uniforms-trips-and-extras",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 4
+        },
+        {
+          "slug": "do-grammar-schools-offer-bursaries-or-financial-support",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 9
+        },
+        {
+          "slug": "what-questions-should-i-ask-on-a-grammar-school-open-day",
+          "url": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "what-are-the-pros-and-cons-of-grammar-schools",
+          "url": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
+          "httpStatus": null,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 8
+        }
+      ],
+      "sitemap": {
+        "httpStatus": null,
+        "urlCount": 188,
+        "all15UpdatedDates": "passed"
+      }
+    },
+    "live": {
+      "verifiedAt": "2026-10-11T05:30:54.066905+00:00",
+      "mode": "live",
+      "articles": [
+        {
+          "slug": "are-grammar-schools-better-than-other-state-schools",
+          "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "who-are-grammar-schools-suitable-for",
+          "url": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "do-you-have-to-sit-the-11-plus-for-grammar-school",
+          "url": "https://www.11plusexampapers.com/blog/do-you-have-to-sit-the-11-plus-for-grammar-school",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 9
+        },
+        {
+          "slug": "what-is-a-super-selective-grammar-school",
+          "url": "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "how-competitive-are-grammar-school-places",
+          "url": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "when-are-grammar-school-open-days-and-visits",
+          "url": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "what-gcse-and-a-level-results-do-grammar-schools-get",
+          "url": "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 7
+        },
+        {
+          "slug": "do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "are-there-grammar-schools-for-boys-only-or-girls-only",
+          "url": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "are-there-mixed-co-ed-grammar-schools",
+          "url": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 8
+        },
+        {
+          "slug": "do-grammar-schools-provide-bus-or-transport-options",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 6
+        },
+        {
+          "slug": "do-grammar-schools-charge-for-uniforms-trips-and-extras",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 4
+        },
+        {
+          "slug": "do-grammar-schools-offer-bursaries-or-financial-support",
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 9
+        },
+        {
+          "slug": "what-questions-should-i-ask-on-a-grammar-school-open-day",
+          "url": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 5
+        },
+        {
+          "slug": "what-are-the-pros-and-cons-of-grammar-schools",
+          "url": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
+          "httpStatus": 200,
+          "h1MetadataCanonicalSchemaDatesLinks": "passed",
+          "sourceAndInternalLinks": 8
+        }
+      ],
+      "internalTargets": [
+        {
+          "url": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/how-do-waiting-lists-work-for-grammar-schools",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/how-does-pupil-premium-priority-work-for-grammar-schools",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/how-to-register-my-child-for-the-11-plus",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/what-are-the-grammar-school-admission-criteria",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
+          "httpStatus": 200
+        }
+      ],
+      "sitemap": {
+        "httpStatus": 200,
+        "urlCount": 188,
+        "all15UpdatedDates": "passed"
+      }
+    }
+  },
+  "queueTotals": {
+    "total": 99,
+    "completed": 69,
+    "pending": 30,
+    "checkedThisBatch": 15,
+    "repairedThisBatch": 15,
+    "publishedThisBatch": 15,
+    "completedThisBatch": 15,
+    "checkedIncludingPriorPartial": 70,
+    "publishedIncludingPriorPartial": 70
+  }
+}
