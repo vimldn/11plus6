@@ -517,35 +517,47 @@
       "slug": "computer-based-vs-paper-based-11-plus-tests",
       "title": "Computer-based vs paper-based 11 Plus tests: how to prepare",
       "url": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
-      "status": "pending",
+      "status": "published",
       "researchDate": "2026-10-14",
       "evidence": [
         "docs/research-2026-10-14-test-format.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 8,
         "branch": "content/daily-repairs-2026-10-14",
-        "outcome": "checked_repaired_awaiting_checks"
+        "commit": "1bcb7761d772880920be325c55663c5333e1bb0b",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-14T06:34:40.931309+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/J65rBa7svR9AP5e5tZHsPrL7Grpk",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-14.json"
       },
-      "reviewState": "checked_repaired",
-      "repairStatus": "awaiting_publication"
+      "reviewState": "checked_repaired_published",
+      "repairStatus": "published"
     },
     {
       "slug": "are-calculators-allowed-in-the-11-plus",
       "title": "Are calculators allowed in the 11 Plus? Rules and checks",
       "url": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
-      "status": "pending",
+      "status": "published",
       "researchDate": "2026-10-14",
       "evidence": [
         "docs/research-2026-10-14-test-format.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 8,
         "branch": "content/daily-repairs-2026-10-14",
-        "outcome": "checked_repaired_awaiting_checks"
+        "commit": "1bcb7761d772880920be325c55663c5333e1bb0b",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-14T06:34:40.931309+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/J65rBa7svR9AP5e5tZHsPrL7Grpk",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-14.json"
       },
-      "reviewState": "checked_repaired",
-      "repairStatus": "awaiting_publication"
+      "reviewState": "checked_repaired_published",
+      "repairStatus": "published"
     },
     {
       "slug": "how-to-improve-11-plus-vocabulary-quickly",
@@ -657,18 +669,24 @@
       "slug": "how-many-papers-are-in-the-11-plus",
       "title": "How many papers are in the 11 Plus? Tests, sections and stages",
       "url": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
-      "status": "pending",
+      "status": "published",
       "researchDate": "2026-10-14",
       "evidence": [
         "docs/research-2026-10-14-test-format.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 8,
         "branch": "content/daily-repairs-2026-10-14",
-        "outcome": "checked_repaired_awaiting_checks"
+        "commit": "1bcb7761d772880920be325c55663c5333e1bb0b",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-14T06:34:40.931309+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/J65rBa7svR9AP5e5tZHsPrL7Grpk",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-14.json"
       },
-      "reviewState": "checked_repaired",
-      "repairStatus": "awaiting_publication"
+      "reviewState": "checked_repaired_published",
+      "repairStatus": "published"
     },
     {
       "slug": "can-my-child-get-extra-time-in-the-11-plus-sen",
@@ -715,18 +733,24 @@
       "slug": "are-mock-exams-important-for-the-11-plus",
       "title": "Are mock exams important for the 11 Plus? Benefits and limits",
       "url": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
-      "status": "pending",
+      "status": "published",
       "researchDate": "2026-10-14",
       "evidence": [
         "docs/research-2026-10-14-test-format.md"
       ],
       "action": "rewrite",
       "release": {
+        "pr": 8,
         "branch": "content/daily-repairs-2026-10-14",
-        "outcome": "checked_repaired_awaiting_checks"
+        "commit": "1bcb7761d772880920be325c55663c5333e1bb0b",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-10-14T06:34:40.931309+00:00",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/J65rBa7svR9AP5e5tZHsPrL7Grpk",
+        "httpStatus": 200,
+        "verificationRecord": "docs/audit-repair-verification-2026-10-14.json"
       },
-      "reviewState": "checked_repaired",
-      "repairStatus": "awaiting_publication"
+      "reviewState": "checked_repaired_published",
+      "repairStatus": "published"
     },
     {
       "slug": "how-many-11-plus-mock-exams-should-my-child-sit",
@@ -1793,8 +1817,8 @@
     "existing": 99,
     "checked": 74,
     "repaired": 74,
-    "published": 70,
-    "completed": 69,
-    "pending": 30
+    "published": 74,
+    "completed": 73,
+    "pending": 26
   }
 }

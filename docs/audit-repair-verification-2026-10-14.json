@@ -1,0 +1,182 @@
+{
+  "verifiedAt": "2026-10-14T06:34:40.931309+00:00",
+  "pr": 8,
+  "articles": [
+    {
+      "url": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "h1": true,
+        "metadata": true,
+        "indexable": true,
+        "updatedAt": true,
+        "publicationDate": true,
+        "sources": true
+      },
+      "links": [
+        "/blog",
+        "/blog/11-plus-exam-format-multiple-choice-or-written",
+        "/blog/are-calculators-allowed-in-the-11-plus",
+        "/blog/how-many-papers-are-in-the-11-plus",
+        "/blog/what-age-do-children-sit-the-11-plus",
+        "/mock-exams",
+        "/mock-exams?mode=school",
+        "/subjects",
+        "/subjects/english",
+        "/subjects/maths",
+        "/subjects/non-verbal-reasoning",
+        "/subjects/verbal-reasoning"
+      ]
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "h1": true,
+        "metadata": true,
+        "indexable": true,
+        "updatedAt": true,
+        "publicationDate": true,
+        "sources": true
+      },
+      "links": [
+        "/blog",
+        "/blog/11-plus-exam-day-checklist-what-to-bring",
+        "/blog/how-to-improve-11-plus-mental-maths",
+        "/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
+        "/blog/what-topics-are-in-11-plus-maths",
+        "/mock-exams",
+        "/mock-exams?mode=school",
+        "/subjects",
+        "/subjects/english",
+        "/subjects/maths",
+        "/subjects/maths/fractions-of-amounts",
+        "/subjects/maths/percentages-of-amounts",
+        "/subjects/non-verbal-reasoning",
+        "/subjects/verbal-reasoning"
+      ]
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "h1": true,
+        "metadata": true,
+        "indexable": true,
+        "updatedAt": true,
+        "publicationDate": true,
+        "sources": true
+      },
+      "links": [
+        "/blog",
+        "/blog/11-plus-exam-format-multiple-choice-or-written",
+        "/blog/computer-based-vs-paper-based-11-plus-tests",
+        "/blog/how-long-is-the-11-plus-exam",
+        "/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+        "/mock-exams",
+        "/mock-exams?mode=school",
+        "/subjects",
+        "/subjects/english",
+        "/subjects/maths",
+        "/subjects/non-verbal-reasoning",
+        "/subjects/verbal-reasoning"
+      ]
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "h1": true,
+        "metadata": true,
+        "indexable": true,
+        "updatedAt": true,
+        "publicationDate": true,
+        "sources": true
+      },
+      "links": [
+        "/blog",
+        "/blog/how-different-are-11-plus-exams-by-region",
+        "/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+        "/blog/what-age-do-children-sit-the-11-plus",
+        "/mock-exams",
+        "/mock-exams?mode=school",
+        "/subjects",
+        "/subjects/english",
+        "/subjects/maths",
+        "/subjects/non-verbal-reasoning",
+        "/subjects/verbal-reasoning"
+      ]
+    }
+  ],
+  "internalDestinations": [
+    {
+      "url": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/mock-exams",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/mock-exams"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/subjects/maths",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/subjects/maths"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/subjects/maths/fractions-of-amounts",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/subjects/maths/fractions-of-amounts"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/subjects/maths/percentages-of-amounts",
+      "httpStatus": 200,
+      "finalUrl": "https://www.11plusexampapers.com/subjects/maths/percentages-of-amounts"
+    }
+  ],
+  "sitemap": {
+    "url": "https://www.11plusexampapers.com/sitemap.xml",
+    "httpStatus": 200,
+    "urlCount": 188,
+    "modifiedDatesVerified": true
+  },
+  "commit": "1bcb7761d772880920be325c55663c5333e1bb0b",
+  "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/J65rBa7svR9AP5e5tZHsPrL7Grpk",
+  "githubDeploymentStatus": "success",
+  "limitations": [
+    "Direct Vercel connector inspection returned scope 403; Vercel CLI unavailable. GitHub Vercel deployment check and public production URLs provided deployment evidence. Preview URL returned a protection/login page rather than article HTML. Local rendered build checks and public production checks passed."
+  ]
+}
