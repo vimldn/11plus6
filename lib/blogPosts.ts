@@ -4151,224 +4151,233 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "computer-based-vs-paper-based-11-plus-tests",
-    title: "Computer-based vs paper-based 11 Plus tests.",
-    desc: "Discover key differences in computer-based vs paper-based 11 Plus tests, from interactive advantages and adaptive features to familiarity benefits. Explore disadvantages, studies, and strategies to choose the best format for your child's success.",
+    title: "Computer-based vs paper-based 11 Plus tests: how to prepare",
+    desc: "Compare screen and paper entrance tests, including ISEB adaptive navigation, Kent answer sheets, rough working and a practical format-checking routine.",
     date: "September 17, 2025",
-    readTime: "9 min read",
+    readTime: "4 min read",
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_4.jpeg",
     imageAlt: "Computer-based vs paper-based 11 Plus tests.",
     images: ["https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_1.jpeg", "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_2.jpeg", "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_3.jpeg", "https://files.autoblogging.ai/images/computerbased-vs-paperbased-11-plus-tests(gdk6)_4.jpeg"],
+    updatedAt: "2026-10-14",
     content: [
-      { type: "h2", text: "Overview of 11 Plus Tests" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam), taken by **Year 6 pupils** in England, assesses verbal reasoning, non-verbal reasoning, maths, and English to determine entry into selective grammar and independent schools. Originating in **1944**, it saw reforms in the 1960s to standardise access. Today, over 100,000 students sit the test each year for places across 163 grammar schools, according to Gov.uk data." },
-      { type: "p", text: "Main providers shape the test format. [GL Assessment offers multiple choice questions and standard format questions, familiar from traditional paper-based 11 Plus tests. CEM](/blog/gl-vs-cem-11-plus-what-is-the-difference) focuses on adaptive testing, adjusting difficulty based on responses, common in computer-based 11 Plus exams." },
-      { type: "p", text: "Tests typically include **4-6 sections**, each lasting 45-60 minutes. Total scores standardise to a mean of 121, helping compare performance across regions. Students practice with mock exams and practice papers to build skills in both pen and paper and screen-based testing modes." },
-      { type: "p", text: "Parents prepare through tuition centres, online platforms, and books like Bond papers. Familiarisation tests help with transitions from **paper-based 11 Plus** to digital formats, covering keyboard input, mouse navigation, and time management." },
-      { type: "h3", text: "What is the 11 Plus?" },
-      { type: "p", text: "The 11 Plus is a selective entrance exam for children aged 10-11, consisting of **4 core sections**: English (25-30 questions), Maths (30-35 questions), Verbal Reasoning (80 questions), and Non-Verbal Reasoning (80 questions). It decides entry to **grammar schools** and independent schools. Practice focuses on verbal reasoning puzzles and non-verbal reasoning patterns." },
-      { type: "p", text: "GL Assessment uses multiple choice questions plus standard format questions, often in paper-based 11 Plus with pencil shading and bubble sheets. **CEM 11 Plus** employs adaptive testing, with 50-90 questions per section that change difficulty on-screen. This suits touchscreen interface or laptop testing." },
-      { type: "ul", items: ["Birmingham 11 Plus: CEM adaptive format.", "Kent Test: GL Assessment, pass mark around 121 T-score.", "Barnet: Consortium tests blending styles."] },
-      { type: "p", text: "Pass marks range from 109-123 by local authority. Students train with timed drills on CGP books and past papers. Experts recommend mixing **computer-based 11 Plus** practice software with traditional pen and paper to handle test anxiety and concentration span." },
-      { type: "h2", text: "Key Differences: Format and Delivery" },
-      { type: "p", text: "**Computer-based 11+ tests** use touchscreen interfaces with mouse/keyboard navigation while paper tests require pencil shading on bubble sheets. This core difference affects how children interact with **11 Plus exams**. Parents should note these shifts when preparing for grammar schools or independent schools." },
-      { type: "p", text: "In **digital 11 Plus** formats like CEM Select or Birmingham 11+, children select answers via clicks or taps. Paper-based options, such as the Kent Test or most GL tests, rely on [multiple-choice or written answers](/blog/11-plus-exam-format-multiple-choice-or-written) with pen and paper. Familiarity with the test mode helps reduce anxiety during year 6 exams." },
-      { type: "p", text: "Delivery varies too, with **screen-based testing** often at test centres using desktops or laptops, while some support tablet testing or home testing with remote proctoring. Paper tests use physical booklets in supervised invigilation settings. Practice with mock exams in both formats builds confidence." },
-      { type: 'table', headers: ["Aspect", "Computer-Based", "Paper-Based"], rows: [["Format", "Touchscreen/multiple choice", "Pencil & paper"], ["Input", "Mouse/keyboard", "Handwriting/shading"], ["Calculator", "On-screen", "Physical (not allowed)"], ["Marking", "Auto-scoring", "Human/scanner"], ["Examples", "CEM Select, Birmingham 11+", "Kent Test, most GL tests"]] },
-      { type: "p", text: "Use this table to compare computer-based 11 Plus and paper-based 11 Plus. Encourage timed drills on practice software for digital tests and Bond papers for traditional ones. This targeted preparation aligns with exam board guidelines." },
-      { type: "h2", text: "Advantages of Computer-Based Tests" },
-      { type: "p", text: "Digital **11 Plus tests** offer adaptive difficulty adjustment and immediate results, processing scores much faster than paper marking. Parents often prefer this computer-based 11 Plus format for its convenience over traditional pen and paper methods. Instant feedback helps families plan next steps quickly after year 6 exams." },
-      { type: "p", text: "Accessibility stands out with features like **font size adjustment** up to 200%, colour contrast modes, and text-to-speech for SEND students. These tools support dyslexia and other needs, making the **online 11 Plus** more inclusive than paper-based versions. Remote proctoring enables home testing with invigilation via webcam." },
-      { type: "p", text: "Compared to paper-based 11 Plus tests at test centres, digital options reduce issues like pencil shading errors on bubble sheets or postal marking delays. Students use touchscreen interfaces, keyboard input, or mouse navigation for a smoother experience. Practice software and familiarisation tests ease the transition from paper to digital." },
-      { type: "p", text: "Environmental controls matter too, as home testing minimises distractions like paper rustling or test centre noise. Noise-cancelling headphones in a quiet room boost concentration. Overall, these advantages prepare primary school leavers better for selective schools and grammar schools." },
-      { type: "h3", text: "Interactivity and Multimedia" },
-      { type: "p", text: "Computer tests embed **interactive diagrams**, drag-and-drop NVR shapes, and multimedia English passages with audio narration. This engages students more than static paper-based 11 Plus booklets. Features like animated sequences make non-verbal reasoning fun and clear." },
-      { type: "ul", items: ["Animated NVR sequences show shape rotation for better understanding.", "On-screen calculators handle complex maths with a \u03c0 button.", "Video-based comprehension passages build English test skills.", "Drag-and-drop vocabulary matching aids verbal reasoning practice."] },
-      { type: "p", text: "CEM maths includes interactive number lines, letting pupils slide markers for precise answers. This beats handwriting calculations on physical booklets. Timed drills in practice papers mimic the real touchscreen interface." },
-      { type: "p", text: "Multiple choice questions and standard format questions feel natural with mouse navigation. Unlike pen and paper, digital submission avoids scanner errors. Students gain familiarity through mock exams on laptops or tablets." },
-      { type: "h3", text: "Adaptive Testing Capabilities" },
-      { type: "p", text: "CEM's adaptive system adjusts question difficulty in real-time: correct answers trigger harder questions, wrong answers serve easier ones. It starts at Year 5 level and adapts after every 5-10 questions. This differs from GL's fixed format, where all pupils face the same questions." },
-      { type: "p", text: "Adaptive testing personalises the **11 Plus exam**, matching challenge to ability for accurate assessment. Research suggests it correlates better with secondary performance than fixed tests. Pupils avoid frustration from overly hard items early on." },
-      { type: "p", text: "In contrast, traditional 11 Plus tests use a standard set, risking disengagement for some. Digital adaptive modes support time management with auto-saving and on-screen timers. This suits consortium tests like Birmingham 11 Plus or Kent Test." },
-      { type: "p", text: "Experts recommend practice on adaptive platforms to build skills. Features like zoom functionality reduce eye strain from screen fatigue. Parental preparation via online platforms ensures smooth laptop testing or tablet testing at home." },
-      { type: "h2", text: "Advantages of Paper-Based Tests" },
-      { type: "p", text: "Paper tests eliminate **screen fatigue** and enable natural handwriting. Many students find this approach more comfortable for the 11 Plus exam." },
-      { type: "p", text: "Students can physically cross out options or underline key parts in verbal reasoning and non-verbal reasoning sections. This tactile interaction helps with focus during the **maths test** and **English test**." },
-      { type: "p", text: "Flipping pages in a physical booklet feels intuitive, unlike mouse navigation or touchscreen interfaces in computer-based 11 Plus tests. Most grammar schools still use this traditional 11 Plus format at test centres." },
-      { type: "p", text: "Practice with pen and paper using Bond papers or CGP books builds familiarity. Parents can simulate [mock exams](/mock-exams) at home to boost confidence for **year 6 exams**." },
-      { type: "h3", text: "Familiarity and Comfort" },
-      { type: "p", text: "Students read faster on paper and face less cognitive load during 11 Plus tests. This setup suits those used to **pen and paper** from primary school." },
-      { type: "p", text: "Paper-based formats reduce **test anxiety** compared to digital ones. Research suggests a calmer experience with **natural pacing** through page turning." },
-      { type: "p", text: "No risk of **battery failure** or software glitches disrupts the exam. This reliability helps with time management in CEM 11 Plus or GL Assessment papers." },
-      { type: "ul", items: ["Comfortable for students with **motor difficulties**, as pencil shading on **bubble sheets** avoids wrist strain from keyboards.", "Allows **handwriting** for standard format questions, unlike keyboard input in online 11 Plus modes.", "Supports **concentration span** without screen distractions or blue light exposure."] },
-      { type: "h2", text: "Disadvantages Comparison" },
-      { type: "p", text: "Computer tests risk higher **eye strain** while paper faces scanner errors. Both **11 Plus test formats** present unique challenges for year 6 students preparing for grammar schools and selective schools. Parents and tuition centres often weigh these issues during parental preparation." },
-      { type: "p", text: "Technical problems plague computer-based 11 Plus exams, such as software glitches and internet connectivity failures. Paper-based 11 Plus tests struggle with human marking delays and scanner errors during digital submission. These factors affect time management and score reporting in CEM 11 Plus or GL Assessment formats." },
-      { type: "p", text: "A real-world example occurred in Birmingham 2023, where a digital 11 Plus test was cancelled due to a server crash. This disrupted thousands of primary school leavers taking verbal reasoning and non-verbal reasoning sections. Such incidents highlight reliability concerns in online 11 Plus testing versus traditional pen and paper methods." },
-      { type: "p", text: "Physical drawbacks also differ. Screen-based testing causes blue light exposure and screen fatigue, while pen and paper leads to hand cramps from pencil shading bubble sheets. Practice with mock exams in both test modes helps build resilience to these issues." },
-      { type: 'table', headers: ["Issue", "Computer-Based", "Paper-Based"], rows: [["Technical", "Internet/software glitches", "Scanner errors"], ["Physical", "Eye strain/blue light", "Hand cramps/paper cuts"], ["Access", "Device requirements", "Equal access"]] },
-      { type: "h3", text: "Technical Challenges" },
-      { type: "p", text: "**Software glitches** in computer-based 11 Plus tests can freeze screens during maths test or English test questions. Students using touchscreen interface or keyboard input may lose progress without auto-saving features. Remote proctoring adds layers of device compatibility issues for laptop testing or tablet testing." },
-      { type: "p", text: "Paper-based 11 Plus relies on postal marking, prone to delays from physical booklet handling. Scanner errors misread bubble sheets in multiple choice questions, impacting verbal reasoning scores. Exam board guidelines stress familiarisation tests to mitigate these in both formats." },
-      { type: "h3", text: "Physical Drawbacks" },
-      { type: "p", text: "**Eye strain** from prolonged screen time affects reading speed in digital 11 Plus exams. Blue light exposure during non-verbal reasoning sections leads to screen fatigue, especially in home testing environments. Adjusting font size or colour contrast helps, but concentration span suffers." },
-      { type: "p", text: "Traditional 11 Plus with pen and paper causes **wrist strain** from handwriting standard format questions. Paper rustling and flipping physical booklets distract during timed drills. Quiet room setup with noise-cancelling aids focus in test centres for either test mode." },
-      { type: "h3", text: "Access and Preparation Issues" },
-      { type: "p", text: "Not all families have suitable devices for online 11 Plus practice software, creating barriers for consortium tests like Kent Test. Paper versions offer equal access via CGP books or Bond papers at tuition centres. Parental preparation focuses on transition from paper to digital for adaptive testing." },
-      { type: "p", text: "Test anxiety rises with unfamiliar **mouse navigation** or on-screen calculator in screen-based testing. Invigilation differs between test centre supervision and remote proctoring. Past papers and practice papers build skills for scoring differences and pass mark consistency." },
-      { type: "h2", text: "Preparation Strategies" },
-      { type: "p", text: "Practice both formats equally: **12 paper mocks** plus **20 hours digital familiarisation** yields score improvements through better adaptation to computer-based 11 Plus and paper-based 11 Plus demands." },
-      { type: "p", text: "Follow a structured schedule to build skills progressively. Spend Weeks 1-4 on paper practice using Bond and CGP books for traditional pen-and-paper techniques like bubble sheets and handwriting. This lays a strong foundation in verbal reasoning, non-verbal reasoning, maths test, and English test content." },
-      { type: "p", text: "In **Weeks 5-8 shift to digital practice** with platforms like ExamPapersPlus.co.uk. This helps master touchscreen interfaces, keyboard input, and mouse navigation specific to online 11 Plus formats from CEM and GL Assessment." },
-      { type: "p", text: "Top resources include **CGP 11+ Practice Papers** at \u00a36.50 for realistic mocks, Bond Assessment Papers at \u00a39.99 for varied question types, and **PreTest Online** at \u00a325 per month for adaptive digital drills. Combine these for comprehensive coverage of multiple choice questions and standard format questions." },
-      { type: "h3", text: "Computer-Specific Practice" },
-      { type: "p", text: "Use **ExamPapersPlus Complete Digital Pack** at \u00a349 for over 500 adaptive questions matching CEM 11 Plus and GL Assessment formats exactly. This pack simulates real digital 11 Plus conditions with timed sections and instant feedback." },
-      { type: "p", text: "Follow this numbered practice plan to optimise performance:" },
-      { type: "ol", items: ["Download the **CEM familiarisation test** for free to experience the interface early.", "Practice on the **same device type**, with a 12-inch tablet being optimal for screen-based testing.", "Do **timed drills** in 25-minute verbal reasoning blocks to build pace.", "Learn **navigation shortcuts** like the Tab key to move efficiently between questions.", "Simulate full conditions with **60-minute sessions** including 10-minute breaks to manage screen fatigue and eye strain."] },
-      { type: "p", text: "Focus on **time management** and reading speed under blue light exposure. Practice accessibility features like font size adjustment and colour contrast to handle test anxiety in **remote proctoring** or test centre setups." },
-      { type: "p", text: "Address potential issues such as software glitches or internet connectivity by testing on laptops, tablets, or desktops. This ensures familiarity with **auto-saving**, **on-screen calculators**, and digital submission processes." },
-      { type: "h3", text: "Paper Practice Techniques" },
-      { type: "p", text: "Master **bubble sheet technique**: shade full circles in three seconds maximum using an HB pencil, as tested by top schools for traditional 11 Plus exams. This builds speed and precision for pen and paper formats like the Kent Test." },
-      { type: "p", text: "Apply these specific techniques for effective preparation:" },
-      { type: "ol", items: ["Practice the **'dirty erase' method** to rub out answers without smudging the sheet.", "Use **CGP 11+ Complete Practice** at \u00a312.99, which includes six full papers for mocks.", "Simulate the **test centre environment** with A4 paper, a clipboard, and 60 minutes uninterrupted.", "Mark papers using **official schemes** like the free Kent Test mark scheme PDF for accurate scoring."] },
-      { type: "p", text: "Emphasise **handwriting clarity** and pencil shading to avoid scanner errors in human marking processes. Practice in a quiet room with environmental controls to mimic invigilation and reduce paper rustling distractions." },
-      { type: "p", text: "Integrate timed drills for concentration span across maths and English sections. This prepares for physical booklets in grammar schools and independent schools, bridging to **computer-based transitions**." },
-      { type: "h2", text: "Performance and Results Analysis" },
-      { type: "p", text: "Digital 11 Plus tests provide instant T-scores with a mean of 100 and standard deviation of 15. Paper-based results take 2-4 weeks via **postal marking**. Parents can use this quick feedback from computer-based 11 Plus exams to adjust preparation right away." },
-      { type: "p", text: "GL Assessment tests use multiple choice questions worth 1 point each. CEM 11 Plus exams feature adaptive testing with weighted scoring based on question difficulty. These differences affect how scores reflect true ability in verbal reasoning, **non-verbal reasoning**, and maths tests." },
-      { type: "p", text: "Accuracy in marking sets digital and paper modes apart. Digital **auto-marking** reduces errors through software precision, while paper relies on scanners prone to issues like poor pencil shading. Students benefit from **instant feedback** in online 11 Plus formats to review mistakes immediately." },
-      { type: 'table', headers: ["Subject", "Digital Avg", "Paper Avg"], rows: [["VR", "108", "105"], ["NVR", "112", "110"], ["Maths", "115", "113"]] },
-      { type: "p", text: "This table shows average scores across subjects. Digital formats often yield slightly higher results due to **adaptive testing** and familiarity with **touchscreen interfaces**. Practice with mock exams in both test modes helps bridge any gaps." },
-      { type: "h2", text: "Trends and Future Direction" },
-      { type: "p", text: "Digital **11 Plus adoption** rose from 8% in 2020 to 35% in 2024. A full transition to **computer-based 11 Plus tests** is projected by 2028 according to ISC forecasts. This shift reflects growing confidence in online platforms for year 6 exams." },
-      { type: "p", text: "Current trends highlight the **CEM consortium growth** across 28 local authorities, including areas like Birmingham. Schools now use CEM 11 Plus formats with **multiple choice questions** and adaptive testing. Remote proctoring trials, such as Proctorio integration, enable home testing with invigilation." },
-      { type: "p", text: "AI question generation pilots are testing dynamic verbal reasoning and non-verbal reasoning items. GL Assessment's roadmap outlines expanded screen-based testing with touchscreen interfaces. The DfE digital assessment strategy pushes for standardised digital platforms nationwide." },
-      { type: "p", text: "Future directions include **biometric verification** for secure identity checks during laptop testing or tablet testing. VR test environments may simulate test centres to reduce anxiety. Parents should explore practice software and familiarisation tests to prepare for these changes." },
+  {
+    "type": "p",
+    "text": "The key question is how your child’s actual assessment works. A computer-based test displays questions on a screen; a paper-based test uses printed materials. Either can assess similar learning skills, but the answer method, navigation and timing need their own familiarisation. Computer marking does not mean a child takes the test on a computer."
+  },
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "Preparing for an exam taken in 2027? Check the admissions cycle as well as the test name. An autumn 2027 assessment will commonly concern September 2028 entry. The examples below describe currently published rules checked on 14 October 2026; they do not confirm unpublished 2027 dates or formats."
+  },
+  {
+    "type": "h2",
+    "text": "Two verified examples"
+  },
+  {
+    "type": "p",
+    "text": "The [ISEB Common Pre-Tests](https://www.iseb.co.uk/families-hub/pre-tests-admissions-toolkit/preparing-for-the-pre-tests/what-are-the-iseb-common-pre-tests-11-and-how-do-they-work/) are four online, multiple-choice adaptive assessments. Responses influence which questions are presented next. They are usually taken at the child’s current school or the senior school, rather than assumed to be an unsupervised home test."
+  },
+  {
+    "type": "p",
+    "text": "In contrast, the [Kent Test guidance](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/prepare-for-the-kent-test) describes printed multiple-choice papers with separate answer sheets. The answers are computer-marked. Children still read questions in a booklet and record their choices on paper."
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Feature",
+      "ISEB Pre-Tests example",
+      "Kent paper-test example"
     ],
+    "rows": [
+      [
+        "Answer method",
+        "Choose an option on screen.",
+        "Record a choice on a separate answer sheet."
+      ],
+      [
+        "Navigation",
+        "Cannot skip questions or return to change previous answers.",
+        "Follow booklet and invigilator instructions; separately timed sections restrict when you may work."
+      ],
+      [
+        "Working",
+        "Pen or pencil and rough paper are available; rough work is not marked.",
+        "Use the space and materials permitted by the test instructions."
+      ],
+      [
+        "Familiarisation",
+        "Use the official test walkthrough to learn the interface.",
+        "Use the official booklet and sample answer sheet."
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "The navigation and rough-work rules above are stated in the [ISEB invigilation guide](https://pretests.support.iseb.co.uk/support/solutions/articles/101000440023). Do not apply the common “skip and return” strategy to a test that does not allow it. Equally, do not move into a later paper section before an invigilator tells you to."
+  },
+  {
+    "type": "h2",
+    "text": "Digital does not automatically mean adaptive"
+  },
+  {
+    "type": "p",
+    "text": "Delivery and question selection are separate features. “Digital” describes the screen-based delivery. “Adaptive” describes how responses affect the subsequent questions. Establish both from the test provider; do not infer adaptive scoring, available tools or a back button just because a resource runs online."
+  },
+  {
+    "type": "p",
+    "text": "On an adaptive test, your child should answer the question shown as carefully as possible instead of trying to diagnose their score from its apparent difficulty. An unfamiliar or difficult question is not a reliable pass/fail signal."
+  },
+  {
+    "type": "h2",
+    "text": "Match practice to the required action"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "For a screen-based test, practise reading on screen while using permitted rough paper. Work through the official walkthrough and learn how to select and confirm answers.",
+      "For a separate paper answer sheet, practise matching the question number to the answer row. Follow the sample instructions for marking and correcting a choice.",
+      "Use the published timings and section boundaries. An online quiz’s timer or a commercial booklet’s length may differ from the admission test.",
+      "Teach your child to raise their hand if equipment fails or instructions are unclear. They should not try to troubleshoot the live assessment alone."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Check access arrangements and practical details early"
+  },
+  {
+    "type": "p",
+    "text": "Ask the school or provider about the assessment location, equipment, approved display settings and any access arrangements. A feature available in a home practice platform is not automatically permitted in the live test. Explain the child’s needs through the official process and confirm the agreed support."
+  },
+  {
+    "type": "p",
+    "text": "There is no universal ideal tablet size, typing-speed target or keyboard shortcut for every 11+ test. Children should become comfortable with the actions they actually need without being pushed into unnecessary device training."
+  },
+  {
+    "type": "h2",
+    "text": "A parent’s format checklist"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Write down the test and entry years, exact assessment name and official source.",
+      "Record whether each stage is on screen, on paper or a mixture.",
+      "Confirm whether answers can be skipped, reviewed or changed, including any section restrictions.",
+      "Check permitted working materials, calculator rules and the procedure for asking for help.",
+      "Review new information when the relevant admissions-cycle guidance is published."
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Use our guides to [how many papers the 11 Plus involves](/blog/how-many-papers-are-in-the-11-plus) and [calculator rules](/blog/are-calculators-allowed-in-the-11-plus) alongside the school’s instructions. A commercial [mock exam](/mock-exams) is practice, not proof that its interface or score matches the official assessment."
+  }
+]
   },
 
   {
     slug: "are-calculators-allowed-in-the-11-plus",
-    title: "Are calculators allowed in the 11 Plus?",
-    desc: "Are calculators allowed in the 11 Plus? Learn the no-calculator policy across GL Assessment, CEM, and regions, reasons for mental arithmetic focus, question types, rare exceptions, and preparation tips. Confirm rules now and boost your child's success.",
+    title: "Are calculators allowed in the 11 Plus? Rules and checks",
+    desc: "Check calculator rules for your child’s entrance test, distinguish ISEB Pre-Tests from Common Entrance, and prepare with clear non-calculator working.",
     date: "September 24, 2025",
-    readTime: "10 min read",
+    readTime: "4 min read",
     category: "Maths",
     imageUrl: "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_4.jpeg",
     imageAlt: "Are calculators allowed in the 11 Plus?",
     images: ["https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_1.jpeg", "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_2.jpeg", "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_3.jpeg", "https://files.autoblogging.ai/images/are-calculators-allowed-in-the-11-plus(38fu)_4.jpeg"],
+    updatedAt: "2026-10-14",
     content: [
-      { type: "h2", text: "Overview of 11 Plus Exams" },
-      { type: "p", text: "The **11 Plus exam**, taken by over 100,000 Year 6 pupils annually in the UK, assesses English, maths, verbal reasoning, and non-verbal reasoning to determine **grammar school eligibility**. The maths paper is one of several [11 Plus subjects](/subjects) where the no-calculator rule applies." },
-      { type: "p", text: "Exam providers set the format. **GL Assessment** uses four papers with around 60 questions each, lasting 45 to 60 minutes. **CEM exams** feature two longer papers with adaptive difficulty." },
-      { type: "p", text: "Pass marks use a **standardised score** of 112 or higher, as seen in 2024 guidelines from official GL Assessment and CEM sources. Major regions include Kent with high test taker numbers, Birmingham, and Bucks." },
-      { type: "ul", items: ["Kent: Large-scale testing for **Kent Test**.", "Birmingham: Competitive **Birmingham 11+** process.", "Bucks: Selective **Bucks 11+** for grammar places."] },
-      { type: "p", text: "Parents check **exam board guidelines** for county-specific rules. This helps with **11+ preparation** and understanding the overall structure." },
-      { type: "h3", text: "GL Assessment Format" },
-      { type: "p", text: "GL Assessment papers cover core skills separately. Each includes multiple choice questions on **11+ maths**, English, verbal reasoning, and non-verbal reasoning." },
-      { type: "p", text: "Timing demands mental arithmetic speed. Pupils practise times tables and **calculation skills** without aids, aligning with **no calculator** policy." },
-      { type: "p", text: "Practice with **Bond papers** or CGP books builds exam technique. Focus on the [maths topics](/blog/what-topics-are-in-11-plus-maths) like fractions, decimals, and geometry." },
-      { type: "p", text: "**Timed test** conditions in [mock exams](/mock-exams) reduce stress. This prepares for real **test centre rules** on permitted equipment like pencils and erasers." },
-      { type: "h3", text: "CEM Exam Structure" },
-      { type: "p", text: "CEM exams combine subjects into two papers. Longer formats test **numerical reasoning** alongside verbal and non-verbal skills." },
-      { type: "p", text: "Adaptive difficulty adjusts questions. Strong **mental maths** handles addition, subtraction, multiplication, and division without calculators." },
-      { type: "p", text: "Emphasise **problem solving** and reasoning skills. Use pen and paper for written calculations like long division or grid method." },
-      { type: "p", text: "Parents review **official syllabus** for regions like Trafford or Essex. Mock exams simulate the **competitive exam** environment." },
-      { type: "h3", text: "Regional Variations and Pass Marks" },
-      { type: "p", text: "Counties set their own **11 Plus rules**. Kent, Birmingham, Bucks, Warwickshire, and London differ in **school admissions** processes." },
-      { type: "p", text: "A **qualifying score** like 112 leads to grammar offers. Borderline candidates may join waiting lists or appeals." },
-      { type: "p", text: "Check **county specific rules** for 2025, including **calculator ban**. No electronic devices, smartwatches, or digital aids allowed." },
-      { type: 'table', headers: ["Region", "Key Feature"], rows: [["Kent", "Kent Test with high volume"], ["Birmingham", "Multiple test centres"], ["Bucks", "Strict standardised scoring"]] },
-      { type: "p", text: "Invigilator instructions enforce **prohibited items**. Focus on traditional methods for success." },
-      { type: "h2", text: "General Calculator Policy" },
-      { type: "p", text: "All major 11 Plus exam providers prohibit calculators to test pure mathematical reasoning skills. This universal rule applies to GL Assessment, CEM Select, and independent schools. No calculators are permitted in any **11+ maths paper**." },
-      { type: "p", text: "GL Assessment guideline 3.2 states: \"No calculators or electronic devices of any kind are allowed in the examination room.\" CEM candidate instructions echo this with: \"Electronic calculating devices are not permitted.\" These rules ensure children rely on **mental arithmetic** and written methods." },
-      { type: "p", text: "Permitted items include only **black pens**, pencils, erasers, and rulers. Test centre guidelines from 2024 confirm: \"Candidates may bring black pens, HB pencils, erasers, and a ruler no longer than 30cm.\" Prohibited items like smartphones or watch calculators lead to disqualification." },
-      { type: "p", text: "Parents should check school admissions pages for county specific rules, such as Kent Test or Bucks 11+. Practise with no calculator using Bond papers or CGP books to build speed in times tables and long division." },
-      { type: "h3", text: "Standard Rule Across Providers" },
-      { type: "p", text: "GL Assessment, CEM Select, and all county consortia explicitly ban calculators in writing: \"Electronic calculating devices are not permitted.\" This **calculator policy** tests calculation skills without digital aids. Children must master mental maths for the timed **11+ test**." },
-      { type: "p", text: "Key regulations include: GL Handbook p.12: \"No calculators or electronic devices\"; CEM Instructions: \"Only pen, pencil, eraser, ruler allowed\"; Kent Test Rules: \"Calculators confiscated on sight.\" Similar bans apply to Trafford 11+, Essex 11+, and independent schools." },
-      { type: "p", text: "Permitted stationery covers basic **maths equipment**:" },
-      { type: "ul", items: ["Black pens for multiple choice questions", "HB pencils for diagrams in numerical reasoning", "Erasers for corrections in written calculations", "30cm ruler for geometry and data handling"] },
-      { type: "p", text: "Banned items include watch-calculators, often resembling slim digital watches with buttons for addition or division. Invigilators check for these at entry. Focus 11+ preparation on traditional methods like grid method or bus stop division to handle exam stress." },
-      { type: "h2", text: "Reasons for No Calculators" },
-      { type: "p", text: "Banning calculators ensures students demonstrate **mental agility** required for Key Stage 3 maths, where most Year 7 problems are calculator-free. The **11 Plus calculator rule** aligns with exam regulations from providers like GL Assessment and CEM. This policy prepares children for grammar school entrance without digital aids." },
-      { type: "p", text: "11+ maths papers test **procedural fluency** as outlined in the DfE National Curriculum. Students must show they can perform calculations quickly using traditional methods. Calculators would undermine this core skill in the **mathematics paper**." },
-      { type: "p", text: "Grammar schools seek **fast thinkers**, with questions designed for brief solving times. The no calculator ban levels the playing field across county specific rules, such as Birmingham 11+ or Kent Test. It prevents advantages from device familiarity." },
-      { type: "p", text: "The policy stops **formula memorisation abuse** and standardises testing, avoiding differences between models like Casio or TI. Exam board guidelines ensure fairness in **timed tests**. Practice papers and mock exams reinforce these 11 Plus rules." },
-      { type: "h3", text: "Focus on Mental Arithmetic" },
-      { type: "p", text: "11+ maths papers test hundreds of **mental calculations** per hour, from times tables recall to 3-digit mental multiplication, so it pays to [improve mental maths](/blog/how-to-improve-11-plus-mental-maths) early. This builds numerical reasoning for the competitive exam, with students relying on pen and paper for arithmetic operations." },
-      { type: "p", text: "Key mental skills include rapid **times tables** recall up to 12x12, essential for multiple choice questions. Number bonds to 100 or 200 support addition and subtraction speed. These form the basis of 11+ preparation." },
-      { type: "ul", items: ["**Estimation**: Round numbers to the nearest 10 or 100 for quick checks, as in geometry or data handling problems.", "**Approximation**: Useful in multi-step questions involving fractions, decimals, or percentages.", "Practice skip counting and column addition to boost accuracy under timed test conditions."] },
-      { type: "p", text: "Sample question: If 23\u00d747, what's closest? A:1000 B:1100 C:1200. Solve mentally by approximating 20\u00d750=1000, then adjust for extras: 23\u00d747 is a bit more, so pick B:1100. This **exam technique** highlights reasoning skills over exact computation." },
-      { type: "h2", text: "Maths Paper Specifics" },
-      { type: "p", text: "11+ maths papers contain 40-60 questions covering arithmetic (50%), reasoning (30%), and problem-solving (20%), all **calculator-free**. Standardised scores come from 45-50 core questions. Papers follow strict 11 Plus rules with no calculators allowed under exam regulations." },
-      { type: "p", text: "Time allocation averages **1.2 seconds per mark**, pushing mental arithmetic and speed. Real 2024 examples include long division (584\u00f78), bus stop method (672\u00f714), and column addition (3\u00d73 digit). CGP 11+ Maths book analysis highlights these as common in **CEM exam** and GL Assessment formats." },
-      { type: "p", text: "Question distribution emphasises written calculations like times tables and number bonds. Practice with **timed test** papers builds exam technique. Focus on **grammar school entrance** needs, matching key stage 2 maths syllabus." },
-      { type: "p", text: "**Multiple choice questions** appear in some Kent Test or Bucks 11+ papers, but all demand pen-and-paper methods. Mock exams simulate test centre rules, banning prohibited items like electronic devices. Parents check county-specific 11 Plus calculator rule via school admissions info." },
-      { type: "h3", text: "Question Types and Tools" },
-      { type: "p", text: "Expect **pen-and-paper methods only**: grid multiplication (23\u00d747), bus stop division (816\u00f724), column addition across 5 numbers. The 11+ maths paper tests calculation skills without digital aids. Traditional methods align with no calculator policy across Trafford 11+ and others." },
-      { type: "p", text: "Common types include:" },
-      { type: "ul", items: ["**Long division** using chunking: For 584\u00f78, subtract multiples like 73\u00d78=584, quotient 73.", "**Grid multiplication** (2\u00d73 digit): Draw grid for 23\u00d747, multiply sections, sum totals.", "**Column addition** with carry over: Add 456+789+123, carry digits upwards.", "**Fractions of amounts**: Find 3/4 of 96 by dividing 96\u00f74=24, \u00d73=72."] },
-      { type: "p", text: "More types cover percentage increase/decrease: Raise \u00a350 by 20% as \u00a310 added to \u00a360. **Area/perimeter** uses formulas, like rectangle 5cm\u00d78cm area 40cm\u00b2. **Mean/median** from data sets, ratio sharing divides totals proportionally." },
-      { type: "p", text: "Practice these in **CGP books** or Bond papers for 11+ preparation. Step-by-step works build **accuracy** under timed conditions. Match exam day rules with pencils, erasers, rulers as permitted equipment." },
-      { type: "h2", text: "Differences by Exam Board" },
-      { type: "p", text: "While all ban **calculators**, GL emphasises traditional arithmetic while CEM prioritises numerical reasoning speed. This core difference shapes how children prepare for the **11 Plus maths** paper across regions." },
-      { type: "p", text: "GL Assessment, used in areas like Kent and Bucks, follows a **published syllabus** drawn from National Curriculum KS2 topics. It focuses on mental arithmetic and written methods, with no aids permitted under strict **exam regulations**." },
-      { type: "p", text: "CEM, common in Birmingham and Trafford, embeds maths within numerical reasoning tasks. Questions test **problem-solving** under time pressure, adapting to pupil performance without a fixed list of topics." },
-      { type: 'table', headers: ["Region", "Board", "Maths Focus", "Question Style"], rows: [["Kent", "GL", "Pure maths", "Traditional arithmetic"], ["Birmingham", "CEM", "Numerical reasoning", "Pattern and logic heavy"], ["Bucks", "GL", "Arithmetic operations", "Multiple choice"], ["Trafford", "CEM", "Speed processing", "Adaptive sequences"], ["Essex", "GL", "Mental and written", "Timed calculations"]] },
-      { type: "h3", text: "GL Assessment Rules" },
-      { type: "p", text: "GL Assessment (Bucks, Essex) tests explicit syllabus: 'Mental and written strategies from National Curriculum KS2'. The mathematics paper includes 50 questions in 60 minutes, covering times tables, fractions, and geometry from the official GL Maths Guide." },
-      { type: "p", text: "No calculator skills are tested, as stated in the GL 2024 syllabus: 'No calculator skills tested'. Pupils rely on **traditional methods** like column addition, bus stop division, and partitioning for accuracy in the timed test." },
-      { type: "p", text: "A sample GL question: What is 456 x 7? Marking rewards **expanded methods** or vertical algorithms, not shortcuts. Practice with Bond papers or CGP books builds speed for grammar school entrance." },
-      { type: "p", text: "Parents should check county specific rules at test centres, where only **pencils, erasers**, and rulers count as permitted equipment. Focus 11+ preparation on mental maths drills to master arithmetic operations." },
-      { type: "h3", text: "CEM Policy" },
-      { type: "p", text: "CEM (Birmingham, Trafford) calculator ban supports **pure numerical reasoning** with 45 adaptive questions. Without a published syllabus, it stresses problem-solving speed over rote calculation in the 11+ test." },
-      { type: "p", text: "The CEM handbook notes: 'Mathematical processing without aids'. Questions mix **verbal reasoning**, non-verbal reasoning, and maths, scored adaptively to suit **selective schools** admissions." },
-      { type: "p", text: "Sample CEM question: Sequence 3, 6, 10, 15,? A:20 B:21 C:22. Pupils spot triangular numbers via **pattern recognition**, not heavy computation. This tests **reasoning skills** under exam stress." },
-      { type: "p", text: "Prepare with **mock exams** emphasising estimation and skip counting. Review **invigilator instructions** for prohibited items like watches or smartphones, ensuring pen and paper mastery for 11+ tutor sessions." },
-      { type: "h2", text: "Preparation Without Calculators" },
-      { type: "p", text: "Top scorers practice 20 timed maths papers using Bond Papers 8-11 and CGP 11+ Maths Workouts exclusively. This builds speed and calculation skills essential for the 11+ maths paper. Without calculators allowed under 11 Plus rules, children master mental arithmetic and written methods." },
-      { type: "p", text: "Focus on mental maths daily to handle numerical reasoning and multiple choice questions. Practice covers times tables, fractions, and decimals from the maths syllabus. Parents guide year 5 and year 6 pupils towards grammar school entrance success." },
-      { type: "p", text: "A structured plan ensures steady progress in 11+ preparation. Use traditional methods like pen and paper for addition, subtraction, and division. Simulate **exam conditions** to reduce stress on test day." },
-      { type: "p", text: "Follow this **7-step preparation plan** for effective training without electronic devices. Track improvements to meet pass marks in CEM exam or GL Assessment formats. Resources like Bond papers align with county specific rules such as Birmingham 11+ or Kent Test." },
-      { type: "ol", items: ["Daily mental arithmetic for 10 minutes, focusing on tables 1-12 and skip counting.", "Weekly **timed mocks** using Bond papers to build exam technique.", "Learn **8 key methods** like bus stop division, grid multiplication, and column addition.", "Use CGP targeted practice books for fractions, percentages, and geometry.", "Hire an **11+ tutor** for 2 hours per week to refine problem solving.", "Track progress with a target of **80% accuracy** in practice tests.", "Simulate full **exam day rules**, using only pencils, erasers, and rulers."] },
-      { type: 'table', headers: ["Book", "Focus", "Pages", "Price"], rows: [["Bond 11+ Maths 8-9 years", "Mental arithmetic, times tables", "80", "\u00a37.99"], ["CGP 11+ Maths Workout", "Reasoning, fractions, decimals", "96", "\u00a36.50"], ["Bond 11+ Maths 10-11 years", "Geometry, data handling, mocks", "112", "\u00a38.99"], ["CGP 11+ Maths Practice Papers", "Timed tests, multiple choice", "64", "\u00a38.99"]] },
-      { type: "p", text: "These books support no calculator practice for selective schools. Combine with tutor sessions for personalised feedback. Consistent effort leads to strong performance in the mathematics paper." },
-      { type: "h2", text: "Exceptions and Special Cases" },
-      { type: "p", text: "**99.9% of candidates follow the no-calculator rule** in the 11 Plus exam. Rare exceptions require a SEN assessment two terms prior to the test date. Parents must plan ahead to meet these strict exam regulations." },
-      { type: "p", text: "Special circumstances include **independent schools**, SEN access arrangements, medical exemptions, and county variations. For instance, some independent schools permit basic calculators in their 11+ maths papers, but this varies by institution. Always check the specific school policy during 11+ preparation." },
-      { type: "ul", items: ["**Independent schools**: A small number allow basic calculators for numerical reasoning sections.", "**SEN access arrangements**: Apply via the local authority for extra time or tools.", "**Medical exemptions**: Submit a doctor's letter detailing the child's needs.", "**County variations**: Areas like **Trafford** enforce the strictest calculator ban."] },
-      { type: "p", text: "The **approval process timeline** demands early submission, often rejected in most cases. Families should contact test providers like GL Assessment or CEM exam boards promptly. Practice mental arithmetic remains key for all candidates under standard 11 Plus rules." },
-      { type: "h3", text: "Independent Schools" },
-      { type: "p", text: "While state grammar school entrance exams ban calculators, some independent schools make exceptions. These schools may allow basic models for 11+ maths papers focusing on long division or decimals. Review each school's entrance exam guidelines during **secondary school transfer** planning." },
-      { type: "p", text: "Prepare by checking school admissions websites or contacting admissions offices. If permitted, ensure the calculator meets test centre rules on prohibited items. Emphasise calculation skills like times tables regardless, as mental maths dominates most formats." },
-      { type: "p", text: "This flexibility aids reasoning skills in multiple choice questions, but confirm for 2025 rules. Use practice papers from Bond or CGP to simulate both scenarios. An 11+ tutor can tailor sessions to specific **school policy**." },
-      { type: "h3", text: "SEN Access Arrangements" },
-      { type: "p", text: "Children with Special Educational Needs may qualify for calculator use via LA approval. Submit evidence through the local authority well before the 11+ test. This supports mathematics paper challenges like fractions or percentages." },
-      { type: "p", text: "The process involves a formal SEN assessment and application two terms ahead. Invigilators enforce **permitted equipment** based on approval. Focus on exam technique with tools like pencils and **rulers** during mock exams." },
-      { type: "p", text: "Parents discuss needs on 11+ forums like Mumsnet threads. Early action prevents exam day rules issues with electronic devices. Build problem solving through **speed maths** practice." },
-      { type: "h3", text: "Medical Exemptions" },
-      { type: "p", text: "A doctor's letter can justify a medical exemption for calculators in severe cases. Detail how conditions affect **written calculations**, such as dyscalculia impacting addition or multiplication. Submit to the exam board per county specific rules." },
-      { type: "p", text: "Timeline requires applications months in advance for review. Rejections are common without strong evidence. Pair this with **estimation skills** training for timed test resilience." },
-      { type: "p", text: "Examples include Birmingham 11+ or Kent Test processes. Consult your GP early and reference official syllabus. Maintain accuracy via traditional methods like grid method." },
-      { type: "h3", text: "County Variations" },
-      { type: "p", text: "**County specific rules** differ, with **Trafford 11+** among the strictest on calculators. Areas like Bucks 11+ or Essex 11+ rarely deviate from the ban. Verify 2024 guidelines for your region during Year 5 Year 6 prep." },
-      { type: "p", text: "Contact local test centres for invigilator instructions on digital aids like watch calculators. **London 11+** follows standard no-calculator policy. Use **pen and paper** for arithmetic operations in all cases." },
-      { type: "p", text: "Practice mental maths with **number bonds** and bus stop method to excel. Track changes via **parent guide** resources. Strong key stage 2 foundation ensures success despite variations." },
-      { type: "h2", text: "Official Confirmation Steps" },
-      { type: "p", text: "Email your county's **admissions team** 6 months before the test date: 'Please confirm calculator policy for 2025 maths paper.' This ensures you get the latest on 11 Plus rules for your area. Policies can change yearly based on exam board guidelines from CEM or GL Assessment." },
-      { type: "p", text: "Follow these **five verification steps** to confirm if **calculators are allowed** in the 11+ maths paper. Each step targets official or reliable sources for county specific rules. Start early to avoid last-minute confusion on exam day rules." },
-      { type: "ol", items: ["Check the **county website** for the admissions section, often under 11+ test or grammar school entrance pages. Look for the official syllabus or candidate booklet download.", "Email the **admissions office** using this sample: Subject: Confirmation of 11+ Calculator Policy 2025. Dear Admissions Team, Please confirm if calculators are permitted for the mathematics paper in the upcoming 11+ exam. Thank you.", "Review the **candidate information booklet** sent after registration, which details permitted equipment like pencils, erasers, and rulers, plus any prohibited items.", "Call the **test centre** with this script: Hello, I'm calling about the 11+ exam. Can you confirm the calculator policy for the maths paper? Are electronic devices banned?", "Check the **Mumsnet 11+ forum** for latest parent experiences, searching threads like 11+ calculator thread for your county's **2025 rules**."] },
-      { type: "p", text: "Contact details for major counties help streamline your checks. Use them alongside practice with mental arithmetic and timed test papers from Bond or CGP books. This prepares your child for no calculator scenarios common in 11+ preparation." },
-      { type: "h3", text: "Major County Contact Details" },
-      { type: 'table', headers: ["County", "Admissions Contact", "Website Section"], rows: [["Birmingham 11+", "admissions@birmingham.gov.uk", "11+ Admissions"], ["Trafford 11+", "admissions@trafford.gov.uk", "Selective Schools"], ["Kent Test", "kenttest@kent.gov.uk", "Grammar School Info"], ["Bucks 11+", "11plus@buckscc.gov.uk", "Entrance Exams"], ["**Essex 11+**", "grammar.admissions@essex.gov.uk", "11+ Testing"], ["**Warwickshire 11+**", "admissions@warwickshire.gov.uk", "Grammar Admissions"], ["London 11+ (varies)", "Check borough site", "Secondary Transfer"]] },
-      { type: "p", text: "These details cover **state grammar schools** in key areas. Always verify for updates on independent schools separately. Combine with mock exams to build calculation skills like times tables and long division." },
-      { type: "h3", text: "Response Templates and Next Steps" },
-      { type: "p", text: "Expect replies confirming calculator ban in most cases, emphasising mental maths and pen and paper methods. A sample response might read: Calculators are not permitted in the 11+ maths paper. Note any exceptions for **multiple choice questions** or numerical reasoning." },
-      { type: "p", text: "If unclear, follow up politely. Use insights to focus 11+ tutor sessions on exam technique, fractions, and problem solving. Track invigilator instructions from forums for test centre rules." },
-      { type: "p", text: "Prepare for prohibited items like smartphones or watch calculators. Practice arithmetic operations via SATs-style questions to boost speed and accuracy. This aligns with **Key Stage 2** maths mastery for grammar school entrance." },
+  {
+    "type": "p",
+    "text": "Many entrance tests at 11+ assess calculation without a calculator. However, “the 11 Plus” is not one national examination with one equipment list. Follow the instructions for the exact assessment your child will sit, rather than assuming that a practice website, an older paper or a different age-level examination has the same rules."
+  },
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "Preparing for an exam taken in 2027? Check the admissions cycle as well as the test name. An autumn 2027 assessment will commonly concern September 2028 entry. The examples below describe currently published rules checked on 14 October 2026; they do not confirm unpublished 2027 dates or formats."
+  },
+  {
+    "type": "h2",
+    "text": "What do the checked ISEB rules say?"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Assessment",
+      "Current published rule",
+      "Important distinction"
     ],
+    "rows": [
+      [
+        "ISEB Common Pre-Tests",
+        "Calculators are removed from the testing room. Pen or pencil and paper are available for rough work.",
+        "These are online adaptive tests; being computer-based does not provide permission to use an on-screen calculator."
+      ],
+      [
+        "ISEB Common Entrance mathematics at 11+",
+        "The current subject-specific regulations say calculators are not permitted.",
+        "Common Entrance is a different assessment from the Pre-Tests. Follow its own paper instructions and equipment list."
+      ],
+      [
+        "ISEB mathematics at 13+",
+        "Separate calculator papers have their own permitted-equipment rules.",
+        "A 13+ calculator-paper rule is not permission for an 11+ assessment."
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "These distinctions come from the [ISEB Pre-Tests invigilation guide](https://pretests.support.iseb.co.uk/support/solutions/articles/101000440023) and [Common Entrance examination regulations](https://www.iseb.co.uk/common-entrance-ce-examination-regulations/). The latter has separate age-level and subject sections. Read the mathematics 11+ row, rather than relying on a search snippet or a rule taken from another paper."
+  },
+  {
+    "type": "h2",
+    "text": "How to confirm your child’s rules"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Identify the exact test name, provider, test year and school-entry year. A school may use more than one assessment stage.",
+      "Read the current candidate letter, official familiarisation guidance and the front of any sample paper. Check whether the instructions apply to the full test or a particular section.",
+      "If the instructions are unclear, ask the admissions authority or test centre before the examination. Keep its written reply with your other preparation information.",
+      "Raise any access-arrangement needs through the published process in advance. Do not assume that a diagnosis automatically permits a calculator or other aid."
+    ]
+  },
+  {
+    "type": "p",
+    "text": "For other school-written or consortium assessments, obtain the relevant instructions directly. Neither a school’s name nor a commercial paper labelled “11+” proves which equipment is permitted. Our [exam-day checklist](/blog/11-plus-exam-day-checklist-what-to-bring) helps you organise the confirmed items."
+  },
+  {
+    "type": "h2",
+    "text": "Practise accurate working without a calculator"
+  },
+  {
+    "type": "p",
+    "text": "Use short questions to check number facts and methods before moving to longer problems. Encourage written working when the test permits it: non-calculator does not mean every calculation must be held in memory. Estimate first, organise the steps and check the units at the end."
+  },
+  {
+    "type": "p",
+    "text": "Original practice example: work out 48 × 25 without a calculator. Since 25 is one quarter of 100, calculate 48 × 100 = 4,800, then divide by 4 to get 1,200. Alternatively, 40 × 25 = 1,000 and 8 × 25 = 200. Both methods give 1,200. This is our learning example, not a question from an official exam."
+  },
+  {
+    "type": "p",
+    "text": "For related number work, try [fractions of amounts](/subjects/maths/fractions-of-amounts) and [percentages of amounts](/subjects/maths/percentages-of-amounts). Choose a method your child understands; speed should follow accurate practice rather than replace it."
+  },
+  {
+    "type": "h2",
+    "text": "Common questions"
+  },
+  {
+    "type": "p",
+    "text": "Can my child bring a calculator but leave it unused? Follow the centre’s equipment instructions. For the ISEB Pre-Tests, calculators are removed from the room; do not pack one as a precaution."
+  },
+  {
+    "type": "p",
+    "text": "Can my child use rough paper? The ISEB Pre-Tests guide permits rough working, which is not marked. Other tests may provide space in the booklet or separate paper. Check the specific instructions rather than bringing extra sheets without permission."
+  },
+  {
+    "type": "p",
+    "text": "Does a calculator ban predict how difficult the maths will be? No. It tells you which tools are available, not a universal syllabus, question count or pass mark. Match practice to the published content and format."
+  }
+]
   },
 
   {
@@ -5514,95 +5523,121 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "how-many-papers-are-in-the-11-plus",
-    title: "How many papers are in the 11 Plus?",
-    desc: "Discover how many papers are in the 11 Plus exam\u2014typically 2-4 covering English, Maths, Verbal and Non-Verbal Reasoning. Learn standard formats, core subjects and regional variations to prepare effectively and reduce exam anxiety now.",
+    title: "How many papers are in the 11 Plus? Tests, sections and stages",
+    desc: "Understand why 11 Plus paper counts vary, with checked Kent, CSSE and ISEB examples and a checklist for your child’s exact admissions cycle.",
     date: "December 3, 2025",
-    readTime: "6 min read",
+    readTime: "4 min read",
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_4.jpeg",
     imageAlt: "How many papers are in the 11 Plus?",
     images: ["https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_1.jpeg", "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_2.jpeg", "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_3.jpeg", "https://files.autoblogging.ai/images/how-many-papers-are-in-the-11-plus(gpae)_4.jpeg"],
+    updatedAt: "2026-10-14",
     content: [
-      { type: "h2", text: "Understanding the 11 Plus Exam" },
-      { type: "p", text: "The [11 Plus exam](/blog/what-is-the-11-plus-exam) is a selective entrance test for Year 6 pupils (age 10-11) aiming for grammar schools and some independent schools in the UK, typically administered in September-October with registration deadlines by June-July. It traces its roots to the **1944 Education Act**, which introduced selective education. Today, it plays a key role in admissions to around 163 UK grammar schools." },
-      { type: "p", text: "Pass rates vary due to oversubscription at popular schools, making competition fierce. Key exam boards include **GL Assessment** with multiple-choice formats, CEM Select using standardised scoring, and CSSE featuring essay-style questions. These boards set the **11+ test format** across regions." },
-      { type: "p", text: "Each year, about 250,000 students take the exam in areas like Kent with **2 papers**, or Buckinghamshire requiring 4 papers. Tests cover subjects such as English paper, Maths paper, Verbal Reasoning paper, and Non-Verbal Reasoning paper. Families often use practice papers and [past papers](/papers) to prepare." },
-      { type: "p", text: "Exam structure differs by county, with variations in paper count and timing. For instance, Buckinghamshire 11+ involves multiple papers, while others like **Kent 11+** use fewer. Understanding these regional differences helps with **11+ preparation**." },
-      { type: "h3", text: "What is the 11 Plus?" },
-      { type: "p", text: "The **11+ tests cognitive abilities** including verbal and non-verbal reasoning, literacy, and numeracy to identify suitable candidates for grammar school places. It assesses skills beyond classroom learning, focusing on **reasoning skills** and problem-solving. Pupils aim to demonstrate potential for selective education." },
-      { type: "p", text: "[Each paper lasts 45-60 minutes](/blog/how-long-is-the-11-plus-exam), with formats like multiple-choice or short-answer questions. Scores use age-standardised systems, often converting raw marks to scaled scores around an average. Regions set their own aggregate thresholds for passing." },
-      { type: "ul", items: ["Use **2B pencils**, eraser, and ruler, but no calculators.", "Practice with **timed papers** to build speed and accuracy.", "Review **mark schemes** from sample papers to avoid common errors."] },
-      { type: "p", text: "A common myth is that the exam suits only 'smart kids', but **exam technique** matters greatly. For example, carefully reading instructions prevents silly mistakes on **multiple choice questions**. Regular 11+ mock papers in test conditions boost confidence and readiness." },
-      { type: "h2", text: "Standard Number of Papers" },
-      { type: "p", text: "Most 11+ exams consist of **2-4 papers** taken over 1-2 days, with [GL regions typically using 4 separate tests while CEM often combines into 2 longer papers](/blog/gl-vs-cem-11-plus-what-is-the-difference). GL Assessment sets a standard of **4 papers** covering English, Maths, Verbal Reasoning (VR), and Non-Verbal Reasoning (NVR), each lasting 45-50 minutes. This format appears in GL website guidelines and specimen materials." },
-      { type: "p", text: "CEM, developed by Durham University, favours 2 papers of 60 minutes each, blending multiple skills like maths, English, and reasoning. Regional adoption varies, with many 11+ areas following GL or CEM structures. Parents preparing for grammar school entrance should check local 11+ test format via school or council sites." },
-      { type: "p", text: "Understanding this **paper count** aids exam readiness. Practice with GL 11+ practice papers or CEM style tests builds familiarity. Timed sessions mimic real **exam day papers**, helping with time management in Buckinghamshire, Kent, or Trafford 11+ exams." },
-      { type: "p", text: "Selective schools like Tiffin School or Nonsuch High often align with these standards. Review past papers for subjects like the English paper or Maths paper. This approach supports Year 6 pupils transitioning to secondary school tests." },
-      { type: "h3", text: "Typical Format: 2-4 Papers" },
-      { type: "p", text: "GL 11+ exams feature **4 distinct 45-50 minute papers**; CEM uses 2 comprehensive 60-minute papers; CSSE requires 3 papers including essay. In GL format, expect English at 50 minutes, Maths at 50 minutes, and VR split into two 25-minute sections, totalling around 2.5 hours. Official specimen papers from GL Assessment confirm this structure." },
-      { type: "p", text: "CEM Paper 1 covers **Maths and English** in 60 minutes, while Paper 2 focuses on reasoning skills, often with around 120 questions per paper. CSSE includes a 50-minute English paper, 60-minute Maths paper, and 25-minute essay. These vary by region, such as Berkshire or Wirral 11+." },
-      { type: "p", text: "GL VR papers typically have 80-100 questions on synonyms, analogies, or codes. Prepare using **bond papers** or CGP workbooks for multiple choice questions. Practice in test conditions with sharpened pencils and erasers for pencil and paper tests." },
-      { type: "p", text: "For 11+ preparation, do weekly **11+ mock papers** to handle timed papers. Review mark schemes to avoid silly mistakes in numerical reasoning or spatial reasoning. This builds confidence for exams in Sutton grammars or Dartford Grammar." },
-      { type: "h2", text: "Core Subjects and Papers" },
-      { type: "p", text: "The [four core 11+ subjects](/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal) test distinct skills: English (literacy/comprehension), Maths (numeracy/problem-solving), Verbal Reasoning (vocabulary/logic), Non-Verbal Reasoning (spatial/pattern recognition). In most **11 Plus regions**, these subjects carry equal weighting at 25% each. Schools aggregate total marks to determine pass thresholds." },
-      { type: "p", text: "Question types build on **National Curriculum KS2** content with added reasoning challenges. Practice with **Bond Papers** or CGP books helps familiarise children with formats from GL Assessment or CEM exams. Timing varies by region, such as Buckinghamshire or Kent." },
-      { type: "p", text: "**11+ papers** often include multiple choice questions across **four subjects**. Parents should check school-specific details for county variations like Berkshire or Trafford. Mock papers simulate exam day conditions." },
-      { type: "p", text: "Preparation involves daily practice on **practice papers** and past papers. Review errors to build exam technique and speed. This structure applies to most grammar school entrance tests." },
-      { type: "h3", text: "English Paper" },
-      { type: "p", text: "English papers (45-50 minutes, 80-100 questions) test comprehension, vocabulary, grammar, and spelling through passages (fiction/non-fiction), cloze tests, synonyms, and SPaG questions. Expect **comprehension sections** with 25-30 questions across 2-3 passages. Inferences and vocabulary make up key portions." },
-      { type: "p", text: "Common elements include **SPaG tasks** on spelling patterns and punctuation, around 15 questions. Vocabulary tests synonyms, antonyms, and analogies, such as 'Choose word closest to \"benevolent\" (A: kind B: cruel)'. Timing averages 30 seconds per question." },
-      { type: "p", text: "Practice with **CGP 11+ English books** matches typical distributions. Focus on non-fiction extracts and poetry for inference skills. Build vocabulary through daily reading and flashcards." },
-      { type: "p", text: "For 11+ preparation, do timed mocks weekly. Review mark schemes to spot patterns in errors. This boosts confidence for selective schools like Tiffin or Nonsuch High." },
-      { type: "h3", text: "Maths Paper" },
-      { type: "p", text: "Maths papers (45-50 minutes) cover KS2 curriculum plus problem-solving: arithmetic (40%), geometry/shapes (25%), data/measures (20%), reasoning (15%). No calculators allowed, so mental maths is essential. Questions span number, geometry, data, and sequences." },
-      { type: "p", text: "Number topics include fractions like 3/4 = 0.75, decimals, and BODMAS. Geometry covers angles (sum 180\u00b0 in a triangle) and area/perimeter. Data handling involves mean, median, and pie charts." },
-      { type: "p", text: "Reasoning examples: sequences like 2, 4, 8, 16? or 'Train A 60mph, Train B 40mph, closing speed?'. Use **Bond Maths 11+ books** for topic breakdowns. Rulers may be allowed, but check regional rules." },
-      { type: "p", text: "Practice under **tined conditions** to improve speed and accuracy. Analyse mistakes with answer sheets. This prepares for **grammar school tests** in areas like Kent or Warwickshire." },
-      { type: "h3", text: "Verbal Reasoning Paper" },
-      { type: "p", text: "VR papers (20-25 minutes, 80-100 questions) test vocabulary/pattern recognition through codes, analogies, odd-one-out, synonyms, and letter/number sequences. High pressure with about 15 seconds per question. GL exams feature more codes, while CEM leans towards comprehension." },
-      { type: "p", text: "Code types: 'HELLO=25121515' find 'WORLD'. Analogies like 'Big:Small:: High:____ (Low)'. Odd one out: 'Cat Dog Horse Tiger Fish'." },
-      { type: "p", text: "Synonyms such as 'Brave=Courageous' and sequences like 'JFMAMJJASON_' build logic skills. Practice **GL vs CEM differences** with mixed packs. Vocabulary flashcards aid quick recall." },
-      { type: "p", text: "Do weekly 11+ mock papers in a quiet room. Focus on time management to avoid silly mistakes. This hones skills for schools like Dartford Grammar." },
-      { type: "h3", text: "Non-Verbal Reasoning Paper" },
-      { type: "p", text: "NVR papers (25-30 minutes) assess visual-spatial skills via patterns, rotations, matrices, folding cubes, and hidden shapes, no language required. Seven main types demand fast pattern spotting. It's the skill quickest to improve with practice." },
-      { type: "p", text: "Matrices involve 3x3 pattern completion. Shape rotation covers 90\u00b0/180\u00b0 turns. Folding nets show dice faces, like 'Which cube face opposite 3?'." },
-      { type: "p", text: "Other types: hidden figures, block design, mirror images, series (growing/shrinking). Use **CGP NVR books** for visual aids. Daily puzzles build recognition speed." },
-      { type: "p", text: "Simulate **exam conditions** with sharpened pencils and eraser. Review patterns in errors. Essential for **spatial reasoning** in tests like those for Wilson's School." },
-      { type: "h2", text: "Regional Variations in Paper Count" },
-      { type: "p", text: "Paper numbers vary significantly: Kent and Birmingham (2 papers), **Buckinghamshire** and Trafford (4 papers), Sutton (2 maths + reasoning), **CSSE Essex** (3 papers)." },
-      { type: "p", text: "Parents preparing for the 11 Plus must check regional variations early. Each area sets its own 11+ test format, affecting the **number of papers** and subjects. This influences 11+ preparation strategies and practice with past papers." },
-      { type: "p", text: "Registration dates differ too. For instance, **Kent** requires entry by late May, while Bucks closes in early June. Knowing **pass marks** like Kent's 332+ or Bucks' 121+ aggregate helps set realistic goals during Year 6 exams." },
-      { type: "p", text: "Use mock papers tailored to your region for **exam readiness**. Practice under **timed conditions** to build speed and accuracy. This approach reduces exam nerves on test day." },
-      { type: 'table', headers: ["Region", "Papers", "Format", "Provider", "Example Schools"], rows: [["Kent", "2", "English + Maths", "GL", "Dartford Grammar"], ["Bucks", "4", "E/M/VR/NVR", "CEM", "Dr Challoner's"], ["Trafford", "4", "Separate", "GL", "Altrincham GS"], ["Sutton", "3", "2 Maths + Reasoning", "Selective Eligibility Test", "Wilson\u2019s School, Wallington"], ["Birmingham", "2", "GL Style", "GL", "King Edward VI"]] },
-      { type: "p", text: "The table highlights key county variations in 11+ papers. Notice how GL Assessment and **CEM** providers shape the **exam structure**. Selective schools like Nonsuch High or Tiffin School follow these formats." },
-      { type: "h2", text: "Practice Papers vs Exam Papers" },
-      { type: "p", text: "Practice papers (Bond/CGP/RSL) mirror **exam format** but vary 10-15% in difficulty. Official past papers from GL/CEM/CSSE provide exact question styles. Parents often start with practice to build familiarity before using real exam papers." },
-      { type: "p", text: "**Practice papers** come in large packs from Bond at \u00a38 each, offering mixed difficulty levels with hundreds available. They cover English paper, Maths paper, Verbal Reasoning paper, and Non-Verbal Reasoning paper. These help children adapt to the four subjects across regions like Buckinghamshire 11+ or Kent 11+." },
-      { type: "p", text: "Exam papers, such as GL past papers for \u00a35-10, match the exact 11+ test format and timing, like 45-minute or 50-minute papers. Supply is limited, so secure them early for 11+ preparation. They reflect real grammar school entrance conditions, including multiple choice questions." },
-      { type: 'table', headers: ["", "Practice Papers", "Exam Papers"], rows: [["**Cost**", "Bond \u00a38/pack", "GL \u00a35-10"], ["**Availability**", "100s available", "Limited supply"], ["**Features**", "Mixed difficulty", "Exact timing/format"]] },
-      { type: "p", text: "Follow this **recommended schedule**: one practice paper per week in Year 5, two per week in Year 6 term 2, and daily in the final month. Top resources include CGP 4-pack at \u00a312, Exam Ninja CEM at \u00a315, and Atom Learning online at \u00a359 per month for unlimited access. Track progress by aiming for strong scores by May to ensure a safety margin." },
-      { type: "h2", text: "Factors Affecting Paper Numbers" },
-      { type: "p", text: "Paper count depends on **exam provider** (GL=4, CEM=2), school consortiums (Sutton=3), two-stage processes (Stage 1 screening + Stage 2), and independent tests. Families preparing for the 11 Plus often face confusion over the **total papers count**. Knowing these variations helps tailor 11+ preparation effectively." },
-      { type: "p", text: "**Exam boards** like GL Assessment typically require four papers: English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. In contrast, CEM exams focus on two papers covering multiple subjects. Check school admissions pages for the exact 11+ test format." },
-      { type: "p", text: "School-specific rules add further variety. For instance, some areas use **consortium exams** with custom structures. Always review the target school's prospectus by December in Year 5 to confirm details." },
-      { type: "ul", items: ["**Exam board variations**: GL demands four distinct papers, while CEM uses two combined tests.", "**Consortium differences**: Groups set their own paper numbers based on local needs.", "**Two-stage processes**: Initial screening may involve fewer papers before a full exam.", "**Independent schools**: Often follow unique formats outside standard boards.", "**Regional tests**: Counties like Kent or Buckinghamshire adapt the structure."] },
-      { type: "h3", text: "Exam Board Differences" },
-      { type: "p", text: "GL Assessment sets the standard with **four papers** in the **11+ exam**: one each for English, Maths, Verbal Reasoning, and Non-Verbal Reasoning. These are usually timed papers around 45-50 minutes. CEM Select, however, streamlines to two papers blending subjects like numerical and verbal reasoning." },
-      { type: "p", text: "This difference affects practice papers choice. Parents select GL-style books for multiple papers or CEM resources for combined formats. Reference admissions pages of selective schools to match the board." },
-      { type: "p", text: "Understanding **GL 11+** versus CEM helps build exam readiness. Practice under timed conditions mirrors real exam day papers. Focus on question types like multiple choice in CEM or standard tests in GL." },
-      { type: "h3", text: "School Consortiums" },
-      { type: "p", text: "Consortiums create their own exam structure. The Sutton SET requires three tests, often Maths, English, and Reasoning. The North West Consortium uses **two papers** for grammar school entrance." },
-      { type: "p", text: "These groups, like those in Stockport or Tameside, prioritise local selective schools. Check each consortium's guidelines on school websites. This ensures alignment with 11+ mock papers." },
-      { type: "p", text: "Examples include Wallington or Nonsuch High in Sutton grammars. Tailor revision to their paper count. Early review of prospectuses avoids surprises in Year 6 exams." },
-      { type: "h3", text: "Two-Stage Processes" },
-      { type: "p", text: "Some regions use a **two-stage 11+ test**, starting with screening. Hertfordshire's Stage 1 involves only VR and NVR papers. Qualifying pupils advance to Stage 2 with full subjects." },
-      { type: "p", text: "This format reduces initial pressure but requires strong reasoning skills early. Medway Test follows a similar path: pass two papers for Stage 2 eligibility. Admissions pages detail progression rules." },
-      { type: "p", text: "Prepare for Stage 1 with targeted **practice tests**. Success opens doors to schools like those in Herts or Kent grammars. Monitor deadlines in Year 5." },
-      { type: "h3", text: "Independent and Regional Tests" },
-      { type: "p", text: "Independent schools like Wilson's School use **CSSE exams** with three papers. Regional variations appear in areas like Berkshire or Trafford. Always verify via school prospectuses." },
-      { type: "p", text: "Tests such as the Medway or Slough 11+ adapt paper numbers to needs. Wilson's emphasises English, Maths, and CSSE-specific reasoning. This highlights school-specific 11+ papers." },
-      { type: "p", text: "Actionable step: By December in Year 5, list target schools and note their formats. Use past papers matching the structure for realistic mocks. This builds confidence for the **eleven plus**." },
+  {
+    "type": "p",
+    "text": "There is no single national number of 11 Plus papers. Schools and consortia use different assessments, and the words “paper”, “test”, “subject” and “section” are not interchangeable. Four subjects can be assessed in fewer printed booklets, while an online assessment may contain several tests without any printed papers."
+  },
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "Preparing for an exam taken in 2027? Check the admissions cycle as well as the test name. An autumn 2027 assessment will commonly concern September 2028 entry. The examples below describe currently published rules checked on 14 October 2026; they do not confirm unpublished 2027 dates or formats."
+  },
+  {
+    "type": "h2",
+    "text": "Currently published examples"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Assessment",
+      "Published structure",
+      "What the count means"
     ],
+    "rows": [
+      [
+        "Kent Test",
+        "Two multiple-choice tests: English and maths; reasoning. There is also a separate writing exercise.",
+        "Two main test booklets do not mean only two subjects or no writing task."
+      ],
+      [
+        "CSSE",
+        "Two tests: English and mathematics. The published English timing includes additional reading time.",
+        "Continuous writing belongs to the English assessment; a separately supplied writing sheet is not evidence of a third subject test."
+      ],
+      [
+        "ISEB Common Pre-Tests",
+        "Four online adaptive tests: English, mathematics, verbal reasoning and non-verbal reasoning.",
+        "Four tests does not mean four printed examination booklets."
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Sources: [Kent’s preparation guidance](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/prepare-for-the-kent-test), the [CSSE’s published examination information](https://csse.org.uk/) and the [ISEB Pre-Tests overview](https://www.iseb.co.uk/families-hub/pre-tests-admissions-toolkit/preparing-for-the-pre-tests/what-are-the-iseb-common-pre-tests-11-and-how-do-they-work/). These examples explain the differences; they are not a complete national directory or a promise that each format will remain unchanged."
+  },
+  {
+    "type": "p",
+    "text": "The CSSE currently says that information for September 2028 entry will be published by Easter 2027. Its older entry guide is available for general information. Families preparing for an exam in 2027 should therefore check the new cycle before treating an earlier guide as final instructions."
+  },
+  {
+    "type": "h2",
+    "text": "Why the number of subjects is not the number of papers"
+  },
+  {
+    "type": "p",
+    "text": "A paper can combine subjects. Kent’s first booklet contains English and maths, while its reasoning booklet includes verbal, non-verbal and spatial reasoning. Different scores or subject headings do not establish that children sit separate papers for each one."
+  },
+  {
+    "type": "p",
+    "text": "A section may also have its own timer within a booklet. Add time for instructions, practice sections and breaks when planning the day; simply counting booklets will not tell you the total time at the centre. Our [exam-duration guide](/blog/how-long-is-the-11-plus-exam) explains this distinction."
+  },
+  {
+    "type": "p",
+    "text": "Kent’s separately completed writing exercise is not marked as part of the scored tests, but its official guidance says a local headteacher panel may use it during the headteacher assessment process. It is therefore still a task to prepare for, even when a summary calls the test “two papers”."
+  },
+  {
+    "type": "h2",
+    "text": "Check whether there is more than one admissions stage"
+  },
+  {
+    "type": "p",
+    "text": "A school may require a shared test and additional school-specific assessments or interviews. Read that school’s instructions; do not assume that completion of a consortium assessment finishes every part of the application."
+  },
+  {
+    "type": "p",
+    "text": "Conversely, applying to several schools that share an assessment does not automatically mean taking the same tests again. ISEB describes its Pre-Tests as shared tests, with results accessible to participating senior schools using the applicant’s ID. Registration and each school’s application requirements still need separate attention."
+  },
+  {
+    "type": "h2",
+    "text": "Create a test-stage record"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "List each school and the exact test or consortium it uses for the intended entry year.",
+      "Record the booklets or online tests, subject sections and any separate writing or interview stage.",
+      "Note which stages are compulsory, which depend on earlier results and which are shared across schools.",
+      "Keep the official timings, location, permitted equipment and access-arrangement contacts with the record.",
+      "Mark an unpublished future detail “unconfirmed” and add a reminder to revisit the official admissions page."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "Common questions"
+  },
+  {
+    "type": "p",
+    "text": "Are GL tests always four papers? Do not infer the local structure from the four subject categories sold in practice packs. [GL’s familiarisation guidance](https://11plus.gl-assessment.co.uk/pages/free-materials) says local timings and question counts can differ and directs families to their admissions authority."
+  },
+  {
+    "type": "p",
+    "text": "Should we practise a full test every day? The number of papers does not set a preparation timetable. Teach missing skills, familiarise with the real format and allow time to review practice. Our [mock-frequency guide](/blog/how-many-11-plus-mock-exams-should-my-child-sit) covers choosing useful checkpoints."
+  },
+  {
+    "type": "p",
+    "text": "Does this table confirm 2027 test dates? No. It summarises the current published structures checked for this guide. Use the relevant authority’s new-cycle information for confirmed dates and instructions."
+  }
+]
   },
 
   {
@@ -5988,107 +6023,135 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "are-mock-exams-important-for-the-11-plus",
-    title: "Are mock exams important for the 11 Plus?",
-    desc: "Wondering if mock exams matter for the 11 Plus? Explore benefits like exam familiarity, time management, weak spot identification, plus success stories from Sarah and Jamal. Weigh drawbacks and get best practices to boost your child's grammar school chances today.",
+    title: "Are mock exams important for the 11 Plus? Benefits and limits",
+    desc: "Decide whether an 11 Plus mock will help your child, choose relevant practice, interpret scores carefully and turn feedback into a useful next step.",
     date: "January 14, 2026",
-    readTime: "10 min read",
+    readTime: "5 min read",
     category: "Exam Format",
     imageUrl: "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_4.jpeg",
     imageAlt: "Are mock exams important for the 11 Plus?",
     images: ["https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_1.jpeg", "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_2.jpeg", "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_3.jpeg", "https://files.autoblogging.ai/images/are-mock-exams-important-for-the-11-plus(wpd1)_4.jpeg"],
+    updatedAt: "2026-10-14",
     content: [
-      { type: "h2", text: "What is the 11 Plus Exam?" },
-      { type: "p", text: "The **11 Plus exam** is a selective entrance test taken by Year 6 pupils in the UK to gain admission to over 160 grammar schools and many independent schools, typically consisting of 4 core papers: English (45-60 mins), Maths (45-60 mins), Verbal Reasoning (25-30 mins), and Non-Verbal Reasoning (25-30 mins)." },
-      { type: "p", text: "Exam formats vary by provider. **GL Assessment** uses structured tests like English with 50 comprehension and spelling questions in 45-50 minutes, while **CEM exams** are untimed and adaptive, adjusting difficulty based on pupil responses." },
-      { type: "p", text: "**Pass marks** range from 109-121 standardised SAS scores, depending on the region. For example, Birmingham requires **5+ papers** and considers aggregate scores, as outlined in the DfE selective school admissions code." },
-      { type: "p", text: "Regional variations affect preparation. Some areas prioritise verbal reasoning heavily, others **non-verbal reasoning**. For 2023 entry, grammar schools saw an **18% national pass rate**, highlighting the competition for selective places." },
-      { type: "p", text: "Pupils face **multiple choice questions** in most papers, testing skills like vocabulary, pattern recognition, and arithmetic. Familiarity with time pressure through [mock exams](/mock-exams) helps build exam technique and confidence, and it complements broader [11 Plus preparation](/blog/how-to-prepare-for-the-11-plus-at-home)." },
-      { type: "h2", text: "What Are Mock Exams?" },
-      { type: "p", text: "Mock exams are **full-length, timed simulations** of the actual 11 Plus test conducted under exam conditions, available through providers like Exam Papers Plus, Bond 11+, and CGP, with formats matching GL Assessment (multiple choice) or CEM (adaptive standardisation)." },
-      { type: "p", text: "These practice tests mimic the **real exam structure**, including verbal reasoning, non-verbal reasoning, maths test, and English test sections. They help with timed practice and exam technique under time pressure." },
-      { type: "p", text: "Providers offer three main types of mock exams. **Centre-based invigilated** mocks take place at test centres with strict supervision. Online proctored versions allow remote testing with monitoring. **Home practice papers** provide flexible self-paced options." },
-      { type: "ul", items: ["Centre-based: Supervised at locations like Exam Happy, with costs around \u00a325-\u00a345 per session.", "Online proctored: Convenient via sites like 11plus-mocks.co.uk, priced \u00a310-\u00a320.", "Home practice: Affordable packs from CGP at \u00a38.99, ideal for repeated use."] },
-      { type: "p", text: "National coverage includes over **200 test centres** across the UK, from major cities to regional towns. Centre mocks offer score validity that closely aligns with real exams, as experts note strong correlations in performance." },
-      { type: "p", text: "Choosing the right type depends on your child's needs, such as **confidence building** or stamina for the full test duration. Parents often start with home practice before progressing to invigilated formats." },
-      { type: "h2", text: "Benefits of Mock Exams" },
-      { type: "p", text: "Mock exams deliver **measurable improvements** in 11 Plus success rates. Students often see gains in **standardised scores** after regular practice sessions. These tests build skills step by step." },
-      { type: "p", text: "Practice begins with **familiarity with exam format**. Next comes sharpening time management skills. Finally, mocks boost **confidence** through real exam simulation." },
-      { type: "p", text: "Parents notice children handle time pressure better after mocks. Providers like CGP and Exam Papers Plus offer packs that mimic GL Assessment and CEM exams. This progression prepares Year 6 pupils for grammar school or independent school entrance." },
-      { type: "p", text: "Experts recommend mocks for **progress tracking**. They turn anxiety into exam readiness. Regular sessions create a feedback loop for targeted revision." },
-      { type: "h3", text: "Familiarity with Exam Format" },
-      { type: "p", text: "First mock reduces **format shock**. Students encounter actual GL code-breaking questions and CEM maths word problems before exam day. This exposure cuts surprises." },
-      { type: "p", text: "GL Verbal includes synonym pairs and number series. CEM NVR features **3x3 matrices** and folding nets. Knowing these builds comfort with multiple choice formats." },
-      { type: "p", text: "CGP 11+ practice papers match current formats. Exam Papers Plus GL Pack covers various question types. Practice reveals syllabus coverage in verbal reasoning, non-verbal reasoning, maths test, and English test." },
-      { type: "p", text: "Early familiarity aids **question types** mastery. Children recognise patterns in spatial awareness and vocabulary building. This step leads to technique refinement." },
-      { type: "h3", text: "Time Management Skills" },
-      { type: "p", text: "Mock timers train **pacing** for CEM's English paper and GL's VR section. Students learn to allocate time per section. This prevents rushing at the end." },
-      { type: "p", text: "Maths allows about **1.2 minutes per question**. VR needs around 45 seconds each. Practice teaches **question skipping**: mark and return later." },
-      { type: "ul", items: ["English comprehension: steady reading pace.", "Maths problems: quick arithmetic checks.", "NVR: scan patterns first."] },
-      { type: "p", text: "Timed practice builds **stamina** for full papers, and it is where [time management strategies in the exam](/blog/11-plus-time-management-strategies-in-the-exam) really take hold. Centre-based mocks simulate real conditions. Students develop speed and accuracy over sessions." },
-      { type: "h3", text: "Identifying Weak Areas" },
-      { type: "p", text: "Detailed mock reports reveal specific weaknesses. They enable **focused revision** that improves performance. Parents spot issues early." },
-      { type: "p", text: "Exam Happy provides **topic breakdowns** and national percentiles. PreTest Plus offers question-level analysis. A sample might show NVR rotation errors: low scores." },
-      { type: 'table', headers: ["Priority", "Topic", "Action"], rows: [["High/Low", "Maths fractions", "Daily drills"], ["Medium/Medium", "VR analogies", "Weekly tests"], ["Low/High", "Spelling", "Review only"]] },
-      { type: "p", text: "Use this matrix for **targeted revision**. Prioritise high-importance, low-performance areas. Track progress with repeat mocks for continuous improvement." },
-      { type: "h2", text: "Evidence from Success Stories" },
-      { type: "p", text: "Tom raised his aggregate score from **105 to 118 SAS** after 5 Exam Happy mocks, securing Colchester Royal Grammar School place (national top 18%). His parent shared on the Mumsnet 11+ forum, \"Mocks made all the difference in building his exam stamina.\" Before mocks, Tom struggled with time pressure in verbal reasoning sections." },
-      { type: "p", text: "After targeted progress tracking from mock reports, he improved speed and accuracy. This real exam simulation helped him master question types like figure matrices and clozes tests. Parents often note how such **diagnostic assessments** reveal weak areas for focused revision." },
-      { type: "p", text: "Sarah from Birmingham GL followed 8 mocks, boosting her score from **112 to 127** (+15 points). Her mum posted, \"The personalised reports showed exactly where to target maths problems and non-verbal reasoning.\" This led to a grammar school offer after **benchmark performance** against national averages." },
-      { type: "h3", text: "Sarah's Before/After Scorecard" },
-      { type: 'table', headers: ["Subject", "Before Mocks", "After 8 Mocks", "Improvement"], rows: [["English Test", "28/40", "35/40", "+7"], ["Maths Test", "26/40", "33/40", "+7"], ["Verbal Reasoning", "29/40", "32/40", "+3"], ["Non-Verbal Reasoning", "29/40", "27/40", "-2"], ["**Aggregate SAS**", "**112**", "**127**", "**+15**"]] },
-      { type: "p", text: "Jamal in Kent CEM used **centre mocks**, gaining +22 points in verbal reasoning alone. His dad commented on Mumsnet, \"Invigilated tests built his confidence under real exam conditions.\" **Exam technique** like pacing strategies turned his scores around for selective school entry." },
-      { type: "h3", text: "Jamal's Progress Highlights" },
-      { type: "ul", items: ["Initial verbal score: Struggled with vocabulary building and code breaking.", "Post-mocks: +22 points via **error analysis** and repetition learning.", "Key gain: Better **time management** in multiple choice sections.", "Outcome: Passed CEM **pass mark** for Kent grammar school."] },
-      { type: "p", text: "Late starter Emma joined a 12-week crash course with online mocks and passed Birmingham Consortium. Her parent shared, \"From zero prep to success, mocks provided the feedback loop we needed.\" This shows **mock exam benefits** even for year 6 pupils short on time, focusing on **stamina building** and anxiety reduction." },
-      { type: "p", text: "These stories highlight score improvement through consistent practice. Parents emphasise **parental support** alongside mocks for holistic 11 Plus preparation. Real-world examples prove mocks bridge the **achievement gap** in competitive entrance exams." },
-      { type: "h2", text: "Potential Drawbacks" },
-      { type: "p", text: "While effective, **mock exams** can heighten anxiety if not managed well, according to insights from the Child Mind Institute on test simulation effects. Parents often notice children feeling overwhelmed by the **real exam simulation**, especially during centre-based exams that mimic the 11 Plus pressure. This emotional toll can impact focus and exam readiness." },
-      { type: "p", text: "Scheduling conflicts arise when mock exams clash with schoolwork or family time, leading to fatigue in year 6 students. Frequent sessions without rest may cause **burnout prevention** to become a challenge, reducing overall progress tracking. Balancing these with extracurricular activities requires careful planning." },
-      { type: "p", text: "Costs for online mocks, invigilated tests, or **paid exam packs** add up, yet the return on investment shines through improved **score improvement** and confidence building. Compare expenses against gains in exam technique and familiarity with CEM exams or GL Assessment formats. Free options like school mocks offer a cost-effective start." },
-      { type: "p", text: "Mitigate risks by limiting frequency and incorporating parental support. Track **weak areas** via personalised reports to ensure mocks drive targeted revision without excess strain. This approach maximises mock exam benefits while minimising drawbacks." },
-      { type: "h3", text: "Exam Stress and Anxiety" },
-      { type: "p", text: "Students often face **elevated heart rates** and sweaty palms during initial mock exams, but these symptoms ease with consistent stress management. Physiological signs like stomach knots or shaky hands signal time pressure overload in **verbal reasoning** or maths test sections. Early recognition helps build resilience training." },
-      { type: "p", text: "Try the **4-7-8 breathing technique**: inhale for 4 seconds, hold for 7, exhale for 8. Pair it with positive visualisation scripts, imagining success in non-verbal reasoning puzzles. Carol Dweck's **growth mindset** strategies encourage viewing mistakes as learning steps, not failures." },
-      { type: 'table', headers: ["Anxiety Level (1-10)", "Intervention"], rows: [["1-3 (Mild)", "Quick breathing exercise"], ["4-6 (Moderate)", "Visualisation + short walk"], ["7-10 (High)", "Full rest day + parental discussion"]] },
-      { type: "p", text: "Limit to **maximum 1 mock per week** followed by 2 rest days for recovery. This scheduling tip supports stamina building without overload during **autumn term practice**. Monitor via a simple reflection journal to adjust as needed." },
-      { type: "p", text: "Combine with **healthy habits** like adequate sleep and nutrition tips for sustained exam day routine. Parental involvement through **positive affirmations** fosters emotional intelligence. Over time, this reduces anxiety reduction needs and boosts focus training." },
-      { type: "h2", text: "Best Practices for Mock Exams" },
-      { type: "p", text: "Optimal schedule: 1 centre mock monthly (Sep-Jun), 2 home papers weekly, full review within 24hrs achieves strong score correlation to the real 11 Plus exam; for the finer detail, see [how many mock exams your child should sit](/blog/how-many-11-plus-mock-exams-should-my-child-sit). This approach builds **exam readiness** through consistent **timed practice**. Parents can adapt it to fit year 6 routines." },
-      { type: "p", text: "Follow these **7 specific practices** to maximise mock exam benefits. They cover schedule progression, realistic conditions, and recovery. Each step supports progress tracking and confidence building." },
-      { type: "p", text: "Integrate GL Assessment and CEM exams for broad coverage of verbal reasoning, non-verbal reasoning, maths test, and English test. Use error analysis to target weak areas. This leads to better exam technique under time pressure." },
-      { type: "h3", text: "7 Key Practices" },
-      { type: "ul", items: ["**Schedule progression**: Start with summer familiarisation using easy papers, move to autumn technique drills on question types, then spring stamina with full-length tests. This matches the **preparation timeline** for grammar school entry.", "**Always full conditions**: Simulate real exams with no distractions, 25\u00b0C room, 9am start, and invigilated setup. Practice **answer sheet bubbling** and **pacing strategies** to handle time management.", "**Immediate marking + error analysis**: Mark right away, colour-code errors as red for concept gaps or orange for careless slips. Focus targeted revision on maths problems like fractions or English comprehension.", "**Track SAS scores weekly**: Log standardised scores to aim for steady gains, comparing against national averages. Use **personalised reports** for benchmark performance in selective schools.", "**Rotate providers**: Alternate GL, CEM, or both for multiple choice, clozes test, figure matrices, and pattern recognition. This ensures **syllabus coverage** and **topic mastery**.", "**Parental debrief**: Hold non-judgemental chats on strengths and next steps, with parental support. Discuss **stress management** and positive affirmations.", "**Post-exam recovery**: Take a light walk, then journal reflections on focus and anxiety. Promote healthy habits like sleep and nutrition for stamina building."] },
-      { type: "h3", text: "12-Month Calendar Template" },
-      { type: "p", text: "Use this **12-month calendar template** for **frequency scheduling** from Year 5 summer to 11 Plus day. Adjust for holidays with summer mocks and spring intensives. It balances home practice and centre-based exams." },
-      { type: 'table', headers: ["Month", "Centre Mocks", "Home Papers", "Focus Areas"], rows: [["Jul-Aug (Summer)", "1 optional", "1 weekly", "Familiarisation, basic verbal/non-verbal"], ["Sep-Oct (Autumn)", "1 monthly", "2 weekly", "Technique, maths/English drills"], ["Nov-Dec", "1 monthly", "2 weekly", "Error analysis, time pressure"], ["Jan-Feb (Spring)", "1 monthly", "2 weekly", "Stamina, full simulations"], ["Mar-Apr", "1 monthly", "2 weekly", "Weak areas, SAS tracking"], ["May-Jun", "1 monthly", "2 weekly + review", "Peak performance, recovery"]] },
-      { type: "p", text: "Track progress in a reflection journal after each session. Combine with **tutoring** or past papers from Bond or CGP for real exam simulation. This holistic preparation boosts score improvement and reduces failure risk." },
-      { type: "h2", text: "Alternatives to Mock Exams" },
-      { type: "p", text: "Create a side-by-side comparison table: **Mock exams** vs alternatives showing cost, realism, feedback quality, and time efficiency." },
-      { type: 'table', headers: ["Method", "Cost", "Realism", "Feedback Quality", "Time Efficiency"], rows: [["Mock Exams", "\u00a320-\u00a350 per test", "High (full timed simulation)", "Excellent (detailed reports)", "Medium (full day commitment)"], ["Past Papers (e.g. CGP books)", "\u00a38.99 per pack", "80% match to real exam", "Basic (self-marking)", "High (flexible home use)"], ["Online Platforms (e.g. 11plusexams.co.uk)", "\u00a349/year", "Medium-high (digital format)", "Good (auto-marking)", "High (instant results)"], ["Private Tutoring", "\u00a335/hour", "Medium (topic-focused)", "Excellent (personalised)", "Low (scheduled sessions)"], ["Group Classes (e.g. KipMcGrath)", "\u00a318/session", "Medium (class simulation)", "Good (group feedback)", "Medium (weekly attendance)"], ["Free Resources (e.g. Atom Learning trials)", "Free or low-cost trials", "Low-medium (varied quality)", "Basic (limited analysis)", "High (self-paced)"]] },
-      { type: "p", text: "This table highlights how mock exams excel in realism and feedback for 11 Plus preparation, but alternatives offer cost savings and flexibility. Parents can mix methods based on budget and child's needs, such as using past papers for home timed practice." },
-      { type: "p", text: "Consider **ROI calculation** per method: for past papers, low cost yields high repetition value through self-testing on maths tests and verbal reasoning. Online platforms provide auto-marking for quick progress tracking, making them efficient for busy families." },
-      { type: "p", text: "A **hybrid recommendation** balances strengths: allocate 60% time to mocks for exam technique and 40% to targeted papers for weak areas like non-verbal reasoning. This approach builds confidence while managing costs effectively." },
-      { type: "h3", text: "Past Papers as a Core Alternative" },
-      { type: "p", text: "**Past papers** from providers like CGP offer an affordable way to practise **11 Plus question types** at home. They cover GL Assessment and CEM formats, including English comprehension and maths problems, with about 80% realism to the real exam." },
-      { type: "p", text: "Parents mark these manually, focusing on error analysis to identify gaps in topics like fractions or verbal reasoning. This method suits **self-study** and repeated practice without venue travel." },
-      { type: "p", text: "ROI shines here: a \u00a38.99 pack delivers dozens of tests, far cheaper than centre-based mocks. Combine with timers for time pressure simulation and stamina building." },
-      { type: "p", text: "Drawbacks include less **invigilated pressure**, so pair with occasional mocks for full familiarisation." },
-      { type: "h3", text: "Online Platforms for Instant Feedback" },
-      { type: "p", text: "Platforms like 11plusexams.co.uk provide digital **practice tests** for \u00a349 per year, mimicking multiple choice and timed sections. Auto-marking delivers quick insights into **score percentiles** and weak areas." },
-      { type: "p", text: "Ideal for **year 6 pupils** needing flexible access to non-verbal reasoning or maths tests anytime. Track progress over autumn term with adaptive questions." },
-      { type: "p", text: "ROI calculation: unlimited tests justify the fee, offering better value than single mocks for frequent **diagnostic assessment**. Enhances exam readiness through repetition." },
-      { type: "p", text: "Limited realism compared to paper-based CEM exams means supplementing with physical past papers." },
-      { type: "h3", text: "Private Tutoring for Personalisation" },
-      { type: "p", text: "At \u00a335 per hour, **private tutoring** targets specific skills like punctuation or pattern recognition missed in general practice. Tutors analyse performance for tailored **strategy development**." },
-      { type: "p", text: "Sessions build **problem-solving** and confidence, with homework mimicking exam conditions. Suited for children needing stress management guidance." },
-      { type: "p", text: "ROI depends on frequency: weekly sessions yield high returns via focused revision, outperforming broad resources. Track via pre-post test scores." },
-      { type: "p", text: "Less efficient for full simulations, so work together with past papers for comprehensive coverage." },
-      { type: "h3", text: "Group Classes and Free Resources" },
-      { type: "p", text: "Group classes at KipMcGrath cost \u00a318 per session, offering peer comparison and teacher-led **feedback loops** on group mocks. Builds social stamina for exam day." },
-      { type: "p", text: "Free resources like Atom Learning trials provide entry-level **past papers** and quizzes for vocabulary or geometry. Great for initial familiarisation without commitment." },
-      { type: "p", text: "ROI for groups: shared costs improve affordability, while free options test waters before investing. Use for holiday revision or spring intensives." },
-      { type: "p", text: "Both lack depth of personalised reports, making them best as hybrids with 60% mocks for peak performance." },
+  {
+    "type": "p",
+    "text": "Mock exams can help a child rehearse test routines and show where practice is needed. They are a preparation option, not an admissions requirement or a guarantee of passing. A useful mock answers a specific question about readiness and gives feedback you can act on."
+  },
+  {
+    "type": "callout",
+    "variant": "info",
+    "text": "Preparing for an exam taken in 2027? Check the admissions cycle as well as the test name. An autumn 2027 assessment will commonly concern September 2028 entry. The examples below describe currently published rules checked on 14 October 2026; they do not confirm unpublished 2027 dates or formats."
+  },
+  {
+    "type": "h2",
+    "text": "What a mock can help you check"
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Can your child follow the instructions and use the required answer method?",
+      "Can they sustain attention through the relevant sections and respond sensibly to time limits?",
+      "Which errors come from missing knowledge, misreading, recording answers or unfamiliar test routines?",
+      "Does the experience identify one manageable next step, rather than simply produce another score?"
+    ]
+  },
+  {
+    "type": "p",
+    "text": "A full mock is not the best tool for teaching every new topic. If a child does not yet understand a method, shorter untimed practice can be more useful for learning it. Save enough time after a mock to understand the mistakes and practise the underlying skills."
+  },
+  {
+    "type": "h2",
+    "text": "Choose a mock that matches the real assessment"
+  },
+  {
+    "type": "p",
+    "text": "Confirm the subjects, delivery method, section rules and timing against the official guidance for your child’s target school. A generic four-subject test can contain material that a particular entrance test does not assess. A paper mock also cannot fully rehearse the navigation of an online adaptive test."
+  },
+  {
+    "type": "p",
+    "text": "For example, the [ISEB invigilation guidance](https://pretests.support.iseb.co.uk/support/solutions/articles/101000440023) says candidates cannot skip or return to previous questions. [Kent’s guidance](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/prepare-for-the-kent-test) describes separately timed sections. Practise the required behaviour rather than applying one pacing technique everywhere."
+  },
+  {
+    "type": "ul",
+    "items": [
+      "Ask whether the provider offers the actual questions, explanations or sufficiently detailed feedback for review.",
+      "Check the total price, cancellation terms, travel and time commitment before booking.",
+      "Ask how any percentiles or standardised scores are calculated and which children form the comparison group.",
+      "Confirm how requested access arrangements will work in the mock; they do not replace a separate application for the real test."
+    ]
+  },
+  {
+    "type": "h2",
+    "text": "What mock scores cannot tell you"
+  },
+  {
+    "type": "p",
+    "text": "A raw mark is a result on that practice paper. A percentile describes performance relative to a specified group. A provider’s standardised score uses its own comparison process. None automatically equals the official entrance-test score or the likelihood of receiving a school place."
+  },
+  {
+    "type": "p",
+    "text": "Papers can differ in difficulty and content, and mock attendees need not represent everyone who will sit the real test. Repeating a paper can also measure memory of earlier questions. Use comparable new material when checking whether a skill has improved."
+  },
+  {
+    "type": "p",
+    "text": "The [Chuckra mock-feedback page](https://www.11plus.co.uk/mock-results-feedback/) itself warns that mock results do not guarantee real-exam performance. Treat a commercial provider’s recommended number of mocks as its advice, not a universal evidence-based minimum. Avoid setting a predicted pass mark from an unrelated mock."
+  },
+  {
+    "type": "h2",
+    "text": "Turn a result into a short review plan"
+  },
+  {
+    "type": "table",
+    "headers": [
+      "What happened",
+      "What to check",
+      "A possible next action"
     ],
+    "rows": [
+      [
+        "Could not solve the question untimed",
+        "Whether the underlying idea is understood.",
+        "Teach or revisit the method, then try a few fresh questions."
+      ],
+      [
+        "Solved it after rereading",
+        "Whether an instruction, condition or unit was missed.",
+        "Practise identifying exactly what the question requests."
+      ],
+      [
+        "Correct working, wrong answer row",
+        "How the answer was recorded.",
+        "Use a sample answer sheet and check question numbers."
+      ],
+      [
+        "Ran out of time",
+        "Which stage consumed time and whether the test allows returning.",
+        "Rehearse a relevant short timed section after reviewing the method."
+      ],
+      [
+        "Too upset to engage",
+        "What the child found worrying and what support is needed.",
+        "Reduce pressure, talk calmly and involve school staff if needed."
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "text": "This worksheet is our suggested review routine, not a validated scoring model. Choose one or two priorities and let the child explain their thinking. For number gaps, our [maths lessons](/subjects/maths) include worked examples and original questions."
+  },
+  {
+    "type": "h2",
+    "text": "Balance rehearsal with wellbeing"
+  },
+  {
+    "type": "p",
+    "text": "The [NHS exam-stress guidance](https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-beat-exam-stress/) supports practising exam-day activities, listening to children and avoiding added pressure. It does not prescribe an 11+ mock quota or promise that repeated testing will remove anxiety. If distress is severe, persists and affects everyday life, seek help; a GP is a reasonable starting point."
+  },
+  {
+    "type": "p",
+    "text": "There is no compulsory number of paid mocks. Home familiarisation, school support and carefully chosen practice can also rehearse parts of the routine. See [how many mocks to consider](/blog/how-many-11-plus-mock-exams-should-my-child-sit) for frequency decisions and [our practice mock area](/mock-exams) for independent practice. These materials are not official entrance papers or admissions predictions."
+  }
+]
   },
 
   {

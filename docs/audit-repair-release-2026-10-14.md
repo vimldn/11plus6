@@ -1,0 +1,9 @@
+# Existing-article repair release — 14 October 2026
+
+Four previously unreviewed existing pages rewritten after live primary/related query research and source reads recorded in research-2026-10-14-test-format.md. Main d98e8f3d9fc8c2f596c917c49c9a9418482cdb6d, no open PR at selection. Existing 99 URLs and original dates preserved. No new pages, culls, redirects or lesson publication.
+
+Decisions: rewrite calculator rules, digital-versus-paper formats, paper counts and mock usefulness. Remove fabricated statistics/testimony/score gains, unsupported provider claims, universal navigation advice and arbitrary study schedules. Current verified ISEB calculator rules say no calculator at 11+ CE mathematics; historical PDFs/search snippets differ and were not used as current permission. Kent/CSSE/ISEB examples are explicitly current published structures rather than confirmed 2027 instructions. Original arithmetic 48×25=1200 and the review worksheet independently checked.
+
+Research depth limited this release to four of the intended maximum fifteen. Eleven quota slots were not completed and are not counted as checked. Remaining topics stay pending; no repeat of published articles to fill quota. National-count partial repair remains held.
+
+Validation: git diff --check, release gates and production build passed (220 generated pages). Rendered H1, metadata, canonical, indexability, Article schema, original publication dates, source links and genuine modification dates passed for all four. Sitemap retains 188 entries with all four update dates. Integrity check confirms 99 URLs/original dates and 95 other articles unchanged. PR and production deployment verification remain pending. Queue records checked/repaired separately from published. No search-performance or educator-approval claims.
