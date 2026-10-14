@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-14",
   "scope": "Existing 99 blog articles; no new lessons",
   "note": "A repaired article is not marked published until the corresponding GitHub deployment succeeds and its live URL is checked. Do not repeat completed rows.",
   "articles": [
@@ -515,23 +515,37 @@
     },
     {
       "slug": "computer-based-vs-paper-based-11-plus-tests",
-      "title": "Computer-based vs paper-based 11 Plus tests.",
+      "title": "Computer-based vs paper-based 11 Plus tests: how to prepare",
       "url": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
       "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "researchDate": "2026-10-14",
+      "evidence": [
+        "docs/research-2026-10-14-test-format.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-14",
+        "outcome": "checked_repaired_awaiting_checks"
+      },
+      "reviewState": "checked_repaired",
+      "repairStatus": "awaiting_publication"
     },
     {
       "slug": "are-calculators-allowed-in-the-11-plus",
-      "title": "Are calculators allowed in the 11 Plus?",
+      "title": "Are calculators allowed in the 11 Plus? Rules and checks",
       "url": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
       "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "researchDate": "2026-10-14",
+      "evidence": [
+        "docs/research-2026-10-14-test-format.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-14",
+        "outcome": "checked_repaired_awaiting_checks"
+      },
+      "reviewState": "checked_repaired",
+      "repairStatus": "awaiting_publication"
     },
     {
       "slug": "how-to-improve-11-plus-vocabulary-quickly",
@@ -641,13 +655,20 @@
     },
     {
       "slug": "how-many-papers-are-in-the-11-plus",
-      "title": "How many papers are in the 11 Plus?",
+      "title": "How many papers are in the 11 Plus? Tests, sections and stages",
       "url": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
       "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "researchDate": "2026-10-14",
+      "evidence": [
+        "docs/research-2026-10-14-test-format.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-14",
+        "outcome": "checked_repaired_awaiting_checks"
+      },
+      "reviewState": "checked_repaired",
+      "repairStatus": "awaiting_publication"
     },
     {
       "slug": "can-my-child-get-extra-time-in-the-11-plus-sen",
@@ -692,13 +713,20 @@
     },
     {
       "slug": "are-mock-exams-important-for-the-11-plus",
-      "title": "Are mock exams important for the 11 Plus?",
+      "title": "Are mock exams important for the 11 Plus? Benefits and limits",
       "url": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
       "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "researchDate": "2026-10-14",
+      "evidence": [
+        "docs/research-2026-10-14-test-format.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "content/daily-repairs-2026-10-14",
+        "outcome": "checked_repaired_awaiting_checks"
+      },
+      "reviewState": "checked_repaired",
+      "repairStatus": "awaiting_publication"
     },
     {
       "slug": "how-many-11-plus-mock-exams-should-my-child-sit",
@@ -1763,8 +1791,8 @@
   ],
   "totals": {
     "existing": 99,
-    "checked": 70,
-    "repaired": 70,
+    "checked": 74,
+    "repaired": 74,
     "published": 70,
     "completed": 69,
     "pending": 30
