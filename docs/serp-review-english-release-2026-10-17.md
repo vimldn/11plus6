@@ -1,0 +1,39 @@
+# English release: pre-writing research and page briefs — 17 October 2026
+
+Base main85ca2abc9646ad366bd7608d94d681f5904b1ad4. Read content-programme.md, audit-repair-release.md, latest repair/release records and prior English draft brief. No open PR; blog queue73 completed/26 pending, no claimed in-progress rows. No blog text repairs or queue claims in this release. Existing school fixes (including Altrincham Girls' cohort-specific GL/FSCE change) are retained; the catalogue is not certified as fully audited.
+
+## Research method
+
+Live UK-focused searches and relevant returned page reads preceded substantive revision/release. The search tool is not a location-controlled Google UK rank export. No keyword volumes, exact rankings or invented competitor word counts. Useful depth is compared by actual visible format and coverage, not padded word targets. Existing 7 October drafts are reviewed against fresh evidence rather than accepted on age alone. The draft inventory already contains the three skill URLs, so publish those rather than duplicate them with 2027 variants.
+
+## Retrieval — comprehension-retrieval
+
+Primary query: `11 plus comprehension retrieval questions find information`. Related: `11 plus retrieval questions own words two details practice`; broader `11 plus retrieval inference evidence comprehension questions`.
+Intent: learn the distinction from inference and immediately practise finding exact details. Entities/relationships: explicit fact, question instruction, synonyms, paragraph scope, conditions/exceptions, two requested details, own-words paraphrase versus requested copying, answer verification.
+Read Clever Clogs https://www.cleverclogsacademy.com/question-types/comprehension-retrieval : medium single-skill guide, one worked example, five practice questions/answers, video and workbook CTA. Read NeurofiED https://www.neurofied.co.uk/resources/main-idea-summary-and-retrieval-questions : medium multi-skill guide linking question/keyword/location/check and distinguishing summary/main idea. Owl Tutors https://owltutors.co.uk/advice/11-plus/english/exam-papers/ : broader written-comprehension guide with question categories and technique. These are publisher observations, not independent efficacy evidence. Do not copy blanket claims that rereading or comprehension understanding is unnecessary.
+Brief: keep the original repair-club notice, three examples and six questions. Useful contribution: exceptions, own-words reason, two-part location and distinguishing two times within one passage. Retain precise boundaries: retrieving a stated reason differs from inventing a motive. Replace no original passage or date claims with official-school attribution. Natural scope around the existing approximately1000-word authored lesson, not a required rank length.
+
+## Inference — comprehension-inference
+
+Primary: `11 plus inference comprehension questions answers`. Related: `11 plus inference questions clues character feelings evidence`.
+Read Lionheart https://lionheart-education.com/improve-inference-skills-11-plus-comprehension/ : longer worked-example guide with clue/interpretation/corroboration, example options, mistakes and FAQ. Read Pip https://pip11plus.com/11-plus-comprehension-worksheets : shorter landing explanation plus eight-page original PDF advertised with twelve MC questions and answer key; on-page worked example and worksheet use guidance. Read The Exam Coach https://www.theexamcoach.tv/the-blog/comprehension-guide : broad long comprehension/tuition guide with multiple skills, paper images and video, not a focused six-question inference lesson. No measured PDF word count or claim that rival offers lack explanations.
+Intent: interpret character feelings/motives and choose supported answers. Entities: evidence/action/speech/context, uncertainty, unsupported backstory, MC distractors, change across a passage. Avoid asserting that every gesture has a fixed emotion or every answer needs a universal number of clues.
+Brief: retain original rehearsal story with Nia's beginning-to-end change. Check every interpretation against context; distinguish likely from certain. Three worked examples and six questions already cover written and selected answers. Original value is reasoned rejection of unsupported claims, not an invented score formula. Natural existing approximately1100-word scope; no extension to mimic a competitor's length.
+
+## Evidence — using-evidence
+
+Primary: `11 plus comprehension using evidence quotations written answers`. Related: `11 plus evidence answers short quotations explain own words`.
+Read PenLeap https://www.penleap.com/blog/reading-comprehension/inference/using-evidence-to-support-comprehension-answers : long multi-example answer-quality comparisons at weak/better/strong levels; this format already exists and is not a unique market gap. Read Pass Eleven Plus https://passelevenplus.co.uk/11-plus-english/understanding-the-text/ : broad interpretation guide, short story, MC/written examples and quotation-based support. Read Edumentors https://edumentors.co.uk/blog/mastering-11-plus-reading-comprehension-a-parents-guide/ : long multi-skill parent guide with evidence method, FAQs and tutor CTA. Publisher instructions sometimes overgeneralise quotation requirements; use actual question wording.
+Intent: construct supported written answers. Entities: point, relevant text detail, quotation accuracy, paraphrase, explanation, command words, one-word response, inference limits and writer's choices. Brief: keep original bridge-model passage, three examples and six practice questions. Explicitly distinguish exact-copy tasks, own-words tasks and explanation tasks. Lorry success remains unknown; never convert a suggestion into an observed outcome. Natural existing approximately1100-word scope, no generic PEE-padding or universal mark guarantees.
+
+## Authoritative trust source and limitations
+
+Read Department for Education English programmes of study: https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study . Years5–6 reading includes evidence-supported inference about feelings/thoughts/motives and retrieval/presentation of non-fiction information. This establishes curriculum context, not a universal11+ specification, endorsed paper or confirmed2027 exam format. All passages/examples/questions are the site's original independent material. No teacher review, official marking, educator credentials or parent endorsements are invented. Source checking and editorial answer verification are documented separately from qualified pedagogical review, which has not been obtained.
+
+## Integration brief before edits
+
+Keep timeless titles/URLs. Link published lessons from the English hub, existing verified 2027 parent guide and relevant subject overview. Link back from lessons to the hub and 2027 guide. No fourth new hub/page in this batch: use the existing parent guide as the2027 preparation anchor. The shared subject template currently exposes an unsubstantiated English question count and named testimonials; remove these from the English hub as a directly related trust correction. Do not infer claims for other subjects. Update publication-gate expectations for these exact three authorised English slugs while retaining fail-closed production preview, draft route exclusion and subject matching tests.
+
+## Answer review plan
+
+Check all9 examples and18 practice answers against original passages, including every quoted substring and instruction boundary. Record the paragraph support and interpretation limits for each. Check rendered full passages, answers/disclosures, metadata/canonical/LearningResource schema, source/internal links and sitemap only after build. Deployment completion and public interaction verification remain separate release gates.
