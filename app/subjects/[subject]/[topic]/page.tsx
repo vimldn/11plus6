@@ -31,6 +31,7 @@ export default function LessonPage({ params }: Props) {
       url: `https://www.11plusexampapers.com/subjects/${lesson.subject}/${lesson.slug}`,
       inLanguage: 'en-GB', learningResourceType: 'Lesson',
       isAccessibleForFree: true, dateModified: lesson.reviewedAt,
+      ...(lesson.publishedAt ? { datePublished: lesson.publishedAt } : {}),
       teaches: lesson.title,
     }} />
     <LessonContent lesson={lesson} />

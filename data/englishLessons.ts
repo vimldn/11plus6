@@ -10,7 +10,7 @@ export const englishLessons: Lesson[] = [
     slug: 'comprehension-retrieval',
     title: '11+ Retrieval Questions: Find Facts and Check Your Answers',
     description: 'Practise finding information in a passage with three worked examples, six original retrieval questions and explanations of every answer.',
-    subject: 'english', status: 'draft', reviewedAt: '2026-10-07',
+    subject: 'english', status: 'published', publishedAt: '2026-10-17', reviewedAt: '2026-10-17',
     introduction: [
       'Retrieval means finding information that a text actually gives you. If a notice says that a workshop begins at ten, you can retrieve its starting time. You do not need to guess why the organiser chose ten.',
       'This lesson practises precise fact-finding, including exceptions, two-part answers and instructions to use your own words. Read the original passage below, study the examples, then attempt the six questions before revealing their answers. These are independent learning materials, not official school questions or an admissions test.',
@@ -59,7 +59,7 @@ export const englishLessons: Lesson[] = [
     slug: 'comprehension-inference',
     title: '11+ Inference Questions: Read Clues and Explain Your Thinking',
     description: 'Learn to make supported inferences with an original passage, three worked examples and six questions with explained answers.',
-    subject: 'english', status: 'draft', reviewedAt: '2026-10-07',
+    subject: 'english', status: 'published', publishedAt: '2026-10-17', reviewedAt: '2026-10-17',
     introduction: [
       'Inference means working out something the writer suggests without stating it directly. A character might repeatedly check a clock rather than announce that they are impatient. Your job is to connect the details to a reasonable conclusion.',
       'In this lesson, focus on choosing the best-supported interpretation, not inventing a story around the passage. The text, examples and questions are original practice, not official examination material. The answer wording is illustrative: other carefully supported interpretations can sometimes work.',
@@ -108,7 +108,7 @@ export const englishLessons: Lesson[] = [
     slug: 'using-evidence',
     title: '11+ Comprehension: Using Evidence and Short Quotations',
     description: 'Choose relevant evidence, quote accurately and explain your point with three worked examples and six original comprehension questions.',
-    subject: 'english', status: 'draft', reviewedAt: '2026-10-07',
+    subject: 'english', status: 'published', publishedAt: '2026-10-17', reviewedAt: '2026-10-17',
     introduction: [
       'A supported answer shows how the passage led you to your conclusion. This lesson concentrates on selecting evidence and explaining it after you have formed an idea. Practise retrieval and inference first if finding facts or drawing conclusions still feels difficult.',
       'Read the original passage and compare the example answers. The models demonstrate useful features rather than official marks. They are not a school mark scheme, and a particular exam may require a different response format.',

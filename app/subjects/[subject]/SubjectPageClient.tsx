@@ -116,8 +116,8 @@ const SUBJECT_CONTENT: Record<
       'Persuasive Writing',
       'Inference & Deduction',
     ],
-    heroStat: '900+',
-    heroStatLabel: 'English practice questions',
+    heroStat: '3',
+    heroStatLabel: 'Original comprehension lessons',
     gradient: 'from-emerald-600 to-teal-500',
     color: 'text-emerald-600',
     lightBg: 'bg-emerald-50',
@@ -126,11 +126,11 @@ const SUBJECT_CONTENT: Record<
     faqs: [
       {
         q: 'What English skills does the 11+ test?',
-        a: 'Reading comprehension is commonly the largest section (inference, vocabulary and retrieval). Grammar, punctuation, spelling and writing may also feature depending on your target school.',
+        a: 'English assessments can include comprehension, vocabulary, grammar, punctuation, spelling or writing. The combination and answer format depend on the school or provider; check the relevant admissions cycle.',
       },
       {
         q: "How do I improve my child's vocabulary for the 11+?",
-        a: 'Wide reading is the most effective long-term strategy. Supplement with daily word learning and practise using words in sentences rather than memorising definitions.',
+        a: 'Read a range of texts, discuss unfamiliar words in context and practise using them in new sentences. Choose material your child can engage with and review meanings rather than memorising definitions alone.',
       },
       {
         q: 'Is creative writing in the 11+ exam?',
@@ -529,6 +529,7 @@ export default function SubjectPageClient({
 
 
 
+      {subject.slug !== 'english' ? <>
       {/* ─── Testimonials ───────────────────────────────────────────────────── */}
       <section className="py-16 px-4 sm:px-6 bg-white border-t border-slate-100">
         <div className="max-w-5xl mx-auto">
@@ -583,6 +584,8 @@ export default function SubjectPageClient({
           </div>
         </div>
       </section>
+
+      </> : null}
 
       <SiteFooter />
     </div>
