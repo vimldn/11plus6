@@ -53,23 +53,24 @@ try {
 
   const drafts = lessons.filter(lesson => lesson.status === 'draft');
   const released = lessons.filter(lesson => lesson.status === 'published');
-  assert.equal(released.length, 3, 'Only the reviewed maths batch is released');
-  assert.ok(released.every(lesson => lesson.subject === 'maths'));
-  assert.equal(drafts.length, 3, 'English batch stays in draft');
-  assert.ok(drafts.every(lesson => lesson.subject === 'english'));
+  assert.equal(released.length, 6, 'Exactly the reviewed maths and English batches are released');
+  assert.equal(drafts.length, 0, 'All three English drafts passed this release');
+  assert.deepEqual(released.filter(x => x.subject === 'english').map(x => x.slug).sort(),
+    ['comprehension-inference', 'comprehension-retrieval', 'using-evidence']);
+  assert.equal(released.filter(x => x.subject === 'maths').length, 3);
   assert.deepEqual(publishedLessons(), released);
-  for (const lesson of drafts) assert.equal(publishedLesson(lesson.subject, lesson.slug), undefined);
   for (const lesson of released) {
     assert.equal(publishedLesson(lesson.subject, lesson.slug), lesson);
-    assert.equal(publishedLesson('english', lesson.slug), undefined);
+    assert.equal(publishedLesson(lesson.subject === 'maths' ? 'english' : 'maths', lesson.slug), undefined);
   }
   assert.equal(publishedLesson('maths', 'missing-lesson'), undefined);
-  const candidate = drafts[0];
+  // Exercise a real unpublished state so the absence of drafts cannot hide a broken gate.
+  const candidate = released.find(x => x.subject === 'english');
   try {
-    candidate.status = 'published';
-    assert.equal(publishedLesson('english', candidate.slug), candidate);
-    assert.equal(publishedLessons().length, released.length + 1);
-  } finally { candidate.status = 'draft'; }
+    candidate.status = 'draft';
+    assert.equal(publishedLesson(candidate.subject, candidate.slug), undefined);
+    assert.equal(publishedLessons().length, released.length - 1);
+  } finally { candidate.status = 'published'; }
   assert.deepEqual(publishedLessons(), released);
 
   const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'data/schools.catalog.json'), 'utf8'));

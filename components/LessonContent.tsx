@@ -27,6 +27,11 @@ export default function LessonContent({ lesson, preview = false }: { lesson: Les
             <h1 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">{lesson.title}</h1>
             <p className="mt-5 text-lg leading-relaxed text-slate-600">{lesson.description}</p>
           </header>
+          {lesson.subject === 'english' ? <aside className="rounded-xl border border-emerald-200 bg-emerald-50 p-5 text-sm leading-relaxed">
+            <p>Original reading practice for families preparing for exams taken in 2027. Check your school's test and entry years separately.</p>
+            <p className="mt-2">Published {lesson.publishedAt}; editorial/source check {lesson.reviewedAt}.</p>
+            <p className="mt-2"><Link className="font-semibold text-indigo-700 underline" href="/blog/what-is-the-11-plus-exam">2027 preparation: parent guide</Link> · <Link className="font-semibold text-indigo-700 underline" href="/subjects/english">English practice hub</Link></p>
+          </aside> : null}
           <div className="space-y-4 leading-relaxed">{lesson.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
           {lesson.sections.map((section) => (
             <section key={section.title} className="space-y-4 leading-relaxed">

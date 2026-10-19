@@ -57,3 +57,7 @@ School → exam → suitable practice → worked answer → relevant topic → f
 6. Metadata, canonical, headings, relevant links and draft/public checks.
 7. Build and functional validation; preview link; explicit release decision.
 8. After release: indexing, impressions, useful visits, completed practice and repeat usage. Do not claim measured improvement without data.
+
+## English release candidate — 17 October 2026
+
+Three existing drafts selected for publication: comprehension-retrieval, comprehension-inference and using-evidence. See serp-review-english-release-2026-10-17.md, english-answer-review-2026-10-17.md and english-release-2026-10-17.md. Production outcome is recorded separately after deployment verification. Subsequent English work should extend distinct skills rather than duplicate these URLs.

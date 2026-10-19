@@ -5,6 +5,7 @@ export type Lesson = {
   subject: 'maths' | 'english';
   status: 'draft' | 'published';
   reviewedAt: string;
+  publishedAt?: string;
   introduction: string[];
   sections: { title: string; paragraphs: string[] }[];
   examples: { question: string; steps: string[]; answer: string }[];
