@@ -12,3 +12,11 @@ Status: **held; not merged or published**.
 - Next action: make this project's Vercel logs accessible through the correct connected team credentials, diagnose/fix the failed deployment, obtain passing checks, merge, then verify production URLs and all answer controls. Keep work in PR rather than recreating these lessons.
 - Daily legacy-blog queue remains unchanged: 73 fully completed, 26 pending, including the separately recorded partial item. This release checks no additional blogs.
 - Existing Friday content automation was found disabled and was restored enabled without altering its prompt or schedule. This does not prove the underlying reason for previous disabled runs is resolved.
+
+## 19 October follow-up
+
+The owner supplied Vercel build logs for f4c26b6: webpack could not parse components/LessonContent.tsx. Inspection of the exact branch found a literal tool-output truncation marker followed by unrelated lesson data at line 75. The earlier local checks did not establish that the committed component matched the tested file; the previous “tested implementation commit” wording must not be read as successful validation of those GitHub bytes.
+
+Restored the closing component structure and sources/footer from main, retaining the intended English notice and links. No passages, questions or answers changed. Publication dates corrected to 19 October, retaining the actual 17 October editorial review dates. Existing research and answer briefs remain applicable. Production release remains conditional on passing preview and production checks and live verification.
+
+Clean build of the repaired branch checkout passed on 19 October: Next.js 14.2.35 compiled, type checks passed, 223 routes generated, and check-release-gates.cjs passed. Files uploaded directly from the tested checkout; blob SHAs compared against local git hashes before updating the branch.
