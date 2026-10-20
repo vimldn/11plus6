@@ -1,9 +1,9 @@
 {
   "updated": "2026-10-20",
   "scope": "250 existing maths MC source families only. Does not certify all derived forms, subject alignment or the other subjects.",
-  "reviewed": 148,
-  "remaining": 102,
-  "publication": "Current wording batch awaits PR checks and deployment; use release PR for outcome.",
+  "reviewed": 250,
+  "remaining": 0,
+  "publication": "Completion release awaits PR checks and production verification; consult the completion release PR for final outcome.",
   "questions": [
     {
       "id": "math-mc-001",
@@ -117,8 +117,8 @@
     },
     {
       "id": "math-mc-023",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-024",
@@ -222,8 +222,8 @@
     },
     {
       "id": "math-mc-044",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-045",
@@ -262,13 +262,13 @@
     },
     {
       "id": "math-mc-052",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-053",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-054",
@@ -277,33 +277,33 @@
     },
     {
       "id": "math-mc-055",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-056",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-057",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-058",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-059",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-060",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-061",
@@ -377,8 +377,8 @@
     },
     {
       "id": "math-mc-075",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-076",
@@ -407,8 +407,8 @@
     },
     {
       "id": "math-mc-081",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-082",
@@ -447,8 +447,8 @@
     },
     {
       "id": "math-mc-089",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-090",
@@ -507,13 +507,13 @@
     },
     {
       "id": "math-mc-101",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-102",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-103",
@@ -537,8 +537,8 @@
     },
     {
       "id": "math-mc-107",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-108",
@@ -547,8 +547,8 @@
     },
     {
       "id": "math-mc-109",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-110",
@@ -567,63 +567,63 @@
     },
     {
       "id": "math-mc-113",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-114",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-115",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-116",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-117",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-118",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-119",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-120",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-121",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-122",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-123",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-124",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-125",
@@ -707,53 +707,53 @@
     },
     {
       "id": "math-mc-141",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-142",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-143",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-144",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-145",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-146",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-147",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-148",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-149",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-150",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-151",
@@ -782,13 +782,13 @@
     },
     {
       "id": "math-mc-156",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-157",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-158",
@@ -812,13 +812,13 @@
     },
     {
       "id": "math-mc-162",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-163",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-164",
@@ -867,13 +867,13 @@
     },
     {
       "id": "math-mc-173",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-174",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-175",
@@ -882,8 +882,8 @@
     },
     {
       "id": "math-mc-176",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-177",
@@ -892,48 +892,48 @@
     },
     {
       "id": "math-mc-178",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-179",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-180",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-181",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-182",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-183",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-184",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-185",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-186",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-187",
@@ -942,8 +942,8 @@
     },
     {
       "id": "math-mc-188",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-189",
@@ -952,8 +952,8 @@
     },
     {
       "id": "math-mc-190",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-191",
@@ -962,13 +962,13 @@
     },
     {
       "id": "math-mc-192",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-193",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-194",
@@ -977,8 +977,8 @@
     },
     {
       "id": "math-mc-195",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-196",
@@ -987,13 +987,13 @@
     },
     {
       "id": "math-mc-197",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-198",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-199",
@@ -1007,83 +1007,83 @@
     },
     {
       "id": "math-mc-201",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-202",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-203",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-204",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-205",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-206",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-207",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-208",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-209",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-210",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-211",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-212",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-213",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-214",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-215",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-216",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-217",
@@ -1092,33 +1092,33 @@
     },
     {
       "id": "math-mc-218",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-219",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-220",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-221",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-222",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-223",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-224",
@@ -1127,8 +1127,8 @@
     },
     {
       "id": "math-mc-225",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-226",
@@ -1137,28 +1137,28 @@
     },
     {
       "id": "math-mc-227",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-228",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-229",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-230",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-231",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-232",
@@ -1167,8 +1167,8 @@
     },
     {
       "id": "math-mc-233",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-234",
@@ -1177,8 +1177,8 @@
     },
     {
       "id": "math-mc-235",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-236",
@@ -1187,18 +1187,18 @@
     },
     {
       "id": "math-mc-237",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-238",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-239",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-240",
@@ -1207,8 +1207,8 @@
     },
     {
       "id": "math-mc-241",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-242",
@@ -1217,13 +1217,13 @@
     },
     {
       "id": "math-mc-243",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-244",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-245",
@@ -1232,8 +1232,8 @@
     },
     {
       "id": "math-mc-246",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-247",
@@ -1242,18 +1242,18 @@
     },
     {
       "id": "math-mc-248",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-249",
-      "status": "pending",
-      "evidence": null
+      "status": "repaired",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     },
     {
       "id": "math-mc-250",
-      "status": "pending",
-      "evidence": null
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-completion-reviewed-2026-10-20.json"
     }
   ]
 }

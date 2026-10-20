@@ -31,8 +31,14 @@ export interface NumericRubric {
   unitOptional?: boolean;
 }
 
+export interface OrderingRubric {
+  kind: 'ordering';
+  acceptedOrders: string[];
+}
+export type AnswerRubric = NumericRubric | OrderingRubric;
+
 export interface Question {
-  marking?: NumericRubric;
+  marking?: AnswerRubric;
   id: string;
   text: string;
   options: string[];
