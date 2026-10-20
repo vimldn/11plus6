@@ -33,6 +33,7 @@ export const quarantinedFamilies = new Set([
   'nvr-088', // Starting inside/outside state omitted.
 ]);
 const quarantinedIds = new Set([
+  'math-mc-018', // Live check: 6/12, 1/2 and 2/4 are equivalent correct options.
   'eng-fitb-037', // Free-text passive-voice task lacks candidate sentences.
   'eng-fitb-049', // Unrestricted modal-verb prompt has many answers.
   'eng-fitb-059', // Free-text semicolon task lacks candidate sentences.

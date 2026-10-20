@@ -41,3 +41,9 @@ Confirmed defective/ambiguous families are listed with reasons in data/questionQ
 6. Three school/consortium routes only after official sample and admissions verification for exams taken in 2027; distinguish entry year and unconfirmed details. SERP briefs before new guide/lesson copy. Do not claim school fidelity from prompt labels.
 
 No new SEO pages in this patch. Existing blog queue untouched. No educator sign-off or complete exam audit claimed.
+
+## Production verification and follow-up
+
+PR10 merged as adf1b284923a8ee1478e919bb9c63de6d423119a; GitHub reports successful Vercel deployment DvoApqJ9ktxFcKYH7fRtBeShfxGa. Live timed maths flow completed all 10 questions: selected answers stayed neutral, the deliberate 3/10 outcome matched review, and own/correct answers were visible. This does not verify every format or AI generation.
+
+The live check also identified math-mc-018: its choices 6/12, 1/2 and 2/4 all equal the product 2/3 × 3/4. Quarantine this MC item specifically; its TF premise remains valid. This defect was found outside the original deterministic sample. Further maths option-equivalence checks remain required.
