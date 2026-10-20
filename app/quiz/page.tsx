@@ -49,14 +49,16 @@ function QuizPageInner() {
   const [retryKey, setRetryKey]   = useState(0);
 
   const mathsPilot = params.get('paper') === 'maths-pilot';
+  const freshMaths = params.get('paper') === 'maths-generated';
+  const fixedMaths = mathsPilot || freshMaths;
   // Parse query params
-  const subject      = mathsPilot ? Subject.Maths : mapSubject(params.get('subject'));
+  const subject      = fixedMaths ? Subject.Maths : mapSubject(params.get('subject'));
   const schoolType   = mapSchoolType(params.get('schoolType'));
   const mode         = (params.get('mode') === 'practice' ? 'practice' : 'exam') as QuizMode;
-  const quizType     = (mathsPilot ? 'multiple-choice' : params.get('quizType') || 'multiple-choice') as QuizType;
-  const questionCount = mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
-  const examDurationMins = mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
-  const schoolId     = mathsPilot ? undefined : params.get('schoolId') || undefined;
+  const quizType     = (fixedMaths ? 'multiple-choice' : params.get('quizType') || 'multiple-choice') as QuizType;
+  const questionCount = freshMaths ? 15 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
+  const examDurationMins = freshMaths ? 20 : mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
+  const schoolId     = fixedMaths ? undefined : params.get('schoolId') || undefined;
   const topic        = params.get('topic')    || undefined;
   const difficulty   = (params.get('difficulty') || 'standard') as 'standard' | 'challenging' | 'exam-ready';
 
@@ -89,11 +91,13 @@ function QuizPageInner() {
 
       {/* Main content */}
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6">
+        {freshMaths && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Fresh maths practice</h1><p>15 questions: five each on order of operations, fractions of amounts and percentages of amounts. Each new attempt samples original number variations with calculated answers and worked explanations. Questions may recur across attempts.</p><p className="mt-2">Supports preparation for exams taken in 2027. This is focused skills practice, not a complete or official school paper. In timed mode, 20 minutes is our practice setting.</p><Link className="underline" href="/subjects/maths">Maths lessons and the broader practice pilot</Link></div>}
         {mathsPilot && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Maths practice pilot</h1><p>30 questions drawn from 120 checked questions. Original practice for families preparing for exams taken in 2027; not an official school paper. The 45-minute limit is our practice setting.</p><p className="mt-2">8 number · 8 fractions, decimals and percentages · 3 ratio · 3 algebra · 3 geometry · 3 measures and money · 2 data.</p></div>}
         {screen === 'quiz' && (
           <QuizArea
             key={retryKey}
             mathsPilot={mathsPilot}
+            freshMaths={freshMaths}
             subject={subject}
             schoolType={schoolType}
             mode={mode}
