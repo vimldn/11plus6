@@ -15,6 +15,10 @@ import Link from 'next/link';
 import { ArrowLeft, Loader2 } from 'lucide-react';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
+import { AttemptHistory } from '@/components/AttemptHistory';
+import { PrintPaper } from '@/components/PrintPaper';
+import { mistakesFrom, freshFollowUp, supportedMissedTopics } from '@/lib/mistakePractice';
+import { Question } from '@/types';
 import { QuizArea } from '@/components/QuizArea';
 import { ResultsScreen } from '@/components/ResultsScreen';
 import { ReviewScreen } from '@/components/ReviewScreen';
@@ -48,6 +52,8 @@ function QuizPageInner() {
   const [lastResult, setLastResult] = useState<QuizResult | null>(null);
   const [retryKey, setRetryKey]   = useState(0);
 
+  const [followUp,setFollowUp]=useState<{questions:Question[];result:QuizResult;notice:string}|null>(null);
+  const [attemptId,setAttemptId]=useState('');
   const mathsPilot = params.get('paper') === 'maths-pilot';
   const freshMaths = params.get('paper') === 'maths-generated';
   const fixedMaths = mathsPilot || freshMaths;
@@ -56,23 +62,32 @@ function QuizPageInner() {
   const schoolType   = mapSchoolType(params.get('schoolType'));
   const mode         = (params.get('mode') === 'practice' ? 'practice' : 'exam') as QuizMode;
   const quizType     = (fixedMaths ? 'multiple-choice' : params.get('quizType') || 'multiple-choice') as QuizType;
-  const questionCount = freshMaths ? 15 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
+  const questionCount = freshMaths ? 16 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
   const examDurationMins = freshMaths ? 20 : mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
   const schoolId     = fixedMaths ? undefined : params.get('schoolId') || undefined;
   const topic        = params.get('topic')    || undefined;
   const difficulty   = (params.get('difficulty') || 'standard') as 'standard' | 'challenging' | 'exam-ready';
 
   const handleComplete = (result: QuizResult) => {
+    setAttemptId(String(Date.now())+'-'+Math.random().toString(36).slice(2));
     setLastResult(result);
     setScreen('results');
   };
 
   const handleRetry = () => {
+    setFollowUp(null);
     setRetryKey((k) => k + 1);
     setLastResult(null);
     setScreen('quiz');
   };
 
+  const startFollowUp = (fresh:boolean) => {
+    if(!lastResult)return;
+    const questions=fresh?freshFollowUp(lastResult):mistakesFrom(lastResult);
+    if(!questions.length)return;
+    setFollowUp({questions,result:lastResult,notice:fresh?'Fresh questions on supported topics you missed. Other missed topics are not included in this set.':'Repeat the exact questions you missed or left unanswered. This is practice, not a new assessment.'});
+    setLastResult(null);setScreen('quiz');setRetryKey(k=>k+1);
+  };
   return (
     <div className="min-h-screen bg-white flex flex-col">
       {/* Branded nav — consistent with rest of site */}
@@ -91,17 +106,19 @@ function QuizPageInner() {
 
       {/* Main content */}
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6">
-        {freshMaths && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Fresh maths practice</h1><p>15 questions: five each on order of operations, fractions of amounts and percentages of amounts. Each new attempt samples original number variations with calculated answers and worked explanations. Questions may recur across attempts.</p><p className="mt-2">Supports preparation for exams taken in 2027. This is focused skills practice, not a complete or official school paper. In timed mode, 20 minutes is our practice setting.</p><Link className="underline" href="/subjects/maths">Maths lessons and the broader practice pilot</Link></div>}
-        {mathsPilot && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Maths practice pilot</h1><p>30 questions drawn from 120 checked questions. Original practice for families preparing for exams taken in 2027; not an official school paper. The 45-minute limit is our practice setting.</p><p className="mt-2">8 number · 8 fractions, decimals and percentages · 3 ratio · 3 algebra · 3 geometry · 3 measures and money · 2 data.</p></div>}
+        {freshMaths && !followUp && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Fresh maths practice</h1><p>16 questions: two each on order of operations, fractions, percentages, equations, multi-step sharing, money, rectangle area and mean averages. Each new attempt samples original number variations with calculated answers and worked explanations. Questions may recur across attempts.</p><p className="mt-2">Supports preparation for exams taken in 2027. This is focused skills practice, not a complete or official school paper. In timed mode, 20 minutes is our practice setting.</p><Link className="underline" href="/subjects/maths">Maths lessons and the broader practice pilot</Link></div>}
+        {mathsPilot && !followUp && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Maths practice pilot</h1><p>30 questions drawn from 120 checked questions. Original practice for families preparing for exams taken in 2027; not an official school paper. The 45-minute limit is our practice setting.</p><p className="mt-2">8 number · 8 fractions, decimals and percentages · 3 ratio · 3 algebra · 3 geometry · 3 measures and money · 2 data.</p></div>}
         {screen === 'quiz' && (
           <QuizArea
             key={retryKey}
+            suppliedQuestions={followUp?.questions}
+            suppliedNotice={followUp?.notice}
             mathsPilot={mathsPilot}
             freshMaths={freshMaths}
-            subject={subject}
+            subject={followUp?.result.subject || subject}
             schoolType={schoolType}
-            mode={mode}
-            quizType={quizType}
+            mode={followUp ? 'practice' : mode}
+            quizType={followUp?.result.quizType || quizType}
             topic={topic}
             questionCount={questionCount}
             examDurationMins={examDurationMins}
@@ -112,6 +129,8 @@ function QuizPageInner() {
           />
         )}
 
+        {screen === 'results' && lastResult && <section className="my-4 rounded-xl border p-4"><p>{lastResult.provenance}</p><PrintPaper questions={lastResult.questions} answersAllowed provenance={lastResult.provenance} /><div className="flex flex-wrap gap-3">{mistakesFrom(lastResult).length>0 && <button className="rounded border px-4 py-2" onClick={()=>startFollowUp(false)}>Practise my mistakes again</button>}{supportedMissedTopics(lastResult).length>0 && <button className="rounded bg-indigo-700 px-4 py-2 text-white" onClick={()=>startFollowUp(true)}>Fresh questions on missed topics</button>}</div></section>}
+        <AttemptHistory result={screen==='quiz'?null:lastResult} attemptId={attemptId} onOpen={(r,id)=>{setLastResult(r);setAttemptId(id);setScreen('results');}} />
         {screen === 'results' && lastResult && (
           <ResultsScreen
             result={lastResult}

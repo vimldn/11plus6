@@ -1,4 +1,5 @@
 'use client';
+import { PrintPaper } from './PrintPaper';
 import { isAnswerCorrect } from '../lib/answerMarking';
 
 import React, { useState, useEffect } from 'react';
@@ -22,6 +23,8 @@ import { generateQuestions } from '../services/questionService';
 import { Button } from './Button';
 
 interface QuizAreaProps {
+  suppliedQuestions?: Question[];
+  suppliedNotice?: string;
   freshMaths?: boolean;
   mathsPilot?: boolean;
   subject: Subject;
@@ -39,6 +42,8 @@ interface QuizAreaProps {
 
 export const QuizArea: React.FC<QuizAreaProps> = ({
   subject,
+  suppliedQuestions,
+  suppliedNotice,
   mathsPilot = false,
   freshMaths = false,
   schoolType,
@@ -63,6 +68,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     answersHistory: {}
   });
 
+  const [notice, setNotice] = useState('');
   const [seconds, setSeconds] = useState(0);
 
   // Specific states for complex question types
@@ -74,7 +80,14 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     const load = async () => {
       const loadTopic = mode === 'practice' ? topic : undefined;
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
-      const qs = freshMaths ? createFreshMaths() : mathsPilot ? createMathsPilot() : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+      let qs: Question[] = [];
+      try {
+        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : freshMaths ? {questions:createFreshMaths(),notice:'Original calculated maths practice. Supported variations are checked by independent calculations.'} : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+        qs = batch.questions;
+        if (mounted) setNotice(batch.notice);
+      } catch {
+        if (mounted) setNotice('Questions could not be loaded. Return to the dashboard and try again.');
+      }
       if (mounted) {
         setState((s) => ({ ...s, questions: qs, loading: false }));
         // Initialize state for the first question if applicable
@@ -88,7 +101,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     return () => {
       mounted = false;
     };
-  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths]);
+  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths, suppliedQuestions, suppliedNotice]);
 
   useEffect(() => {
     if (state.loading || state.completed) return;
@@ -179,6 +192,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         questions: state.questions,
         userAnswers: state.answersHistory,
         quizType,
+        provenance: notice,
         mode: mode
       });
     } else {
@@ -219,6 +233,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         questions: state.questions,
         userAnswers: state.answersHistory,
         quizType,
+        provenance: notice,
         mode: mode,
       });
     }
@@ -260,6 +275,8 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         <ArrowLeft size={16} /> Dashboard
       </button>
 
+      {notice && <p role="status" className="mb-4 rounded-xl bg-slate-100 p-3 text-sm text-slate-700">{notice}</p>}
+      <PrintPaper questions={state.questions} provenance={notice} />
       {/* HUD */}
       <div className="flex flex-wrap justify-between items-end gap-3 mb-6 bg-white/90 backdrop-blur rounded-2xl p-4 shadow-sm border border-slate-100">
         <div className="flex flex-col min-w-[140px]">

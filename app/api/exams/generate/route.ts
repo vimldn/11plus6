@@ -279,6 +279,9 @@ export async function POST(req: Request) {
     schoolId,
     schoolName: school.name,
     blueprintLoaded: Boolean(blueprint),
+    sourceMaterial: 'written-summary-only',
+    uploadedPapersUsed: false,
+    verified2027Specification: false,
     requestedCount: count,
   };
 
@@ -312,7 +315,7 @@ export async function POST(req: Request) {
     }
   }
 
-  // Fallback: local bank (repeats to reach 20–30 questions)
+  // Fallback: general bank, sampled without replacement.
   const questions = getRandomQuestions(subject, quizType, count, topic, difficulty);
   return NextResponse.json({
     questions,
