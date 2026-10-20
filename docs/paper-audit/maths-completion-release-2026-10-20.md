@@ -12,3 +12,6 @@ Pre-writing brief: maths-completion-brief-2026-10-20.md. Per-question fingerprin
 
 ## Remaining product limitations
 Free-entry algebra, coordinate/list and verbal answers still use conservative text matching; this release does not implement a general symbolic-equivalence engine. Advanced topics remain in the legacy bank and are not represented as universal11-plus requirements. Uploaded-paper provenance and school-specific2027 format validation remain separate work. English/VR/NVR and blog work are outside this release.
+
+## Live-test follow-up
+PR18 production verification exposed a missing rubric argument in QuizArea.handleOrderSubmit: the shared scorer passed exhaustive tests, but immediate practice feedback rejected an alternative tied order. Follow-up passes currentQ.marking just as text/MC handlers, review, topic statistics and mistake practice already do. Repeat the live Decimals ordering test with115%,1.2,1.25,5/4 before declaring completion.
