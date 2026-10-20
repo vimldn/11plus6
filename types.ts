@@ -23,7 +23,16 @@ export type QuizType =
   | 'short-answer';
 export type Theme = 'default' | 'ocean' | 'jungle' | 'sunset' | 'midnight';
 
+export interface NumericRubric {
+  kind: 'numeric';
+  form?: 'any' | 'fraction' | 'decimal';
+  simplest?: boolean;
+  unitAliases?: string[];
+  unitOptional?: boolean;
+}
+
 export interface Question {
+  marking?: NumericRubric;
   id: string;
   text: string;
   options: string[];

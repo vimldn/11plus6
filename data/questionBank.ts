@@ -1,3 +1,4 @@
+import { mathsMarkingFor } from './mathsMarking';
 import { isQuestionQuarantined } from './questionQuarantine';
 import { Subject, Question, QuizType } from '../types';
 
@@ -21,7 +22,7 @@ export const questionBank: Record<Subject, Partial<Record<QuizType, Question[]>>
   [Subject.Maths]: {
     'multiple-choice': mathsMC,
     'true-false': mathsTF,
-    'fill-in-the-blank': mathsFITB,
+    'fill-in-the-blank': mathsFITB.map(q => ({...q, marking: mathsMarkingFor(q.id)})),
     ordering: mathsOrdering,
   },
   [Subject.English]: {

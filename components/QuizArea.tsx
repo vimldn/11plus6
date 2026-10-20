@@ -16,10 +16,12 @@ import {
   ArrowDown
 } from 'lucide-react';
 import { Subject, Question, QuizState, QuizResult, QuizMode, QuizType } from '../types';
+import { createMathsPilot } from '../data/mathsPilot';
 import { generateQuestions } from '../services/questionService';
 import { Button } from './Button';
 
 interface QuizAreaProps {
+  mathsPilot?: boolean;
   subject: Subject;
   schoolType: any;
   mode: QuizMode;
@@ -35,6 +37,7 @@ interface QuizAreaProps {
 
 export const QuizArea: React.FC<QuizAreaProps> = ({
   subject,
+  mathsPilot = false,
   schoolType,
   mode,
   quizType,
@@ -68,7 +71,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     const load = async () => {
       const loadTopic = mode === 'practice' ? topic : undefined;
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
-      const qs = await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+      const qs = mathsPilot ? createMathsPilot() : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
       if (mounted) {
         setState((s) => ({ ...s, questions: qs, loading: false }));
         // Initialize state for the first question if applicable
@@ -82,7 +85,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     return () => {
       mounted = false;
     };
-  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty]);
+  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot]);
 
   useEffect(() => {
     if (state.loading || state.completed) return;
@@ -109,14 +112,14 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
 
   const handleStandardAnswer = (option: string) => {
     if (state.selectedAnswer) return;
-    const isCorrect = isAnswerCorrect(option, currentQ.correctAnswer, quizType);
+    const isCorrect = isAnswerCorrect(option, currentQ.correctAnswer, quizType, currentQ.marking);
     updateState(option, isCorrect);
   };
 
   const handleTextSubmit = () => {
     if (state.selectedAnswer) return;
 
-    const isCorrect = isAnswerCorrect(textInput, currentQ.correctAnswer, quizType);
+    const isCorrect = isAnswerCorrect(textInput, currentQ.correctAnswer, quizType, currentQ.marking);
 
     updateState(textInput, isCorrect);
   };

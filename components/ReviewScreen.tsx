@@ -22,7 +22,7 @@ export const ReviewScreen: React.FC<ReviewScreenProps> = ({ result, onBack }) =>
       <div className="space-y-6">
         {result.questions.map((q, idx) => {
           const userAnswer = result.userAnswers[q.id];
-          const isCorrect = isAnswerCorrect(userAnswer, q.correctAnswer, result.quizType);
+          const isCorrect = isAnswerCorrect(userAnswer, q.correctAnswer, result.quizType, q.marking);
 
           return (
             <div key={q.id} className={`p-4 sm:p-6 rounded-xl border ${isCorrect ? 'border-emerald-100 bg-emerald-50/30' : 'border-red-100 bg-red-50/30'}`}>
