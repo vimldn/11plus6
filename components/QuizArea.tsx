@@ -246,7 +246,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         <div className="bg-white p-6 rounded-2xl shadow-xl border border-indigo-100 flex flex-col items-center text-center">
           <Loader2 className="w-12 h-12 text-indigo-600 animate-spin mb-4" />
           <p className="text-lg font-bold text-slate-700 animate-pulse">
-            {mode === 'practice' ? `Preparing ${topic}...` : 'Constructing Exam...'}
+            {mode === 'practice' ? `Preparing ${topic || "your practice"}...` : 'Constructing Exam...'}
           </p>
         </div>
       </div>

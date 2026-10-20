@@ -119,8 +119,14 @@ export function getRandomQuestions(
   const tagged = filtered.filter(q => q.difficulty === level);
   const pool = tagged.length ? tagged : filtered;
 
-  // Sample without replacement
-  const shuffled = [...pool];
+  // Keep source records, but do not repeat an identical stem within one paper.
+  const seen = new Set<string>();
+  const shuffled = pool.filter(q => {
+    const key = q.text.normalize("NFKC").toLowerCase().replace(/\s+/g, " ").trim();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];

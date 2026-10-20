@@ -18,3 +18,10 @@ Nine existing blueprint JSONs remain written summaries. Their README previously 
 ## Remaining concrete blockers
 
 The complete original setup source set and its original import mapping have not been located. Current official school specifications, document visual checks and reusable-content rights must be established before a new school-specific ingestion connection can be activated. The recovered general paper also needs an open-response rubric/teacher-review workflow rather than automatic right/wrong marking. These items remain pending; do not describe source connection as complete.
+
+## Follow-up inspection — legacy answer repair release
+
+- MTS_Specimen_ENGLISH_1_Northern Lights.pdf: all eight pages of extracted text read. Header gives 60 minutes, approximately 30 minutes comprehension and 30 composition, 40 marks each. Observed skills: event ordering, own-word inference, simile interpretation, vocabulary in context, quotation-supported analysis of atmosphere and drama, and extended writing with planning/checking. Map skills to retrieval, inference and using-evidence lessons. No full official answer key in extracted text. Historical/undated specimen, not a verified 2027 format. Literary passage must not be copied into the public question bank.
+- MT English 2022.pdf: eight pages located, but text extraction returned no text. Content review remains pending visual inspection/OCR; no inferred questions, answers or mapping recorded.
+
+Three of the 15 located PDF candidates now have text-level inspection; one additional file has a confirmed extraction blocker. This does not establish that all original uploads have been recovered or that runtime ingestion is connected.
