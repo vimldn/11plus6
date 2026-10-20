@@ -83,3 +83,5 @@ for(const q of mathsMC.map(load('data/mathsRepairs.ts').applyMathsRepair)){
 const extra={18:'.5',52:'1.44',53:'40',55:'9',56:'2.8',57:'0.085',58:'42',59:'4670',60:'0.35'};
 const {mathsFITB}=load('data/questionBanks/maths.fitb.ts');
 for(const [id,value] of Object.entries(extra)) {const q=mathsFITB.find(q=>q.id===`math-fitb-${id.padStart(3,'0')}`);assert(isAnswerCorrect(value,q.correctAnswer,'fill-in-the-blank',mathsMarkingFor(q.id)),q.id);}
+
+module.exports = { checks };

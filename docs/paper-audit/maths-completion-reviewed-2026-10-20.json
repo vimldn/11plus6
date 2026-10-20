@@ -1,0 +1,2938 @@
+{
+  "date": "2026-10-20",
+  "mcFamilies": 102,
+  "derivedForms": 444,
+  "orderingItems": 50,
+  "records": [
+    {
+      "id": "math-mc-023",
+      "independentlyCalculatedAnswer": "7/12, 2/3, 3/4, 5/6",
+      "questionSha256": "299874a21b8dece3cc6d04a968d9df0e13ff327b2cdaff5bae84034445402148"
+    },
+    {
+      "id": "math-tf-023",
+      "independentlyCalculatedAnswer": "7/12, 2/3, 3/4, 5/6",
+      "questionSha256": "990d9fa2d9a32d0b727c3493160f7b486d81fd501c2d67619b9d860df7df1375"
+    },
+    {
+      "id": "math-fitb-023",
+      "independentlyCalculatedAnswer": "7/12, 2/3, 3/4, 5/6",
+      "questionSha256": "3e5645b422840e301ac2a099d72f67ee8c26e83eb159786bc5f36575cc5fafde"
+    },
+    {
+      "id": "math-mc-044",
+      "independentlyCalculatedAnswer": "1% less",
+      "questionSha256": "cd1279413cb5beca8bbf436a09d97086ad56b234fa8f6e7a50e1f44f18cf0cfc"
+    },
+    {
+      "id": "math-tf-044",
+      "independentlyCalculatedAnswer": "1% less",
+      "questionSha256": "6b4f0d24ada76f5cffef5eeef37a4e09ef7e612bd6b7b74da98aa557699ba56e"
+    },
+    {
+      "id": "math-fitb-044",
+      "independentlyCalculatedAnswer": "1% less",
+      "questionSha256": "05cf0d69769adc024e441a5fada0efb389036b502c87939d55bc8828f408f97b"
+    },
+    {
+      "id": "math-mc-052",
+      "independentlyCalculatedAnswer": "1.44",
+      "questionSha256": "1d92cd204a6dc4164594c92ea579f8050e333438096e07a4bcb81255dec8435b"
+    },
+    {
+      "id": "math-tf-052",
+      "independentlyCalculatedAnswer": "1.44",
+      "questionSha256": "6838f4d055d6081d0e86c149cf9e5b57c021103984f2a643a87964ade1e71f69"
+    },
+    {
+      "id": "math-fitb-052",
+      "independentlyCalculatedAnswer": "1.44",
+      "questionSha256": "746a1a70c96be16ab75e669bcbb2110fd9080485594f3ebf333945f4abd84eee"
+    },
+    {
+      "id": "math-mc-053",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "2ddca9cd02d29f823c45c7b512a2f02772ba59ac204801cfbcbd95298f07ce03"
+    },
+    {
+      "id": "math-tf-053",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "48fa8f984b2b74e6a3a1337e19250baf2202ece7c451806029e3d8ef94dd264a"
+    },
+    {
+      "id": "math-fitb-053",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "b3444236ae854f84e660fe18ade2647e1b20474e65f7f97c9d3c868e09ebc100"
+    },
+    {
+      "id": "math-mc-055",
+      "independentlyCalculatedAnswer": "9",
+      "questionSha256": "9500e3f06ef4978bbf1fbac4607de67110aece3fd5d2ba229936da1c627af3e3"
+    },
+    {
+      "id": "math-tf-055",
+      "independentlyCalculatedAnswer": "9",
+      "questionSha256": "f3e8588388e1ec2e375dcbad4b1fe037c6d4c6a4c80416b8b408c59edc144ae9"
+    },
+    {
+      "id": "math-fitb-055",
+      "independentlyCalculatedAnswer": "9",
+      "questionSha256": "3c9e09592dd391f79969dabdf0620458d41be036cdaf2ec96b4c8136b125d106"
+    },
+    {
+      "id": "math-mc-056",
+      "independentlyCalculatedAnswer": "2.8",
+      "questionSha256": "1f8e38d2a58ef94c35ad6beb28ed6625e87184b848548ab8a0436ef419d2a76b"
+    },
+    {
+      "id": "math-tf-056",
+      "independentlyCalculatedAnswer": "2.8",
+      "questionSha256": "5edf8110ac6acaf5e0911872978c593ea7c779acd6b84c310fc0366083e81090"
+    },
+    {
+      "id": "math-fitb-056",
+      "independentlyCalculatedAnswer": "2.8",
+      "questionSha256": "84ab6dfb8dd2b788ef65dc866444f75beaf4a5173d38a5abf1d5e64e338d0fa1"
+    },
+    {
+      "id": "math-mc-057",
+      "independentlyCalculatedAnswer": "0.085",
+      "questionSha256": "1cdcf0044e10ee8b283e5e8ea735fa01c4031d50c8e286c005eaf3a4858acc44"
+    },
+    {
+      "id": "math-tf-057",
+      "independentlyCalculatedAnswer": "0.085",
+      "questionSha256": "dc800ca071762e75f640b8e44cb388dc7098db31e5170a1b180de80e32872f8e"
+    },
+    {
+      "id": "math-fitb-057",
+      "independentlyCalculatedAnswer": "0.085",
+      "questionSha256": "d11c09f7485a31d6bf53fa2a6528b7fd92e880bec2d12e82555987fcb9839965"
+    },
+    {
+      "id": "math-mc-058",
+      "independentlyCalculatedAnswer": "42",
+      "questionSha256": "eb3e87c3044dd05ce3ab039073742122ac3006f3cf4bd5b7b056e2c46dda9b12"
+    },
+    {
+      "id": "math-tf-058",
+      "independentlyCalculatedAnswer": "42",
+      "questionSha256": "64a3efb39c32620ab58f139c95c8a278b8ceebc483178fb5de51b519330de78a"
+    },
+    {
+      "id": "math-fitb-058",
+      "independentlyCalculatedAnswer": "42",
+      "questionSha256": "2ad877722889694cb858026f2ea06c09f47c38ffd3f3adeee8a39cd9963857e2"
+    },
+    {
+      "id": "math-mc-059",
+      "independentlyCalculatedAnswer": "4670",
+      "questionSha256": "2b5257de6aeb0c53c722c1cfaa18124fea1ce05bd66b25ccfa1574a008743aa4"
+    },
+    {
+      "id": "math-tf-059",
+      "independentlyCalculatedAnswer": "4670",
+      "questionSha256": "0899ee16462e01994d98cc9e339ef6e70c104a691a1d8b2d288fe19d450b1708"
+    },
+    {
+      "id": "math-fitb-059",
+      "independentlyCalculatedAnswer": "4670",
+      "questionSha256": "b33f1420f28f5d1b664d474f24854f8d5204081915ab7b83808a60d29bcf0c1e"
+    },
+    {
+      "id": "math-mc-060",
+      "independentlyCalculatedAnswer": "0.35",
+      "questionSha256": "af6e543bc2981b6ba54b4157c399d808ed20abdc4082abce7b07729b311aa247"
+    },
+    {
+      "id": "math-tf-060",
+      "independentlyCalculatedAnswer": "0.35",
+      "questionSha256": "6912a99999b16fbcee1f1123f3d3c87bfe1f1a4b602ef03c3a5463406ae99d7e"
+    },
+    {
+      "id": "math-fitb-060",
+      "independentlyCalculatedAnswer": "0.35",
+      "questionSha256": "aeab04ee6978beccbf663cd4a9c9e207b346f805fbff9abddd38a90063abc3f1"
+    },
+    {
+      "id": "math-mc-075",
+      "independentlyCalculatedAnswer": "3:5:4",
+      "questionSha256": "977a2302083d68b95fe74b08dd5dbb2c8af34251228ed6c70d7d706cd0132861"
+    },
+    {
+      "id": "math-tf-075",
+      "independentlyCalculatedAnswer": "3:5:4",
+      "questionSha256": "85a2c476803276bd5cf4472982ca7ab8cce6045035fccff44aa6d3bcbe16004c"
+    },
+    {
+      "id": "math-fitb-075",
+      "independentlyCalculatedAnswer": "3:5:4",
+      "questionSha256": "626c71c5f47255b4f39d57c84f7fddb393b74f1601a9f0aa7cfe67666132d9aa"
+    },
+    {
+      "id": "math-mc-081",
+      "independentlyCalculatedAnswer": "3n + 2",
+      "questionSha256": "81e0e9a97f3eaf4e76d6595ed5d898ab62b7c90b9baa383c9412fbfb1451b180"
+    },
+    {
+      "id": "math-tf-081",
+      "independentlyCalculatedAnswer": "3n + 2",
+      "questionSha256": "e783a6859c563b39c4643f446e84ac973b0d222f32ffdeb4dc8e93ebe4b548d6"
+    },
+    {
+      "id": "math-fitb-081",
+      "independentlyCalculatedAnswer": "3n + 2",
+      "questionSha256": "774b3016e966bdf8b15424190795b6b3db4b609da46b9c4c446c588adc244801"
+    },
+    {
+      "id": "math-mc-089",
+      "independentlyCalculatedAnswer": "3(2x + 3)",
+      "questionSha256": "6c696b5169d60673673f18ce0bdec7183f10d45291e451f186eb49f469724f33"
+    },
+    {
+      "id": "math-tf-089",
+      "independentlyCalculatedAnswer": "3(2x + 3)",
+      "questionSha256": "88d57fdec9812accd6c0ff9abc9c7cf32937719c51f452859843d071cf17d06c"
+    },
+    {
+      "id": "math-fitb-089",
+      "independentlyCalculatedAnswer": "3(2x + 3)",
+      "questionSha256": "ebec2c92aa9f145aafb3c91209e1cf25833a78cfea58765a6456e52ccb4c7aa5"
+    },
+    {
+      "id": "math-mc-101",
+      "independentlyCalculatedAnswer": "Stays same",
+      "questionSha256": "a4bfaee79b8e14b04600272837a577890c37c8f3773aca5b84a1d01fe9a6676f"
+    },
+    {
+      "id": "math-tf-101",
+      "independentlyCalculatedAnswer": "Stays same",
+      "questionSha256": "9e66f8e7ace0f52731b39c068d15b9a8d70a76ebfe04a3b3612d9300bd4b4ddb"
+    },
+    {
+      "id": "math-fitb-101",
+      "independentlyCalculatedAnswer": "Stays same",
+      "questionSha256": "3454970d63ee68c23a8e3741f08f81f6f8fa6d915948e66d9cc07a41f800a01f"
+    },
+    {
+      "id": "math-mc-102",
+      "independentlyCalculatedAnswer": "56.52",
+      "questionSha256": "b6cd289cce10456848269ca2bba73f68bd7080779d3c19d170f20a5085acf190"
+    },
+    {
+      "id": "math-tf-102",
+      "independentlyCalculatedAnswer": "56.52",
+      "questionSha256": "dc18b35ea89789027577083cd20ee66d47de4194c9cef7d9afab4b9224da9d8c"
+    },
+    {
+      "id": "math-fitb-102",
+      "independentlyCalculatedAnswer": "56.52",
+      "questionSha256": "8eefd04f89364a923a82ace49a077f8f38f99e45e22039074e0bcabc4dfc5e03"
+    },
+    {
+      "id": "math-mc-107",
+      "independentlyCalculatedAnswer": "216",
+      "questionSha256": "8f71f2863866fa53828910e1f60e582cefb2f2fd50b5a503bc776791d0e7427f"
+    },
+    {
+      "id": "math-tf-107",
+      "independentlyCalculatedAnswer": "216",
+      "questionSha256": "880acb5eee211e7dde222b55a6702b343ecb143a2176bd15b6575151bca2a902"
+    },
+    {
+      "id": "math-fitb-107",
+      "independentlyCalculatedAnswer": "216",
+      "questionSha256": "0c205b54d48c3d50cd01f7baa5d5b3fc62fa09b9e2489a16d78b296b9481e3e9"
+    },
+    {
+      "id": "math-mc-109",
+      "independentlyCalculatedAnswer": "785",
+      "questionSha256": "a32c54a9e1417131e760ad2f697c5700a5906276bfcb042ae183e4193c844aaf"
+    },
+    {
+      "id": "math-tf-109",
+      "independentlyCalculatedAnswer": "785",
+      "questionSha256": "f6656d5f00dc05fa4a51eeb1cc042e7578b247120bef94967cc00c55fbbcf51a"
+    },
+    {
+      "id": "math-fitb-109",
+      "independentlyCalculatedAnswer": "785",
+      "questionSha256": "247f72509d1d5fcc247c27156a04e690ca0852bcdff7160cba9b72c1cd67243a"
+    },
+    {
+      "id": "math-mc-113",
+      "independentlyCalculatedAnswer": "360",
+      "questionSha256": "7d398bf5f111851fd451b2b4ea0c368336eef5fcb4c8c1581c401a7bd6d821af"
+    },
+    {
+      "id": "math-tf-113",
+      "independentlyCalculatedAnswer": "360",
+      "questionSha256": "11bb9307ee3853cd164917a810098e14f969d1650f2a608d6994fedce840e3e2"
+    },
+    {
+      "id": "math-fitb-113",
+      "independentlyCalculatedAnswer": "360",
+      "questionSha256": "adecbe949621af0cf25da7b00969299945daedc4c75b2f186159fce5f6b6a2c8"
+    },
+    {
+      "id": "math-mc-114",
+      "independentlyCalculatedAnswer": "55",
+      "questionSha256": "8552dac2ff206d3ae7d2ca22c28719fc597d29187ddcabd415aaed5f77473fe5"
+    },
+    {
+      "id": "math-tf-114",
+      "independentlyCalculatedAnswer": "55",
+      "questionSha256": "491617e8e8c61199cc506f23e4a7b1507679fd61164d16b495c75cf788b3b5f4"
+    },
+    {
+      "id": "math-fitb-114",
+      "independentlyCalculatedAnswer": "55",
+      "questionSha256": "04b87f1da89420763481c48cbce4a721106df8d757d96bb7ad00cf898fd4b3e5"
+    },
+    {
+      "id": "math-mc-115",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "7bd3a9454516a91fc39422c286dc7f20f070b32c525c385fa68e6436cf5a3e6d"
+    },
+    {
+      "id": "math-tf-115",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "262b25a12d42269aa6ab2278f4ef22d50a5135a66b8eeaf9d19fddc23aabea8a"
+    },
+    {
+      "id": "math-fitb-115",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "4032f6d3457c8695621bc7208dd502362985ce39075ebf661e5c1ffbaca906e1"
+    },
+    {
+      "id": "math-mc-116",
+      "independentlyCalculatedAnswer": "72",
+      "questionSha256": "080f278306eecf7063278e9174da6c564be041671ceed0dcec8d9377e9b9c630"
+    },
+    {
+      "id": "math-tf-116",
+      "independentlyCalculatedAnswer": "72",
+      "questionSha256": "dcee62e94d38055c215b58efd36b008b5aead2b692248d2bbe1fecee7939d2dd"
+    },
+    {
+      "id": "math-fitb-116",
+      "independentlyCalculatedAnswer": "72",
+      "questionSha256": "c73660ae8d1f7b99dadecbe0d24d7a276dceade797069654a032cfde103eb757"
+    },
+    {
+      "id": "math-mc-117",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "42ce53c15774636551855eb18e75a4314bf4f45df830fb12b8796c863cc3a9f6"
+    },
+    {
+      "id": "math-tf-117",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "216139cd70fafa638deb957d7460edba3150771e80b274c9b56f6669b238a0b0"
+    },
+    {
+      "id": "math-fitb-117",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "0f82fbd5c5acd985870448a0ac130849b6b5291587f8e3c7489770d212a95eda"
+    },
+    {
+      "id": "math-mc-118",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "e9ddfcc309d99d2d26ee5c81db95ecbda6ae741a9dcb5d5ccf72bf6dbf52cdb5"
+    },
+    {
+      "id": "math-tf-118",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "a946d273060c1f8ae4f7c49ebe4e3e4fa0816ea886a72f7284352086f58b5c32"
+    },
+    {
+      "id": "math-fitb-118",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "a74912547ad952535173948a7c2c4e65de53468b5b314e8ddb06b8f850e264f8"
+    },
+    {
+      "id": "math-mc-119",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "cee044c45ac366da1d791a08b5f16788b3218b8a1327cdde7198e11d5c14ff9d"
+    },
+    {
+      "id": "math-tf-119",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "303b405effc9a69c115b4f3121224215babe704668c03795921063ce18630768"
+    },
+    {
+      "id": "math-fitb-119",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "2a1ff4316f461521e084bde77a15435246e26e6a94aabf7c91cb32164e6b3307"
+    },
+    {
+      "id": "math-mc-120",
+      "independentlyCalculatedAnswer": "equal",
+      "questionSha256": "79fcf9c1ae1476b1c76cd44dfd9c8d0badd8f7998b8d0f1e9173d8ae02c9c3c4"
+    },
+    {
+      "id": "math-tf-120",
+      "independentlyCalculatedAnswer": "equal",
+      "questionSha256": "88bbc1066622ad57370ee1fedd4e6c8e92386296dfb60615746737a808ff4ee2"
+    },
+    {
+      "id": "math-fitb-120",
+      "independentlyCalculatedAnswer": "equal",
+      "questionSha256": "c707675979dff3c474a46b76704e4f0278c799f62b3e9bdc574416ed40697ce0"
+    },
+    {
+      "id": "math-mc-121",
+      "independentlyCalculatedAnswer": "57.5",
+      "questionSha256": "6faab096feaedea0902b6ade47d2b0ff7d7c1541b6f3b519733f4b890028d7b4"
+    },
+    {
+      "id": "math-tf-121",
+      "independentlyCalculatedAnswer": "57.5",
+      "questionSha256": "4e53bd9641ed50c06a3709f2a8e7cd60f7eac0108e38678af8e170dd78fdeda7"
+    },
+    {
+      "id": "math-fitb-121",
+      "independentlyCalculatedAnswer": "57.5",
+      "questionSha256": "93193ed61857d4edb065543d963dc2ac1e3ae44d8283a2966e6e74dd48e7efd7"
+    },
+    {
+      "id": "math-mc-122",
+      "independentlyCalculatedAnswer": "Scalene",
+      "questionSha256": "1b9d08802dd0f243bd80424af2b91ccd78edd38655362a8bf518a0c6f901b9b7"
+    },
+    {
+      "id": "math-tf-122",
+      "independentlyCalculatedAnswer": "Scalene",
+      "questionSha256": "7e3ad44610b791b49bc84754e9a7d900f085478ba50b797c1108316b14cb66f2"
+    },
+    {
+      "id": "math-fitb-122",
+      "independentlyCalculatedAnswer": "Scalene",
+      "questionSha256": "30bad5cbfa76b7933b0d50ac77247ce65ddd44001749c2fc6a8bb8e2800a8280"
+    },
+    {
+      "id": "math-mc-123",
+      "independentlyCalculatedAnswer": "540",
+      "questionSha256": "93012bc2e88ab0bf52ad4c4522454a2c8b09715b9f391379519f67d03cde82c4"
+    },
+    {
+      "id": "math-tf-123",
+      "independentlyCalculatedAnswer": "540",
+      "questionSha256": "84a032a0335ac7420fe1b2e3c2ee4de1f62ed73a51e378d932cd543f381ff2a6"
+    },
+    {
+      "id": "math-fitb-123",
+      "independentlyCalculatedAnswer": "540",
+      "questionSha256": "54584d0ffae344d6aa7ccfe91154a58f6786a65f8ec2c3241245fcbe77c32c78"
+    },
+    {
+      "id": "math-mc-124",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "0e427b9dfb799b03d8c2914e322c4db7ab7a420a5ebf22a9e503654275f8056e"
+    },
+    {
+      "id": "math-tf-124",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "5ecf0e9c2614683a517345ca6b4eb92b0a924588c42607ea9ccadde6ba550ac6"
+    },
+    {
+      "id": "math-fitb-124",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "b682c9596fdb76b868c970e3f10d5c858ddf67b68989f919e05d14a0e076b8cd"
+    },
+    {
+      "id": "math-mc-141",
+      "independentlyCalculatedAnswer": "162",
+      "questionSha256": "d695116abaa584a7ec7e3390b89b703b32ee77e9ef5e2b51372564763af188d7"
+    },
+    {
+      "id": "math-tf-141",
+      "independentlyCalculatedAnswer": "162",
+      "questionSha256": "5386de47c4d0aa61f69d74da29523a4560df0297852a357eb8c59fe517a4ca17"
+    },
+    {
+      "id": "math-fitb-141",
+      "independentlyCalculatedAnswer": "162",
+      "questionSha256": "5adb1ec67413ed6a2ae4550b142613ffdfab599a0dcd70be337f85e9b3469a2d"
+    },
+    {
+      "id": "math-mc-142",
+      "independentlyCalculatedAnswer": "16",
+      "questionSha256": "851697bab672e6225bf27c62752c63b38f23769ace39143ff96dd28a29469ca7"
+    },
+    {
+      "id": "math-tf-142",
+      "independentlyCalculatedAnswer": "16",
+      "questionSha256": "f4e4b2185e34e789163479a8e5ee4605b51d4e909ceee19af0015c2572bfbcbd"
+    },
+    {
+      "id": "math-fitb-142",
+      "independentlyCalculatedAnswer": "16",
+      "questionSha256": "2cf5e0cf1ee20664c44612352bdbc174920d087eeb96c43939af802fd0254df6"
+    },
+    {
+      "id": "math-mc-143",
+      "independentlyCalculatedAnswer": "21",
+      "questionSha256": "592f985ad1fd3487e1354386d4861c4ac2ba23ec7af68385f4e9b2dd56f418fc"
+    },
+    {
+      "id": "math-tf-143",
+      "independentlyCalculatedAnswer": "21",
+      "questionSha256": "4c6ac21f510a2c6250f9c525fcd9c7609b0eb5da0693abb8a03e595ba57432e1"
+    },
+    {
+      "id": "math-fitb-143",
+      "independentlyCalculatedAnswer": "21",
+      "questionSha256": "6b088bfb3ff652a7f0b7827b5216510bbcc9853928194a5f03bb9762ae6748ce"
+    },
+    {
+      "id": "math-mc-144",
+      "independentlyCalculatedAnswer": "73",
+      "questionSha256": "68ed40ab860702c2115ceeedc3e1e25691789e6ae24e49d2aa6475040cac1bd0"
+    },
+    {
+      "id": "math-tf-144",
+      "independentlyCalculatedAnswer": "73",
+      "questionSha256": "daa7ad2efe39d5018de8e797304ac7a6d4d0bd0b516ade59bdedd991ee74f737"
+    },
+    {
+      "id": "math-fitb-144",
+      "independentlyCalculatedAnswer": "73",
+      "questionSha256": "c7c8c3bf7cffd51c788ed50df8298c476e6377af71497f0a97cdda4509d636de"
+    },
+    {
+      "id": "math-mc-145",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "6fa9f2d07b9449c25a720de26647bef5dc99f3ed46ad682a60d8070f42baee71"
+    },
+    {
+      "id": "math-tf-145",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "1a8f267bae1baaf6136128d515168236b3b20be3e422ba6be9ace95d1f7d1dcd"
+    },
+    {
+      "id": "math-fitb-145",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "e8c09330636ce12e5a3052764b7c43e35ecca623a23a5cfc1de5417abd9e710b"
+    },
+    {
+      "id": "math-mc-146",
+      "independentlyCalculatedAnswer": "21",
+      "questionSha256": "12121ea61d47c11b92eaced388f4744c215aefdf4311f33a92317b5af7381598"
+    },
+    {
+      "id": "math-tf-146",
+      "independentlyCalculatedAnswer": "21",
+      "questionSha256": "096ebf9d06cf19cf297e1fb6a0b84af789759b6d6bd5127e9bc3bd3eb4077223"
+    },
+    {
+      "id": "math-fitb-146",
+      "independentlyCalculatedAnswer": "21",
+      "questionSha256": "8eab1c579515316e17a79aeb48c2222bd6ffe8284a9936860e828f061785794b"
+    },
+    {
+      "id": "math-mc-147",
+      "independentlyCalculatedAnswer": "4n + 3",
+      "questionSha256": "bafce8dbd97a80cb70d914b6440f65fa6a8c4b24d5ada6111fdfae1e099a4f30"
+    },
+    {
+      "id": "math-tf-147",
+      "independentlyCalculatedAnswer": "4n + 3",
+      "questionSha256": "2a34cadc17562eeb5085e4bb3b573fa05b90c969706e6e10cf7ff60642fc4f9f"
+    },
+    {
+      "id": "math-fitb-147",
+      "independentlyCalculatedAnswer": "4n + 3",
+      "questionSha256": "e03bfa65913a6ee69fa5e0fb6fa565f25588a578719a028305f9f6c63de27233"
+    },
+    {
+      "id": "math-mc-148",
+      "independentlyCalculatedAnswer": "243",
+      "questionSha256": "9da9e04d8a19be732cb23e39cec3dc9043de1ea30b0d6f41183b95a7bd1702a8"
+    },
+    {
+      "id": "math-tf-148",
+      "independentlyCalculatedAnswer": "243",
+      "questionSha256": "69362a43df866bf6df174a41d2f546c9f9d9bcfd65ff334d95a8a44321f80139"
+    },
+    {
+      "id": "math-fitb-148",
+      "independentlyCalculatedAnswer": "243",
+      "questionSha256": "f2ab5058792448de67608a5beae7f982cadb0f39d96e202a09297b54265a72d9"
+    },
+    {
+      "id": "math-mc-149",
+      "independentlyCalculatedAnswer": "302",
+      "questionSha256": "56e12774a4cc2d3d5c82830a12ddc5a9704e51a725733c95e3311dd82ddf203b"
+    },
+    {
+      "id": "math-tf-149",
+      "independentlyCalculatedAnswer": "302",
+      "questionSha256": "f6f0c7806c40736e2a121edbe909aa99fc91b96c6659bdbad91993cbace17646"
+    },
+    {
+      "id": "math-fitb-149",
+      "independentlyCalculatedAnswer": "302",
+      "questionSha256": "024f9743cf9b9d3f267e95592745b006c3c4d0abcca343e38dbf269fa2605804"
+    },
+    {
+      "id": "math-mc-150",
+      "independentlyCalculatedAnswer": "16th",
+      "questionSha256": "32476ea925484672140ba8ce0917a8e4e9c755217a615b0eb7c0ddf8579ee8b0"
+    },
+    {
+      "id": "math-tf-150",
+      "independentlyCalculatedAnswer": "16th",
+      "questionSha256": "24a5b59234944919bc0b0eeccc733b398e84986026dfb62330830164161b50eb"
+    },
+    {
+      "id": "math-fitb-150",
+      "independentlyCalculatedAnswer": "16th",
+      "questionSha256": "f037fd27bc7f96935013a09abf78f484e09e5991056c1e1f28f60305b8f3f7e1"
+    },
+    {
+      "id": "math-mc-156",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "69c6e839997c75a4f40ffedfa48e25ed9ad36d3606257c5b98d350b55a0e084b"
+    },
+    {
+      "id": "math-tf-156",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "8c7c486e562b4e409c2c1308ac834dda7bd594c594147de2ecb899c0e3d9e4f0"
+    },
+    {
+      "id": "math-fitb-156",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "698c22aeeed0b30e7f9d842549213e94b74cc3767ff5510edb1e72bbf03346a6"
+    },
+    {
+      "id": "math-mc-157",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "414db056fcc7fcd94688ab1e6c39680573a28c7cb4447dc8dc0f2eb873973e64"
+    },
+    {
+      "id": "math-tf-157",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "1039b4ffc4ccdd39dfaddc9a226c7a2bed1bf0442504c212a137f19585370173"
+    },
+    {
+      "id": "math-fitb-157",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "0e6c99c95bd923363ed4d0c4f1afef6908bb6f1d543c8a852ed510d14a8e81e4"
+    },
+    {
+      "id": "math-mc-162",
+      "independentlyCalculatedAnswer": "13.5",
+      "questionSha256": "196b0978f9aca22ff9ec1e14811f104dac2d9eb34f7e08f5d9a183e6eefc3165"
+    },
+    {
+      "id": "math-tf-162",
+      "independentlyCalculatedAnswer": "13.5",
+      "questionSha256": "b7ce797df2d9bd7b362c9940ecf47b3f31b1eba18d164fa0d0096ae357597c94"
+    },
+    {
+      "id": "math-fitb-162",
+      "independentlyCalculatedAnswer": "13.5",
+      "questionSha256": "fe22aa8d0c1da2d0b8326fcdf8f63d68a8c647c7a470ada7d8a7ae760d0a553b"
+    },
+    {
+      "id": "math-mc-163",
+      "independentlyCalculatedAnswer": "12.7",
+      "questionSha256": "2b9964812e41a570edfd716b482cdb6dcb374525b97cff1462abd6aaf15d047b"
+    },
+    {
+      "id": "math-tf-163",
+      "independentlyCalculatedAnswer": "12.7",
+      "questionSha256": "5b92d14d9975d5548ba0f412389f6209585a375a645d4fead6e1cdf20d304e17"
+    },
+    {
+      "id": "math-fitb-163",
+      "independentlyCalculatedAnswer": "12.7",
+      "questionSha256": "cf6936acd76da7d6e4760dffb8b9b106683f9f034fbba8869eff3929327c5311"
+    },
+    {
+      "id": "math-mc-173",
+      "independentlyCalculatedAnswer": "2/6",
+      "questionSha256": "15f7b026110b381170e2dfed61fc988c30bac4e075306b116eed6c8a9958e9ef"
+    },
+    {
+      "id": "math-tf-173",
+      "independentlyCalculatedAnswer": "2/6",
+      "questionSha256": "0dcfc6acdd12ff0497f7a6261385c4f6fe1937cc7347beaa4c952989de49fd01"
+    },
+    {
+      "id": "math-fitb-173",
+      "independentlyCalculatedAnswer": "2/6",
+      "questionSha256": "d135aa3d02b1980d857e48b591fc3797f3afe4276190ba59805612f56371fdd2"
+    },
+    {
+      "id": "math-mc-174",
+      "independentlyCalculatedAnswer": "13/52",
+      "questionSha256": "06dd6b262206572c7fd1be8769b765fa18e9a91fd22cfe105a2f36aac1a6de60"
+    },
+    {
+      "id": "math-tf-174",
+      "independentlyCalculatedAnswer": "13/52",
+      "questionSha256": "cdb4c4c04499b6be2df45d30efdab74f1cca47b10a2ecd3ea53e17e574be97a1"
+    },
+    {
+      "id": "math-fitb-174",
+      "independentlyCalculatedAnswer": "13/52",
+      "questionSha256": "6a4cc39c39c84d921ca255103abdbadd4220719096569865f91ab02c32fe4294"
+    },
+    {
+      "id": "math-mc-176",
+      "independentlyCalculatedAnswer": "1/4",
+      "questionSha256": "a09241d2c89d2e964d1d183da8cbe422b2986d7430f1bc5aafa94ba04b2610ae"
+    },
+    {
+      "id": "math-tf-176",
+      "independentlyCalculatedAnswer": "1/4",
+      "questionSha256": "1640671ed9ad6dfbe5aa082aae535611bd8078de713654205fd0d75bcc76b9ca"
+    },
+    {
+      "id": "math-fitb-176",
+      "independentlyCalculatedAnswer": "1/4",
+      "questionSha256": "5e965829af2ac796a95454b0e83f4a3df6d2077cf475fb0706f5b124cef0f991"
+    },
+    {
+      "id": "math-mc-178",
+      "independentlyCalculatedAnswer": "2/6",
+      "questionSha256": "b699e4e55d942db32faa9f00b66ae54156eea38f1c7611da9b9f13b1605b8dc7"
+    },
+    {
+      "id": "math-tf-178",
+      "independentlyCalculatedAnswer": "2/6",
+      "questionSha256": "f76daabc4791d8dde8a1d542601496268430803cbb97e79e1e7b46ccf2006135"
+    },
+    {
+      "id": "math-fitb-178",
+      "independentlyCalculatedAnswer": "2/6",
+      "questionSha256": "c2a739755609c8eb8cb15511ab41f19c08ad2be7c859b59c47ba11cf37759c08"
+    },
+    {
+      "id": "math-mc-179",
+      "independentlyCalculatedAnswer": "(5,7)",
+      "questionSha256": "4b7378d65ae8de51232644b608e09f3fe00439bd5eeb0c9b5f3e3c815c9dd9b6"
+    },
+    {
+      "id": "math-tf-179",
+      "independentlyCalculatedAnswer": "(5,7)",
+      "questionSha256": "5f9b95017bba1209992af4458c500a846e2ab49651a06bcd4efd03a66d21291f"
+    },
+    {
+      "id": "math-fitb-179",
+      "independentlyCalculatedAnswer": "(5,7)",
+      "questionSha256": "42c8ef1aac00c4e1b8fc8bcb217ec351f110e4d5e503ef5bcf0fba2a91717746"
+    },
+    {
+      "id": "math-mc-180",
+      "independentlyCalculatedAnswer": "(−3,−2)",
+      "questionSha256": "dcb82af533da1a09ef9ef261faccf0824101d3fbc3c4613f58bee7e89dd8fb1c"
+    },
+    {
+      "id": "math-tf-180",
+      "independentlyCalculatedAnswer": "(−3,−2)",
+      "questionSha256": "40293108e656076d3aa20bdd5c451835e3aa685f3abb9298023849b0490f5d0b"
+    },
+    {
+      "id": "math-fitb-180",
+      "independentlyCalculatedAnswer": "(−3,−2)",
+      "questionSha256": "b7acbcf8e1b3682ac04ad23a016c619bf5f8f33193b659fbe726749834ac5c3e"
+    },
+    {
+      "id": "math-mc-181",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "c3c03d0938b2adff3b460920bf957c32bed8f6d3f795c972c458d112bd95f491"
+    },
+    {
+      "id": "math-tf-181",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "754b268ede19109565023b0f8700597c7b154f11e43ba2a47aa28ca8f1fe5106"
+    },
+    {
+      "id": "math-fitb-181",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "6203112b3f3ff7da0efd7e6e1ce71f670529a544327cd88ce9f6ea3dd576f0b0"
+    },
+    {
+      "id": "math-mc-182",
+      "independentlyCalculatedAnswer": "(3,7)",
+      "questionSha256": "2374d62cc08880b97aeeae613a6d6166907079ad48171a6e492b5d42b80a7831"
+    },
+    {
+      "id": "math-tf-182",
+      "independentlyCalculatedAnswer": "(3,7)",
+      "questionSha256": "9a6f0032bba59b86f41078b3462d6c13127d41124611195c9067c9f6c9104c79"
+    },
+    {
+      "id": "math-fitb-182",
+      "independentlyCalculatedAnswer": "(3,7)",
+      "questionSha256": "901e80dc2fcb942292766f0afc1d7d80cf1f2b291fac5c84bbebe72a72c5a4c8"
+    },
+    {
+      "id": "math-mc-183",
+      "independentlyCalculatedAnswer": "(5,2)",
+      "questionSha256": "abaab269e1dc64080182c57ed07ab4f0c0a08c43127adcd4e7200242d6f18bca"
+    },
+    {
+      "id": "math-tf-183",
+      "independentlyCalculatedAnswer": "(5,2)",
+      "questionSha256": "e9cf2c9950fa0d948a940a92de461b21f708667d3757721185e2f9ad080dccfa"
+    },
+    {
+      "id": "math-fitb-183",
+      "independentlyCalculatedAnswer": "(5,2)",
+      "questionSha256": "ff314535072f73ab4cd3eec19e50d1084ecce404d59d0812f8e11b0f70a30f1e"
+    },
+    {
+      "id": "math-mc-184",
+      "independentlyCalculatedAnswer": "(0,−7)",
+      "questionSha256": "8573bb782b7d0e516f6061e0ecc65dbcabad760a011dca24991961799e573772"
+    },
+    {
+      "id": "math-tf-184",
+      "independentlyCalculatedAnswer": "(0,−7)",
+      "questionSha256": "17668e271ebceb8c966107268b541d255eb845bcd8a9a22a843e4df81dce46de"
+    },
+    {
+      "id": "math-fitb-184",
+      "independentlyCalculatedAnswer": "(0,−7)",
+      "questionSha256": "ce15ea64374895c180c69a588b4c3416d7de933f09b888115877d7ae404fdacd"
+    },
+    {
+      "id": "math-mc-185",
+      "independentlyCalculatedAnswer": "(3,−4)",
+      "questionSha256": "521da29b6400c854ce84b7b0c2366a53366f2bda93d780f34107f892f9afd85f"
+    },
+    {
+      "id": "math-tf-185",
+      "independentlyCalculatedAnswer": "(3,−4)",
+      "questionSha256": "e15ff44a0882c326af259582eddaee038c3836bcbb4a3ea201a1dc3ac83ff1be"
+    },
+    {
+      "id": "math-fitb-185",
+      "independentlyCalculatedAnswer": "(3,−4)",
+      "questionSha256": "ef8d9c53da415571b0dff6cbd9f36908d5c25bcaf81dc7fdfce063c7a8d035c8"
+    },
+    {
+      "id": "math-mc-186",
+      "independentlyCalculatedAnswer": "63",
+      "questionSha256": "5fdf41ed5c19ebc366d8e15d812582dc99ff8ee0dd2094e9ac0c5159c470ad9f"
+    },
+    {
+      "id": "math-tf-186",
+      "independentlyCalculatedAnswer": "63",
+      "questionSha256": "03d33bb66723d91ae8eb388f27e7dc090b560eb38e867ed3718774e80c5cd794"
+    },
+    {
+      "id": "math-fitb-186",
+      "independentlyCalculatedAnswer": "63",
+      "questionSha256": "07fd4d15dd9c52346f0eba58f58b2b23f7e052eb2a4c3a9e90e315ea4612da6a"
+    },
+    {
+      "id": "math-mc-188",
+      "independentlyCalculatedAnswer": "70.2",
+      "questionSha256": "1062b823100a9aa1ca1a7aa4d561840f0bcefa10441964d23c6ad0a4e2978dd2"
+    },
+    {
+      "id": "math-tf-188",
+      "independentlyCalculatedAnswer": "70.2",
+      "questionSha256": "b22c70668cb132b1d837e329de19ddbb6c951e07dc61561ced7a5954e5145bde"
+    },
+    {
+      "id": "math-fitb-188",
+      "independentlyCalculatedAnswer": "70.2",
+      "questionSha256": "237fe7ed63cb9ad584b70d3843922e906cadf4f516532ec2c096451ff26de7ab"
+    },
+    {
+      "id": "math-mc-190",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "5d060dc3798ee8fc4529ea30adecede9bfae3948c6fd7f0cced7087415411020"
+    },
+    {
+      "id": "math-tf-190",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "b2e8e715fc6c07ec0a1c61cb1bb47f92e9361d66bb80fda68ef6ee451d3a2151"
+    },
+    {
+      "id": "math-fitb-190",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "da7ac46339fcdd08dd8137d2e5f665f4bc9b33a305997e8c7f729db9a50bb381"
+    },
+    {
+      "id": "math-mc-192",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "dc7be5a23fe90782ffdf48b5a9ded731c093b80eaf2916a214552b6a140679e2"
+    },
+    {
+      "id": "math-tf-192",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "3d1f8f6ab6cf56ff27615177f947ef6758270ad747e715fb72a9f7f18a7564c7"
+    },
+    {
+      "id": "math-fitb-192",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "bcc51a7031601fb1d1e380e047d1677413d03750ba8aac027c04c59d7bfd840e"
+    },
+    {
+      "id": "math-mc-193",
+      "independentlyCalculatedAnswer": "5:45pm",
+      "questionSha256": "8db39694ccc880626d1582bdeda1c312dcbe354c2a49482c687ff7618c24d583"
+    },
+    {
+      "id": "math-tf-193",
+      "independentlyCalculatedAnswer": "5:45pm",
+      "questionSha256": "a3a836e870b14bc487a8815f10a9b2ff42df1015fbf5bfe6ceeb79be5414a67f"
+    },
+    {
+      "id": "math-fitb-193",
+      "independentlyCalculatedAnswer": "5:45pm",
+      "questionSha256": "c3445ba0a9f7a445db210230fba712c9fe704096320b68c87b1838ced2c9fc28"
+    },
+    {
+      "id": "math-mc-195",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "812432c6848ec240b2d4ac1fc11094c601d820c3bee47c44df597af5e84584ad"
+    },
+    {
+      "id": "math-tf-195",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "4866ad7057d37c9b4941614edaf225b7205fb4be977a77c9feb6271b98f64f4f"
+    },
+    {
+      "id": "math-fitb-195",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "47c828309caaebd45e72567d2e7135a18204118cb033ea93fcbfb57a7a07da65"
+    },
+    {
+      "id": "math-mc-197",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "891270e7218ceecc199907d0d08a0dedb11e647f3ce2a7eaf4cf78ac97aae9ad"
+    },
+    {
+      "id": "math-tf-197",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "4a1495f4b47aa2281b0d1ae0bfcf47c6592b1fb2360d9974755e9cfbdff8d0aa"
+    },
+    {
+      "id": "math-fitb-197",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "930dcdc8b29ed91a94207b2400ecbf0a6d6775da0b3a746bd7e4c9eaeda4a53c"
+    },
+    {
+      "id": "math-mc-198",
+      "independentlyCalculatedAnswer": "-5",
+      "questionSha256": "2142baa9f3fd7ae9c77ca59e0a2cc7bf0e802fd0b406164bb0553b88610fcf03"
+    },
+    {
+      "id": "math-tf-198",
+      "independentlyCalculatedAnswer": "-5",
+      "questionSha256": "790cfd1d1f1a0e94ed2982914a4d292f8588dc59ab9acbca15f0c54b3e6a49eb"
+    },
+    {
+      "id": "math-fitb-198",
+      "independentlyCalculatedAnswer": "-5",
+      "questionSha256": "9e214f15591a8c9d20f65a30af2c22b62b377c8e4a68e8329c8661d877441925"
+    },
+    {
+      "id": "math-mc-201",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "1ce75ae97a951846f3dd27919652c205ff0023cd9669ed416e9c99a082ae7e34"
+    },
+    {
+      "id": "math-tf-201",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "879ea57dc0b3489efdd4cf6b791eb0150749a092eb3194fc7bddfa3c8c861116"
+    },
+    {
+      "id": "math-fitb-201",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "4c1b2e22b14ce9a5ae1195ba37cab543abe4556b33e9959c7c1b59839e48c4c3"
+    },
+    {
+      "id": "math-mc-202",
+      "independentlyCalculatedAnswer": "−7,−3,0,2,4",
+      "questionSha256": "fc079a187a800fc273d23ecf00e02dcfa8c95a694401a798558a7199edf938db"
+    },
+    {
+      "id": "math-tf-202",
+      "independentlyCalculatedAnswer": "−7,−3,0,2,4",
+      "questionSha256": "2b07084f283fb0c7c2fe0a3b4f0c05bf07467e9afe389b5f28fb186af91dd263"
+    },
+    {
+      "id": "math-fitb-202",
+      "independentlyCalculatedAnswer": "−7,−3,0,2,4",
+      "questionSha256": "9c394ccd7468f5547c6e2c8f705afdd42ad1aef28e31c3e8ef8b51791aa45d6f"
+    },
+    {
+      "id": "math-mc-203",
+      "independentlyCalculatedAnswer": "4800",
+      "questionSha256": "da612e0041309c19458a270eadbf2d4d678072f7ea648c8f9865ce40a33548fb"
+    },
+    {
+      "id": "math-tf-203",
+      "independentlyCalculatedAnswer": "4800",
+      "questionSha256": "d1d77418c1df92056390266b590bdeac723b292eb4dde959a6d75c0433d272e8"
+    },
+    {
+      "id": "math-fitb-203",
+      "independentlyCalculatedAnswer": "4800",
+      "questionSha256": "40e79575d915767af247d8f5e7b9d2b51f9783a545a30281f05d0a05eeffc369"
+    },
+    {
+      "id": "math-mc-204",
+      "independentlyCalculatedAnswer": "7 tenths",
+      "questionSha256": "ccdbbe605479a2358c366603e9524a1bfd6517ae843b0cddcd74719974ec3115"
+    },
+    {
+      "id": "math-tf-204",
+      "independentlyCalculatedAnswer": "7 tenths",
+      "questionSha256": "cd7ae0d19bc0add04bc61e949148d237f81601c0ebfaa68d1c41d7b5695969ab"
+    },
+    {
+      "id": "math-fitb-204",
+      "independentlyCalculatedAnswer": "7 tenths",
+      "questionSha256": "1efc03a41daa6231d3107bbcab12b7bc0d00a5f3f08c7fae179c6825433c1f69"
+    },
+    {
+      "id": "math-mc-205",
+      "independentlyCalculatedAnswer": "4670",
+      "questionSha256": "02d64adb427faa84220fed8e86cffedc64d393a857d9129fdb57a1306eec01ec"
+    },
+    {
+      "id": "math-tf-205",
+      "independentlyCalculatedAnswer": "4670",
+      "questionSha256": "4f28139a1812f41bde9f97fd4304fc5d0074523961ac34fd3bd0f05f0d2fda95"
+    },
+    {
+      "id": "math-fitb-205",
+      "independentlyCalculatedAnswer": "4670",
+      "questionSha256": "aa17e4c5bf4f8da9a55693a099e04ae75e7f934465bc1cfd05735668c8ab127d"
+    },
+    {
+      "id": "math-mc-206",
+      "independentlyCalculatedAnswer": "0.35",
+      "questionSha256": "46b13af0a69b91688cbf7384f5e055cef3597a6039a1f83568a4ac3a8f49cdb0"
+    },
+    {
+      "id": "math-tf-206",
+      "independentlyCalculatedAnswer": "0.35",
+      "questionSha256": "c997b1b83910fc8eeb7283e14eb6236baa3c5ab524df063004e485b14b96f747"
+    },
+    {
+      "id": "math-fitb-206",
+      "independentlyCalculatedAnswer": "0.35",
+      "questionSha256": "db7870b491a381cdebae690ea2a2abda3839f1762df7f1583883f378abc947eb"
+    },
+    {
+      "id": "math-mc-207",
+      "independentlyCalculatedAnswer": "8000",
+      "questionSha256": "73ee852641360153ea9281bd87e96fb6529d517c7a003fee0451419d4dcba878"
+    },
+    {
+      "id": "math-tf-207",
+      "independentlyCalculatedAnswer": "8000",
+      "questionSha256": "22c6ed5e7f69a77824341194d35238ea1e31fa876cb9c4c0589cfc438554c242"
+    },
+    {
+      "id": "math-fitb-207",
+      "independentlyCalculatedAnswer": "8000",
+      "questionSha256": "29c8f09373f379ca78f9b61e1243a708fd1a27f2c068d00216b73fa9fd8b64cd"
+    },
+    {
+      "id": "math-mc-208",
+      "independentlyCalculatedAnswer": "304.5",
+      "questionSha256": "81ed1d3c41938b66960ac97a488740f59d3311b1c70af476d039731b1deb8852"
+    },
+    {
+      "id": "math-tf-208",
+      "independentlyCalculatedAnswer": "304.5",
+      "questionSha256": "f2a834d40112af75dfce512bfed70a093bec603d4912ac629f8b3490a520077c"
+    },
+    {
+      "id": "math-fitb-208",
+      "independentlyCalculatedAnswer": "304.5",
+      "questionSha256": "ac727de9993d6828e4b1e4ecbf7774175033c010f790c5aa26031022a156cf93"
+    },
+    {
+      "id": "math-mc-209",
+      "independentlyCalculatedAnswer": "56",
+      "questionSha256": "2903f0cf10bb28af1b4a06bb6ea53429ac4aecc6b4ee1fb54495d562d0c97d7b"
+    },
+    {
+      "id": "math-tf-209",
+      "independentlyCalculatedAnswer": "56",
+      "questionSha256": "6c4b97b5a4c7c224460765fe1563e5299f6c6ecb74c473a57e98c34365ff506f"
+    },
+    {
+      "id": "math-fitb-209",
+      "independentlyCalculatedAnswer": "56",
+      "questionSha256": "cf74d0e91c683e0c47e7cddc95f963b17e96fa9811b702a3609a8f5130fcad9d"
+    },
+    {
+      "id": "math-mc-210",
+      "independentlyCalculatedAnswer": "3²",
+      "questionSha256": "638c5661557c5bf3ce7e63b718d84bfb35a270c7e77b141ffcb9e7c2eb8d584c"
+    },
+    {
+      "id": "math-tf-210",
+      "independentlyCalculatedAnswer": "3²",
+      "questionSha256": "b7ee5523fc5ae4943f4f4b0d96185c042eaa8b0fe0ca43235b071a72610d041c"
+    },
+    {
+      "id": "math-fitb-210",
+      "independentlyCalculatedAnswer": "3²",
+      "questionSha256": "dc9f8057e549ddb1349ad6b89832b5230a7c5462b269a3eb39a27c1ef92fe626"
+    },
+    {
+      "id": "math-mc-211",
+      "independentlyCalculatedAnswer": "20",
+      "questionSha256": "a30820879af2621e549e619a7876bc2a2854ab8e5757cc1cfda05012979cafa2"
+    },
+    {
+      "id": "math-tf-211",
+      "independentlyCalculatedAnswer": "20",
+      "questionSha256": "884350f55e6e6b66c0dc5ceed141fc9ab421933c90bd2f151efc0a056bef3158"
+    },
+    {
+      "id": "math-fitb-211",
+      "independentlyCalculatedAnswer": "20",
+      "questionSha256": "3bedf14ba27e9ebf238588443f8c2b512e1831b5a1280851cdbff5cf7dad3d8c"
+    },
+    {
+      "id": "math-mc-212",
+      "independentlyCalculatedAnswer": "23 and 25",
+      "questionSha256": "8d5f85702b796cb5cb7bd926961d893c074ac6adf4f981e33ad391ad6471d627"
+    },
+    {
+      "id": "math-tf-212",
+      "independentlyCalculatedAnswer": "23 and 25",
+      "questionSha256": "d6f05fe6bca78b44f7fc17ba0c7399620f0a1e0a71731bf5e96785ee1f6331d6"
+    },
+    {
+      "id": "math-fitb-212",
+      "independentlyCalculatedAnswer": "23 and 25",
+      "questionSha256": "2031cc5d70e3bf86c26e85ed1bf3e1454eaf0ee16471b7eae5a8999cc10c028d"
+    },
+    {
+      "id": "math-mc-213",
+      "independentlyCalculatedAnswer": "Right-angled isosceles triangle",
+      "questionSha256": "942faf8d38b6f34fdc3b57433cd0c6a215a782fdb266bf2603388f189b9328e9"
+    },
+    {
+      "id": "math-tf-213",
+      "independentlyCalculatedAnswer": "Right-angled isosceles triangle",
+      "questionSha256": "4c473046b1c6e69edc1e9681471d16ccd89c1eb1982c5f62c1d87906756a9ea0"
+    },
+    {
+      "id": "math-fitb-213",
+      "independentlyCalculatedAnswer": "Right-angled isosceles triangle",
+      "questionSha256": "6c7f5d6d070965a3886fcf8121ce9ceaa76c0c6df26445f735fe9844b3d160c5"
+    },
+    {
+      "id": "math-mc-214",
+      "independentlyCalculatedAnswer": "9/12",
+      "questionSha256": "9f4c3b63219473235c35b27c595b7d3e8346bfaeb98c2facdcb58a60d310d9e0"
+    },
+    {
+      "id": "math-tf-214",
+      "independentlyCalculatedAnswer": "9/12",
+      "questionSha256": "9d9b8a85e0b11b1df900c3f640163797bd7006fd270423bb026f7870e1e60963"
+    },
+    {
+      "id": "math-fitb-214",
+      "independentlyCalculatedAnswer": "9/12",
+      "questionSha256": "767f9652ac32f677ccc035207c664086be5ac90465b8e7d6385bad4789cf6d38"
+    },
+    {
+      "id": "math-mc-215",
+      "independentlyCalculatedAnswer": "27",
+      "questionSha256": "cb41bce7e82038002ed97f1fede12323de98af7f73dd605704cf232a4681ac41"
+    },
+    {
+      "id": "math-tf-215",
+      "independentlyCalculatedAnswer": "27",
+      "questionSha256": "89ea3a2e2aa8ecec67525815e09dc3e7159e4a4012db274f6f20a5eafd3407ee"
+    },
+    {
+      "id": "math-fitb-215",
+      "independentlyCalculatedAnswer": "27",
+      "questionSha256": "2cd0176e06a4f0f5f8f9377237831eefefd8fcbac7ba8c8aaaeb5ff70bfbbbab"
+    },
+    {
+      "id": "math-mc-216",
+      "independentlyCalculatedAnswer": "2² × 3 × 7",
+      "questionSha256": "bbe0f9669d38a2dd54bfd0f60154d4804df2a50fdacd96bc5a7452bd278fa1aa"
+    },
+    {
+      "id": "math-tf-216",
+      "independentlyCalculatedAnswer": "2² × 3 × 7",
+      "questionSha256": "ab136cd6b1a548a43337e85c46fbb2caba0650b40469c4b7d95edee94228edee"
+    },
+    {
+      "id": "math-fitb-216",
+      "independentlyCalculatedAnswer": "2² × 3 × 7",
+      "questionSha256": "9c14a44cbb9c5d6c1978498ee81831426b6e29ad35483356dc45fae9ec302297"
+    },
+    {
+      "id": "math-mc-218",
+      "independentlyCalculatedAnswer": "900",
+      "questionSha256": "896fd1b83ba86d8d6bc2b553389c7ce120ef4a1e362bbb2a18c8b792923c4b96"
+    },
+    {
+      "id": "math-tf-218",
+      "independentlyCalculatedAnswer": "900",
+      "questionSha256": "800767b81bbb1e26ab6939cde07c5946f178664d0734f8535a32afe9be2d64b9"
+    },
+    {
+      "id": "math-fitb-218",
+      "independentlyCalculatedAnswer": "900",
+      "questionSha256": "f1136f93e5d04b9d5897ae7d0404f87f9087af8ff0a80ea5570dc3f46ad0dc79"
+    },
+    {
+      "id": "math-mc-219",
+      "independentlyCalculatedAnswer": "3a",
+      "questionSha256": "88b03605ad01e8e695c2b8eed307c7dbbb6d6579c45c008a596133d10c983e44"
+    },
+    {
+      "id": "math-tf-219",
+      "independentlyCalculatedAnswer": "3a",
+      "questionSha256": "6e1bcf76ec37bc6d7ae89db6449310db50e69a936cf4c25380effa5b764872ad"
+    },
+    {
+      "id": "math-fitb-219",
+      "independentlyCalculatedAnswer": "3a",
+      "questionSha256": "3462ef5e0a69c65b0c860cc446f9df4d62b80a828f5d2ecec38ba2d84ad9a34e"
+    },
+    {
+      "id": "math-mc-220",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "09bcef77a51585c93bd03005b447a1e713314d734fc8a7637d366fc302b8b797"
+    },
+    {
+      "id": "math-tf-220",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "18a345d739411c0fe05edaf60651fc5ca1e7c601fd3062c18a312fa7ccbe9e98"
+    },
+    {
+      "id": "math-fitb-220",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "dfa546703b0e9ce635fbc5edada4c2ac423737b3b0ed277a01f4a36a03950212"
+    },
+    {
+      "id": "math-mc-221",
+      "independentlyCalculatedAnswer": "8991",
+      "questionSha256": "4b0d2e246312a0cc402fe472c53b2e76d05d59e27832efb50e5f594ce0a7ddb2"
+    },
+    {
+      "id": "math-tf-221",
+      "independentlyCalculatedAnswer": "8991",
+      "questionSha256": "7af60bca3b98cb1062a547321421a4268c844a18a7ec585dab3008c4254a7b47"
+    },
+    {
+      "id": "math-fitb-221",
+      "independentlyCalculatedAnswer": "8991",
+      "questionSha256": "abe4d03b61f411a7f120d4e5ca2ce16322b7a3098f250beb86d240cd9cbb3c48"
+    },
+    {
+      "id": "math-mc-222",
+      "independentlyCalculatedAnswer": "32",
+      "questionSha256": "2d04189b31de1e40e99c478bc92ed832121e78ead632162cd3693d2ae17bcc88"
+    },
+    {
+      "id": "math-tf-222",
+      "independentlyCalculatedAnswer": "32",
+      "questionSha256": "acd280a60e3507fcae24f3299f716049a0f630b479696100dac1b3b77a2c6eb0"
+    },
+    {
+      "id": "math-fitb-222",
+      "independentlyCalculatedAnswer": "32",
+      "questionSha256": "39264c35c65a7910e41e485f05525420299aa98afa57dce840c2a36ed76c107e"
+    },
+    {
+      "id": "math-mc-223",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "485a8d0124c6b6d27986d8d8f2226d5d1da80787d3be6c1e1a635cc51c7b9bd0"
+    },
+    {
+      "id": "math-tf-223",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "562009983e2cca296a2307873755064506ccbac34048add2036a47ae82281263"
+    },
+    {
+      "id": "math-fitb-223",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "8ebbdac4c2b27af5275509e58d1bffe061e5adbf4237fd4a65dfe56f2fe1719b"
+    },
+    {
+      "id": "math-mc-225",
+      "independentlyCalculatedAnswer": "50",
+      "questionSha256": "ae54105047e9f059fecadd9a010ffef6418542dba943a6f19c2029c1a7c57678"
+    },
+    {
+      "id": "math-tf-225",
+      "independentlyCalculatedAnswer": "50",
+      "questionSha256": "e4cf24c90dc0c89873f8f67dba69e05154b7c79b5c448d45ed46e81f3bb3e870"
+    },
+    {
+      "id": "math-fitb-225",
+      "independentlyCalculatedAnswer": "50",
+      "questionSha256": "7689a1e652597d32ad67199c232bd88e773f9a7b6c9d3efd7c5dc9e295816640"
+    },
+    {
+      "id": "math-mc-227",
+      "independentlyCalculatedAnswer": "5/10",
+      "questionSha256": "d9bd8150bcef03247b683882bb172dccd8b4c0c1728770f9028ae7e3328cb71f"
+    },
+    {
+      "id": "math-tf-227",
+      "independentlyCalculatedAnswer": "5/10",
+      "questionSha256": "eae82f8668540ddcf997b67ccd8489bd11e02b82ec342d36de41ce1ca36eb1df"
+    },
+    {
+      "id": "math-fitb-227",
+      "independentlyCalculatedAnswer": "5/10",
+      "questionSha256": "0bcc7ef0508fee05fbc11f4a6ed4b59735fd0410b913e56e9cb66c99c5ff7bbe"
+    },
+    {
+      "id": "math-mc-228",
+      "independentlyCalculatedAnswer": "80",
+      "questionSha256": "cbc369acfe39e212267ccd3da16f79725191a69a50dfc879ec503879d527b936"
+    },
+    {
+      "id": "math-tf-228",
+      "independentlyCalculatedAnswer": "80",
+      "questionSha256": "7a9901cd2162d1bacbeba5fe81fcdf3c4d4b58f1f883f72239425670376fe058"
+    },
+    {
+      "id": "math-fitb-228",
+      "independentlyCalculatedAnswer": "80",
+      "questionSha256": "e774ebf620114e0065b1e93f29554ebaa9c8884a2d7912436a247d51780c8249"
+    },
+    {
+      "id": "math-mc-229",
+      "independentlyCalculatedAnswer": "0.008",
+      "questionSha256": "f4d2623df98fccc748d72776b8382ef45c7219d96b6ea936d7eef637b20b26db"
+    },
+    {
+      "id": "math-tf-229",
+      "independentlyCalculatedAnswer": "0.008",
+      "questionSha256": "45b552b6c96d340b3077abd4a0bf26de7dd55f5bc01ab7a3df23788719077127"
+    },
+    {
+      "id": "math-fitb-229",
+      "independentlyCalculatedAnswer": "0.008",
+      "questionSha256": "ba619f3fe58d85efb404f81f320a84ea4598acee77123eff88d9aa1b51d163df"
+    },
+    {
+      "id": "math-mc-230",
+      "independentlyCalculatedAnswer": "125",
+      "questionSha256": "c3cafeeaf87adc143b0b95b69d28476f3887f7609bea46dc34bb2a87373f26f3"
+    },
+    {
+      "id": "math-tf-230",
+      "independentlyCalculatedAnswer": "125",
+      "questionSha256": "805414e349000ca30e8e455c58826a04b2a5df3b6b0d24cd90c9b8bf83ed2d5d"
+    },
+    {
+      "id": "math-fitb-230",
+      "independentlyCalculatedAnswer": "125",
+      "questionSha256": "c5fd19d8ba59f7b62fab2077bbb4a504a9477e95ca3e5d2152cf24f45723b250"
+    },
+    {
+      "id": "math-mc-231",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "ab116249e173f7a50e8aad2672365145e1a5329332f7328bbb4df465de43da83"
+    },
+    {
+      "id": "math-tf-231",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "b569e75324c163af4a4d9f3eb4cefb1ba8de82cfb6ea5b4a74d44099291975d9"
+    },
+    {
+      "id": "math-fitb-231",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "f61114c44539f7f54998dce8c778ba39c9526724d161a83d701fa3fac551aa55"
+    },
+    {
+      "id": "math-mc-233",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "dc619c98e55ca857fefce8419d9fb14d009c0efadc5edaa5abf1472c2323a008"
+    },
+    {
+      "id": "math-tf-233",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "2f9e0dba67c69109388207a1db4439a039a1af15dde25ed7fc867e7868d23df6"
+    },
+    {
+      "id": "math-fitb-233",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "908e99a723a83a6fb69b26b5a89a0d8b92b19f80a2c83e02a36e4a06e621e807"
+    },
+    {
+      "id": "math-mc-235",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "359a2afb89c7d3890a0ecb16d951c91ced8e8435149a1e2bce41e8fabb37065c"
+    },
+    {
+      "id": "math-tf-235",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "3180abc3d0517b1ec978c9200c591c61f69c7e70861366fb57c097c53e7b17da"
+    },
+    {
+      "id": "math-fitb-235",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "3e31aaa445a48b06f1581d637fc221c23bcc546929bac84b1b504cfd126acfbb"
+    },
+    {
+      "id": "math-mc-237",
+      "independentlyCalculatedAnswer": "444",
+      "questionSha256": "59a906029c28a5b95f78e67d9f09d56572fd7e9b0e07e4aca9affe1be4fc673e"
+    },
+    {
+      "id": "math-tf-237",
+      "independentlyCalculatedAnswer": "444",
+      "questionSha256": "fc009aa4923903a8735f43a794cc9f667fcc75cade3c3aafe9e2622d9d0e3ead"
+    },
+    {
+      "id": "math-fitb-237",
+      "independentlyCalculatedAnswer": "444",
+      "questionSha256": "bc2b220d0b1bb36aa5cf7d196dfb53f5325e8ffb493099c7d5c29cb29163d8a0"
+    },
+    {
+      "id": "math-mc-238",
+      "independentlyCalculatedAnswer": "18",
+      "questionSha256": "11ac6141db5ce6f3368897d73a33b133a1c45ce84ca2ef66c5c7c8d24c1f039e"
+    },
+    {
+      "id": "math-tf-238",
+      "independentlyCalculatedAnswer": "18",
+      "questionSha256": "7f79faabd54b5f69fafa1cad7348c99d7181759cd0f4c94c509d14edc31098a1"
+    },
+    {
+      "id": "math-fitb-238",
+      "independentlyCalculatedAnswer": "18",
+      "questionSha256": "6ed0cf8df8ae836646ad7a0c5989e116a9791d7d807ad1c5c4bbf56d27002bc8"
+    },
+    {
+      "id": "math-mc-239",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "4799941b786bef9e35da3a592f4c7d6d45bdd132d735a3bc1af5bb6a3505098e"
+    },
+    {
+      "id": "math-tf-239",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "70b59798d33590cfdc150f43b51869f89e2018a908feed346ae7c76602d9de84"
+    },
+    {
+      "id": "math-fitb-239",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "0913d0c5d68928063daf65956503aee871b2118408a091e697b6c2793f5e7c0d"
+    },
+    {
+      "id": "math-mc-241",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "2e3307efbba4d57c76207c8428eecf8e6c846f86c273881fffeed4c608df5df7"
+    },
+    {
+      "id": "math-tf-241",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "48a68aa6f827596dfbff04f77543f4a7e60305a870c96c700141389f995aad6f"
+    },
+    {
+      "id": "math-fitb-241",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "8222fa7a393160dee3c16c22fd1208ada5c10ad5f1043a78563f0981093db750"
+    },
+    {
+      "id": "math-mc-243",
+      "independentlyCalculatedAnswer": "72",
+      "questionSha256": "2afc98eab479437723f8b6eefce1f77c39e7b6494cb504c3b74f5b625f954932"
+    },
+    {
+      "id": "math-tf-243",
+      "independentlyCalculatedAnswer": "72",
+      "questionSha256": "90c203f564328293615359434c997e15c8a9dfea87b8ea489780bc4b00be079d"
+    },
+    {
+      "id": "math-fitb-243",
+      "independentlyCalculatedAnswer": "72",
+      "questionSha256": "3ee428af3e401a39e38a2a0057356e2350f37b4a0e17cec242a8b3e7197784e8"
+    },
+    {
+      "id": "math-mc-244",
+      "independentlyCalculatedAnswer": "12x³y⁴",
+      "questionSha256": "2069be922a42e8e941927f3d975189fb1569dc9294b77059300208a10b687d9c"
+    },
+    {
+      "id": "math-tf-244",
+      "independentlyCalculatedAnswer": "12x³y⁴",
+      "questionSha256": "089bf344c4154b6fdefec3da0960e951af0edf2b70b85127d96e91792902b0e4"
+    },
+    {
+      "id": "math-fitb-244",
+      "independentlyCalculatedAnswer": "12x³y⁴",
+      "questionSha256": "4973f6eee37c57319b8375f4da7c41553688a857cd804b6729407e2d438cc798"
+    },
+    {
+      "id": "math-mc-246",
+      "independentlyCalculatedAnswer": "2² × 3 × 7",
+      "questionSha256": "c20d3cd442a969f9066e011bc8785481e6cc9029d27a3281bfe0c4141ba619e1"
+    },
+    {
+      "id": "math-tf-246",
+      "independentlyCalculatedAnswer": "2² × 3 × 7",
+      "questionSha256": "79f14b757140f926d422f639c104bf2df4fb5a023d22da7c3f970e5b81722ce2"
+    },
+    {
+      "id": "math-fitb-246",
+      "independentlyCalculatedAnswer": "2² × 3 × 7",
+      "questionSha256": "599121a11842c9f57ef29e86ee235aabae81182321af665446b9b3dd0e0014e2"
+    },
+    {
+      "id": "math-mc-248",
+      "independentlyCalculatedAnswer": "900",
+      "questionSha256": "e085baab63988c358e6e37fc9a9241addd6004d8e392bd207f9bdf7c90349224"
+    },
+    {
+      "id": "math-tf-248",
+      "independentlyCalculatedAnswer": "900",
+      "questionSha256": "039e566b878cb3f0dab6a5859293173c60784a66d21deac10862a3c7b0d40c2c"
+    },
+    {
+      "id": "math-fitb-248",
+      "independentlyCalculatedAnswer": "900",
+      "questionSha256": "c074766438d3b2da49d8f71dad11b56e3d6709f2b9e17300a8b07990b801a498"
+    },
+    {
+      "id": "math-mc-249",
+      "independentlyCalculatedAnswer": "3a",
+      "questionSha256": "d5e418f2b63a6c941e3e428f43399ba1079d76326ed27b7d9fd00707a0775e08"
+    },
+    {
+      "id": "math-tf-249",
+      "independentlyCalculatedAnswer": "3a",
+      "questionSha256": "0639a6b2f51def47cfd06f421dba52ade54e9e7e8e0258b9acada6953d60bb05"
+    },
+    {
+      "id": "math-fitb-249",
+      "independentlyCalculatedAnswer": "3a",
+      "questionSha256": "311b83ab07cfc9db430a58872de8c44e330751c7be2b2d2c131cf9e8616660a6"
+    },
+    {
+      "id": "math-mc-250",
+      "independentlyCalculatedAnswer": "16th",
+      "questionSha256": "b44e6f0e0175ad3bc0202dda25d18e08fa547052f5fd1e98553e2d35d181c7ce"
+    },
+    {
+      "id": "math-tf-250",
+      "independentlyCalculatedAnswer": "16th",
+      "questionSha256": "67e5bfa560f1f3e2a949620552f83945c6c04db5dbe83f8c80bf65d4617815cd"
+    },
+    {
+      "id": "math-fitb-250",
+      "independentlyCalculatedAnswer": "16th",
+      "questionSha256": "ed52243189157964f02e0d2b6af4f54fe058120fa0ae3728e6fe93981e39b4ba"
+    },
+    {
+      "id": "math-ord-001",
+      "questionSha256": "09a470176f73d57d62cc50753444e4bff37fd68a0173b486b0ca9a63ac01e63d"
+    },
+    {
+      "id": "math-ord-002",
+      "questionSha256": "2cf8ab5cbb2ad13441d0186beedaeb3c20dec1cf3b41ee6c42ea694f8580a6a3"
+    },
+    {
+      "id": "math-ord-003",
+      "questionSha256": "7fa7c1c75c2d88f4af51722946e38afacb63ab37c714b211ff4093ea9e595892"
+    },
+    {
+      "id": "math-ord-004",
+      "questionSha256": "403fa2548c9878e2eb7a35f2c3f147346e22845e8af33940e52680cab0a8236e"
+    },
+    {
+      "id": "math-ord-005",
+      "questionSha256": "4558ae9e716408681884432f6c96ca702fd693e1048a2385b9749621121d6ac6"
+    },
+    {
+      "id": "math-ord-006",
+      "questionSha256": "9380c764ccdf84e2d8c95f6a11e68ec3f31424d47284d7d4fc226069e9d52439"
+    },
+    {
+      "id": "math-ord-007",
+      "questionSha256": "748a4bb43d45cde0ff7d82d65a3b77217ae142635e86eeac10c1d2a395663f6f"
+    },
+    {
+      "id": "math-ord-008",
+      "questionSha256": "790572d06d50cc5850a2e74bff4f855b1d5c6a699a8700b70eb70f05623d4b78"
+    },
+    {
+      "id": "math-ord-009",
+      "questionSha256": "65a22949778e15ea3316e10ebd773413695c4a23762e9356234cfa22d324c7a7"
+    },
+    {
+      "id": "math-ord-010",
+      "questionSha256": "383fc075b06cc113b990a7fe6d17d9a9e0be4542ca44db582593619f192bbaa0"
+    },
+    {
+      "id": "math-ord-011",
+      "questionSha256": "44a889325e053284266d912eef8bade339c8fd2362cdd01bb50d652a37e96a12"
+    },
+    {
+      "id": "math-ord-012",
+      "questionSha256": "97698c67edf4a11a1959a4cde0ad9f77c24eebbd75de1b5217ee0c0d0e9531dd"
+    },
+    {
+      "id": "math-ord-013",
+      "questionSha256": "8c2c1b540de107bbc2e89802ace246568f54b0788aefdee9129023adbc0cf309"
+    },
+    {
+      "id": "math-ord-014",
+      "questionSha256": "cb94f91563a4c77a95f9af944fa2c2fde300d725092de7352a98d7edf12a3928"
+    },
+    {
+      "id": "math-ord-015",
+      "questionSha256": "aef467a3707b5822fb3d47c97c172ba3af2bb3c2a4d813f8e26e4e4b4d2cc380"
+    },
+    {
+      "id": "math-ord-016",
+      "questionSha256": "f94c168d70661542e09f620f9b925aab52a412fb8e9bbda8c3aca56bba9a6d94"
+    },
+    {
+      "id": "math-ord-017",
+      "questionSha256": "0c7e0d98387d71a7010d428f934ebd0910bb6cd71bcaad6ff0e3561697bd7737"
+    },
+    {
+      "id": "math-ord-018",
+      "questionSha256": "c35997fa61a4543b556138c409a3203baee41e1755698bb88691eac459f86aee"
+    },
+    {
+      "id": "math-ord-019",
+      "questionSha256": "9385d6d5e51e3234d55f01a097ee41839b1f0b52843a071a0c1bafd07ce5842a"
+    },
+    {
+      "id": "math-ord-020",
+      "questionSha256": "e14b6caae219ff0bdebe002d9dc5023264cb3b014d8adf87f60fb8a695fcb62b"
+    },
+    {
+      "id": "math-ord-021",
+      "questionSha256": "e9c6201b4256e4b8cd28681f3a05aa22738f58a88fb34bebc4c7bb15cc841031"
+    },
+    {
+      "id": "math-ord-022",
+      "questionSha256": "720fcfd86d35189c36450ceb327ea5a9b894ce3cf58e881b8425c1ca1b125d32"
+    },
+    {
+      "id": "math-ord-023",
+      "questionSha256": "cb028d8253c8f63dc844ac2e98c319c585feec9c08a757d4b17d08f6976da675"
+    },
+    {
+      "id": "math-ord-024",
+      "questionSha256": "61c53ee1e1adbbcd1a8f1005cce1575a3e08d9a546b978aaae205d2e639a4c84"
+    },
+    {
+      "id": "math-ord-025",
+      "questionSha256": "575f017e57e0f930e8c411fbd063e796dff014d4a216608d714434f9a28ffc33"
+    },
+    {
+      "id": "math-ord-026",
+      "questionSha256": "5ef65fc1fd4b1c9f4505546913f65ce73e5b84de0a4b9728064c85c62f0e17a5"
+    },
+    {
+      "id": "math-ord-027",
+      "questionSha256": "cd94d30b319c718d7e5a5845bb55e1dbae207ddf950c88472d3a19a8f2ee8d05"
+    },
+    {
+      "id": "math-ord-028",
+      "questionSha256": "258558143c14ddfe03df7511ebd9db6b76dcb468980c472f5ae6e55b5652adbf"
+    },
+    {
+      "id": "math-ord-029",
+      "questionSha256": "75475e758f1a23de3246d076bb4c1cfcb0583552cd40de53117f85ca8dc7b0f4"
+    },
+    {
+      "id": "math-ord-030",
+      "questionSha256": "83bcd1eb6d9a520643b05dcfd0d0db52d78fc89cb871b6a4d17e47a10377a2f1"
+    },
+    {
+      "id": "math-ord-031",
+      "questionSha256": "6d2fa773898d0910486cf3a4d7b181cbfb28d5a26baaa3b9708381c0525fcdec"
+    },
+    {
+      "id": "math-ord-032",
+      "questionSha256": "e4ece2e6b589c6f3bab79e3d833111db1553c4690d9a1a8d74f53159d978948c"
+    },
+    {
+      "id": "math-ord-033",
+      "questionSha256": "a6e5648ba6cfde68272d2906bc5386f16e760ad7555efc5a249bffa0027dfe2d"
+    },
+    {
+      "id": "math-ord-034",
+      "questionSha256": "af1a10d7cc7782c27bf953894d238afe635fbd9e5a2bab2b2c09cbd4d0175e50"
+    },
+    {
+      "id": "math-ord-035",
+      "questionSha256": "14f31fccc0c3f3a7b3449c98e60b81e61e1485d24cc061a449b480de3c3f30a3"
+    },
+    {
+      "id": "math-ord-036",
+      "questionSha256": "4bbe13f5abfeea9f591326f54457c86cf1f6ef6977b154299cc2f025a2eb9e7f"
+    },
+    {
+      "id": "math-ord-037",
+      "questionSha256": "b30f550b9fa8e04749fbe6f5cbc0a676b78e1c45762ff8f35d3b754a2c293d6d"
+    },
+    {
+      "id": "math-ord-038",
+      "questionSha256": "a4984338de5888189755e8660dfb420753e2405938b426e0647427393e745707"
+    },
+    {
+      "id": "math-ord-039",
+      "questionSha256": "d7653eb650c07c272c1ccfea472ea35fce773ad208c25c5e2df6fde9bbaa774a"
+    },
+    {
+      "id": "math-ord-040",
+      "questionSha256": "792f876f20e1ed2b378873bd6032eb1a5fa0d1e3607d0eb7f74c460e3f47bbeb"
+    },
+    {
+      "id": "math-ord-041",
+      "questionSha256": "15ad959e318f23dfb1d4cdf04343b2e512c471795960af42f4c827a478b001d0"
+    },
+    {
+      "id": "math-ord-042",
+      "questionSha256": "f1ed7ee38472304a287b4cc25cf6f74959830d216f704c5e39549765348d7800"
+    },
+    {
+      "id": "math-ord-043",
+      "questionSha256": "0de4e1b68c6c663814d357b8676bf64243d894f830115c456623189261eded5b"
+    },
+    {
+      "id": "math-ord-044",
+      "questionSha256": "3aaf545f164ffd4d420fc4269a0776b9f8dc8f6a87e856b420288483a9b7e7a7"
+    },
+    {
+      "id": "math-ord-045",
+      "questionSha256": "89c1e88c6e5c55f1dba979f8e20fab6cb805f5b20830679ea177dab01b7f0dea"
+    },
+    {
+      "id": "math-ord-046",
+      "questionSha256": "ab654037d73a290ca004ac9390283f11a891424432fb671cfb5a2bfeeab36279"
+    },
+    {
+      "id": "math-ord-047",
+      "questionSha256": "cf39642cd27503bb93c5d48326697efebdcf574a5f85d12d5408b88f5ac4f788"
+    },
+    {
+      "id": "math-ord-048",
+      "questionSha256": "203b8a0256b519d9181b8644691ad1ac96e1d65dac976a3e0519c892d724c565"
+    },
+    {
+      "id": "math-ord-049",
+      "questionSha256": "575b22afa26a0f765b496d55d911b24b9308a6acd8b874c2bbee2e11b1e47b22"
+    },
+    {
+      "id": "math-ord-050",
+      "questionSha256": "87a8e8228b74c5b5ed1e45ac5c82a1ae67ca5b0d46e1f1229d41d6cc4527afbb"
+    },
+    {
+      "id": "math-tf-001",
+      "independentlyCalculatedAnswer": "1245",
+      "questionSha256": "e004b5f99c839749f12b5ed86de2c43c7be5f7005688ad7ef5fba79a09a4c423"
+    },
+    {
+      "id": "math-fitb-001",
+      "independentlyCalculatedAnswer": "1245",
+      "questionSha256": "b093459ba7340f1206cd4464560b6cdd2948dff241a02310531ae37f0c03189f"
+    },
+    {
+      "id": "math-tf-002",
+      "independentlyCalculatedAnswer": "655",
+      "questionSha256": "c527485a3aa65123e84a693b97623b169148994e50db512f1d0e2addf4cbf5ee"
+    },
+    {
+      "id": "math-fitb-002",
+      "independentlyCalculatedAnswer": "655",
+      "questionSha256": "6d9b11ce2c149b87495e167e6fc5e1f1da12ce6882d0060e7814a82dc53bf022"
+    },
+    {
+      "id": "math-tf-003",
+      "independentlyCalculatedAnswer": "850",
+      "questionSha256": "b2dd9fc390436fc6287eb6b1d655e33f92a5d74708dab3fdebb1e40bec74ca43"
+    },
+    {
+      "id": "math-fitb-003",
+      "independentlyCalculatedAnswer": "850",
+      "questionSha256": "8f623e011e36d0d288ebf8d36efcb4d5a69014930a8040648d9aa9b3f646fa5c"
+    },
+    {
+      "id": "math-tf-004",
+      "independentlyCalculatedAnswer": "77",
+      "questionSha256": "983b69af0a417a8e79b493caa266fb3066088fab0b3ab72a21777dee54dbccb8"
+    },
+    {
+      "id": "math-fitb-004",
+      "independentlyCalculatedAnswer": "77",
+      "questionSha256": "1ded9db8f08757bb2d3941de74fc66b77b5bdd5c8cc02c7a0552ef1a3c1eb06f"
+    },
+    {
+      "id": "math-tf-005",
+      "independentlyCalculatedAnswer": "361",
+      "questionSha256": "14059721862fb1f37b49050ab3dcc6ff61f2b3f453a3a3f12109a41f992838d8"
+    },
+    {
+      "id": "math-fitb-005",
+      "independentlyCalculatedAnswer": "361",
+      "questionSha256": "e5f9bb9289fe53e4c3f846e7bb67f38c802c6088f03528b55d65d8ece7a00109"
+    },
+    {
+      "id": "math-tf-006",
+      "independentlyCalculatedAnswer": "144",
+      "questionSha256": "f82d4fb7c7d2097c24a5b59937f47ea4f4e6a9b677fbdfbffb91063de65cc47c"
+    },
+    {
+      "id": "math-fitb-006",
+      "independentlyCalculatedAnswer": "144",
+      "questionSha256": "e5f98f630127bc36febc9ad89e02f145ffe9254b7bb7c53aa8c65cf5d1450324"
+    },
+    {
+      "id": "math-tf-007",
+      "independentlyCalculatedAnswer": "3528",
+      "questionSha256": "c653919cc27ca640df652bcf309075c3138f937acee946e4d3da833c36288740"
+    },
+    {
+      "id": "math-fitb-007",
+      "independentlyCalculatedAnswer": "3528",
+      "questionSha256": "0a7142bae65ffe8d7feb237278fb94377950b8988eb7162e90e8de6e984c85be"
+    },
+    {
+      "id": "math-tf-008",
+      "independentlyCalculatedAnswer": "6254",
+      "questionSha256": "df469bdf3d197c57ccec178d7b494895c2fc49837a7652d390638d7208c93fd8"
+    },
+    {
+      "id": "math-fitb-008",
+      "independentlyCalculatedAnswer": "6254",
+      "questionSha256": "b438b62c0cb3321dc9820ff29afd4db96f5e01c6d1132a1f3ed06ec385f4550f"
+    },
+    {
+      "id": "math-tf-009",
+      "independentlyCalculatedAnswer": "1000",
+      "questionSha256": "b9740d769783bbd39775a391899c29cd8c9114d2f5c253141c4fd54a99ba49e8"
+    },
+    {
+      "id": "math-fitb-009",
+      "independentlyCalculatedAnswer": "1000",
+      "questionSha256": "9e69b7fe0e882dcf7a6c74d44aa9dcddf647d02af2b61ca337b463300809bbe5"
+    },
+    {
+      "id": "math-tf-010",
+      "independentlyCalculatedAnswer": "240",
+      "questionSha256": "b4a0359e5a499854d6255d765c40bb16bdacfda5b286c387eed5be7ff4e1a632"
+    },
+    {
+      "id": "math-fitb-010",
+      "independentlyCalculatedAnswer": "240",
+      "questionSha256": "f7e2a256e5f64036ddb2b84daa953a2df5445a627b561c28569d6d929c54bc84"
+    },
+    {
+      "id": "math-tf-011",
+      "independentlyCalculatedAnswer": "1211",
+      "questionSha256": "7b87d194625097e29f23cfa35013be910cf60aae095df234bf940c69de324d36"
+    },
+    {
+      "id": "math-fitb-011",
+      "independentlyCalculatedAnswer": "1211",
+      "questionSha256": "1028e226c512c580be8b752f43fc2c990fbdfa34c148ba8a53994add8936d848"
+    },
+    {
+      "id": "math-tf-012",
+      "independentlyCalculatedAnswer": "3613",
+      "questionSha256": "4847dcde5c2c3a558a4c613027240eaedbd795e953b7204c86031a121f49357b"
+    },
+    {
+      "id": "math-fitb-012",
+      "independentlyCalculatedAnswer": "3613",
+      "questionSha256": "fff0a814cf5eae1f6bb6e9d6eeb18509677c11201e2d40beaf719a0d086d2343"
+    },
+    {
+      "id": "math-tf-013",
+      "independentlyCalculatedAnswer": "576",
+      "questionSha256": "542ede1691691c385c77945b952d1caf694c00bc8a96b0bada40b70f30379b83"
+    },
+    {
+      "id": "math-fitb-013",
+      "independentlyCalculatedAnswer": "576",
+      "questionSha256": "2719171ab75ed6a454b7cba1a1b63cbb0a3d2c7f49470b0bfbf71a234c273cf3"
+    },
+    {
+      "id": "math-tf-014",
+      "independentlyCalculatedAnswer": "119",
+      "questionSha256": "8821d583cf325981ff8b1d6d71b0488d204e3d9902dc66dc3f2559c03c1bed36"
+    },
+    {
+      "id": "math-fitb-014",
+      "independentlyCalculatedAnswer": "119",
+      "questionSha256": "3ba0cf5b16ac3c6354ada5822a7981cdb96798c3e118be023cdf1f381ad90f95"
+    },
+    {
+      "id": "math-tf-015",
+      "independentlyCalculatedAnswer": "7023",
+      "questionSha256": "e0456546784f344ee14e02442c4cf2fb389d099f3bea76e1ea75216b1c319c83"
+    },
+    {
+      "id": "math-fitb-015",
+      "independentlyCalculatedAnswer": "7023",
+      "questionSha256": "93f6e9e4db3d68c647c971c59098d793bcde3833b9610ee9f5441feb5b82d21b"
+    },
+    {
+      "id": "math-tf-016",
+      "independentlyCalculatedAnswer": "14/15",
+      "questionSha256": "3406a166651c55761024bb65e94a09df3fbbcd43d790c8b84e389d1be03681fd"
+    },
+    {
+      "id": "math-fitb-016",
+      "independentlyCalculatedAnswer": "14/15",
+      "questionSha256": "9a31ce9dc972cecb35454d251b8030c75e502627668cd52cda9339b967ce3465"
+    },
+    {
+      "id": "math-tf-017",
+      "independentlyCalculatedAnswer": "7/12",
+      "questionSha256": "bba608c26652a03910135b2f1d5ace9ecf6ea7b3f30bd1a656590aafc6bcb9e1"
+    },
+    {
+      "id": "math-fitb-017",
+      "independentlyCalculatedAnswer": "7/12",
+      "questionSha256": "7d8a119bcd358687f4150d526c9f97ab1b157719f50cfc0d814d1723bd4c8693"
+    },
+    {
+      "id": "math-tf-019",
+      "independentlyCalculatedAnswer": "2",
+      "questionSha256": "341ff3494d65293343741f92f27a90d235dcc70b535909c7db1ae7f6920e80e9"
+    },
+    {
+      "id": "math-fitb-019",
+      "independentlyCalculatedAnswer": "2",
+      "questionSha256": "54622e49df47f30167ae556ff3c341c7e21292aa4e6f3d8baf05c7f725731c40"
+    },
+    {
+      "id": "math-tf-020",
+      "independentlyCalculatedAnswer": "2/3",
+      "questionSha256": "c32f669e6593bb6d86cded770789d24fd9696a937075549fabd5694a4fe5f866"
+    },
+    {
+      "id": "math-fitb-020",
+      "independentlyCalculatedAnswer": "2/3",
+      "questionSha256": "270f5f9b14c904f43b19828360f29428b7179c4620f047243b24285bfbefa1b6"
+    },
+    {
+      "id": "math-tf-021",
+      "independentlyCalculatedAnswer": "4.25",
+      "questionSha256": "881b3988d764ad42bc98614e0eb0298f4ed2bac7ef243dd5b88d4503c71a7a50"
+    },
+    {
+      "id": "math-fitb-021",
+      "independentlyCalculatedAnswer": "4.25",
+      "questionSha256": "fd952eb4cdd80d5c54065d2ba21eea9c0221495b2b5ce739c579a918321b9d22"
+    },
+    {
+      "id": "math-tf-022",
+      "independentlyCalculatedAnswer": "0.75",
+      "questionSha256": "fa091bbdd72ab65727090bdb86d0bed2622a114ab8cf57dcf1304f9eca55c281"
+    },
+    {
+      "id": "math-fitb-022",
+      "independentlyCalculatedAnswer": "0.75",
+      "questionSha256": "4d5b5f501ded6946c5825e4ee5f6b71d328099c83902e5af1a063186559a0f95"
+    },
+    {
+      "id": "math-tf-024",
+      "independentlyCalculatedAnswer": "60",
+      "questionSha256": "440a887513ba4a8a46a1b4fd1a7d588c8feb76760ca4307fe935800b3e1f07cd"
+    },
+    {
+      "id": "math-fitb-024",
+      "independentlyCalculatedAnswer": "60",
+      "questionSha256": "9b5ae07ff59c49518bee5b9c398cace5b9065b3ff5ebb0f1184077fe0143ac10"
+    },
+    {
+      "id": "math-tf-025",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "cd65c8f80276c5fbf37e9f7ab0dab216b861ba25f3346677f4d784130224abe1"
+    },
+    {
+      "id": "math-fitb-025",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "084cf11a7189b0e4b934f2480b48b6aa23a9a500e3ca236ad4143c3ec8d8dabb"
+    },
+    {
+      "id": "math-tf-026",
+      "independentlyCalculatedAnswer": "1",
+      "questionSha256": "e432c865d775469aa4f8250e08a25168b43216b4f2f3004228c0509ad08c0263"
+    },
+    {
+      "id": "math-fitb-026",
+      "independentlyCalculatedAnswer": "1",
+      "questionSha256": "1867a6e79bc20ede658da8021a1f5ef45d8d22a10b18726531cf714c0d076cd8"
+    },
+    {
+      "id": "math-tf-027",
+      "independentlyCalculatedAnswer": "160",
+      "questionSha256": "597cd1c3a70435af7d0e3ac333f2a73156c265013b547670b05189b7bcdae6fd"
+    },
+    {
+      "id": "math-fitb-027",
+      "independentlyCalculatedAnswer": "160",
+      "questionSha256": "5256f5cc556b8cde02b2ea9869c6756ef0d9609636abd65b1af1498f9a120b3f"
+    },
+    {
+      "id": "math-tf-028",
+      "independentlyCalculatedAnswer": "1.75",
+      "questionSha256": "2b014e356b4b3be9cc266e0ecbbed3703e7d67add7031f74a0e9954ada6f345f"
+    },
+    {
+      "id": "math-fitb-028",
+      "independentlyCalculatedAnswer": "1.75",
+      "questionSha256": "1d69883da707ac087ed9bf1d777968b7715171cc9a2abbc1f0b89eaa9c1be60e"
+    },
+    {
+      "id": "math-tf-029",
+      "independentlyCalculatedAnswer": "0.8",
+      "questionSha256": "e902a789c45054f905eea2df2e6d18f9414f582a5ca8ebeaeb3a5715df90a8c2"
+    },
+    {
+      "id": "math-fitb-029",
+      "independentlyCalculatedAnswer": "0.8",
+      "questionSha256": "03e1d011b5eb740704be041ac53d2cc00eb823ae0096bdea86ed6b6f81acd2ad"
+    },
+    {
+      "id": "math-tf-030",
+      "independentlyCalculatedAnswer": "45",
+      "questionSha256": "baf11f32c73ec58da5c8084a0dd13e41f31528326381a9994ed44f31a6aa4e00"
+    },
+    {
+      "id": "math-fitb-030",
+      "independentlyCalculatedAnswer": "45",
+      "questionSha256": "02b521f7647fe14811d6d3a8e0be144e2a6f7ec8ee64238f7b91cfaab2182c4e"
+    },
+    {
+      "id": "math-tf-031",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "d28e1ee3a5d2fc3404bdcb88f70918d9540fbec6d53a9ffc47775962b021dbe9"
+    },
+    {
+      "id": "math-fitb-031",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "c824e7b65f9a405328cd568a80c21c2fce19ea6af5da650ad6982e3d710996e9"
+    },
+    {
+      "id": "math-tf-032",
+      "independentlyCalculatedAnswer": "52",
+      "questionSha256": "a8ff29561f433f1564b3da7817929ed6fccf27cabe13fd7380280700d83a6f1c"
+    },
+    {
+      "id": "math-fitb-032",
+      "independentlyCalculatedAnswer": "52",
+      "questionSha256": "ca7f269f99be3729fccc313b4bbfa393f0a50ad9fc04a7dc0b66ee1e896484f3"
+    },
+    {
+      "id": "math-tf-033",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "9c2415ab74d0f38f4431d32843a028659c1ff8b030c79c386f76e816915cff4b"
+    },
+    {
+      "id": "math-fitb-033",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "c5d65e1bfe5e8dd4d02b9c5e75b4c0c3cc68e3daa63eba42555a8f62c65bf677"
+    },
+    {
+      "id": "math-tf-034",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "94252360108f3fce5f4804f8a82d80334b3cbba147e049b0d421152cbd6882ff"
+    },
+    {
+      "id": "math-fitb-034",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "f23d47e561a008fe200d85681feaaa1cf0fad8fa9609e9240e72006e2d0026f3"
+    },
+    {
+      "id": "math-tf-035",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "a5aba13c18050e9166c23a898c73775c1ccc4687cd276be7166650f378f933f8"
+    },
+    {
+      "id": "math-fitb-035",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "fc9035d5e4b96183bb5e6d8ddf37c21ce6384e81da6cb4784781fc90f96ba258"
+    },
+    {
+      "id": "math-tf-036",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "194407e573c4a3030e71c65ced9ad3eb5ae77f70b5959194382d7c54a1cd4a40"
+    },
+    {
+      "id": "math-fitb-036",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "c752188375171d0247a51522b2fbc36529818462a2c74a870b805fe7ef8dc933"
+    },
+    {
+      "id": "math-tf-037",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "e37233deb7c85689a74c9bb570da30a144f0ab48b28568475d002749033fa7ad"
+    },
+    {
+      "id": "math-fitb-037",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "072cb9b31ee398cd65da45f989c02a293cadc34aec83b8cc34ee13f2e8367a7c"
+    },
+    {
+      "id": "math-tf-039",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "dd4a9edf98274c404a64372a464217c00df4d2ac2a471e8a73e36bf07fc88a37"
+    },
+    {
+      "id": "math-fitb-039",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "54bef34f07751bca13b40402d368c488c230c8f1be6f51a744e067ac8dc4c77c"
+    },
+    {
+      "id": "math-tf-040",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "da6600a99c1f60d0ac5f3159fae5db571ae36207f2c677dac8032ed6d1797974"
+    },
+    {
+      "id": "math-fitb-040",
+      "independentlyCalculatedAnswer": "25",
+      "questionSha256": "31a33fa374e7c9874535a84e981faee4847a0a5f875bce65d4284990d6545e58"
+    },
+    {
+      "id": "math-tf-041",
+      "independentlyCalculatedAnswer": "56",
+      "questionSha256": "664416e0a651ed184992d3fe82b718d1e043ab1e146720c314103e85f1865daa"
+    },
+    {
+      "id": "math-fitb-041",
+      "independentlyCalculatedAnswer": "56",
+      "questionSha256": "70f6793f45d6d1d06ad8142173982d6065ff28c5089bc0ffc9568e90e3c82bc9"
+    },
+    {
+      "id": "math-tf-042",
+      "independentlyCalculatedAnswer": "4200",
+      "questionSha256": "8a2ae68f1d88027a309d86e5ec093952a9c5310ad3647191f172a6e830657333"
+    },
+    {
+      "id": "math-fitb-042",
+      "independentlyCalculatedAnswer": "4200",
+      "questionSha256": "49c6b5ba23b3ecb98d08eb71595d1810bbe7d7ac758851032139d0511c041905"
+    },
+    {
+      "id": "math-tf-043",
+      "independentlyCalculatedAnswer": "9",
+      "questionSha256": "07a85021b34d836637cda355ca01ec874390698a5216758f6ec0c972ef07b4b3"
+    },
+    {
+      "id": "math-fitb-043",
+      "independentlyCalculatedAnswer": "9",
+      "questionSha256": "f4f2ce237cf166f310fbeebf97e147f63f6ca4d8cc6688498278d96ae4b4cb29"
+    },
+    {
+      "id": "math-tf-045",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "f0b03fc9048eb039401129881e99dd65db3d4626d61d53adb34f4805fe7e8f15"
+    },
+    {
+      "id": "math-fitb-045",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "f54acda5f48e2c4e9bda1df1fbbc65d530d884c9faa02d9c493b1cc6700bb220"
+    },
+    {
+      "id": "math-tf-046",
+      "independentlyCalculatedAnswer": "6.12",
+      "questionSha256": "d7c5ea30b8eebac8d9dfbe25a5326ade39f41bf8ffaebdf7717fe4b3a153b7ca"
+    },
+    {
+      "id": "math-fitb-046",
+      "independentlyCalculatedAnswer": "6.12",
+      "questionSha256": "7ddc02c34c1395889a0a87989fe3561f6a8da39ac586eca820b293e6332691a4"
+    },
+    {
+      "id": "math-tf-047",
+      "independentlyCalculatedAnswer": "2.45",
+      "questionSha256": "b8c732bd84c802afdfb9f9872c445c36ec338b9d2b4efa69064013aef264b179"
+    },
+    {
+      "id": "math-fitb-047",
+      "independentlyCalculatedAnswer": "2.45",
+      "questionSha256": "79c5a4e75270a526791b31d4a31ad0427c87f3d9e340729bc5fdfb69c7224373"
+    },
+    {
+      "id": "math-tf-048",
+      "independentlyCalculatedAnswer": "0.42",
+      "questionSha256": "a3e02c315b2889b55e6442bb0961e15753f4ee273517bd04d07455b13114bfc6"
+    },
+    {
+      "id": "math-fitb-048",
+      "independentlyCalculatedAnswer": "0.42",
+      "questionSha256": "22f57621f62f6a733acf1bd5cf16c1dc62ce06eadee667e1447239fb0c453081"
+    },
+    {
+      "id": "math-tf-049",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "501420c034a15737f8f0932d318a30d3a1682c711a443f4b822565c32f6aa3ba"
+    },
+    {
+      "id": "math-fitb-049",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "d6e6ac0c1da34798c112e0f89668e2587f97ce44a9d8d851a9adc35db1542bd0"
+    },
+    {
+      "id": "math-tf-050",
+      "independentlyCalculatedAnswer": "6.75",
+      "questionSha256": "31cde97d0abe1c05be246a92a75cedb56bd8bc9d70ffd8c72914a59eb04ecf1b"
+    },
+    {
+      "id": "math-fitb-050",
+      "independentlyCalculatedAnswer": "6.75",
+      "questionSha256": "9c180e3e67f72aa1b26c6388e14dae1253448e48c5984ed7898086d5e8486d64"
+    },
+    {
+      "id": "math-tf-051",
+      "independentlyCalculatedAnswer": "0.125",
+      "questionSha256": "0fecf4abd86e66658def7262860d2041bc026af43df89660363916ea18333220"
+    },
+    {
+      "id": "math-fitb-051",
+      "independentlyCalculatedAnswer": "0.125",
+      "questionSha256": "f8a992170973e27b2ee2a278410d3fabd606c1f8f770afc3f914cb6ae082bab6"
+    },
+    {
+      "id": "math-tf-061",
+      "independentlyCalculatedAnswer": "£45 and £75",
+      "questionSha256": "eca2617443768ce8ddd340f403a2b57d9411283007b09c2ba1072c35f14c4d3f"
+    },
+    {
+      "id": "math-fitb-061",
+      "independentlyCalculatedAnswer": "£45 and £75",
+      "questionSha256": "8c8f9a3b838a936b2724559b72ec0a1721fdbc861afc133f9b33d105a21df640"
+    },
+    {
+      "id": "math-tf-062",
+      "independentlyCalculatedAnswer": "80",
+      "questionSha256": "b21ae30c4df1a0122dd3775b49a600da26d88127f5644563fc4d17ff84b91c25"
+    },
+    {
+      "id": "math-fitb-062",
+      "independentlyCalculatedAnswer": "80",
+      "questionSha256": "666c5f6b654a85533d4606322e84cabd9ddd10a8cf968c327aa290fcdfa00318"
+    },
+    {
+      "id": "math-tf-063",
+      "independentlyCalculatedAnswer": "56",
+      "questionSha256": "1491a5d6e03b523b331952ff210f7ccfe8d6a281ea8e8acfb714eda99b1b0348"
+    },
+    {
+      "id": "math-fitb-063",
+      "independentlyCalculatedAnswer": "56",
+      "questionSha256": "ee6d817429ef53f2805ea718063b2443ae56f976885958a647a42c27a12b104b"
+    },
+    {
+      "id": "math-tf-064",
+      "independentlyCalculatedAnswer": "1.5",
+      "questionSha256": "287a6093f4e419d77bde76a1aa11715c9a3e3dad685a761c92a2f4d10568b981"
+    },
+    {
+      "id": "math-fitb-064",
+      "independentlyCalculatedAnswer": "1.5",
+      "questionSha256": "acaea1332518e4451254dfc9f8079bb67422d664d246c0f8e42cd82730c3fa76"
+    },
+    {
+      "id": "math-tf-065",
+      "independentlyCalculatedAnswer": "140 and 40",
+      "questionSha256": "9a331096a3029e1e85cce1594d78f8500a1676c26fb77f40b0aa7abb08867bd8"
+    },
+    {
+      "id": "math-fitb-065",
+      "independentlyCalculatedAnswer": "140 and 40",
+      "questionSha256": "ed32c678bceb0a4e88b01f2256df350d8f32de0db9627d2810e88aa087d3e025"
+    },
+    {
+      "id": "math-tf-067",
+      "independentlyCalculatedAnswer": "300",
+      "questionSha256": "6069026380a1e49a7becded8a92ea6bb039991dc32b76210cadbd558f10049b8"
+    },
+    {
+      "id": "math-fitb-067",
+      "independentlyCalculatedAnswer": "300",
+      "questionSha256": "d458df8ff5835d110c2f37894b6dd556912f8b637b95f84ebfa47ffc4d060f03"
+    },
+    {
+      "id": "math-tf-068",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "8bc33a90194a59ed016c410d457243d83a13f66fab658a0ab7075d2426ae01c3"
+    },
+    {
+      "id": "math-fitb-068",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "5060aa2d5bd583934202fcd48212714006fb02e0607a06c63dc929ffbaf1318d"
+    },
+    {
+      "id": "math-tf-070",
+      "independentlyCalculatedAnswer": "3:4",
+      "questionSha256": "5988018f146e25050c34f9af13dbfa9fa505b71570d63b5ce451400692533889"
+    },
+    {
+      "id": "math-fitb-070",
+      "independentlyCalculatedAnswer": "3:4",
+      "questionSha256": "cbf3e450655be84243da80396385e10c13c4a5ac12acb3b217320cd5b28a067e"
+    },
+    {
+      "id": "math-tf-071",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "060a5768f4060e6b11aa9ea5e06c0e59a0199e79715d43fe44066b5074b0a344"
+    },
+    {
+      "id": "math-fitb-071",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "b305a56badfecb6d255aa2eb88648fb447ecea63309225397f0d49068d1f07a3"
+    },
+    {
+      "id": "math-tf-072",
+      "independentlyCalculatedAnswer": "450",
+      "questionSha256": "ab0ad13ccd47e9b578d9d254fbc8e708bfe23935bee5e6c34bdc258616e07dd8"
+    },
+    {
+      "id": "math-fitb-072",
+      "independentlyCalculatedAnswer": "450",
+      "questionSha256": "90d191100ce8e8cdc03f2a244dbaa8ebbfdde546f788339cc525c5ebf5444196"
+    },
+    {
+      "id": "math-tf-073",
+      "independentlyCalculatedAnswer": "£60 and £140",
+      "questionSha256": "ec0668050f0db1d26292f984db216e69611a3a2ace72c07436776da8bbcaa555"
+    },
+    {
+      "id": "math-fitb-073",
+      "independentlyCalculatedAnswer": "£60 and £140",
+      "questionSha256": "0e2d54ea705f504b142c8c37d1ac6611ca6f2742b57d5be9d59565f4432d2e7e"
+    },
+    {
+      "id": "math-tf-076",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "fa190dbf4b88f2b983ae9079fe32a4d4b1a2c04d125e7013d6935812bef9f926"
+    },
+    {
+      "id": "math-fitb-076",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "f6fb87931df23d3fd394994c8a9c76af41fd784e7c11722911e6815f513932e7"
+    },
+    {
+      "id": "math-tf-077",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "a9aff972e3e716f7ce6d3b932652d7fb64491e2ab8fea3a97f3394d9d4ece9c7"
+    },
+    {
+      "id": "math-fitb-077",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "5fd542d4f59ee51cfd4cfaf1bbb000e584eae37eab7d1080c14f51c1408b9108"
+    },
+    {
+      "id": "math-tf-078",
+      "independentlyCalculatedAnswer": "14",
+      "questionSha256": "287b8e33c5e2417e4c2f16e8979a4e22832068f05d536e451c2d6c4afafe59dd"
+    },
+    {
+      "id": "math-fitb-078",
+      "independentlyCalculatedAnswer": "14",
+      "questionSha256": "6660b3bab388d217b754fde0a5826b2bbd0af4970e4764ca1d9e8e5c0ddd754c"
+    },
+    {
+      "id": "math-tf-079",
+      "independentlyCalculatedAnswer": "6x + 15",
+      "questionSha256": "7facfb3027250fb2683884641dfcdd9aea74eee6a9bff0f029feb91bef1281c8"
+    },
+    {
+      "id": "math-fitb-079",
+      "independentlyCalculatedAnswer": "6x + 15",
+      "questionSha256": "5d1884f75258b46720c0dc3c2d2539ceff1baabe62421331582b13e4df44e996"
+    },
+    {
+      "id": "math-tf-082",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "d224dd9d410a0962f837f04fe05ce2c7d993a11fbb113981ad37cf4e5282f1bd"
+    },
+    {
+      "id": "math-fitb-082",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "4d92c8585d419c58eb3934988f1611f981dc7c07fd749418bfed9f6f8cd3857e"
+    },
+    {
+      "id": "math-tf-083",
+      "independentlyCalculatedAnswer": "14",
+      "questionSha256": "67defc5feafbe5bf7c4ed6b39077314919aae65e99571b13be0ba9531d957121"
+    },
+    {
+      "id": "math-fitb-083",
+      "independentlyCalculatedAnswer": "14",
+      "questionSha256": "bb1fa10330bb12a18dfb88fad3c898cecb549b292cc686e66399a5826b68f745"
+    },
+    {
+      "id": "math-tf-084",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "d8d5f819ed6b792c8222b79502c50a05296af1f7860d2ec2df6a5a3de263c2a2"
+    },
+    {
+      "id": "math-fitb-084",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "6dc4d1bdfbf182b619d010d561872bb7a5f41b5bd41bbb171e4bbbcfd2839bc4"
+    },
+    {
+      "id": "math-tf-085",
+      "independentlyCalculatedAnswer": "29",
+      "questionSha256": "9b52360ecda11b96ac5bb6e6fad87f17b569692f364ce8bc419fb07b107f993b"
+    },
+    {
+      "id": "math-fitb-085",
+      "independentlyCalculatedAnswer": "29",
+      "questionSha256": "acd26cce60ede368f6eeb4f552504ba8855d075003fffb0aa28953f395c1d090"
+    },
+    {
+      "id": "math-tf-086",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "f1109913d9fc4ee235419cac81a2d18bf23bf1e920dfd97fb5e069d386a45ee0"
+    },
+    {
+      "id": "math-fitb-086",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "8d2eeb994f2784e4e84836eaabb8e19a38f1ff34fbebc4d5bf715ec77777732c"
+    },
+    {
+      "id": "math-tf-087",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "9f9fc87fead74c057e8e3f9c5cba27b7f8bf9a379c2fd1b7c7d297f346836e6c"
+    },
+    {
+      "id": "math-fitb-087",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "dc2ee98e37b91fa503ed12f8cc497f4f712e45f9759dcbe81f72f4ac14402261"
+    },
+    {
+      "id": "math-tf-088",
+      "independentlyCalculatedAnswer": "n²",
+      "questionSha256": "5f72c8cf7eb7d83266c77e3a04c48385c8f27c010f79e37f401627a4793e43a6"
+    },
+    {
+      "id": "math-fitb-088",
+      "independentlyCalculatedAnswer": "n²",
+      "questionSha256": "51440fe6b233b09777efbba88e11886ef9752087c8e6d9ab1d665279932ef010"
+    },
+    {
+      "id": "math-tf-090",
+      "independentlyCalculatedAnswer": "2",
+      "questionSha256": "ff6fb793c6d2ca4d3c3afbf3c357e3ea6e835e1fb68d46a8c4f71471676bc0fc"
+    },
+    {
+      "id": "math-fitb-090",
+      "independentlyCalculatedAnswer": "2",
+      "questionSha256": "fe65db5daf813975a6dfa5aea96105c534c015fc052b49eda3a25a096b73303c"
+    },
+    {
+      "id": "math-tf-091",
+      "independentlyCalculatedAnswer": "26",
+      "questionSha256": "5d3a4b88149ec00a3b84fa902e0992d6600a748bfde6b6346c74ba9d50c027bb"
+    },
+    {
+      "id": "math-fitb-091",
+      "independentlyCalculatedAnswer": "26",
+      "questionSha256": "788fee53a7f9c515d6016e296c20be89841a3c7467e1458bad3edbe22e7c7c8f"
+    },
+    {
+      "id": "math-tf-092",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "aed5f0ec5a3b7c80bb951e2c14730155776011c4e4aac1f5aaad595396989406"
+    },
+    {
+      "id": "math-fitb-092",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "138c3dbde0dd4bf77901803dffbaa50b2ea9aa13390ca2522da6ddfdedb9d5e5"
+    },
+    {
+      "id": "math-tf-093",
+      "independentlyCalculatedAnswer": "154",
+      "questionSha256": "848644deb9d67e01b9f72c1479076d680930e4424db22c553c07233df7cc2c15"
+    },
+    {
+      "id": "math-fitb-093",
+      "independentlyCalculatedAnswer": "154",
+      "questionSha256": "a470ad4a8620bb56e3721308eec7583b53be9188a239324444c1177bf0d3ed75"
+    },
+    {
+      "id": "math-tf-094",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "bc64f8f35f44e01968ab5d69846dd166fa4fbc39bea3d4b62e73c06d2dbc7462"
+    },
+    {
+      "id": "math-fitb-094",
+      "independentlyCalculatedAnswer": "40",
+      "questionSha256": "fda291e3da455f259d8b9164b530e219f57ed28dcc0a8cc3ff7a66012024cee0"
+    },
+    {
+      "id": "math-tf-095",
+      "independentlyCalculatedAnswer": "81",
+      "questionSha256": "ce9de6a0c09928eb0618d8e1ebb2601d1429b83e78c59d89c0304f7fc9a5d7b8"
+    },
+    {
+      "id": "math-fitb-095",
+      "independentlyCalculatedAnswer": "81",
+      "questionSha256": "b60bd25ea8ac725a5a8b146f9ed348531354badb4092e0dd80ebeb41d97f722f"
+    },
+    {
+      "id": "math-tf-096",
+      "independentlyCalculatedAnswer": "44",
+      "questionSha256": "823678faa8f357dc790a22e046f2a434e0a6d47317eea821e5428aedeab5d826"
+    },
+    {
+      "id": "math-fitb-096",
+      "independentlyCalculatedAnswer": "44",
+      "questionSha256": "0b54fe673b579158ecc7f0d282e1ebf6d0a7cd1e9443aa05558899cb53d2f78c"
+    },
+    {
+      "id": "math-tf-097",
+      "independentlyCalculatedAnswer": "32",
+      "questionSha256": "2f1ed651cbd15253508512e75368ce702b3d6efcb3a253b38f2b061244560f5c"
+    },
+    {
+      "id": "math-fitb-097",
+      "independentlyCalculatedAnswer": "32",
+      "questionSha256": "d2df5e2e271224a072dc72039eb77371d0c810da02e61a87c4e93a90feb446d0"
+    },
+    {
+      "id": "math-tf-098",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "059d160b4199d58ef31bcfa8caffbc93649afbc14bc729b0269e15a89179b819"
+    },
+    {
+      "id": "math-fitb-098",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "1a3a11fbe741961f160ff793f85d8626b825e20e68de5d68c08ac3e51a0f4e57"
+    },
+    {
+      "id": "math-tf-099",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "bddc93c7cb0685f85483a209583c65079dac1af14d7ddb35aa1869fb6f92e4c1"
+    },
+    {
+      "id": "math-fitb-099",
+      "independentlyCalculatedAnswer": "30",
+      "questionSha256": "602235ddf8ceea79542739e9eb2a6b6b46762f06f77b15272aeebd4ea0df5c3b"
+    },
+    {
+      "id": "math-tf-103",
+      "independentlyCalculatedAnswer": "48",
+      "questionSha256": "d6d0cdb5bd9a9e5e31f964e078d7db4f28753e8622e05b85ab461f6185a694bc"
+    },
+    {
+      "id": "math-fitb-103",
+      "independentlyCalculatedAnswer": "48",
+      "questionSha256": "a294cd6d306f38bc53d3d695621df5ba0a07c6ad32dc601d57e24a16b8874181"
+    },
+    {
+      "id": "math-tf-104",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "7932a10ce423d9f241c86406fe2254a9abb377ec0a91620d80529a1188f2a471"
+    },
+    {
+      "id": "math-fitb-104",
+      "independentlyCalculatedAnswer": "120",
+      "questionSha256": "a7c579773386e72a2076a7b9bec297675977a7a8493a7d2f86d590876b9e19c8"
+    },
+    {
+      "id": "math-tf-106",
+      "independentlyCalculatedAnswer": "60",
+      "questionSha256": "3fdaa7a9b2ae8e586868aa23a55b541fda84afeea169969a39a16c3d65622459"
+    },
+    {
+      "id": "math-fitb-106",
+      "independentlyCalculatedAnswer": "60",
+      "questionSha256": "713ee5fc0d83b88bae33b27af8477b1a8fb9078b5be969836ed7641a0b0189dc"
+    },
+    {
+      "id": "math-tf-108",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "d436f356666e4d18445c8e0da71f1a91ada62f63169bc08354e69f63abd89095"
+    },
+    {
+      "id": "math-fitb-108",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "e1f6711a2acb963d3b8a53c575f7586a2ac3ccc42e51e27ac0a42fdd9ff29724"
+    },
+    {
+      "id": "math-tf-110",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "349112f06855ffa294ba62130d2942a6213c70d2fd5aaecae35c2546ecd3c619"
+    },
+    {
+      "id": "math-fitb-110",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "eefb5d99b7bef8f10262715044f516a05b83cd2df0091d913978ae77b8531d96"
+    },
+    {
+      "id": "math-tf-111",
+      "independentlyCalculatedAnswer": "200",
+      "questionSha256": "549db036f237ef96fa1cfb41685e53075606005a53ae2cd14412e889b322a674"
+    },
+    {
+      "id": "math-fitb-111",
+      "independentlyCalculatedAnswer": "200",
+      "questionSha256": "bd6d4ff0e93a9d0b92f570f363f7ca7be5fdd0c04b13154d3b422a37de1cf0cf"
+    },
+    {
+      "id": "math-tf-112",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "790dea6c4acf68e48257ac45ca4f89f4c0e7cd0e935783b394e8589767d50c0a"
+    },
+    {
+      "id": "math-fitb-112",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "8f9d8938ec74351c0c6a4a677728cc9f1d3c8fa0c7aa74bfd64329c22db33e30"
+    },
+    {
+      "id": "math-tf-126",
+      "independentlyCalculatedAnswer": "1,2,3,4,6,9,12,18,36",
+      "questionSha256": "1ef99ebf1cb2aedcc6b8de77710110290f3ad65ef0ca9017e71a20cf8871a9f4"
+    },
+    {
+      "id": "math-fitb-126",
+      "independentlyCalculatedAnswer": "1,2,3,4,6,9,12,18,36",
+      "questionSha256": "802993ce4a72ae0c82988882eb31ec8097dd5eec35f5df3af49664c1bb8b327b"
+    },
+    {
+      "id": "math-tf-127",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "90082dfef12cf0e0784c79cc6ddc333ead1c2d790991a9fd394ef7b4e4ec50d0"
+    },
+    {
+      "id": "math-fitb-127",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "a167448089e8172409f260920e33c83f51f97ccf3974b5d2dfbe8b34bfc60512"
+    },
+    {
+      "id": "math-tf-128",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "c201cc0712091378c988063fe6a4de7aa2cf263703ce20ece83ff905c06c7212"
+    },
+    {
+      "id": "math-fitb-128",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "553d24ef8c27aa9565452dbfba144607c684d9522801a8f0216acefcd5949608"
+    },
+    {
+      "id": "math-tf-129",
+      "independentlyCalculatedAnswer": "59",
+      "questionSha256": "8a0d1febcdfd3ab0723e29f468905d9c1af3ae196a9b096b996b6b56954cc395"
+    },
+    {
+      "id": "math-fitb-129",
+      "independentlyCalculatedAnswer": "59",
+      "questionSha256": "e01f14781bcc999f2440cc4af1450416190c5b0e88e0a1ee971cbea932c447ef"
+    },
+    {
+      "id": "math-tf-130",
+      "independentlyCalculatedAnswer": "2² × 3 × 5",
+      "questionSha256": "a9a38e63276600f9e39a5517f0690d4832baba93f1160074963de702ea892fb4"
+    },
+    {
+      "id": "math-fitb-130",
+      "independentlyCalculatedAnswer": "2² × 3 × 5",
+      "questionSha256": "71d0e36f6667c8218f4df1cf0acd488d50f66876006354d972a4059a04e42960"
+    },
+    {
+      "id": "math-tf-131",
+      "independentlyCalculatedAnswer": "64",
+      "questionSha256": "4f998a87dc6e0030998ae9f84d456b18e6f7df4bdc86909dce3bbf10c7b7132e"
+    },
+    {
+      "id": "math-fitb-131",
+      "independentlyCalculatedAnswer": "64",
+      "questionSha256": "042b156645d14840a2876b60408948ec1ea1f5dc089288f622ab3d4b91c4282b"
+    },
+    {
+      "id": "math-tf-132",
+      "independentlyCalculatedAnswer": "13",
+      "questionSha256": "4fb7c7836edabe50c9fb5c390399a15dfda6dbeec72d10bf8882765c99aca4d8"
+    },
+    {
+      "id": "math-fitb-132",
+      "independentlyCalculatedAnswer": "13",
+      "questionSha256": "ecd7dbe51cfa3ca79da3e2ea0b30337380381eb1db7f7df9fe88f700fecc4045"
+    },
+    {
+      "id": "math-tf-133",
+      "independentlyCalculatedAnswer": "32",
+      "questionSha256": "ad63d4b78b87c3432d351d5754851a7b9a6cda44d638b6df4714ecc175c103d6"
+    },
+    {
+      "id": "math-fitb-133",
+      "independentlyCalculatedAnswer": "32",
+      "questionSha256": "1af7bc58f437332b9ebc6a4eaf58609fe351e35f59ca2f8820de46f8c5a9cbc3"
+    },
+    {
+      "id": "math-tf-134",
+      "independentlyCalculatedAnswer": "64",
+      "questionSha256": "b031e77e254af29c4c1bfa771662f86a5da5473e1e78c876a5b1851779fc4cf9"
+    },
+    {
+      "id": "math-fitb-134",
+      "independentlyCalculatedAnswer": "64",
+      "questionSha256": "00d5f384673dfb61d8df970b5c94e266af6a87f540708aac25daecff964227c2"
+    },
+    {
+      "id": "math-tf-135",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "8175a5f0749b1267324b0d627876628141c32c1d0830b1b41fe17e2fcfc44c8b"
+    },
+    {
+      "id": "math-fitb-135",
+      "independentlyCalculatedAnswer": "28",
+      "questionSha256": "dec5ce30f4fc8b6e8047f389f2ac5a5c03283a9d38375c5a9e7c89b3b9b5bdba"
+    },
+    {
+      "id": "math-tf-136",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "43ebdcce11b782029aeccc1b7bc505d1e3fcf57848d1ea2e29f5b6822d808229"
+    },
+    {
+      "id": "math-fitb-136",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "db5a3f3a039e3463da82e27ab5ec1d2bf9097895ce7d02eaf5d539354a6cf832"
+    },
+    {
+      "id": "math-tf-137",
+      "independentlyCalculatedAnswer": "2³ × 3²",
+      "questionSha256": "307274724b011b168d04ef19b67d758fa2a8ff3bb5b5aec95efe3bd804b8630f"
+    },
+    {
+      "id": "math-fitb-137",
+      "independentlyCalculatedAnswer": "2³ × 3²",
+      "questionSha256": "db74c3365ce638b9756c94a72074bb05700c71a9f0619e57ecba084e2b278a63"
+    },
+    {
+      "id": "math-tf-138",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "e39207f27c06a432cc221e54c8f789111c4b51279b0f6392a956c4f7aa25e00e"
+    },
+    {
+      "id": "math-fitb-138",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "215ebc0d193d95aa9eb5c807d293dd314922fbccd666285ffe4b16f100a2075e"
+    },
+    {
+      "id": "math-tf-139",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "45a50e25be21625d280629236b9eaa85074e8a083aa227291894c0e7304294a9"
+    },
+    {
+      "id": "math-fitb-139",
+      "independentlyCalculatedAnswer": "24",
+      "questionSha256": "4ad7607718cf94c0be0ba03b43286f2bc674f3a2809493846367fe03dc4de467"
+    },
+    {
+      "id": "math-tf-140",
+      "independentlyCalculatedAnswer": "81",
+      "questionSha256": "1ca7ac406f6744cbd49df5003e48cf4d3f533a887a1719c1e30002615c12479a"
+    },
+    {
+      "id": "math-fitb-140",
+      "independentlyCalculatedAnswer": "81",
+      "questionSha256": "d2e95f4aaf19b617db36f50173714e4123aeb6f4db6c3a9138b4efe08aa5a429"
+    },
+    {
+      "id": "math-tf-151",
+      "independentlyCalculatedAnswer": "60",
+      "questionSha256": "246cf0b5bb4a9cbd297637d022a17cdbc919fa6f6d84c168c36e40ff552cd66d"
+    },
+    {
+      "id": "math-fitb-151",
+      "independentlyCalculatedAnswer": "60",
+      "questionSha256": "3182ea6a68f15dd3b470883da14698295863f2abac27b327017432c62ece4909"
+    },
+    {
+      "id": "math-tf-152",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "15993dd6e8a5a5cfa96cc997b8aa7b30fe5dde57db62c436400e4412a0fc3d00"
+    },
+    {
+      "id": "math-fitb-152",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "3715ec2e9e738ce8a57341107c9aa182105bc69377842e21c125b6ca143ace38"
+    },
+    {
+      "id": "math-tf-153",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "75d2c07e7181263c4e77a1a108ea8137553014951224d7d297ef9416708abfda"
+    },
+    {
+      "id": "math-fitb-153",
+      "independentlyCalculatedAnswer": "3",
+      "questionSha256": "adf92ac4de3bdda3597a0a60a6a6c95590ac2da80fd21f7038b33dddb2d5c39f"
+    },
+    {
+      "id": "math-tf-154",
+      "independentlyCalculatedAnswer": "2 h 30 min",
+      "questionSha256": "768800814193971bb671867aab0af38f3e762b639ef824662b4f0dbe3d8c8f82"
+    },
+    {
+      "id": "math-fitb-154",
+      "independentlyCalculatedAnswer": "2 h 30 min",
+      "questionSha256": "f921d2b8f4b29b805cf9d51a3f3d71a9518dc9d0d3144a0e85318f925e943495"
+    },
+    {
+      "id": "math-tf-158",
+      "independentlyCalculatedAnswer": "5.75",
+      "questionSha256": "9503b404e46371d165abf306234cc3e6263ed9cc999f07bb62c3a70bed4f18ce"
+    },
+    {
+      "id": "math-fitb-158",
+      "independentlyCalculatedAnswer": "5.75",
+      "questionSha256": "4b6114fe29fef4bc3c0cecf4da37b8fc27dc3e6e8ea663dcbd6df3a16c77b88e"
+    },
+    {
+      "id": "math-tf-159",
+      "independentlyCalculatedAnswer": "3500",
+      "questionSha256": "b578be2b472d01c645e94c3776fd6513533c519c744bd5a11534389a58c6de78"
+    },
+    {
+      "id": "math-fitb-159",
+      "independentlyCalculatedAnswer": "3500",
+      "questionSha256": "6da7a14ffbe3cd56b7ef05ad54c80db06afbb6073edfea9957dad932f52a0d61"
+    },
+    {
+      "id": "math-tf-160",
+      "independentlyCalculatedAnswer": "250",
+      "questionSha256": "e8cbd529d480f6b9b9cb7a2af1d41f46a8278dbb6db6af72ea35762892036b44"
+    },
+    {
+      "id": "math-fitb-160",
+      "independentlyCalculatedAnswer": "250",
+      "questionSha256": "995636584635722ac41a4bbe44793718cb903a8692a0900f9b6ed2441fc3e134"
+    },
+    {
+      "id": "math-tf-161",
+      "independentlyCalculatedAnswer": "2250",
+      "questionSha256": "e4788b2c5e2889640d2112088293fe40de912cba704f3218f1ed93f4329d344d"
+    },
+    {
+      "id": "math-fitb-161",
+      "independentlyCalculatedAnswer": "2250",
+      "questionSha256": "705d794fac54356ec6a9c460bb31d01a50be2b1cad107a41cac17a309aeca53b"
+    },
+    {
+      "id": "math-tf-165",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "3f74f8b4df21f6e0ae7c574bd3d956cba617ec479ae9111de0b16a1ee5782534"
+    },
+    {
+      "id": "math-fitb-165",
+      "independentlyCalculatedAnswer": "7",
+      "questionSha256": "9006a2d7fa057b1328bab27d4251426f84711e712345f6ba7f6cbf7c9f42ac91"
+    },
+    {
+      "id": "math-tf-166",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "f62938eef76a68bc04e43c018d84f73defed2ffe1c71fbeda3c2a114e110206a"
+    },
+    {
+      "id": "math-fitb-166",
+      "independentlyCalculatedAnswer": "5",
+      "questionSha256": "20c974741bc1b5c25a655f937abbc664b243fb002ca22c4ef7b6ade81960cb0e"
+    },
+    {
+      "id": "math-tf-167",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "fede4ac47526f3f40bfd47943d3cb873bc3a5bf79be5831ce9cdc601ea1cbd5a"
+    },
+    {
+      "id": "math-fitb-167",
+      "independentlyCalculatedAnswer": "4",
+      "questionSha256": "b31cfa646f1b979b0da89f82013f91dbba39cb4f96b9528a038ecca04e5a0e3a"
+    },
+    {
+      "id": "math-tf-168",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "5969bedb40d98f4b2a73d20662dd602b16c062b86c2a133f156275052fb677ee"
+    },
+    {
+      "id": "math-fitb-168",
+      "independentlyCalculatedAnswer": "8",
+      "questionSha256": "745414bb69a2fc763aec30cb485c884c86118539742aa593272cca418866cca3"
+    },
+    {
+      "id": "math-tf-169",
+      "independentlyCalculatedAnswer": "70",
+      "questionSha256": "9584c34cdca910305be64ab054d898256248922cd31b562e817ade896379fce4"
+    },
+    {
+      "id": "math-fitb-169",
+      "independentlyCalculatedAnswer": "70",
+      "questionSha256": "201540603ae237bfae1fe08874bcc2f49680d6e67ed68f2e0303604f5876da48"
+    },
+    {
+      "id": "math-tf-170",
+      "independentlyCalculatedAnswer": "14.5",
+      "questionSha256": "f65f05f0a6319a138fea89775f2d2e77b97d9e7e41de9da468f16a65bf10897c"
+    },
+    {
+      "id": "math-fitb-170",
+      "independentlyCalculatedAnswer": "14.5",
+      "questionSha256": "4742ae8cd8dfd887def354545dd4674dffab620da0969c850d334ea48f09bd1f"
+    },
+    {
+      "id": "math-tf-171",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "d4900eedfb6e9d30ffaead999f529142bd2a26bb490ee8f0c96c1283abb74b48"
+    },
+    {
+      "id": "math-fitb-171",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "e86f98df67026c0d5696f22866901354357e3393ae6a36b32823eb70695a66a7"
+    },
+    {
+      "id": "math-tf-175",
+      "independentlyCalculatedAnswer": "0.65",
+      "questionSha256": "4318fc262e2df8e658016e686f9bff34687ebc1e1af72e0b1c40cef852db99a5"
+    },
+    {
+      "id": "math-fitb-175",
+      "independentlyCalculatedAnswer": "0.65",
+      "questionSha256": "3101bd8403d117efdd0288402bb815b4ae5d8dea9037653b7a118a464132af13"
+    },
+    {
+      "id": "math-tf-196",
+      "independentlyCalculatedAnswer": "-5",
+      "questionSha256": "30255513541505a58bbaa6af9a13d1d5506c5c1050f1c5bc9baf59fdcfe45119"
+    },
+    {
+      "id": "math-fitb-196",
+      "independentlyCalculatedAnswer": "-5",
+      "questionSha256": "fc3f59d24e3f3048635b45a043f4b6db03a5969b3cac4ec7233099c1652dd77a"
+    },
+    {
+      "id": "math-tf-200",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "256bc33169cf2b154a41d3efe6d95844c49eed4b0c78f834b4b15037e1277048"
+    },
+    {
+      "id": "math-fitb-200",
+      "independentlyCalculatedAnswer": "10",
+      "questionSha256": "18375d2d63bdf12e7eb1f102876cb08a4c302d8ccf438a658126c0b2647f8f75"
+    },
+    {
+      "id": "math-tf-234",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "7a29e22045959e1eaa1b5dd430f9261aa10fdbe4c9f0c068e82c6e05a95d00ce"
+    },
+    {
+      "id": "math-fitb-234",
+      "independentlyCalculatedAnswer": "12",
+      "questionSha256": "44f36bf9afaad87302c99c7b0c2f615694c93389f4e967bc1f19ec91913d06c6"
+    }
+  ]
+}

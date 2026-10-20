@@ -1,3 +1,4 @@
+import { applyMathsOrderingReview } from './mathsOrderingReview';
 import { applyMathsRepair } from './mathsRepairs';
 import { mathsMarkingFor } from './mathsMarking';
 import { isQuestionQuarantined } from './questionQuarantine';
@@ -24,7 +25,7 @@ export const questionBank: Record<Subject, Partial<Record<QuizType, Question[]>>
     'multiple-choice': mathsMC.map(applyMathsRepair),
     'true-false': mathsTF.map(applyMathsRepair),
     'fill-in-the-blank': mathsFITB.map(q => ({...q, marking: mathsMarkingFor(q.id)})).map(applyMathsRepair),
-    ordering: mathsOrdering,
+    ordering: mathsOrdering.map(applyMathsOrderingReview),
   },
   [Subject.English]: {
     'multiple-choice': englishMC,
