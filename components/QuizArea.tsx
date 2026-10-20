@@ -147,7 +147,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     const correctOrderString = currentQ.correctAnswer;
 
     const isCorrect =
-      isAnswerCorrect(userOrderString, correctOrderString, quizType);
+      isAnswerCorrect(userOrderString, correctOrderString, quizType, currentQ.marking);
 
     updateState(userOrderString, isCorrect);
   };
