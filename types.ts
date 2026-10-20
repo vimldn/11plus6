@@ -72,6 +72,7 @@ export interface UserStats {
 }
 
 export interface QuizResult {
+  quizType?: QuizType;
   score: number;
   total: number;
   timeTaken: number;

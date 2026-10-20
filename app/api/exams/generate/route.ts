@@ -1,3 +1,4 @@
+import { validateGeneratedQuestions } from '@/lib/questionValidation';
 import { NextResponse } from 'next/server';
 import { Subject, QuizType, Question } from '@/types';
 import { getRandomQuestions } from '@/data/questionBank';
@@ -138,14 +139,14 @@ async function generateWithClaude(args: {
   const questions = parsed?.questions;
   if (!Array.isArray(questions) || questions.length < 1) throw new Error('Invalid questions payload');
 
-  return questions.map((q: any, idx: number) => ({
+  return validateGeneratedQuestions(questions.map((q: any, idx: number) => ({
     id: String(q.id || `ai-${idx + 1}`),
     text: String(q.text || ''),
     options: Array.isArray(q.options) ? q.options.map((o: any) => String(o)) : [],
     correctAnswer: String(q.correctAnswer || ''),
     explanation: String(q.explanation || ''),
     topic: String(q.topic || ''),
-  }));
+  })), count, quizType);
 }
 
 async function generateWithOpenAI(args: {
@@ -239,14 +240,14 @@ async function generateWithOpenAI(args: {
   if (!Array.isArray(questions) || questions.length < 1) throw new Error('Invalid questions payload');
 
   // Basic sanitisation
-  return questions.map((q: any, idx: number) => ({
+  return validateGeneratedQuestions(questions.map((q: any, idx: number) => ({
     id: String(q.id || `ai-${idx + 1}`),
     text: String(q.text || ''),
     options: Array.isArray(q.options) ? q.options.map((o: any) => String(o)) : [],
     correctAnswer: String(q.correctAnswer || ''),
     explanation: String(q.explanation || ''),
     topic: String(q.topic || ''),
-  }));
+  })), count, quizType);
 }
 
 export async function POST(req: Request) {
@@ -295,10 +296,6 @@ export async function POST(req: Request) {
   if (openaiKey) {
     try {
       const questions = await generateWithOpenAI({ apiKey: openaiKey, ...generatorArgs });
-      if (questions.length < count) {
-        const pad = getRandomQuestions(subject, quizType, count - questions.length, topic);
-        return NextResponse.json({ questions: [...questions, ...pad], meta: { ...metaBase, source: 'openai', model: process.env.OPENAI_MODEL || 'gpt-4o-mini', returnedCount: Math.min(count, questions.length + pad.length) } });
-      }
       return NextResponse.json({ questions: questions.slice(0, count), meta: { ...metaBase, source: 'openai', model: process.env.OPENAI_MODEL || 'gpt-4o-mini', returnedCount: count } });
     } catch (err) {
       console.error('[generate] OpenAI failed:', err);
@@ -309,10 +306,6 @@ export async function POST(req: Request) {
   if (anthropicKey) {
     try {
       const questions = await generateWithClaude({ apiKey: anthropicKey, ...generatorArgs });
-      if (questions.length < count) {
-        const pad = getRandomQuestions(subject, quizType, count - questions.length, topic);
-        return NextResponse.json({ questions: [...questions, ...pad], meta: { ...metaBase, source: 'claude', model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514', returnedCount: Math.min(count, questions.length + pad.length) } });
-      }
       return NextResponse.json({ questions: questions.slice(0, count), meta: { ...metaBase, source: 'claude', model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514', returnedCount: count } });
     } catch (err) {
       console.error('[generate] Claude also failed:', err);
@@ -320,7 +313,7 @@ export async function POST(req: Request) {
   }
 
   // Fallback: local bank (repeats to reach 20–30 questions)
-  const questions = getRandomQuestions(subject, quizType, count, topic);
+  const questions = getRandomQuestions(subject, quizType, count, topic, difficulty);
   return NextResponse.json({
     questions,
     warning: 'OPENAI_API_KEY not set (or generation failed). Using local question bank fallback.',
