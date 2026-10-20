@@ -1,0 +1,966 @@
+{
+  "date": "2026-10-20",
+  "scope": "120 existing MC questions; no educator review claimed; other formats not approved by this record",
+  "questions": [
+    {
+      "id": "math-mc-001",
+      "group": "Number",
+      "answer": "1245",
+      "topic": "Addition",
+      "questionSha256": "dcd1c2569ba453c7ce4822c804621bea2ecf3181bf5662fc6746cc09eedff1fa",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-002",
+      "group": "Number",
+      "answer": "655",
+      "topic": "Subtraction",
+      "questionSha256": "6284a3d9c11e9829e66a6b579de0a1a6400b26d2fcb27d8669671a572753d016",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-003",
+      "group": "Number",
+      "answer": "850",
+      "topic": "Multiplication",
+      "questionSha256": "2ac62e534cea9988021bf104e5d3b85b9d178aaf0976fd54ea6c4631087c9f97",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-004",
+      "group": "Number",
+      "answer": "77",
+      "topic": "Division",
+      "questionSha256": "bbf425fc1c277cf7e04f97f46545122a3669ed9a14f38cf548f2402439e2b618",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-005",
+      "group": "Number",
+      "answer": "361",
+      "topic": "Multiplication",
+      "questionSha256": "58924c8313ffbad12f5d471dd554df4f728f7faf99e45b241a9328cafb4b3d92",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-006",
+      "group": "Number",
+      "answer": "144",
+      "topic": "Division",
+      "questionSha256": "11f125f099d9d240754c13995f06c7f9ef2820d29b595b16ece85ca2388df7a8",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-007",
+      "group": "Number",
+      "answer": "3528",
+      "topic": "Multiplication",
+      "questionSha256": "670172dd31fb647d78984a92c7887a5efa8ff1f295b1a3785813cf1f618dbbd5",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-008",
+      "group": "Number",
+      "answer": "6254",
+      "topic": "Subtraction",
+      "questionSha256": "1e3c815874ab8ab770458b3717b0dbbeceb7407589098fee36fb21b30d45f003",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-009",
+      "group": "Number",
+      "answer": "1000",
+      "topic": "Multiplication",
+      "questionSha256": "07ba47351f1da5d19b94410dc10bb476e6e0d7050626e51309a147684d37255d",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-010",
+      "group": "Number",
+      "answer": "240",
+      "topic": "Division",
+      "questionSha256": "83b8ae960d9d53acebbf7f9125bd0b2c6e4591fad98ad014b17407971357cc15",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-011",
+      "group": "Number",
+      "answer": "1211",
+      "topic": "Addition",
+      "questionSha256": "6e45a8b21cfb75189025beb557366ab0c8262206797710f1ae6de4a30390b5b3",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-012",
+      "group": "Number",
+      "answer": "3613",
+      "topic": "Subtraction",
+      "questionSha256": "fc1b09c10eb14a5e4151bd78f25d47fc7d76fb9848ee9212a1879fc27580757d",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-013",
+      "group": "Number",
+      "answer": "576",
+      "topic": "Multiplication",
+      "questionSha256": "da36e90339de5bde05c2f74a8d82c367f74718b4e52cc94a4311a38a3423831b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-014",
+      "group": "Number",
+      "answer": "119",
+      "topic": "Division",
+      "questionSha256": "5e6a03570ecb016e71af9f458a7277291b80bd16871c83fefd6776340cb8b82c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-015",
+      "group": "Number",
+      "answer": "7023",
+      "topic": "Addition",
+      "questionSha256": "ee521fbb025ad79046398a75107cec85dc9367f5ae5666f09d561f109882c226",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-126",
+      "group": "Number",
+      "answer": "1,2,3,4,6,9,12,18,36",
+      "topic": "Factors",
+      "questionSha256": "b571c3cab160f2ab992efed589681a6c0822148d38839b0746fe90f6c78d78d4",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-127",
+      "group": "Number",
+      "answer": "24",
+      "topic": "Multiples",
+      "questionSha256": "4db9c818b0253877ac5a7841392546805a247c13bac0a4aae7028c3bafd8c9f6",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-128",
+      "group": "Number",
+      "answer": "12",
+      "topic": "Factors",
+      "questionSha256": "8a13804841b894124db436e1e6d36c728c583699d7e01b1afa20a0d963564d1c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-129",
+      "group": "Number",
+      "answer": "59",
+      "topic": "Prime Numbers",
+      "questionSha256": "2168cdb415159dd3523857fa47ab2e2484a908ac2cb8da56b67f9012ed73fa4c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-130",
+      "group": "Number",
+      "answer": "2² × 3 × 5",
+      "topic": "Prime Numbers",
+      "questionSha256": "79df22587af026b11d38d8b7f00e0b159f7009044116fc42071f5b020a7f95e4",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-131",
+      "group": "Number",
+      "answer": "64",
+      "topic": "Powers",
+      "questionSha256": "409ed6f7437b43e5852ac5782b8b5540b80f34f02be97d27ad9692d8af90e6ec",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-132",
+      "group": "Number",
+      "answer": "13",
+      "topic": "Square Roots",
+      "questionSha256": "64a440a3a8d558c4dffe351e5609d1c8726d919d1b9cf86b3f8bd2258a7c8e1c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-133",
+      "group": "Number",
+      "answer": "32",
+      "topic": "Powers",
+      "questionSha256": "50fdbc4484eac5629b6128812eb1165216686dbbd5d964fa55ecb2df7fcb5ecb",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-134",
+      "group": "Number",
+      "answer": "64",
+      "topic": "Powers",
+      "questionSha256": "54674d077f03195775c6f69f5273f32d81ba786e56ad8d36546f8915ecaedf8a",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-135",
+      "group": "Number",
+      "answer": "28",
+      "topic": "Prime Numbers",
+      "questionSha256": "f43dc471b5232db3509a9622a054048aab7f41ebc8f1080cb453092f8af787f9",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-136",
+      "group": "Number",
+      "answer": "24",
+      "topic": "Multiples",
+      "questionSha256": "96981d8ca1fc989d79f787838f80f14e688dff4d7916b954a384870fbfeb306b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-137",
+      "group": "Number",
+      "answer": "2³ × 3²",
+      "topic": "Prime Numbers",
+      "questionSha256": "07f97c3e29214c0585cec494dc81eda7e70d51a0dd1a7121ebba2fc9dabaf81e",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-138",
+      "group": "Number",
+      "answer": "4",
+      "topic": "Prime Numbers",
+      "questionSha256": "86454384767c518ecce8be45c57afa5c1e12ac774f073a14395cab9607b1a794",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-139",
+      "group": "Number",
+      "answer": "24",
+      "topic": "Factors",
+      "questionSha256": "58e338b52a62ed60a47e2af75a723ca631091743ad10b081ed513de5296d3212",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-140",
+      "group": "Number",
+      "answer": "81",
+      "topic": "Powers",
+      "questionSha256": "225a3a1b82c2646376f12b46c17442032cacfd149ecd30de353d58628f701a2b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-196",
+      "group": "Number",
+      "answer": "-5",
+      "topic": "Negative Numbers",
+      "questionSha256": "d9e35f3a0016e2c63cb282ede0881d8efc7612df89c80bd91004ef7268c19592",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-200",
+      "group": "Number",
+      "answer": "10",
+      "topic": "Negative Numbers",
+      "questionSha256": "40d8788b8ac2e2d5d7eeeb28d435103b5695511b1dc306767239b323415f7518",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-016",
+      "group": "Fractions, decimals and percentages",
+      "answer": "14/15",
+      "topic": "Fractions",
+      "questionSha256": "59322db1fa8346a811357a9b3895d033dea9cb1c10e7e44e2ab5e52e2b127e86",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-017",
+      "group": "Fractions, decimals and percentages",
+      "answer": "7/12",
+      "topic": "Fractions",
+      "questionSha256": "5313c4c0108195813100c2707a86d0203c66d99aaebb927eb33bbc88a57fdd4b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-019",
+      "group": "Fractions, decimals and percentages",
+      "answer": "2",
+      "topic": "Fractions",
+      "questionSha256": "8b23cb4733fb78a4795e74a2f5e575b8caf5debea8bbc87a407f0cdf8dca3fda",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-020",
+      "group": "Fractions, decimals and percentages",
+      "answer": "2/3",
+      "topic": "Fractions",
+      "questionSha256": "8413a8cad12ad12dc768066289450ccd46e376fbe7d325bc1b7f89305cd9e365",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-021",
+      "group": "Fractions, decimals and percentages",
+      "answer": "4.25",
+      "topic": "Fractions",
+      "questionSha256": "53eb93ec4b1e8d9f2f29a051355a7c31eb873bf0f8ff3835f39a41474cae7b8f",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-022",
+      "group": "Fractions, decimals and percentages",
+      "answer": "0.75",
+      "topic": "Fractions",
+      "questionSha256": "874f13441b3126fc52a2f57012d1060880cf7e9429ac8fd095dedbe42e983600",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-024",
+      "group": "Fractions, decimals and percentages",
+      "answer": "60",
+      "topic": "Fractions",
+      "questionSha256": "0e7ae8ce047704371532bfa517442ca82fef02c43ad77fcdfe9c7d5ffea8c1df",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-025",
+      "group": "Fractions, decimals and percentages",
+      "answer": "7",
+      "topic": "Fractions",
+      "questionSha256": "dfdf54c40e7538e8dbb5ce9b341d2aacccdc4d5e5a5f1985c2db431eea2014f0",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-026",
+      "group": "Fractions, decimals and percentages",
+      "answer": "1",
+      "topic": "Fractions",
+      "questionSha256": "664037ca8ca0f4f8e95ea7cc9c4fd8e7a6eff43358bc837ba2def14fa9d94d71",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-027",
+      "group": "Fractions, decimals and percentages",
+      "answer": "160",
+      "topic": "Fractions",
+      "questionSha256": "bf24a4051035ad6c0330a8b671a330ba655e84e9749ca769c7e308dbf7c6dc4c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-028",
+      "group": "Fractions, decimals and percentages",
+      "answer": "1.75",
+      "topic": "Fractions",
+      "questionSha256": "eed33a6c17f3f614a93541d5ca6d28e6543d6f01e2ac15f5f364d18890501dc0",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-029",
+      "group": "Fractions, decimals and percentages",
+      "answer": "0.8",
+      "topic": "Fractions",
+      "questionSha256": "d2ce2b5a5ec165577aa180b198bced232e20cd2e9bcb02101d5aee23cb600d8d",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-030",
+      "group": "Fractions, decimals and percentages",
+      "answer": "45",
+      "topic": "Fractions",
+      "questionSha256": "31d755efce177293b1e224b25d58de0d63b8fa3823244d9e78b06d49aa55e69d",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-031",
+      "group": "Fractions, decimals and percentages",
+      "answer": "30",
+      "topic": "Percentages",
+      "questionSha256": "a5d154c2fd6274b6a39737153a127dbba4e0494fabbe23f143cce6b58040c6b9",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-032",
+      "group": "Fractions, decimals and percentages",
+      "answer": "52",
+      "topic": "Percentages",
+      "questionSha256": "6c7689d701335a312f6298168c873c52c6b061990bb4e3c2e87a9a26ffde2544",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-033",
+      "group": "Fractions, decimals and percentages",
+      "answer": "25",
+      "topic": "Percentages",
+      "questionSha256": "b74bd0d6371930f407587697bf1f176fb4d38821b9ce3ba540b2fb56bf482777",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-034",
+      "group": "Fractions, decimals and percentages",
+      "answer": "30",
+      "topic": "Percentages",
+      "questionSha256": "02a76cb2ba960910a49803573e64d62b04f39766ad30f80e0c1edf514b59f2c7",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-035",
+      "group": "Fractions, decimals and percentages",
+      "answer": "30",
+      "topic": "Percentages",
+      "questionSha256": "1586816ddf6eb5fb7f2721c6f3c9f3ef8e5be3f9b7bd0a2f7bc47c481f2932eb",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-036",
+      "group": "Fractions, decimals and percentages",
+      "answer": "40",
+      "topic": "Percentages",
+      "questionSha256": "e46dc63bb57bca4cf3cf3652ea1b28e5f73d15b47ee0e89ae270c729beb71454",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-037",
+      "group": "Fractions, decimals and percentages",
+      "answer": "10",
+      "topic": "Percentages",
+      "questionSha256": "fc7d4043c5ff685724d2c90a481e473f9c2bc62c7bba9592dfd8da4da43ee277",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-039",
+      "group": "Fractions, decimals and percentages",
+      "answer": "25",
+      "topic": "Percentages",
+      "questionSha256": "9fde1dfe023ae68386647e0c53165778bab7f09da98fd9f990801b0f588bc6f6",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-040",
+      "group": "Fractions, decimals and percentages",
+      "answer": "25",
+      "topic": "Percentages",
+      "questionSha256": "b0ef566a533c64938515777b46419c2ca151d678414a951d4a8fdaa27ee3bfbc",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-041",
+      "group": "Fractions, decimals and percentages",
+      "answer": "56",
+      "topic": "Percentages",
+      "questionSha256": "41b7014f26286b5b5d3e385be5a3979c3747787aa557f7483731a4e94ab8964f",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-042",
+      "group": "Fractions, decimals and percentages",
+      "answer": "4200",
+      "topic": "Percentages",
+      "questionSha256": "5aa75e9c6db8b7430546f933209907649121d070fa725c6a01795582654dc150",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-043",
+      "group": "Fractions, decimals and percentages",
+      "answer": "9",
+      "topic": "Percentages",
+      "questionSha256": "6dc3f8407ddbf9d51833b92b27754dbfd5055acd5bdd37ea174bf96abe2c52dd",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-045",
+      "group": "Fractions, decimals and percentages",
+      "answer": "40",
+      "topic": "Percentages",
+      "questionSha256": "e41cc434741e91dd3364a131cd19f630b457adc523f568c089919a65d469449c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-046",
+      "group": "Fractions, decimals and percentages",
+      "answer": "6.12",
+      "topic": "Decimals",
+      "questionSha256": "82dc079c49290110ae6feb609d0f7234d7ebd795a763e8611823e475bf8535f0",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-047",
+      "group": "Fractions, decimals and percentages",
+      "answer": "2.45",
+      "topic": "Decimals",
+      "questionSha256": "20bfcaedd23a1a5bb2d9d61f00acc1cafad6664f4ad76574fe1f6d9ad5a955fe",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-048",
+      "group": "Fractions, decimals and percentages",
+      "answer": "0.42",
+      "topic": "Decimals",
+      "questionSha256": "7d39c5cde7d9a939fc83a95796c492ee9ff3774ed8fc6a54528e00cdc8fd4949",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-049",
+      "group": "Fractions, decimals and percentages",
+      "answer": "8",
+      "topic": "Decimals",
+      "questionSha256": "b82890935519b9c42b77ca388c8ad8437bbeaddff4b6d40ef3aba279de3c81c2",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-050",
+      "group": "Fractions, decimals and percentages",
+      "answer": "6.75",
+      "topic": "Decimals",
+      "questionSha256": "0afca54138a38fd0cc8ddd801c62434b0c712fb191a41f01c40281d6168b476d",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-051",
+      "group": "Fractions, decimals and percentages",
+      "answer": "0.125",
+      "topic": "Decimals",
+      "questionSha256": "f7fe16db79b6842410958e01028c9001fcb6d150436ebfca8d7a20e000353a9c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-061",
+      "group": "Ratio and proportion",
+      "answer": "£45 and £75",
+      "topic": "Ratio",
+      "questionSha256": "e5268e53b90af7487f40e8560a7818004b1d91c3c263eaadbd3091479ec640d7",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-062",
+      "group": "Ratio and proportion",
+      "answer": "80",
+      "topic": "Ratio",
+      "questionSha256": "885c8b234f288bf00733389fd9201d42a119af2ad91ed6a75785a02aa1938519",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-063",
+      "group": "Ratio and proportion",
+      "answer": "56",
+      "topic": "Proportion",
+      "questionSha256": "efba8d247dbefae77303706b33fdfae4d0bb11aff241a1dc3e798e2aa5f848c1",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-064",
+      "group": "Ratio and proportion",
+      "answer": "1.5",
+      "topic": "Scale",
+      "questionSha256": "968ae08b2f9a0b2397eebe3b1af416f0b9e0835efef4055c838e309eb7f29440",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-065",
+      "group": "Ratio and proportion",
+      "answer": "140 and 40",
+      "topic": "Ratio",
+      "questionSha256": "c02f96c17d02183efcb202abba41f0768469e315ec5ce68542cf593c75742265",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-067",
+      "group": "Ratio and proportion",
+      "answer": "300",
+      "topic": "Ratio",
+      "questionSha256": "3b4d18a03efde838d37e1b79e50910345470e1a9bca3a7774644a6d0dde6d353",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-068",
+      "group": "Ratio and proportion",
+      "answer": "12",
+      "topic": "Ratio",
+      "questionSha256": "19976f84574dda6a2575d582275bb3173a4510764dd1861ca193443262d4eb57",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-070",
+      "group": "Ratio and proportion",
+      "answer": "3:4",
+      "topic": "Ratio",
+      "questionSha256": "64b6d661218514d3213b7aee032ddc74283f17179d5e0fd69887546808fd2f65",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-071",
+      "group": "Ratio and proportion",
+      "answer": "8",
+      "topic": "Ratio",
+      "questionSha256": "f0f191da1a1b1e83f4a34f14c9613203ee7338cfcf1ee56c961fe7afd60b14a9",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-072",
+      "group": "Ratio and proportion",
+      "answer": "450",
+      "topic": "Proportion",
+      "questionSha256": "aa996700b67b39b0f4e906e428f1e898fb5d972e275b5441d3c235c923d16090",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-073",
+      "group": "Ratio and proportion",
+      "answer": "£60 and £140",
+      "topic": "Ratio",
+      "questionSha256": "3580ba8e76a0f4b0d93f6160fb7782b8834e743d98f1f09c6c749f3a9c6c0307",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-234",
+      "group": "Ratio and proportion",
+      "answer": "12",
+      "topic": "Ratio",
+      "questionSha256": "66ef625c7f683cc6a57db4481fcda2fb3d054d8e548b627225aa711fe7537a6c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-076",
+      "group": "Algebra",
+      "answer": "5",
+      "topic": "Algebra",
+      "questionSha256": "d406c7595d2430aa6f50c33269b86a1ed93571b2f915e31fd9b39ab218385607",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-077",
+      "group": "Algebra",
+      "answer": "4",
+      "topic": "Algebra",
+      "questionSha256": "797de9c03013da138c6bbf4103440239c00fcbc63bae7ec24ff612e382fa745b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-078",
+      "group": "Algebra",
+      "answer": "14",
+      "topic": "Algebra",
+      "questionSha256": "9d26b5bbf5f5fb23339f0c767fbfd7b7b96c6fd06fcfdd3f2b9b4552d8e176cb",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-079",
+      "group": "Algebra",
+      "answer": "6x + 15",
+      "topic": "Algebra",
+      "questionSha256": "c084ec870a6a669133867d7d7f5a83274a47da7dc43e91fda731d82dd8f3058e",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-082",
+      "group": "Algebra",
+      "answer": "4",
+      "topic": "Algebra",
+      "questionSha256": "1b8985d47220e59d7ab319f6a3fc1c280e02b0d7d6abf7a719b06ac15d49a05a",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-083",
+      "group": "Algebra",
+      "answer": "14",
+      "topic": "Algebra",
+      "questionSha256": "73912af2e5c48dd4bbd4920e13ba8097262cc7613eb2570cf3aed84e0eeab174",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-084",
+      "group": "Algebra",
+      "answer": "7",
+      "topic": "Algebra",
+      "questionSha256": "4aed8426819b20c6b6cef81b50210b1525d50ebc4e8776e3dfa887afbf5c46ab",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-085",
+      "group": "Algebra",
+      "answer": "29",
+      "topic": "Algebra",
+      "questionSha256": "62b8d3141e22ca845b494783f2348bb198baa57b71c49a461241564343018c8b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-086",
+      "group": "Algebra",
+      "answer": "3",
+      "topic": "Algebra",
+      "questionSha256": "85ae01d7b2e8ffa28c19bbf500049b5695b446c1474adf5598b1eb3b078ac1f3",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-087",
+      "group": "Algebra",
+      "answer": "7",
+      "topic": "Algebra",
+      "questionSha256": "32960b114a90919d82a5faabdd911f27d77cfc3af708d3dbff808f9e2603d9a4",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-088",
+      "group": "Algebra",
+      "answer": "n²",
+      "topic": "Algebra",
+      "questionSha256": "82282d9f83ee21fb8082f26d8b52d0a3a2968709f3b5382bcf706508807161de",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-090",
+      "group": "Algebra",
+      "answer": "2",
+      "topic": "Algebra",
+      "questionSha256": "69e9b8100c4086752f43d35a035bc02ffc81b5ebbcf354ed36e748d08bcedd34",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-091",
+      "group": "Geometry",
+      "answer": "26",
+      "topic": "Area and Perimeter",
+      "questionSha256": "56dfdcd1d72b6d459594786c65acea8fb53724c5f81615820bf6e2fffcb944c6",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-092",
+      "group": "Geometry",
+      "answer": "30",
+      "topic": "Area and Perimeter",
+      "questionSha256": "4e4ea224d938dbc34dd54e6f86a1a1b59f5c4bf63916abf7e818b5526ef0d5bc",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-093",
+      "group": "Geometry",
+      "answer": "154",
+      "topic": "Area and Perimeter",
+      "questionSha256": "22b3d0bcc00f153f05627fc410e3ea7c1eac46a9e750a83cc7ce0948dd48373f",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-094",
+      "group": "Geometry",
+      "answer": "40",
+      "topic": "Area and Perimeter",
+      "questionSha256": "45fbf91c2ed2e06196d40f748d7f304580461dc458a3cc5710ea357f5f95750c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-095",
+      "group": "Geometry",
+      "answer": "81",
+      "topic": "Area and Perimeter",
+      "questionSha256": "bddfa733d0119093070062d9f86f3e74ec82e5b9e150ba4fee65e39acc947768",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-096",
+      "group": "Geometry",
+      "answer": "44",
+      "topic": "Area and Perimeter",
+      "questionSha256": "dc3c0ce465372d7677ddbbcbe6ab0f4aaa9143aa581f4bb8ae0a770504f3229b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-097",
+      "group": "Geometry",
+      "answer": "32",
+      "topic": "Area and Perimeter",
+      "questionSha256": "033addc3e2f0a160486084f1998c6af6fc401d5c00bdf4c03a7e8039c5407ea7",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-098",
+      "group": "Geometry",
+      "answer": "7",
+      "topic": "Area and Perimeter",
+      "questionSha256": "086ad971e97da0495b5d779a20b76aec0b66526eabbba91b67d6e913e8f6a6e8",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-099",
+      "group": "Geometry",
+      "answer": "30",
+      "topic": "Area and Perimeter",
+      "questionSha256": "e5eaf77994701c5f000dc8f6981f4001f4997564dd5f9ea530d64de33dd717e9",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-103",
+      "group": "Geometry",
+      "answer": "48",
+      "topic": "Area and Perimeter",
+      "questionSha256": "6b5cc04d2ffc443a879e6b55aee28ba0ec8c56b9b88f3072066ff25c80036623",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-104",
+      "group": "Geometry",
+      "answer": "120",
+      "topic": "Area and Perimeter",
+      "questionSha256": "3b28ee71ec25c4c3032011ab8f8d0a071f32c7ab18abbff23dc3b9d2bfdab3a3",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-106",
+      "group": "Geometry",
+      "answer": "60",
+      "topic": "Volume",
+      "questionSha256": "9b873fcab21ac3c71c0ff5927b1f7f4a3743cc6f540bb9cfbc6edbc9df33c21a",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-108",
+      "group": "Measures and money",
+      "answer": "24",
+      "topic": "Volume",
+      "questionSha256": "9dc8c52c2177f2d9b34e8a184bd89864e9626a21cd9c3c4fe71c1083b74bef89",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-110",
+      "group": "Measures and money",
+      "answer": "4",
+      "topic": "Volume",
+      "questionSha256": "9e54545e535bd28a821f3ea8ab08e211986f1a93d10d81ddcbc96c08efe2513c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-111",
+      "group": "Measures and money",
+      "answer": "200",
+      "topic": "Volume",
+      "questionSha256": "36f53e806defb491844fdc072de1ed332008c793411e6083e3ac2dee0c6c4106",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-112",
+      "group": "Measures and money",
+      "answer": "3",
+      "topic": "Volume",
+      "questionSha256": "b936b7dc0014780716c16f5a5222ca8a63a635049cf2c75d6b733f0e29cbaa37",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-151",
+      "group": "Measures and money",
+      "answer": "60",
+      "topic": "Speed, Distance, Time",
+      "questionSha256": "41a25d05aebe0d08858625bb1fa8958279a78b7de3c30f64965badb05a05982a",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-152",
+      "group": "Measures and money",
+      "answer": "10",
+      "topic": "Speed, Distance, Time",
+      "questionSha256": "a209884ed5155a36e1b40bc52a96422afbc585829c10586e5e5592a98cbf64fb",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-153",
+      "group": "Measures and money",
+      "answer": "3",
+      "topic": "Speed, Distance, Time",
+      "questionSha256": "d519fedc1fbc0c842bef2b77c34df589f0f046e7bf21e2442c17dd7a676fb9a3",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-154",
+      "group": "Measures and money",
+      "answer": "2 h 30 min",
+      "topic": "Speed, Distance, Time",
+      "questionSha256": "efbeab0fcfee6dd9377c421ec865182ee5b4573d107c734417de0f01ece3d313",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-158",
+      "group": "Measures and money",
+      "answer": "5.75",
+      "topic": "Money",
+      "questionSha256": "87900fa8338e6c2322f4369145f9f5b231c86e7507ccad109eaa91caf246b5bf",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-159",
+      "group": "Measures and money",
+      "answer": "3500",
+      "topic": "Measures",
+      "questionSha256": "d5034a3b2a72086f3a0551f372c3f3e4d3b8de1dc30fd1c519398723a762b31d",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-160",
+      "group": "Measures and money",
+      "answer": "250",
+      "topic": "Measures",
+      "questionSha256": "a5af91d8c6c096789f21b20008f5fe70135e0968b9bd803c2476282ffcd474a4",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-161",
+      "group": "Measures and money",
+      "answer": "2250",
+      "topic": "Measures",
+      "questionSha256": "b9a833e765c517202dcae33e6ce678a7f013a2b1500b84fafce4df64ad171aaa",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-165",
+      "group": "Data",
+      "answer": "7",
+      "topic": "Statistics",
+      "questionSha256": "29a5df0658c1d946ce517c3e49a6828a059df448988cd2f69da08e88db360dc5",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-166",
+      "group": "Data",
+      "answer": "5",
+      "topic": "Statistics",
+      "questionSha256": "01fc789e877f707e99430f49876da572ac1188508b1cb6b986d1a5d9ca6a5d2c",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-167",
+      "group": "Data",
+      "answer": "4",
+      "topic": "Statistics",
+      "questionSha256": "ae2bd687bd77a29b98f6a502c7ae348ef0225d02d5920f99a2f56c006e3b3077",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-168",
+      "group": "Data",
+      "answer": "8",
+      "topic": "Statistics",
+      "questionSha256": "d9e546c32923fb14c343c8ff2983815b10dd5dd0468ffa5629ebba8e7ce7d828",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-169",
+      "group": "Data",
+      "answer": "70",
+      "topic": "Statistics",
+      "questionSha256": "042082d48e00f2c0629fbe6fd60b04c30eecc0ad39c59f66c71aab2ae59401c9",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-170",
+      "group": "Data",
+      "answer": "14.5",
+      "topic": "Statistics",
+      "questionSha256": "6a7d1081e4f708529dd956e7c7796bbe5d2e4cde46fe0f3105dcebd8b6638b65",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-171",
+      "group": "Data",
+      "answer": "12",
+      "topic": "Statistics",
+      "questionSha256": "c6ae5da4a2380d41bae2abaf834fd6f00db3c3ac6b4b12828648f11e5a43986b",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    },
+    {
+      "id": "math-mc-175",
+      "group": "Data",
+      "answer": "0.65",
+      "topic": "Probability",
+      "questionSha256": "5cb33fa882772b63a9cb31a1b3b3cb702fd2317558041237e0d17b7afa52d794",
+      "review": "Stem, alternatives, key and explanation checked; independent calculation in scripts/check-maths-pilot.cjs"
+    }
+  ]
+}

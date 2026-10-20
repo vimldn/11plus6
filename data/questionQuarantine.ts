@@ -1,6 +1,13 @@
 // Confirmed or ambiguous items found in the 20 October diagnostic sample.
 // Keep source records for review; exclude every derived form of each family.
 export const quarantinedFamilies = new Set([
+  'math-038', // 240 × 1.18 = 283.2; whole items and no rounding instruction.
+  'math-164', // Key contradicts explanation: 750g pack is better value.
+  'math-189', // Whole packs of each can total 20; LCM needs equal totals per size.
+  'math-226', // 19 − 2 = 17, absent from choices; key says 15.
+  'math-232', // 50° might be apex or base angle, giving different pairs.
+  'math-236', // Squared number can be 5 or −5; positivity not specified.
+  'math-242', // Sorted seven values cannot have the stated mean; key contradicts task.
   'math-080', // n²=81 permits -9 too; positivity unspecified.
   'eng-064', // Several ellipsis options can be valid in context.
   'eng-087', // Rhetorical intent requires context.
@@ -33,6 +40,12 @@ export const quarantinedFamilies = new Set([
   'nvr-088', // Starting inside/outside state omitted.
 ]);
 const quarantinedIds = new Set([
+  'math-mc-172', // 1/3 and 4/12 both correct.
+  'math-mc-177', // 4/8 and 1/2 both correct.
+  'math-mc-217', // Duplicate spinner question, same equivalent correct options.
+  'math-mc-224', // 6/20 and 3/10 both correct.
+  'math-mc-240', // 1/6 and 6/36 both correct.
+  'math-mc-247', // Duplicate spinner question, same equivalent correct options.
   'math-mc-018', // Live check: 6/12, 1/2 and 2/4 are equivalent correct options.
   'eng-fitb-037', // Free-text passive-voice task lacks candidate sentences.
   'eng-fitb-049', // Unrestricted modal-verb prompt has many answers.

@@ -48,6 +48,8 @@ export default function SubjectPage({ params }: Props) {
     <>
       <SchemaOrg data={subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc })} />
       <SubjectPageClient subject={subject}>
+        {subject.slug === 'maths' && <section className="mx-auto max-w-6xl px-6 pt-8"><h2 className="text-2xl font-bold">Try the maths practice pilot</h2><p className="mt-3">A balanced 30-question paper drawn from 120 checked questions, with answers and explanations after completion. Original practice for exams taken in 2027, not an official school paper.</p><Link className="mt-3 inline-block font-semibold text-indigo-700 underline" href="/quiz?paper=maths-pilot">Start the 30-question maths pilot</Link></section>}
+
         {lessonLinks.length ? (
           <section className="mx-auto max-w-6xl px-6 py-12" aria-labelledby="topic-lessons">
             <h2 id="topic-lessons" className="text-2xl font-bold text-slate-900">Learn each topic, then practise</h2>
