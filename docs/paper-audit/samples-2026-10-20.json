@@ -1,0 +1,3809 @@
+{
+  "seed": 20261020,
+  "papers": [
+    {
+      "subject": "Maths",
+      "type": "multiple-choice",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "math-mc-089",
+          "text": "Factorise 6x + 9.",
+          "options": [
+            "3(2x + 3)",
+            "2(3x + 4)",
+            "6(x + 3)",
+            "3(2x + 9)"
+          ],
+          "correctAnswer": "3(2x + 3)",
+          "explanation": "GCF is 3: 3(2x+3).",
+          "topic": "Algebra",
+          "difficulty": 3
+        },
+        {
+          "id": "math-mc-049",
+          "text": "What is 4.8 ÷ 0.6?",
+          "options": [
+            "0.8",
+            "8",
+            "0.08",
+            "80"
+          ],
+          "correctAnswer": "8",
+          "explanation": "48 ÷ 6 = 8.",
+          "topic": "Decimals",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-016",
+          "text": "What is 3/5 + 1/3?",
+          "options": [
+            "4/8",
+            "4/15",
+            "14/15",
+            "13/15"
+          ],
+          "correctAnswer": "14/15",
+          "explanation": "Common denominator 15: 9/15 + 5/15 = 14/15.",
+          "topic": "Fractions",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-005",
+          "text": "What is 19 × 19?",
+          "options": [
+            "341",
+            "351",
+            "361",
+            "371"
+          ],
+          "correctAnswer": "361",
+          "explanation": "19² = (20−1)² = 361.",
+          "topic": "Multiplication",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-142",
+          "text": "Missing term: 1, 4, 9, _, 25, 36?",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "17"
+          ],
+          "correctAnswer": "16",
+          "explanation": "Square numbers: 4² = 16.",
+          "topic": "Number Sequences",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-009",
+          "text": "What is 125 × 8?",
+          "options": [
+            "900",
+            "1,000",
+            "1,100",
+            "1,200"
+          ],
+          "correctAnswer": "1,000",
+          "explanation": "125 × 8 = 1,000.",
+          "topic": "Multiplication",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-152",
+          "text": "Cyclist at 15 km/h for 40 minutes. Distance?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "correctAnswer": "10",
+          "explanation": "15 × 2/3 = 10 km.",
+          "topic": "Speed, Distance, Time",
+          "difficulty": 2
+        },
+        {
+          "id": "math-mc-025",
+          "text": "What is 2 1/3 × 3?",
+          "options": [
+            "6",
+            "7",
+            "6 1/3",
+            "7 1/3"
+          ],
+          "correctAnswer": "7",
+          "explanation": "7/3 × 3 = 7.",
+          "topic": "Fractions",
+          "difficulty": 2
+        },
+        {
+          "id": "math-mc-019",
+          "text": "What is 3/4 ÷ 3/8?",
+          "options": [
+            "1",
+            "2",
+            "9/32",
+            "1/2"
+          ],
+          "correctAnswer": "2",
+          "explanation": "3/4 × 8/3 = 2.",
+          "topic": "Fractions",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-141",
+          "text": "Next term: 2, 6, 18, 54?",
+          "options": [
+            "108",
+            "144",
+            "162",
+            "216"
+          ],
+          "correctAnswer": "162",
+          "explanation": "×3 each time. 54×3 = 162.",
+          "topic": "Number Sequences",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-012",
+          "text": "What is 5,000 − 1,387?",
+          "options": [
+            "3,513",
+            "3,603",
+            "3,613",
+            "3,623"
+          ],
+          "correctAnswer": "3,613",
+          "explanation": "5,000 − 1,387 = 3,613.",
+          "topic": "Subtraction",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-044",
+          "text": "A price increases by 10% then decreases by 10%. Net change?",
+          "options": [
+            "Same",
+            "1% less",
+            "1% more",
+            "2% less"
+          ],
+          "correctAnswer": "1% less",
+          "explanation": "100 → 110 → 99. Net = −1%.",
+          "topic": "Percentages",
+          "difficulty": 3
+        },
+        {
+          "id": "math-mc-062",
+          "text": "Flour:sugar ratio 4:1. Using 320g flour, how much sugar?",
+          "options": [
+            "64g",
+            "80g",
+            "96g",
+            "100g"
+          ],
+          "correctAnswer": "80g",
+          "explanation": "320 ÷ 4 = 80g.",
+          "topic": "Ratio",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-150",
+          "text": "A sequence has first term 100 and common difference −7. First negative term?",
+          "options": [
+            "15th",
+            "16th",
+            "17th",
+            "18th"
+          ],
+          "correctAnswer": "16th",
+          "explanation": "107−7n < 0. n > 15.28. 16th term.",
+          "topic": "Number Sequences",
+          "difficulty": 3
+        },
+        {
+          "id": "math-mc-015",
+          "text": "What is 2,345 + 4,678?",
+          "options": [
+            "6,923",
+            "7,013",
+            "7,023",
+            "7,123"
+          ],
+          "correctAnswer": "7,023",
+          "explanation": "2,345 + 4,678 = 7,023.",
+          "topic": "Addition",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-161",
+          "text": "2.25 kg in grams?",
+          "options": [
+            "225",
+            "2,250",
+            "22,500",
+            "225,000"
+          ],
+          "correctAnswer": "2,250",
+          "explanation": "2.25 × 1,000 = 2,250 g.",
+          "topic": "Measures",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-157",
+          "text": "Runner covers 400m in 50 seconds. Speed in m/s?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": "8",
+          "explanation": "400 ÷ 50 = 8 m/s.",
+          "topic": "Speed, Distance, Time",
+          "difficulty": 2
+        },
+        {
+          "id": "math-mc-147",
+          "text": "nth term of 7, 11, 15, 19?",
+          "options": [
+            "4n + 3",
+            "3n + 4",
+            "4n − 3",
+            "5n + 2"
+          ],
+          "correctAnswer": "4n + 3",
+          "explanation": "Diff 4, n=1: 4+3=7. ✓",
+          "topic": "Number Sequences",
+          "difficulty": 2
+        },
+        {
+          "id": "math-mc-046",
+          "text": "What is 3.45 + 2.67?",
+          "options": [
+            "5.02",
+            "6.02",
+            "6.12",
+            "6.22"
+          ],
+          "correctAnswer": "6.12",
+          "explanation": "3.45 + 2.67 = 6.12.",
+          "topic": "Decimals",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-132",
+          "text": "What is √169?",
+          "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "correctAnswer": "13",
+          "explanation": "13² = 169.",
+          "topic": "Square Roots",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-024",
+          "text": "What is 5/8 of 96?",
+          "options": [
+            "55",
+            "60",
+            "65",
+            "70"
+          ],
+          "correctAnswer": "60",
+          "explanation": "96 ÷ 8 × 5 = 60.",
+          "topic": "Fractions",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-042",
+          "text": "A population of 4,000 increases by 5%. New population?",
+          "options": [
+            "4,100",
+            "4,150",
+            "4,200",
+            "4,250"
+          ],
+          "correctAnswer": "4,200",
+          "explanation": "5% of 4,000 = 200. 4,000 + 200 = 4,200.",
+          "topic": "Percentages",
+          "difficulty": 2
+        },
+        {
+          "id": "math-mc-055",
+          "text": "What is 0.25 × 36?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correctAnswer": "9",
+          "explanation": "0.25 = 1/4. 36 ÷ 4 = 9.",
+          "topic": "Decimals",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-003",
+          "text": "What is 34 × 25?",
+          "options": [
+            "750",
+            "800",
+            "850",
+            "900"
+          ],
+          "correctAnswer": "850",
+          "explanation": "34 × 25 = 34 × 100 ÷ 4 = 850.",
+          "topic": "Multiplication",
+          "difficulty": 1
+        },
+        {
+          "id": "math-mc-162",
+          "text": "£1.80/litre. Cost of 7.5 litres?",
+          "options": [
+            "£12.50",
+            "£13.50",
+            "£14.00",
+            "£14.50"
+          ],
+          "correctAnswer": "£13.50",
+          "explanation": "7.5 × 1.80 = £13.50.",
+          "topic": "Money",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "subject": "Maths",
+      "type": "true-false",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "math-tf-073",
+          "text": "True or False: The answer to [Divide £200 in ratio 3:7.] is £60 and £140.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "10 parts, each £20. 3×20=60, 7×20=140.",
+          "topic": "Ratio",
+          "difficulty": 1,
+          "sourceId": "math-mc-073"
+        },
+        {
+          "id": "math-tf-098",
+          "text": "True or False: The answer to [Rectangle area 84 cm², length 12cm. What is the width] is 5cm.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "84 ÷ 12 = 7cm.",
+          "topic": "Area and Perimeter",
+          "difficulty": 1,
+          "sourceId": "math-mc-098"
+        },
+        {
+          "id": "math-tf-115",
+          "text": "True or False: The answer to [Interior angle of regular hexagon] is 120°.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "(6−2)×180÷6 = 120°.",
+          "topic": "Angles",
+          "difficulty": 2,
+          "sourceId": "math-mc-115"
+        },
+        {
+          "id": "math-tf-156",
+          "text": "True or False: The answer to [Speed of 90 km/h in m/s] is 20.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "90 × 1000 ÷ 3600 = 25 m/s.",
+          "topic": "Speed, Distance, Time",
+          "difficulty": 3,
+          "sourceId": "math-mc-156"
+        },
+        {
+          "id": "math-tf-162",
+          "text": "True or False: The answer to [£1.80/litre. Cost of 7.5 litres] is £12.50.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "7.5 × 1.80 = £13.50.",
+          "topic": "Money",
+          "difficulty": 2,
+          "sourceId": "math-mc-162"
+        },
+        {
+          "id": "math-tf-092",
+          "text": "True or False: The answer to [Triangle base 10cm, height 6cm. What is its area] is 24.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "½ × 10 × 6 = 30 cm².",
+          "topic": "Area and Perimeter",
+          "difficulty": 1,
+          "sourceId": "math-mc-092"
+        },
+        {
+          "id": "math-tf-142",
+          "text": "True or False: The answer to [Missing term: 1, 4, 9, _, 25, 36] is 14.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Square numbers: 4² = 16.",
+          "topic": "Number Sequences",
+          "difficulty": 1,
+          "sourceId": "math-mc-142"
+        },
+        {
+          "id": "math-tf-134",
+          "text": "True or False: The answer to [Which is both a square and cube number under 200] is 16.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "64 = 8² = 4³.",
+          "topic": "Powers",
+          "difficulty": 2,
+          "sourceId": "math-mc-134"
+        },
+        {
+          "id": "math-tf-155",
+          "text": "True or False: The answer to [Two trains leave same station opposite directions at 80 and 100 mph. Distance apart after 1.5 h] is 270.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "180 × 1.5 = 270 miles.",
+          "topic": "Speed, Distance, Time",
+          "difficulty": 3,
+          "sourceId": "math-mc-155"
+        },
+        {
+          "id": "math-tf-143",
+          "text": "True or False: The answer to [Next in Fibonacci: 1,1,2,3,5,8,13] is 21.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "8 + 13 = 21.",
+          "topic": "Number Sequences",
+          "difficulty": 1,
+          "sourceId": "math-mc-143"
+        },
+        {
+          "id": "math-tf-112",
+          "text": "True or False: The answer to [Cube has volume 27 cm³. What is its side length] is 2cm.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "∛27 = 3.",
+          "topic": "Volume",
+          "difficulty": 2,
+          "sourceId": "math-mc-112"
+        },
+        {
+          "id": "math-tf-152",
+          "text": "True or False: The answer to [Cyclist at 15 km/h for 40 minutes. Distance] is 8.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "15 × 2/3 = 10 km.",
+          "topic": "Speed, Distance, Time",
+          "difficulty": 2,
+          "sourceId": "math-mc-152"
+        },
+        {
+          "id": "math-tf-009",
+          "text": "True or False: 125 × 8 = 1,000.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "125 × 8 = 1,000.",
+          "topic": "Multiplication",
+          "difficulty": 1,
+          "sourceId": "math-mc-009"
+        },
+        {
+          "id": "math-tf-039",
+          "text": "True or False: The answer to [What percentage is 45 of 180] is 25%.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "45/180 = 1/4 = 25%.",
+          "topic": "Percentages",
+          "difficulty": 1,
+          "sourceId": "math-mc-039"
+        },
+        {
+          "id": "math-tf-035",
+          "text": "True or False: 7.5% of 400 = 30.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "7.5/100 × 400 = 30.",
+          "topic": "Percentages",
+          "difficulty": 2,
+          "sourceId": "math-mc-035"
+        },
+        {
+          "id": "math-tf-117",
+          "text": "True or False: The answer to [Regular polygon with interior angles 150°. How many sides] is 12.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exterior = 30°. 360÷30 = 12.",
+          "topic": "Angles",
+          "difficulty": 3,
+          "sourceId": "math-mc-117"
+        },
+        {
+          "id": "math-tf-131",
+          "text": "True or False: 4³ = 64.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "4×4×4 = 64.",
+          "topic": "Powers",
+          "difficulty": 1,
+          "sourceId": "math-mc-131"
+        },
+        {
+          "id": "math-tf-003",
+          "text": "True or False: 34 × 25 = 850.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "34 × 25 = 34 × 100 ÷ 4 = 850.",
+          "topic": "Multiplication",
+          "difficulty": 1,
+          "sourceId": "math-mc-003"
+        },
+        {
+          "id": "math-tf-088",
+          "text": "True or False: the nth term of 1, 4, 9, 16 = 2n−1.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Square numbers: 1², 2², 3², 4².",
+          "topic": "Algebra",
+          "difficulty": 2,
+          "sourceId": "math-mc-088"
+        },
+        {
+          "id": "math-tf-031",
+          "text": "True or False: 15% of 200 = 30.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "15% of 200 = 30.",
+          "topic": "Percentages",
+          "difficulty": 1,
+          "sourceId": "math-mc-031"
+        },
+        {
+          "id": "math-tf-121",
+          "text": "True or False: The answer to [Exterior angle of triangle = 115°. Two non-adjacent interior angles are equal. Each is] is 57.5°.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "115 ÷ 2 = 57.5°.",
+          "topic": "Angles",
+          "difficulty": 3,
+          "sourceId": "math-mc-121"
+        },
+        {
+          "id": "math-tf-101",
+          "text": "True or False: The answer to [A rectangle has its length doubled and width halved. Area change] is Stays same.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "2l × w/2 = lw.",
+          "topic": "Area and Perimeter",
+          "difficulty": 3,
+          "sourceId": "math-mc-101"
+        },
+        {
+          "id": "math-tf-011",
+          "text": "True or False: 847 + 364 = 1,211.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "847 + 364 = 1,211.",
+          "topic": "Addition",
+          "difficulty": 1,
+          "sourceId": "math-mc-011"
+        },
+        {
+          "id": "math-tf-007",
+          "text": "True or False: 504 × 7 = 3,528.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "504 × 7 = 3,500 + 28 = 3,528.",
+          "topic": "Multiplication",
+          "difficulty": 1,
+          "sourceId": "math-mc-007"
+        },
+        {
+          "id": "math-tf-087",
+          "text": "True or False: The answer to [If a + b = 10 and a − b = 4, what is a] is 7.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "2a = 14, a = 7.",
+          "topic": "Algebra",
+          "difficulty": 3,
+          "sourceId": "math-mc-087"
+        }
+      ]
+    },
+    {
+      "subject": "Maths",
+      "type": "fill-in-the-blank",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "math-fitb-077",
+          "text": "If 5y − 3 = 17, what is y = ___",
+          "options": [],
+          "correctAnswer": "4",
+          "explanation": "5y = 20, y = 4.",
+          "topic": "Algebra",
+          "difficulty": 1,
+          "sourceId": "math-mc-077"
+        },
+        {
+          "id": "math-fitb-069",
+          "text": "240 miles on 8 gallons. How far on 5 gallons → ___",
+          "options": [],
+          "correctAnswer": "150",
+          "explanation": "30 mpg × 5 = 150.",
+          "topic": "Proportion",
+          "difficulty": 1,
+          "sourceId": "math-mc-069"
+        },
+        {
+          "id": "math-fitb-059",
+          "text": "4.67 × 1,000 = ___",
+          "options": [],
+          "correctAnswer": "4,670",
+          "explanation": "Move decimal 3 places right.",
+          "topic": "Decimals",
+          "difficulty": 1,
+          "sourceId": "math-mc-059"
+        },
+        {
+          "id": "math-fitb-053",
+          "text": "3.6 ÷ 0.09 = ___",
+          "options": [],
+          "correctAnswer": "40",
+          "explanation": "360 ÷ 9 = 40.",
+          "topic": "Decimals",
+          "difficulty": 2,
+          "sourceId": "math-mc-053"
+        },
+        {
+          "id": "math-fitb-060",
+          "text": "Which is greatest: 0.305, 0.35, 3/10, 31% = ___",
+          "options": [],
+          "correctAnswer": "0.35",
+          "explanation": "0.35 > 0.31 > 0.305 > 0.3.",
+          "topic": "Decimals",
+          "difficulty": 2,
+          "sourceId": "math-mc-060"
+        },
+        {
+          "id": "math-fitb-002",
+          "text": "1,002 − 347 = ___",
+          "options": [],
+          "correctAnswer": "655",
+          "explanation": "1,002 − 347 = 655.",
+          "topic": "Subtraction",
+          "difficulty": 1,
+          "sourceId": "math-mc-002"
+        },
+        {
+          "id": "math-fitb-071",
+          "text": "Gold:silver:bronze medals in ratio 2:3:5. 40 medals total. How many gold → ___",
+          "options": [],
+          "correctAnswer": "8",
+          "explanation": "10 parts, each 4. Gold = 2×4 = 8.",
+          "topic": "Ratio",
+          "difficulty": 2,
+          "sourceId": "math-mc-071"
+        },
+        {
+          "id": "math-fitb-004",
+          "text": "693 ÷ 9 = ___",
+          "options": [],
+          "correctAnswer": "77",
+          "explanation": "693 ÷ 9 = 77.",
+          "topic": "Division",
+          "difficulty": 1,
+          "sourceId": "math-mc-004"
+        },
+        {
+          "id": "math-fitb-042",
+          "text": "A population of 4,000 increases by 5%. New population = ___",
+          "options": [],
+          "correctAnswer": "4,200",
+          "explanation": "5% of 4,000 = 200. 4,000 + 200 = 4,200.",
+          "topic": "Percentages",
+          "difficulty": 2,
+          "sourceId": "math-mc-042"
+        },
+        {
+          "id": "math-fitb-043",
+          "text": "15% of 15% of 400 = ___",
+          "options": [],
+          "correctAnswer": "9",
+          "explanation": "15% of 400 = 60. 15% of 60 = 9.",
+          "topic": "Percentages",
+          "difficulty": 3,
+          "sourceId": "math-mc-043"
+        },
+        {
+          "id": "math-fitb-080",
+          "text": "If n² = 81, what is n = ___",
+          "options": [],
+          "correctAnswer": "9",
+          "explanation": "9² = 81.",
+          "topic": "Algebra",
+          "difficulty": 1,
+          "sourceId": "math-mc-080"
+        },
+        {
+          "id": "math-fitb-021",
+          "text": "1 3/4 + 2 1/2 = ___",
+          "options": [],
+          "correctAnswer": "4 1/4",
+          "explanation": "1 3/4 + 2 2/4 = 3 5/4 = 4 1/4.",
+          "topic": "Fractions",
+          "difficulty": 1,
+          "sourceId": "math-mc-021"
+        },
+        {
+          "id": "math-fitb-104",
+          "text": "Rectangle 15cm × 8cm. What is the area = ___",
+          "options": [],
+          "correctAnswer": "120 cm²",
+          "explanation": "15 × 8 = 120 cm².",
+          "topic": "Area and Perimeter",
+          "difficulty": 1,
+          "sourceId": "math-mc-104"
+        },
+        {
+          "id": "math-fitb-156",
+          "text": "Speed of 90 km/h in m/s = ___",
+          "options": [],
+          "correctAnswer": "25",
+          "explanation": "90 × 1000 ÷ 3600 = 25 m/s.",
+          "topic": "Speed, Distance, Time",
+          "difficulty": 3,
+          "sourceId": "math-mc-156"
+        },
+        {
+          "id": "math-fitb-159",
+          "text": "3.5 km in metres = ___",
+          "options": [],
+          "correctAnswer": "3,500",
+          "explanation": "3.5 × 1,000 = 3,500 m.",
+          "topic": "Measures",
+          "difficulty": 1,
+          "sourceId": "math-mc-159"
+        },
+        {
+          "id": "math-fitb-052",
+          "text": "1.2 × 1.2 = ___",
+          "options": [],
+          "correctAnswer": "1.44",
+          "explanation": "12 × 12 = 144, two places → 1.44.",
+          "topic": "Decimals",
+          "difficulty": 1,
+          "sourceId": "math-mc-052"
+        },
+        {
+          "id": "math-fitb-135",
+          "text": "Sum of first 5 prime numbers = ___",
+          "options": [],
+          "correctAnswer": "28",
+          "explanation": "2+3+5+7+11 = 28.",
+          "topic": "Prime Numbers",
+          "difficulty": 1,
+          "sourceId": "math-mc-135"
+        },
+        {
+          "id": "math-fitb-082",
+          "text": "Solve 2(x + 3) = 14. = ___",
+          "options": [],
+          "correctAnswer": "4",
+          "explanation": "x + 3 = 7, x = 4.",
+          "topic": "Algebra",
+          "difficulty": 1,
+          "sourceId": "math-mc-082"
+        },
+        {
+          "id": "math-fitb-152",
+          "text": "Cyclist at 15 km/h for 40 minutes. Distance = ___",
+          "options": [],
+          "correctAnswer": "10",
+          "explanation": "15 × 2/3 = 10 km.",
+          "topic": "Speed, Distance, Time",
+          "difficulty": 2,
+          "sourceId": "math-mc-152"
+        },
+        {
+          "id": "math-fitb-088",
+          "text": "the nth term of 1, 4, 9, 16 = ___",
+          "options": [],
+          "correctAnswer": "n²",
+          "explanation": "Square numbers: 1², 2², 3², 4².",
+          "topic": "Algebra",
+          "difficulty": 2,
+          "sourceId": "math-mc-088"
+        },
+        {
+          "id": "math-fitb-010",
+          "text": "3,600 ÷ 15 = ___",
+          "options": [],
+          "correctAnswer": "240",
+          "explanation": "3,600 ÷ 15 = 240.",
+          "topic": "Division",
+          "difficulty": 1,
+          "sourceId": "math-mc-010"
+        },
+        {
+          "id": "math-fitb-158",
+          "text": "3 books at £4.75 each, pay £20. Change = ___",
+          "options": [],
+          "correctAnswer": "£5.75",
+          "explanation": "3×4.75=14.25. 20−14.25=5.75.",
+          "topic": "Money",
+          "difficulty": 1,
+          "sourceId": "math-mc-158"
+        },
+        {
+          "id": "math-fitb-057",
+          "text": "Round 0.0846 to 2 significant figures. = ___",
+          "options": [],
+          "correctAnswer": "0.085",
+          "explanation": "Third digit 6 ≥ 5, round up: 0.085.",
+          "topic": "Decimals",
+          "difficulty": 3,
+          "sourceId": "math-mc-057"
+        },
+        {
+          "id": "math-fitb-086",
+          "text": "Solve 3(2x − 1) = 2x + 9. = ___",
+          "options": [],
+          "correctAnswer": "3",
+          "explanation": "6x−3=2x+9. 4x=12. x=3.",
+          "topic": "Algebra",
+          "difficulty": 3,
+          "sourceId": "math-mc-086"
+        },
+        {
+          "id": "math-fitb-024",
+          "text": "5/8 of 96 = ___",
+          "options": [],
+          "correctAnswer": "60",
+          "explanation": "96 ÷ 8 × 5 = 60.",
+          "topic": "Fractions",
+          "difficulty": 1,
+          "sourceId": "math-mc-024"
+        }
+      ]
+    },
+    {
+      "subject": "English",
+      "type": "multiple-choice",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "eng-mc-048",
+          "text": "Which word is an abstract noun?",
+          "options": [
+            "table",
+            "dog",
+            "freedom",
+            "quickly"
+          ],
+          "correctAnswer": "freedom",
+          "explanation": "\"Freedom\" is an abstract noun — a concept you cannot touch.",
+          "topic": "Word Types",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-133",
+          "text": "Which is an example of Standard English?",
+          "options": [
+            "I ain't got none.",
+            "I haven't got any.",
+            "I never got none.",
+            "I got none of it."
+          ],
+          "correctAnswer": "I haven't got any.",
+          "explanation": "Standard English avoids double negatives and non-standard forms.",
+          "topic": "Grammar",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-074",
+          "text": "Which is spelled correctly?",
+          "options": [
+            "Embarasment",
+            "Embarrassment",
+            "Embarrasment",
+            "Embarrassement"
+          ],
+          "correctAnswer": "Embarrassment",
+          "explanation": "\"Embarrassment\" — double r, double s.",
+          "topic": "Spelling",
+          "difficulty": 3
+        },
+        {
+          "id": "eng-mc-103",
+          "text": "What type of sentence is \"Run!\"?",
+          "options": [
+            "Declarative",
+            "Interrogative",
+            "Exclamatory",
+            "Imperative"
+          ],
+          "correctAnswer": "Imperative",
+          "explanation": "An imperative sentence gives a command or instruction.",
+          "topic": "Sentence Structure",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-118",
+          "text": "What does \"austere\" mean?",
+          "options": [
+            "colourful",
+            "plain and severe",
+            "generous",
+            "cheerful"
+          ],
+          "correctAnswer": "plain and severe",
+          "explanation": "\"Austere\" means plain, severe and without decoration or comfort.",
+          "topic": "Vocabulary",
+          "difficulty": 3
+        },
+        {
+          "id": "eng-mc-139",
+          "text": "In \"He was ebullient after winning\", what does \"ebullient\" mean?",
+          "options": [
+            "exhausted",
+            "cheerful and enthusiastic",
+            "nervous",
+            "calm"
+          ],
+          "correctAnswer": "cheerful and enthusiastic",
+          "explanation": "\"Ebullient\" means cheerful and full of energy.",
+          "topic": "Vocabulary",
+          "difficulty": 3
+        },
+        {
+          "id": "eng-mc-075",
+          "text": "Which is spelled correctly?",
+          "options": [
+            "Recieve",
+            "Receive",
+            "Receve",
+            "Receeve"
+          ],
+          "correctAnswer": "Receive",
+          "explanation": "\"Receive\" — after c, use ei.",
+          "topic": "Spelling",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-087",
+          "text": "Which sentence contains a rhetorical question?",
+          "options": [
+            "What time is it?",
+            "Is this the best we can do?",
+            "She asked where he had been.",
+            "Can you open the window?"
+          ],
+          "correctAnswer": "Is this the best we can do?",
+          "explanation": "A rhetorical question is not asked expecting an answer — it makes a point.",
+          "topic": "Writer's Methods",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-046",
+          "text": "Which word is a preposition?",
+          "options": [
+            "run",
+            "under",
+            "happy",
+            "quickly"
+          ],
+          "correctAnswer": "under",
+          "explanation": "\"Under\" shows the relationship between objects (preposition).",
+          "topic": "Word Types",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-068",
+          "text": "Which is spelled correctly?",
+          "options": [
+            "Rythm",
+            "Rhythym",
+            "Rhythm",
+            "Ryhthm"
+          ],
+          "correctAnswer": "Rhythm",
+          "explanation": "\"Rhythm\" — RHY-THM. No vowel in the middle.",
+          "topic": "Spelling",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-096",
+          "text": "Read: \"She barely touched her food.\" What does this most likely suggest?",
+          "options": [
+            "She is not hungry or is upset",
+            "She does not like the food",
+            "She is in a hurry",
+            "She is ill"
+          ],
+          "correctAnswer": "She is not hungry or is upset",
+          "explanation": "\"Barely touched\" suggests she is distracted, worried or unhappy.",
+          "topic": "Comprehension",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-163",
+          "text": "Which word is homophones with \"bear\"?",
+          "options": [
+            "beer",
+            "bare",
+            "bar",
+            "bore"
+          ],
+          "correctAnswer": "bare",
+          "explanation": "\"Bear\" and \"bare\" sound identical but have different meanings.",
+          "topic": "Spelling",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-128",
+          "text": "Which word is the verb in: \"The excited children ran quickly\"?",
+          "options": [
+            "excited",
+            "children",
+            "ran",
+            "quickly"
+          ],
+          "correctAnswer": "ran",
+          "explanation": "\"Ran\" is the action word — the verb.",
+          "topic": "Grammar",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-136",
+          "text": "In \"The play was riveting\", what does \"riveting\" mean?",
+          "options": [
+            "Boring",
+            "Confusing",
+            "Extremely interesting",
+            "Loud"
+          ],
+          "correctAnswer": "Extremely interesting",
+          "explanation": "\"Riveting\" means so interesting it holds your complete attention.",
+          "topic": "Vocabulary",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-161",
+          "text": "Which best defines \"setting\" in a story?",
+          "options": [
+            "The plot",
+            "The time and place of events",
+            "The main character",
+            "The conflict"
+          ],
+          "correctAnswer": "The time and place of events",
+          "explanation": "Setting describes when and where the story takes place.",
+          "topic": "Comprehension",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-159",
+          "text": "What is an \"antagonist\"?",
+          "options": [
+            "The hero",
+            "A character who opposes the protagonist",
+            "The narrator",
+            "A minor character"
+          ],
+          "correctAnswer": "A character who opposes the protagonist",
+          "explanation": "The antagonist creates conflict by opposing the main character.",
+          "topic": "Comprehension",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-089",
+          "text": "What is a flashback in a story?",
+          "options": [
+            "A sudden burst of light",
+            "When a character runs fast",
+            "A scene set earlier than the main action",
+            "When the story speeds up"
+          ],
+          "correctAnswer": "A scene set earlier than the main action",
+          "explanation": "A flashback takes the narrative back in time to show past events.",
+          "topic": "Writer's Methods",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-077",
+          "text": "Which phrase is a metaphor?",
+          "options": [
+            "Her voice was like music.",
+            "Time is a thief.",
+            "He ran quickly.",
+            "The stars twinkled."
+          ],
+          "correctAnswer": "Time is a thief.",
+          "explanation": "\"Time IS a thief\" — a direct comparison without like/as.",
+          "topic": "Writer's Methods",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-106",
+          "text": "What is the subject of: \"The quick brown fox jumps over the lazy dog.\"?",
+          "options": [
+            "quick",
+            "fox",
+            "jumps",
+            "dog"
+          ],
+          "correctAnswer": "fox",
+          "explanation": "The subject is who performs the action — \"The fox\".",
+          "topic": "Sentence Structure",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-064",
+          "text": "Which sentence uses an ellipsis correctly?",
+          "options": [
+            "She walked... slowly.",
+            "She walked slowly...",
+            "She... walked slowly",
+            "She walked...slowly"
+          ],
+          "correctAnswer": "She walked... slowly.",
+          "explanation": "Ellipsis creates a pause mid-sentence.",
+          "topic": "Punctuation",
+          "difficulty": 3
+        },
+        {
+          "id": "eng-mc-065",
+          "text": "Which is correctly punctuated direct speech?",
+          "options": [
+            "\"I love reading\", said Tom.",
+            "\"I love reading,\" said Tom.",
+            "\"I love reading.\" said Tom.",
+            "\"I love reading\" said Tom."
+          ],
+          "correctAnswer": "\"I love reading,\" said Tom.",
+          "explanation": "Comma inside the speech mark before \"said\".",
+          "topic": "Punctuation",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-081",
+          "text": "What literary device is used in \"The stars danced in the night sky\"?",
+          "options": [
+            "Simile",
+            "Alliteration",
+            "Personification",
+            "Oxymoron"
+          ],
+          "correctAnswer": "Personification",
+          "explanation": "Stars cannot dance — this gives them a human action.",
+          "topic": "Writer's Methods",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-143",
+          "text": "Read: \"The classroom was a zoo.\" What technique is used?",
+          "options": [
+            "Simile",
+            "Personification",
+            "Metaphor",
+            "Alliteration"
+          ],
+          "correctAnswer": "Metaphor",
+          "explanation": "Saying it IS a zoo (not like one) makes this a metaphor.",
+          "topic": "Writer's Methods",
+          "difficulty": 1
+        },
+        {
+          "id": "eng-mc-108",
+          "text": "Which sentence uses parenthesis to add extra information?",
+          "options": [
+            "She was tired.",
+            "She was tired — exhausted, in fact — and went to bed.",
+            "She slept soundly.",
+            "Tiredness overcame her."
+          ],
+          "correctAnswer": "She was tired — exhausted, in fact — and went to bed.",
+          "explanation": "The dashes mark the parenthetical phrase that adds extra detail.",
+          "topic": "Sentence Structure",
+          "difficulty": 2
+        },
+        {
+          "id": "eng-mc-082",
+          "text": "Which is an example of onomatopoeia?",
+          "options": [
+            "The bright sun shone.",
+            "The bees buzzed.",
+            "She ran quickly.",
+            "He is a rocket."
+          ],
+          "correctAnswer": "The bees buzzed.",
+          "explanation": "\"Buzzed\" sounds like the sound bees make — onomatopoeia.",
+          "topic": "Writer's Methods",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "subject": "English",
+      "type": "true-false",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "eng-tf-156",
+          "text": "True or False: The answer to [Which word is a homophone of \"flour\"] is: fleur.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Flour\" and \"flower\" sound the same but are spelled differently.",
+          "topic": "Spelling",
+          "difficulty": 1,
+          "sourceId": "eng-mc-156"
+        },
+        {
+          "id": "eng-tf-093",
+          "text": "True or False: Information the reader must infer is the correct answer to: What does \"implicit\" information in a text mean.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Implicit = suggested or hinted at, not stated directly.",
+          "topic": "Comprehension",
+          "difficulty": 2,
+          "sourceId": "eng-mc-093"
+        },
+        {
+          "id": "eng-tf-106",
+          "text": "True or False: quick is the correct answer to: What is the subject of: \"The quick brown fox jumps over the lazy dog.\".",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The subject is who performs the action — \"The fox\".",
+          "topic": "Sentence Structure",
+          "difficulty": 1,
+          "sourceId": "eng-mc-106"
+        },
+        {
+          "id": "eng-tf-098",
+          "text": "True or False: The correct answer to [Which question requires the reader to INFER an answer] is: What was the character's name?.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Feelings are often implied, not stated — the reader must infer them.",
+          "topic": "Comprehension",
+          "difficulty": 2,
+          "sourceId": "eng-mc-098"
+        },
+        {
+          "id": "eng-tf-101",
+          "text": "True or False: The answer to [Which is a simple sentence] is: The cat sat on the mat..",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A simple sentence has one main clause.",
+          "topic": "Sentence Structure",
+          "difficulty": 1,
+          "sourceId": "eng-mc-101"
+        },
+        {
+          "id": "eng-tf-100",
+          "text": "True or False: The correct answer to [Read: \"She marched into the room.\" What does \"marched\" tell us about her] is: She is tired.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Marched\" implies purpose, determination and confidence.",
+          "topic": "Comprehension",
+          "difficulty": 1,
+          "sourceId": "eng-mc-100"
+        },
+        {
+          "id": "eng-tf-109",
+          "text": "True or False: The answer to [Which sentence is exclamatory] is: What an amazing sight this is!.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "An exclamatory sentence expresses strong emotion and often starts with \"what\" or \"how\".",
+          "topic": "Sentence Structure",
+          "difficulty": 1,
+          "sourceId": "eng-mc-109"
+        },
+        {
+          "id": "eng-tf-113",
+          "text": "True or False: Makes it a noun is the correct answer to: What does adding the suffix \"-tion\" do to a word.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"-tion\" turns verbs into nouns, e.g. \"create\" → \"creation\".",
+          "topic": "Vocabulary",
+          "difficulty": 2,
+          "sourceId": "eng-mc-113"
+        },
+        {
+          "id": "eng-tf-107",
+          "text": "True or False: a cake is the correct answer to: What is the object in: \"She baked a cake\".",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "The object receives the action — \"a cake\".",
+          "topic": "Sentence Structure",
+          "difficulty": 1,
+          "sourceId": "eng-mc-107"
+        },
+        {
+          "id": "eng-tf-071",
+          "text": "True or False: The answer to [Which is spelled correctly] is: Believe.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Believe\" — i before e except after c.",
+          "topic": "Spelling",
+          "difficulty": 1,
+          "sourceId": "eng-mc-071"
+        },
+        {
+          "id": "eng-tf-035",
+          "text": "True or False: The answer to [Which is grammatically correct] is: Neither of the answers is correct..",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Neither\" takes a singular verb.",
+          "topic": "Grammar",
+          "difficulty": 2,
+          "sourceId": "eng-mc-035"
+        },
+        {
+          "id": "eng-tf-108",
+          "text": "True or False: The answer to [Which sentence uses parenthesis to add extra information] is: She was tired..",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The dashes mark the parenthetical phrase that adds extra detail.",
+          "topic": "Sentence Structure",
+          "difficulty": 2,
+          "sourceId": "eng-mc-108"
+        },
+        {
+          "id": "eng-tf-016",
+          "text": "True or False: The answer to [Which is closest in meaning to \"glimpse\"] is: long stare.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Glimpse\" is a brief or partial view of something.",
+          "topic": "Vocabulary",
+          "difficulty": 1,
+          "sourceId": "eng-mc-016"
+        },
+        {
+          "id": "eng-tf-114",
+          "text": "True or False: with is the correct answer to: What does the prefix \"anti-\" mean in \"anticlockwise\".",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Anti-\" means against or opposite.",
+          "topic": "Vocabulary",
+          "difficulty": 1,
+          "sourceId": "eng-mc-114"
+        },
+        {
+          "id": "eng-tf-117",
+          "text": "True or False: The answer to [Which word could replace \"walked\" to show nervousness] is: crept.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Crept\" suggests slow, cautious movement linked to nervousness.",
+          "topic": "Vocabulary",
+          "difficulty": 2,
+          "sourceId": "eng-mc-117"
+        },
+        {
+          "id": "eng-tf-028",
+          "text": "True or False: The answer to [Which is an antonym for \"tentative\"] is: uncertain.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Definite\" is the opposite of tentative (uncertain).",
+          "topic": "Antonyms",
+          "difficulty": 3,
+          "sourceId": "eng-mc-028"
+        },
+        {
+          "id": "eng-tf-094",
+          "text": "True or False: The correct answer to [Read: \"The old house loomed at the end of the lane, its windows dark and empty.\" Which word creates the most menacing image] is: old.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Loomed\" suggests something large and threatening overhead.",
+          "topic": "Comprehension",
+          "difficulty": 2,
+          "sourceId": "eng-mc-094"
+        },
+        {
+          "id": "eng-tf-119",
+          "text": "True or False: The answer to [Which word means \"to reduce in intensity or severity\"] is: alleviate.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Alleviate\" means to make something less severe or painful.",
+          "topic": "Vocabulary",
+          "difficulty": 3,
+          "sourceId": "eng-mc-119"
+        },
+        {
+          "id": "eng-tf-040",
+          "text": "True or False: The correct answer to [Choose the correct form: \"She has _____ her homework.\"] is: did.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Has done\" — \"done\" is the past participle.",
+          "topic": "Grammar",
+          "difficulty": 1,
+          "sourceId": "eng-mc-040"
+        },
+        {
+          "id": "eng-tf-104",
+          "text": "True or False: The answer to [Which sentence has a fronted adverbial] is: She smiled happily..",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Quietly\" is moved to the front of the sentence — a fronted adverbial.",
+          "topic": "Sentence Structure",
+          "difficulty": 2,
+          "sourceId": "eng-mc-104"
+        },
+        {
+          "id": "eng-tf-056",
+          "text": "True or False: The answer to [Which sentence has correct punctuation] is: After lunch we went, to the park..",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "A comma follows an introductory phrase.",
+          "topic": "Punctuation",
+          "difficulty": 1,
+          "sourceId": "eng-mc-056"
+        },
+        {
+          "id": "eng-tf-041",
+          "text": "True or False: The answer to [Which sentence uses a subordinate clause] is: Although it was raining, she went out..",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Although it was raining\" is the subordinate clause.",
+          "topic": "Grammar",
+          "difficulty": 2,
+          "sourceId": "eng-mc-041"
+        },
+        {
+          "id": "eng-tf-024",
+          "text": "True or False: The answer to [Which is an antonym for \"complex\"] is: difficult.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "\"Simple\" is the opposite of complex.",
+          "topic": "Antonyms",
+          "difficulty": 1,
+          "sourceId": "eng-mc-024"
+        },
+        {
+          "id": "eng-tf-067",
+          "text": "True or False: The answer to [Which is spelled correctly] is: Definitely.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Definitely\" — contains \"finite\".",
+          "topic": "Spelling",
+          "difficulty": 2,
+          "sourceId": "eng-mc-067"
+        },
+        {
+          "id": "eng-tf-005",
+          "text": "True or False: The answer to [Which word means \"to make worse\"] is: exacerbate.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Exacerbate\" means to make a problem or situation worse.",
+          "topic": "Vocabulary",
+          "difficulty": 3,
+          "sourceId": "eng-mc-005"
+        }
+      ]
+    },
+    {
+      "subject": "English",
+      "type": "fill-in-the-blank",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "eng-fitb-104",
+          "text": "Which sentence has a fronted adverbial: ___",
+          "options": [],
+          "correctAnswer": "Quietly, she crept down the stairs.",
+          "explanation": "\"Quietly\" is moved to the front of the sentence — a fronted adverbial.",
+          "topic": "Sentence Structure",
+          "difficulty": 2,
+          "sourceId": "eng-mc-104"
+        },
+        {
+          "id": "eng-fitb-128",
+          "text": "The answer is the verb in: \"The excited children ran quickly\": ___",
+          "options": [],
+          "correctAnswer": "ran",
+          "explanation": "\"Ran\" is the action word — the verb.",
+          "topic": "Grammar",
+          "difficulty": 1,
+          "sourceId": "eng-mc-128"
+        },
+        {
+          "id": "eng-fitb-049",
+          "text": "The answer is a modal verb: ___",
+          "options": [],
+          "correctAnswer": "should",
+          "explanation": "\"Should\" is a modal verb indicating obligation or possibility.",
+          "topic": "Word Types",
+          "difficulty": 2,
+          "sourceId": "eng-mc-049"
+        },
+        {
+          "id": "eng-fitb-005",
+          "text": "Which word means \"to make worse\": ___",
+          "options": [],
+          "correctAnswer": "exacerbate",
+          "explanation": "\"Exacerbate\" means to make a problem or situation worse.",
+          "topic": "Vocabulary",
+          "difficulty": 3,
+          "sourceId": "eng-mc-005"
+        },
+        {
+          "id": "eng-fitb-038",
+          "text": "The answer is a conjunction: ___",
+          "options": [],
+          "correctAnswer": "although",
+          "explanation": "\"Although\" is a subordinating conjunction.",
+          "topic": "Grammar",
+          "difficulty": 1,
+          "sourceId": "eng-mc-038"
+        },
+        {
+          "id": "eng-fitb-113",
+          "text": "What does adding the suffix \"-tion\" do to a word: ___",
+          "options": [],
+          "correctAnswer": "Makes it a noun",
+          "explanation": "\"-tion\" turns verbs into nouns, e.g. \"create\" → \"creation\".",
+          "topic": "Vocabulary",
+          "difficulty": 2,
+          "sourceId": "eng-mc-113"
+        },
+        {
+          "id": "eng-fitb-059",
+          "text": "Which sentence uses a semicolon correctly: ___",
+          "options": [],
+          "correctAnswer": "It was cold; however, we carried on.",
+          "explanation": "Semicolon before \"however\", comma after.",
+          "topic": "Punctuation",
+          "difficulty": 2,
+          "sourceId": "eng-mc-059"
+        },
+        {
+          "id": "eng-fitb-037",
+          "text": "Which sentence is in the passive voice: ___",
+          "options": [],
+          "correctAnswer": "The man was bitten by the dog.",
+          "explanation": "Passive voice: the subject receives the action.",
+          "topic": "Grammar",
+          "difficulty": 2,
+          "sourceId": "eng-mc-037"
+        },
+        {
+          "id": "eng-fitb-043",
+          "text": "The answer is an adverb in: \"She sings beautifully\": ___",
+          "options": [],
+          "correctAnswer": "beautifully",
+          "explanation": "\"Beautifully\" modifies the verb \"sings\" — it is an adverb.",
+          "topic": "Grammar",
+          "difficulty": 1,
+          "sourceId": "eng-mc-043"
+        },
+        {
+          "id": "eng-fitb-068",
+          "text": "The answer is spelled correctly: ___",
+          "options": [],
+          "correctAnswer": "Rhythm",
+          "explanation": "\"Rhythm\" — RHY-THM. No vowel in the middle.",
+          "topic": "Spelling",
+          "difficulty": 2,
+          "sourceId": "eng-mc-068"
+        },
+        {
+          "id": "eng-fitb-013",
+          "text": "verbose means ___.",
+          "options": [],
+          "correctAnswer": "using too many words",
+          "explanation": "\"Verbose\" means using more words than needed.",
+          "topic": "Vocabulary",
+          "difficulty": 3,
+          "sourceId": "eng-mc-013"
+        },
+        {
+          "id": "eng-fitb-074",
+          "text": "The answer is spelled correctly: ___",
+          "options": [],
+          "correctAnswer": "Embarrassment",
+          "explanation": "\"Embarrassment\" — double r, double s.",
+          "topic": "Spelling",
+          "difficulty": 3,
+          "sourceId": "eng-mc-074"
+        },
+        {
+          "id": "eng-fitb-036",
+          "text": "Choose the correct pronoun: \"Between you and ___, I know the answer.\": ___",
+          "options": [],
+          "correctAnswer": "me",
+          "explanation": "After a preposition like \"between\", use the object pronoun \"me\".",
+          "topic": "Grammar",
+          "difficulty": 3,
+          "sourceId": "eng-mc-036"
+        },
+        {
+          "id": "eng-fitb-118",
+          "text": "austere means ___.",
+          "options": [],
+          "correctAnswer": "plain and severe",
+          "explanation": "\"Austere\" means plain, severe and without decoration or comfort.",
+          "topic": "Vocabulary",
+          "difficulty": 3,
+          "sourceId": "eng-mc-118"
+        },
+        {
+          "id": "eng-fitb-004",
+          "text": "loquacious means ___.",
+          "options": [],
+          "correctAnswer": "talkative",
+          "explanation": "\"Loquacious\" describes someone who talks a great deal.",
+          "topic": "Vocabulary",
+          "difficulty": 3,
+          "sourceId": "eng-mc-004"
+        },
+        {
+          "id": "eng-fitb-091",
+          "text": "Read: \"The corridor was silent, except for the steady drip of water somewhere in the dark.\" What mood is created: ___",
+          "options": [],
+          "correctAnswer": "Tense and mysterious",
+          "explanation": "\"Silent\", \"drip\", \"dark\" all create a sense of tension and mystery.",
+          "topic": "Comprehension",
+          "difficulty": 1,
+          "sourceId": "eng-mc-091"
+        },
+        {
+          "id": "eng-fitb-102",
+          "text": "The answer is a compound sentence: ___",
+          "options": [],
+          "correctAnswer": "She ran and he walked.",
+          "explanation": "A compound sentence joins two main clauses with a conjunction.",
+          "topic": "Sentence Structure",
+          "difficulty": 1,
+          "sourceId": "eng-mc-102"
+        },
+        {
+          "id": "eng-fitb-109",
+          "text": "Which sentence is exclamatory: ___",
+          "options": [],
+          "correctAnswer": "What an amazing sight this is!",
+          "explanation": "An exclamatory sentence expresses strong emotion and often starts with \"what\" or \"how\".",
+          "topic": "Sentence Structure",
+          "difficulty": 1,
+          "sourceId": "eng-mc-109"
+        },
+        {
+          "id": "eng-fitb-157",
+          "text": "Which means \"the quality of being honest\": ___",
+          "options": [],
+          "correctAnswer": "Integrity",
+          "explanation": "\"Integrity\" means honesty and strong moral principles.",
+          "topic": "Vocabulary",
+          "difficulty": 2,
+          "sourceId": "eng-mc-157"
+        },
+        {
+          "id": "eng-fitb-064",
+          "text": "Which sentence uses an ellipsis correctly: ___",
+          "options": [],
+          "correctAnswer": "She walked... slowly.",
+          "explanation": "Ellipsis creates a pause mid-sentence.",
+          "topic": "Punctuation",
+          "difficulty": 3,
+          "sourceId": "eng-mc-064"
+        },
+        {
+          "id": "eng-fitb-114",
+          "text": "anti- means ___.",
+          "options": [],
+          "correctAnswer": "against/opposite",
+          "explanation": "\"Anti-\" means against or opposite.",
+          "topic": "Vocabulary",
+          "difficulty": 1,
+          "sourceId": "eng-mc-114"
+        },
+        {
+          "id": "eng-fitb-035",
+          "text": "The answer is grammatically correct: ___",
+          "options": [],
+          "correctAnswer": "Neither of the answers is correct.",
+          "explanation": "\"Neither\" takes a singular verb.",
+          "topic": "Grammar",
+          "difficulty": 2,
+          "sourceId": "eng-mc-035"
+        },
+        {
+          "id": "eng-fitb-020",
+          "text": "The answer is a synonym for \"bewildered\": ___",
+          "options": [],
+          "correctAnswer": "confused",
+          "explanation": "\"Bewildered\" means puzzled or confused.",
+          "topic": "Vocabulary",
+          "difficulty": 1,
+          "sourceId": "eng-mc-020"
+        },
+        {
+          "id": "eng-fitb-021",
+          "text": "The answer is a synonym for \"enormous\": ___",
+          "options": [],
+          "correctAnswer": "vast",
+          "explanation": "\"Vast\" and \"enormous\" both mean very large.",
+          "topic": "Synonyms",
+          "difficulty": 1,
+          "sourceId": "eng-mc-021"
+        },
+        {
+          "id": "eng-fitb-018",
+          "text": "Which word means \"full of energy and enthusiasm\": ___",
+          "options": [],
+          "correctAnswer": "vivacious",
+          "explanation": "\"Vivacious\" describes someone lively and spirited.",
+          "topic": "Vocabulary",
+          "difficulty": 3,
+          "sourceId": "eng-mc-018"
+        }
+      ]
+    },
+    {
+      "subject": "Verbal Reasoning",
+      "type": "multiple-choice",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "vr-mc-093",
+          "text": "Which word is most similar to \"amiable\"? A) angry B) friendly C) shy D) loud",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "explanation": "\"Amiable\" means friendly and pleasant.",
+          "topic": "Word Meanings",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-162",
+          "text": "Which two words are closest in meaning? A) verbose B) concise C) brief D) wordy",
+          "options": [
+            "A and D",
+            "B and C",
+            "A and B",
+            "C and D"
+          ],
+          "correctAnswer": "B and C",
+          "explanation": "\"Concise\" and \"brief\" both mean using few words.",
+          "topic": "Word Meanings",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-110",
+          "text": "Barometer is to pressure as thermometer is to ___?",
+          "options": [
+            "weight",
+            "speed",
+            "temperature",
+            "distance"
+          ],
+          "correctAnswer": "temperature",
+          "explanation": "A barometer measures pressure; a thermometer measures temperature.",
+          "topic": "Analogies",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-125",
+          "text": "Which word can precede STONE, FALL, SLIDE?",
+          "options": [
+            "ROCK",
+            "SNOW",
+            "RAIN",
+            "MUD"
+          ],
+          "correctAnswer": "MUD",
+          "explanation": "MUDSTONE ✓, MUDFALL? No. Better: ROCK: ROCKSTONE? No. SNOW: SNOWFALL ✓, SNOWSLIDE ✓, SNOWSTONE? Try LAND: LANDFALL? Better answer: MUD — MUDSLIDE ✓.",
+          "topic": "Word Connections",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-100",
+          "text": "All squares are rectangles. Shape X is a square. Is shape X a rectangle?",
+          "options": [
+            "Yes",
+            "No",
+            "Sometimes",
+            "Cannot tell"
+          ],
+          "correctAnswer": "Yes",
+          "explanation": "All squares are rectangles. X is a square, so X is a rectangle.",
+          "topic": "Logic",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-154",
+          "text": "What 3-letter word is hidden in \"planet\"?",
+          "options": [
+            "pan",
+            "lap",
+            "ant",
+            "net"
+          ],
+          "correctAnswer": "ant",
+          "explanation": "\"pl-ANT-et\" — ANT is hidden in planet? p-l-a-n-e-t: no. \"plANEt\" — LANE. \"plaNEt\" — ANE. Actually: pl-A-N-E-t. Hidden: LANE (4 letters). 3-letter: LAN, ANE, NET. NET = p-l-a-n-E-T = NET? p(1)l(2)a(3)n(4)e(5)t(6): NET = positions 4,5,6? n-e-t = NET ✓.",
+          "topic": "Hidden Words",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-124",
+          "text": "Which word completes both: \"A ___ of cards\" and \"He played his ___ card\"?",
+          "options": [
+            "full",
+            "deck",
+            "stack",
+            "pack"
+          ],
+          "correctAnswer": "pack",
+          "explanation": "A pack of cards and he played his pack card. Actually: PACK of cards ✓, \"played his trump card\" but PACK works for \"pack of cards\".",
+          "topic": "Word Connections",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-163",
+          "text": "Which is the odd one out? Pentagon, Hexagon, Heptagon, Decagon",
+          "options": [
+            "Pentagon",
+            "Hexagon",
+            "Heptagon",
+            "Decagon"
+          ],
+          "correctAnswer": "Decagon",
+          "explanation": "Pentagon(5), Hexagon(6), Heptagon(7) are consecutive. Decagon(10) breaks the sequence.",
+          "topic": "Odd One Out",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-099",
+          "text": "A is north of B. C is south of B. Which is furthest north?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "Cannot tell"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A is north of B, B is north of C. A is furthest north.",
+          "topic": "Logic",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-127",
+          "text": "A code uses: 1=A, 2=B, 3=C. What does 8-5-12-12-15 spell?",
+          "options": [
+            "HELLO",
+            "WORLD",
+            "JELLO",
+            "HELIO"
+          ],
+          "correctAnswer": "HELLO",
+          "explanation": "H=8, E=5, L=12, L=12, O=15 → HELLO.",
+          "topic": "Word Codes",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-026",
+          "text": "In a code, PEN = 16-5-14. What is PAD?",
+          "options": [
+            "16-1-4",
+            "15-1-3",
+            "16-2-4",
+            "17-1-4"
+          ],
+          "correctAnswer": "16-1-4",
+          "explanation": "P=16, A=1, D=4.",
+          "topic": "Word Codes",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-004",
+          "text": "Finger is to hand as toe is to ___?",
+          "options": [
+            "leg",
+            "knee",
+            "foot",
+            "ankle"
+          ],
+          "correctAnswer": "foot",
+          "explanation": "Fingers are part of a hand; toes are part of a foot.",
+          "topic": "Analogies",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-016",
+          "text": "Archipelago is to islands as constellation is to ___?",
+          "options": [
+            "planets",
+            "stars",
+            "galaxies",
+            "comets"
+          ],
+          "correctAnswer": "stars",
+          "explanation": "An archipelago is a group of islands; a constellation is a group of stars.",
+          "topic": "Analogies",
+          "difficulty": 3
+        },
+        {
+          "id": "vr-mc-047",
+          "text": "What number comes next: 1, 4, 9, 16, 25, ___?",
+          "options": [
+            "30",
+            "34",
+            "36",
+            "38"
+          ],
+          "correctAnswer": "36",
+          "explanation": "Square numbers: 6²=36.",
+          "topic": "Number Series",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-066",
+          "text": "Which is the odd one out? Rose, Daisy, Oak, Lily",
+          "options": [
+            "Rose",
+            "Daisy",
+            "Oak",
+            "Lily"
+          ],
+          "correctAnswer": "Oak",
+          "explanation": "Rose, Daisy, Lily are flowers. Oak is a tree.",
+          "topic": "Odd One Out",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-005",
+          "text": "Pen is to write as brush is to ___?",
+          "options": [
+            "draw",
+            "paint",
+            "cut",
+            "sweep"
+          ],
+          "correctAnswer": "paint",
+          "explanation": "A pen is used to write; a brush is used to paint.",
+          "topic": "Analogies",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-042",
+          "text": "What letter is 4 places after M in the alphabet?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "correctAnswer": "Q",
+          "explanation": "M(13)+4=17=Q.",
+          "topic": "Letter Series",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-009",
+          "text": "Chef is to kitchen as surgeon is to ___?",
+          "options": [
+            "hospital",
+            "theatre",
+            "ward",
+            "clinic"
+          ],
+          "correctAnswer": "theatre",
+          "explanation": "A chef works in a kitchen; a surgeon works in an operating theatre.",
+          "topic": "Analogies",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-132",
+          "text": "What is the missing word: BIG, LARGE, HUGE, ___?",
+          "options": [
+            "small",
+            "tiny",
+            "enormous",
+            "wide"
+          ],
+          "correctAnswer": "enormous",
+          "explanation": "Words increasing in size intensity: big < large < huge < enormous.",
+          "topic": "Word Meanings",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-001",
+          "text": "Cat is to kitten as dog is to ___?",
+          "options": [
+            "puppy",
+            "cub",
+            "foal",
+            "calf"
+          ],
+          "correctAnswer": "puppy",
+          "explanation": "A kitten is a baby cat; a puppy is a baby dog.",
+          "topic": "Analogies",
+          "difficulty": 1
+        },
+        {
+          "id": "vr-mc-017",
+          "text": "Mendel is to genetics as Newton is to ___?",
+          "options": [
+            "chemistry",
+            "biology",
+            "gravity",
+            "electricity"
+          ],
+          "correctAnswer": "gravity",
+          "explanation": "Mendel pioneered genetics; Newton is famous for gravity/physics.",
+          "topic": "Analogies",
+          "difficulty": 3
+        },
+        {
+          "id": "vr-mc-034",
+          "text": "What comes next: AZ, BY, CX, DW, ___?",
+          "options": [
+            "EU",
+            "EV",
+            "FV",
+            "FU"
+          ],
+          "correctAnswer": "EV",
+          "explanation": "First letter goes A,B,C,D,E. Second goes Z,Y,X,W,V.",
+          "topic": "Letter Series",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-160",
+          "text": "Which word contains a hidden planet? \"He was a martial artist.\"",
+          "options": [
+            "martial",
+            "artist",
+            "was",
+            "He"
+          ],
+          "correctAnswer": "martial",
+          "explanation": "\"mARTIAL\" — MARS is hidden? m-a-r-t-i-a-l: MAR (not full planet). Actually MARS: m-A-R-S? No S after R here. The planet is in \"mARTIAl\" — ART is not a planet. Try: EARTH in \"artist\" = a-r-t-i-s-t: no. MARS in \"martial\" = m-a-r-t: no S. Best answer: martial contains MAR.",
+          "topic": "Hidden Words",
+          "difficulty": 3
+        },
+        {
+          "id": "vr-mc-121",
+          "text": "Find the word that completes both sentences: \"She wore a gold ___\" and \"___ the door when you leave.\"",
+          "options": [
+            "shut",
+            "ring",
+            "lock",
+            "chain"
+          ],
+          "correctAnswer": "ring",
+          "explanation": "Gold ring (jewellery) and ring the doorbell/ring the door (less natural). Best: RING for both.",
+          "topic": "Word Connections",
+          "difficulty": 2
+        },
+        {
+          "id": "vr-mc-032",
+          "text": "What comes next: Z, X, V, T, ___?",
+          "options": [
+            "Q",
+            "R",
+            "S",
+            "P"
+          ],
+          "correctAnswer": "R",
+          "explanation": "Move back 2 letters each time: Z, X, V, T, R.",
+          "topic": "Letter Series",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "subject": "Verbal Reasoning",
+      "type": "true-false",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "vr-tf-073",
+          "text": "True or False: The answer to [Which is the odd one out? Arachnid, Crustacean, Insect, Amphibian] is: Amphibian.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Arachnids, Crustaceans, Insects are arthropods. Amphibians are not.",
+          "topic": "Odd One Out",
+          "difficulty": 3,
+          "sourceId": "vr-mc-073"
+        },
+        {
+          "id": "vr-tf-042",
+          "text": "True or False: The answer to [What letter is 4 places after M in the alphabet] is: P.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "M(13)+4=17=Q.",
+          "topic": "Letter Series",
+          "difficulty": 1,
+          "sourceId": "vr-mc-042"
+        },
+        {
+          "id": "vr-tf-021",
+          "text": "True or False: The answer to [If CAT = 3-1-20, what is DOG] is: 4-15-7.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A=1, B=2... D=4, O=15, G=7.",
+          "topic": "Word Codes",
+          "difficulty": 1,
+          "sourceId": "vr-mc-021"
+        },
+        {
+          "id": "vr-tf-089",
+          "text": "True or False: The answer to [Which two words are closest in meaning? A) cautious B) reckless C) careful D) brave] is: A and C.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "\"Cautious\" and \"careful\" are synonyms.",
+          "topic": "Word Meanings",
+          "difficulty": 1,
+          "sourceId": "vr-mc-089"
+        },
+        {
+          "id": "vr-tf-006",
+          "text": "True or False: The answer to [Oak is to acorn as apple is to ___] is: stone.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "An acorn is the seed of an oak tree; a pip is the seed of an apple.",
+          "topic": "Analogies",
+          "difficulty": 2,
+          "sourceId": "vr-mc-006"
+        },
+        {
+          "id": "vr-tf-037",
+          "text": "True or False: The answer to [What comes next: AZ, CX, EV, GT, ___] is: IR.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "First +2 each time; second -2 each time: I, R.",
+          "topic": "Letter Series",
+          "difficulty": 2,
+          "sourceId": "vr-mc-037"
+        },
+        {
+          "id": "vr-tf-105",
+          "text": "True or False: The answer to [If Monday is day 1, what day is day 18] is: Friday.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "18 mod 7 = 4. Day 4 = Thursday? 1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat,7=Sun. 18=18-14=4=Thu. Actually 18÷7=2r4, day 4=Thursday.",
+          "topic": "Logic",
+          "difficulty": 2,
+          "sourceId": "vr-mc-105"
+        },
+        {
+          "id": "vr-tf-053",
+          "text": "True or False: The answer to [What comes next: 3, 6, 11, 18, 27, ___] is: 38.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "+3, +5, +7, +9, +11: 27+11=38.",
+          "topic": "Number Series",
+          "difficulty": 3,
+          "sourceId": "vr-mc-053"
+        },
+        {
+          "id": "vr-tf-129",
+          "text": "True or False: The answer to [Books are cheaper than tablets. Tablets are more expensive than pens. What is the cheapest] is: Pens.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Tablets > Books; Tablets > Pens. We know pens < tablets but books vs pens unclear. Actually: cannot determine books vs pens exactly. Answer: Cannot tell.",
+          "topic": "Logic",
+          "difficulty": 3,
+          "sourceId": "vr-mc-129"
+        },
+        {
+          "id": "vr-tf-031",
+          "text": "True or False: The answer to [What comes next: A, C, E, G, ___] is: I.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Skip one letter each time: A, C, E, G, I.",
+          "topic": "Letter Series",
+          "difficulty": 1,
+          "sourceId": "vr-mc-031"
+        },
+        {
+          "id": "vr-tf-077",
+          "text": "True or False: The answer to [Which word can follow all three: SUN, FOOT, TABLE] is: CLOTH.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "SUNCLOTH? No — correct answer: LIGHT: SUNLIGHT, FOOTLIGHT, TABLELIGHT? Try CLOTH: TABLECLOTH ✓. Better: answer is CLOTH as TABLECLOTH works.",
+          "topic": "Word Connections",
+          "difficulty": 2,
+          "sourceId": "vr-mc-077"
+        },
+        {
+          "id": "vr-tf-014",
+          "text": "True or False: The answer to [Scalpel is to surgeon as gavel is to ___] is: doctor.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "A scalpel is a tool of a surgeon; a gavel is a tool of a judge.",
+          "topic": "Analogies",
+          "difficulty": 3,
+          "sourceId": "vr-mc-014"
+        },
+        {
+          "id": "vr-tf-012",
+          "text": "True or False: The answer to [Astronomer is to stars as geologist is to ___] is: plants.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "An astronomer studies stars; a geologist studies rocks.",
+          "topic": "Analogies",
+          "difficulty": 2,
+          "sourceId": "vr-mc-012"
+        },
+        {
+          "id": "vr-tf-127",
+          "text": "True or False: The answer to [A code uses: 1=A, 2=B, 3=C. What does 8-5-12-12-15 spell] is: HELLO.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "H=8, E=5, L=12, L=12, O=15 → HELLO.",
+          "topic": "Word Codes",
+          "difficulty": 1,
+          "sourceId": "vr-mc-127"
+        },
+        {
+          "id": "vr-tf-019",
+          "text": "True or False: The answer to [Dictionary is to words as atlas is to ___] is: maps.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A dictionary contains words; an atlas contains maps.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-019"
+        },
+        {
+          "id": "vr-tf-148",
+          "text": "True or False: The answer to [What 3-letter word can be placed before SIDE, LONG and WAY to make three new words] is: SOME.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "ASIDE ✓, ALONG ✓, AWAY ✓ — A placed before each.",
+          "topic": "Word Connections",
+          "difficulty": 2,
+          "sourceId": "vr-mc-148"
+        },
+        {
+          "id": "vr-tf-003",
+          "text": "True or False: The answer to [Hot is to cold as fast is to ___] is: slow.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Hot and cold are opposites; fast and slow are opposites.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-003"
+        },
+        {
+          "id": "vr-tf-015",
+          "text": "True or False: The answer to [Cub is to bear as lamb is to ___] is: sheep.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A cub is a baby bear; a lamb is a baby sheep.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-015"
+        },
+        {
+          "id": "vr-tf-136",
+          "text": "True or False: The answer to [Rearrange STEIN to make a drink] is: TINES.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "STEIN is already a drink container; rearranged it can also make TINES. The drink is STEIN (beer mug).",
+          "topic": "Word Meanings",
+          "difficulty": 2,
+          "sourceId": "vr-mc-136"
+        },
+        {
+          "id": "vr-tf-028",
+          "text": "True or False: The answer to [If MATHS = 13-1-20-8-19, what is the code for SCIENCE] is: 18-3-9-4-13-2-4.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "S=19, C=3, I=9, E=5, N=14, C=3, E=5.",
+          "topic": "Word Codes",
+          "difficulty": 2,
+          "sourceId": "vr-mc-028"
+        },
+        {
+          "id": "vr-tf-033",
+          "text": "True or False: The answer to [What comes next: AB, CD, EF, GH, ___] is: IJ.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Consecutive letter pairs: AB, CD, EF, GH, IJ.",
+          "topic": "Letter Series",
+          "difficulty": 1,
+          "sourceId": "vr-mc-033"
+        },
+        {
+          "id": "vr-tf-080",
+          "text": "True or False: The answer to [Which word can follow BLACK, WHITE, GREEN] is: HOUSE.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "BLACKBOARD ✓, WHITEBOARD ✓, GREENBOARD — BOARD connects all three.",
+          "topic": "Word Connections",
+          "difficulty": 2,
+          "sourceId": "vr-mc-080"
+        },
+        {
+          "id": "vr-tf-159",
+          "text": "True or False: The answer to [Complete the analogy: Knife : Surgeon :: Pen : ___] is: Writer.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A knife is the main tool of a surgeon; a pen is the main tool of a writer.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-159"
+        },
+        {
+          "id": "vr-tf-163",
+          "text": "True or False: The answer to [Which is the odd one out? Pentagon, Hexagon, Heptagon, Decagon] is: Decagon.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Pentagon(5), Hexagon(6), Heptagon(7) are consecutive. Decagon(10) breaks the sequence.",
+          "topic": "Odd One Out",
+          "difficulty": 2,
+          "sourceId": "vr-mc-163"
+        },
+        {
+          "id": "vr-tf-145",
+          "text": "True or False: The answer to [What is the missing pair: Z1, Y2, X3, ?, V5] is: W4.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Letters count down from Z; numbers count up: W=4th from Z? Z,Y,X,W → W4.",
+          "topic": "Letter Series",
+          "difficulty": 2,
+          "sourceId": "vr-mc-145"
+        }
+      ]
+    },
+    {
+      "subject": "Verbal Reasoning",
+      "type": "fill-in-the-blank",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "vr-fitb-156",
+          "text": "Which is the odd one out? France, Germany, China, Italy → ___",
+          "options": [],
+          "correctAnswer": "China",
+          "explanation": "France, Germany, Italy are European countries. China is in Asia.",
+          "topic": "Odd One Out",
+          "difficulty": 1,
+          "sourceId": "vr-mc-156"
+        },
+        {
+          "id": "vr-fitb-138",
+          "text": "Rearrange LISTEN to make another word → ___",
+          "options": [],
+          "correctAnswer": "All of these",
+          "explanation": "LISTEN, SILENT, TINSEL, and ENLIST are all anagrams of each other.",
+          "topic": "Word Meanings",
+          "difficulty": 2,
+          "sourceId": "vr-mc-138"
+        },
+        {
+          "id": "vr-fitb-163",
+          "text": "Which is the odd one out? Pentagon, Hexagon, Heptagon, Decagon → ___",
+          "options": [],
+          "correctAnswer": "Decagon",
+          "explanation": "Pentagon(5), Hexagon(6), Heptagon(7) are consecutive. Decagon(10) breaks the sequence.",
+          "topic": "Odd One Out",
+          "difficulty": 2,
+          "sourceId": "vr-mc-163"
+        },
+        {
+          "id": "vr-fitb-160",
+          "text": "Which word contains a hidden planet? \"He was a martial artist.\" → ___",
+          "options": [],
+          "correctAnswer": "martial",
+          "explanation": "\"mARTIAL\" — MARS is hidden? m-a-r-t-i-a-l: MAR (not full planet). Actually MARS: m-A-R-S? No S after R here. The planet is in \"mARTIAl\" — ART is not a planet. Try: EARTH in \"artist\" = a-r-t-i-s-t: no. MARS in \"martial\" = m-a-r-t: no S. Best answer: martial contains MAR.",
+          "topic": "Hidden Words",
+          "difficulty": 3,
+          "sourceId": "vr-mc-160"
+        },
+        {
+          "id": "vr-fitb-166",
+          "text": "Which pair are both collective nouns? A) pride B) murder C) quickly D) flock → ___",
+          "options": [],
+          "correctAnswer": "A and D",
+          "explanation": "Pride (of lions) and flock (of birds) are collective nouns.",
+          "topic": "Word Meanings",
+          "difficulty": 2,
+          "sourceId": "vr-mc-166"
+        },
+        {
+          "id": "vr-fitb-001",
+          "text": "Cat is to kitten as dog is to ___ → ___",
+          "options": [],
+          "correctAnswer": "puppy",
+          "explanation": "A kitten is a baby cat; a puppy is a baby dog.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-001"
+        },
+        {
+          "id": "vr-fitb-034",
+          "text": "What comes next: AZ, BY, CX, DW, ___ → ___",
+          "options": [],
+          "correctAnswer": "EV",
+          "explanation": "First letter goes A,B,C,D,E. Second goes Z,Y,X,W,V.",
+          "topic": "Letter Series",
+          "difficulty": 2,
+          "sourceId": "vr-mc-034"
+        },
+        {
+          "id": "vr-fitb-053",
+          "text": "What comes next: 3, 6, 11, 18, 27, ___ → ___",
+          "options": [],
+          "correctAnswer": "38",
+          "explanation": "+3, +5, +7, +9, +11: 27+11=38.",
+          "topic": "Number Series",
+          "difficulty": 3,
+          "sourceId": "vr-mc-053"
+        },
+        {
+          "id": "vr-fitb-139",
+          "text": "Rearrange EARTH to make another word → ___",
+          "options": [],
+          "correctAnswer": "HEART",
+          "explanation": "EARTH → HEART (anagram).",
+          "topic": "Word Meanings",
+          "difficulty": 1,
+          "sourceId": "vr-mc-139"
+        },
+        {
+          "id": "vr-fitb-030",
+          "text": "In a letter-number code, if A=Z, B=Y, C=X... what is CAT → ___",
+          "options": [],
+          "correctAnswer": "XZG",
+          "explanation": "Mirror code: C→X, A→Z, T→G.",
+          "topic": "Word Codes",
+          "difficulty": 3,
+          "sourceId": "vr-mc-030"
+        },
+        {
+          "id": "vr-fitb-008",
+          "text": "Wool is to sheep as silk is to ___ → ___",
+          "options": [],
+          "correctAnswer": "worm",
+          "explanation": "Wool comes from sheep; silk comes from silkworms.",
+          "topic": "Analogies",
+          "difficulty": 2,
+          "sourceId": "vr-mc-008"
+        },
+        {
+          "id": "vr-fitb-014",
+          "text": "Scalpel is to surgeon as gavel is to ___ → ___",
+          "options": [],
+          "correctAnswer": "judge",
+          "explanation": "A scalpel is a tool of a surgeon; a gavel is a tool of a judge.",
+          "topic": "Analogies",
+          "difficulty": 3,
+          "sourceId": "vr-mc-014"
+        },
+        {
+          "id": "vr-fitb-162",
+          "text": "Which two words are closest in meaning? A) verbose B) concise C) brief D) wordy → ___",
+          "options": [],
+          "correctAnswer": "B and C",
+          "explanation": "\"Concise\" and \"brief\" both mean using few words.",
+          "topic": "Word Meanings",
+          "difficulty": 2,
+          "sourceId": "vr-mc-162"
+        },
+        {
+          "id": "vr-fitb-007",
+          "text": "Captain is to ship as pilot is to ___ → ___",
+          "options": [],
+          "correctAnswer": "plane",
+          "explanation": "A captain commands a ship; a pilot commands a plane.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-007"
+        },
+        {
+          "id": "vr-fitb-036",
+          "text": "What comes next: ZA, YB, XC, WD, ___ → ___",
+          "options": [],
+          "correctAnswer": "VE",
+          "explanation": "First letter counts down from Z; second counts up from A.",
+          "topic": "Letter Series",
+          "difficulty": 2,
+          "sourceId": "vr-mc-036"
+        },
+        {
+          "id": "vr-fitb-158",
+          "text": "Complete the analogy: Hot : Cold :: Wet : ___ → ___",
+          "options": [],
+          "correctAnswer": "Dry",
+          "explanation": "Hot and Cold are opposites. Wet and Dry are opposites.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-158"
+        },
+        {
+          "id": "vr-fitb-147",
+          "text": "Add a letter to the start and end of ATE to make a new word → ___",
+          "options": [],
+          "correctAnswer": "GATED",
+          "explanation": "Adding G and D: G+ATE+D = GATED. RATED(R+ATE+D), HATED, FATED also valid.",
+          "topic": "Word Meanings",
+          "difficulty": 2,
+          "sourceId": "vr-mc-147"
+        },
+        {
+          "id": "vr-fitb-038",
+          "text": "What comes next: A, E, I, M, ___ → ___",
+          "options": [],
+          "correctAnswer": "Q",
+          "explanation": "+4 each time: A+4=E, E+4=I, I+4=M, M+4=Q.",
+          "topic": "Letter Series",
+          "difficulty": 2,
+          "sourceId": "vr-mc-038"
+        },
+        {
+          "id": "vr-fitb-133",
+          "text": "What comes next: spring, summer, autumn, ___ → ___",
+          "options": [],
+          "correctAnswer": "winter",
+          "explanation": "The four seasons in order.",
+          "topic": "Word Meanings",
+          "difficulty": 1,
+          "sourceId": "vr-mc-133"
+        },
+        {
+          "id": "vr-fitb-145",
+          "text": "What is the missing pair: Z1, Y2, X3, ?, V5 → ___",
+          "options": [],
+          "correctAnswer": "W4",
+          "explanation": "Letters count down from Z; numbers count up: W=4th from Z? Z,Y,X,W → W4.",
+          "topic": "Letter Series",
+          "difficulty": 2,
+          "sourceId": "vr-mc-145"
+        },
+        {
+          "id": "vr-fitb-017",
+          "text": "Mendel is to genetics as Newton is to ___ → ___",
+          "options": [],
+          "correctAnswer": "gravity",
+          "explanation": "Mendel pioneered genetics; Newton is famous for gravity/physics.",
+          "topic": "Analogies",
+          "difficulty": 3,
+          "sourceId": "vr-mc-017"
+        },
+        {
+          "id": "vr-fitb-150",
+          "text": "What word can follow BUTTER and precede FLY → ___",
+          "options": [],
+          "correctAnswer": "CUP",
+          "explanation": "BUTTERCUP ✓ (a flower), CUPFLY? No. Actually: BUTTER+FLY = BUTTERFLY. The word in the middle of BUTTER_FLY is nothing needed. But for BUTTER (___) FLY: BUTTERCUP/CUPFLY? The answer the question seeks is the word that follows BUTTER to make BUTTERFLY directly = no middle word needed for that.",
+          "topic": "Word Connections",
+          "difficulty": 2,
+          "sourceId": "vr-mc-150"
+        },
+        {
+          "id": "vr-fitb-040",
+          "text": "What comes next: AAB, BBC, CCD, DDE, ___ → ___",
+          "options": [],
+          "correctAnswer": "EEF",
+          "explanation": "Each group: two same letters + next letter. D,D,E → E,E,F.",
+          "topic": "Letter Series",
+          "difficulty": 2,
+          "sourceId": "vr-mc-040"
+        },
+        {
+          "id": "vr-fitb-159",
+          "text": "Complete the analogy: Knife : Surgeon :: Pen : ___ → ___",
+          "options": [],
+          "correctAnswer": "Writer",
+          "explanation": "A knife is the main tool of a surgeon; a pen is the main tool of a writer.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "vr-mc-159"
+        },
+        {
+          "id": "vr-fitb-130",
+          "text": "If yesterday was two days after Monday, what day is tomorrow → ___",
+          "options": [],
+          "correctAnswer": "Friday",
+          "explanation": "Two days after Monday = Wednesday = yesterday. Today = Thursday. Tomorrow = Friday.",
+          "topic": "Logic",
+          "difficulty": 2,
+          "sourceId": "vr-mc-130"
+        }
+      ]
+    },
+    {
+      "subject": "Non-Verbal Reasoning",
+      "type": "multiple-choice",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "nvr-mc-022",
+          "text": "A shape reflected in a vertical mirror: arrow pointing right becomes ___",
+          "options": [
+            "arrow pointing right",
+            "arrow pointing left",
+            "arrow pointing up",
+            "arrow pointing down"
+          ],
+          "correctAnswer": "arrow pointing left",
+          "explanation": "A vertical mirror flips left and right.",
+          "topic": "Reflection",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-064",
+          "text": "Code: A=triangle, B=square, C=circle. 1=small, 2=medium, 3=large. What is B2?",
+          "options": [
+            "small triangle",
+            "medium square",
+            "large circle",
+            "small square"
+          ],
+          "correctAnswer": "medium square",
+          "explanation": "B=square, 2=medium → medium square.",
+          "topic": "Codes",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-015",
+          "text": "Which 3D shape is the odd one out? Cube, cuboid, sphere, cylinder",
+          "options": [
+            "Cube",
+            "Cuboid",
+            "Sphere",
+            "Cylinder"
+          ],
+          "correctAnswer": "Sphere",
+          "explanation": "Cube, cuboid, cylinder all have flat faces. A sphere has no flat faces.",
+          "topic": "Odd One Out",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-094",
+          "text": "A shape is moved 2 squares right and 1 square up. It started at (3,2). New position is ___",
+          "options": [
+            "(5,3)",
+            "(1,3)",
+            "(5,1)",
+            "(4,3)"
+          ],
+          "correctAnswer": "(5,3)",
+          "explanation": "x+2=5, y+1=3 → (5,3).",
+          "topic": "Series",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-055",
+          "text": "In a 3×3 matrix: row 1 = circles, row 2 = squares, row 3 = triangles. Column 1 = small, column 2 = medium, column 3 = large. What is in position row 3, column 2?",
+          "options": [
+            "small triangle",
+            "medium triangle",
+            "large triangle",
+            "medium square"
+          ],
+          "correctAnswer": "medium triangle",
+          "explanation": "Row 3 = triangle, column 2 = medium → medium triangle.",
+          "topic": "Matrices",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-075",
+          "text": "A rectangle is folded in half lengthways. A cut is made parallel to the fold halfway along. Unfolded, the paper becomes ___",
+          "options": [
+            "one piece with a hole",
+            "two separate pieces",
+            "three pieces",
+            "one piece cut at one end"
+          ],
+          "correctAnswer": "two separate pieces",
+          "explanation": "Cutting through both layers parallel to the fold separates the paper into two pieces.",
+          "topic": "Folding",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-058",
+          "text": "In a matrix, the pattern in each row is: shape rotates 90° CW each column. Row 1 starts with arrow →. Row 1, column 3 shows ___",
+          "options": [
+            "→",
+            "↓",
+            "←",
+            "↑"
+          ],
+          "correctAnswer": "←",
+          "explanation": "→ (col1), ↓ (col2), ← (col3).",
+          "topic": "Matrices",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-030",
+          "text": "Shape with shading on the left half: reflected in vertical axis → shading is on ___",
+          "options": [
+            "left",
+            "right",
+            "top",
+            "bottom"
+          ],
+          "correctAnswer": "right",
+          "explanation": "Vertical reflection swaps left and right.",
+          "topic": "Reflection",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-087",
+          "text": "Sequence rule: number of internal dots = number of sides². A square (4 sides) has ___ dots.",
+          "options": [
+            "4",
+            "8",
+            "16",
+            "12"
+          ],
+          "correctAnswer": "16",
+          "explanation": "4² = 16 dots.",
+          "topic": "Series",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-009",
+          "text": "Arrow sequence: →, ↓, ←, ↑, ___",
+          "options": [
+            "→",
+            "↓",
+            "←",
+            "↑"
+          ],
+          "correctAnswer": "→",
+          "explanation": "Rotating 90° clockwise: after ↑ comes → (full rotation complete).",
+          "topic": "Rotation",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-081",
+          "text": "Which 3D shape has exactly 1 vertex (apex)?",
+          "options": [
+            "Cube",
+            "Sphere",
+            "Cone",
+            "Cylinder"
+          ],
+          "correctAnswer": "Cone",
+          "explanation": "A cone has exactly 1 vertex at its apex.",
+          "topic": "Nets",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-095",
+          "text": "Shape at (4,4) reflected in the line x=3. New x-coordinate is ___",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "correctAnswer": "2",
+          "explanation": "Distance from x=3 is 1. Reflected: 3-1=2.",
+          "topic": "Reflection",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-051",
+          "text": "A triangular prism has how many faces?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": "5",
+          "explanation": "2 triangular ends + 3 rectangular sides = 5 faces.",
+          "topic": "Nets",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-016",
+          "text": "Odd one out: cone, pyramid, prism, sphere — based on having a circular cross-section",
+          "options": [
+            "Cone",
+            "Pyramid",
+            "Prism",
+            "Sphere"
+          ],
+          "correctAnswer": "Pyramid",
+          "explanation": "Cone, prism (circular), sphere all have curved surfaces. A pyramid has only flat triangular faces.",
+          "topic": "Odd One Out",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-082",
+          "text": "Which shape has the most diagonals? Square, pentagon, hexagon, octagon",
+          "options": [
+            "Square",
+            "Pentagon",
+            "Hexagon",
+            "Octagon"
+          ],
+          "correctAnswer": "Octagon",
+          "explanation": "Number of diagonals = n(n-3)/2. Octagon: 8×5/2=20 — the most.",
+          "topic": "Series",
+          "difficulty": 3
+        },
+        {
+          "id": "nvr-mc-077",
+          "text": "Paper is folded once. A semicircle cut from the folded edge creates what shape when unfolded?",
+          "options": [
+            "semicircle",
+            "circle",
+            "oval",
+            "half-circle indent"
+          ],
+          "correctAnswer": "circle",
+          "explanation": "Cutting a semicircle from the fold creates a full circle when unfolded.",
+          "topic": "Folding",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-092",
+          "text": "In a sequence, the figure rotates 45° clockwise each step and gains one dot. Step 1: 1 dot, 0°. Step 5: ___ dots, ___ degrees",
+          "options": [
+            "5 dots, 180°",
+            "4 dots, 160°",
+            "5 dots, 200°",
+            "6 dots, 180°"
+          ],
+          "correctAnswer": "5 dots, 180°",
+          "explanation": "Step 5: 5 dots. 4 × 45° = 180°.",
+          "topic": "Series",
+          "difficulty": 3
+        },
+        {
+          "id": "nvr-mc-007",
+          "text": "What is the missing shape? Large black square, large white square, small black square, ___",
+          "options": [
+            "large black circle",
+            "small white square",
+            "large white circle",
+            "small black circle"
+          ],
+          "correctAnswer": "small white square",
+          "explanation": "Pattern: large black, large white, small black, small white.",
+          "topic": "Series",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-041",
+          "text": "How many degrees is a quarter turn?",
+          "options": [
+            "45°",
+            "90°",
+            "180°",
+            "270°"
+          ],
+          "correctAnswer": "90°",
+          "explanation": "A quarter of 360° = 90°.",
+          "topic": "Rotation",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-080",
+          "text": "Which shape has exactly 2 lines of symmetry?",
+          "options": [
+            "square",
+            "equilateral triangle",
+            "rectangle",
+            "regular pentagon"
+          ],
+          "correctAnswer": "rectangle",
+          "explanation": "A non-square rectangle has exactly 2 lines of symmetry.",
+          "topic": "Reflection",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-069",
+          "text": "Shape belongs to Set A if: it has 4 sides AND is white. Set B if: it has 3 sides AND is black. Small black triangle belongs to ___",
+          "options": [
+            "Set A",
+            "Set B",
+            "Both",
+            "Neither"
+          ],
+          "correctAnswer": "Set B",
+          "explanation": "3 sides ✓ AND black ✓ → Set B.",
+          "topic": "Codes",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-023",
+          "text": "A shape reflected in a horizontal mirror: arrow pointing up becomes ___",
+          "options": [
+            "arrow pointing left",
+            "arrow pointing right",
+            "arrow pointing up",
+            "arrow pointing down"
+          ],
+          "correctAnswer": "arrow pointing down",
+          "explanation": "A horizontal mirror flips up and down.",
+          "topic": "Reflection",
+          "difficulty": 1
+        },
+        {
+          "id": "nvr-mc-086",
+          "text": "Each term: shape gains one more side. Also, shading alternates black/white. Term 5 is a hexagon. What colour is it?",
+          "options": [
+            "black",
+            "white",
+            "grey",
+            "cannot tell"
+          ],
+          "correctAnswer": "black",
+          "explanation": "If term 1 is white: white, black, white, black, white... Term 5 = white? Depends on start. If term 1 black: term 5 = black. Standard: alternating starting black = term 5 black.",
+          "topic": "Series",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-026",
+          "text": "If shape A has 4 sides and 4 right angles, and shape B has 4 sides with 2 pairs of equal opposite angles, what is shape B?",
+          "options": [
+            "Square",
+            "Rectangle",
+            "Rhombus",
+            "Trapezium"
+          ],
+          "correctAnswer": "Rhombus",
+          "explanation": "A rhombus has 4 equal sides with 2 pairs of equal opposite angles.",
+          "topic": "Analogies",
+          "difficulty": 2
+        },
+        {
+          "id": "nvr-mc-037",
+          "text": "Shape rotated 90° clockwise: top becomes ___, right becomes ___",
+          "options": [
+            "right and bottom",
+            "bottom and left",
+            "left and top",
+            "right and top"
+          ],
+          "correctAnswer": "right and bottom",
+          "explanation": "90° CW: top→right, right→bottom, bottom→left, left→top.",
+          "topic": "Rotation",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "subject": "Non-Verbal Reasoning",
+      "type": "true-false",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "nvr-tf-058",
+          "text": "True or False: The answer to [In a matrix, the pattern in each row is: shape rotates 90° CW each column. Row 1 starts with arrow →. Row 1, column 3 shows ___] is: →.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "→ (col1), ↓ (col2), ← (col3).",
+          "topic": "Matrices",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-058"
+        },
+        {
+          "id": "nvr-tf-004",
+          "text": "True or False: The answer to [A grid has shapes rotating 90° clockwise each step. Step 1: arrow pointing right. Step 3: arrow pointing ___] is: right.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "90° clockwise: right→down→left. Step 3 = left.",
+          "topic": "Rotation",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-004"
+        },
+        {
+          "id": "nvr-tf-031",
+          "text": "True or False: The answer to [A right-angled triangle with the right angle at bottom-left: reflected vertically, the right angle is now at ___] is: bottom-right.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Vertical reflection: left↔right. Bottom-left becomes bottom-right.",
+          "topic": "Reflection",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-031"
+        },
+        {
+          "id": "nvr-tf-032",
+          "text": "True or False: The answer to [A diagonal line going from bottom-left to top-right: reflected in a horizontal axis becomes ___] is: same diagonal.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Horizontal reflection flips up/down: bottom-left→top-left, top-right→bottom-right.",
+          "topic": "Reflection",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-032"
+        },
+        {
+          "id": "nvr-tf-046",
+          "text": "True or False: The answer to [A tetrahedron is made of how many triangular faces] is: 3.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "A tetrahedron has 4 equilateral triangular faces.",
+          "topic": "Nets",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-046"
+        },
+        {
+          "id": "nvr-tf-013",
+          "text": "True or False: The answer to [Odd one out in terms of rotational symmetry order: equilateral triangle, square, regular hexagon, scalene triangle] is: Scalene triangle.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Equilateral(3), square(4), hexagon(6) all have rotational symmetry >1. Scalene triangle has order 1.",
+          "topic": "Odd One Out",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-013"
+        },
+        {
+          "id": "nvr-tf-020",
+          "text": "True or False: The answer to [Triangle is to 3 as octagon is to ___] is: 6.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Triangle has 3 sides; octagon has 8 sides.",
+          "topic": "Analogies",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-020"
+        },
+        {
+          "id": "nvr-tf-003",
+          "text": "True or False: The answer to [Pattern: 1 dot, 3 dots, 6 dots, 10 dots, ___] is: 15.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Triangle numbers: +2,+3,+4,+5: 10+5=15.",
+          "topic": "Series",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-003"
+        },
+        {
+          "id": "nvr-tf-015",
+          "text": "True or False: The answer to [Which 3D shape is the odd one out? Cube, cuboid, sphere, cylinder] is: Sphere.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Cube, cuboid, cylinder all have flat faces. A sphere has no flat faces.",
+          "topic": "Odd One Out",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-015"
+        },
+        {
+          "id": "nvr-tf-039",
+          "text": "True or False: The answer to [A flag has a star in the top-left. After 180° rotation, the star is in the ___] is: bottom-right.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "180° rotation: top-left→bottom-right.",
+          "topic": "Rotation",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-039"
+        },
+        {
+          "id": "nvr-tf-079",
+          "text": "True or False: The answer to [A shape has rotational symmetry of order 4. It could be a ___] is: square.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A square looks the same after rotations of 90°, 180°, 270°, 360° = order 4.",
+          "topic": "Rotation",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-079"
+        },
+        {
+          "id": "nvr-tf-034",
+          "text": "True or False: The answer to [Shape has a white triangle in the top-left. After reflection in the line y=x (diagonal), the triangle is in the ___] is: top-left.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Reflection in y=x swaps x and y coordinates. Top-left(0,1)→top-right(1,0)? Actually (col,row): top-left→bottom-left... Diagonal reflection: (x,y)→(y,x). Top-left corner stays at top-left, but the triangle moves to top-right.",
+          "topic": "Reflection",
+          "difficulty": 3,
+          "sourceId": "nvr-mc-034"
+        },
+        {
+          "id": "nvr-tf-055",
+          "text": "True or False: The answer to [In a 3×3 matrix: row 1 = circles, row 2 = squares, row 3 = triangles. Column 1 = small, column 2 = medium, column 3 = large. What is in position row 3, column 2] is: medium triangle.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Row 3 = triangle, column 2 = medium → medium triangle.",
+          "topic": "Matrices",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-055"
+        },
+        {
+          "id": "nvr-tf-024",
+          "text": "True or False: The answer to [Shape A has 1 black dot in the top-right. After 180° rotation, the dot is in the ___] is: top-right.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "180° rotation moves top-right to bottom-left.",
+          "topic": "Rotation",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-024"
+        },
+        {
+          "id": "nvr-tf-088",
+          "text": "True or False: The answer to [Pattern: shapes alternate between inside a circle (A) and outside (B). Item 6 is ___] is: A.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "A,B,A,B,A,B — item 6 = B.",
+          "topic": "Series",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-088"
+        },
+        {
+          "id": "nvr-tf-060",
+          "text": "True or False: The answer to [Matrix: each row contains shapes with 3, 4 and 5 sides in some order. Row 2 has square and pentagon. Missing shape has ___] is: 4 sides.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Missing 3-sided shape = triangle.",
+          "topic": "Matrices",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-060"
+        },
+        {
+          "id": "nvr-tf-029",
+          "text": "True or False: The answer to [A letter b reflected in a horizontal axis becomes ___] is: p.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Reflecting b over a horizontal axis flips it to p.",
+          "topic": "Reflection",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-029"
+        },
+        {
+          "id": "nvr-tf-052",
+          "text": "True or False: The answer to [A square pyramid has how many faces] is: 4.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "1 square base + 4 triangular sides = 5 faces.",
+          "topic": "Nets",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-052"
+        },
+        {
+          "id": "nvr-tf-072",
+          "text": "True or False: The answer to [A square is folded in half twice (horizontally then vertically), then punched once. Unfolded, how many holes] is: 2.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "2 folds = 4 layers. One punch = 4 holes.",
+          "topic": "Folding",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-072"
+        },
+        {
+          "id": "nvr-tf-045",
+          "text": "True or False: The answer to [A cube has how many faces] is: 6.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A cube has 6 square faces.",
+          "topic": "Nets",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-045"
+        },
+        {
+          "id": "nvr-tf-094",
+          "text": "True or False: The answer to [A shape is moved 2 squares right and 1 square up. It started at (3,2). New position is ___] is: (1,3).",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "x+2=5, y+1=3 → (5,3).",
+          "topic": "Series",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-094"
+        },
+        {
+          "id": "nvr-tf-084",
+          "text": "True or False: The answer to [A shape has 5 lines of symmetry. It must be a ___] is: square.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "A regular pentagon has exactly 5 lines of symmetry.",
+          "topic": "Reflection",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-084"
+        },
+        {
+          "id": "nvr-tf-063",
+          "text": "True or False: The answer to [Shape code: large black circle = LBC, small white square = SWS. What is large white circle] is: LWC.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "L=large, W=white, C=circle → LWC.",
+          "topic": "Codes",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-063"
+        },
+        {
+          "id": "nvr-tf-026",
+          "text": "True or False: The answer to [If shape A has 4 sides and 4 right angles, and shape B has 4 sides with 2 pairs of equal opposite angles, what is shape B] is: Square.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "A rhombus has 4 equal sides with 2 pairs of equal opposite angles.",
+          "topic": "Analogies",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-026"
+        },
+        {
+          "id": "nvr-tf-075",
+          "text": "True or False: The answer to [A rectangle is folded in half lengthways. A cut is made parallel to the fold halfway along. Unfolded, the paper becomes ___] is: two separate pieces.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Cutting through both layers parallel to the fold separates the paper into two pieces.",
+          "topic": "Folding",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-075"
+        }
+      ]
+    },
+    {
+      "subject": "Non-Verbal Reasoning",
+      "type": "fill-in-the-blank",
+      "requested": 25,
+      "returned": 25,
+      "questions": [
+        {
+          "id": "nvr-fitb-011",
+          "text": "Odd one out: shapes with 4 lines of symmetry only. Square, Rectangle, Rhombus, Circle → ___",
+          "options": [],
+          "correctAnswer": "Circle",
+          "explanation": "Square, rectangle, rhombus have exactly 4 or 2 lines of symmetry. Circle has infinite.",
+          "topic": "Odd One Out",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-011"
+        },
+        {
+          "id": "nvr-fitb-066",
+          "text": "Shape code: XY where X=size (S=small, L=large) and Y=shape (T,C,S for triangle, circle, square). What shape is LC → ___",
+          "options": [],
+          "correctAnswer": "large circle",
+          "explanation": "L=large, C=circle → large circle.",
+          "topic": "Codes",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-066"
+        },
+        {
+          "id": "nvr-fitb-078",
+          "text": "How many lines of symmetry does a regular hexagon have → ___",
+          "options": [],
+          "correctAnswer": "6",
+          "explanation": "A regular hexagon has 6 lines of symmetry.",
+          "topic": "Series",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-078"
+        },
+        {
+          "id": "nvr-fitb-048",
+          "text": "A cube net is laid flat. The face marked X is the base. Which face is the top when folded → ___",
+          "options": [],
+          "correctAnswer": "Opposite face",
+          "explanation": "In a cube, opposite faces face each other. The top is always opposite the base.",
+          "topic": "Nets",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-048"
+        },
+        {
+          "id": "nvr-fitb-032",
+          "text": "A diagonal line going from bottom-left to top-right: reflected in a horizontal axis becomes ___ → ___",
+          "options": [],
+          "correctAnswer": "diagonal from top-left to bottom-right",
+          "explanation": "Horizontal reflection flips up/down: bottom-left→top-left, top-right→bottom-right.",
+          "topic": "Reflection",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-032"
+        },
+        {
+          "id": "nvr-fitb-082",
+          "text": "Which shape has the most diagonals? Square, pentagon, hexagon, octagon → ___",
+          "options": [],
+          "correctAnswer": "Octagon",
+          "explanation": "Number of diagonals = n(n-3)/2. Octagon: 8×5/2=20 — the most.",
+          "topic": "Series",
+          "difficulty": 3,
+          "sourceId": "nvr-mc-082"
+        },
+        {
+          "id": "nvr-fitb-015",
+          "text": "Which 3D shape is the odd one out? Cube, cuboid, sphere, cylinder → ___",
+          "options": [],
+          "correctAnswer": "Sphere",
+          "explanation": "Cube, cuboid, cylinder all have flat faces. A sphere has no flat faces.",
+          "topic": "Odd One Out",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-015"
+        },
+        {
+          "id": "nvr-fitb-049",
+          "text": "How many vertices does a cube have → ___",
+          "options": [],
+          "correctAnswer": "8",
+          "explanation": "A cube has 8 corners (vertices).",
+          "topic": "Nets",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-049"
+        },
+        {
+          "id": "nvr-fitb-077",
+          "text": "Paper is folded once. A semicircle cut from the folded edge creates what shape when unfolded → ___",
+          "options": [],
+          "correctAnswer": "circle",
+          "explanation": "Cutting a semicircle from the fold creates a full circle when unfolded.",
+          "topic": "Folding",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-077"
+        },
+        {
+          "id": "nvr-fitb-040",
+          "text": "A letter R rotated 180° looks most like ___ → ___",
+          "options": [],
+          "correctAnswer": "ɹ (upside-down R)",
+          "explanation": "Rotating R 180° produces an upside-down R.",
+          "topic": "Rotation",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-040"
+        },
+        {
+          "id": "nvr-fitb-025",
+          "text": "A 3×3 grid: top row = 1,2,3 dots. Middle row = 4,5,6 dots. Bottom-right cell should have ___ → ___",
+          "options": [],
+          "correctAnswer": "9",
+          "explanation": "Counting pattern 1 to 9 across the grid.",
+          "topic": "Matrices",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-025"
+        },
+        {
+          "id": "nvr-fitb-088",
+          "text": "Pattern: shapes alternate between inside a circle (A) and outside (B). Item 6 is ___ → ___",
+          "options": [],
+          "correctAnswer": "B",
+          "explanation": "A,B,A,B,A,B — item 6 = B.",
+          "topic": "Series",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-088"
+        },
+        {
+          "id": "nvr-fitb-047",
+          "text": "Which net would NOT fold to make a cube? A) T-shape of 6 squares B) Z-shape of 6 squares C) 1×6 strip of squares D) Cross shape of 6 squares → ___",
+          "options": [],
+          "correctAnswer": "C) 1×6 strip",
+          "explanation": "A straight 1×6 strip cannot fold into a cube — opposite faces cannot align correctly.",
+          "topic": "Nets",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-047"
+        },
+        {
+          "id": "nvr-fitb-058",
+          "text": "In a matrix, the pattern in each row is: shape rotates 90° CW each column. Row 1 starts with arrow →. Row 1, column 3 shows ___ → ___",
+          "options": [],
+          "correctAnswer": "←",
+          "explanation": "→ (col1), ↓ (col2), ← (col3).",
+          "topic": "Matrices",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-058"
+        },
+        {
+          "id": "nvr-fitb-100",
+          "text": "Black circle inside white square : white circle inside black square :: black triangle inside white circle : ___ → ___",
+          "options": [],
+          "correctAnswer": "white triangle inside black circle",
+          "explanation": "Colours of inner and outer shapes swap.",
+          "topic": "Analogies",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-100"
+        },
+        {
+          "id": "nvr-fitb-056",
+          "text": "Matrix rule: each shape in each row/column appears exactly once. Row 1: circle, square, ?. Which shape is missing → ___",
+          "options": [],
+          "correctAnswer": "triangle",
+          "explanation": "Like a Sudoku: each shape appears once per row/column. Missing = triangle.",
+          "topic": "Matrices",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-056"
+        },
+        {
+          "id": "nvr-fitb-081",
+          "text": "Which 3D shape has exactly 1 vertex (apex) → ___",
+          "options": [],
+          "correctAnswer": "Cone",
+          "explanation": "A cone has exactly 1 vertex at its apex.",
+          "topic": "Nets",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-081"
+        },
+        {
+          "id": "nvr-fitb-024",
+          "text": "Shape A has 1 black dot in the top-right. After 180° rotation, the dot is in the ___ → ___",
+          "options": [],
+          "correctAnswer": "bottom-left",
+          "explanation": "180° rotation moves top-right to bottom-left.",
+          "topic": "Rotation",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-024"
+        },
+        {
+          "id": "nvr-fitb-036",
+          "text": "An arrow pointing East is rotated 270° clockwise. It now points ___ → ___",
+          "options": [],
+          "correctAnswer": "North",
+          "explanation": "270° CW = 90° anticlockwise from East = North.",
+          "topic": "Rotation",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-036"
+        },
+        {
+          "id": "nvr-fitb-094",
+          "text": "A shape is moved 2 squares right and 1 square up. It started at (3,2). New position is ___ → ___",
+          "options": [],
+          "correctAnswer": "(5,3)",
+          "explanation": "x+2=5, y+1=3 → (5,3).",
+          "topic": "Series",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-094"
+        },
+        {
+          "id": "nvr-fitb-035",
+          "text": "An arrow pointing North is rotated 90° clockwise. It now points ___ → ___",
+          "options": [],
+          "correctAnswer": "East",
+          "explanation": "90° clockwise from North = East.",
+          "topic": "Rotation",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-035"
+        },
+        {
+          "id": "nvr-fitb-091",
+          "text": "A 3×3 grid: each row sums to the same total. Row 1: 2,3,4. Row 2: 1,4,4. Row 3: ?,2,5. Missing number is ___ → ___",
+          "options": [],
+          "correctAnswer": "2",
+          "explanation": "Row total = 9. Row 3: ?+2+5=9. ?=2.",
+          "topic": "Matrices",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-091"
+        },
+        {
+          "id": "nvr-fitb-005",
+          "text": "Shape rule: each term gains one extra side. Triangle, square, pentagon, ___ → ___",
+          "options": [],
+          "correctAnswer": "hexagon",
+          "explanation": "3,4,5 sides. Next = 6 = hexagon.",
+          "topic": "Series",
+          "difficulty": 1,
+          "sourceId": "nvr-mc-005"
+        },
+        {
+          "id": "nvr-fitb-033",
+          "text": "The number 3 reflected in a vertical axis looks most like ___ → ___",
+          "options": [],
+          "correctAnswer": "ε (backwards 3)",
+          "explanation": "A vertical reflection of 3 creates a backwards/mirrored 3.",
+          "topic": "Reflection",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-033"
+        },
+        {
+          "id": "nvr-fitb-076",
+          "text": "A square is folded in half, then folded in half again (same direction). What fraction of the original is each layer → ___",
+          "options": [],
+          "correctAnswer": "1/4",
+          "explanation": "Two folds in same direction = 4 layers, each 1/4 of original.",
+          "topic": "Folding",
+          "difficulty": 2,
+          "sourceId": "nvr-mc-076"
+        }
+      ]
+    }
+  ],
+  "structuralIssues": [
+    {
+      "subject": "English",
+      "type": "ordering",
+      "id": "eng-ord-003",
+      "issue": "duplicate options"
+    }
+  ]
+}

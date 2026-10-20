@@ -1,3 +1,4 @@
+import { isQuestionQuarantined } from './questionQuarantine';
 import { Subject, Question, QuizType } from '../types';
 
 // Re-export modular banks (optional convenience imports)
@@ -101,7 +102,7 @@ export function getRandomQuestions(
   const normalizedSubject = normalizeSubject(subject);
   const normalizedQuizType = normalizeQuizType(quizType);
 
-  const questions = (questionBank?.[normalizedSubject]?.[normalizedQuizType] ?? []) as Question[];
+  const questions = ((questionBank?.[normalizedSubject]?.[normalizedQuizType] ?? []) as Question[]).filter(q => !isQuestionQuarantined(q.id));
 
   // Filter by topic if specified
   let filtered = topic

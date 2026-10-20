@@ -1,4 +1,5 @@
 'use client';
+import { isAnswerCorrect } from '../lib/answerMarking';
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -73,7 +74,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         // Initialize state for the first question if applicable
         if (qs.length > 0) {
           if (quizType === 'ordering') setOrderingItems([...qs[0].options]);
-          if (quizType === 'fill-in-the-blank') setTextInput('');
+          if (quizType === 'fill-in-the-blank' || quizType === 'short-answer') setTextInput('');
         }
       }
     };
@@ -98,7 +99,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       if (quizType === 'ordering') {
         setOrderingItems([...q.options]);
       }
-      if (quizType === 'fill-in-the-blank') {
+      if (quizType === 'fill-in-the-blank' || quizType === 'short-answer') {
         setTextInput('');
       }
     }
@@ -108,19 +109,14 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
 
   const handleStandardAnswer = (option: string) => {
     if (state.selectedAnswer) return;
-    const isCorrect = option === currentQ.correctAnswer;
+    const isCorrect = isAnswerCorrect(option, currentQ.correctAnswer, quizType);
     updateState(option, isCorrect);
   };
 
   const handleTextSubmit = () => {
     if (state.selectedAnswer) return;
 
-    const normalizedInput = textInput.trim().toLowerCase();
-    const normalizedCorrect = currentQ.correctAnswer.trim().toLowerCase();
-
-    const isCorrect =
-      normalizedInput === normalizedCorrect ||
-      (normalizedCorrect.length > 3 && normalizedInput.includes(normalizedCorrect));
+    const isCorrect = isAnswerCorrect(textInput, currentQ.correctAnswer, quizType);
 
     updateState(textInput, isCorrect);
   };
@@ -132,7 +128,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     const correctOrderString = currentQ.correctAnswer;
 
     const isCorrect =
-      userOrderString.replace(/\s/g, '') === correctOrderString.replace(/\s/g, '');
+      isAnswerCorrect(userOrderString, correctOrderString, quizType);
 
     updateState(userOrderString, isCorrect);
   };
@@ -176,6 +172,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         pointsEarned: points,
         questions: state.questions,
         userAnswers: state.answersHistory,
+        quizType,
         mode: mode
       });
     } else {
@@ -215,6 +212,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         pointsEarned: points,
         questions: state.questions,
         userAnswers: state.answersHistory,
+        quizType,
         mode: mode,
       });
     }
@@ -335,7 +333,12 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                   let circleClass = 'bg-white border-2 border-slate-200 text-slate-400';
                   let icon = null;
 
-                  if (state.selectedAnswer) {
+                  if (state.selectedAnswer && mode === 'exam') {
+                    if (isSelected) {
+                      containerClass = 'border-indigo-500 bg-indigo-50';
+                      circleClass = 'bg-indigo-500 border-indigo-500 text-white';
+                    }
+                  } else if (state.selectedAnswer) {
                     if (isSelected) {
                       if (isCorrectAnswer) {
                         containerClass = 'bg-emerald-50 border-emerald-500 ring-1 ring-emerald-500 z-10';
@@ -412,7 +415,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                     layout
                     transition={{ type: 'spring', stiffness: 500, damping: 40, mass: 0.8 }}
                     className={`p-3 sm:p-4 rounded-xl border-2 flex items-center gap-3 sm:gap-4 bg-white ${
-                      state.selectedAnswer
+                      state.selectedAnswer && mode === 'practice'
                         ? state.isCorrect
                           ? 'border-emerald-200 bg-emerald-50'
                           : 'border-slate-200'
@@ -451,7 +454,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
             )}
 
             {/* 3. Fill in the blank */}
-            {quizType === 'fill-in-the-blank' && (
+            {(quizType === 'fill-in-the-blank' || quizType === 'short-answer') && (
               <div className="space-y-6">
                 <div className="relative">
                   <input
@@ -461,14 +464,14 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                     disabled={!!state.selectedAnswer}
                     placeholder="Type here..."
                     className={`w-full p-4 sm:p-5 text-lg sm:text-xl font-bold rounded-xl border-2 outline-none focus:ring-4 focus:ring-opacity-20 transition-all ${
-                      state.selectedAnswer
+                      state.selectedAnswer && mode === 'practice'
                         ? state.isCorrect
                           ? 'border-emerald-500 bg-emerald-50 text-emerald-900'
                           : 'border-red-500 bg-red-50 text-red-900'
                         : 'border-slate-200 bg-slate-50 focus:border-indigo-500 focus:ring-indigo-500'
                     }`}
                   />
-                  {state.selectedAnswer && (
+                  {mode === 'practice' && state.selectedAnswer && (
                     <div className="absolute right-4 top-1/2 -translate-y-1/2">
                       {state.isCorrect ? (
                         <CheckCircle className="text-emerald-500" size={24} />

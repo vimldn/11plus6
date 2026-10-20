@@ -1,3 +1,4 @@
+import { isAnswerCorrect } from '../lib/answerMarking';
 import React from 'react';
 import { CheckCircle, XCircle, ArrowLeft } from 'lucide-react';
 import { QuizResult } from '../types';
@@ -21,7 +22,7 @@ export const ReviewScreen: React.FC<ReviewScreenProps> = ({ result, onBack }) =>
       <div className="space-y-6">
         {result.questions.map((q, idx) => {
           const userAnswer = result.userAnswers[q.id];
-          const isCorrect = userAnswer === q.correctAnswer;
+          const isCorrect = isAnswerCorrect(userAnswer, q.correctAnswer, result.quizType);
 
           return (
             <div key={q.id} className={`p-4 sm:p-6 rounded-xl border ${isCorrect ? 'border-emerald-100 bg-emerald-50/30' : 'border-red-100 bg-red-50/30'}`}>
@@ -45,7 +46,7 @@ export const ReviewScreen: React.FC<ReviewScreenProps> = ({ result, onBack }) =>
                 </div>
               </div>
 
-              {/* Adjusted padding/indentation for mobile vs desktop */}
+              <p className="mb-3 text-sm">Your answer: {userAnswer || "Not answered"}<br />Correct answer: {q.correctAnswer}</p>
               <div className="pl-0 sm:pl-12 space-y-2 mb-4 mt-2 sm:mt-0">
                 {q.options.map((opt) => {
                   const isSelected = userAnswer === opt;
