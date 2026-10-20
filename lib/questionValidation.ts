@@ -1,3 +1,4 @@
+import { parseNumeric } from './numericAnswer';
 import { Question, QuizType } from '../types';
 
 // Structural safety only: this does not prove factual or pedagogical accuracy.
@@ -13,6 +14,13 @@ export function validateGeneratedQuestions(questions: Question[], count: number,
     if (!Array.isArray(q.options) || q.options.some(x => typeof x !== 'string' || !x.trim())) throw new Error('Invalid options');
     const options = q.options.map(x => x.trim().toLowerCase());
     if (new Set(options).size !== options.length) throw new Error('Duplicate options');
+    if (type === 'multiple-choice') {
+      const numeric = q.options.map(parseNumeric);
+      for (let i = 0; i < numeric.length; i++) for (let j = i + 1; j < numeric.length; j++) {
+        const a = numeric[i], b = numeric[j];
+        if (a && b && a.n * b.d === b.n * a.d) throw new Error('Equivalent numeric options');
+      }
+    }
     if (type === 'multiple-choice' && (q.options.length !== 4 || !q.options.includes(q.correctAnswer))) throw new Error('Invalid multiple-choice key');
     if (type === 'true-false' && (options.length !== 2 || !options.includes('true') || !options.includes('false') || !q.options.includes(q.correctAnswer))) throw new Error('Invalid true-false key');
     if (type === 'ordering') {

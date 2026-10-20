@@ -1,0 +1,29 @@
+{
+  "note": "Format entries are not unique independently authored questions. Derived true/false and fill-in formats share source families. Availability is not accuracy certification. No original upload-to-question manifest found.",
+  "subjects": [
+    {
+      "subject": "Maths",
+      "formatEntries": 800,
+      "availableEntries": 769,
+      "multipleChoice": 250
+    },
+    {
+      "subject": "English",
+      "formatEntries": 708,
+      "availableEntries": 690,
+      "multipleChoice": 250
+    },
+    {
+      "subject": "Verbal Reasoning",
+      "formatEntries": 790,
+      "availableEntries": 751,
+      "multipleChoice": 250
+    },
+    {
+      "subject": "Non-Verbal Reasoning",
+      "formatEntries": 480,
+      "availableEntries": 444,
+      "multipleChoice": 150
+    }
+  ]
+}

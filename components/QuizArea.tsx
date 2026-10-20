@@ -16,11 +16,13 @@ import {
   ArrowDown
 } from 'lucide-react';
 import { Subject, Question, QuizState, QuizResult, QuizMode, QuizType } from '../types';
+import { createFreshMaths } from '../data/freshMaths';
 import { createMathsPilot } from '../data/mathsPilot';
 import { generateQuestions } from '../services/questionService';
 import { Button } from './Button';
 
 interface QuizAreaProps {
+  freshMaths?: boolean;
   mathsPilot?: boolean;
   subject: Subject;
   schoolType: any;
@@ -38,6 +40,7 @@ interface QuizAreaProps {
 export const QuizArea: React.FC<QuizAreaProps> = ({
   subject,
   mathsPilot = false,
+  freshMaths = false,
   schoolType,
   mode,
   quizType,
@@ -71,7 +74,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     const load = async () => {
       const loadTopic = mode === 'practice' ? topic : undefined;
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
-      const qs = mathsPilot ? createMathsPilot() : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+      const qs = freshMaths ? createFreshMaths() : mathsPilot ? createMathsPilot() : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
       if (mounted) {
         setState((s) => ({ ...s, questions: qs, loading: false }));
         // Initialize state for the first question if applicable
@@ -85,7 +88,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     return () => {
       mounted = false;
     };
-  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot]);
+  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths]);
 
   useEffect(() => {
     if (state.loading || state.completed) return;
