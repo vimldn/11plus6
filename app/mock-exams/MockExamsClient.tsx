@@ -168,12 +168,12 @@ function MockExamsPageInner() {
     <>
       <SiteNav ctaLabel="Find a tutor" ctaHref="/tutors" />
 
-      <main className="bg-white">
+      <main id="main-content" className="bg-white">
 
         {/* ── Hero + Form ────────────────────────────────────────────────── */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-violet-50 pt-6 pb-10 px-4">
-          <div className="pointer-events-none absolute -top-24 -right-24 w-[500px] h-[500px] bg-violet-200 opacity-20 rounded-full blur-3xl" />
-          <div className="pointer-events-none absolute bottom-0 right-1/4 w-80 h-80 bg-indigo-200 opacity-15 rounded-full blur-3xl" />
+        <section className="mock-workbench relative overflow-hidden bg-slate-50 pt-10 pb-12 px-4">
+
+
 
           <div className="relative max-w-5xl mx-auto">
             <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-5">

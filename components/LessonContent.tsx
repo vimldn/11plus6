@@ -11,9 +11,9 @@ export default function LessonContent({ lesson, preview = false }: { lesson: Les
   const related = (preview ? lessons : publishedLessons()).filter((item) => lesson.relatedSlugs.includes(item.slug));
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800">
+    <div className="editorial-reading min-h-screen bg-slate-50 text-slate-800">
       <SiteNav />
-      <main className="mx-auto max-w-3xl px-5 py-12 sm:px-8">
+      <main id="main-content" className="mx-auto max-w-3xl px-5 py-12 sm:px-8">
         <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: lesson.subject === 'maths' ? 'Maths' : 'English', href: `/subjects/${lesson.subject}` }, { label: lesson.title }]} />
         {preview ? (
           <aside className="my-6 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">

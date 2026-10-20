@@ -17,7 +17,7 @@ export default function TutorsIndexPage() {
   return (
     <div className="min-h-screen bg-white">
       <SiteNav />
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+      <main id="main-content" className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
 
           {/* Left column — hero, features, city grid */}
