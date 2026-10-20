@@ -21,3 +21,9 @@ The scalar equivalence scanner checked all 250 MC records and found seven affect
 Run scripts/check-maths-pilot.cjs, scripts/check-paper-quality.cjs, scripts/check-release-gates.cjs, production build/type checks and diff whitespace checks. Record GitHub/Vercel and public interaction outcome in the PR before claiming publication.
 
 Still pending: print/download flow, attempt save/resume, review-before-submit, complete bank audit, open-ended language rubrics, general unit conversion, diagrams for NVR, empirically calibrated difficulty and school-specific specifications verified for exams taken in 2027. None is implied by this pilot.
+
+## Live verification follow-up
+
+PR12 merged as c0f935907e103d5b5a33de8454f7001c5da808c7, Vercel production deployment 3YUW6TZ1HpEj19hHh1vFWrsLydSi succeeded. Hub link opened the 30-question, 45-minute pilot. Timed selected option remained neutral. Live FITB accepted 1211.0 for 1,211 and 2490/2 for 1,245; total score and answer review correctly showed 2/2. However the independent ResultsScreen topic counter still used string equality and showed 0/2. Follow-up replaces it with the same rubric-aware scorer and adds a regression fixture. Do not claim the topic display fixed until that follow-up deploys and is checked.
+
+Separately observed legacy maths hub claims still require editorial review (large question-count claim, generic exam-format FAQs and testimonial provenance); this pilot does not validate that older surrounding copy.
