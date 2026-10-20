@@ -1,7 +1,6 @@
 // Confirmed or ambiguous items found in the 20 October diagnostic sample.
 // Keep source records for review; exclude every derived form of each family.
 export const quarantinedFamilies = new Set([
-  'math-080', // n²=81 permits -9 too; positivity unspecified.
   'eng-064', // Several ellipsis options can be valid in context.
   'eng-087', // Rhetorical intent requires context.
   'eng-096', // Several plausible causes of barely eating; no deciding context.
@@ -33,13 +32,6 @@ export const quarantinedFamilies = new Set([
   'nvr-088', // Starting inside/outside state omitted.
 ]);
 const quarantinedIds = new Set([
-  'math-mc-172', // 1/3 and 4/12 both correct.
-  'math-mc-177', // 4/8 and 1/2 both correct.
-  'math-mc-217', // Duplicate spinner question, same equivalent correct options.
-  'math-mc-224', // 6/20 and 3/10 both correct.
-  'math-mc-240', // 1/6 and 6/36 both correct.
-  'math-mc-247', // Duplicate spinner question, same equivalent correct options.
-  'math-mc-018', // Live check: 6/12, 1/2 and 2/4 are equivalent correct options.
   'eng-fitb-037', // Free-text passive-voice task lacks candidate sentences.
   'eng-fitb-049', // Unrestricted modal-verb prompt has many answers.
   'eng-fitb-059', // Free-text semicolon task lacks candidate sentences.

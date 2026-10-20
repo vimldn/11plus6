@@ -74,7 +74,7 @@ const fs=require('fs'),crypto=require('crypto');
 const record=JSON.parse(fs.readFileSync(require('path').join(__dirname,'../docs/paper-audit/maths-pilot-reviewed-2026-10-20.json'),'utf8'));
 assert.equal(record.questions.length,120);
 for(const row of record.questions){const q=mathsMC.find(q=>q.id===row.id);assert.equal(crypto.createHash('sha256').update(JSON.stringify(q)).digest('hex'),row.questionSha256,`Re-review changed pilot question ${row.id}`);}
-for(const q of mathsMC){
+for(const q of mathsMC.map(load('data/mathsRepairs.ts').applyMathsRepair)){
  const key=parseNumeric(q.correctAnswer); if(!key)continue;
  const equivalents=q.options.filter(o=>{const p=parseNumeric(o);return p&&p.n*key.d===key.n*p.d;});
  if(equivalents.length>1)assert(isQuestionQuarantined(q.id),`Multiple equivalent choices: ${q.id}`);

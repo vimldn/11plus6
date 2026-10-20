@@ -1,0 +1,14 @@
+# Legacy answer repair brief — 20 October 2026
+
+Pre-writing research completed before this patch. Scope: families 018, 080, 172, 177, 217, 224, 240, 247, plus exact-stem sampling and loading text. No new public articles or school specification claims.
+
+Queries: “11 plus equivalent fractions multiplying fractions questions probability spinner”; “11 plus square numbers positive square roots questions”. Live search returned the pages below; their full retrieved page text was inspected. Positions are not claimed.
+
+- https://11plusdaily.co.uk/practice/11-plus-fractions-basics-and-equivalents-questions/ — substantial worked-example guide, three examples, method, misconceptions and FAQs. Intent: learn and practise equivalence, simplifying and ordering. Entities: numerator, denominator, common factor, equal value, lowest terms. Opportunity: distinguish numerical correctness from a requested form; avoid equivalent distractors entirely in these repairs. No measured word count.
+- https://mymockexams.com/uk/11plus/question-types/probability/ — shorter practice landing page with one worked example, method and tips. Intent: calculate chances and access practice. Entities: favourable outcomes / total equally likely outcomes, fraction simplification, random choice. Opportunity: explicit equal sections and fair independent dice, enumerate outcomes in feedback. No measured word count; do not adopt its exam-frequency claims.
+- https://11plusdaily.co.uk/practice/11-plus-number-properties-questions/ — longer explanatory guide with three worked examples and FAQs. Intent: recognise primes, squares and related properties. Entities: positive integers, factors, primes, squares. Opportunity: explain why positivity is needed for n squared = 81; avoid ambiguity between solving an equation and principal square root. No fixed length target.
+- Primary trust reference read: https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study — fractions, square numbers and later probability curriculum context. This is not a universal 11-plus syllabus or a 2027 school specification.
+
+Answer validation: independently calculate products, count bag contents and prime spinner sectors, enumerate 36 ordered dice outcomes and positive integer roots. Check MC alternatives pairwise by exact rational equivalence. Check every repaired true/false and free-entry variant, accepting equivalent numerical free-entry values. Preserve original source files and identifiers. Three repeated spinner IDs share one corrected stem, deduplicated when sampling; no deletion.
+
+Original learning value comes from short explicit working and assumptions, not longer prose. Evergreen original practice supports preparation for exams taken in 2027 without claiming official paper status. Other legacy families, diagrams, derived formats and uploaded-source connection remain unfinished.

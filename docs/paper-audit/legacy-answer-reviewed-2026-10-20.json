@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-20",
+  "scope": "Eight repaired maths families only; not a full legacy-bank audit",
+  "questions": [
+    {
+      "id": "math-mc-172",
+      "questionSha256": "1f118ab3b70be2e3455e63bc3f1fa197ac14ccfe3c011b32ef146e474e35c2c6"
+    },
+    {
+      "id": "math-tf-172",
+      "questionSha256": "397d9e0a9931016d7597383946ae0019953f8025c5660aa293180b651ec28bf6"
+    },
+    {
+      "id": "math-fitb-172",
+      "questionSha256": "9dfa1a12618a4b60eb0136e22d835834c41e1b0af9405807ef248c08ca6d92aa"
+    },
+    {
+      "id": "math-mc-177",
+      "questionSha256": "7bdd641c0589816ba0e9bb29775910ff3862d07aa9aba02fe5fced577cc26b45"
+    },
+    {
+      "id": "math-tf-177",
+      "questionSha256": "74b0df031d6653252f34c7ebc5d56d164c6140310911f549b60c36bdfce58b3b"
+    },
+    {
+      "id": "math-fitb-177",
+      "questionSha256": "21ea371e32aa55774eef1fe673eafdb33e0694a0d7ed64cd5171253c0c77d476"
+    },
+    {
+      "id": "math-mc-217",
+      "questionSha256": "9eb4942836eafec85d2c6c85124f0db281279b264c260a5bef80c0686a7c5d34"
+    },
+    {
+      "id": "math-tf-217",
+      "questionSha256": "460820609abcfd4a78959ebc83b9359c297d701109c758f86fd824ac6f2dfbce"
+    },
+    {
+      "id": "math-fitb-217",
+      "questionSha256": "34b20e622d126259e8537fab3cbe485ce943dc15896ae2bff2a9dd10b256597d"
+    },
+    {
+      "id": "math-mc-224",
+      "questionSha256": "bf9f3a30ea9c36089c0d0d5dfa96376d7d131a373e8b4e41cf4f80e0db7a1487"
+    },
+    {
+      "id": "math-tf-224",
+      "questionSha256": "53a2b4cc6ca331db5dc68ad2f09b5bad6c34aeefcbb141d1a90c03d5de0f1857"
+    },
+    {
+      "id": "math-fitb-224",
+      "questionSha256": "4ab11ddd8f67fcf3ec35938bc110c8684ae03cc8665ae58ec7d95b2ba5d88dc8"
+    },
+    {
+      "id": "math-mc-240",
+      "questionSha256": "701301600d0e510e815bac710d14a4671d4ea88c697ef0ba4a62d99ccf203dbf"
+    },
+    {
+      "id": "math-tf-240",
+      "questionSha256": "6d952f30a48ad5d5ebc52f3a3e57f75048e58972192abe1dc462b451add2e34d"
+    },
+    {
+      "id": "math-fitb-240",
+      "questionSha256": "108b14a7c995a1010de3163416a5d47c99c0367c271869f74559354ba68b977a"
+    },
+    {
+      "id": "math-mc-247",
+      "questionSha256": "dab038ccfd3d80e0ebad3bafe7a0eb7d3a81d6444259f5402f255da08db54f7e"
+    },
+    {
+      "id": "math-tf-247",
+      "questionSha256": "4a7c030b4dfe9f86c80e7aabe7bc1175fdd9a950f7431cff2288ab4a4e0e431f"
+    },
+    {
+      "id": "math-fitb-247",
+      "questionSha256": "312320368f29f81f85496b843335bb652ae140dbf667ec5930ba74ab54475e70"
+    },
+    {
+      "id": "math-mc-018",
+      "questionSha256": "16c3e8bfbf64848243d3c49abf895c0c3efa188a9d552858467812be6ae3ae9a"
+    },
+    {
+      "id": "math-tf-018",
+      "questionSha256": "ef08c5f82f781531582255dae5d2ee009223c225c7a4aa5a55f13d2a6c4acc3a"
+    },
+    {
+      "id": "math-fitb-018",
+      "questionSha256": "d6b09291f2cc8a9258c2dd8f015431a82c185298b6ece76253d09822e017d8fd"
+    },
+    {
+      "id": "math-mc-080",
+      "questionSha256": "49afc4f0a41cef39f206f82e87c7e485c68b32e8394b72a82bd1820b7bb819d3"
+    },
+    {
+      "id": "math-tf-080",
+      "questionSha256": "881821afbe92c6c0f469ac8e5ee22bc67297a02a289b8ae61767b9787efadfce"
+    },
+    {
+      "id": "math-fitb-080",
+      "questionSha256": "27dfe017bc9a423a1a55e044391b469e5941efb7ccb80b92089da99b2c0542ba"
+    }
+  ]
+}
