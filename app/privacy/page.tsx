@@ -11,7 +11,7 @@ export default function TermsPage() {
   return (
     <>
       <SiteNav />
-      <main className="max-w-3xl mx-auto px-4 py-16 min-h-screen">
+      <main id="main-content" className="max-w-3xl mx-auto px-4 py-16 min-h-screen">
         <h1 className="text-4xl font-black text-slate-900 mb-8">Terms of Use</h1>
         <div className="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-6">
           <p><strong>Last updated:</strong> {new Date().getFullYear()}</p>

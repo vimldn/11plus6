@@ -53,7 +53,7 @@ export default function TutorCityPageClient({ city }: { city: City }) {
   };
 
   return (
-    <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+    <main id="main-content" className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
       <div className="mb-6">
         <Breadcrumbs items={[
           { label: 'Home', href: '/' },

@@ -17,7 +17,7 @@ export default function SubjectsIndexPage() {
     <div className="min-h-screen bg-white">
       <SiteNav />
 
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+      <main id="main-content" className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 rounded-full text-indigo-700 font-bold text-sm mb-5 border border-indigo-100">
             <BookOpen size={16} /> Subjects

@@ -105,7 +105,7 @@ function QuizPageInner() {
       </div>
 
       {/* Main content */}
-      <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6">
+      <main id="main-content" className="flex-1 max-w-5xl mx-auto w-full px-4 py-6">
         {freshMaths && !followUp && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Fresh maths practice</h1><p>16 questions: two each on order of operations, fractions, percentages, equations, multi-step sharing, money, rectangle area and mean averages. Each new attempt samples original number variations with calculated answers and worked explanations. Questions may recur across attempts.</p><p className="mt-2">Supports preparation for exams taken in 2027. This is focused skills practice, not a complete or official school paper. In timed mode, 20 minutes is our practice setting.</p><Link className="underline" href="/subjects/maths">Maths lessons and the broader practice pilot</Link></div>}
         {mathsPilot && !followUp && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Maths practice pilot</h1><p>30 questions drawn from 120 checked questions. Original practice for families preparing for exams taken in 2027; not an official school paper. The 45-minute limit is our practice setting.</p><p className="mt-2">8 number · 8 fractions, decimals and percentages · 3 ratio · 3 algebra · 3 geometry · 3 measures and money · 2 data.</p></div>}
         {screen === 'quiz' && (

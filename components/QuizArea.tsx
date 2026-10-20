@@ -266,7 +266,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
   }
 
   return (
-    <div className="max-w-3xl mx-auto p-3 sm:p-6 pb-24">
+    <div className="editorial-quiz max-w-3xl mx-auto p-3 sm:p-6 pb-24">
       {/* Back to Dashboard */}
       <button
         onClick={onBackToDashboard}
@@ -332,7 +332,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         >
           <motion.div
             layout
-            className="bg-white rounded-3xl p-5 sm:p-10 shadow-xl shadow-indigo-100 border border-white mb-6"
+            className="bg-white rounded-lg p-5 sm:p-10 shadow-sm border border-slate-200 mb-6"
           >
             <motion.h3
               initial={{ opacity: 0, y: -10 }}

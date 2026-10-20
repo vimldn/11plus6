@@ -26,9 +26,9 @@ export default function SchoolsIndexClient() {
   return (
     <>
       <SiteNav />
-      <main className="bg-white min-h-screen">
+      <main id="main-content" className="bg-white min-h-screen">
 
-        <section className="bg-gradient-to-br from-indigo-50 via-white to-violet-50 pt-20 pb-14 px-4 border-b border-slate-100">
+        <section className="index-masthead pt-14 pb-12 px-6 border-b border-slate-200">
           <div className="max-w-6xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-indigo-100 text-indigo-700 rounded-full text-xs font-black uppercase tracking-widest mb-6 border border-indigo-200">
               <GraduationCap size={12} /> School Profiles

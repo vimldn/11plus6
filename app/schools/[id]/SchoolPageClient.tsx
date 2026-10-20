@@ -127,7 +127,7 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
 
   return (
     <>      <SiteNav />
-      <main className="bg-white min-h-screen">
+      <main id="main-content" className="bg-white min-h-screen">
 
         {/* Hero */}
         <section className={`bg-gradient-to-br from-${accentColor}-50 via-white to-${accentColor}-50 pt-20 pb-12 px-4 border-b border-slate-100`}>

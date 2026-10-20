@@ -23,7 +23,7 @@ const sources = [
 export default function GlVsCemPage() {
   return <>
     <SiteNav />
-    <main className="bg-white min-h-screen">
+    <main id="main-content" className="bg-white min-h-screen">
       <section className="bg-gradient-to-br from-indigo-50 via-white to-violet-50 pt-20 pb-14 px-4 border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
           <p className="inline-flex items-center gap-2 text-indigo-700 font-bold mb-5"><BookOpen size={18} /> 11 Plus preparation guide</p>

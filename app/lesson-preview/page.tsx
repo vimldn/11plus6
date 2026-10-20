@@ -6,7 +6,7 @@ import { lessonPreviewEnabled } from '@/lib/lessonPublishing';
 export default function LessonPreviewIndex() {
   if (!lessonPreviewEnabled()) notFound();
   return (
-    <main className="mx-auto max-w-3xl px-6 py-16 text-slate-800">
+    <main id="main-content" className="mx-auto max-w-3xl px-6 py-16 text-slate-800">
       <p className="font-semibold text-indigo-700">Editorial review</p>
       <h1 className="mt-3 text-3xl font-bold">Draft lesson review</h1>
       <p className="mt-5 leading-relaxed">These drafts are available only in development or a Vercel preview deployment. They are excluded from the public subject pages and sitemap. Publication requires a reviewed code change; no date automatically releases a lesson.</p>

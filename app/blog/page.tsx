@@ -20,14 +20,14 @@ export default function BlogIndexPage() {
     <div className="min-h-screen bg-white">
       <SiteNav />
 
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+      <main id="main-content" className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
 
         {/* ── Header ── */}
-        <div className="max-w-2xl mb-12">
+        <div className="journal-masthead mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 rounded-full text-indigo-700 font-bold text-sm mb-5 border border-indigo-100">
             <BookOpen size={15} /> Blog & Guides
           </div>
-          <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
+          <h1 className="text-4xl sm:text-6xl font-normal text-slate-900 tracking-tight mb-4">
             11+ guides and articles
           </h1>
           <p className="text-lg text-slate-600 leading-relaxed">

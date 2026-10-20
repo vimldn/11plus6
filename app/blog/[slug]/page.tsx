@@ -289,7 +289,7 @@ export default function BlogPostPage({ params }: Props) {
     <>
       <SchemaOrg data={articleSchema({ slug: post.slug, title: post.title, description: post.desc, datePublished: new Date(`${post.date} UTC`).toISOString().split("T")[0], dateModified: post.updatedAt })} />
       <SiteNav />
-      <main className="min-h-screen bg-white">
+      <main id="main-content" className="editorial-reading min-h-screen bg-white">
 
         {/* ── Featured image ── */}
         <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-slate-100">
