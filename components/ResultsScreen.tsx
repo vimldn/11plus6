@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { QuizResult, Badge } from '../types';
 import { Button } from './Button';
+import { buildTopicStats } from '../lib/topicStats';
 
 interface ResultsScreenProps {
   result: QuizResult;
@@ -18,40 +19,6 @@ interface ResultsScreenProps {
 }
 
 // ─── Topic breakdown helpers ──────────────────────────────────────────────────
-
-interface TopicStat {
-  topic: string;
-  correct: number;
-  total: number;
-  pct: number;
-}
-
-function buildTopicStats(result: QuizResult): TopicStat[] {
-  const map: Record<string, { correct: number; total: number }> = {};
-
-  for (const q of result.questions) {
-    const topic = q.topic || 'General';
-    if (!map[topic]) map[topic] = { correct: 0, total: 0 };
-    map[topic].total += 1;
-
-    const userAnswer = result.userAnswers[q.id];
-    if (
-      userAnswer &&
-      userAnswer.trim().toLowerCase() === q.correctAnswer.trim().toLowerCase()
-    ) {
-      map[topic].correct += 1;
-    }
-  }
-
-  return Object.entries(map)
-    .map(([topic, { correct, total }]) => ({
-      topic,
-      correct,
-      total,
-      pct: Math.round((correct / total) * 100),
-    }))
-    .sort((a, b) => b.pct - a.pct);
-}
 
 function performanceLabel(pct: number): {
   label: string;
