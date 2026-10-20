@@ -1,0 +1,19 @@
+# Maths wording research brief — 20 October 2026
+
+Recorded before revisions. Scope: 054, 066, 069, 074, 100, 105, 125, 155, 187, 191, 194, 199, 245. No school-specific format or official 2027 paper claim. Original evergreen practice supports preparation for exams taken in 2027.
+
+Live queries: “11 plus proportion speed distance time word problems worked examples”; “11 plus area perimeter composite shapes clock angles”; “11 plus negative numbers temperature fractions decimals percentages comparison”; “11 plus clock angles clockwise negative numbers temperature questions”; “11 plus money sharing bill voucher word problems”. Pages below read from returned search results, not snippets. Search positions and precise word counts not measured.
+
+| Topic / IDs | Intent, observed coverage and depth | Entities and revision brief |
+| --- | --- | --- |
+| Direct/inverse proportion: 066,069,074 | https://11plus-help.co.uk/topics/proportion — short topic guide, worked example, method and mistakes. Learn scaling and practise. | Equal constant rates, same work/tank, worker-days, tap-hours, miles per gallon. Explicit assumptions; explain why more workers/taps reduce time. |
+| Speed:155,194 | https://11plus-help.co.uk/topics/speed-distance-time — short guide, one main worked example and a self-check. | Distance=speed×time, simultaneous starts, opposite straight directions, constant speed, seconds/minutes. State requested unit and explain conversion. |
+| Area/shapes:100,105,245 | https://11plusdaily.co.uk/practice/11-plus-perimeter-area-and-volume-questions/ — longer guide with worked examples, method and FAQs; learn measurement and access practice. | Rectangular outer boundary, uniform external border, non-overlap, square units; regular hexagon centre-to-vertex partition. Remove geometry that depends on an absent diagram or unspecified subdivision. |
+| Clock:125 | https://11plusdaily.co.uk/practice/11-plus-angles-questions/ — longer worked-example guide including a reflex clock angle, method and FAQs. | Full turn360°, twelve divisions, clockwise/reflex vs smaller angle, minute hand vs hour hand. Specify clockwise rotation from12. |
+| FDP/fractions:054,187 | https://11plusdaily.co.uk/practice/11-plus-fdp-conversions-questions/ — longer guide, conversions/comparison examples and FAQs. | Equal values in different representations, percent denominator100, equal pizza slices and remaining fraction. Ask greatest numerical value as decimal for054; avoid multiple equally correct choices. |
+| Money:191 | https://11plusdaily.co.uk/practice/11-plus-money-questions/ — longer worked-example guide with methods and FAQs. | Equal shares before discount, voucher applied to one person's share, pounds/pence. Explicit scope of voucher; compute other two shares independently. |
+| Negative numbers:199 | https://11plusdaily.co.uk/practice/11-plus-negative-numbers-questions/ — longer worked-example guide with number-line/temperature contexts and FAQs. | Crossing zero, magnitude of fall vs signed change, Celsius. Ask size of decrease rather than ambiguous “change”. |
+
+Primary trust source read: DfE mathematics programmes of study, https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study . Curriculum context is not proof of a universal 11-plus syllabus. Mathematical claims must also be independently recalculated. Competitor frequency/performance assertions not adopted. One compound-shapes competitor returned429; it was not used as read evidence.
+
+Depth decision: concise question plus sufficient working, not an article-length target. Original value is explicit assumptions, sound distractors, and format-aware marking. All13 keys calculated independently and all39 derived variants checked before release. Preserve raw sources and identifiers. Ratio075 and other remaining ambiguities stay pending.

@@ -1,0 +1,1259 @@
+{
+  "updated": "2026-10-20",
+  "scope": "250 existing maths MC source families only. Does not certify all derived forms, subject alignment or the other subjects.",
+  "reviewed": 148,
+  "remaining": 102,
+  "publication": "Current wording batch awaits PR checks and deployment; use release PR for outcome.",
+  "questions": [
+    {
+      "id": "math-mc-001",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-002",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-003",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-004",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-005",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-006",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-007",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-008",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-009",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-010",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-011",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-012",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-013",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-014",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-015",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-016",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-017",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-018",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-019",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-020",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-021",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-022",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-023",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-024",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-025",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-026",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-027",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-028",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-029",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-030",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-031",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-032",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-033",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-034",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-035",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-036",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-037",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-038",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-039",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-040",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-041",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-042",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-043",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-044",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-045",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-046",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-047",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-048",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-049",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-050",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-051",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-052",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-053",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-054",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-055",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-056",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-057",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-058",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-059",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-060",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-061",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-062",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-063",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-064",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-065",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-066",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-067",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-068",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-069",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-070",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-071",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-072",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-073",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-074",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-075",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-076",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-077",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-078",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-079",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-080",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-081",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-082",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-083",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-084",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-085",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-086",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-087",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-088",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-089",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-090",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-091",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-092",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-093",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-094",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-095",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-096",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-097",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-098",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-099",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-100",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-101",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-102",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-103",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-104",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-105",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-106",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-107",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-108",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-109",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-110",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-111",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-112",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-113",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-114",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-115",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-116",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-117",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-118",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-119",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-120",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-121",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-122",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-123",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-124",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-125",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-126",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-127",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-128",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-129",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-130",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-131",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-132",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-133",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-134",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-135",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-136",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-137",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-138",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-139",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-140",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-141",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-142",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-143",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-144",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-145",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-146",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-147",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-148",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-149",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-150",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-151",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-152",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-153",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-154",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-155",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-156",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-157",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-158",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-159",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-160",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-161",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-162",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-163",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-164",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-165",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-166",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-167",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-168",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-169",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-170",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-171",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-172",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-173",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-174",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-175",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-176",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-177",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-178",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-179",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-180",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-181",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-182",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-183",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-184",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-185",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-186",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-187",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-188",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-189",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-190",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-191",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-192",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-193",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-194",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-195",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-196",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-197",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-198",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-199",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-200",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-201",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-202",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-203",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-204",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-205",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-206",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-207",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-208",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-209",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-210",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-211",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-212",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-213",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-214",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-215",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-216",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-217",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-218",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-219",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-220",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-221",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-222",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-223",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-224",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-225",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-226",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-227",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-228",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-229",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-230",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-231",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-232",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-233",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-234",
+      "status": "checked",
+      "evidence": "docs/paper-audit/maths-pilot-reviewed-2026-10-20.json"
+    },
+    {
+      "id": "math-mc-235",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-236",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-237",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-238",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-239",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-240",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-241",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-242",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-243",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-244",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-245",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-246",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-247",
+      "status": "repaired",
+      "evidence": "data/mathsRepairs.ts and corresponding paper-audit release records"
+    },
+    {
+      "id": "math-mc-248",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-249",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "math-mc-250",
+      "status": "pending",
+      "evidence": null
+    }
+  ]
+}
