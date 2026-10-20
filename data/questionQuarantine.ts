@@ -1,13 +1,6 @@
 // Confirmed or ambiguous items found in the 20 October diagnostic sample.
 // Keep source records for review; exclude every derived form of each family.
 export const quarantinedFamilies = new Set([
-  'math-038', // 240 × 1.18 = 283.2; whole items and no rounding instruction.
-  'math-164', // Key contradicts explanation: 750g pack is better value.
-  'math-189', // Whole packs of each can total 20; LCM needs equal totals per size.
-  'math-226', // 19 − 2 = 17, absent from choices; key says 15.
-  'math-232', // 50° might be apex or base angle, giving different pairs.
-  'math-236', // Squared number can be 5 or −5; positivity not specified.
-  'math-242', // Sorted seven values cannot have the stated mean; key contradicts task.
   'math-080', // n²=81 permits -9 too; positivity unspecified.
   'eng-064', // Several ellipsis options can be valid in context.
   'eng-087', // Rhetorical intent requires context.

@@ -1,3 +1,4 @@
+import { applyMathsRepair } from './mathsRepairs';
 import { mathsMarkingFor } from './mathsMarking';
 import { isQuestionQuarantined } from './questionQuarantine';
 import { Subject, Question, QuizType } from '../types';
@@ -20,9 +21,9 @@ import {
 // Unified question bank (backwards-compatible with existing imports)
 export const questionBank: Record<Subject, Partial<Record<QuizType, Question[]>>> = {
   [Subject.Maths]: {
-    'multiple-choice': mathsMC,
-    'true-false': mathsTF,
-    'fill-in-the-blank': mathsFITB.map(q => ({...q, marking: mathsMarkingFor(q.id)})),
+    'multiple-choice': mathsMC.map(applyMathsRepair),
+    'true-false': mathsTF.map(applyMathsRepair),
+    'fill-in-the-blank': mathsFITB.map(q => ({...q, marking: mathsMarkingFor(q.id)})).map(applyMathsRepair),
     ordering: mathsOrdering,
   },
   [Subject.English]: {
@@ -111,20 +112,19 @@ export function getRandomQuestions(
     : questions;
 
   // If not enough questions after filtering, fall back to full set
-  if (filtered.length < 1) filtered = questions;
+  if (filtered.length < 1) return [];
 
-  // Difficulty: split pool into thirds (bank is roughly easy -> hard in authoring order)
-  const third = Math.max(1, Math.floor(filtered.length / 3));
-  let pool: Question[];
-
-  if (difficulty === 'standard') pool = filtered.slice(0, third * 2); // easier 2/3
-  else if (difficulty === 'challenging') pool = filtered.slice(third, third * 3); // middle + hard
-  else pool = filtered.slice(third * 2); // hardest 1/3
-
-  if (pool.length < 1) pool = filtered;
+  // Use authored difficulty tags where available; never infer difficulty from array order.
+  const level = difficulty === 'standard' ? 1 : difficulty === 'challenging' ? 2 : 3;
+  const tagged = filtered.filter(q => q.difficulty === level);
+  const pool = tagged.length ? tagged : filtered;
 
   // Sample without replacement
-  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  const shuffled = [...pool];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 

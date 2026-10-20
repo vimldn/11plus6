@@ -1,42 +1,29 @@
 import { Subject, Question, SchoolType, QuizType } from '../types';
 import { getRandomQuestions } from '../data/questionBank';
+import { validateGeneratedQuestions } from '../lib/questionValidation';
 
 type Difficulty = 'standard' | 'challenging' | 'exam-ready';
-
-// Primary question generation function.
-// - For school-specific exams, we call the server (which can use PDFs as source material).
-// - For local dev without an API key, we fall back to the built-in question bank.
+export type QuestionBatch = { questions: Question[]; notice: string };
+// The current server uses written blueprint summaries, not uploaded PDF contents.
 export const generateQuestions = async (
-  subject: Subject,
-  schoolType: SchoolType | null,
-  topic?: string,
-  quizType: QuizType = 'multiple-choice',
-  count: number = 25,
-  schoolId?: string,
+  subject: Subject, schoolType: SchoolType | null, topic?: string,
+  quizType: QuizType = 'multiple-choice', count = 25, schoolId?: string,
   difficulty: Difficulty = 'standard'
-): Promise<Question[]> => {
-  // Simulate slight loading delay for better UX
-  await new Promise((resolve) => setTimeout(resolve, 350));
-
+): Promise<QuestionBatch> => {
   if (schoolId) {
     try {
       const res = await fetch('/api/exams/generate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ schoolId, subject, quizType, count, difficulty, topic }),
+        method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({schoolId,subject,quizType,count,difficulty,topic}),
       });
-
       if (res.ok) {
         const data = await res.json();
-        if (Array.isArray(data?.questions) && data.questions.length > 0) {
-          return data.questions as Question[];
+        if (data.meta?.source === 'openai' || data.meta?.source === 'claude') {
+          return {questions:validateGeneratedQuestions(data.questions,count,quizType),notice:'AI-generated practice using a written school summary. Original uploaded papers are not read by this generator. Answers have structural checks but have not been independently verified. This is not an official paper or a verified 2027 school specification.'};
         }
       }
-    } catch {
-      // fall through to local generation
-    }
+    } catch { /* Transparent local fallback below, without claiming school alignment. */ }
   }
-
-  // Local fallback: can repeat questions to reach target count.
-  return getRandomQuestions(subject, quizType, count, topic, difficulty);
+  const questions = getRandomQuestions(subject,quizType,count,topic,difficulty);
+  return {questions,notice:(schoolId ? 'School-specific generation was unavailable. These are general question-bank questions, not matched to your selected school. ' : 'General question-bank practice. ') + 'The full legacy bank has not yet completed independent answer review. Difficulty labels are author tags, not calibrated exam predictions.' + (questions.length < count ? ` Only ${questions.length} questions are available for these settings.` : '')};
 };

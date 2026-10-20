@@ -81,6 +81,7 @@ export interface UserStats {
 }
 
 export interface QuizResult {
+  provenance?: string;
   quizType?: QuizType;
   score: number;
   total: number;
