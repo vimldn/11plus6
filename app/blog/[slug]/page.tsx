@@ -194,6 +194,14 @@ function Block({ block }: { block: BlockType }) {
         </div>
       );
     }
+    case 'question':
+      return <section className="my-8 rounded-xl border border-slate-200 bg-slate-50 p-5 sm:p-7">
+        <p className="text-lg font-semibold leading-relaxed whitespace-pre-wrap"><InlineText text={block.text}/></p>
+        <details className="mt-5 border-t border-slate-200 pt-4">
+          <summary className="cursor-pointer min-h-[44px] font-semibold text-indigo-700">Show answer and explanation</summary>
+          <div className="mt-5 space-y-4"><p className="text-lg font-semibold whitespace-pre-wrap"><InlineText text={block.answer}/></p><p className="text-base leading-loose whitespace-pre-wrap"><InlineText text={block.explanation}/></p></div>
+        </details>
+      </section>;
     case 'divider':
       return <hr className="border-slate-200 my-2" />;
     default:
@@ -293,7 +301,7 @@ export default function BlogPostPage({ params }: Props) {
 
         {/* ── Featured image ── */}
         <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-slate-100">
-          <img src={heroImage} alt={post.imageAlt} className="absolute inset-0 w-full h-full object-cover" />
+          <img src={heroImage} alt={post.imageAlt} className={`absolute inset-0 w-full h-full ${post.subject ? 'object-contain p-6 bg-slate-50' : 'object-cover'}`} />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 max-w-3xl mx-auto px-4 pb-8">
             <div className="flex items-center gap-2 mb-3">
@@ -328,8 +336,9 @@ export default function BlogPostPage({ params }: Props) {
             {post.desc}
           </p>
 
+          {post.subject && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="Learning hub"><Link className="font-semibold text-indigo-700 underline" href={`/subjects/${post.subject}`}>Back to the {post.subject === 'maths' ? 'Maths' : 'English'} learning hub</Link><p className="mt-3 text-sm text-slate-600">Original skill practice for exams taken in 2027. Published {post.date}.</p></nav>}
           {/* Content blocks with interleaved banners + images */}
-          <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />
+          <div>{post.subject ? <div className="space-y-5">{post.content.map((block,index)=><Block key={index} block={block}/>)}</div> : <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />}</div>
           {topicPractice.length > 0 && <section className="my-10 rounded-2xl bg-indigo-50 p-6" aria-label={`Practise these ${practiceSubject} skills`}>
             <h2 className="text-xl font-bold text-slate-900">Practise these {practiceSubject} skills</h2>
             <p className="mt-3 text-slate-700">Work through a short lesson, try the questions and check each answer with an explanation.</p>
@@ -340,7 +349,7 @@ export default function BlogPostPage({ params }: Props) {
           <div className="mt-16 p-7 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-3xl text-white">
             <p className="font-black text-xl mb-2">Ready to practise?</p>
             <p className="text-indigo-100 text-sm mb-5 leading-relaxed">
-              Sit a free school-themed mock exam and get instant results with explanations for every question.
+              {post.subject ? 'Choose original practice and use the answer explanations to decide what to work on next. These are not official school papers.' : 'Sit a free school-themed mock exam and get instant results with explanations for every question.'}
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/mock-exams" className="inline-flex items-center gap-2 px-5 py-3 bg-white text-indigo-700 font-black text-sm rounded-xl hover:scale-[1.02] transition-all shadow-lg">

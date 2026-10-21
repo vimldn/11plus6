@@ -6,6 +6,7 @@ import { subjectPageSchema } from '@/lib/schemas';
 import { SchemaOrg } from '@/components/SchemaOrg';
 import Link from 'next/link';
 import { publishedLessons } from '@/lib/lessonPublishing';
+import { BLOG_POSTS } from '@/lib/blogPosts';
 
 interface Props { params: { subject: string } }
 
@@ -43,6 +44,7 @@ export default function SubjectPage({ params }: Props) {
   const subject = SUBJECTS.find((s) => s.slug === params.subject);
   if (!subject) notFound();
   const lessonLinks = publishedLessons(subject.slug);
+  const skillGuides = BLOG_POSTS.filter(post => post.subject === subject.slug);
 
   return (
     <>
@@ -60,6 +62,7 @@ export default function SubjectPage({ params }: Props) {
             </ul>
           </section>
         ) : null}
+        {skillGuides.length > 0 && <section className="mx-auto max-w-6xl px-6 py-12" aria-labelledby="skill-guides"><p className="brand-eyebrow">Build the method</p><h2 id="skill-guides" className="text-3xl">{subject.label} guides with worked answers</h2><p className="mt-4 text-slate-700 leading-relaxed">Original explanations and practice questions for families preparing for 11-plus exams taken in 2027. Read the method, try the questions, then reveal each explained answer.</p><ul className="mt-7 grid gap-6 sm:grid-cols-2">{skillGuides.map(post=><li key={post.slug} className="border-t border-slate-200 py-6"><Link className="text-xl text-indigo-700 underline underline-offset-4" href={`/blog/${post.slug}`}>{post.title}</Link><p className="mt-4 text-slate-600 leading-relaxed">{post.desc}</p></li>)}</ul></section>}
       </SubjectPageClient>
     </>
   );
