@@ -16,6 +16,7 @@ interface ResultsScreenProps {
   onHome: () => void;
   onRetry: () => void;
   onReview: () => void;
+  onMistakes?: () => void;
 }
 
 // ─── Topic breakdown helpers ──────────────────────────────────────────────────
@@ -101,8 +102,9 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
   onHome,
   onRetry,
   onReview,
+  onMistakes,
 }) => {
-  const percentage = Math.round((result.score / result.total) * 100);
+  const percentage = result.total ? Math.round((result.score / result.total) * 100) : 0;
   const topicStats = useMemo(() => buildTopicStats(result), [result]);
 
   // Only show breakdown when there are meaningful distinct topics
@@ -126,7 +128,7 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-4 sm:p-6 space-y-4">
+    <div className="results-workbench max-w-4xl mx-auto py-6 space-y-8 pb-28 sm:pb-8">
 
       {/* ── Main score card ─────────────────────────────────────────────── */}
       <motion.div
@@ -192,16 +194,18 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
           </div>
         )}
 
+        <p className="text-slate-600 leading-relaxed mb-6">Your next step: review the explanations and find one method to practise.</p>
         {/* Actions */}
         <div className="flex flex-col gap-3">
-          <Button onClick={onReview} variant="outline" className="w-full justify-center">
-            <ListChecks size={16} /> Review Answers
+          <Button onClick={onReview} variant="primary" size="lg" className="w-full justify-center">
+            <ListChecks size={20} /> Review answers
           </Button>
+          {onMistakes && <Button onClick={onMistakes} variant="secondary">Practise my mistakes again</Button>}
           <div className="flex gap-3">
             <Button onClick={onHome} variant="ghost" className="flex-1 justify-center">
               <Home size={16} /> Home
             </Button>
-            <Button onClick={onRetry} variant="primary" className="flex-1 justify-center">
+            <Button onClick={onRetry} variant="secondary" className="flex-1 justify-center">
               <RotateCcw size={16} /> Try Again
             </Button>
           </div>
@@ -268,6 +272,7 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
             })}
           </div>
 
+          <Button onClick={onReview} className="w-full mt-6"><ListChecks size={18}/> Review answers and explanations</Button>
           {/* Summary callout pills */}
           {(excelling.length > 0 || needsWork.length > 0) && (
             <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -315,7 +320,8 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
           )}
         </motion.div>
       )}
-
+      <section className="results-next-step"><div><p className="brand-eyebrow">Make this practice count</p><h2>Understand the why.</h2><p>Read the worked explanations before your next attempt.</p></div><Button onClick={onReview} size="lg"><ListChecks size={20}/> Review answers</Button></section>
+      <div className="results-mobile-action"><Button onClick={onReview} className="w-full" size="lg"><ListChecks size={20}/> Review answers</Button></div>
     </div>
   );
 };
