@@ -4,7 +4,7 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 
 ## Release policy
 
-- Publish at most three substantial new pages per weekly release; do not catch up missed batches in bulk. Corrections to existing pages are separate from this new-page ceiling.
+- Owner update, 21 October 2026: daily 06:00 Europe/London programme targets five substantive educational articles plus at least two separate, genuinely timely news articles. This supersedes the former Friday-only three-page limit. Never catch up missed batches, pad a quota or fabricate news; hold unfinished work and report exact output. A manual educational release may publish its verified educational scope without claiming the separate news target was met.
 - Prioritise corrections to existing facts before adding more advice.
 - Every new/substantially changed educational page needs a current search-results review: intent, relevant competing URLs, entities, depth, original value and sources.
 - Length follows the problem being solved; no mechanical competitor word-count target.
@@ -12,10 +12,10 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 - Document author/reviewer honestly. Never invent educator approval, parent testimonials, school affiliation or pass-rate promises.
 - Check every original question and worked answer. Record the review actually performed. For the first maths release, the owner authorised release after independent automated answer checks; qualified educator approval must not be implied. Human pedagogical review remains recommended.
 - Draft lessons are excluded from public routes, public links and sitemaps. Preview routes exist only in development or Vercel preview and are noindex.
-- Owner authorised scheduled publication on 7 October 2026: Friday mornings Europe/London, starting 9 October, up to three researched and verified new pages; Monday mornings site-health review starting 12 October. These hosted tasks use the existing Git-to-Vercel workflow.
+- The 7 October Friday schedule was replaced by the owner’s 21 October daily content/news instruction. Use the existing Git-to-Vercel workflow and inspect actual task state rather than assuming every scheduled run completed.
 - Every topic must pass live UK SERP research BEFORE writing: intent, competing pages, entities, trust sources and useful depth; record a brief in the repository. Hold drafts if research or verification fails.
 - Target exams TAKEN in calendar 2027. Always distinguish exam year from school-entry year. Do not mechanically relabel old admissions data.
-- Daily existing-article repair task owns up to 15 unrepaired blog articles per run from 8 October 2026. Read docs/article-audit-queue.json and open PRs before selecting work; do not duplicate a batch in progress. Record research, repair and publication outcomes separately. Pause the daily task after the existing-article pass completes.
+- The separate existing-article repair queue owns up to 15 unrepaired blog articles per run when enabled. Read docs/article-audit-queue.json and open PRs before selecting work; do not duplicate a batch in progress. Record research, repair and publication outcomes separately. Pause the daily task after the existing-article pass completes.
 - Owner authorised Search Console access and connected the exact URL-prefix property https://www.11plusexampapers.com/ through Windsor.ai on 8 October 2026. Read docs/search-console-review-2026-10-08.md before selecting the next repairs. Use this site’s actual dated data, keep search types separate and do not claim repair effects from pre-release data. Query visibility and backlink evidence remain incomplete.
 - Existing-URL repairs were authorised after the 7 October content audit. Proposed irreversible culls and final redirect destinations remain contingent on search/backlink evidence.
 
@@ -61,3 +61,8 @@ School → exam → suitable practice → worked answer → relevant topic → f
 ## English release candidate — 17 October 2026
 
 Three existing drafts selected for publication: comprehension-retrieval, comprehension-inference and using-evidence. See serp-review-english-release-2026-10-17.md, english-answer-review-2026-10-17.md and english-release-2026-10-17.md. Production outcome is recorded separately after deployment verification. Subsequent English work should extend distinct skills rather than duplicate these URLs.
+
+
+## Manual educational release — 21 October 2026
+
+Five new skill blogs, three Maths and two English, with eight original answer disclosures each. All three prior English lessons are already published in current main and live sitemap; the older held-outcome record must not be used to recreate them. Research precedes writing in serp-review-new-blogs-2026-10-21.md; release ledger: releases/new-blogs-2026-10-21.md. Every article has a reciprocal subject-hub link. No legacy blog repair or news publication is counted in this manual educational batch.

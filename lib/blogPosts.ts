@@ -1,3 +1,5 @@
+import { OCTOBER_SKILL_POSTS } from './newBlogPosts20261021';
+
 // Auto-generated from CSV — do not edit manually
 // To add articles, append to the BLOG_POSTS array below
 
@@ -9,9 +11,11 @@ export type BlockType =
   | { type: 'ol'; items: string[] }
   | { type: 'table'; headers: string[]; rows: string[][] }
   | { type: 'callout'; variant: 'tip' | 'warning' | 'info'; text: string }
+  | { type: 'question'; text: string; answer: string; explanation: string }
   | { type: 'divider' };
 
 export interface BlogPost {
+  subject?: 'maths' | 'english';
   slug: string;
   title: string;
   desc: string;
@@ -26,6 +30,7 @@ export interface BlogPost {
 }
 
 export const BLOG_POSTS: BlogPost[] = [
+  ...OCTOBER_SKILL_POSTS,
   {
     slug: "what-is-the-11-plus-exam",
     title: "What is the 11 Plus exam? A parent’s guide for 2027",
