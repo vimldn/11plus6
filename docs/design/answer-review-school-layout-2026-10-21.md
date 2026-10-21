@@ -12,4 +12,4 @@ Owner request: make review answers prominent in multiple places, improve answer 
 - Existing routes, canonicals, structured data and sitemap generation unchanged. No content publication or redirects.
 
 ## Verification
-Production build, practice workflow, topic scoring and publishing gates required before merge. Public interactive and school checks recorded on the pull request after deployment. Browser coverage and any limitations must be stated accurately.
+Clean production build, practice workflow, topic scoring and publishing gates passed. All 50 generated school profiles passed checks for section anchors, jump links, self canonicals and subject targets. Saved history follows results/review so it does not obscure the primary action. Public interactive and school checks recorded on the pull request after deployment. Browser coverage and any limitations must be stated accurately.

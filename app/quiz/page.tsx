@@ -141,13 +141,13 @@ function QuizPageInner() {
         )}
 
         {screen === 'results' && lastResult && <section className="results-resources my-8 rounded-xl border p-6 space-y-5"><p>{lastResult.provenance}</p><PrintPaper questions={lastResult.questions} answersAllowed provenance={lastResult.provenance} /><div className="flex flex-wrap gap-3">{supportedMissedTopics(lastResult).length>0 && <button className="rounded bg-indigo-700 px-4 py-2 text-white" onClick={()=>startFollowUp(true)}>Fresh questions on missed topics</button>}</div></section>}
-        <AttemptHistory result={screen==='quiz'?null:lastResult} attemptId={attemptId} onOpen={(r,id)=>{setLastResult(r);setAttemptId(id);setScreen('results');}} />
         {screen === 'review' && lastResult && (
           <ReviewScreen
             result={lastResult}
             onBack={() => setScreen('results')}
           />
         )}
+        <AttemptHistory result={screen==='quiz'?null:lastResult} attemptId={attemptId} onOpen={(r,id)=>{setLastResult(r);setAttemptId(id);setScreen('results');}} />
       </main>
       <SiteFooter />
     </div>
