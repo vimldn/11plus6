@@ -129,18 +129,19 @@ function QuizPageInner() {
           />
         )}
 
-        {screen === 'results' && lastResult && <section className="my-4 rounded-xl border p-4"><p>{lastResult.provenance}</p><PrintPaper questions={lastResult.questions} answersAllowed provenance={lastResult.provenance} /><div className="flex flex-wrap gap-3">{mistakesFrom(lastResult).length>0 && <button className="rounded border px-4 py-2" onClick={()=>startFollowUp(false)}>Practise my mistakes again</button>}{supportedMissedTopics(lastResult).length>0 && <button className="rounded bg-indigo-700 px-4 py-2 text-white" onClick={()=>startFollowUp(true)}>Fresh questions on missed topics</button>}</div></section>}
-        <AttemptHistory result={screen==='quiz'?null:lastResult} attemptId={attemptId} onOpen={(r,id)=>{setLastResult(r);setAttemptId(id);setScreen('results');}} />
         {screen === 'results' && lastResult && (
           <ResultsScreen
             result={lastResult}
             newBadges={[]}
             onHome={() => router.push('/mock-exams')}
             onRetry={handleRetry}
-            onReview={() => setScreen('review')}
+            onReview={() => { setScreen('review'); window.scrollTo({top:0}); }}
+            onMistakes={mistakesFrom(lastResult).length ? () => startFollowUp(false) : undefined}
           />
         )}
 
+        {screen === 'results' && lastResult && <section className="results-resources my-8 rounded-xl border p-6 space-y-5"><p>{lastResult.provenance}</p><PrintPaper questions={lastResult.questions} answersAllowed provenance={lastResult.provenance} /><div className="flex flex-wrap gap-3">{supportedMissedTopics(lastResult).length>0 && <button className="rounded bg-indigo-700 px-4 py-2 text-white" onClick={()=>startFollowUp(true)}>Fresh questions on missed topics</button>}</div></section>}
+        <AttemptHistory result={screen==='quiz'?null:lastResult} attemptId={attemptId} onOpen={(r,id)=>{setLastResult(r);setAttemptId(id);setScreen('results');}} />
         {screen === 'review' && lastResult && (
           <ReviewScreen
             result={lastResult}
