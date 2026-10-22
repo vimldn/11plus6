@@ -1,0 +1,41 @@
+import type { BlogPost } from './blogPosts';
+
+export const OCTOBER_NEWS_POSTS: BlogPost[] = [{
+  kind: 'news',
+  slug: 'kent-test-2027-quest-assessments',
+  title: 'Kent Test 2027: What the New Provider Means for Parents',
+  desc: 'Kent has appointed Quest Assessments for tests from 2027. Understand the affected entry year, what the council says stays the same and what to check next.',
+  date: 'October 22, 2026',
+  readTime: '3 min read',
+  category: 'Admissions news',
+  imageUrl: '/brand/book-journey.webp',
+  imageAlt: 'Illustrated books forming a staircase for a learning journey',
+  images: [],
+  content: [
+    { type: 'p', text: 'Kent County Council announced on 16 October 2026 that Quest Assessments (Atom Learning Ltd) will replace GL Assessment as the Kent Test provider from 2027. The announcement concerns children taking the test in 2027 for secondary-school admission in September 2028.' },
+    { type: 'callout', variant: 'info', text: 'Test year and entry year are different. This report is for families preparing for exams taken in 2027. The provider announcement does not affect children who have already taken the 2026 Kent Test for 2027 entry.' },
+    { type: 'h2', text: 'What has Kent confirmed?' },
+    { type: 'p', text: 'The council’s current [Kent Test information page](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test) says the change of provider does not change the test’s purpose, format, timing or role in admissions. Its October update also distinguishes the provider appointment from the arrangements used to support individual children.' },
+    { type: 'table', headers: ['Area', 'Council’s stated position'], rows: [
+      ['Provider from 2027', 'Quest Assessments (Atom Learning Ltd).'],
+      ['Admissions and eligibility', 'No change arising from the provider appointment.'],
+      ['Support and Headteacher Assessments', 'The existing arrangements remain unchanged.'],
+      ['Familiarisation', 'New materials will be made available; check the council’s page for their release.'],
+    ] },
+    { type: 'p', text: 'In the [16 October announcement](https://news.kent.gov.uk/articles/new-provider-appointed-for-kent-test-as-current-contract-comes-to-an-end), KCC says some question design or presentation may differ, but no significant changes are planned. Testing remains in early September; the specific date is to be confirmed in the 2028 Determined Scheme.' },
+    { type: 'h2', text: 'Which details should parents check again?' },
+    { type: 'p', text: 'As checked on 22 October 2026, the sources above do not establish an exact 2027 test day, a 2027 registration window or a release date for the new familiarisation materials. Treat those details as unconfirmed here. An older timetable labelled “2027 entry” describes a different admissions cycle and should not be copied into a plan for a test taken in 2027.' },
+    { type: 'h2', text: 'A practical next step for 2027 preparation' },
+    { type: 'p', text: 'Our recommendation is to keep a simple source checklist alongside your study plan. This is preparation advice, rather than an additional council requirement:' },
+    { type: 'ol', items: [
+      'Write “test in 2027 / entry in September 2028” at the top of your Kent notes. Check that each saved document matches that cycle.',
+      'Use the council’s Kent Test page as your starting point for registration and preparation updates. Record when you checked a date and which official page supplied it.',
+      'Read the new familiarisation material when it becomes available before choosing resources for a particular question layout. A provider’s name alone does not establish the exact paper your child will sit.',
+      'Continue useful reading and maths learning while awaiting those details. Keep any commercial or original practice clearly separate from official familiarisation.',
+    ] },
+    { type: 'p', text: 'You can use our [English learning hub](/subjects/english) and [maths learning hub](/subjects/maths) for original skills practice. Those activities are not official Kent papers and should not be treated as confirmation of the 2027 test specification.' },
+    { type: 'h2', text: 'Keep the announcement beside the timetable' },
+    { type: 'p', text: 'Return to our [exam dates and admissions hub](/exam-dates) for related calendar coverage. Check the entry-year labels on its existing calendar entries: this news item does not convert older dates into a confirmed 2027-test timetable. If you are new to selection, our [introduction to the 11 Plus](/blog/what-is-the-11-plus-exam) explains why different schools and areas need separate checks.' },
+    { type: 'p', text: 'Sources: Kent County Council announcement, 16 October 2026, and the council’s current Kent Test page, both linked above and checked on 22 October 2026. This report explains that dated development; it does not announce newly confirmed registration dates.' },
+  ],
+}];
