@@ -66,18 +66,20 @@ export function articleSchema({
   description,
   datePublished,
   dateModified,
+  articleType = 'Article',
 }: {
   slug: string;
   title: string;
   description: string;
   datePublished: string;
   dateModified?: string;
+  articleType?: 'Article' | 'NewsArticle';
 }) {
   const pageUrl = `${BASE}/blog/${slug}`;
   return [
     orgSchema,
     {
-      '@type': 'Article',
+      '@type': articleType,
       '@id': `${pageUrl}#article`,
       url: pageUrl,
       headline: title,

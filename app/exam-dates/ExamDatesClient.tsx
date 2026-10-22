@@ -522,6 +522,14 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="kent-news-heading">
+          <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-8">
+            <p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Admissions news · 22 October 2026</p>
+            <h2 id="kent-news-heading" className="mt-3 text-2xl font-bold text-slate-900"><Link className="underline decoration-emerald-400 underline-offset-4" href="/blog/kent-test-2027-quest-assessments">Kent Test 2027: what the new provider means for parents</Link></h2>
+            <p className="mt-4 max-w-3xl leading-relaxed text-slate-700">Kent has appointed Quest Assessments for tests taken from 2027, for September 2028 entry. Read what the council has confirmed and which dates still need checking. Existing calendar entries below retain their stated entry years.</p>
+          </div>
+        </section>
+
         {/* ── Disclaimer ── */}
         <div className="max-w-6xl mx-auto px-4 pt-8 pb-2">
           <div className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-2xl">

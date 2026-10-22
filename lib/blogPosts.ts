@@ -1,3 +1,4 @@
+import { OCTOBER_NEWS_POSTS } from './newsPosts20261022';
 import { OCTOBER_SKILL_POSTS } from './newBlogPosts20261021';
 
 // Auto-generated from CSV — do not edit manually
@@ -15,6 +16,7 @@ export type BlockType =
   | { type: 'divider' };
 
 export interface BlogPost {
+  kind?: 'news';
   subject?: 'maths' | 'english';
   slug: string;
   title: string;
@@ -30,6 +32,7 @@ export interface BlogPost {
 }
 
 export const BLOG_POSTS: BlogPost[] = [
+  ...OCTOBER_NEWS_POSTS,
   ...OCTOBER_SKILL_POSTS,
   {
     slug: "what-is-the-11-plus-exam",
