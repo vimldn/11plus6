@@ -1,5 +1,7 @@
 'use client';
 
+import { VerbalPracticeLibrary } from '@/components/VerbalPracticeLibrary';
+
 import { PracticeJourneys } from '@/components/PracticeJourneys';
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
@@ -563,6 +565,7 @@ function PapersPageInner() {
 
         <PracticeResources />
         <PracticeJourneys />
+        <VerbalPracticeLibrary />
 
         {/* ── Search & Filter ── */}
         <section className="max-w-6xl mx-auto px-4 py-8">

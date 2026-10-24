@@ -17,6 +17,7 @@ import {
   ArrowDown
 } from 'lucide-react';
 import { Subject, Question, QuizState, QuizResult, QuizMode, QuizType } from '../types';
+import { createVerbalPractice } from '../data/verbalPractice';
 import { createTopicPractice } from '../lib/topicPractice';
 import { createMathsPilot } from '../data/mathsPilot';
 import { generateQuestions } from '../services/questionService';
@@ -26,6 +27,7 @@ interface QuizAreaProps {
   suppliedQuestions?: Question[];
   suppliedNotice?: string;
   freshMaths?: boolean;
+  reviewedVerbal?: boolean;
   mathsPilot?: boolean;
   subject: Subject;
   schoolType: any;
@@ -46,6 +48,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
   suppliedNotice,
   mathsPilot = false,
   freshMaths = false,
+  reviewedVerbal = false,
   schoolType,
   mode,
   quizType,
@@ -82,7 +85,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
       let qs: Question[] = [];
       try {
-        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : reviewedVerbal ? {questions:createVerbalPractice(topic),notice:topic && !['codes','analogies','classifications','sequences'].includes(topic) ? 'This verbal reasoning topic is unavailable. Choose a supported skill from the hub.' : 'Original checked verbal reasoning starter practice. Four options per question; not an official paper or a complete syllabus.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
         qs = batch.questions;
         if (mounted) setNotice(batch.notice);
       } catch {
@@ -101,7 +104,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     return () => {
       mounted = false;
     };
-  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths, suppliedQuestions, suppliedNotice]);
+  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths, reviewedVerbal, suppliedQuestions, suppliedNotice]);
 
   useEffect(() => {
     if (state.loading || state.completed) return;
