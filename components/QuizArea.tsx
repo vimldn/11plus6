@@ -17,7 +17,7 @@ import {
   ArrowDown
 } from 'lucide-react';
 import { Subject, Question, QuizState, QuizResult, QuizMode, QuizType } from '../types';
-import { createFreshMaths } from '../data/freshMaths';
+import { createTopicPractice } from '../lib/topicPractice';
 import { createMathsPilot } from '../data/mathsPilot';
 import { generateQuestions } from '../services/questionService';
 import { Button } from './Button';
@@ -82,7 +82,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
       let qs: Question[] = [];
       try {
-        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : freshMaths ? {questions:createFreshMaths(),notice:'Original calculated maths practice. Supported variations are checked by independent calculations.'} : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
         qs = batch.questions;
         if (mounted) setNotice(batch.notice);
       } catch {

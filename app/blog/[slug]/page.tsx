@@ -1,3 +1,4 @@
+import { mathsJourneys, topicPracticeHref } from '@/lib/practiceJourneys';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -292,6 +293,7 @@ export default function BlogPostPage({ params }: Props) {
   // imageUrl (_4) is the confirmed working image — use it as hero
   // images[] contains _1–_4 variants; use _2–_4 inline (skip _1 as unconfirmed)
   const heroImage = post.imageUrl;
+  const focusedJourney = mathsJourneys.find(j => j.guide === `/blog/${post.slug}`);
 
   return (
     <>
@@ -338,6 +340,7 @@ export default function BlogPostPage({ params }: Props) {
 
           {post.kind === 'news' && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="News parent hub"><Link href="/exam-dates" className="font-semibold text-indigo-700 underline">Back to exam dates and admissions</Link><p className="mt-3 text-sm text-slate-600">News published {post.date}. {post.eventNote ?? (post.slug === 'kent-test-2027-quest-assessments' ? 'Development announced 16 October 2026.' : 'Sources and development dates are stated below.')}</p></nav>}
           {post.subject && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="Learning hub"><Link className="font-semibold text-indigo-700 underline" href={`/subjects/${post.subject}`}>Back to the {post.subject === 'maths' ? 'Maths' : 'English'} learning hub</Link><p className="mt-3 text-sm text-slate-600">Original skill practice for exams taken in 2027. Published {post.date}.</p></nav>}
+          {focusedJourney && <nav aria-label="Practise this skill" className="mb-8 rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><h2 className="text-xl font-bold">Read the method, then try it</h2><p className="mt-3 leading-7">Practise 10 original {focusedJourney.title.toLowerCase()} questions with worked feedback, then review and retry any mistakes. Number variations may recur.</p><Link className="mt-4 inline-block rounded-xl bg-emerald-900 px-5 py-3 font-bold text-white" href={topicPracticeHref(focusedJourney.topic)}>Start focused practice →</Link></nav>}
           {/* Content blocks with interleaved banners + images */}
           <div>{(post.subject || post.kind === 'news' || post.editorial) ? <div className="space-y-5">{post.content.map((block,index)=><Block key={index} block={block}/>)}</div> : <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />}</div>
           {topicPractice.length > 0 && <section className="my-10 rounded-2xl bg-indigo-50 p-6" aria-label={`Practise these ${practiceSubject} skills`}>

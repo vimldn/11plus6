@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import EnglishWrittenPractice from '@/components/EnglishWrittenPractice';
+import { mathsJourneys, englishJourney, topicPracticeHref } from '@/lib/practiceJourneys';
 import LessonAnswer from '@/components/LessonAnswer';
 import type { Lesson } from '@/data/lessons';
 import { allLessons as lessons } from '@/lib/lessonPublishing';
@@ -8,6 +10,9 @@ import { SiteFooter } from '@/components/SiteFooter';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 
 export default function LessonContent({ lesson, preview = false }: { lesson: Lesson; preview?: boolean }) {
+  const journey = mathsJourneys.find(j => j.lesson === lesson.slug);
+  const englishStep = englishJourney.findIndex(j => j.slug === lesson.slug);
+  const passage = lesson.sections.filter(s=>s.title.startsWith('Original passage:')).flatMap(s=>s.paragraphs);
   const related = (preview ? lessons : publishedLessons()).filter((item) => lesson.relatedSlugs.includes(item.slug));
 
   return (
@@ -53,8 +58,9 @@ export default function LessonContent({ lesson, preview = false }: { lesson: Les
             <h2 id="common-mistakes" className="text-2xl font-bold text-slate-950">Common mistakes to avoid</h2>
             <ul className="mt-4 list-disc space-y-3 pl-5">{lesson.mistakes.map((mistake) => <li key={mistake}>{mistake}</li>)}</ul>
           </section>
-          <section aria-labelledby="practice" className="space-y-5">
-            <h2 id="practice" className="text-2xl font-bold text-slate-950">Try it yourself</h2>
+          <section id="practice" aria-labelledby="practice-heading" className="space-y-5">
+            <h2 id="practice-heading" className="text-2xl font-bold text-slate-950">Try it yourself</h2>
+            {lesson.subject === 'english' && !preview ? <EnglishWrittenPractice slug={lesson.slug} questions={lesson.questions} passage={passage} /> : <>
             <p>Write down your working before opening each answer. If you make a mistake, check the explanation and try the question again.</p>
             <ol className="space-y-5">
               {lesson.questions.map((question, index) => (
@@ -67,7 +73,11 @@ export default function LessonContent({ lesson, preview = false }: { lesson: Les
                 </li>
               ))}
             </ol>
+            </>}
+
           </section>
+          {!preview && journey && <section className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><h2 className="text-2xl font-bold">Try fresh questions on this method</h2><p className="mt-3 leading-7">Practise 10 original questions with number variations and explained answers. Use mistake review afterwards; these are practice questions, not an exam-readiness prediction.</p><Link href={topicPracticeHref(journey.topic)} className="mt-5 inline-block rounded-xl bg-emerald-900 px-5 py-4 font-bold text-white">Start focused practice →</Link></section>}
+          {!preview && englishStep >= 0 && <nav aria-label="English learning path" className="rounded-2xl bg-stone-50 p-6"><h2 className="text-2xl font-bold">Your English learning path</h2><ol className="mt-5 space-y-3">{englishJourney.map((step,index)=><li key={step.slug}><Link href={`/subjects/english/${step.slug}`} aria-current={step.slug===lesson.slug ? 'step' : undefined} className="font-semibold text-emerald-900 underline">{index+1}. {step.title}{step.slug===lesson.slug ? ' (this lesson)' : ''}</Link></li>)}</ol><Link href="/subjects/english" className="mt-5 inline-block text-emerald-900 underline">Back to the English hub →</Link></nav>}
           {related.length ? (
             <nav aria-label="Related lessons" className="space-y-4">
               <h2 className="text-2xl font-bold text-slate-950">Keep practising</h2>
