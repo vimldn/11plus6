@@ -5,23 +5,20 @@ import PapersClient from './PapersClient';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: '11+ School-Themed Practice Papers',
-  description:
-    "Explore original school-themed 11+ practice activities. Check your school's current exam requirements; these are practice resources, not official past papers.",
+  title: 'Free 11+ Practice Papers and Worked Answers',
+  description: 'Download free original maths and English practice PDFs with separate worked answers, try online practice and find official 11 Plus familiarisation sources.',
   alternates: { canonical: '/papers' },
   openGraph: {
-    title: '11+ Practice Papers by School | 11 Plus Exam Papers',
-    description:
-      'Explore school-themed practice activities for grammar and independent school preparation. Not official past papers.',
+    title: 'Free 11+ Practice Papers and Worked Answers',
+    description: 'Download free original maths and English practice PDFs with separate worked answers, try online practice and find official 11 Plus familiarisation sources.',
     url: '/papers',
     locale: 'en_GB',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: '11+ School-Themed Practice Papers | 11 Plus Exam Papers',
-    description:
-      'School-themed 11+ mock exams for 50+ grammar and independent schools. Free access.',
+    title: 'Free 11+ Practice Papers and Worked Answers',
+    description: 'Download free original maths and English practice PDFs with separate worked answers, try online practice and find official 11 Plus familiarisation sources.',
   },
 };
 

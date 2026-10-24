@@ -8,6 +8,7 @@ import {
   CheckCircle, ClipboardList,
   BarChart3, Shield, Mail, User2, Play,
 } from 'lucide-react';
+import { PracticeResources } from '@/components/PracticeResources';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SchoolMockStart } from '@/components/SchoolMockStart';
@@ -28,7 +29,7 @@ const SCHOOL_TYPES = [
   {
     id: 'grammar' as SchoolType,
     title: 'Grammar School',
-    subtitle: 'GL Assessment & CEM Style',
+    subtitle: 'Grammar-school preparation',
     icon: School,
     gradient: 'from-indigo-500 to-violet-600',
     selBg: 'bg-indigo-50',
@@ -37,7 +38,7 @@ const SCHOOL_TYPES = [
   {
     id: 'independent' as SchoolType,
     title: 'Independent School',
-    subtitle: 'Common Entrance & ISEB',
+    subtitle: 'Independent-school preparation',
     icon: Building2,
     gradient: 'from-emerald-500 to-teal-600',
     selBg: 'bg-emerald-50',
@@ -46,7 +47,7 @@ const SCHOOL_TYPES = [
   {
     id: 'state' as SchoolType,
     title: 'State School',
-    subtitle: 'KS2 SATs & Core Curriculum',
+    subtitle: 'Core skills practice',
     icon: BookOpen,
     gradient: 'from-amber-500 to-orange-600',
     selBg: 'bg-amber-50',
@@ -94,13 +95,13 @@ const DIFFICULTIES = [
 
 const STATS = [
   { icon: ClipboardList, value: 'Exam-style',  label: 'Structured papers' },
-  { icon: Shield,        value: 'GL & CEM',    label: 'Style coverage' },
+  { icon: Shield,        value: 'Original',     label: 'Practice questions' },
   { icon: Clock,         value: '25-90',        label: 'Timed sessions' },
   { icon: CheckCircle,   value: 'Free',        label: 'Access (for now)' },
 ];
 
 const FEATURES = [
-  { icon: ClipboardList, title: 'Exam-style structure',   desc: 'Clear sections, realistic pacing, and a paper-like flow using our current QuizArea engine.', bg: 'bg-violet-50',  color: 'text-violet-600' },
+  { icon: ClipboardList, title: 'Exam-style structure',   desc: 'Practise question handling in a structured browser session. Our practice is not an official exam replica.', bg: 'bg-violet-50',  color: 'text-violet-600' },
   { icon: Clock,         title: 'Timed conditions',       desc: 'Optional timers help children practise under proper exam conditions and build confidence.',   bg: 'bg-emerald-50', color: 'text-emerald-600' },
   { icon: BarChart3,     title: 'Instant results',        desc: 'See scores and topic-level feedback to guide what to practise next.',                         bg: 'bg-blue-50',    color: 'text-blue-600'    },
   { icon: Target,        title: 'Syllabus coverage',      desc: 'Maths, English, Verbal Reasoning and Non-Verbal Reasoning in familiar 11+ formats.',         bg: 'bg-amber-50',   color: 'text-amber-600'   },
@@ -181,12 +182,14 @@ function MockExamsPageInner() {
                 <ClipboardList size={12} /> Interactive Mock Exams
               </div>
               <h1 className="text-3xl sm:text-4xl font-black text-slate-900 mb-2 tracking-tight leading-tight">
-                Sit a <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">realistic 11+ mock exam</span>
+                Try a <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">free 11+ practice session</span>
               </h1>
               <p className="text-sm text-slate-500 max-w-xl mx-auto">
-                Choose your exam style, enter your email and start practising.
+                Start a focused set below, or customise a session. Check official local guidance for the real test format.
               </p>
             </motion.div>
+
+            <PracticeResources mode="mocks" />
 
             {/* Mode tabs */}
             <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.08 }}
@@ -397,7 +400,7 @@ function MockExamsPageInner() {
                   )}
 
                   <div className="mt-5 rounded-2xl bg-slate-50 border border-slate-100 p-4 text-sm text-slate-600 leading-relaxed">
-                    This launches a timed, interactive exam in your browser. When time is up the test auto-submits and you get instant results sent to your email.
+                    This launches timed practice in your browser. Review your results and explanations on screen after submitting; a practice score is not an admissions prediction.
                   </div>
                 </div>
 
