@@ -1,5 +1,6 @@
 'use client';
 
+import { VisualPracticeLibrary } from '@/components/VisualPracticeLibrary';
 import { VerbalPracticeLibrary } from '@/components/VerbalPracticeLibrary';
 
 import { PracticeJourneys } from '@/components/PracticeJourneys';
@@ -566,6 +567,7 @@ function PapersPageInner() {
         <PracticeResources />
         <PracticeJourneys />
         <VerbalPracticeLibrary />
+        <VisualPracticeLibrary />
 
         {/* ── Search & Filter ── */}
         <section className="max-w-6xl mx-auto px-4 py-8">

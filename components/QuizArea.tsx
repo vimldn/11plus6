@@ -1,4 +1,6 @@
 'use client';
+import { VisualStem, VisualDiagram, VisualWorked, describeFigure } from './VisualDiagram';
+import { createVisualPractice } from '../data/visualPractice';
 import { PrintPaper } from './PrintPaper';
 import { isAnswerCorrect } from '../lib/answerMarking';
 
@@ -28,6 +30,7 @@ interface QuizAreaProps {
   suppliedNotice?: string;
   freshMaths?: boolean;
   reviewedVerbal?: boolean;
+  reviewedVisual?: boolean;
   mathsPilot?: boolean;
   subject: Subject;
   schoolType: any;
@@ -49,6 +52,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
   mathsPilot = false,
   freshMaths = false,
   reviewedVerbal = false,
+  reviewedVisual = false,
   schoolType,
   mode,
   quizType,
@@ -85,7 +89,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
       let qs: Question[] = [];
       try {
-        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : reviewedVerbal ? {questions:createVerbalPractice(topic),notice:topic && !['codes','analogies','classifications','sequences'].includes(topic) ? 'This verbal reasoning topic is unavailable. Choose a supported skill from the hub.' : 'Original checked verbal reasoning starter practice. Four options per question; not an official paper or a complete syllabus.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : reviewedVisual ? {questions:createVisualPractice(topic),notice:'Original checked visual starter practice: rotations and reflections only. 24 variations across six marked motifs; questions can recur. Not an official paper or a complete NVR syllabus.'} : reviewedVerbal ? {questions:createVerbalPractice(topic),notice:topic && !['codes','analogies','classifications','sequences'].includes(topic) ? 'This verbal reasoning topic is unavailable. Choose a supported skill from the hub.' : 'Original checked verbal reasoning starter practice. Four options per question; not an official paper or a complete syllabus.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
         qs = batch.questions;
         if (mounted) setNotice(batch.notice);
       } catch {
@@ -104,7 +108,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     return () => {
       mounted = false;
     };
-  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths, reviewedVerbal, suppliedQuestions, suppliedNotice]);
+  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths, reviewedVerbal, reviewedVisual, suppliedQuestions, suppliedNotice]);
 
   useEffect(() => {
     if (state.loading || state.completed) return;
@@ -346,11 +350,12 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
               {currentQ.text}
             </motion.h3>
 
+            <VisualStem question={currentQ} />
             {/* RENDER BASED ON QUIZ TYPE */}
 
             {/* 1. Multiple Choice & True/False */}
             {(quizType === 'multiple-choice' || quizType === 'true-false') && (
-              <div className={`grid gap-3 ${quizType === 'true-false' ? 'grid-cols-2' : 'grid-cols-1'}`}>
+              <div className={`grid gap-3 ${currentQ.visual || quizType === 'true-false' ? 'grid-cols-2' : 'grid-cols-1'}`}>
                 {currentQ.options.map((opt, idx) => {
                   const isSelected = state.selectedAnswer === opt;
                   const isCorrectAnswer = opt === currentQ.correctAnswer;
@@ -394,10 +399,13 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                       transition={{ delay: 0.2 + idx * 0.1, type: 'spring', stiffness: 300, damping: 24 }}
                       whileHover={!state.selectedAnswer ? { scale: 1.02 } : {}}
                       whileTap={!state.selectedAnswer ? { scale: 0.98 } : {}}
+                      aria-label={currentQ.visual ? `Option ${opt}` : undefined}
+                      aria-describedby={currentQ.visual ? `${currentQ.id}-${opt}-description` : undefined}
+                      aria-pressed={state.selectedAnswer === opt}
                       onClick={() => handleStandardAnswer(opt)}
                       disabled={!!state.selectedAnswer}
                       className={`w-full text-left p-4 rounded-xl transition-colors duration-200 flex items-center gap-4 group ${containerClass} ${
-                        quizType === 'true-false' ? 'justify-center flex-col py-8' : ''
+                        currentQ.visual ? 'flex-col !gap-2 !p-3 min-w-0' : quizType === 'true-false' ? 'justify-center flex-col py-8' : ''
                       }`}
                     >
                       {quizType !== 'true-false' && (
@@ -408,11 +416,11 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                         </div>
                       )}
                       <span
-                        className={`font-semibold text-slate-700 flex-1 ${
+                        className={`font-semibold text-slate-700 flex-1 min-w-0 w-full ${
                           quizType === 'true-false' ? 'text-xl sm:text-2xl text-center' : 'text-base sm:text-lg'
                         }`}
                       >
-                        {opt}
+                        {currentQ.visual ? <><VisualDiagram figure={currentQ.visual.options[opt]} guide={currentQ.visual.guide} label={`Option ${opt}`} /><span className="sr-only" id={`${currentQ.id}-${opt}-description`}>{describeFigure(currentQ.visual.options[opt])}</span></> : opt}
                       </span>
 
                       {icon && (
@@ -550,7 +558,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                   <p className="font-bold mb-2 uppercase tracking-wide text-xs">
                     {state.isCorrect ? 'Correct answer' : 'Not quite'}
                   </p>
-                  <p className="leading-relaxed font-medium mb-2">{currentQ.explanation}</p>
+                  <p className="leading-relaxed font-medium mb-2">{currentQ.explanation}</p><VisualWorked question={currentQ} />
 
                   {!state.isCorrect && quizType === 'fill-in-the-blank' && (
                     <p className="font-bold">Correct answer: {currentQ.correctAnswer}</p>

@@ -1,5 +1,6 @@
 'use client';
 
+import { VisualStem, VisualAnswer, VisualWorked } from './VisualDiagram';
 import { isAnswerCorrect } from '../lib/answerMarking';
 import React, { useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, CheckCircle, XCircle, CircleMinus } from 'lucide-react';
@@ -39,9 +40,10 @@ export const ReviewScreen: React.FC<ReviewScreenProps> = ({ result, onBack }) =>
           <div className="review-question-meta"><span>Question {active.index + 1} of {questions.length}</span><span className={active.correct ? 'text-emerald-800' : 'text-slate-700'}>{active.correct ? <CheckCircle size={17}/> : active.answered ? <XCircle size={17}/> : <CircleMinus size={17}/>} {active.correct ? 'Correct' : active.answered ? 'Incorrect' : 'Unanswered'}</span></div>
           <h2 id="review-question-title" ref={heading} tabIndex={-1}>{active.question.text}</h2>
           {active.question.topic && <p className="review-topic">{active.question.topic}</p>}
-          <div className="review-answer-pair"><section><h3>Your answer</h3><p>{result.userAnswers[active.question.id]?.trim() || 'Not answered'}</p></section><section className="review-correct-answer"><h3>Correct answer</h3><p>{active.question.correctAnswer}</p></section></div>
-          <section className="review-explanation"><h3>How to solve it</h3><p>{active.question.explanation || 'A worked explanation is not available for this question.'}</p></section>
-          {active.question.options.length > 0 && <details className="review-options"><summary>See the original answer options</summary><ul>{active.question.options.map((option, index) => <li key={`${index}-${option}`}>{option}</li>)}</ul></details>}
+          <VisualStem question={active.question} />
+          <div className="review-answer-pair"><section><h3>Your answer</h3><div><VisualAnswer question={active.question} answer={result.userAnswers[active.question.id]?.trim()} /></div></section><section className="review-correct-answer"><h3>Correct answer</h3><div><VisualAnswer question={active.question} answer={active.question.correctAnswer} /></div></section></div>
+          <section className="review-explanation"><h3>How to solve it</h3><p>{active.question.explanation || 'A worked explanation is not available for this question.'}</p><VisualWorked question={active.question} /></section>
+          {active.question.options.length > 0 && <details className="review-options"><summary>See the original answer options</summary><ul className={active.question.visual ? "grid grid-cols-2 gap-4" : undefined}>{active.question.options.map((option, index) => <li key={`${index}-${option}`}><VisualAnswer question={active.question} answer={option} /></li>)}</ul></details>}
         </article>
         <nav className="review-pagination" aria-label="Move between questions"><Button variant="secondary" disabled={position <= 0} onClick={() => choose(visible[position - 1].index)}><ArrowLeft size={16}/> Previous</Button><span aria-live="polite">{position + 1} / {visible.length}</span><Button disabled={position === visible.length - 1} onClick={() => choose(visible[position + 1].index)}>Next <ArrowRight size={16}/></Button></nav>
       </> : <div className="review-question"><h2 ref={heading} tabIndex={-1}>Nothing to revisit here.</h2><p>{questions.length ? 'Every answer was correct. Choose All questions to read the explanations.' : 'This attempt has no questions to review.'}</p><Button onClick={onBack} className="mt-6">Back to results</Button></div>}

@@ -1,4 +1,5 @@
 'use client';
+import { VisualStem, VisualAnswer, VisualWorked } from './VisualDiagram';
 import React, {useState} from 'react';
 import {createPortal} from 'react-dom';
 import {Question} from '../types';
@@ -15,6 +16,6 @@ export function PrintPaper({questions, answersAllowed=false, provenance}:{questi
     <p className="my-3">Original practice, not an official school paper. {questions.length} questions.</p>
     {provenance && <p className="mb-5 text-sm">{provenance}</p>}
     {kind==='questions' && <p className="mb-5">Name: ____________________ Date: ______________</p>}
-    <ol className="list-decimal pl-6">{questions.map(q=><li className="paper-question my-6 pl-2" key={q.id}><p className="font-semibold">{q.text}</p>{kind==='answers'?<><p className="mt-2">Answer: {q.correctAnswer}</p><p className="mt-2">{q.explanation}</p></>:<><ul className="my-3">{q.options.map((option,i)=><li key={i}>{String.fromCharCode(65+i)}. {option}</li>)}</ul><p>Answer: ____________________</p><div style={{minHeight:60}} aria-label="Space for working" /></>}</li>)}</ol>
+    <ol className="list-decimal pl-6">{questions.map(q=><li className="paper-question my-6 pl-2" key={q.id}><p className="font-semibold">{q.text}</p><VisualStem question={q} />{kind==='answers'?<><div className="mt-2">Answer: <VisualAnswer question={q} answer={q.correctAnswer} /></div><p className="mt-2">{q.explanation}</p><VisualWorked question={q} /></>:<><ul className={q.visual ? "my-3 grid grid-cols-2 gap-3 sm:grid-cols-4 print:grid-cols-4" : "my-3"}>{q.options.map((option,i)=><li key={i}>{q.visual ? <VisualAnswer question={q} answer={option} /> : <>{String.fromCharCode(65+i)}. {option}</>}</li>)}</ul><p>Answer: ____________________</p><div style={{minHeight:60}} aria-label="Space for working" /></>}</li>)}</ol>
   </div>,document.body)}</>;
 }

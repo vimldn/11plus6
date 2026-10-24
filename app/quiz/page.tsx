@@ -1,5 +1,6 @@
 'use client';
 
+import { visualLabels, isVisualTopic } from '@/data/visualPractice';
 import { verbalLabels, isVerbalTopic } from '@/data/verbalPractice';
 
 /**
@@ -61,19 +62,21 @@ function QuizPageInner() {
   const mathsPilot = params.get('paper') === 'maths-pilot';
   const freshMaths = params.get('paper') === 'maths-generated';
   const fixedMaths = mathsPilot || freshMaths;
+  const reviewedVisual = params.get('paper') === 'visual-reviewed';
+  const visualTopic = isVisualTopic(params.get('topic') || '') ? params.get('topic') as keyof typeof visualLabels : undefined;
   const reviewedVerbal = params.get('paper') === 'verbal-reviewed';
   const verbalTopic = isVerbalTopic(params.get('topic') || '') ? params.get('topic') as keyof typeof verbalLabels : undefined;
-  const fixedOriginal = fixedMaths || reviewedVerbal;
+  const fixedOriginal = fixedMaths || reviewedVerbal || reviewedVisual;
   const selectedFreshTopic = freshMaths && freshTopics.includes(params.get('topic') as FreshTopic) ? params.get('topic') as FreshTopic : undefined;
   const selectedJourney = mathsJourneys.find(j => j.topic === selectedFreshTopic);
   useEffect(() => { setScreen('quiz'); setLastResult(null); setFollowUp(null); }, [params]);
   // Parse query params
-  const subject      = reviewedVerbal ? Subject.VerbalReasoning : fixedMaths ? Subject.Maths : mapSubject(params.get('subject'));
+  const subject      = reviewedVisual ? Subject.NonVerbalReasoning : reviewedVerbal ? Subject.VerbalReasoning : fixedMaths ? Subject.Maths : mapSubject(params.get('subject'));
   const schoolType   = mapSchoolType(params.get('schoolType'));
   const mode         = (params.get('mode') === 'practice' ? 'practice' : 'exam') as QuizMode;
   const quizType     = (fixedOriginal ? 'multiple-choice' : params.get('quizType') || 'multiple-choice') as QuizType;
-  const questionCount = reviewedVerbal ? params.get('topic') ? 10 : 12 : freshMaths ? selectedFreshTopic ? 10 : 16 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
-  const examDurationMins = reviewedVerbal ? 15 : freshMaths ? selectedFreshTopic ? 15 : 20 : mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
+  const questionCount = reviewedVisual ? 8 : reviewedVerbal ? params.get('topic') ? 10 : 12 : freshMaths ? selectedFreshTopic ? 10 : 16 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
+  const examDurationMins = reviewedVisual ? 12 : reviewedVerbal ? 15 : freshMaths ? selectedFreshTopic ? 15 : 20 : mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
   const schoolId     = fixedOriginal ? undefined : params.get('schoolId') || undefined;
   const topic        = params.get('topic')    || undefined;
   const difficulty   = (params.get('difficulty') || 'standard') as 'standard' | 'challenging' | 'exam-ready';
@@ -116,6 +119,7 @@ function QuizPageInner() {
 
       {/* Main content */}
       <main id="main-content" className="flex-1 max-w-5xl mx-auto w-full px-4 py-6">
+        {reviewedVisual && <section className="mb-6 rounded-xl border border-emerald-200 bg-stone-50 p-5"><h1 className="text-2xl font-bold">{visualTopic ? `${visualLabels[visualTopic]}: focused practice` : 'Visual reasoning: rotations and reflections'}</h1><p className="mt-3 leading-7">{followUp ? 'Follow-up practice on checked visual questions.' : visualTopic ? '8 questions on one skill.' : '8 questions: four rotations and four reflections.'} Original four-option practice for tests taken in 2027. {mode==='practice' || followUp ? 'Untimed, with worked visual feedback.' : '12 minutes is our practice setting, not an official test timing.'}</p><div className="mt-4 flex flex-wrap gap-4 font-semibold text-emerald-900"><Link className="underline" href="/subjects/non-verbal-reasoning#visual-practice">Methods and worked examples →</Link><Link className="underline" href="/papers#visual-practice">Other practice and print resources →</Link></div></section>}
         {reviewedVerbal && !followUp && <section className="mb-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5"><h1 className="text-2xl font-bold">{verbalTopic ? `${verbalLabels[verbalTopic]}: focused practice` : 'Verbal reasoning: mixed starter practice'}</h1><p className="mt-3 leading-7">{verbalTopic ? '10 questions on one skill.' : '12 questions: three each on letter codes, analogies, classifications and constant-step sequences.'} Original four-option practice for tests taken in 2027, not an official school paper or full syllabus.</p><p className="mt-3">{mode==='practice' ? 'Untimed, with explanations after each answer.' : '15 minutes is our practice setting.'} Review mistakes afterwards. Questions can recur across attempts.</p><Link href="/subjects/verbal-reasoning#verbal-practice" className="mt-4 inline-block font-semibold text-emerald-900 underline">Methods, worked starters and other verbal skills →</Link></section>}
         {freshMaths && !followUp && <section className="mb-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5"><h1 className="text-2xl font-bold">{selectedFreshTopic ? `${freshTopicLabels[selectedFreshTopic]}: focused practice` : 'Fresh maths practice'}</h1><p className="mt-3 leading-7">{selectedFreshTopic ? `10 original questions on ${freshTopicLabels[selectedFreshTopic].toLowerCase()}. Read each explanation, review any mistakes and retry a new number variation.` : '16 questions: two each on order of operations, fractions, percentages, equations, multi-step sharing, money, rectangle area and mean averages.'} Questions may recur across attempts.</p><p className="mt-3">For tests taken in 2027. This is selected skill practice, not a full or official school paper. {mode === 'practice' ? 'Untimed, with feedback after each answer.' : `${selectedFreshTopic ? 15 : 20} minutes is our practice setting.`}</p><div className="mt-4 flex flex-wrap gap-4 font-semibold text-emerald-900">{selectedJourney?.guide && <Link className="underline" href={selectedJourney.guide}>Learn the method →</Link>}<Link className="underline" href="/papers#topic-practice">Choose another skill →</Link><Link className="underline" href="/subjects/maths">Maths learning hub →</Link></div></section>}
         {mathsPilot && !followUp && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Maths practice pilot</h1><p>30 questions drawn from 120 checked questions. Original practice for families preparing for exams taken in 2027; not an official school paper. The 45-minute limit is our practice setting.</p><p className="mt-2">8 number · 8 fractions, decimals and percentages · 3 ratio · 3 algebra · 3 geometry · 3 measures and money · 2 data.</p></div>}
@@ -127,6 +131,7 @@ function QuizPageInner() {
             mathsPilot={mathsPilot}
             freshMaths={freshMaths}
             reviewedVerbal={reviewedVerbal}
+            reviewedVisual={reviewedVisual}
             subject={followUp?.result.subject || subject}
             schoolType={schoolType}
             mode={followUp ? 'practice' : mode}
