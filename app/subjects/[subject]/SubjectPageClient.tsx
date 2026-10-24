@@ -210,11 +210,18 @@ export default function SubjectPageClient({
 
   const content =
     SUBJECT_CONTENT[subject.slug] || SUBJECT_CONTENT['maths'];
-  return <div className="min-h-screen bg-slate-50"><SiteNav ctaLabel="Start practice" ctaHref="/mock-exams"/>
+  const verbalRoutes: Record<string,string> = {
+    'Letter Codes': 'codes', 'Word Analogies': 'analogies',
+    'Word Classifications': 'classifications', 'Letter and Number Sequences': 'sequences',
+  };
+  const isVerbal = subject.slug === 'verbal-reasoning';
+  const practiceHref = isVerbal ? '/quiz?paper=verbal-reviewed&mode=practice' : `/quiz?subject=${subject.slug}&mode=practice&count=10`;
+  const visibleTopics = isVerbal ? Object.keys(verbalRoutes) : content.topics;
+  return <div className="min-h-screen bg-slate-50"><SiteNav ctaLabel="Start practice" ctaHref={isVerbal ? practiceHref : '/mock-exams'}/>
  <main id="main-content"><div className="max-w-6xl mx-auto px-6 py-5"><Breadcrumbs items={[{label:'Home',href:'/'},{label:'Subjects',href:'/subjects'},{label:subject.label}]}/></div>
- <section className="editorial-masthead"><div className="editorial-masthead-inner"><div><p className="brand-eyebrow">11+ {subject.label} practice</p><h1>11+ {subject.label} practice.<br/>One step at a time.</h1><p>{subject.desc}</p><Link className="brand-button" href={`/quiz?subject=${subject.slug}&mode=practice&count=10`}>Practise {subject.label} <ArrowRight size={18}/></Link></div><Image src="/brand/book-journey.webp" width={768} height={512} sizes="(max-width: 800px) 90vw, 35vw" alt="An illustrated journey up a staircase of books"/></div></section>
+ <section className="editorial-masthead"><div className="editorial-masthead-inner"><div><p className="brand-eyebrow">11+ {subject.label} practice</p><h1>11+ {subject.label} practice.<br/>One step at a time.</h1><p>{subject.desc}</p><Link className="brand-button" href={practiceHref}>Practise {subject.label} <ArrowRight size={18}/></Link></div><Image src="/brand/book-journey.webp" width={768} height={512} sizes="(max-width: 800px) 90vw, 35vw" alt="An illustrated journey up a staircase of books"/></div></section>
  {children}
- <section className="editorial-topics"><p className="brand-eyebrow">Choose a starting point</p><h2>{subject.label} topics covered</h2><div className="editorial-topic-links">{content.topics.map(topic=><Link key={topic} href="/mock-exams">{topic}<ArrowRight size={17}/></Link>)}</div></section>
+ <section className="editorial-topics"><p className="brand-eyebrow">Choose a starting point</p><h2>{subject.label} topics covered</h2><div className="editorial-topic-links">{visibleTopics.map(topic=><Link key={topic} href={isVerbal ? `/quiz?paper=verbal-reviewed&topic=${verbalRoutes[topic]}&mode=practice` : "/mock-exams"}>{topic}<ArrowRight size={17}/></Link>)}</div></section>
  <section className="chapter-faq"><div><p className="brand-eyebrow">A few useful answers</p><h2>About {subject.label} practice.</h2></div><div>{content.faqs.map(faq=><details key={faq.q}><summary>{faq.q}</summary><p>{faq.a}</p></details>)}</div></section>
  </main><SiteFooter/></div>;
 }

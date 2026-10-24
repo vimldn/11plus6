@@ -34,3 +34,6 @@ Existing maths-pilot, practice-workflow, topic-journeys, paper-quality, publicat
 
 ## Final release outcome
 Candidate only until passing Vercel preview, authorised merge and production/public checks. The final PR body for this unique branch records exact head/merge SHA, checks and live interaction outcomes. Read that outcome before counting deployment. No competitor parity, measured ranking/traffic effect, full legacy question audit, NVR release or cross-device account capability claimed.
+
+## Public navigation follow-up
+Browser verification after PR28 identified the legacy hero CTA still linking to the general bank and the existing metadata appending the brand twice. Follow-up branch fix/verbal-primary-navigation-2026-10-24 points the VR hero/nav CTA to the reviewed mixed set, limits the visible starter shortcuts to the four supported reviewed routes and links each directly. Removes duplicated brand from the VR metadata title only. Other subjects unchanged. This is a routing/metadata correction within the recorded research brief, not a new article or claim of full legacy coverage. Final follow-up PR body records deployment and live evidence.
