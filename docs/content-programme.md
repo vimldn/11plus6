@@ -66,3 +66,7 @@ Three existing drafts selected for publication: comprehension-retrieval, compreh
 ## Manual educational release — 21 October 2026
 
 Five new skill blogs, three Maths and two English, with eight original answer disclosures each. All three prior English lessons are already published in current main and live sitemap; the older held-outcome record must not be used to recreate them. Research precedes writing in serp-review-new-blogs-2026-10-21.md; release ledger: releases/new-blogs-2026-10-21.md. Every article has a reciprocal subject-hub link. No legacy blog repair or news publication is counted in this manual educational batch.
+
+## Daily release — 24 October 2026
+
+Owner requested execution after finding the daily task disabled. Resumed its existing 06:00 Europe/London schedule and verified enabled; this is configuration evidence, not proof of future publication. Today's five new educational guides and two news candidates are tracked in releases/daily-2026-10-24.md with pre-writing briefs in serp-review-daily-2026-10-24.md. Read the linked branch PR outcome to establish deployment before selecting equivalent topics. No catch-up batches or legacy-audit completions claimed.

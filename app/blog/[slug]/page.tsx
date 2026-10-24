@@ -287,7 +287,7 @@ export default function BlogPostPage({ params }: Props) {
   const englishPracticeSlugs = ['what-is-the-11-plus-exam', 'what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal'];
   const practiceSubject = englishPracticeSlugs.includes(post.slug) ? 'english' : 'maths';
   const topicPractice = englishPracticeSlugs.includes(post.slug) ? publishedLessons('english') : practiceSlugs.includes(post.slug) ? publishedLessons('maths') : [];
-  const externalLinks = getExternalLinks(post.category);
+  const externalLinks = post.kind === 'news' || post.subject ? [] : getExternalLinks(post.category);
   // Use _1 as hero image (index 0), rest for inline
   // imageUrl (_4) is the confirmed working image — use it as hero
   // images[] contains _1–_4 variants; use _2–_4 inline (skip _1 as unconfirmed)
@@ -336,7 +336,7 @@ export default function BlogPostPage({ params }: Props) {
             {post.desc}
           </p>
 
-          {post.kind === 'news' && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="News parent hub"><Link href="/exam-dates" className="font-semibold text-indigo-700 underline">Back to exam dates and admissions</Link><p className="mt-3 text-sm text-slate-600">News published {post.date}. Development announced 16 October 2026.</p></nav>}
+          {post.kind === 'news' && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="News parent hub"><Link href="/exam-dates" className="font-semibold text-indigo-700 underline">Back to exam dates and admissions</Link><p className="mt-3 text-sm text-slate-600">News published {post.date}. {post.eventNote ?? (post.slug === 'kent-test-2027-quest-assessments' ? 'Development announced 16 October 2026.' : 'Sources and development dates are stated below.')}</p></nav>}
           {post.subject && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="Learning hub"><Link className="font-semibold text-indigo-700 underline" href={`/subjects/${post.subject}`}>Back to the {post.subject === 'maths' ? 'Maths' : 'English'} learning hub</Link><p className="mt-3 text-sm text-slate-600">Original skill practice for exams taken in 2027. Published {post.date}.</p></nav>}
           {/* Content blocks with interleaved banners + images */}
           <div>{(post.subject || post.kind === 'news') ? <div className="space-y-5">{post.content.map((block,index)=><Block key={index} block={block}/>)}</div> : <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />}</div>

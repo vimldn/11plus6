@@ -530,12 +530,21 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="october-admissions-news">
+          <p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Checked 24 October 2026</p>
+          <h2 id="october-admissions-news" className="mt-3 text-3xl">Current admissions updates</h2>
+          <ul className="mt-6 grid gap-6 sm:grid-cols-2">
+            <li className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><Link className="text-xl font-bold underline underline-offset-4" href="/blog/altrincham-girls-2028-admissions-consultation">Altrincham Girls consults on 2028 admissions priority</Link><p className="mt-4 leading-relaxed">An active proposal, not a settled rule. Consultation closes 14 December 2026; relevant to September 2028 entry.</p></li>
+            <li className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><Link className="text-xl font-bold underline underline-offset-4" href="/blog/secondary-school-deadline-31-october-2026">Secondary applications: one week until 31 October</Link><p className="mt-4 leading-relaxed">A dated reminder for September 2027 entry. This is not a registration deadline for exams taken in 2027.</p></li>
+          </ul>
+        </section>
+
         {/* ── Disclaimer ── */}
         <div className="max-w-6xl mx-auto px-4 pt-8 pb-2">
           <div className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-2xl">
             <AlertCircle size={18} className="text-amber-600 shrink-0 mt-0.5" />
             <p className="text-sm text-amber-800 leading-relaxed">
-              <strong>Always verify dates with the school directly.</strong> Registration deadlines are strict — late applications are not accepted. Check the official admissions page before acting on any date listed here.
+              <strong>Always verify dates with the school directly.</strong> Check the official admissions page before acting on any date listed here. Test registration and council applications can have different deadlines and late-application rules.
             </p>
           </div>
         </div>
@@ -547,7 +556,7 @@ export default function ExamDatesClient() {
             <span className="px-3 py-1 bg-indigo-600 text-white text-xs font-black rounded-full uppercase tracking-wide">Current cycle</span>
           </div>
           <p className="text-slate-500 text-sm mb-6">
-            For children currently in Year 4. Click any card to expand full dates.
+            Calendar entries below concern September 2027 school entry, not necessarily tests taken in 2027. Click a card to inspect its dates and source.
           </p>
 
           {/* Filters */}
