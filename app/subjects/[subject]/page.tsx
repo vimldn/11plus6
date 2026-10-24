@@ -1,3 +1,4 @@
+import { VisualPracticeLibrary } from '@/components/VisualPracticeLibrary';
 import { VerbalPracticeLibrary } from '@/components/VerbalPracticeLibrary';
 import { PracticeJourneys } from '@/components/PracticeJourneys';
 import { Metadata } from 'next';
@@ -23,13 +24,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = subject.slug === 'english'
     ? 'Practise 11+ retrieval, inference and evidence with original passages, worked examples and explained answers for families preparing for exams taken in 2027.'
     : subject.slug === 'verbal-reasoning' ? 'Practise original 11 Plus letter codes, analogies, classifications and sequences, with worked explanations and focused retries for tests taken in 2027.'
+    : subject.slug === 'non-verbal-reasoning' ? 'Practise original 11 Plus rotations and reflections with clear diagrams, worked visual answers, mistake retries and printable questions for tests taken in 2027.'
     : `Practise 11+ ${subject.label} with free online questions, topic guides and mock-style quizzes. Trusted by UK families preparing for grammar and independent school entrance exams.`;
   return {
-    title: subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+    title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning: Rotations and Reflections' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
     description,
     alternates: { canonical: `/subjects/${subject.slug}` },
     openGraph: {
-      title: subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+      title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning: Rotations and Reflections' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
       description,
       url: `/subjects/${subject.slug}`,
       locale: 'en_GB',
@@ -37,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary',
-      title: subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+      title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning: Rotations and Reflections' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
       description,
     },
   };
@@ -53,6 +55,7 @@ export default function SubjectPage({ params }: Props) {
     <>
       <SchemaOrg data={subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc })} />
       <SubjectPageClient subject={subject}>
+        {subject.slug === 'non-verbal-reasoning' && <VisualPracticeLibrary />}
         {subject.slug === 'verbal-reasoning' && <VerbalPracticeLibrary />}
         {(subject.slug === 'maths' || subject.slug === 'english') && <PracticeJourneys subject={subject.slug} />}
         {(subject.slug === 'maths' || subject.slug === 'english') && <section className="mx-auto max-w-6xl px-6 pt-10" aria-label="Printable practice"><h2 className="text-2xl font-bold">Print, practise, then review the method</h2><p className="mt-3 leading-7 text-slate-600">Use our original {subject.slug === 'maths' ? '20-question maths foundations' : '16-question English punctuation'} set with space to work and a separate explained answer booklet. These selected skills are not a full school-specific mock.</p><Link href="/papers" className="mt-4 inline-block font-semibold text-emerald-800 underline">Get free printable questions and worked answers →</Link></section>}

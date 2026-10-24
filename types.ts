@@ -37,7 +37,17 @@ export interface OrderingRubric {
 }
 export type AnswerRubric = NumericRubric | OrderingRubric;
 
+export type VisualPoint = [number, number];
+export type VisualTransform = 'identity' | 'cw90' | 'ccw90' | 'half' | 'vertical' | 'horizontal';
+export interface VisualFigure { points: VisualPoint[]; dot: VisualPoint; }
+export interface VisualQuestion {
+  start: VisualFigure; options: Record<string, VisualFigure>;
+  guide: 'centre' | 'vertical' | 'horizontal';
+  operation: Exclude<VisualTransform, 'identity'>; motif: number;
+}
+
 export interface Question {
+  visual?: VisualQuestion;
   marking?: AnswerRubric;
   id: string;
   text: string;

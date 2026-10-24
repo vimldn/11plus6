@@ -1,0 +1,29 @@
+# Visual non-verbal reasoning: pre-writing brief
+
+24 October 2026. Refreshed main68ac51cdda3bf3caa769f678c46ba860176c6eb2; no open PRs. Read programme, audit repair, paper audit, article queue and verbal release. Separate one-time product release; no new blogs or daily quota. Existing /subjects/non-verbal-reasoning owns intent; /papers is its reciprocal practice directory. Live sitemap inventory: ../releases/url-inventory-visual-2026-10-24.txt. Quiz sessions remain noindex and absent from sitemap.
+
+## Live UK searches before writing
+Queries: “11 plus non verbal reasoning rotations reflections questions explanation”, “11 plus reflection rotation GL assessment familiarisation”, “11 plus non verbal reasoning reflections practice mirror line”, “site.ncetm.org.uk rotation reflection centre clockwise mirror line”. Results were inspected on24 October; no fixed rank, traffic or exact competitor word count asserted.
+
+### Rotations
+Intent: learn how to turn a marked figure and select a matching diagram, then practise/print with explained answers. Read Academy11's combined guide and rotation worksheet and 11plusforparents rotation page. The combined guide is a medium-length illustrated lesson with methods, several starters and traps; the worksheet is task-first,12 items, five options and printable/online marking paths. 11plusforparents is a short instruction-led worksheet doorway. Relevant entities: centre, clockwise/anticlockwise, quarter90°, half180°, three-quarter270°, unchanged size, feature tracking, orientation versus mirror reversal. Useful original contribution: modest four-option SVG pool, explicit centre and exact turn, asymmetric outline plus tracked dot, independently checked distractors and visual worked review across screen/print. No claim our four-option format replicates any local test. Depth follows methods/examples/actions, not a padded word target.
+
+### Reflections
+Intent: identify the image across a shown mirror line; distinguish a flip from a turn. Read Twinkl's reflection resource description and Academy11's combined guide. Twinkl's short product/resource description points to figure/mirror-line/five-choice practice; the accessible Academy11 guide explains both mirror orientations and common confusion with180° turns. Entities: horizontal/vertical mirror line, perpendicular equal distances, points on line fixed, preserved size, left/right or top/bottom reversal. Original value: show line through the same centre in stem/options, use non-symmetric marked figures, offer before/after worked diagrams and exact-mistake retry. Small known pool and repetition limits disclosed. Diagonal mirrors, matrices, nets and compound rules are outside this release.
+
+## Sources read / trust requirements
+- https://www.academy11.co.uk/study-guides/non-verbal-reasoning/rotation-reflection — competitor format/intent only, no copied examples/diagrams.
+- https://www.academy11.co.uk/worksheets/non-verbal-reasoning-rotations — worksheet/answer/print depth observations, no copied items.
+- https://www.11plusforparents.co.uk/NVR/nvr3b.html — short rotation-vs-mirror worksheet instructions; its five-option format is not universal.
+- https://www.twinkl.co.uk/resource/non-verbal-reasoning-reflections-t-pz-1626871787 — accessible resource description, not paywalled worksheet answers.
+- https://www.cimt.org.uk/ske/J1/Text.pdf — primary Plymouth University teaching text: reflection distances measured perpendicular to mirror, equal on both sides; rotation around a fixed centre.
+- https://www.ncetm.org.uk/media/nmbmpo4a/secmm-cc-audit-6-3-transforming-shapes.pdf — primary teacher-development source: quarter/half/three-quarter turns, direction/angle/centre, invariant size. Source is KS3 professional knowledge, not evidence of a universal11+ syllabus.
+- https://11plus.gl-assessment.co.uk/pages/free-materials — official provider context: local timings/counts differ. Link out, reproduce no proprietary figures, papers or answers.
+
+## Implementation / link map
+Parent canonical https://www.11plusexampapers.com/subjects/non-verbal-reasoning; sibling directory https://www.11plusexampapers.com/papers. Nearest existing coverage is the existing subject hub and generic quiz bank; improve that hub rather than add thin topic URLs. Hub and directory gain method cards, original closed worked examples, focused rotations/reflections and mixed practice routes. Quiz returns to hub and papers. Main subject hero/nav use checked mixed route. No new indexable canonical needed. Existing maths/English/VR and blog audit queue untouched.
+
+Plan24 original question variations:12 rotation (four original motifs ×90° clockwise/90° anticlockwise/180°) and12 reflection (six original motifs ×vertical/horizontal). This is24 authored/generated figure-and-rule combinations, not24 independent concepts. Four distinct options and exactly one valid transformation per item; verify using independent matrix/trigonometric geometry including dot positions. Store manifest with each figure, operation, options and key. Explain after answering only; diagrams/options must not name the hidden transformation. Accessible geometric descriptions, native controls, responsive and monochrome SVG. Readable print questions plus separate answers, no proprietary asset or AI bitmap. No educator endorsement or full legacy-bank audit.
+
+## Required release evidence
+Production build; all24 independent geometry/key/distractor checks; focused/mixed uniqueness and balance; invalid-topic refusal, retries and fresh exclusions with honest exhaustion; history roundtrip; affected maths/VR/English/publication regressions; generated sitemap/link/metadata gate; hash-verified GitHub upload, passing preview/merge/production; public hub/quiz/review/print and available mobile checks. Final outcome with exact SHAs/URLs in release ledger and linked PR.
