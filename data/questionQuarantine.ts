@@ -5,6 +5,15 @@ export const quarantinedFamilies = new Set([
   'eng-087', // Rhetorical intent requires context.
   'eng-096', // Several plausible causes of barely eating; no deciding context.
   'eng-133', // More than one standard-English option.
+  'vr-055', // RAT is not contiguous in petrified.
+  'vr-056', // Key PEA is not the requested fruit; supplied explanation changes the text.
+  'vr-057', // Key BRA does not mean male deer; explanation contradicts the key.
+  'vr-059', // GLAM does not mean to look quickly.
+  'vr-060', // Both often and heighten contain TEN; not uniquely keyed.
+  'vr-061', // HOE is absent from the supplied sentence.
+  'vr-063', // ARCH is not a month; explanation contradicts key and requested length.
+  'vr-076', // FOOTCASE and ARMCASE do not establish the claimed compounds.
+  'vr-078', // CORNSIDE does not establish the claimed compound.
   'vr-077', // CLOTH does not complete SUN/FOOT/TABLE as claimed.
   'vr-105', // Monday day 1 makes day 18 Thursday, not Friday.
   'vr-121', // Ring does not complete both supplied sentences.
