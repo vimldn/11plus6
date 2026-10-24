@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : subject.slug === 'verbal-reasoning' ? 'Practise original 11 Plus letter codes, analogies, classifications and sequences, with worked explanations and focused retries for tests taken in 2027.'
     : `Practise 11+ ${subject.label} with free online questions, topic guides and mock-style quizzes. Trusted by UK families preparing for grammar and independent school entrance exams.`;
   return {
-    title: `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+    title: subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
     description,
     alternates: { canonical: `/subjects/${subject.slug}` },
     openGraph: {
-      title: `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+      title: subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
       description,
       url: `/subjects/${subject.slug}`,
       locale: 'en_GB',
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary',
-      title: `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+      title: subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
       description,
     },
   };
