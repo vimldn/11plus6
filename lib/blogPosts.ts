@@ -1,3 +1,5 @@
+import { DAILY_POSTS_20261024 } from './dailyPosts20261024';
+import { DAILY_NEWS_20261024 } from './dailyNews20261024';
 import { OCTOBER_NEWS_POSTS } from './newsPosts20261022';
 import { OCTOBER_SKILL_POSTS } from './newBlogPosts20261021';
 
@@ -17,6 +19,7 @@ export type BlockType =
 
 export interface BlogPost {
   kind?: 'news';
+  eventNote?: string;
   subject?: 'maths' | 'english';
   slug: string;
   title: string;
@@ -32,6 +35,8 @@ export interface BlogPost {
 }
 
 export const BLOG_POSTS: BlogPost[] = [
+  ...DAILY_NEWS_20261024,
+  ...DAILY_POSTS_20261024,
   ...OCTOBER_NEWS_POSTS,
   ...OCTOBER_SKILL_POSTS,
   {
