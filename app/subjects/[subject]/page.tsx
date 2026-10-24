@@ -1,3 +1,4 @@
+import { PracticeJourneys } from '@/components/PracticeJourneys';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import SubjectPageClient from './SubjectPageClient';
@@ -50,6 +51,7 @@ export default function SubjectPage({ params }: Props) {
     <>
       <SchemaOrg data={subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc })} />
       <SubjectPageClient subject={subject}>
+        {(subject.slug === 'maths' || subject.slug === 'english') && <PracticeJourneys subject={subject.slug} />}
         {(subject.slug === 'maths' || subject.slug === 'english') && <section className="mx-auto max-w-6xl px-6 pt-10" aria-label="Printable practice"><h2 className="text-2xl font-bold">Print, practise, then review the method</h2><p className="mt-3 leading-7 text-slate-600">Use our original {subject.slug === 'maths' ? '20-question maths foundations' : '16-question English punctuation'} set with space to work and a separate explained answer booklet. These selected skills are not a full school-specific mock.</p><Link href="/papers" className="mt-4 inline-block font-semibold text-emerald-800 underline">Get free printable questions and worked answers →</Link></section>}
 
         {subject.slug === 'maths' && <section className="mx-auto max-w-6xl px-6 pt-8"><h2 className="text-2xl font-bold">Try the maths practice pilot</h2><p className="mt-3">A balanced 30-question paper drawn from 120 checked questions, with answers and explanations after completion. Original practice for exams taken in 2027, not an official school paper.</p><Link className="mt-3 inline-block font-semibold text-indigo-700 underline" href="/quiz?paper=maths-pilot">Start the 30-question maths pilot</Link></section>}

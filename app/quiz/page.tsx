@@ -18,6 +18,8 @@ import { SiteFooter } from '@/components/SiteFooter';
 import { AttemptHistory } from '@/components/AttemptHistory';
 import { PrintPaper } from '@/components/PrintPaper';
 import { mistakesFrom, freshFollowUp, supportedMissedTopics } from '@/lib/mistakePractice';
+import { freshTopics, freshTopicLabels, FreshTopic } from '@/data/freshMaths';
+import { mathsJourneys } from '@/lib/practiceJourneys';
 import { Question } from '@/types';
 import { QuizArea } from '@/components/QuizArea';
 import { ResultsScreen } from '@/components/ResultsScreen';
@@ -57,13 +59,16 @@ function QuizPageInner() {
   const mathsPilot = params.get('paper') === 'maths-pilot';
   const freshMaths = params.get('paper') === 'maths-generated';
   const fixedMaths = mathsPilot || freshMaths;
+  const selectedFreshTopic = freshMaths && freshTopics.includes(params.get('topic') as FreshTopic) ? params.get('topic') as FreshTopic : undefined;
+  const selectedJourney = mathsJourneys.find(j => j.topic === selectedFreshTopic);
+  useEffect(() => { setScreen('quiz'); setLastResult(null); setFollowUp(null); }, [params]);
   // Parse query params
   const subject      = fixedMaths ? Subject.Maths : mapSubject(params.get('subject'));
   const schoolType   = mapSchoolType(params.get('schoolType'));
   const mode         = (params.get('mode') === 'practice' ? 'practice' : 'exam') as QuizMode;
   const quizType     = (fixedMaths ? 'multiple-choice' : params.get('quizType') || 'multiple-choice') as QuizType;
-  const questionCount = freshMaths ? 16 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
-  const examDurationMins = freshMaths ? 20 : mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
+  const questionCount = freshMaths ? selectedFreshTopic ? 10 : 16 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
+  const examDurationMins = freshMaths ? selectedFreshTopic ? 15 : 20 : mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
   const schoolId     = fixedMaths ? undefined : params.get('schoolId') || undefined;
   const topic        = params.get('topic')    || undefined;
   const difficulty   = (params.get('difficulty') || 'standard') as 'standard' | 'challenging' | 'exam-ready';
@@ -106,11 +111,11 @@ function QuizPageInner() {
 
       {/* Main content */}
       <main id="main-content" className="flex-1 max-w-5xl mx-auto w-full px-4 py-6">
-        {freshMaths && !followUp && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Fresh maths practice</h1><p>16 questions: two each on order of operations, fractions, percentages, equations, multi-step sharing, money, rectangle area and mean averages. Each new attempt samples original number variations with calculated answers and worked explanations. Questions may recur across attempts.</p><p className="mt-2">Supports preparation for exams taken in 2027. This is focused skills practice, not a complete or official school paper. In timed mode, 20 minutes is our practice setting.</p><Link className="underline" href="/subjects/maths">Maths lessons and the broader practice pilot</Link></div>}
+        {freshMaths && !followUp && <section className="mb-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5"><h1 className="text-2xl font-bold">{selectedFreshTopic ? `${freshTopicLabels[selectedFreshTopic]}: focused practice` : 'Fresh maths practice'}</h1><p className="mt-3 leading-7">{selectedFreshTopic ? `10 original questions on ${freshTopicLabels[selectedFreshTopic].toLowerCase()}. Read each explanation, review any mistakes and retry a new number variation.` : '16 questions: two each on order of operations, fractions, percentages, equations, multi-step sharing, money, rectangle area and mean averages.'} Questions may recur across attempts.</p><p className="mt-3">For tests taken in 2027. This is selected skill practice, not a full or official school paper. {mode === 'practice' ? 'Untimed, with feedback after each answer.' : `${selectedFreshTopic ? 15 : 20} minutes is our practice setting.`}</p><div className="mt-4 flex flex-wrap gap-4 font-semibold text-emerald-900">{selectedJourney?.guide && <Link className="underline" href={selectedJourney.guide}>Learn the method →</Link>}<Link className="underline" href="/papers#topic-practice">Choose another skill →</Link><Link className="underline" href="/subjects/maths">Maths learning hub →</Link></div></section>}
         {mathsPilot && !followUp && <div className="mb-6 rounded-xl border border-indigo-200 bg-indigo-50 p-4"><h1 className="text-xl font-bold">Maths practice pilot</h1><p>30 questions drawn from 120 checked questions. Original practice for families preparing for exams taken in 2027; not an official school paper. The 45-minute limit is our practice setting.</p><p className="mt-2">8 number · 8 fractions, decimals and percentages · 3 ratio · 3 algebra · 3 geometry · 3 measures and money · 2 data.</p></div>}
         {screen === 'quiz' && (
           <QuizArea
-            key={retryKey}
+            key={`${params.toString()}-${retryKey}`}
             suppliedQuestions={followUp?.questions}
             suppliedNotice={followUp?.notice}
             mathsPilot={mathsPilot}

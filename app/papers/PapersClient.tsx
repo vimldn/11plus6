@@ -1,5 +1,7 @@
 'use client';
 
+import { PracticeJourneys } from '@/components/PracticeJourneys';
+
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
@@ -560,6 +562,7 @@ function PapersPageInner() {
         </section>
 
         <PracticeResources />
+        <PracticeJourneys />
 
         {/* ── Search & Filter ── */}
         <section className="max-w-6xl mx-auto px-4 py-8">
