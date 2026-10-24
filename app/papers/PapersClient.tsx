@@ -7,6 +7,7 @@ import {
   Search, GraduationCap, Building2, ChevronRight, Rocket,
   BookOpen, MapPin, Clock, ClipboardList,
 } from 'lucide-react';
+import { PracticeResources } from '@/components/PracticeResources';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 
@@ -532,22 +533,22 @@ function PapersPageInner() {
         <section className="index-masthead pt-14 pb-12 px-6 border-b border-slate-200">
           <div className="max-w-6xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-indigo-100 text-indigo-700 rounded-full text-xs font-black uppercase tracking-widest mb-6 border border-indigo-200">
-              <ClipboardList size={12} /> School-Themed Mock Exams
+              <ClipboardList size={12} /> Original practice & official sources
             </div>
             <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
-              School-themed practice papers
+              Free 11+ practice papers and answers
             </h1>
             <p className="text-lg text-slate-500 max-w-2xl leading-relaxed mb-8">
-              Sit a mock exam themed around your target school's format and subjects. Each paper is
-              25 questions, timed at 45 minutes, and designed to reflect the real entrance exam style.
+              Download original question booklets with separate worked answers, try online practice,
+              or find official familiarisation. School-themed activities below are generic practice, not verified replicas of a school’s exam.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-2">
               {[
-                { value: `${SCHOOLS.length}`, label: 'Schools covered' },
+                { value: `${SCHOOLS.length}`, label: 'School contexts' },
                 { value: `${SCHOOLS.filter(s => s.category === 'grammar').length}`, label: 'Grammar schools' },
                 { value: `${SCHOOLS.filter(s => s.category === 'private').length}`, label: 'Independent schools' },
-                { value: 'Free', label: 'Access (for now)' },
+                { value: 'Free', label: 'Practice access' },
               ].map((s) => (
                 <div key={s.label} className="px-5 py-3 bg-white rounded-2xl border border-slate-200 shadow-sm text-center min-w-[110px]">
                   <div className="text-xl font-black text-indigo-600">{s.value}</div>
@@ -557,6 +558,8 @@ function PapersPageInner() {
             </div>
           </div>
         </section>
+
+        <PracticeResources />
 
         {/* ── Search & Filter ── */}
         <section className="max-w-6xl mx-auto px-4 py-8">

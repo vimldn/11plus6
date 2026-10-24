@@ -287,7 +287,7 @@ export default function BlogPostPage({ params }: Props) {
   const englishPracticeSlugs = ['what-is-the-11-plus-exam', 'what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal'];
   const practiceSubject = englishPracticeSlugs.includes(post.slug) ? 'english' : 'maths';
   const topicPractice = englishPracticeSlugs.includes(post.slug) ? publishedLessons('english') : practiceSlugs.includes(post.slug) ? publishedLessons('maths') : [];
-  const externalLinks = post.kind === 'news' || post.subject ? [] : getExternalLinks(post.category);
+  const externalLinks = post.kind === 'news' || post.subject || post.editorial ? [] : getExternalLinks(post.category);
   // Use _1 as hero image (index 0), rest for inline
   // imageUrl (_4) is the confirmed working image — use it as hero
   // images[] contains _1–_4 variants; use _2–_4 inline (skip _1 as unconfirmed)
@@ -301,7 +301,7 @@ export default function BlogPostPage({ params }: Props) {
 
         {/* ── Featured image ── */}
         <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-slate-100">
-          <img src={heroImage} alt={post.imageAlt} className={`absolute inset-0 w-full h-full ${(post.subject || post.kind === 'news') ? 'object-contain p-6 bg-slate-50' : 'object-cover'}`} />
+          <img src={heroImage} alt={post.imageAlt} className={`absolute inset-0 w-full h-full ${(post.subject || post.kind === 'news' || post.editorial) ? 'object-contain p-6 bg-slate-50' : 'object-cover'}`} />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 max-w-3xl mx-auto px-4 pb-8">
             <div className="flex items-center gap-2 mb-3">
@@ -339,7 +339,7 @@ export default function BlogPostPage({ params }: Props) {
           {post.kind === 'news' && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="News parent hub"><Link href="/exam-dates" className="font-semibold text-indigo-700 underline">Back to exam dates and admissions</Link><p className="mt-3 text-sm text-slate-600">News published {post.date}. {post.eventNote ?? (post.slug === 'kent-test-2027-quest-assessments' ? 'Development announced 16 October 2026.' : 'Sources and development dates are stated below.')}</p></nav>}
           {post.subject && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="Learning hub"><Link className="font-semibold text-indigo-700 underline" href={`/subjects/${post.subject}`}>Back to the {post.subject === 'maths' ? 'Maths' : 'English'} learning hub</Link><p className="mt-3 text-sm text-slate-600">Original skill practice for exams taken in 2027. Published {post.date}.</p></nav>}
           {/* Content blocks with interleaved banners + images */}
-          <div>{(post.subject || post.kind === 'news') ? <div className="space-y-5">{post.content.map((block,index)=><Block key={index} block={block}/>)}</div> : <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />}</div>
+          <div>{(post.subject || post.kind === 'news' || post.editorial) ? <div className="space-y-5">{post.content.map((block,index)=><Block key={index} block={block}/>)}</div> : <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />}</div>
           {topicPractice.length > 0 && <section className="my-10 rounded-2xl bg-indigo-50 p-6" aria-label={`Practise these ${practiceSubject} skills`}>
             <h2 className="text-xl font-bold text-slate-900">Practise these {practiceSubject} skills</h2>
             <p className="mt-3 text-slate-700">Work through a short lesson, try the questions and check each answer with an explanation.</p>
@@ -350,7 +350,7 @@ export default function BlogPostPage({ params }: Props) {
           <div className="mt-16 p-7 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-3xl text-white">
             <p className="font-black text-xl mb-2">Ready to practise?</p>
             <p className="text-indigo-100 text-sm mb-5 leading-relaxed">
-              {(post.subject || post.kind === 'news') ? 'Choose original practice and use the answer explanations to decide what to work on next. These are not official school papers.' : 'Sit a free school-themed mock exam and get instant results with explanations for every question.'}
+              {(post.subject || post.kind === 'news' || post.editorial) ? 'Choose original practice and use the answer explanations to decide what to work on next. These are not official school papers.' : 'Sit a free school-themed mock exam and get instant results with explanations for every question.'}
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/mock-exams" className="inline-flex items-center gap-2 px-5 py-3 bg-white text-indigo-700 font-black text-sm rounded-xl hover:scale-[1.02] transition-all shadow-lg">

@@ -1,3 +1,4 @@
+import { improveSearchPriorityPost } from './gscImprovements20261024';
 import { DAILY_POSTS_20261024 } from './dailyPosts20261024';
 import { DAILY_NEWS_20261024 } from './dailyNews20261024';
 import { OCTOBER_NEWS_POSTS } from './newsPosts20261022';
@@ -19,6 +20,7 @@ export type BlockType =
 
 export interface BlogPost {
   kind?: 'news';
+  editorial?: boolean;
   eventNote?: string;
   subject?: 'maths' | 'english';
   slug: string;
@@ -34,7 +36,7 @@ export interface BlogPost {
   content: BlockType[];
 }
 
-export const BLOG_POSTS: BlogPost[] = [
+const BASE_BLOG_POSTS: BlogPost[] = [
   ...DAILY_NEWS_20261024,
   ...DAILY_POSTS_20261024,
   ...OCTOBER_NEWS_POSTS,
@@ -13947,6 +13949,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
 ];
+
+export const BLOG_POSTS: BlogPost[] = BASE_BLOG_POSTS.map(improveSearchPriorityPost);
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
