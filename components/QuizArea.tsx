@@ -4,7 +4,8 @@ import { createVisualPractice } from '../data/visualPractice';
 import { PrintPaper } from './PrintPaper';
 import { isAnswerCorrect } from '../lib/answerMarking';
 
-import React, { useState, useEffect } from 'react';
+import { ActivePractice, readActivePractice, writeActivePractice, clearActivePractice, activeSeconds, scoreAnswers } from '../lib/activePractice';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowRight,
@@ -75,6 +76,14 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     answersHistory: {}
   });
 
+  const checkedMC = !suppliedQuestions && quizType==='multiple-choice' && (reviewedVisual || reviewedVerbal || freshMaths || mathsPilot);
+  const navigateExam = checkedMC && mode==='exam';
+  const routeKey=JSON.stringify([subject,mode,topic || '',examDurationMins,reviewedVisual,reviewedVerbal,freshMaths,mathsPilot]);
+  const startedAt=useRef(Date.now());
+  const [resume,setResume]=useState<ActivePractice|null>(null);
+  const [restart,setRestart]=useState(0);
+  const [saveFailed,setSaveFailed]=useState(false);
+  const [confirmFinish,setConfirmFinish]=useState(false);
   const [notice, setNotice] = useState('');
   const [seconds, setSeconds] = useState(0);
 
@@ -85,11 +94,13 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
   useEffect(() => {
     let mounted = true;
     const load = async () => {
+      if(checkedMC){try{const draft=readActivePractice(window.localStorage,routeKey);if(draft){if(mounted)setResume(draft);return;}}catch{}}
+      startedAt.current=Date.now();
       const loadTopic = mode === 'practice' ? topic : undefined;
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
       let qs: Question[] = [];
       try {
-        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : reviewedVisual ? {questions:createVisualPractice(topic),notice:'Original checked visual starter practice: rotations and reflections only. 24 variations across six marked motifs; questions can recur. Not an official paper or a complete NVR syllabus.'} : reviewedVerbal ? {questions:createVerbalPractice(topic),notice:topic && !['codes','analogies','classifications','sequences'].includes(topic) ? 'This verbal reasoning topic is unavailable. Choose a supported skill from the hub.' : 'Original checked verbal reasoning starter practice. Four options per question; not an official paper or a complete syllabus.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : reviewedVisual ? {questions:createVisualPractice(topic),notice:'Original checked visual starter practice: rotations, reflections, constant-turn sequences and transformation matrices. 48 variations across six marked motifs; questions can recur. Not an official paper or a complete NVR syllabus.'} : reviewedVerbal ? {questions:createVerbalPractice(topic),notice:topic && !['codes','analogies','classifications','sequences'].includes(topic) ? 'This verbal reasoning topic is unavailable. Choose a supported skill from the hub.' : 'Original checked verbal reasoning starter practice. Four options per question; not an official paper or a complete syllabus.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
         qs = batch.questions;
         if (mounted) setNotice(batch.notice);
       } catch {
@@ -108,15 +119,35 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     return () => {
       mounted = false;
     };
-  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths, reviewedVerbal, reviewedVisual, suppliedQuestions, suppliedNotice]);
+  }, [subject, schoolType, mode, topic, quizType, questionCount, schoolId, difficulty, mathsPilot, freshMaths, reviewedVerbal, reviewedVisual, suppliedQuestions, suppliedNotice, checkedMC, routeKey, restart]);
 
   useEffect(() => {
     if (state.loading || state.completed) return;
     const timer = setInterval(() => {
-      setSeconds((s) => s + 1);
+      setSeconds((s) => mode==='exam' ? Math.max(s,Math.floor((Date.now()-startedAt.current)/1000)) : s + 1);
     }, 1000);
     return () => clearInterval(timer);
-  }, [state.loading, state.completed]);
+  }, [state.loading, state.completed, mode]);
+
+  useEffect(()=>{
+    if(!checkedMC || state.loading || resume || !state.questions.length)return;
+    if(state.completed){try{clearActivePractice(window.localStorage);}catch{}return;}
+    try {setSaveFailed(!writeActivePractice(window.localStorage,{version:1,route:routeKey,savedAt:Date.now(),startedAt:startedAt.current,seconds,questions:state.questions,index:state.currentIndex,answers:state.answersHistory,notice}));}catch{setSaveFailed(true);}
+  },[checkedMC,state.loading,state.completed,state.questions,state.currentIndex,state.answersHistory,seconds,notice,resume,routeKey]);
+  const resumeDraft=()=>{
+    if(!resume)return;
+    const answer=resume.answers[resume.questions[resume.index].id] || null;
+    startedAt.current=resume.startedAt;
+    setSeconds(activeSeconds(resume,mode==='exam'));
+    setNotice(resume.notice);
+    setState({questions:resume.questions,currentIndex:resume.index,score:scoreAnswers(resume.questions,resume.answers),completed:false,loading:false,selectedAnswer:answer,isCorrect:answer===null?null:isAnswerCorrect(answer,resume.questions[resume.index].correctAnswer,'multiple-choice',resume.questions[resume.index].marking),answersHistory:resume.answers});
+    setResume(null);
+  };
+  const jumpTo=(index:number)=>{
+    const answer=state.answersHistory[state.questions[index].id] || null;
+    setConfirmFinish(false);
+    setState(s=>({...s,currentIndex:index,selectedAnswer:answer,isCorrect:answer===null?null:isAnswerCorrect(answer,s.questions[index].correctAnswer,quizType,s.questions[index].marking)}));
+  };
 
   // When question changes, reset complex states
   useEffect(() => {
@@ -134,7 +165,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
   const currentQ = state.questions[state.currentIndex];
 
   const handleStandardAnswer = (option: string) => {
-    if (state.selectedAnswer) return;
+    if (state.selectedAnswer && !navigateExam) return;
     const isCorrect = isAnswerCorrect(option, currentQ.correctAnswer, quizType, currentQ.marking);
     updateState(option, isCorrect);
   };
@@ -164,7 +195,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       ...s,
       selectedAnswer: answer,
       isCorrect,
-      score: isCorrect ? s.score + 1 : s.score,
+      score: navigateExam ? scoreAnswers(s.questions,{...s.answersHistory,[currentQ.id]:answer}) : isCorrect ? s.score + 1 : s.score,
       answersHistory: {
         ...s.answersHistory,
         [currentQ.id]: answer
@@ -183,11 +214,13 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     setOrderingItems(newItems);
   };
 
-  const nextQuestion = () => {
+  const nextQuestion = (finishConfirmed=false) => {
     if (state.currentIndex >= state.questions.length - 1) {
+      if(navigateExam && !finishConfirmed && Object.keys(state.answersHistory).length<state.questions.length){setConfirmFinish(true);return;}
       const timeBonus = mode === 'exam' ? Math.max(0, 100 - seconds) : 0;
       const points = state.score * 10 + timeBonus;
 
+      if(checkedMC){try{clearActivePractice(window.localStorage);}catch{}}
       setState((s) => ({ ...s, completed: true }));
 
       onComplete({
@@ -206,7 +239,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       setState((s) => ({
         ...s,
         currentIndex: s.currentIndex + 1,
-        selectedAnswer: null,
+        selectedAnswer: s.answersHistory[s.questions[s.currentIndex+1].id] || null,
         isCorrect: null
       }));
     }
@@ -227,6 +260,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     if (totalExamSeconds === null) return;
 
     if (seconds >= totalExamSeconds) {
+      if(checkedMC){try{clearActivePractice(window.localStorage);}catch{}}
       setState((s) => ({ ...s, completed: true }));
       const timeBonus = 0;
       const points = state.score * 10 + timeBonus;
@@ -247,6 +281,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
   }, [seconds, totalExamSeconds, mode, state.loading, state.completed, state.score, state.questions, state.answersHistory, subject, onComplete]);
 
 
+  if(resume)return <section className="mx-auto max-w-xl rounded-2xl border border-emerald-200 bg-stone-50 p-6"><h2 className="text-2xl font-bold">Continue your unfinished set?</h2><p className="mt-4 leading-7">{Object.keys(resume.answers).length} of {resume.questions.length} questions answered. Saved in this browser only. {mode==='exam'?'The timer continues while you are away; an expired set will finish when resumed.':'Untimed practice keeps your place.'}</p><div className="mt-5 flex flex-wrap gap-4"><button className="rounded-xl bg-emerald-900 px-5 py-3 font-bold text-white" onClick={resumeDraft}>Resume saved set</button><button className="rounded-xl border border-emerald-900 px-5 py-3 font-bold" onClick={()=>{try{clearActivePractice(window.localStorage);}catch{}setResume(null);setRestart(n=>n+1);}}>Discard and start a new set</button></div></section>;
   if (state.loading) {
     return (
       <div className="flex flex-col items-center justify-center h-[60vh] px-4">
@@ -283,6 +318,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       </button>
 
       {notice && <p role="status" className="mb-4 rounded-xl bg-slate-100 p-3 text-sm text-slate-700">{notice}</p>}
+      {checkedMC && <p role="status" className="mb-3 text-sm text-slate-600">{saveFailed?'This browser could not save your place. Keep this tab open to continue.':'Your place is saved automatically in this browser for up to seven days. Only one unfinished set is kept.'}</p>}
       <PrintPaper questions={state.questions} provenance={notice} />
       {/* HUD */}
       <div className="flex flex-wrap justify-between items-end gap-3 mb-6 bg-white/90 backdrop-blur rounded-2xl p-4 shadow-sm border border-slate-100">
@@ -319,6 +355,8 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         )}
       </div>
 
+      {navigateExam && <section className="mb-6 rounded-xl border border-stone-200 bg-white p-4" aria-label="Question navigator"><p className="mb-3 font-semibold">{Object.keys(state.answersHistory).length} answered · {state.questions.length-Object.keys(state.answersHistory).length} unanswered</p><div className="flex flex-wrap gap-2">{state.questions.map((q,i)=><button key={q.id} aria-label={`Go to question ${i+1}, ${state.answersHistory[q.id]?'answered':'unanswered'}`} aria-current={i===state.currentIndex?'step':undefined} onClick={()=>jumpTo(i)} className={`min-h-11 min-w-11 rounded-lg border px-3 py-2 font-bold ${i===state.currentIndex?'border-emerald-900 ring-2 ring-emerald-900':''} ${state.answersHistory[q.id]?'bg-slate-200':'bg-white'}`}>{i+1}</button>)}</div><p className="mt-3 text-sm text-slate-600">Choose any question to return or change an answer. Filled buttons mean answered, not correct.</p></section>}
+      {confirmFinish && <section role="alert" className="mb-6 rounded-xl border border-amber-500 bg-amber-50 p-5"><h2 className="text-xl font-bold">You still have unanswered questions</h2><p className="mt-3">{state.questions.length-Object.keys(state.answersHistory).length} will be recorded as unanswered if you finish now.</p><div className="mt-4 flex flex-wrap gap-3"><button className="rounded-lg border px-4 py-3 font-bold" onClick={()=>jumpTo(state.questions.findIndex(q=>!state.answersHistory[q.id]))}>Return to first unanswered question</button><button className="rounded-lg bg-emerald-900 px-4 py-3 font-bold text-white" onClick={()=>nextQuestion(true)}>Finish with unanswered questions</button></div></section>}
       {/* Progress */}
       <div className="w-full bg-slate-200 h-2 rounded-full mb-6 sm:mb-8 overflow-hidden">
         <motion.div
@@ -403,7 +441,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                       aria-describedby={currentQ.visual ? `${currentQ.id}-${opt}-description` : undefined}
                       aria-pressed={state.selectedAnswer === opt}
                       onClick={() => handleStandardAnswer(opt)}
-                      disabled={!!state.selectedAnswer}
+                      disabled={!!state.selectedAnswer && !navigateExam}
                       className={`w-full text-left p-4 rounded-xl transition-colors duration-200 flex items-center gap-4 group ${containerClass} ${
                         currentQ.visual ? 'flex-col !gap-2 !p-3 min-w-0' : quizType === 'true-false' ? 'justify-center flex-col py-8' : ''
                       }`}
@@ -571,9 +609,10 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
             </AnimatePresence>
           </motion.div>
 
-          <div className="flex justify-end items-center gap-4">
+          <div className="flex flex-wrap justify-end items-center gap-4">
+            {navigateExam && state.currentIndex>0 && <button className="rounded-xl border px-5 py-3 font-bold" onClick={()=>jumpTo(state.currentIndex-1)}>Previous question</button>}
             <AnimatePresence>
-              {state.selectedAnswer && (
+              {(state.selectedAnswer || navigateExam) && (
                 <motion.div
                   initial={{ opacity: 0, y: 10, scale: 0.9 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -581,7 +620,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                   className="w-full sm:w-auto"
                 >
                   <Button
-                    onClick={nextQuestion}
+                    onClick={()=>nextQuestion()}
                     size="lg"
                     className="px-10 shadow-lg shadow-indigo-300 w-full sm:w-auto justify-center"
                   >

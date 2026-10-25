@@ -7,8 +7,8 @@ export const mathsJourneys: { topic: FreshTopic; title: string; guide?: string; 
   { topic: 'algebra', title: 'Simple equations', guide: '/blog/11-plus-algebra-basics' },
   { topic: 'word-problems', title: 'Multi-step sharing', guide: '/blog/11-plus-multi-step-word-problems' },
   { topic: 'money', title: 'Money and change' },
-  { topic: 'geometry', title: 'Rectangle area' },
-  { topic: 'data', title: 'Mean averages' },
+  { topic: 'geometry', title: 'Rectangle area', guide: '/blog/11-plus-area-perimeter' },
+  { topic: 'data', title: 'Mean averages', guide: '/blog/11-plus-averages' },
 ];
 export const englishJourney = [
   { slug: 'comprehension-retrieval', title: 'Find the stated facts' },
