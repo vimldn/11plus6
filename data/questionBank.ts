@@ -1,3 +1,4 @@
+import { applyLegacyReview } from './legacyReview';
 import { applyMathsOrderingReview } from './mathsOrderingReview';
 import { applyMathsRepair } from './mathsRepairs';
 import { mathsMarkingFor } from './mathsMarking';
@@ -28,22 +29,22 @@ export const questionBank: Record<Subject, Partial<Record<QuizType, Question[]>>
     ordering: mathsOrdering.map(applyMathsOrderingReview),
   },
   [Subject.English]: {
-    'multiple-choice': englishMC,
-    'true-false': englishTF,
-    'fill-in-the-blank': englishFITB,
-    ordering: englishOrdering,
+    'multiple-choice': englishMC.map(applyLegacyReview),
+    'true-false': englishTF.map(applyLegacyReview),
+    'fill-in-the-blank': englishFITB.map(applyLegacyReview),
+    ordering: englishOrdering.map(applyLegacyReview),
   },
   [Subject.VerbalReasoning]: {
-    'multiple-choice': vrMC,
-    'true-false': vrTF,
-    'fill-in-the-blank': vrFITB,
-    ordering: vrOrdering,
+    'multiple-choice': vrMC.map(applyLegacyReview),
+    'true-false': vrTF.map(applyLegacyReview),
+    'fill-in-the-blank': vrFITB.map(applyLegacyReview),
+    ordering: vrOrdering.map(applyLegacyReview),
   },
   [Subject.NonVerbalReasoning]: {
-    'multiple-choice': nvrMC,
-    'true-false': nvrTF,
-    'fill-in-the-blank': nvrFITB,
-    ordering: nvrOrdering,
+    'multiple-choice': nvrMC.map(applyLegacyReview),
+    'true-false': nvrTF.map(applyLegacyReview),
+    'fill-in-the-blank': nvrFITB.map(applyLegacyReview),
+    ordering: nvrOrdering.map(applyLegacyReview),
   },
 };
 
@@ -147,7 +148,7 @@ export function getTopicsForSubject(subject: Subject | string): string[] {
 
   const topics = new Set<string>();
   for (const q of all) {
-    if (q.topic) topics.add(String(q.topic));
+    if (q.topic && !isQuestionQuarantined(q.id)) topics.add(String(q.topic));
   }
   return Array.from(topics).sort((a, b) => a.localeCompare(b));
 }

@@ -96,7 +96,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
     const load = async () => {
       if(checkedMC){try{const draft=readActivePractice(window.localStorage,routeKey);if(draft){if(mounted)setResume(draft);return;}}catch{}}
       startedAt.current=Date.now();
-      const loadTopic = mode === 'practice' ? topic : undefined;
+      const loadTopic = topic; // An explicitly chosen topic applies in timed practice too.
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
       let qs: Question[] = [];
       try {
@@ -483,7 +483,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
                 <p className="text-sm font-bold text-slate-400 mb-2 uppercase tracking-wide">Tap arrows to reorder</p>
                 {orderingItems.map((item, idx) => (
                   <motion.div
-                    key={item}
+                    key={`${item}-${idx}`}
                     layout
                     transition={{ type: 'spring', stiffness: 500, damping: 40, mass: 0.8 }}
                     className={`p-3 sm:p-4 rounded-xl border-2 flex items-center gap-3 sm:gap-4 bg-white ${

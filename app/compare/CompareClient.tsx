@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { schoolPaperEvidence } from '@/data/schoolPaperEvidence';
 import { X, Plus, GraduationCap, Building2, MapPin, BookOpen, Users, ChevronRight, Rocket } from 'lucide-react';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
@@ -61,11 +62,11 @@ function SchoolCard({ school, onRemove }: { school: any; onRemove: () => void })
 
         <div>
           <div className="text-[10px] font-black text-slate-400 uppercase tracking-wide mb-1">Exam Format</div>
-          <span className="text-slate-600 leading-relaxed">{school.examFormat || '—'}</span>
+          <span className="text-slate-600 leading-relaxed">{schoolPaperEvidence[school.id]?.format || 'Current assessment specification: check the official school source on its profile.'}</span>
         </div>
 
         <div>
-          <div className="text-[10px] font-black text-slate-400 uppercase tracking-wide mb-1.5">Subjects Tested</div>
+          <div className="text-[10px] font-black text-slate-400 uppercase tracking-wide mb-1.5">General practice areas</div>
           <div className="flex flex-wrap gap-1.5">
             {(school.subjects || []).map((sub: string) => (
               <span key={sub} className="px-2 py-0.5 text-[11px] font-bold bg-slate-100 text-slate-600 rounded-full">
