@@ -21,10 +21,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = school as any;
   const city: string = s.location?.city ?? 'UK';
   const area: string = s.location?.area ?? city;
-  const description = `${school.name} 11+ admissions guide. Exam format, key dates, subjects tested and free themed mock exams to help your child prepare for entrance.`;
+  const description = `${school.name} 11+ preparation guide. Check assessment sources, distinguish test year from school-entry year and explore original skill practice.`;
 
   return {
-    title: `${school.name} — 11+ Admissions & Mock Exams`,
+    title: `${school.name} — Assessment Sources & 11+ Practice`,
     description,
     alternates: { canonical: `/schools/${school.id}` },
     openGraph: {
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary',
-      title: `${school.name} — 11+ Admissions & Mock Exams`,
+      title: `${school.name} — Assessment Sources & 11+ Practice`,
       description,
     },
   };
@@ -51,7 +51,7 @@ export default function SchoolPage({ params }: Props) {
   const schema = schoolPageSchema({
     id: school.id,
     name: school.name,
-    description: `${school.name} 11+ admissions guide. Exam format, key dates, subjects tested and free themed mock exams to help your child prepare for entrance.`,
+    description: `${school.name} 11+ preparation guide. Check assessment sources, distinguish test year from school-entry year and explore original skill practice.`,
     city,
     category: school.category,
     admissionsUrl: undefined,

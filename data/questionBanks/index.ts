@@ -35,23 +35,9 @@ import { Question } from '../../types';
 
 // All questions combined
 export async function getAllQuestions(): Promise<Question[]> {
-  const [
-    { mathsMC }, { mathsTF }, { mathsFITB }, { mathsOrdering },
-    { englishMC }, { englishTF }, { englishFITB }, { englishOrdering },
-    { vrMC }, { vrTF }, { vrFITB }, { vrOrdering },
-    { nvrMC }, { nvrTF }, { nvrFITB }, { nvrOrdering },
-  ] = await Promise.all([
-    import('./maths.mc'),    import('./maths.tf'),    import('./maths.fitb'),    import('./maths.ordering'),
-    import('./english.mc'),  import('./english.tf'),  import('./english.fitb'),  import('./english.ordering'),
-    import('./vr.mc'),       import('./vr.tf'),       import('./vr.fitb'),       import('./vr.ordering'),
-    import('./nvr.mc'),      import('./nvr.tf'),      import('./nvr.fitb'),      import('./nvr.ordering'),
-  ]);
-  return [
-    ...mathsMC, ...mathsTF, ...mathsFITB, ...mathsOrdering,
-    ...englishMC, ...englishTF, ...englishFITB, ...englishOrdering,
-    ...vrMC, ...vrTF, ...vrFITB, ...vrOrdering,
-    ...nvrMC, ...nvrTF, ...nvrFITB, ...nvrOrdering,
-  ];
+  const { questionBank } = await import('../questionBank');
+  const { isQuestionQuarantined } = await import('../questionQuarantine');
+  return Object.values(questionBank).flatMap(formats=>Object.values(formats).flatMap(qs=>qs || [])).filter(q=>!isQuestionQuarantined(q.id));
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -131,8 +117,9 @@ export function sampleQuestions(
   questions: Question[],
   count: number
 ): Question[] {
-  const shuffled = [...questions].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, count);
+  const shuffled = [...questions];
+  for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];}
+  return shuffled.slice(0, Math.max(0, Math.floor(count)));
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -144,33 +131,24 @@ export async function buildMockPaper(
   format: FormatKey = 'mc',
   weights = { maths: 0.4, english: 0.25, verbal: 0.2, nonVerbal: 0.15 }
 ): Promise<Question[]> {
-  const [
-    { mathsMC }, { mathsTF }, { mathsFITB }, { mathsOrdering },
-    { englishMC }, { englishTF }, { englishFITB }, { englishOrdering },
-    { vrMC }, { vrTF }, { vrFITB }, { vrOrdering },
-    { nvrMC }, { nvrTF }, { nvrFITB }, { nvrOrdering },
-  ] = await Promise.all([
-    import('./maths.mc'),    import('./maths.tf'),    import('./maths.fitb'),    import('./maths.ordering'),
-    import('./english.mc'),  import('./english.tf'),  import('./english.fitb'),  import('./english.ordering'),
-    import('./vr.mc'),       import('./vr.tf'),       import('./vr.fitb'),       import('./vr.ordering'),
-    import('./nvr.mc'),      import('./nvr.tf'),       import('./nvr.fitb'),      import('./nvr.ordering'),
-  ]);
-
-  const bankMap = {
-    maths:     { mc: mathsMC,    tf: mathsTF,    fitb: mathsFITB,    ordering: mathsOrdering },
-    english:   { mc: englishMC,  tf: englishTF,  fitb: englishFITB,  ordering: englishOrdering },
-    verbal:    { mc: vrMC,       tf: vrTF,       fitb: vrFITB,       ordering: vrOrdering },
-    nonVerbal: { mc: nvrMC,      tf: nvrTF,      fitb: nvrFITB,      ordering: nvrOrdering },
-  };
-
-  const paper: Question[] = [];
-
-  for (const [subject, weight] of Object.entries(weights) as [SubjectKey, number][]) {
-    const count = Math.round(totalQuestions * weight);
-    const bank  = bankMap[subject][format] ?? bankMap[subject].mc;
-    paper.push(...sampleQuestions(bank, count));
+  if(!Number.isInteger(totalQuestions) || totalQuestions<1)throw new Error('Question count must be a positive integer');
+  const { questionBank } = await import('../questionBank');
+  const { isQuestionQuarantined } = await import('../questionQuarantine');
+  const subjectLabels={maths:'Maths',english:'English',verbal:'Verbal Reasoning',nonVerbal:'Non-Verbal Reasoning'} as const;
+  const formats={mc:'multiple-choice',tf:'true-false',fitb:'fill-in-the-blank',ordering:'ordering'} as const;
+  const entries=Object.entries(weights) as [SubjectKey,number][];
+  if(entries.some(([key,w])=>!(key in subjectLabels) || !Number.isFinite(w) || w<0))throw new Error('Invalid paper weights');
+  const totalWeight=entries.reduce((sum,[,w])=>sum+w,0);
+  if(totalWeight<=0)throw new Error('At least one paper weight is required');
+  const allocation=entries.map(([key,w],index)=>{const exact=totalQuestions*w/totalWeight;return {key,index,count:Math.floor(exact),fraction:exact-Math.floor(exact)};});
+  let remainder=totalQuestions-allocation.reduce((sum,x)=>sum+x.count,0);
+  const byRemainder=allocation.slice().sort((a,b)=>b.fraction-a.fraction || a.index-b.index);
+  for(let i=0;i<remainder;i++)byRemainder[i].count++;
+  const paper:Question[]=[];
+  for(const {key,count} of allocation){
+    const bank=(questionBank[subjectLabels[key]][formats[format]] || []).filter(q=>!isQuestionQuarantined(q.id));
+    if(bank.length<count)throw new Error(`Only ${bank.length} reviewed ${key} questions are available for this format`);
+    paper.push(...sampleQuestions(bank,count));
   }
-
-  // Shuffle final paper
-  return paper.sort(() => Math.random() - 0.5);
+  return sampleQuestions(paper,paper.length);
 }

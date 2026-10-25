@@ -7,7 +7,7 @@ import { numericAnswersEqual } from './numericAnswer';
 export function isAnswerCorrect(answer: string | undefined, expected: string, type?: QuizType, rubric?: AnswerRubric): boolean {
   if (typeof answer !== 'string' || !answer.trim() || !expected.trim()) return false;
   if (type === 'multiple-choice' || type === 'true-false') return answer === expected;
-  const normalise = (s: string) => s.trim().toLowerCase().replace(/\s+/g, ' ');
+  const normalise = (s: string) => s.normalize('NFKC').trim().toLowerCase().replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ');
   if (type === 'ordering') {
     const canonical = (value: string) => value.split(',').map(normalise).join(',');
     const allowed = rubric?.kind === 'ordering' ? rubric.acceptedOrders : [expected];

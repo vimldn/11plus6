@@ -26,6 +26,6 @@ console.log('PASS: 21 repaired formats; exact topic filtering; fresh mistake pra
  global.fetch=async()=>({ok:true,json:async()=>({questions:[],meta:{source:'fallback'}})});
  const fallback=await generateQuestions('Maths',null,undefined,'multiple-choice',5,'test-school');assert.match(fallback.notice,/not matched/);assert.equal(fallback.questions.length,5);
  global.fetch=async()=>({ok:true,json:async()=>({questions:qs,meta:{source:'openai'}})});
- const ai=await generateQuestions('Maths',null,undefined,'multiple-choice',2,'test-school');assert.match(ai.notice,/not been independently verified/);assert.equal(ai.questions.length,2);
+ const ai=await generateQuestions('Maths',null,undefined,'multiple-choice',2,'test-school');assert.match(ai.notice,/not matched/);assert.equal(ai.questions.length,2);assert(ai.questions.every(q=>q.id.startsWith('math-')));assert(!ai.questions.some(q=>qs.some(old=>old.id===q.id)));
  console.log('PASS: mock API source notices and fallback; no paid API calls.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

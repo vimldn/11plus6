@@ -7,6 +7,7 @@ import { PracticeJourneys } from '@/components/PracticeJourneys';
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { schoolPaperEvidence } from '@/data/schoolPaperEvidence';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Search, GraduationCap, Building2, ChevronRight, Rocket,
@@ -452,14 +453,14 @@ function SchoolCard({ school, highlighted }: { school: SchoolEntry; highlighted:
           isGrammar ? 'border-indigo-100 text-indigo-700' : 'border-emerald-100 text-emerald-700'
         }`}>
           <BookOpen size={10} />
-          {school.examFormat}
+          {schoolPaperEvidence[school.id]?.format || 'Check the current official assessment on the school profile.'}
         </div>
       </div>
 
       {/* Mock exam buttons */}
       <div className="p-4">
         <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-1">
-          <ClipboardList size={10} /> Sit a themed mock
+          <ClipboardList size={10} /> Practise shared skills
         </p>
         <div className="flex flex-wrap gap-2">
           {school.subjects.map((subjectId) => (

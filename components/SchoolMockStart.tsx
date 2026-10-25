@@ -1,5 +1,6 @@
 'use client';
 
+import { SchoolPaperEvidence } from './SchoolPaperEvidence';
 import React, { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
@@ -149,17 +150,18 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
         {!compact && (
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-700 text-xs font-black uppercase tracking-widest">
-              <ListChecks size={14} /> School-specific digital mocks
+              <ListChecks size={14} /> School preparation practice
             </div>
             <h2 className="mt-5 text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-              Pick a school and sit the mock online
+              Choose a school, then practise shared skills
             </h2>
             <p className="mt-3 text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-              Students never download or print anything. PDFs are used only as server-side source material to learn style and difficulty.
+              Practise original questions with worked answers. These are general skill exercises, not replicas of school papers. Uploaded PDFs are not read by the running generator.
             </p>
           </motion.div>
         )}
 
+        {schoolId && <SchoolPaperEvidence schoolId={schoolId}/>}
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white border border-slate-100 rounded-3xl shadow-sm p-6">
             <div className="flex items-center gap-2 font-extrabold text-slate-900 mb-4">
@@ -280,6 +282,7 @@ export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
               </div>
             </div>
 
+            <p className="my-4 text-sm leading-6 text-slate-600">Timing and question count below are our practice settings, not the school’s exam specification.</p>
             {selectedSchool?.summary && (
               <div className="mt-5 rounded-2xl bg-slate-50 border border-slate-100 p-4 text-sm text-slate-600 leading-relaxed">
                 <div className="font-black text-slate-800 mb-1">This school’s style (blueprint)</div>

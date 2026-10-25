@@ -1,4 +1,3 @@
-import { validateGeneratedQuestions } from '@/lib/questionValidation';
 import { NextResponse } from 'next/server';
 import { Subject, QuizType, Question } from '@/types';
 import { getRandomQuestions } from '@/data/questionBank';
@@ -60,196 +59,6 @@ function jsonError(message: string, status: number) {
   return NextResponse.json({ error: message }, { status });
 }
 
-async function generateWithClaude(args: {
-  apiKey: string;
-  schoolName: string;
-  blueprintSummary?: string;
-  subject: Subject;
-  quizType: QuizType;
-  count: number;
-  difficulty: Difficulty;
-  topic?: string;
-}): Promise<Question[]> {
-  const { apiKey, schoolName, blueprintSummary, subject, quizType, count, difficulty, topic } = args;
-
-  const system =
-    "You are an expert 11+ exam question writer. Output only valid JSON — no markdown, no code fences, no extra text.";
-
-  const user = {
-    task: 'Generate exam questions for an online 11+ mock exam.',
-    school: schoolName,
-    blueprint_summary: blueprintSummary || 'No blueprint summary available yet.',
-    constraints: { subject, quizType, count, difficulty, topic: topic || null, online_exam: true },
-    output_schema: {
-      questions: [
-        {
-          id: 'string — unique, e.g. "q1"',
-          text: 'string — the question',
-          options: ['string — for multiple-choice; omit for fill-in-the-blank'],
-          correctAnswer: 'string',
-          explanation: 'string — see explanation rules below',
-          topic: 'string — topic tag, e.g. "fractions"',
-        },
-      ],
-    },
-    rules: [
-      `Return exactly ${count} questions.`,
-      'For multiple-choice: include 4 options, correctAnswer must exactly match one option.',
-      'For fill-in-the-blank: options can be omitted or used as hint distractors.',
-      'Each id must be unique.',
-      'Do not reference PDFs or printing.',
-      'Difficulty scale: standard = Year 5 level, challenging = upper Year 5/Year 6, exam-ready = full 11+ exam difficulty.',
-    ],
-    explanation_rules: [
-      'Every question MUST have a non-empty explanation.',
-      'Structure: (1) state whether correct or what the answer is, (2) show the working/reasoning step-by-step, (3) give a memory tip or common mistake warning.',
-      'Use plain English a 10-year-old can follow — no jargon.',
-      'For maths: show the calculation steps explicitly, e.g. "Step 1: divide both sides by 4 → x = 3".',
-      'For verbal reasoning: explain the word pattern or rule used.',
-      'For English: explain why the answer is correct grammatically or contextually.',
-      'Length: 2–4 sentences. Enough to teach, not so long it overwhelms.',
-      'Avoid starting every explanation with "The answer is..." — vary the opening.',
-    ],
-  };
-
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': apiKey,
-      'anthropic-version': '2023-06-01',
-    },
-    body: JSON.stringify({
-      model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514',
-      max_tokens: 4096,
-      system,
-      messages: [{ role: 'user', content: JSON.stringify(user) }],
-    }),
-  });
-
-  if (!res.ok) throw new Error(`Anthropic error: ${res.status}`);
-
-  const data = await res.json();
-  const content = data?.content?.[0]?.text;
-  if (typeof content !== 'string') throw new Error('Anthropic returned no content');
-
-  // Strip any accidental markdown fences
-  const clean = content.replace(/```json|```/g, '').trim();
-  const parsed = JSON.parse(clean);
-  const questions = parsed?.questions;
-  if (!Array.isArray(questions) || questions.length < 1) throw new Error('Invalid questions payload');
-
-  return validateGeneratedQuestions(questions.map((q: any, idx: number) => ({
-    id: String(q.id || `ai-${idx + 1}`),
-    text: String(q.text || ''),
-    options: Array.isArray(q.options) ? q.options.map((o: any) => String(o)) : [],
-    correctAnswer: String(q.correctAnswer || ''),
-    explanation: String(q.explanation || ''),
-    topic: String(q.topic || ''),
-  })), count, quizType);
-}
-
-async function generateWithOpenAI(args: {
-  apiKey: string;
-  schoolName: string;
-  blueprintSummary?: string;
-  subject: Subject;
-  quizType: QuizType;
-  count: number;
-  difficulty: Difficulty;
-  topic?: string;
-}): Promise<Question[]> {
-  const {
-    apiKey,
-    schoolName,
-    blueprintSummary,
-    subject,
-    quizType,
-    count,
-    difficulty,
-    topic,
-  } = args;
-
-  const system =
-    "You are an expert 11+ exam question writer. Output only valid JSON — no markdown, no code fences, no extra text.";
-
-  const user = {
-    task: 'Generate exam questions for an online 11+ mock exam.',
-    school: schoolName,
-    blueprint_summary: blueprintSummary || 'No blueprint summary available yet.',
-    constraints: { subject, quizType, count, difficulty, topic: topic || null, online_exam: true, no_pdfs: true },
-    output_schema: {
-      questions: [
-        {
-          id: 'string — unique, e.g. "q1"',
-          text: 'string — the question',
-          options: ['string — for multiple-choice; omit for fill-in-the-blank'],
-          correctAnswer: 'string',
-          explanation: 'string — see explanation rules below',
-          topic: 'string — topic tag, e.g. "fractions"',
-        },
-      ],
-    },
-    rules: [
-      `Return exactly ${count} questions.`,
-      'For multiple-choice: include 4 options, correctAnswer must exactly match one option.',
-      'For fill-in-the-blank: options can be omitted or used as hint distractors.',
-      'Each id must be unique.',
-      'Do not reference PDFs or printing.',
-      'Difficulty scale: standard = Year 5 level, challenging = upper Year 5/Year 6, exam-ready = full 11+ exam difficulty.',
-    ],
-    explanation_rules: [
-      'Every question MUST have a non-empty explanation.',
-      'Structure: (1) state whether correct or what the answer is, (2) show the working/reasoning step-by-step, (3) give a memory tip or common mistake warning.',
-      'Use plain English a 10-year-old can follow — no jargon.',
-      'For maths: show the calculation steps explicitly, e.g. "Step 1: divide both sides by 4 → x = 3".',
-      'For verbal reasoning: explain the word pattern or rule used.',
-      'For English: explain why the answer is correct grammatically or contextually.',
-      'Length: 2–4 sentences. Enough to teach, not so long it overwhelms.',
-      'Avoid starting every explanation with "The answer is..." — vary the opening.',
-    ],
-  };
-
-  const res = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model: process.env.OPENAI_MODEL || 'gpt-4o-mini',
-      temperature: 0.7,
-      messages: [
-        { role: 'system', content: system },
-        { role: 'user', content: JSON.stringify(user) },
-      ],
-      response_format: { type: 'json_object' },
-    }),
-  });
-
-  if (!res.ok) {
-    throw new Error(`OpenAI error: ${res.status}`);
-  }
-
-  const data = await res.json();
-  const content = data?.choices?.[0]?.message?.content;
-  if (typeof content !== 'string') throw new Error('OpenAI returned no content');
-
-  const parsed = JSON.parse(content);
-  const questions = parsed?.questions;
-  if (!Array.isArray(questions) || questions.length < 1) throw new Error('Invalid questions payload');
-
-  // Basic sanitisation
-  return validateGeneratedQuestions(questions.map((q: any, idx: number) => ({
-    id: String(q.id || `ai-${idx + 1}`),
-    text: String(q.text || ''),
-    options: Array.isArray(q.options) ? q.options.map((o: any) => String(o)) : [],
-    correctAnswer: String(q.correctAnswer || ''),
-    explanation: String(q.explanation || ''),
-    topic: String(q.topic || ''),
-  })), count, quizType);
-}
-
 export async function POST(req: Request) {
   let body: ReqBody;
   try {
@@ -271,55 +80,18 @@ export async function POST(req: Request) {
 
   const count = clampInt(body.count, 5, 30, 25);
 
-  // Preferred path: Claude (better explanations, same JSON output)
-  const anthropicKey = process.env.ANTHROPIC_API_KEY;
-  const openaiKey = process.env.OPENAI_API_KEY;
+  // Live model output has structural validation only, not independent answer verification.
+  // Serve the reviewed bank rather than treating unchecked answers as ready for children.
   const blueprint = loadBlueprint(schoolId);
-  const metaBase = {
-    schoolId,
-    schoolName: school.name,
-    blueprintLoaded: Boolean(blueprint),
-    sourceMaterial: 'written-summary-only',
-    uploadedPapersUsed: false,
-    verified2027Specification: false,
-    requestedCount: count,
-  };
-
-  const generatorArgs = {
-    schoolName: school.name,
-    blueprintSummary: blueprint?.summary,
-    subject,
-    quizType,
-    count,
-    difficulty,
-    topic,
-  };
-
-  // Primary: OpenAI (uses OPENAI_API_KEY)
-  if (openaiKey) {
-    try {
-      const questions = await generateWithOpenAI({ apiKey: openaiKey, ...generatorArgs });
-      return NextResponse.json({ questions: questions.slice(0, count), meta: { ...metaBase, source: 'openai', model: process.env.OPENAI_MODEL || 'gpt-4o-mini', returnedCount: count } });
-    } catch (err) {
-      console.error('[generate] OpenAI failed:', err);
-    }
-  }
-
-  // Optional upgrade: Claude (add ANTHROPIC_API_KEY to .env.local to enable)
-  if (anthropicKey) {
-    try {
-      const questions = await generateWithClaude({ apiKey: anthropicKey, ...generatorArgs });
-      return NextResponse.json({ questions: questions.slice(0, count), meta: { ...metaBase, source: 'claude', model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514', returnedCount: count } });
-    } catch (err) {
-      console.error('[generate] Claude also failed:', err);
-    }
-  }
-
-  // Fallback: general bank, sampled without replacement.
   const questions = getRandomQuestions(subject, quizType, count, topic, difficulty);
   return NextResponse.json({
     questions,
-    warning: 'OPENAI_API_KEY not set (or generation failed). Using local question bank fallback.',
-    meta: { ...metaBase, source: 'fallback', returnedCount: questions.length },
+    warning: 'Reviewed general practice only; school-specific simulation is not verified. Unreviewed model outputs are held out.',
+    meta: {
+      schoolId,schoolName:school.name,blueprintLoaded:Boolean(blueprint),
+      sourceMaterial:'reviewed-general-bank',uploadedPapersUsed:false,
+      verified2027Specification:false,verifiedSchoolSimulation:false,
+      source:'reviewed-bank',unreviewedAIHeld:true,requestedCount:count,returnedCount:questions.length,
+    },
   });
 }

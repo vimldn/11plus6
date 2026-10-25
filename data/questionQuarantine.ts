@@ -1,3 +1,4 @@
+import { legacyHoldReasons, legacyResolvedFamilies, legacyResolvedIds } from './legacyReview';
 // Confirmed or ambiguous items found in the 20 October diagnostic sample.
 // Keep source records for review; exclude every derived form of each family.
 export const quarantinedFamilies = new Set([
@@ -54,5 +55,6 @@ const quarantinedIds = new Set([
 ]);
 export function isQuestionQuarantined(id: string): boolean {
   const match = /^(math|eng|vr|nvr)-(?:mc|tf|fitb)-(\d+)$/.exec(id);
-  return quarantinedIds.has(id) || Boolean(match && quarantinedFamilies.has(`${match[1]}-${match[2]}`));
+  const family=match ? `${match[1]}-${match[2]}` : id;
+  return Boolean(legacyHoldReasons[id] || legacyHoldReasons[family]) || (quarantinedIds.has(id) && !legacyResolvedIds.has(id)) || Boolean(match && quarantinedFamilies.has(family) && !legacyResolvedFamilies.has(family));
 }

@@ -47,3 +47,9 @@ No new SEO pages in this patch. Existing blog queue untouched. No educator sign-
 PR10 merged as adf1b284923a8ee1478e919bb9c63de6d423119a; GitHub reports successful Vercel deployment DvoApqJ9ktxFcKYH7fRtBeShfxGa. Live timed maths flow completed all 10 questions: selected answers stayed neutral, the deliberate 3/10 outcome matched review, and own/correct answers were visible. This does not verify every format or AI generation.
 
 The live check also identified math-mc-018: its choices 6/12, 1/2 and 2/4 all equal the product 2/3 × 3/4. Quarantine this MC item specifically; its TF premise remains valid. This defect was found outside the original deterministic sample. Further maths option-equivalence checks remain required.
+
+## Current completion checkpoint —25October2026
+
+The original20October findings above are historical, not the current queue. Maths completion, checked VR and visual releases have since shipped. The remaining1978 English/VR/NVR legacy format entries are now screened and repaired/held in releases/non-blog-audit-completion-2026-10-25.md and legacy-completion-reviewed-2026-10-25.json:1232 changed/available,480 retained/available,266 held and excluded. Total available legacy entries including prior800Maths=2512. Held tasks require new defensible authored material before reinstatement; they are not secretly served or counted as repaired.
+
+School format handling is now reviewed-only practice plus current official-source status for nine historical blueprint routes, not a verified school simulation. Unsupported undated ancillary profile claims held. New code-native downloadable diagram PDF has verified page layout; physical-mobile checking remains environment-limited. Final PR linked by release branch records actual production/browser outcome. No blogs changed in this checkpoint.
