@@ -1,0 +1,25 @@
+const assert=require('node:assert/strict'),fs=require('fs'),path=require('path'),Module=require('module'),ts=require('typescript');
+const {load}=require('./load-ts.cjs');
+const {visualTopics,visualLabels,visualPool,createVisualPractice}=load('data/visualPractice.ts');
+const {isVisualQuestion}=load('lib/visualValidation.ts');
+const {freshFollowUp}=load('lib/mistakePractice.ts');
+const {saveAttempt,readAttempts}=load('lib/attemptHistory.ts');
+const sig=f=>JSON.stringify([f.points.map(p=>p.join(',')).sort(),f.dot]);
+// Independent integer matrix multiplication, not generator transformation helpers.
+const matrix={cw90:[[0,-1],[1,0]],ccw90:[[0,1],[-1,0]],half:[[-1,0],[0,-1]]};
+function apply(f,op){const m=matrix[op],point=([x,y])=>[m[0][0]*x+m[0][1]*y,m[1][0]*x+m[1][1]*y].map(n=>n||0);return {points:f.points.map(point),dot:point(f.dot)};}
+const questions=['sequences','matrices'].flatMap(visualPool);
+assert.equal(questions.length,24);assert.equal(new Set(questions.map(q=>q.id)).size,24);
+for(const q of questions){const v=q.visual,p=v.pattern,c=p.cells;assert(isVisualQuestion(v));assert.equal(c.at(-1),null);assert.equal(new Set(Object.values(v.options).map(sig)).size,4);const answer=apply(v.start,v.operation);assert.deepEqual(q.options.filter(o=>sig(v.options[o])===sig(answer)),[q.correctAnswer]);
+ const filled=c.map(f=>f||answer);if(p.kind==='sequence'){assert.equal(filled.length,5);for(let i=1;i<5;i++)assert.equal(sig(filled[i]),sig(apply(filled[i-1],v.operation)));assert.equal(sig(filled[0]),sig(filled[4]));}
+ else {assert.equal(filled.length,9);for(let r=0;r<3;r++)for(let col=1;col<3;col++)assert.equal(sig(filled[r*3+col]),sig(apply(filled[r*3+col-1],v.operation)));for(let col=0;col<3;col++)for(let r=1;r<3;r++)assert.equal(sig(filled[r*3+col]),sig(apply(filled[(r-1)*3+col],'half')));assert.equal(sig(answer),sig(apply(filled[5],'half')));}
+ const bad=JSON.parse(JSON.stringify(v));bad.pattern.cells[0].dot=[99,0];assert(!isVisualQuestion(bad));const missing=JSON.parse(JSON.stringify(v));missing.pattern.cells[0]=null;assert(!isVisualQuestion(missing));
+}
+for(const t of visualTopics){const qs=visualPool(t);assert.equal(qs.length,12);for(const key of ['A','B','C','D'])assert.equal(qs.filter(q=>q.correctAnswer===key).length,3);}
+for(let i=0;i<150;i++){const qs=createVisualPractice();assert.equal(qs.length,8);assert.equal(new Set(qs.map(q=>q.id)).size,8);for(const t of visualTopics)assert.equal(qs.filter(q=>q.topic===visualLabels[t]).length,2);for(const t of ['sequences','matrices']){const focused=createVisualPractice(t);assert.equal(focused.length,8);const follow=freshFollowUp({subject:'Non-Verbal Reasoning',quizType:'multiple-choice',questions:focused,userAnswers:{}});assert.equal(follow.length,3);assert(follow.every(q=>q.topic===visualLabels[t]&&!focused.some(x=>x.id===q.id)));}}
+let raw='[]';const storage={getItem:()=>raw,setItem:(_,s)=>raw=s};saveAttempt(storage,{subject:'Non-Verbal Reasoning',quizType:'multiple-choice',questions,userAnswers:{},score:0,total:24,timeTaken:20},'patterns');assert.deepEqual(readAttempts(storage)[0].result.questions,questions);
+const cache=new Map();function jsx(rel){let f=path.resolve(rel);if(!path.extname(f))f+=fs.existsSync(f+'.tsx')?'.tsx':'.ts';if(cache.has(f))return cache.get(f).exports;const m=new Module(f);m.paths=Module._nodeModulePaths(path.dirname(f));cache.set(f,m);m.require=r=>r.startsWith('.')?jsx(path.resolve(path.dirname(f),r)):require(r);m._compile(ts.transpileModule(fs.readFileSync(f,'utf8'),{fileName:f,compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText,f);return m.exports;}
+const React=require('react'),{renderToStaticMarkup}=require('react-dom/server'),{VisualStem,VisualWorked,VisualAnswer}=jsx('components/VisualDiagram.tsx');
+for(const q of questions){const stem=renderToStaticMarkup(React.createElement(VisualStem,{question:q}));assert.equal((stem.match(/<polygon/g)||[]).length,q.visual.pattern.kind==='matrix'?8:4);assert.equal((stem.match(/missing figure/g)||[]).length,1);assert(!stem.includes('Correct result'));const worked=renderToStaticMarkup(React.createElement(VisualWorked,{question:q}));assert.equal((worked.match(/<polygon/g)||[]).length,q.visual.pattern.cells.length+2);assert(!worked.includes('missing figure'));for(const answer of q.options){const html=renderToStaticMarkup(React.createElement(VisualAnswer,{question:q,answer}));assert.equal((html.match(/<polygon/g)||[]).length,1);assert(!html.includes(q.correctAnswer===answer?'Correct result':'wrong'));}}
+fs.writeFileSync('docs/paper-audit/visual-pattern-manifest-2026-10-25.json',JSON.stringify({date:'2026-10-25',scope:'24 original constant-turn variations, not full sequences/matrices coverage',questions},null,2)+'\n');
+console.log('PASS24 pattern variations: every sequence step and every row/column independently checked, unique keys/four distinct options, balanced positions,150 mixed/focused/retry rounds, history and malformed guards, full stem/options/completed-grid rendering.');

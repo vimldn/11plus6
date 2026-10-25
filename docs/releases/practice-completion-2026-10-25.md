@@ -1,0 +1,22 @@
+# Non-blog practice completion — 25 October 2026
+
+Owner requested completion of outstanding non-blog work, without repeated per-feature approval. Baseline531c5a6, no open PRs. Feature branch feature/practice-completion-2026-10-25; final PR is the durable exact deployment outcome, not this candidate record. Research recorded before new topics in ../research/practice-completion-2026-10-25.md. No blogs/news or repair queue changes.
+
+## Scope implemented
+- Add12 original constant-quarter-turn shape sequences and12 original3×3 turning matrices to the existing24 rotation/reflection variations. Six owned asymmetric marked motifs, limited turn families, not24 entirely different rules. Four distinct options, exactly one key under stated constant-turn constraints. Original24 IDs/keys retained. All48 checked variations accessible through actual engine/review/retry/print; focused8/mixed8(two per skill). Full given sequence/grid shown, completed version plus final-step comparison in worked answers. Same /subjects/non-verbal-reasoning and /papers hubs; no thin new SEO routes.
+- Neutral timed question navigator, previous/jump/skip, revision and answered/unanswered summary for reviewed MC routes (maths pilot/generated, checkedVR and checkedNVR). Score is recalculated from final answers; practice feedback retains answer lock. Finishing with unanswered prompts a choice to return or finish; timer expiry finishes automatically. Legacy free-text/ordering flows unchanged.
+- Automatic same-browser save/resume for these checked MC routes only, one unfinished set, seven-day expiry. Explicit resume/discard prompt; preserve exact question/order/answer/index/provenance. Timed practice uses original start time and continues while away; untimed resumes elapsed practice seconds. Completed attempts clear the draft; existing user-saved result history retained. Corrupt data/quota/blocked storage fail gracefully. No account sync or secure-assessment claim.
+- Maths area and averages guides connected to matching existing focused practice, without blog rewrites.
+- Printable answers no longer repeat the question stem grid; compact monochrome SVGs, visual question page breaks. Native browser print/PDF pagination still needs actual UI verification; do not infer it from stylesheet rules.
+
+## Checks and limits
+Production build and TypeScript passed after initial feature implementation; final build/regressions rerun after navigation/save changes. `check-visual-patterns.cjs` verifies all24 new stems/options/steps/rows/columns using independent integer matrices, balancing, retries/exclusions, malformed storage and actual JSX. `check-active-practice.cjs` checks route isolation, expiry, timed-away semantics, revision scoring and corruption/quota. Original24 regression retained; VR234, maths/English/topic/marking/workflow gates retained. Final result record appended on branch PR.
+Live sitemap inventory210 canonicals, unchanged route set. Publishing gate checks8 focused mode pairs, mixed links, reciprocal hubs,36 starter/worked SVGs per hub, canonical/noindex and all internal targets. /papers is dynamic: use running server/HTTP, not a nonexistent static papers.html.
+
+## Concrete remaining boundaries, not silently claimed complete
+- Entire legacy English/VR/NVR bank has not received full semantic review; checked routes stay separate, holds remain. Existing maths800-format key review and4114 generated variants are prior work, not new counts.
+- Original setup PDFs: complete original import set/mapping not recovered; located candidates and historical specifications do not establish current2027 formats or redistribution rights. See source-reconciliation-2026-10-20.md. No copyrighted passage copied or live paid generator certified.
+- Current official school-specific2027 specifications still need source-by-source review. School catalogue is not certified by this feature release. No guessed exam dates or official affiliation.
+- Broader NVR families (folding, nets, hidden shapes, overlays, shading/count matrices) remain future scope; this release does not promise a complete syllabus.
+- Fresh GSC measurement requires actual connected property evidence; no invented ranking or traffic gain.
+- Headless browser installation attempted for viewport/PDF checks; download returned empty/truncated archives. Existing cloud browser can test desktop public flows. Mobile-device and native PDF pagination claims must be limited to actual observed evidence.

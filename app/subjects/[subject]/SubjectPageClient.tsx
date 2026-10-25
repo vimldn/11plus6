@@ -176,7 +176,7 @@ const SUBJECT_CONTENT: Record<
       },
       {
         q: 'Can you improve at non-verbal reasoning?',
-        a: 'Start untimed with one skill, read the worked explanation and revisit mistakes. This starter release covers rotations and reflections; it does not cover every question type or predict exam scores.',
+        a: 'Start untimed with one skill, read the worked explanation and revisit mistakes. This starter release covers rotations, reflections, constant-turn sequences and transformation matrices; it does not cover every question type or predict exam scores.',
       },
       {
         q: 'Which schools test non-verbal reasoning?',
@@ -214,14 +214,14 @@ export default function SubjectPageClient({
     'Letter Codes': 'codes', 'Word Analogies': 'analogies',
     'Word Classifications': 'classifications', 'Letter and Number Sequences': 'sequences',
   };
-  const visualRoutes: Record<string,string> = {'Rotations':'rotations','Reflections':'reflections'};
+  const visualRoutes: Record<string,string> = {'Rotations':'rotations','Reflections':'reflections','Shape Sequences':'sequences','Matrices':'matrices'};
   const isVisual = subject.slug === 'non-verbal-reasoning';
   const isVerbal = subject.slug === 'verbal-reasoning';
   const practiceHref = isVisual ? '/quiz?paper=visual-reviewed&mode=practice' : isVerbal ? '/quiz?paper=verbal-reviewed&mode=practice' : `/quiz?subject=${subject.slug}&mode=practice&count=10`;
   const visibleTopics = isVisual ? Object.keys(visualRoutes) : isVerbal ? Object.keys(verbalRoutes) : content.topics;
   return <div className="min-h-screen bg-slate-50"><SiteNav ctaLabel="Start practice" ctaHref={isVerbal || isVisual ? practiceHref : '/mock-exams'}/>
  <main id="main-content"><div className="max-w-6xl mx-auto px-6 py-5"><Breadcrumbs items={[{label:'Home',href:'/'},{label:'Subjects',href:'/subjects'},{label:subject.label}]}/></div>
- <section className="editorial-masthead"><div className="editorial-masthead-inner"><div><p className="brand-eyebrow">11+ {subject.label} practice</p><h1>11+ {subject.label} practice.<br/>One step at a time.</h1><p>{isVisual ? 'Original rotation and reflection practice, with clear diagrams and worked visual answers.' : subject.desc}</p><Link className="brand-button" href={practiceHref}>Practise {subject.label} <ArrowRight size={18}/></Link></div><Image src="/brand/book-journey.webp" width={768} height={512} sizes="(max-width: 800px) 90vw, 35vw" alt="An illustrated journey up a staircase of books"/></div></section>
+ <section className="editorial-masthead"><div className="editorial-masthead-inner"><div><p className="brand-eyebrow">11+ {subject.label} practice</p><h1>11+ {subject.label} practice.<br/>One step at a time.</h1><p>{isVisual ? 'Original rotation, reflection, sequence and matrix practice, with clear diagrams and worked visual answers.' : subject.desc}</p><Link className="brand-button" href={practiceHref}>Practise {subject.label} <ArrowRight size={18}/></Link></div><Image src="/brand/book-journey.webp" width={768} height={512} sizes="(max-width: 800px) 90vw, 35vw" alt="An illustrated journey up a staircase of books"/></div></section>
  {children}
  <section className="editorial-topics"><p className="brand-eyebrow">Choose a starting point</p><h2>{subject.label} {isVisual ? 'starter skills' : 'topics covered'}</h2><div className="editorial-topic-links">{visibleTopics.map(topic=><Link key={topic} href={isVisual ? `/quiz?paper=visual-reviewed&topic=${visualRoutes[topic]}&mode=practice` : isVerbal ? `/quiz?paper=verbal-reviewed&topic=${verbalRoutes[topic]}&mode=practice` : "/mock-exams"}>{topic}<ArrowRight size={17}/></Link>)}</div></section>
  <section className="chapter-faq"><div><p className="brand-eyebrow">A few useful answers</p><h2>About {subject.label} practice.</h2></div><div>{content.faqs.map(faq=><details key={faq.q}><summary>{faq.q}</summary><p>{faq.a}</p></details>)}</div></section>

@@ -1,8 +1,8 @@
 import { Question, VisualFigure, VisualPoint, VisualTransform, VisualQuestion } from '../types';
 
-export const visualTopics = ['rotations', 'reflections'] as const;
+export const visualTopics = ['rotations', 'reflections', 'sequences', 'matrices'] as const;
 export type VisualTopic = typeof visualTopics[number];
-export const visualLabels = { rotations: 'NVR rotations', reflections: 'NVR reflections' };
+export const visualLabels = { rotations: 'NVR rotations', reflections: 'NVR reflections', sequences: 'NVR shape sequences', matrices: 'NVR matrices' };
 export function isVisualTopic(value: string): value is VisualTopic { return visualTopics.some(t => t === value); }
 // Original marked, asymmetric motifs. Coordinates are SVG coordinates: x right, y down.
 export const visualMotifs: VisualFigure[] = [
@@ -46,11 +46,27 @@ function makeQuestion(motif:number, operation:Exclude<VisualTransform,'identity'
   return {id:`nvrchecked-${rotation?'rotation':'reflection'}-${motif+1}-${operation}`,text:`${instruction} Which option shows the result?`,options,correctAnswer:options[keyIndex],explanation:`Option ${options[keyIndex]}. ${method} Check the outline as well as the dot.`,topic:rotation?visualLabels.rotations:visualLabels.reflections,visual};
 }
 export function visualPool(topic:VisualTopic):Question[] {
+  if(topic==='sequences' || topic==='matrices') return visualMotifs.flatMap((_,i)=>(['cw90','ccw90'] as const).map((op,j)=>makePattern(i,op,topic,i*2+j)));
   return topic==='rotations' ? visualMotifs.slice(0,4).flatMap((_,i)=>(['cw90','ccw90','half'] as const).map((op,j)=>makeQuestion(i,op,i*3+j))) : visualMotifs.flatMap((_,i)=>(['vertical','horizontal'] as const).map((op,j)=>makeQuestion(i,op,i*2+j)));
 }
 function shuffle<T>(items:T[],random:()=>number):T[] {const copy=items.slice();for(let i=copy.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;}
 export function createVisualPractice(topic?:string,random:()=>number=Math.random,excludeIds:string[]=[]):Question[] {
   if(topic && !isVisualTopic(topic))return [];
   const take=(t:VisualTopic,n:number)=>shuffle(visualPool(t).filter(q=>!excludeIds.includes(q.id)),random).slice(0,n);
-  return topic ? take(topic as VisualTopic,8) : shuffle(visualTopics.flatMap(t=>take(t,4)),random);
+  return topic ? take(topic as VisualTopic,8) : shuffle(visualTopics.flatMap(t=>take(t,2)),random);
+}
+
+// Constant-turn sequences and 3×3 transformation grids: deliberately limited skill families.
+function makePattern(motif:number, operation:'cw90'|'ccw90', topic:'sequences'|'matrices', index:number):Question {
+  const base=visualMotifs[motif];
+  const repeat=(f:VisualFigure,n:number)=>{let out=f;for(let i=0;i<n;i++)out=transformFigure(out,operation);return out;};
+  const matrix=topic==='matrices';
+  const cells:VisualFigure[] = matrix ? Array.from({length:9},(_,i)=>repeat(Math.floor(i/3)%2 ? transformFigure(base,'half') : base,i%3)) : Array.from({length:5},(_,i)=>repeat(base,i));
+  const start=cells[cells.length-2], target=cells[cells.length-1];
+  const keyIndex=index%4, options=['A','B','C','D'];
+  const candidates=[target,transformFigure(start,'identity'),transformFigure(start,'half'),transformFigure(start,operation==='cw90'?'ccw90':'cw90')];
+  const result=Object.fromEntries(options.map((key,i)=>[key,candidates[(i-keyIndex+4)%4]]));
+  const direction=operation==='cw90'?'clockwise':'anticlockwise';
+  const rule=matrix ? `Across every row, each figure turns 90° ${direction} about its own C. Down every column, each figure makes a half turn (180°). From the bottom-middle cell, turn 90° ${direction}; from the middle-right cell, make a half turn. Both give the same bottom-right figure.` : `Each figure turns 90° ${direction} about C to make the next frame. Check all three visible transitions, then apply the same quarter turn to frame 4. After four quarter turns the figure returns to its first orientation.`;
+  return {id:`nvrchecked-${topic}-${motif+1}-${operation}`,text:matrix?'The same turn is used at every step across each row, and the same turn is used down each column. Which option completes the bottom-right cell?':'The same turn is used at every step. Which option is the next figure in the sequence?',options,correctAnswer:options[keyIndex],topic:visualLabels[topic],explanation:`Option ${options[keyIndex]}. ${rule} Follow both the outline and the solid dot; do not flip the figure.`,visual:{start,options:result,guide:'centre',operation,motif,pattern:{kind:matrix?'matrix':'sequence',columns:matrix?3:5,cells:cells.map((f,i)=>i===cells.length-1?null:f)}}};
 }
