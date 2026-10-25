@@ -70,3 +70,7 @@ Five new skill blogs, three Maths and two English, with eight original answer di
 ## Daily release — 24 October 2026
 
 Owner requested execution after finding the daily task disabled. Resumed its existing 06:00 Europe/London schedule and verified enabled; this is configuration evidence, not proof of future publication. Today's five new educational guides and two news candidates are tracked in releases/daily-2026-10-24.md with pre-writing briefs in serp-review-daily-2026-10-24.md. Read the linked branch PR outcome to establish deployment before selecting equivalent topics. No catch-up batches or legacy-audit completions claimed.
+
+## Daily release — 25 October 2026
+
+Five distinct educational guides and one verified news candidate tracked in releases/daily-2026-10-25.md; pre-writing briefs in serp-review-daily-2026-10-25.md. Target remains five educational plus at least two news; one-story shortfall is recorded because other fresh leads were repeats, outside the current window or not11+ events. No filler/catch-up batch. Read the linked PR outcome before counting deployment or selecting equivalents. Legacy repair queue unchanged.

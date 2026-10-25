@@ -1,3 +1,5 @@
+import { DAILY_POSTS_20261025 } from './dailyPosts20261025';
+import { DAILY_NEWS_20261025 } from './dailyNews20261025';
 import { improveSearchPriorityPost } from './gscImprovements20261024';
 import { DAILY_POSTS_20261024 } from './dailyPosts20261024';
 import { DAILY_NEWS_20261024 } from './dailyNews20261024';
@@ -37,6 +39,8 @@ export interface BlogPost {
 }
 
 const BASE_BLOG_POSTS: BlogPost[] = [
+  ...DAILY_POSTS_20261025,
+  ...DAILY_NEWS_20261025,
   ...DAILY_NEWS_20261024,
   ...DAILY_POSTS_20261024,
   ...OCTOBER_NEWS_POSTS,
