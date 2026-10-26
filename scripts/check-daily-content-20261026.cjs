@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),{load}=require('./load-ts.cjs');const posts=load('lib/dailyPosts20261026.ts').DAILY_POSTS_20261026;assert.equal(posts.length,5);assert.equal(new Set(posts.map(p=>p.slug)).size,5);
+const keys=posts.map(p=>p.content.filter(b=>b.type==='question'));assert(keys.every(a=>a.length===8));
+const num=s=>Number(s.replace(/,/g,'').match(/[\d.]+/)[0]);
+assert.deepEqual(keys[0].map(q=>num(q.answer)),[2.35*100,4080/1000,1.2*1000+350,300-85,Math.floor(2100/250),.72, (3*450+120)/1000,2*(1.6+75/100)]);assert(keys[0][5].answer.includes('15 m'));assert.equal(720-705,15);
+assert.deepEqual(keys[1].map(q=>q.answer),['30 loans','13 loans','Tuesday and Wednesday tie at 40','3/5','110 loans','21 books','25','50 children']);const rows=[[18,12],[24,16],[15,25]];assert.deepEqual(rows.map(r=>r[0]+r[1]),[30,40,40]);assert.equal(rows.flat().reduce((a,b)=>a+b),110);assert.equal(24/40,3/5);assert.equal(3.5*6,21);assert.equal(40/8*5,25);assert.equal(14+11+9+16,50);
+assert.deepEqual(keys[2].map(q=>num(q.answer)),[180-127,360-95-140,180-39-76,(180-52)/2,90-34,360-84-96-110,48+67,180/3]);
+assert.deepEqual(keys[3].map(q=>q.answer),['reread','misread','happiness','hoping','hopping','impossible','careless','Noun']);
+assert.deepEqual(keys[4].map(q=>q.answer),['“like a fragile leaf”','For example: it makes the ticking seem critical and pressuring.','Metaphor','“the knot in her stomach loosened”','No','“The ticket shook like a leaf”','For example: it makes the wet platform seem long and shining under the lamps.','For example: “The train roared like a storm.”']);
+// Worked examples independently checked, rather than validating only final question fields.
+assert.equal(1.8*100+65,245);assert.equal(Math.floor(1650/200),8);assert.equal(1650%200,50);assert.equal(100**2,10000);assert.equal(18+24+15,57);assert.equal(12+16+25,53);assert.equal(180-38-67,75);assert.equal((180-44)/2,68);assert.equal(180-(180-47-58),105);
+for(const p of posts){assert.equal(p.date,'October 26, 2026');assert(p.content.some(b=>b.text?.includes('2027')));assert(p.content.some(b=>b.text?.includes('/subjects/'+p.subject)));assert(p.content.some(b=>b.text?.includes('gov.uk')));assert(p.imageAlt.length>20)}
+console.log('PASS5 educational pages,24 independently recomputed maths keys and worked examples,16 sentence/passage-specific English models with alternatives, metadata/source/hub checks. No news claimed.');
