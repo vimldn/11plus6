@@ -530,6 +530,7 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="wirral-results-news"><p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Checked 27 October 2026</p><h2 id="wirral-results-news" className="mt-3 text-3xl"><Link className="underline" href="/blog/wirral-11-plus-results-october-2026">Wirral’s 21 October results milestone: applications remain separate</Link></h2><p className="mt-4 leading-relaxed">The council timetable concerns September 2027 entry. Our report also distinguishes its published timeline for tests taken in 2027 and September 2028 entry.</p></section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="aylesbury-consultation-news"><p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Checked 25 October 2026</p><h2 id="aylesbury-consultation-news" className="mt-3 text-3xl"><Link className="underline" href="/blog/aylesbury-grammar-2028-admissions-consultation">Aylesbury Grammar: 2028 admissions consultation</Link></h2><p className="mt-4 leading-relaxed">Consultation opened 20 October and closes 1 December 2026. A draft for September 2028 entry, relevant to families preparing for tests taken in 2027.</p></section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="october-admissions-news">
           <p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Checked 24 October 2026</p>
