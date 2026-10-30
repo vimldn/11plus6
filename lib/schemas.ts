@@ -67,6 +67,7 @@ export function articleSchema({
   datePublished,
   dateModified,
   articleType = 'Article',
+  image,
 }: {
   slug: string;
   title: string;
@@ -74,6 +75,7 @@ export function articleSchema({
   datePublished: string;
   dateModified?: string;
   articleType?: 'Article' | 'NewsArticle';
+  image?: string;
 }) {
   const pageUrl = `${BASE}/blog/${slug}`;
   return [
@@ -83,6 +85,7 @@ export function articleSchema({
       '@id': `${pageUrl}#article`,
       url: pageUrl,
       headline: title,
+      ...(image ? { image: [new URL(image, BASE).href] } : {}),
       description,
       datePublished,
       dateModified: dateModified ?? datePublished,

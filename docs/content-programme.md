@@ -74,3 +74,7 @@ Owner requested execution after finding the daily task disabled. Resumed its exi
 ## Daily release — 25 October 2026
 
 Five distinct educational guides and one verified news candidate tracked in releases/daily-2026-10-25.md; pre-writing briefs in serp-review-daily-2026-10-25.md. Target remains five educational plus at least two news; one-story shortfall is recorded because other fresh leads were repeats, outside the current window or not11+ events. No filler/catch-up batch. Read the linked PR outcome before counting deployment or selecting equivalents. Legacy repair queue unchanged.
+
+## Topic-specific blog imagery — owner instruction 30 October 2026
+
+Every educational and news post must have a distinct, attractive image appropriate to its topic. Do not reuse the homepage/header book illustration or a generic shared cover. Follow `docs/blog-artwork.md`, record provenance and alt text, optimise responsive local assets, check archive/hero/social/schema output and run the artwork gate after the build. Artwork is part of release readiness; hold missing or failed imagery. No image previews are required in chat. All existing research, answer, linking and deployment checks still apply.
