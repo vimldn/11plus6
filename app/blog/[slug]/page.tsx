@@ -1,3 +1,4 @@
+import { blogImageSrcSet } from '@/lib/blogArtwork';
 import { mathsJourneys, topicPracticeHref } from '@/lib/practiceJourneys';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -27,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.desc,
     alternates: { canonical: `/blog/${params.slug}` },
+    twitter: { card: 'summary_large_image', title: post.title, description: post.desc, images: [{ url: post.imageUrl, alt: post.imageAlt }] },
     openGraph: {
       title: post.title,
       description: post.desc,
@@ -289,21 +291,19 @@ export default function BlogPostPage({ params }: Props) {
   const practiceSubject = englishPracticeSlugs.includes(post.slug) ? 'english' : 'maths';
   const topicPractice = englishPracticeSlugs.includes(post.slug) ? publishedLessons('english') : practiceSlugs.includes(post.slug) ? publishedLessons('maths') : [];
   const externalLinks = post.kind === 'news' || post.subject || post.editorial ? [] : getExternalLinks(post.category);
-  // Use _1 as hero image (index 0), rest for inline
-  // imageUrl (_4) is the confirmed working image — use it as hero
-  // images[] contains _1–_4 variants; use _2–_4 inline (skip _1 as unconfirmed)
+  // The article cover also supplies cards, social previews and Article image metadata.
   const heroImage = post.imageUrl;
   const focusedJourney = mathsJourneys.find(j => j.guide === `/blog/${post.slug}`);
 
   return (
     <>
-      <SchemaOrg data={articleSchema({ slug: post.slug, title: post.title, description: post.desc, datePublished: new Date(`${post.date} UTC`).toISOString().split("T")[0], dateModified: post.updatedAt, articleType: post.kind === 'news' ? 'NewsArticle' : 'Article' })} />
+      <SchemaOrg data={articleSchema({ slug: post.slug, title: post.title, description: post.desc, datePublished: new Date(`${post.date} UTC`).toISOString().split("T")[0], dateModified: post.updatedAt, articleType: post.kind === 'news' ? 'NewsArticle' : 'Article', image: post.imageUrl })} />
       <SiteNav />
       <main id="main-content" className="editorial-reading min-h-screen bg-white">
 
         {/* ── Featured image ── */}
-        <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-slate-100">
-          <img src={heroImage} alt={post.imageAlt} className={`absolute inset-0 w-full h-full ${(post.subject || post.kind === 'news' || post.editorial) ? 'object-contain p-6 bg-slate-50' : 'object-cover'}`} />
+        <div className={heroImage.startsWith('/blog-artwork/') ? 'relative w-full max-w-6xl mx-auto aspect-[3/2] sm:aspect-[2/1] overflow-hidden bg-slate-100' : 'relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-slate-100'}>
+          <img src={heroImage} srcSet={blogImageSrcSet(heroImage)} sizes="(min-width: 1152px) 1152px, 100vw" width={1200} height={800} alt={post.imageAlt} className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 max-w-3xl mx-auto px-4 pb-8">
             <div className="flex items-center gap-2 mb-3">
@@ -378,7 +378,7 @@ export default function BlogPostPage({ params }: Props) {
                     className="group flex flex-col rounded-2xl border border-slate-200 hover:border-indigo-200 hover:shadow-md transition-all overflow-hidden"
                   >
                     <div className="relative h-32 overflow-hidden">
-                      <img src={p.imageUrl} alt={p.imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
+                      <img src={p.imageUrl} srcSet={blogImageSrcSet(p.imageUrl)} sizes="(min-width: 768px) 360px, 100vw" loading="lazy" decoding="async" width={1200} height={800} alt={p.imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
                     </div>
                     <div className="p-4 flex flex-col flex-1">
                       <span className="text-[10px] font-black text-indigo-600 uppercase tracking-wide mb-1">{p.category}</span>

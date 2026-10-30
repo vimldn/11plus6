@@ -1,6 +1,6 @@
+import { blogImageSrcSet } from '@/lib/blogArtwork';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { BookOpen, ArrowRight, Clock } from 'lucide-react';
@@ -44,6 +44,9 @@ export default function BlogIndexPage() {
             <div className="relative h-56 md:h-auto min-h-[220px] overflow-hidden">
               <img
                 src={featured.imageUrl}
+                srcSet={blogImageSrcSet(featured.imageUrl)}
+                sizes="(min-width: 768px) 560px, 100vw"
+                width={1200} height={800}
                 alt={featured.imageAlt}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
               />
@@ -76,9 +79,12 @@ export default function BlogIndexPage() {
               href={`/blog/${post.slug}`}
               className="group rounded-2xl overflow-hidden border border-slate-200 hover:border-indigo-200 hover:shadow-md transition-all flex flex-col"
             >
-              <div className="relative h-44 overflow-hidden">
+              <div className={post.imageUrl.startsWith('/blog-artwork/') ? 'relative aspect-[16/9] overflow-hidden' : 'relative h-44 overflow-hidden'}>
                 <img
                   src={post.imageUrl}
+                  srcSet={blogImageSrcSet(post.imageUrl)}
+                  sizes="(min-width: 768px) 560px, 100vw"
+                  loading="lazy" decoding="async" width={1200} height={800}
                   alt={post.imageAlt}
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
                 />

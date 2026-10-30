@@ -1,3 +1,4 @@
+import { BLOG_ARTWORK } from './blogArtwork';
 import { DAILY_POSTS_20261030 } from './dailyPosts20261030';
 import { DAILY_POSTS_20261029 } from './dailyPosts20261029';
 import { DAILY_POSTS_20261028 } from './dailyPosts20261028';
@@ -13966,7 +13967,7 @@ const BASE_BLOG_POSTS: BlogPost[] = [
 
 ];
 
-export const BLOG_POSTS: BlogPost[] = BASE_BLOG_POSTS.map(improveSearchPriorityPost);
+export const BLOG_POSTS: BlogPost[] = BASE_BLOG_POSTS.map(improveSearchPriorityPost).map(post => ({ ...post, ...BLOG_ARTWORK[post.slug] }));
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
