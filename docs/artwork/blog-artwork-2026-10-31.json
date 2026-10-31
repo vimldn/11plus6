@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-31",
+  "method": "Original built-in image_gen editorial illustrations",
+  "items": [
+    {
+      "slug": "11-plus-long-division-remainders",
+      "prompt": "Use case: illustration-story. Original premium British educational blog cover, landscape1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard, restrained terracotta, tactile paper grain, warm natural light, sophisticated editorial illustration. Strong central subject, generous safe crop margins, no headline, logos, watermark or generic books staircase. A shopkeeper's wooden workbench with small oranges being shared into several equal-sized wicker baskets, a few remaining beside the baskets; no maths labels.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-long-division-remainders.webp",
+        "sha256": "c7349c83e4025b63b53117cecf28502b3e58754c7e9fb3cbc6b7eea4478c462d",
+        "bytes": 166904
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-long-division-remainders-600.webp",
+        "sha256": "389946c58bb55156119592c0ee888ee6de80fe39b934a83ead0b8a3e5e447f20",
+        "bytes": 51462
+      }
+    },
+    {
+      "slug": "11-plus-square-cube-numbers",
+      "prompt": "Use case: illustration-story. Original premium British educational blog cover, landscape1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard, restrained terracotta, tactile paper grain, warm natural light, sophisticated editorial illustration. Strong central subject, generous safe crop margins, no headline, logos, watermark or generic books staircase. A beautiful still life of wooden cubes beside a square mosaic tile on a forest green tabletop, warm angled light; conceptual not an exact maths diagram.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-square-cube-numbers.webp",
+        "sha256": "242f5e500286ac7ca8c5d5aef90532c71d0576350b2a8fc39b23ae052cc7e499",
+        "bytes": 120806
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-square-cube-numbers-600.webp",
+        "sha256": "59a89a0d27295604a2f9fb9fa50d9ef011f0053cc40c6c609bbc6b25b8126ad1",
+        "bytes": 39622
+      }
+    },
+    {
+      "slug": "11-plus-summarising-main-ideas",
+      "prompt": "Use case: illustration-story. Original premium British educational blog cover, landscape1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard, restrained terracotta, tactile paper grain, warm natural light, sophisticated editorial illustration. Strong central subject, generous safe crop margins, no headline, logos, watermark or generic books staircase. A child at a desk condensing several ivory paper sheets into one small note card, pencils and a terracotta cup, viewed over the shoulder; no readable writing.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-summarising-main-ideas.webp",
+        "sha256": "e1896961d0e8c475897afb9be79c41a850e12e62299e8977aa8ec8372c63a49e",
+        "bytes": 160870
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-summarising-main-ideas-600.webp",
+        "sha256": "95bdc5587c18e9d533b78ddc6cbbc3dbd951f27fda6531bf58bb9a8df72d1783",
+        "bytes": 50694
+      }
+    },
+    {
+      "slug": "11-plus-writers-purpose",
+      "prompt": "Use case: illustration-story. Original premium British educational blog cover, landscape1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard, restrained terracotta, tactile paper grain, warm natural light, sophisticated editorial illustration. Strong central subject, generous safe crop margins, no headline, logos, watermark or generic books staircase. A writer's desk with a fountain pen, an inviting illustrated invitation, an instruction sheet with pictorial steps and a small story booklet; no readable words.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-writers-purpose.webp",
+        "sha256": "8b6b7f2b32ad6442674bd17a8a7971952dccaab70b0038c907704695f054c280",
+        "bytes": 206170
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-writers-purpose-600.webp",
+        "sha256": "8e45e93cbe53bf17bdde8fa9861c803e137438f496e9d22a42fc3d9212c4f766",
+        "bytes": 61382
+      }
+    },
+    {
+      "slug": "11-plus-fact-opinion",
+      "prompt": "Use case: illustration-story. Original premium British educational blog cover, landscape1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard, restrained terracotta, tactile paper grain, warm natural light, sophisticated editorial illustration. Strong central subject, generous safe crop margins, no headline, logos, watermark or generic books staircase. An elegant magnifying glass over a plain notebook alongside two different coloured speech-bubble paper cutouts, a thoughtful editorial still life about evidence and viewpoints; no text.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-fact-opinion.webp",
+        "sha256": "366c47a2505c965ce000caf61ec49dabe2e1913b2e0098fae565c8547d6d3711",
+        "bytes": 132606
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-fact-opinion-600.webp",
+        "sha256": "63bde687fbd3d08b1570304233f8434ce5a62dcd302a7596ec90f2efaeffbb46",
+        "bytes": 40726
+      }
+    }
+  ]
+}
