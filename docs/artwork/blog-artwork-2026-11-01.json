@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Original editorial covers, not factual diagrams or photographs",
+  "items": [
+    {
+      "slug": "11-plus-long-multiplication",
+      "prompt": "Use case: illustration-story. Asset: original premium British educational blog cover, landscape 1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard and restrained terracotta, tactile paper grain, warm natural light. Strong central subject, safe margins for 2:1 and16:9 crops. No logos, watermark, headline or generic book staircase. A charming seed merchant's packing bench, small paper seed packets arranged in orderly rows in shallow wooden trays, a child's hand grouping packets, soft greenhouse foliage. Editorial metaphor for equal groups and multiplication, not an exact counting diagram. No numerals or text.",
+      "method": "Original built-in image generation; resized and WebP-encoded locally",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-long-multiplication.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 176650,
+        "sha256": "c0d429a0466b571cbea8677c4a1ce53b0604f4dfebebe0b934944948ddb5292e"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-long-multiplication-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 64184,
+        "sha256": "f000cfd0df42ac0fa36a2df194c615292ed27b9abf63c62014355a03bedcca09"
+      }
+    },
+    {
+      "slug": "11-plus-roman-numerals",
+      "prompt": "Use case: illustration-story. Original premium British educational blog cover for learning Roman numerals, landscape1536x1024. A small classical Roman stone column fragment, a terracotta oil lamp and a blank wax writing tablet with stylus on an archaeologist's table, laurel leaves and a softly distant Roman arch. Hand-painted gouache and coloured pencil, forest green, ivory, mustard and restrained terracotta, tactile paper grain. Central still-life with safe margins for2:1 and16:9 crops. Absolutely NO lettering, numerals, carvings of symbols, clock, sundial, text, logos or watermark. This is an evocative historical editorial illustration, not a mathematical diagram.",
+      "method": "Original built-in image generation; resized and WebP-encoded locally",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-roman-numerals.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 174996,
+        "sha256": "e99f5751a28e219588712173c9c469c455dc9fa8b258e6b97f058d5174a8b6ef"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-roman-numerals-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 54098,
+        "sha256": "ab753b2d243bb079c06def8636d1bd10a3cc53a73247380b46ae45f0c69ef9eb"
+      }
+    },
+    {
+      "slug": "11-plus-pronouns",
+      "prompt": "Use case: illustration-story. Asset: original premium British educational blog cover, landscape 1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard and restrained terracotta, tactile paper grain, warm natural light. Strong central subject, safe margins for 2:1 and16:9 crops. No logos, watermark, headline or generic book staircase. Two children at a puppet theatre exchanging a small wooden fox puppet between them, one pointing gently to the puppet. A thoughtful visual story about who is speaking and who is being referred to. Distinct warm outfits, uncluttered stage, no lettering or speech bubble text.",
+      "method": "Original built-in image generation; resized and WebP-encoded locally",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-pronouns.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 135540,
+        "sha256": "f8aa9a588d4121028a95f8376d6657400b435a9e40f20e9f7b89cc4a7278e911"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-pronouns-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 47948,
+        "sha256": "e5d8e62c278f581dfc8da017279afa888e1bebe466e2581ed2952590994bb76c"
+      }
+    },
+    {
+      "slug": "11-plus-adverbs-adverbials",
+      "prompt": "Use case: illustration-story. Asset: original premium British educational blog cover, landscape 1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard and restrained terracotta, tactile paper grain, warm natural light. Strong central subject, safe margins for 2:1 and16:9 crops. No logos, watermark, headline or generic book staircase. A fox moving lightly along a woodland path while a tortoise walks slowly nearby, morning light filtering through leaves and a distant small garden gate. Lively movement contrasts, whimsical but sophisticated, no arrows or diagram labels, no text.",
+      "method": "Original built-in image generation; resized and WebP-encoded locally",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-adverbs-adverbials.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 227866,
+        "sha256": "97e741fa90397599ba47bf47d84869699d1a9e26200e8d1f1683ab5c2cc8a48d"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-adverbs-adverbials-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 78576,
+        "sha256": "59119ee9a324bf4aa3503200f59dba69d6abbb865a7d2b5a2517d72c098b97dc"
+      }
+    },
+    {
+      "slug": "11-plus-hyphens-dashes",
+      "prompt": "Use case: illustration-story. Asset: original premium British educational blog cover, landscape 1536x1024. Hand-painted gouache and coloured pencil, forest green, ivory, mustard and restrained terracotta, tactile paper grain, warm natural light. Strong central subject, safe margins for 2:1 and16:9 crops. No logos, watermark, headline or generic book staircase. A writer's desk with two small paper tags linked by a short green thread and a longer ribbon enclosing a tiny dried-flower note, fountain pen nearby. Tactile editorial metaphor for joining and setting apart, elegant stationery still life, blank paper without letters or numbers.",
+      "method": "Original built-in image generation; resized and WebP-encoded locally",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-hyphens-dashes.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 134540,
+        "sha256": "bdac31e1dd67c1f652569075a2527f6717463158c446c79c3b113436480941dd"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-hyphens-dashes-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 47440,
+        "sha256": "058929a7cc59e7ec56ac1f59bd4b070615b03620ae74fe703ef0b0485c66d6dd"
+      }
+    }
+  ]
+}
