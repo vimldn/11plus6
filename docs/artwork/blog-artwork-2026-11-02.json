@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "slug": "11-plus-prepositions",
+      "method": "built-in image_gen, original illustration",
+      "generated": "2026-11-02",
+      "prompt": "Use case: illustration-story. Asset type: original premium educational blog cover, landscape1536x1024. A curious terracotta cat curled beneath a forest-green wooden chair, with a mustard ball beside the chair and a leafy plant behind it. Warm home window light, spatial relationships clear, no arrows or labels. Polished gouache and coloured pencil editorial illustration. Forest green, warm ivory, mustard, restrained terracotta palette. Central subject safe for3:2,2:1 and16:9 crops, textured ivory margins, elegant uncluttered composition. No text, letters, numbers, logos, watermark, official insignia, book staircase or generic school header. Not a precise instructional diagram.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-prepositions.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 154770,
+        "sha256": "de4a24f8fb114aba8f4a6f0d23629146423183e4c3e31b78ae171aeaf608c3b0"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-prepositions-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 50074,
+        "sha256": "76a4f43ae18ca0c408253042265978a137b2002e6444097864e4094d47b2aa1f"
+      }
+    },
+    {
+      "slug": "11-plus-conjunctions",
+      "method": "built-in image_gen, original illustration",
+      "generated": "2026-11-02",
+      "prompt": "Use case: illustration-story. Asset type: original premium educational blog cover, landscape1536x1024. Two small garden islands joined by an elegant arched wooden footbridge across a gentle stream, one with a pear tree and one with flowers. Joining ideas metaphor, rich hand-drawn foliage, elevated view. Polished gouache and coloured pencil editorial illustration. Forest green, warm ivory, mustard, restrained terracotta palette. Central subject safe for3:2,2:1 and16:9 crops, textured ivory margins, elegant uncluttered composition. No text, letters, numbers, logos, watermark, official insignia, book staircase or generic school header. Not a precise instructional diagram.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-conjunctions.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 236358,
+        "sha256": "9ea6bcd55a23e5911765486e972b56d7af9f5ef64dacd276dc50b50b94b77077"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-conjunctions-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 76406,
+        "sha256": "b244264ffe3589dc3d20eb6be1ee5988b798299db00dae4775ba7ffaa963e668"
+      }
+    },
+    {
+      "slug": "11-plus-determiners-articles",
+      "method": "built-in image_gen, original illustration",
+      "generated": "2026-11-02",
+      "prompt": "Use case: illustration-story. Asset type: original premium educational blog cover, landscape1536x1024. A child's hand selecting one distinctive striped pear from a market tray of plain green pears, with a small empty wicker basket alongside. Specific versus general choice metaphor, close-up still life. Polished gouache and coloured pencil editorial illustration. Forest green, warm ivory, mustard, restrained terracotta palette. Central subject safe for3:2,2:1 and16:9 crops, textured ivory margins, elegant uncluttered composition. No text, letters, numbers, logos, watermark, official insignia, book staircase or generic school header. Not a precise instructional diagram.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-determiners-articles.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 128298,
+        "sha256": "a004719f9b76bf4f3faa6089b994c2c409949778a08dfc8701f15d49d5a70a79"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-determiners-articles-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 42334,
+        "sha256": "364068c46e4fdc6198fbb0be4faa16cc115aeb3a39d3a3d54c7bbd9ffd6e909a"
+      }
+    },
+    {
+      "slug": "11-plus-modal-verbs",
+      "method": "built-in image_gen, original illustration",
+      "generated": "2026-11-02",
+      "prompt": "Use case: illustration-story. Asset type: original premium educational blog cover, landscape1536x1024. A child at a window considering a picnic, folded umbrella and sunhat on the sill, outside a changeable sky with a few clouds and soft sunlight. Thoughtful possibility rather than certainty, no speech bubbles. Polished gouache and coloured pencil editorial illustration. Forest green, warm ivory, mustard, restrained terracotta palette. Central subject safe for3:2,2:1 and16:9 crops, textured ivory margins, elegant uncluttered composition. No text, letters, numbers, logos, watermark, official insignia, book staircase or generic school header. Not a precise instructional diagram.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-modal-verbs.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 170088,
+        "sha256": "be81948e1b8d06d61cde51d568eb232f704b5aa35a17b382ab9a7317ee234a26"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-modal-verbs-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 53792,
+        "sha256": "9f94a953505087b42282bf6cb2a2d4696c9d1c9809208e7916f6ea294554c675"
+      }
+    },
+    {
+      "slug": "11-plus-comparative-superlative-adjectives",
+      "method": "built-in image_gen, original illustration",
+      "generated": "2026-11-02",
+      "prompt": "Use case: illustration-story. Asset type: original premium educational blog cover, landscape1536x1024. Three hand-thrown ceramic plant pots with leafy plants of clearly different heights on a gardener's bench. A charming tiny plant, medium plant and tall plant, tactile ceramic and botanical detail, no measurement marks. Polished gouache and coloured pencil editorial illustration. Forest green, warm ivory, mustard, restrained terracotta palette. Central subject safe for3:2,2:1 and16:9 crops, textured ivory margins, elegant uncluttered composition. No text, letters, numbers, logos, watermark, official insignia, book staircase or generic school header. Not a precise instructional diagram.",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-comparative-superlative-adjectives.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 152440,
+        "sha256": "232e7fca230b024bd1b85f273d72e32edc6a8b6f22212fc172ebf924b2752cfc"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-comparative-superlative-adjectives-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 53736,
+        "sha256": "7ef64a1fc0f4918ab409aa9855c62e40a6f1e69ee46066b9aa8967eda75f31da"
+      }
+    }
+  ]
+}
