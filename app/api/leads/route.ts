@@ -13,7 +13,8 @@ export async function POST(req: Request) {
     const payload = {
       email:        String(body?.email        || '').trim().slice(0, 254),
       parentName:   String(body?.parentName   || '').trim().slice(0, 100),
-      childName:    String(body?.childName    || body?.name || '').trim().slice(0, 100),
+      // Preserve the existing Apps Script name field while exposing the correct parentName field.
+      childName:    String(body?.childName    || body?.name || body?.parentName || '').trim().slice(0, 100),
       targetSchool: String(body?.targetSchool || body?.schoolId || '').trim().slice(0, 160),
       phone:        String(body?.phone        || '').trim().slice(0, 40),
       childYear:    String(body?.childYear    || '').trim().slice(0, 40),

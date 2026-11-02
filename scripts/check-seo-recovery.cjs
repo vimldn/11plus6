@@ -17,6 +17,7 @@ async function checkLeadDelivery() {
     const valid = { email: 'parent@example.test', parentName: 'Example Parent', notes: 'Example enquiry', source: 'test' };
     assert.equal((await POST(request(valid))).status, 200);
     assert.equal(sent.parentName, valid.parentName);
+    assert.equal(sent.childName, valid.parentName, 'Keep the existing receiver name slot compatible');
     assert.equal(sent.notes, valid.notes);
     assert.equal(sent.requestedUpdates, false);
     global.fetch = async () => ({ ok: false, status: 503 });
