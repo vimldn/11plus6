@@ -10,7 +10,7 @@ interface SiteNavProps {ctaLabel?:string;ctaHref?:string;onCtaClick?:()=>void;}
 const links=[['Practice','/subjects'],['Mock exams','/mock-exams'],['Papers','/papers'],['School guides','/schools'],['Blog','/blog']];
 export const SiteNav:React.FC<SiteNavProps>=({ctaLabel='My practice',ctaHref='/mock-exams',onCtaClick})=>{
  const [open,setOpen]=useState(false);
- return <header className="brand-header"><a href="#main-content" className="brand-skip">Skip to content</a><nav className="brand-nav" aria-label="Main navigation"><Link href="/" className="brand-wordmark" aria-label="11 Plus Exam Papers home"><span>11+</span><b>EXAM PAPERS</b></Link><div className="brand-desktop">{links.map(([label,url])=><Link key={url} href={url}>{label}</Link>)}</div><div className="brand-nav-end">{onCtaClick?<button onClick={onCtaClick} className="brand-nav-cta">{ctaLabel}</button>:<Link className="brand-nav-cta" href={ctaHref}>{ctaLabel}</Link>}<button className="brand-menu" aria-label={open?'Close menu':'Open menu'} aria-expanded={open} aria-controls="brand-mobile-nav" onClick={()=>setOpen(!open)}>{open?<X size={22}/>:<Menu size={22}/>}</button></div></nav>{open&&<nav id="brand-mobile-nav" className="brand-mobile" aria-label="Mobile navigation">{[...links,['Exam dates','/exam-dates'],['Tutors','/tutors'],['Compare schools','/compare']].map(([label,url])=><Link key={url} onClick={()=>setOpen(false)} href={url}>{label}<ArrowRight size={16}/></Link>)}</nav>}</header>;
+ return <header className="brand-header"><a href="#main-content" className="brand-skip">Skip to content</a><nav className="brand-nav" aria-label="Main navigation"><Link href="/" className="brand-wordmark" aria-label="11+ Exam Papers home"><span>11+</span><b>EXAM PAPERS</b></Link><div className="brand-desktop">{links.map(([label,url])=><Link key={url} href={url}>{label}</Link>)}</div><div className="brand-nav-end">{onCtaClick?<button onClick={onCtaClick} className="brand-nav-cta">{ctaLabel}</button>:<Link className="brand-nav-cta" href={ctaHref}>{ctaLabel}</Link>}<button className="brand-menu" aria-label={open?'Close menu':'Open menu'} aria-expanded={open} aria-controls="brand-mobile-nav" onClick={()=>setOpen(!open)}>{open?<X size={22}/>:<Menu size={22}/>}</button></div></nav>{open&&<nav id="brand-mobile-nav" className="brand-mobile" aria-label="Mobile navigation">{[...links,['Exam dates','/exam-dates'],['Tutors','/tutors'],['Compare schools','/compare']].map(([label,url])=><Link key={url} onClick={()=>setOpen(false)} href={url}>{label}<ArrowRight size={16}/></Link>)}</nav>}</header>;
 };
 
 // ─── LeadGenModal ─────────────────────────────────────────────────────────────
@@ -24,11 +24,20 @@ export const LeadGenModal = ({
   onClose: () => void;
   onSubmit: () => void;
 }) => {
-  const [formData, setFormData] = useState({ email: '', phone: '', childName: '', childYear: '' });
+  const [formData, setFormData] = useState({ email: '', phone: '', parentName: '', childYear: '' });
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (formData.email && formData.childName) onSubmit();
+    if (!formData.email || !formData.parentName) return;
+    setSending(true); setError('');
+    try {
+      const response = await fetch('/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...formData, source: 'location-tutor-enquiry' }) });
+      if (!response.ok) throw new Error('Delivery failed');
+      onSubmit();
+    } catch { setError('Your enquiry could not be delivered. Please try again or email hello@11plusexampapers.com.'); }
+    finally { setSending(false); }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -86,11 +95,11 @@ export const LeadGenModal = ({
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Your phone number</label>
+                    <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Your phone number (optional)</label>
                     <div className="relative">
                       <Phone className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                       <input
-                        type="tel" name="phone" required
+                        type="tel" name="phone"
                         className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none font-medium text-slate-800"
                         placeholder="07xxx xxxxxx"
                         value={formData.phone} onChange={handleChange}
@@ -100,24 +109,24 @@ export const LeadGenModal = ({
 
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Child's name</label>
+                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Parent or carer name</label>
                       <div className="relative">
                         <User className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                         <input
-                          type="text" name="childName" required
+                          type="text" name="parentName" required
                           className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none font-medium text-slate-800"
-                          placeholder="Noah"
-                          value={formData.childName} onChange={handleChange}
+                          placeholder="Your name"
+                          value={formData.parentName} onChange={handleChange}
                         />
                       </div>
                     </div>
 
                     <div>
-                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Year group</label>
+                      <label className="block text-xs font-bold text-slate-700 mb-1.5 uppercase tracking-wide">Year group (optional)</label>
                       <div className="relative">
                         <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                         <select
-                          name="childYear" required
+                          name="childYear"
                           className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none font-medium text-slate-800 appearance-none"
                           value={formData.childYear} onChange={handleChange}
                         >
@@ -131,11 +140,14 @@ export const LeadGenModal = ({
                     </div>
                   </div>
 
+                  {error && <p role="alert" className="text-sm text-red-700">{error}</p>}
+                  <p className="text-xs leading-5">For parents and carers. We use your details to reply to this enquiry. <Link href="/privacy" className="underline">Privacy policy</Link></p>
                   <button
+                    disabled={sending}
                     type="submit"
                     className="w-full py-4 mt-2 bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold text-lg rounded-xl shadow-lg shadow-indigo-200 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2"
                   >
-                    Send enquiry <ArrowRight size={20} />
+                    {sending ? 'Sending…' : 'Send enquiry'} <ArrowRight size={20} />
                   </button>
 
                   <p className="text-xs text-center text-slate-400 flex items-center justify-center gap-1">

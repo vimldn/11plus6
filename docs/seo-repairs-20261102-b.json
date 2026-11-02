@@ -1,0 +1,712 @@
+{
+  "date": "2026-11-02",
+  "batch": "B",
+  "status": "ready",
+  "publicationStatus": "awaiting integration and release verification",
+  "ownedFiles": [
+    "lib/seoRepairs20261102B.ts",
+    "docs/research/seo-repairs-2026-11-02-b.md",
+    "docs/seo-repairs-20261102-b.json"
+  ],
+  "scope": "Last 13 pending existing-article repairs; no new posts, URL changes, original-date changes or artwork changes.",
+  "reviewAttribution": "Editorial/source checking and arithmetic verification only; no named educator review or hands-on product testing is claimed.",
+  "researchCompletedBeforeDrafting": true,
+  "verification": {
+    "status": "passed",
+    "errors": [],
+    "checks": [
+      "13 exact owned slugs",
+      "No overrides of slug/original date/artwork/category",
+      "updatedAt and editorial metadata",
+      "Block structure/table widths/question completeness",
+      "All internal destinations resolve",
+      "Standalone TypeScript semantic check"
+    ],
+    "reports": [
+      {
+        "slug": "what-is-covered-in-11-plus-creative-writing",
+        "words": 895,
+        "blocks": 22,
+        "questions": 0,
+        "internalLinks": 2,
+        "externalLinks": 2,
+        "titleLength": 58,
+        "descriptionLength": 147,
+        "readTime": "5 min read"
+      },
+      {
+        "slug": "do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+        "words": 835,
+        "blocks": 20,
+        "questions": 0,
+        "internalLinks": 1,
+        "externalLinks": 4,
+        "titleLength": 59,
+        "descriptionLength": 151,
+        "readTime": "5 min read"
+      },
+      {
+        "slug": "what-is-the-typical-day-like-at-a-grammar-school",
+        "words": 764,
+        "blocks": 18,
+        "questions": 0,
+        "internalLinks": 1,
+        "externalLinks": 2,
+        "titleLength": 57,
+        "descriptionLength": 146,
+        "readTime": "4 min read"
+      },
+      {
+        "slug": "what-level-of-ks2-is-needed-for-the-11-plus",
+        "words": 748,
+        "blocks": 20,
+        "questions": 3,
+        "internalLinks": 4,
+        "externalLinks": 4,
+        "titleLength": 65,
+        "descriptionLength": 149,
+        "readTime": "4 min read"
+      },
+      {
+        "slug": "common-11-plus-maths-mistakes-to-avoid",
+        "words": 863,
+        "blocks": 30,
+        "questions": 8,
+        "internalLinks": 4,
+        "externalLinks": 2,
+        "titleLength": 65,
+        "descriptionLength": 148,
+        "readTime": "5 min read"
+      },
+      {
+        "slug": "common-11-plus-english-mistakes-to-avoid",
+        "words": 874,
+        "blocks": 27,
+        "questions": 7,
+        "internalLinks": 5,
+        "externalLinks": 1,
+        "titleLength": 59,
+        "descriptionLength": 145,
+        "readTime": "5 min read"
+      },
+      {
+        "slug": "best-books-for-11-plus-preparation",
+        "words": 810,
+        "blocks": 18,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 3,
+        "titleLength": 61,
+        "descriptionLength": 149,
+        "readTime": "4 min read"
+      },
+      {
+        "slug": "how-different-are-11-plus-exams-by-region",
+        "words": 777,
+        "blocks": 16,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 4,
+        "titleLength": 53,
+        "descriptionLength": 148,
+        "readTime": "4 min read"
+      },
+      {
+        "slug": "how-many-grammar-schools-are-there-in-england",
+        "words": 579,
+        "blocks": 15,
+        "questions": 0,
+        "internalLinks": 2,
+        "externalLinks": 4,
+        "titleLength": 64,
+        "descriptionLength": 154,
+        "readTime": "3 min read"
+      },
+      {
+        "slug": "how-much-homework-do-grammar-school-students-get",
+        "words": 796,
+        "blocks": 21,
+        "questions": 0,
+        "internalLinks": 1,
+        "externalLinks": 2,
+        "titleLength": 67,
+        "descriptionLength": 157,
+        "readTime": "4 min read"
+      },
+      {
+        "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
+        "words": 748,
+        "blocks": 17,
+        "questions": 0,
+        "internalLinks": 2,
+        "externalLinks": 2,
+        "titleLength": 56,
+        "descriptionLength": 152,
+        "readTime": "4 min read"
+      },
+      {
+        "slug": "how-early-should-we-start-preparing-for-grammar-school-entry",
+        "words": 797,
+        "blocks": 20,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 4,
+        "titleLength": 65,
+        "descriptionLength": 151,
+        "readTime": "4 min read"
+      },
+      {
+        "slug": "is-a-tutor-necessary-for-grammar-school-entrance",
+        "words": 824,
+        "blocks": 21,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 5,
+        "titleLength": 68,
+        "descriptionLength": 154,
+        "readTime": "5 min read"
+      }
+    ],
+    "independentArithmeticChecks": "passed: all 10 numeric question answers, fraction teaching example and invented university denominator example recalculated using Fraction/Decimal or integer arithmetic",
+    "sourceFacts": "Primary sources read live 2026-11-02; current cycles labelled; failed reads excluded",
+    "lessonDestinations": "Published status checked in data/lessons.ts and data/englishLessons.ts for all linked lessons",
+    "integrationBuild": "Not claimed here; owned by integrating agent",
+    "productionRendering": "Not yet checked by this batch"
+  },
+  "grammarSchoolCountEvidence": {
+    "checkedAt": "2026-11-02",
+    "catalogueUrl": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/42a45473-ed18-460b-8d9e-1ea026d91949",
+    "datasetId": "019e7402-bf2d-7213-925d-3f64030f78cc",
+    "datasetVersion": "1.0",
+    "censusSnapshot": "January 2026",
+    "publicationDate": "2026-06-04",
+    "queryUrl": "https://api.education.gov.uk/statistics/v1/data-sets/019e7402-bf2d-7213-925d-3f64030f78cc/query?geographicLevels.eq=NAT&timePeriods.eq=2025%2F2026%7CAY&filters.eq=hMDfy&debug=true&pageSize=10000",
+    "returnedRows": 40,
+    "selectedRows": 1,
+    "selectedRow": {
+      "timePeriod": {
+        "code": "AY",
+        "period": "2025/2026"
+      },
+      "geographicLevel": "NAT",
+      "locations": {
+        "NAT": "dP0Zw :: England (code = E92000001)"
+      },
+      "filters": {
+        "4rlUZ :: academy_flag": "UZivR :: Total",
+        "0ZhT5 :: key_stage": "Xdmaf :: Total",
+        "QvXwb :: type_of_establishment": "dh3R0 :: Total",
+        "96s4v :: sex_of_school_description": "HPRUz :: Total",
+        "mi29K :: denomination": "0y3lT :: Total",
+        "EVHqF :: phase_type_grouping": "lNqPc :: State-funded secondary",
+        "2jwlz :: urban_rural": "1AXUi :: Total",
+        "Wq62b :: admissions_policy": "hMDfy :: Selective"
+      },
+      "values": {
+        "u9Syo :: pupil_count": "193747",
+        "XHASf :: school_count": "163"
+      }
+    },
+    "schoolCount": 163,
+    "pupilCount": 193747,
+    "rule": "Use one England / State-funded secondary / Selective row with other breakdowns Total; do not sum repeated key-stage rows or other sectors."
+  },
+  "pages": [
+    {
+      "slug": "best-books-for-11-plus-preparation",
+      "status": "ready",
+      "originalDate": "October 15, 2025",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "best books 11 plus preparation UK choose Bond CGP reading",
+      "competingPagesRead": [
+        "https://11plusblocks.co.uk/7-top-rated-11-plus-revision-guides-and-workbooks/"
+      ],
+      "primarySources": [
+        "https://www.bond11plus.co.uk/find-a-book",
+        "https://11plus.gl-assessment.co.uk/pages/free-materials",
+        "https://news.kent.gov.uk/articles/new-provider-appointed-for-kent-test-as-current-contract-comes-to-an-end"
+      ],
+      "intentBoundary": "Choose by official route, teaching versus practice purpose, sample answer quality and a small purposeful basket. No claim of hands-on product testing.",
+      "removedUnsupportedClaims": "Unsupported product endorsements, precise performance uplifts, testimonials and unverified price claims.",
+      "verification": {
+        "slug": "best-books-for-11-plus-preparation",
+        "words": 810,
+        "blocks": 18,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 3,
+        "titleLength": 61,
+        "descriptionLength": 149,
+        "readTime": "4 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "common-11-plus-english-mistakes-to-avoid",
+      "status": "ready",
+      "originalDate": "October 29, 2025",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "common 11 plus English mistakes avoid comprehension UK",
+      "competingPagesRead": [
+        "https://www.11plusguide.com/11-plus-subjects/english/common-english-exam-mistakes/"
+      ],
+      "primarySources": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+        "https://11plus.gl-assessment.co.uk/pages/free-materials"
+      ],
+      "intentBoundary": "Original passage and explained retrieval, inference, vocabulary and grammar questions; diagnose the exact error before repeating practice.",
+      "removedUnsupportedClaims": "Invented national error statistics and provider analysis; replaced with original text and seven explained questions.",
+      "verification": {
+        "slug": "common-11-plus-english-mistakes-to-avoid",
+        "words": 874,
+        "blocks": 27,
+        "questions": 7,
+        "internalLinks": 5,
+        "externalLinks": 1,
+        "titleLength": 59,
+        "descriptionLength": 145,
+        "readTime": "5 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "common-11-plus-maths-mistakes-to-avoid",
+      "status": "ready",
+      "originalDate": "November 5, 2025",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "common 11 plus maths mistakes avoid UK",
+      "competingPagesRead": [
+        "https://www.11plusguide.com/11-plus-subjects/maths/common-maths-mistakes/"
+      ],
+      "primarySources": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
+        "https://11plus.gl-assessment.co.uk/pages/free-materials"
+      ],
+      "intentBoundary": "Original worked examples distinguish misunderstood methods, representations, units and answer-checking.",
+      "removedUnsupportedClaims": "Unsupported error frequencies and performance promises; replaced with eight independently recalculated questions.",
+      "verification": {
+        "slug": "common-11-plus-maths-mistakes-to-avoid",
+        "words": 863,
+        "blocks": 30,
+        "questions": 8,
+        "internalLinks": 4,
+        "externalLinks": 2,
+        "titleLength": 65,
+        "descriptionLength": 148,
+        "readTime": "5 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "how-different-are-11-plus-exams-by-region",
+      "status": "ready",
+      "originalDate": "November 12, 2025",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "11 plus exams by region UK Kent Bucks CSSE 2027",
+      "competingPagesRead": [
+        "https://www.prepstep.co.uk/11-plus/"
+      ],
+      "primarySources": [
+        "https://news.kent.gov.uk/articles/new-provider-appointed-for-kent-test-as-current-contract-comes-to-an-end",
+        "https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/guides-and-policies/guide-to-grammar-schools-and-the-secondary-school-transfer-test-11-plus/secondary-transfer-testing-process/",
+        "https://csse.org.uk/storage/2026/03/CSSE-Information-Guide-2027-Entry.pdf",
+        "https://www.wilsons.school/admissions-faqs/"
+      ],
+      "intentBoundary": "Small verified route comparison with explicit cycles and Kent 2027-test provider change; family comparison worksheet.",
+      "removedUnsupportedClaims": "Unsupported national candidate/pass-rate totals, broad provider assignments and universal registration/test dates.",
+      "verification": {
+        "slug": "how-different-are-11-plus-exams-by-region",
+        "words": 777,
+        "blocks": 16,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 4,
+        "titleLength": 53,
+        "descriptionLength": 148,
+        "readTime": "4 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "what-is-covered-in-11-plus-creative-writing",
+      "status": "ready",
+      "originalDate": "November 19, 2025",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "11 plus creative writing guide UK marking sample",
+      "competingPagesRead": [
+        "https://www.11plusguide.com/11-plus-subjects/11-plus-creative-writing/"
+      ],
+      "primarySources": [
+        "https://resources.finalsite.net/images/v1697811074/dulwichorguk/smo89tmkl4f4eplljdmd/English_Creative_Writing_Task_11_Specimen_Paper.pdf",
+        "https://csse.org.uk/storage/2020/05/ECW-Sample-Mark-Scheme.pdf",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study"
+      ],
+      "intentBoundary": "Original prompt, model paragraph and revision analysis; no universal word count, literary-device quotas or examiner-score claims.",
+      "removedUnsupportedClaims": "Unsupported prevalence/mark claims, writing length quotas, literary-device quotas and fabricated script-analysis claims.",
+      "verification": {
+        "slug": "what-is-covered-in-11-plus-creative-writing",
+        "words": 895,
+        "blocks": 22,
+        "questions": 0,
+        "internalLinks": 2,
+        "externalLinks": 2,
+        "titleLength": 58,
+        "descriptionLength": 147,
+        "readTime": "5 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "what-level-of-ks2-is-needed-for-the-11-plus",
+      "status": "ready",
+      "originalDate": "December 17, 2025",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "what KS2 level 11 plus national curriculum scaled score",
+      "competingPagesRead": [
+        "https://www.keystonetutors.com/news/11-plus-maths-guide"
+      ],
+      "primarySources": [
+        "https://www.gov.uk/guidance/understanding-scaled-scores-at-key-stage-2",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+        "https://csse.org.uk/storage/2026/03/CSSE-Information-Guide-2027-Entry.pdf"
+      ],
+      "intentBoundary": "Explicit KS2 scaled-score versus 11+ distinction, skill evidence and original short diagnostics; no old level 5/6 threshold.",
+      "removedUnsupportedClaims": "Invented SATs-110 admission requirement, obsolete level thresholds and conflation of KS2/11+ scores.",
+      "verification": {
+        "slug": "what-level-of-ks2-is-needed-for-the-11-plus",
+        "words": 748,
+        "blocks": 20,
+        "questions": 3,
+        "internalLinks": 4,
+        "externalLinks": 4,
+        "titleLength": 65,
+        "descriptionLength": 149,
+        "readTime": "4 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
+      "status": "ready",
+      "originalDate": "January 7, 2026",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "online vs in person 11 plus tutoring UK comparison",
+      "competingPagesRead": [
+        "https://www.leadingtuition.co.uk/blog/online-vs-in-person-tutoring-which-is-better"
+      ],
+      "primarySources": [
+        "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/one-to-one-tuition",
+        "https://www.nspcc.org.uk/keeping-children-safe/outside-the-home/find-tutor-child/"
+      ],
+      "intentBoundary": "Delivery-format fit, equivalent trial task, visibility of written work, access needs and total practical cost. General tutor budget/selection is handled by the sibling guide.",
+      "removedUnsupportedClaims": "Unsupported format-specific score gains, general price claims and provider superiority.",
+      "verification": {
+        "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
+        "words": 748,
+        "blocks": 17,
+        "questions": 0,
+        "internalLinks": 2,
+        "externalLinks": 2,
+        "titleLength": 56,
+        "descriptionLength": 152,
+        "readTime": "4 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "how-many-grammar-schools-are-there-in-england",
+      "status": "ready",
+      "originalDate": "February 7, 2026",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "how many grammar schools England 2026 official count",
+      "competingPagesRead": [
+        "https://www.leadingtuition.co.uk/grammar-schools/"
+      ],
+      "primarySources": [
+        "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/42a45473-ed18-460b-8d9e-1ea026d91949",
+        "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/136497",
+        "https://www.gov.uk/schools-admissions/admissions-criteria"
+      ],
+      "intentBoundary": "Verified January 2026 figure 163 state-funded selective secondary schools; reproducible exact DfE row, exclusions and count-versus-places explanation.",
+      "removedUnsupportedClaims": "Superseded unresolved/historical-count treatment; current official census count now verified with exact scope.",
+      "verification": {
+        "slug": "how-many-grammar-schools-are-there-in-england",
+        "words": 579,
+        "blocks": 15,
+        "questions": 0,
+        "internalLinks": 2,
+        "externalLinks": 4,
+        "titleLength": 64,
+        "descriptionLength": 154,
+        "readTime": "3 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "what-is-the-typical-day-like-at-a-grammar-school",
+      "status": "ready",
+      "originalDate": "March 19, 2026",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "typical grammar school day timetable UK",
+      "competingPagesRead": [
+        "https://www.heckgrammar.co.uk/students/school-day/",
+        "https://www.wirralgrammarboys.com/times-of-the-school-day/"
+      ],
+      "primarySources": [
+        "https://www.heckgrammar.co.uk/students/school-day/",
+        "https://www.wirralgrammarboys.com/times-of-the-school-day/"
+      ],
+      "intentBoundary": "Two real named timetable examples, clearly dated, plus original transition/commute/organisation checklist.",
+      "removedUnsupportedClaims": "Invented universal daily routines, primary/infant examples, safeguarding incident claims and aftercare prices.",
+      "verification": {
+        "slug": "what-is-the-typical-day-like-at-a-grammar-school",
+        "words": 764,
+        "blocks": 18,
+        "questions": 0,
+        "internalLinks": 1,
+        "externalLinks": 2,
+        "titleLength": 57,
+        "descriptionLength": 146,
+        "readTime": "4 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+      "status": "ready",
+      "originalDate": "March 23, 2026",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "grammar schools Oxbridge university progression selection evidence UK",
+      "competingPagesRead": [
+        "https://www.hepi.ac.uk/reports/the-impact-of-selective-secondary-education-on-progression-to-higher-education/"
+      ],
+      "primarySources": [
+        "https://eprints.gla.ac.uk/309134/",
+        "https://www.hepi.ac.uk/reports/the-impact-of-selective-secondary-education-on-progression-to-higher-education/",
+        "https://www.ox.ac.uk/admissions/undergraduate/applying/guide-for-applicants/admissions-tests",
+        "https://www.ox.ac.uk/admissions/undergraduate/applying/guide-for-applicants/interviews"
+      ],
+      "intentBoundary": "Separate actual sixth-form support from intake selection and outcomes; original denominator example, current Oxford correction and open-day questions.",
+      "removedUnsupportedClaims": "Outdated Oxford timing/test guidance, invented comparative statistics and unsupported causal school-effect claims.",
+      "verification": {
+        "slug": "do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+        "words": 835,
+        "blocks": 20,
+        "questions": 0,
+        "internalLinks": 1,
+        "externalLinks": 4,
+        "titleLength": 59,
+        "descriptionLength": 151,
+        "readTime": "5 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "how-much-homework-do-grammar-school-students-get",
+      "status": "ready",
+      "originalDate": "March 24, 2026",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "how much homework grammar school Year 7 UK",
+      "competingPagesRead": [
+        "https://heddy.app/blog/ks3-for-parents/how-much-homework-is-normal-in-ks3"
+      ],
+      "primarySources": [
+        "https://www.alcestergs.com/page/?pid=104&title=Homework+and+Independent+Study",
+        "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/homework"
+      ],
+      "intentBoundary": "Named current Alcester policy, not a national average; original planner, worked timing diagnosis and a parent-to-teacher message.",
+      "removedUnsupportedClaims": "Mixed-country year/grade descriptions, unsourced national hours and fabricated attainment/stress/sleep statistics.",
+      "verification": {
+        "slug": "how-much-homework-do-grammar-school-students-get",
+        "words": 796,
+        "blocks": 21,
+        "questions": 0,
+        "internalLinks": 1,
+        "externalLinks": 2,
+        "titleLength": 67,
+        "descriptionLength": 157,
+        "readTime": "4 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "how-early-should-we-start-preparing-for-grammar-school-entry",
+      "status": "ready",
+      "originalDate": "April 9, 2026",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "when start preparing grammar school entry Year 3 Year 4 Year 5 UK",
+      "competingPagesRead": [
+        "https://grammarprep.uk/blog/when-to-start-11-plus-prep"
+      ],
+      "primarySources": [
+        "https://www.gov.uk/schools-admissions/how-to-apply",
+        "https://www.gov.uk/schools-admissions/admissions-criteria",
+        "https://news.kent.gov.uk/articles/new-provider-appointed-for-kent-test-as-current-contract-comes-to-an-end",
+        "https://www.sutton.gov.uk/schools-and-learning/school-admissions/apply-start-secondary-school/secondary-school-tests-assessments-and-supplementary-forms"
+      ],
+      "intentBoundary": "Admissions-calendar and shortlist focus: exam-year versus entry-year, separate test registration and school application, then link sibling learning-readiness guide.",
+      "removedUnsupportedClaims": "Inapplicable 7+ state-grammar pathway, invented success stories and unconfirmed dates.",
+      "verification": {
+        "slug": "how-early-should-we-start-preparing-for-grammar-school-entry",
+        "words": 797,
+        "blocks": 20,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 4,
+        "titleLength": 65,
+        "descriptionLength": 151,
+        "readTime": "4 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    },
+    {
+      "slug": "is-a-tutor-necessary-for-grammar-school-entrance",
+      "status": "ready",
+      "originalDate": "April 10, 2026",
+      "updatedAt": "2026-11-02",
+      "editorial": true,
+      "sourceCheckDate": "2026-11-02",
+      "intentQuery": "is tutor necessary grammar school entrance 11 plus UK",
+      "competingPagesRead": [
+        "https://grammarpath.co.uk/blog/do-you-need-a-tutor-11-plus/"
+      ],
+      "primarySources": [
+        "https://www.gov.uk/schools-admissions/admissions-criteria",
+        "https://11plus.gl-assessment.co.uk/pages/free-materials",
+        "https://csse.org.uk/storage/2026/03/CSSE-Information-Guide-2027-Entry.pdf",
+        "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/one-to-one-tuition",
+        "https://www.nspcc.org.uk/keeping-children-safe/outside-the-home/find-tutor-child/"
+      ],
+      "intentBoundary": "Grammar-specific selection route, official free materials, division of parent/school/tutor help, transparent interpretation of success rates; sibling owns general tutor trial/budget.",
+      "removedUnsupportedClaims": "Uncontrolled pass-rate/score-gain claims and blanket claims about who needs tuition.",
+      "verification": {
+        "slug": "is-a-tutor-necessary-for-grammar-school-entrance",
+        "words": 824,
+        "blocks": 21,
+        "questions": 0,
+        "internalLinks": 3,
+        "externalLinks": 5,
+        "titleLength": 68,
+        "descriptionLength": 154,
+        "readTime": "5 min read"
+      },
+      "preserved": [
+        "slug",
+        "date",
+        "category",
+        "imageUrl",
+        "imageAlt",
+        "images"
+      ]
+    }
+  ]
+}

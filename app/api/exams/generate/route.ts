@@ -7,7 +7,7 @@ import { loadBlueprint } from '@/lib/blueprints';
 type Difficulty = 'standard' | 'challenging' | 'exam-ready';
 
 type ReqBody = {
-  schoolId: string;
+  schoolId?: string;
   subject: Subject | string;
   quizType: QuizType | string;
   count: number;
@@ -67,28 +67,31 @@ export async function POST(req: Request) {
     return jsonError('Invalid JSON body', 400);
   }
 
-  const schoolId = String(body?.schoolId || '').trim();
-  if (!schoolId) return jsonError('schoolId is required', 400);
+  if (!body || typeof body !== 'object' || Array.isArray(body)) return jsonError('Expected a JSON object', 400);
+  if (body.topic !== undefined && typeof body.topic !== 'string') return jsonError('topic must be a string', 400);
+  if (body.difficulty !== undefined && !['standard', 'challenging', 'exam-ready'].includes(body.difficulty)) return jsonError('Unknown difficulty', 400);
 
-  const school = getSchoolById(schoolId);
-  if (!school) return jsonError('Unknown schoolId', 404);
+  const schoolId = String(body.schoolId || '').trim();
+
+  const school = schoolId ? getSchoolById(schoolId) : undefined;
+  if (schoolId && !school) return jsonError('Unknown schoolId', 404);
 
   const subject = normalizeSubject(body.subject);
   const quizType = normalizeQuizType(body.quizType || 'multiple-choice');
   const difficulty = (body.difficulty || 'standard') as Difficulty;
-  const topic = body.topic;
+  const topic = body.topic?.trim().slice(0, 100) || undefined;
 
   const count = clampInt(body.count, 5, 30, 25);
 
   // Live model output has structural validation only, not independent answer verification.
   // Serve the reviewed bank rather than treating unchecked answers as ready for children.
-  const blueprint = loadBlueprint(schoolId);
+  const blueprint = schoolId ? loadBlueprint(schoolId) : null;
   const questions = getRandomQuestions(subject, quizType, count, topic, difficulty);
   return NextResponse.json({
     questions,
     warning: 'Reviewed general practice only; school-specific simulation is not verified. Unreviewed model outputs are held out.',
     meta: {
-      schoolId,schoolName:school.name,blueprintLoaded:Boolean(blueprint),
+      schoolId:schoolId || null,schoolName:school?.name || null,blueprintLoaded:Boolean(blueprint),
       sourceMaterial:'reviewed-general-bank',uploadedPapersUsed:false,
       verified2027Specification:false,verifiedSchoolSimulation:false,
       source:'reviewed-bank',unreviewedAIHeld:true,requestedCount:count,returnedCount:questions.length,

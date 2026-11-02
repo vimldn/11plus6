@@ -1,0 +1,2530 @@
+{
+  "base": "http://127.0.0.1:3026",
+  "sitemapUrls": 251,
+  "passed": 251,
+  "quizNoindex": true,
+  "real404": true,
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Free 11+ Mock Exams & Practice Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com"
+      ],
+      "htmlBytes": 32374,
+      "errors": []
+    },
+    {
+      "path": "/mock-exams",
+      "status": 200,
+      "title": "Free 11+ Mock Exams and Online Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/mock-exams"
+      ],
+      "htmlBytes": 29616,
+      "errors": []
+    },
+    {
+      "path": "/papers",
+      "status": 200,
+      "title": "Free 11+ Practice Papers and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/papers"
+      ],
+      "htmlBytes": 313317,
+      "errors": [],
+      "pdfLinks": [
+        "/papers/english-practice.pdf",
+        "/papers/english-worked-answers.pdf",
+        "/papers/maths-practice.pdf",
+        "/papers/maths-worked-answers.pdf",
+        "/papers/nonverbal-practice.pdf",
+        "/papers/nonverbal-worked-answers.pdf",
+        "/papers/verbal-practice.pdf",
+        "/papers/verbal-worked-answers.pdf"
+      ]
+    },
+    {
+      "path": "/schools",
+      "status": 200,
+      "title": "11+ School Profiles | 50 Grammar & Independent Schools | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools"
+      ],
+      "htmlBytes": 95680,
+      "errors": []
+    },
+    {
+      "path": "/subjects",
+      "status": 200,
+      "title": "11 Plus Subjects | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects"
+      ],
+      "htmlBytes": 32509,
+      "errors": []
+    },
+    {
+      "path": "/tutors",
+      "status": 200,
+      "title": "11 Plus Tutors by City | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors"
+      ],
+      "htmlBytes": 82813,
+      "errors": []
+    },
+    {
+      "path": "/exam-dates",
+      "status": 200,
+      "title": "11+ Exam Dates 2026 & 2027 | Registration Deadlines & Test Dates | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/exam-dates"
+      ],
+      "htmlBytes": 118226,
+      "errors": []
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "title": "11 Plus Guides and Articles | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog"
+      ],
+      "htmlBytes": 195568,
+      "errors": [],
+      "articleLinks": 159
+    },
+    {
+      "path": "/compare",
+      "status": 200,
+      "title": "Compare 11+ Schools Side-by-Side | Exam Format, Subjects & Entry | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/compare"
+      ],
+      "htmlBytes": 18847,
+      "errors": []
+    },
+    {
+      "path": "/guides/gl-vs-cem",
+      "status": 200,
+      "title": "GL vs CEM: 11 Plus Exam Providers for 2027 | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/guides/gl-vs-cem"
+      ],
+      "htmlBytes": 54256,
+      "errors": []
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "title": "Privacy and Cookie Policy | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/privacy"
+      ],
+      "htmlBytes": 35170,
+      "errors": []
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "title": "Terms of Use | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/terms"
+      ],
+      "htmlBytes": 23967,
+      "errors": []
+    },
+    {
+      "path": "/schools/qe-boys",
+      "status": 200,
+      "title": "Queen Elizabeth's School (Barnet) — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/qe-boys"
+      ],
+      "htmlBytes": 30289,
+      "errors": []
+    },
+    {
+      "path": "/schools/henrietta-barnett",
+      "status": 200,
+      "title": "The Henrietta Barnett School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/henrietta-barnett"
+      ],
+      "htmlBytes": 30681,
+      "errors": []
+    },
+    {
+      "path": "/schools/wilsons",
+      "status": 200,
+      "title": "Wilson's School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/wilsons"
+      ],
+      "htmlBytes": 29892,
+      "errors": []
+    },
+    {
+      "path": "/schools/tiffin-girls",
+      "status": 200,
+      "title": "Tiffin Girls' School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/tiffin-girls"
+      ],
+      "htmlBytes": 30369,
+      "errors": []
+    },
+    {
+      "path": "/schools/tiffin",
+      "status": 200,
+      "title": "Tiffin School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/tiffin"
+      ],
+      "htmlBytes": 30056,
+      "errors": []
+    },
+    {
+      "path": "/schools/st-olaves",
+      "status": 200,
+      "title": "St Olave's Grammar School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/st-olaves"
+      ],
+      "htmlBytes": 30501,
+      "errors": []
+    },
+    {
+      "path": "/schools/latymer",
+      "status": 200,
+      "title": "The Latymer School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/latymer"
+      ],
+      "htmlBytes": 29368,
+      "errors": []
+    },
+    {
+      "path": "/schools/nonsuch",
+      "status": 200,
+      "title": "Nonsuch High School for Girls — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/nonsuch"
+      ],
+      "htmlBytes": 30443,
+      "errors": []
+    },
+    {
+      "path": "/schools/wallington-girls",
+      "status": 200,
+      "title": "Wallington High School for Girls — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/wallington-girls"
+      ],
+      "htmlBytes": 29903,
+      "errors": []
+    },
+    {
+      "path": "/schools/sutton-grammar",
+      "status": 200,
+      "title": "Sutton Grammar School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/sutton-grammar"
+      ],
+      "htmlBytes": 30394,
+      "errors": []
+    },
+    {
+      "path": "/schools/colchester-rgs",
+      "status": 200,
+      "title": "Colchester Royal Grammar School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/colchester-rgs"
+      ],
+      "htmlBytes": 29830,
+      "errors": []
+    },
+    {
+      "path": "/schools/altrincham-girls",
+      "status": 200,
+      "title": "Altrincham Grammar School for Girls — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/altrincham-girls"
+      ],
+      "htmlBytes": 29677,
+      "errors": []
+    },
+    {
+      "path": "/schools/pates-grammar",
+      "status": 200,
+      "title": "Pate's Grammar School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/pates-grammar"
+      ],
+      "htmlBytes": 29615,
+      "errors": []
+    },
+    {
+      "path": "/schools/king-edward-vi-girls",
+      "status": 200,
+      "title": "King Edward VI High School for Girls (Birmingham) — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/king-edward-vi-girls"
+      ],
+      "htmlBytes": 29738,
+      "errors": []
+    },
+    {
+      "path": "/schools/reading-school",
+      "status": 200,
+      "title": "Reading School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/reading-school"
+      ],
+      "htmlBytes": 29604,
+      "errors": []
+    },
+    {
+      "path": "/schools/newstead-wood",
+      "status": 200,
+      "title": "Newstead Wood School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/newstead-wood"
+      ],
+      "htmlBytes": 29540,
+      "errors": []
+    },
+    {
+      "path": "/schools/spgs-girls",
+      "status": 200,
+      "title": "St Paul's Girls' School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/spgs-girls"
+      ],
+      "htmlBytes": 30854,
+      "errors": []
+    },
+    {
+      "path": "/schools/guildford-high",
+      "status": 200,
+      "title": "Guildford High School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/guildford-high"
+      ],
+      "htmlBytes": 29622,
+      "errors": []
+    },
+    {
+      "path": "/schools/st-pauls",
+      "status": 200,
+      "title": "St Paul's School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/st-pauls"
+      ],
+      "htmlBytes": 29428,
+      "errors": []
+    },
+    {
+      "path": "/schools/nlcs-girls",
+      "status": 200,
+      "title": "North London Collegiate School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/nlcs-girls"
+      ],
+      "htmlBytes": 30932,
+      "errors": []
+    },
+    {
+      "path": "/schools/kcs-wimbledon",
+      "status": 200,
+      "title": "King's College School (Wimbledon) — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/kcs-wimbledon"
+      ],
+      "htmlBytes": 31826,
+      "errors": []
+    },
+    {
+      "path": "/schools/colsg-girls",
+      "status": 200,
+      "title": "City of London School for Girls — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/colsg-girls"
+      ],
+      "htmlBytes": 30973,
+      "errors": []
+    },
+    {
+      "path": "/schools/westminster",
+      "status": 200,
+      "title": "Westminster School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/westminster"
+      ],
+      "htmlBytes": 28807,
+      "errors": []
+    },
+    {
+      "path": "/schools/mcs-oxford",
+      "status": 200,
+      "title": "Magdalen College School (Oxford) — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/mcs-oxford"
+      ],
+      "htmlBytes": 31101,
+      "errors": []
+    },
+    {
+      "path": "/schools/cls-boys",
+      "status": 200,
+      "title": "City of London School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/cls-boys"
+      ],
+      "htmlBytes": 30624,
+      "errors": []
+    },
+    {
+      "path": "/schools/habs-boys",
+      "status": 200,
+      "title": "Haberdashers' Boys' School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/habs-boys"
+      ],
+      "htmlBytes": 31679,
+      "errors": []
+    },
+    {
+      "path": "/schools/habs-girls",
+      "status": 200,
+      "title": "Haberdashers' Girls' School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/habs-girls"
+      ],
+      "htmlBytes": 29780,
+      "errors": []
+    },
+    {
+      "path": "/schools/wycombe-abbey",
+      "status": 200,
+      "title": "Wycombe Abbey — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/wycombe-abbey"
+      ],
+      "htmlBytes": 30612,
+      "errors": []
+    },
+    {
+      "path": "/schools/tonbridge",
+      "status": 200,
+      "title": "Tonbridge School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/tonbridge"
+      ],
+      "htmlBytes": 28698,
+      "errors": []
+    },
+    {
+      "path": "/schools/godolphin-latymer",
+      "status": 200,
+      "title": "Godolphin and Latymer School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/godolphin-latymer"
+      ],
+      "htmlBytes": 29174,
+      "errors": []
+    },
+    {
+      "path": "/schools/highgate",
+      "status": 200,
+      "title": "Highgate School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/highgate"
+      ],
+      "htmlBytes": 29344,
+      "errors": []
+    },
+    {
+      "path": "/schools/latymer-upper",
+      "status": 200,
+      "title": "Latymer Upper School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/latymer-upper"
+      ],
+      "htmlBytes": 28897,
+      "errors": []
+    },
+    {
+      "path": "/schools/jags",
+      "status": 200,
+      "title": "James Allen's Girls' School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/jags"
+      ],
+      "htmlBytes": 28963,
+      "errors": []
+    },
+    {
+      "path": "/schools/eton",
+      "status": 200,
+      "title": "Eton College — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/eton"
+      ],
+      "htmlBytes": 28487,
+      "errors": []
+    },
+    {
+      "path": "/schools/sevenoaks",
+      "status": 200,
+      "title": "Sevenoaks School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/sevenoaks"
+      ],
+      "htmlBytes": 28699,
+      "errors": []
+    },
+    {
+      "path": "/schools/wimbledon-high",
+      "status": 200,
+      "title": "Wimbledon High School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/wimbledon-high"
+      ],
+      "htmlBytes": 29626,
+      "errors": []
+    },
+    {
+      "path": "/schools/oxford-high",
+      "status": 200,
+      "title": "Oxford High School (GDST) — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/oxford-high"
+      ],
+      "htmlBytes": 29646,
+      "errors": []
+    },
+    {
+      "path": "/schools/dulwich-college",
+      "status": 200,
+      "title": "Dulwich College — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/dulwich-college"
+      ],
+      "htmlBytes": 29496,
+      "errors": []
+    },
+    {
+      "path": "/schools/alleyn",
+      "status": 200,
+      "title": "Alleyn's School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/alleyn"
+      ],
+      "htmlBytes": 29346,
+      "errors": []
+    },
+    {
+      "path": "/schools/south-hampstead",
+      "status": 200,
+      "title": "South Hampstead High School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/south-hampstead"
+      ],
+      "htmlBytes": 29798,
+      "errors": []
+    },
+    {
+      "path": "/schools/notting-hill-ealing",
+      "status": 200,
+      "title": "Notting Hill and Ealing High School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/notting-hill-ealing"
+      ],
+      "htmlBytes": 30072,
+      "errors": []
+    },
+    {
+      "path": "/schools/whitgift",
+      "status": 200,
+      "title": "Whitgift School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/whitgift"
+      ],
+      "htmlBytes": 29342,
+      "errors": []
+    },
+    {
+      "path": "/schools/emmanuel-tiffin",
+      "status": 200,
+      "title": "Emanuel School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/emmanuel-tiffin"
+      ],
+      "htmlBytes": 29472,
+      "errors": []
+    },
+    {
+      "path": "/schools/brighton-college",
+      "status": 200,
+      "title": "Brighton College — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/brighton-college"
+      ],
+      "htmlBytes": 28851,
+      "errors": []
+    },
+    {
+      "path": "/schools/withington-girls",
+      "status": 200,
+      "title": "Withington Girls' School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/withington-girls"
+      ],
+      "htmlBytes": 29793,
+      "errors": []
+    },
+    {
+      "path": "/schools/manchester-grammar",
+      "status": 200,
+      "title": "Manchester Grammar School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/manchester-grammar"
+      ],
+      "htmlBytes": 29807,
+      "errors": []
+    },
+    {
+      "path": "/schools/hch-year7-8",
+      "status": 200,
+      "title": "Hampton Court House (Year 7/8) — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/hch-year7-8"
+      ],
+      "htmlBytes": 30959,
+      "errors": []
+    },
+    {
+      "path": "/schools/harrow",
+      "status": 200,
+      "title": "Harrow School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/harrow"
+      ],
+      "htmlBytes": 28575,
+      "errors": []
+    },
+    {
+      "path": "/schools/surbiton-high",
+      "status": 200,
+      "title": "Surbiton High School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/surbiton-high"
+      ],
+      "htmlBytes": 29582,
+      "errors": []
+    },
+    {
+      "path": "/schools/lady-eleanor-holles",
+      "status": 200,
+      "title": "Lady Eleanor Holles School — Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/schools/lady-eleanor-holles"
+      ],
+      "htmlBytes": 29857,
+      "errors": []
+    },
+    {
+      "path": "/subjects/maths",
+      "status": 200,
+      "title": "11+ Maths Practice Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/maths"
+      ],
+      "htmlBytes": 82319,
+      "errors": []
+    },
+    {
+      "path": "/subjects/english",
+      "status": 200,
+      "title": "11+ English Practice Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/english"
+      ],
+      "htmlBytes": 69141,
+      "errors": []
+    },
+    {
+      "path": "/subjects/verbal-reasoning",
+      "status": 200,
+      "title": "11+ Verbal Reasoning Practice Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/verbal-reasoning"
+      ],
+      "htmlBytes": 40469,
+      "errors": []
+    },
+    {
+      "path": "/subjects/non-verbal-reasoning",
+      "status": 200,
+      "title": "11+ Non-Verbal Reasoning Practice and Worked Examples | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/non-verbal-reasoning"
+      ],
+      "htmlBytes": 156721,
+      "errors": []
+    },
+    {
+      "path": "/subjects/maths/fractions-of-amounts",
+      "status": 200,
+      "title": "11+ Fractions of Amounts: Questions and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/maths/fractions-of-amounts"
+      ],
+      "htmlBytes": 61686,
+      "errors": []
+    },
+    {
+      "path": "/subjects/maths/ratio-sharing",
+      "status": 200,
+      "title": "11+ Ratio Sharing: Questions and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/maths/ratio-sharing"
+      ],
+      "htmlBytes": 61600,
+      "errors": []
+    },
+    {
+      "path": "/subjects/maths/percentages-of-amounts",
+      "status": 200,
+      "title": "11+ Percentages of Amounts: Questions and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/maths/percentages-of-amounts"
+      ],
+      "htmlBytes": 60694,
+      "errors": []
+    },
+    {
+      "path": "/subjects/english/comprehension-retrieval",
+      "status": 200,
+      "title": "11+ Retrieval Questions: Find Facts and Check Your Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/english/comprehension-retrieval"
+      ],
+      "htmlBytes": 70511,
+      "errors": []
+    },
+    {
+      "path": "/subjects/english/comprehension-inference",
+      "status": 200,
+      "title": "11+ Inference Questions: Read Clues and Explain Your Thinking | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/english/comprehension-inference"
+      ],
+      "htmlBytes": 71691,
+      "errors": []
+    },
+    {
+      "path": "/subjects/english/using-evidence",
+      "status": 200,
+      "title": "11+ Comprehension: Using Evidence and Short Quotations | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/subjects/english/using-evidence"
+      ],
+      "htmlBytes": 72283,
+      "errors": []
+    },
+    {
+      "path": "/tutors/birmingham",
+      "status": 200,
+      "title": "11 Plus Tutor in Birmingham | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/birmingham"
+      ],
+      "htmlBytes": 46801,
+      "errors": []
+    },
+    {
+      "path": "/tutors/bristol",
+      "status": 200,
+      "title": "11 Plus Tutor in Bristol | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/bristol"
+      ],
+      "htmlBytes": 43109,
+      "errors": []
+    },
+    {
+      "path": "/tutors/cardiff",
+      "status": 200,
+      "title": "11 Plus Tutor in Cardiff | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/cardiff"
+      ],
+      "htmlBytes": 43066,
+      "errors": []
+    },
+    {
+      "path": "/tutors/coventry",
+      "status": 200,
+      "title": "11 Plus Tutor in Coventry | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/coventry"
+      ],
+      "htmlBytes": 45311,
+      "errors": []
+    },
+    {
+      "path": "/tutors/derby",
+      "status": 200,
+      "title": "11 Plus Tutor in Derby | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/derby"
+      ],
+      "htmlBytes": 42937,
+      "errors": []
+    },
+    {
+      "path": "/tutors/edinburgh",
+      "status": 200,
+      "title": "11 Plus Tutor in Edinburgh | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/edinburgh"
+      ],
+      "htmlBytes": 43211,
+      "errors": []
+    },
+    {
+      "path": "/tutors/glasgow",
+      "status": 200,
+      "title": "11 Plus Tutor in Glasgow | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/glasgow"
+      ],
+      "htmlBytes": 43106,
+      "errors": []
+    },
+    {
+      "path": "/tutors/leeds",
+      "status": 200,
+      "title": "11 Plus Tutor in Leeds | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/leeds"
+      ],
+      "htmlBytes": 42970,
+      "errors": []
+    },
+    {
+      "path": "/tutors/leicester",
+      "status": 200,
+      "title": "11 Plus Tutor in Leicester | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/leicester"
+      ],
+      "htmlBytes": 43088,
+      "errors": []
+    },
+    {
+      "path": "/tutors/liverpool",
+      "status": 200,
+      "title": "11 Plus Tutor in Liverpool | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/liverpool"
+      ],
+      "htmlBytes": 46613,
+      "errors": []
+    },
+    {
+      "path": "/tutors/london",
+      "status": 200,
+      "title": "11 Plus Tutor in London | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/london"
+      ],
+      "htmlBytes": 48713,
+      "errors": []
+    },
+    {
+      "path": "/tutors/manchester",
+      "status": 200,
+      "title": "11 Plus Tutor in Manchester | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/manchester"
+      ],
+      "htmlBytes": 46722,
+      "errors": []
+    },
+    {
+      "path": "/tutors/newcastle",
+      "status": 200,
+      "title": "11 Plus Tutor in Newcastle | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/newcastle"
+      ],
+      "htmlBytes": 43092,
+      "errors": []
+    },
+    {
+      "path": "/tutors/nottingham",
+      "status": 200,
+      "title": "11 Plus Tutor in Nottingham | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/nottingham"
+      ],
+      "htmlBytes": 45320,
+      "errors": []
+    },
+    {
+      "path": "/tutors/oxford",
+      "status": 200,
+      "title": "11 Plus Tutor in Oxford | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/oxford"
+      ],
+      "htmlBytes": 42957,
+      "errors": []
+    },
+    {
+      "path": "/tutors/reading",
+      "status": 200,
+      "title": "11 Plus Tutor in Reading | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/reading"
+      ],
+      "htmlBytes": 46645,
+      "errors": []
+    },
+    {
+      "path": "/tutors/sheffield",
+      "status": 200,
+      "title": "11 Plus Tutor in Sheffield | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/sheffield"
+      ],
+      "htmlBytes": 43046,
+      "errors": []
+    },
+    {
+      "path": "/tutors/southampton",
+      "status": 200,
+      "title": "11 Plus Tutor in Southampton | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/southampton"
+      ],
+      "htmlBytes": 43145,
+      "errors": []
+    },
+    {
+      "path": "/tutors/brighton",
+      "status": 200,
+      "title": "11 Plus Tutor in Brighton | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/brighton"
+      ],
+      "htmlBytes": 43053,
+      "errors": []
+    },
+    {
+      "path": "/tutors/bradford",
+      "status": 200,
+      "title": "11 Plus Tutor in Bradford | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/tutors/bradford"
+      ],
+      "htmlBytes": 43012,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-prepositions",
+      "status": 200,
+      "title": "11+ Prepositions: Place, Time and Practice Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-prepositions"
+      ],
+      "htmlBytes": 78411,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-conjunctions",
+      "status": 200,
+      "title": "11+ Conjunctions: Choose the Right Link Between Ideas | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-conjunctions"
+      ],
+      "htmlBytes": 78787,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-determiners-articles",
+      "status": 200,
+      "title": "11+ Determiners and Articles: A, An, The and Beyond | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-determiners-articles"
+      ],
+      "htmlBytes": 79219,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-modal-verbs",
+      "status": 200,
+      "title": "11+ Modal Verbs: Possibility, Permission and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-modal-verbs"
+      ],
+      "htmlBytes": 80385,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-comparative-superlative-adjectives",
+      "status": 200,
+      "title": "11+ Comparative and Superlative Adjectives: Rules and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-comparative-superlative-adjectives"
+      ],
+      "htmlBytes": 83450,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-long-multiplication",
+      "status": 200,
+      "title": "11+ Long Multiplication: Clear Steps and Practice Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-long-multiplication"
+      ],
+      "htmlBytes": 77408,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-roman-numerals",
+      "status": 200,
+      "title": "11+ Roman Numerals: Rules, Conversions and Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-roman-numerals"
+      ],
+      "htmlBytes": 83530,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-pronouns",
+      "status": 200,
+      "title": "11+ Pronouns: Choosing Forms and Making Meaning Clear | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-pronouns"
+      ],
+      "htmlBytes": 83488,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-adverbs-adverbials",
+      "status": 200,
+      "title": "11+ Adverbs and Adverbials: Examples and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-adverbs-adverbials"
+      ],
+      "htmlBytes": 84753,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-hyphens-dashes",
+      "status": 200,
+      "title": "11+ Hyphens and Dashes: Differences and Practice Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-hyphens-dashes"
+      ],
+      "htmlBytes": 81524,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-long-division-remainders",
+      "status": 200,
+      "title": "11+ Long Division and Remainders: Methods and Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-long-division-remainders"
+      ],
+      "htmlBytes": 68911,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-square-cube-numbers",
+      "status": 200,
+      "title": "11+ Square and Cube Numbers: Powers, Roots and Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-square-cube-numbers"
+      ],
+      "htmlBytes": 78081,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-summarising-main-ideas",
+      "status": 200,
+      "title": "11+ Summarising: Main Ideas, Key Details and Model Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-summarising-main-ideas"
+      ],
+      "htmlBytes": 69789,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-writers-purpose",
+      "status": 200,
+      "title": "11+ Writer’s Purpose: Explain Why a Text Was Written | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-writers-purpose"
+      ],
+      "htmlBytes": 70680,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-fact-opinion",
+      "status": 200,
+      "title": "11+ Fact and Opinion: Evidence, Claims and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-fact-opinion"
+      ],
+      "htmlBytes": 70853,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-multiplying-dividing-fractions",
+      "status": 200,
+      "title": "11+ Multiplying and Dividing Fractions: Worked Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-multiplying-dividing-fractions"
+      ],
+      "htmlBytes": 73363,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-scale-drawings-maps",
+      "status": 200,
+      "title": "11+ Scale Drawings and Maps: Distances and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-scale-drawings-maps"
+      ],
+      "htmlBytes": 76153,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-venn-carroll-diagrams",
+      "status": 200,
+      "title": "11+ Venn and Carroll Diagrams: Both, Only and Neither | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-venn-carroll-diagrams"
+      ],
+      "htmlBytes": 80680,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-sentence-structure",
+      "status": 200,
+      "title": "11+ Sentence Structure: Simple, Compound and Complex | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-sentence-structure"
+      ],
+      "htmlBytes": 78833,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-tense-consistency",
+      "status": 200,
+      "title": "11+ Tense Consistency: Editing Past and Present | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-tense-consistency"
+      ],
+      "htmlBytes": 80747,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-adding-subtracting-fractions",
+      "status": 200,
+      "title": "11+ Adding and Subtracting Fractions: Mixed Numbers and Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-adding-subtracting-fractions"
+      ],
+      "htmlBytes": 75874,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-number-sequences",
+      "status": 200,
+      "title": "11+ Number Sequences: Rules, Missing Terms and the nth Term | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-number-sequences"
+      ],
+      "htmlBytes": 77108,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-money-best-value",
+      "status": 200,
+      "title": "11+ Money Problems: Change, Budgets and Best Value | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-money-best-value"
+      ],
+      "htmlBytes": 76170,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-active-passive-voice",
+      "status": 200,
+      "title": "11+ Active and Passive Voice: Examples and Practice Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-active-passive-voice"
+      ],
+      "htmlBytes": 79424,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-colons-semicolons",
+      "status": 200,
+      "title": "11+ Colons and Semicolons: Rules, Examples and Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-colons-semicolons"
+      ],
+      "htmlBytes": 76904,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-rounding-estimation",
+      "status": 200,
+      "title": "11+ Rounding and Estimation: Methods and Worked Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-rounding-estimation"
+      ],
+      "htmlBytes": 77789,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-decimal-arithmetic",
+      "status": 200,
+      "title": "11+ Decimal Arithmetic: Add, Subtract, Multiply and Divide | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-decimal-arithmetic"
+      ],
+      "htmlBytes": 76069,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-speed-distance-time",
+      "status": 200,
+      "title": "11+ Speed, Distance and Time: Units and Average Speed | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-speed-distance-time"
+      ],
+      "htmlBytes": 77218,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-synonyms-antonyms",
+      "status": 200,
+      "title": "11+ Synonyms and Antonyms: Meaning, Context and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-synonyms-antonyms"
+      ],
+      "htmlBytes": 79379,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-subject-verb-agreement",
+      "status": 200,
+      "title": "11+ Subject–Verb Agreement: Find the Subject and Fix the Verb | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-subject-verb-agreement"
+      ],
+      "htmlBytes": 80597,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-volume-capacity",
+      "status": 200,
+      "title": "11+ Volume and Capacity: Cuboids, Cubes and Worked Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-volume-capacity"
+      ],
+      "htmlBytes": 76864,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-probability",
+      "status": 200,
+      "title": "11+ Probability: Equally Likely Outcomes and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-probability"
+      ],
+      "htmlBytes": 77753,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-coordinates",
+      "status": 200,
+      "title": "11+ Coordinates: Ordered Pairs, Moves and Missing Vertices | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-coordinates"
+      ],
+      "htmlBytes": 75877,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-relative-clauses",
+      "status": 200,
+      "title": "11+ Relative Clauses: Pronouns, Meaning and Comma Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-relative-clauses"
+      ],
+      "htmlBytes": 78894,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-poetry-comprehension",
+      "status": 200,
+      "title": "11+ Poetry Comprehension: Rhyme, Inference and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-poetry-comprehension"
+      ],
+      "htmlBytes": 82502,
+      "errors": []
+    },
+    {
+      "path": "/blog/wirral-11-plus-results-october-2026",
+      "status": 200,
+      "title": "Wirral’s 21 October 11+ Results Milestone: Applications Still Required | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/wirral-11-plus-results-october-2026"
+      ],
+      "htmlBytes": 58447,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-unit-conversions",
+      "status": 200,
+      "title": "11+ Unit Conversions: Metric Measures and Worked Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-unit-conversions"
+      ],
+      "htmlBytes": 75768,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-data-interpretation",
+      "status": 200,
+      "title": "11+ Data Interpretation: Tables, Scales and Pictogram Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-data-interpretation"
+      ],
+      "htmlBytes": 77195,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-missing-angles",
+      "status": 200,
+      "title": "11+ Missing Angles: Rules, Methods and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-missing-angles"
+      ],
+      "htmlBytes": 77068,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-prefixes-suffixes",
+      "status": 200,
+      "title": "11+ Prefixes and Suffixes: Meaning, Spelling and Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-prefixes-suffixes"
+      ],
+      "htmlBytes": 76971,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-similes-metaphors-personification",
+      "status": 200,
+      "title": "11+ Similes, Metaphors and Personification: Explain the Effect | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-similes-metaphors-personification"
+      ],
+      "htmlBytes": 78569,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-area-perimeter",
+      "status": 200,
+      "title": "11+ Area and Perimeter: Questions with Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-area-perimeter"
+      ],
+      "htmlBytes": 76659,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-averages",
+      "status": 200,
+      "title": "11+ Averages: Mean, Median, Mode and Missing Numbers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-averages"
+      ],
+      "htmlBytes": 77372,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-time-timetables",
+      "status": 200,
+      "title": "11+ Time and Timetables: Worked Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-time-timetables"
+      ],
+      "htmlBytes": 77219,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-homophones",
+      "status": 200,
+      "title": "11+ Homophones: Choose the Right Word | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-homophones"
+      ],
+      "htmlBytes": 77786,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-commas",
+      "status": 200,
+      "title": "11+ Commas: Lists, Openings and Clear Meaning | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-commas"
+      ],
+      "htmlBytes": 75463,
+      "errors": []
+    },
+    {
+      "path": "/blog/aylesbury-grammar-2028-admissions-consultation",
+      "status": 200,
+      "title": "Aylesbury Grammar Consults on Sibling Priority for 2028 | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/aylesbury-grammar-2028-admissions-consultation"
+      ],
+      "htmlBytes": 64116,
+      "errors": []
+    },
+    {
+      "path": "/blog/altrincham-girls-2028-admissions-consultation",
+      "status": 200,
+      "title": "Altrincham Girls Consults on 2028 Admissions Priority | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/altrincham-girls-2028-admissions-consultation"
+      ],
+      "htmlBytes": 64010,
+      "errors": []
+    },
+    {
+      "path": "/blog/secondary-school-deadline-31-october-2026",
+      "status": 200,
+      "title": "Secondary Applications: One Week Until 31 October Deadline | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/secondary-school-deadline-31-october-2026"
+      ],
+      "htmlBytes": 65676,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-order-of-operations",
+      "status": 200,
+      "title": "11+ Order of Operations: BODMAS Questions and Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-order-of-operations"
+      ],
+      "htmlBytes": 78685,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-factors-multiples-primes",
+      "status": 200,
+      "title": "11+ Factors, Multiples and Primes: Questions with Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-factors-multiples-primes"
+      ],
+      "htmlBytes": 77707,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-negative-numbers",
+      "status": 200,
+      "title": "11+ Negative Numbers: Ordering, Temperature and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-negative-numbers"
+      ],
+      "htmlBytes": 78718,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-percentage-increase-decrease",
+      "status": 200,
+      "title": "11+ Percentage Increase and Decrease: Worked Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-percentage-increase-decrease"
+      ],
+      "htmlBytes": 78551,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-apostrophes",
+      "status": 200,
+      "title": "11+ Apostrophes: Possession, Contractions and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-apostrophes"
+      ],
+      "htmlBytes": 81392,
+      "errors": []
+    },
+    {
+      "path": "/blog/kent-test-2027-quest-assessments",
+      "status": 200,
+      "title": "Kent Test 2027: What the New Provider Means for Parents | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/kent-test-2027-quest-assessments"
+      ],
+      "htmlBytes": 68388,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-fractions-decimals-percentages-conversions",
+      "status": 200,
+      "title": "11+ Fractions, Decimals and Percentages: Conversions and Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-fractions-decimals-percentages-conversions"
+      ],
+      "htmlBytes": 87330,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-multi-step-word-problems",
+      "status": 200,
+      "title": "11+ Multi-Step Word Problems: A Method and Eight Practice Questions | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-multi-step-word-problems"
+      ],
+      "htmlBytes": 83281,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-algebra-basics",
+      "status": 200,
+      "title": "11+ Algebra Basics: Missing Numbers, Equations and Worked Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-algebra-basics"
+      ],
+      "htmlBytes": 82673,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-vocabulary-in-context",
+      "status": 200,
+      "title": "11+ Vocabulary in Context: A Passage, Questions and Explained Answers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-vocabulary-in-context"
+      ],
+      "htmlBytes": 83261,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-direct-speech-punctuation",
+      "status": 200,
+      "title": "11+ Direct Speech Punctuation: Rules, Examples and Practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation"
+      ],
+      "htmlBytes": 85573,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-the-11-plus-exam",
+      "status": 200,
+      "title": "What is the 11 Plus exam? A parent’s guide for 2027 | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-the-11-plus-exam"
+      ],
+      "htmlBytes": 97143,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal",
+      "status": 200,
+      "title": "What subjects are in the 11 Plus? A guide for 2027 exams | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-subjects-are-in-the-11-plus-english-maths-verbal-non-verbal"
+      ],
+      "htmlBytes": 101959,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-exam-format-multiple-choice-or-written",
+      "status": 200,
+      "title": "11 Plus exam format: multiple choice, written or online? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written"
+      ],
+      "htmlBytes": 103746,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-age-do-children-sit-the-11-plus",
+      "status": 200,
+      "title": "What age do children sit the 11 Plus? A guide to 2027 exams | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus"
+      ],
+      "htmlBytes": 92569,
+      "errors": []
+    },
+    {
+      "path": "/blog/when-are-the-11-plus-exam-dates-in-my-area",
+      "status": 200,
+      "title": "11 Plus exam dates in 2027: finding the right local timetable | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/when-are-the-11-plus-exam-dates-in-my-area"
+      ],
+      "htmlBytes": 105615,
+      "errors": []
+    },
+    {
+      "path": "/blog/which-schools-use-the-11-plus-exam",
+      "status": 200,
+      "title": "Which schools use the 11 Plus? Finding the right route for 2027 | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam"
+      ],
+      "htmlBytes": 95318,
+      "errors": []
+    },
+    {
+      "path": "/blog/gl-vs-cem-11-plus-what-is-the-difference",
+      "status": 200,
+      "title": "GL vs CEM 11 Plus: how to choose the right preparation | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/gl-vs-cem-11-plus-what-is-the-difference"
+      ],
+      "htmlBytes": 89062,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-topics-are-in-11-plus-english",
+      "status": 200,
+      "title": "11 Plus English topics: a practical revision checklist | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-english"
+      ],
+      "htmlBytes": 77013,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-topics-are-in-11-plus-maths",
+      "status": 200,
+      "title": "11 Plus maths topics: checklist, examples and study order | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths"
+      ],
+      "htmlBytes": 81027,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-11-plus-verbal-reasoning",
+      "status": 200,
+      "title": "What is 11 Plus verbal reasoning? Examples and methods | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning"
+      ],
+      "htmlBytes": 75012,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-11-plus-non-verbal-reasoning",
+      "status": 200,
+      "title": "What is 11 Plus non-verbal reasoning? A parent’s guide | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning"
+      ],
+      "htmlBytes": 71264,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-hard-is-the-11-plus-exam",
+      "status": 200,
+      "title": "How hard is the 11 Plus? Find the challenge your child faces | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam"
+      ],
+      "htmlBytes": 68913,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-register-my-child-for-the-11-plus",
+      "status": 200,
+      "title": "How to register your child for the 11 Plus in 2027 | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-to-register-my-child-for-the-11-plus"
+      ],
+      "htmlBytes": 100909,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-prepare-for-the-11-plus-at-home",
+      "status": 200,
+      "title": "How to prepare for the 11 Plus at home: a practical plan | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home"
+      ],
+      "htmlBytes": 78743,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-early-should-we-start-11-plus-preparation",
+      "status": 200,
+      "title": "When should 11 Plus preparation start? A readiness guide | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-early-should-we-start-11-plus-preparation"
+      ],
+      "htmlBytes": 72571,
+      "errors": []
+    },
+    {
+      "path": "/blog/best-11-plus-practice-papers-and-past-papers",
+      "status": 200,
+      "title": "11 Plus practice papers: how to choose reliable resources | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers"
+      ],
+      "htmlBytes": 79019,
+      "errors": []
+    },
+    {
+      "path": "/blog/free-11-plus-resources-and-websites",
+      "status": 200,
+      "title": "Free 11 Plus resources and websites for 2027 preparation | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/free-11-plus-resources-and-websites"
+      ],
+      "htmlBytes": 95594,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-we-need-an-11-plus-tutor",
+      "status": 200,
+      "title": "Do we need an 11 Plus tutor? A practical decision guide | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-we-need-an-11-plus-tutor"
+      ],
+      "htmlBytes": 72041,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-many-hours-a-week-should-my-child-study-for-11-plus",
+      "status": 200,
+      "title": "How many hours a week should my child study for the 11 Plus? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-many-hours-a-week-should-my-child-study-for-11-plus"
+      ],
+      "htmlBytes": 92693,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-time-management-strategies-in-the-exam",
+      "status": 200,
+      "title": "11 Plus time management: pacing, checking and section rules | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-time-management-strategies-in-the-exam"
+      ],
+      "htmlBytes": 73078,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-is-the-11-plus-scored-and-marked",
+      "status": 200,
+      "title": "How is the 11 Plus scored and marked? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-is-the-11-plus-scored-and-marked"
+      ],
+      "htmlBytes": 72664,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-a-good-11-plus-score-or-pass-mark",
+      "status": 200,
+      "title": "What is a good 11 Plus score or pass mark? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-a-good-11-plus-score-or-pass-mark"
+      ],
+      "htmlBytes": 87248,
+      "errors": []
+    },
+    {
+      "path": "/blog/standardised-scores-in-the-11-plus-what-do-they-mean",
+      "status": 200,
+      "title": "11 Plus standardised scores: what do they mean? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/standardised-scores-in-the-11-plus-what-do-they-mean"
+      ],
+      "htmlBytes": 89104,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-many-children-pass-the-11-plus-pass-rate",
+      "status": 200,
+      "title": "What percentage of children pass the 11 Plus? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-many-children-pass-the-11-plus-pass-rate"
+      ],
+      "htmlBytes": 78391,
+      "errors": []
+    },
+    {
+      "path": "/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
+      "status": 200,
+      "title": "Grammar vs independent schools: comparing 11+ entry routes | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus"
+      ],
+      "htmlBytes": 103056,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-independent-schools-use-the-11-plus",
+      "status": 200,
+      "title": "Do independent schools use the 11 Plus? Entry routes explained | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus"
+      ],
+      "htmlBytes": 104936,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-happens-if-my-child-fails-the-11-plus",
+      "status": 200,
+      "title": "What happens if my child does not pass the 11 Plus? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus"
+      ],
+      "htmlBytes": 92356,
+      "errors": []
+    },
+    {
+      "path": "/blog/can-my-child-retake-the-11-plus",
+      "status": 200,
+      "title": "Can my child retake the 11 Plus? Resits and later-entry options | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus"
+      ],
+      "htmlBytes": 94651,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-appeal-an-11-plus-result-or-school-allocation",
+      "status": 200,
+      "title": "How to appeal an 11 Plus result or school allocation | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-to-appeal-an-11-plus-result-or-school-allocation"
+      ],
+      "htmlBytes": 95140,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+      "status": 200,
+      "title": "11 Plus exam stress: practical ways to support your child | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child"
+      ],
+      "htmlBytes": 69129,
+      "errors": []
+    },
+    {
+      "path": "/blog/11-plus-exam-day-checklist-what-to-bring",
+      "status": 200,
+      "title": "11 Plus exam-day checklist: what to bring and check | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring"
+      ],
+      "htmlBytes": 102038,
+      "errors": []
+    },
+    {
+      "path": "/blog/computer-based-vs-paper-based-11-plus-tests",
+      "status": 200,
+      "title": "Computer-based vs paper-based 11 Plus tests: how to prepare | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests"
+      ],
+      "htmlBytes": 92551,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-calculators-allowed-in-the-11-plus",
+      "status": 200,
+      "title": "Are calculators allowed in the 11 Plus? Rules and checks | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus"
+      ],
+      "htmlBytes": 87818,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-improve-11-plus-vocabulary-quickly",
+      "status": 200,
+      "title": "How to improve 11 Plus vocabulary: learn words in context | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-vocabulary-quickly"
+      ],
+      "htmlBytes": 74368,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-improve-11-plus-mental-maths",
+      "status": 200,
+      "title": "11 Plus mental maths: efficient methods and worked practice | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths"
+      ],
+      "htmlBytes": 82281,
+      "errors": []
+    },
+    {
+      "path": "/blog/best-books-for-11-plus-preparation",
+      "status": 200,
+      "title": "Best books for 11+ preparation: choose by task and test route | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation"
+      ],
+      "htmlBytes": 73542,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-structure-an-11-plus-study-timetable",
+      "status": 200,
+      "title": "How to structure an 11 Plus study timetable for 2027 | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-to-structure-an-11-plus-study-timetable"
+      ],
+      "htmlBytes": 103608,
+      "errors": []
+    },
+    {
+      "path": "/blog/common-11-plus-english-mistakes-to-avoid",
+      "status": 200,
+      "title": "11+ English mistakes: comprehension, vocabulary and grammar | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/common-11-plus-english-mistakes-to-avoid"
+      ],
+      "htmlBytes": 77847,
+      "errors": []
+    },
+    {
+      "path": "/blog/common-11-plus-maths-mistakes-to-avoid",
+      "status": 200,
+      "title": "11+ maths mistakes: eight worked corrections and what to practise | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid"
+      ],
+      "htmlBytes": 83205,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-different-are-11-plus-exams-by-region",
+      "status": 200,
+      "title": "How 11+ exams differ by region, school and entry year | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region"
+      ],
+      "htmlBytes": 76669,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-covered-in-11-plus-creative-writing",
+      "status": 200,
+      "title": "11+ creative writing: tasks, planning and a worked example | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-covered-in-11-plus-creative-writing"
+      ],
+      "htmlBytes": 76782,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-long-is-the-11-plus-exam",
+      "status": 200,
+      "title": "How long is the 11 Plus exam? Timings and breaks explained | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam"
+      ],
+      "htmlBytes": 90532,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-many-papers-are-in-the-11-plus",
+      "status": 200,
+      "title": "How many papers are in the 11 Plus? Tests, sections and stages | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus"
+      ],
+      "htmlBytes": 90282,
+      "errors": []
+    },
+    {
+      "path": "/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
+      "status": 200,
+      "title": "11 Plus extra time and SEN: evidence and access arrangements | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/can-my-child-get-extra-time-in-the-11-plus-sen"
+      ],
+      "htmlBytes": 105456,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-level-of-ks2-is-needed-for-the-11-plus",
+      "status": 200,
+      "title": "What KS2 level is needed for the 11+? Skills and scores explained | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus"
+      ],
+      "htmlBytes": 76227,
+      "errors": []
+    },
+    {
+      "path": "/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
+      "status": 200,
+      "title": "Online or in-person 11+ tutoring: how to compare the fit | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better"
+      ],
+      "htmlBytes": 71144,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-mock-exams-important-for-the-11-plus",
+      "status": 200,
+      "title": "Are mock exams important for the 11 Plus? Benefits and limits | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus"
+      ],
+      "htmlBytes": 94209,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+      "status": 200,
+      "title": "How many 11 Plus mock exams should my child sit? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit"
+      ],
+      "htmlBytes": 106494,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-to-choose-the-right-grammar-school-after-the-11-plus",
+      "status": 200,
+      "title": "How to choose the right grammar school after the 11 Plus | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-to-choose-the-right-grammar-school-after-the-11-plus"
+      ],
+      "htmlBytes": 101989,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-a-grammar-school",
+      "status": 200,
+      "title": "What is a grammar school? A guide for parents in England | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-a-grammar-school"
+      ],
+      "htmlBytes": 97993,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-grammar-schools-free-or-private",
+      "status": 200,
+      "title": "Are grammar schools free or private? Fees and other costs | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private"
+      ],
+      "htmlBytes": 96430,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-many-grammar-schools-are-there-in-england",
+      "status": 200,
+      "title": "How many grammar schools are in England? The verified 2026 count | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england"
+      ],
+      "htmlBytes": 69049,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+      "status": 200,
+      "title": "Grammar vs comprehensive schools: what is the difference? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools"
+      ],
+      "htmlBytes": 99565,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-grammar-schools-better-than-other-state-schools",
+      "status": 200,
+      "title": "Are grammar schools better than other state schools? Reading the evidence | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools"
+      ],
+      "htmlBytes": 97591,
+      "errors": []
+    },
+    {
+      "path": "/blog/who-are-grammar-schools-suitable-for",
+      "status": 200,
+      "title": "Who are grammar schools suitable for? Assessing your child’s needs | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for"
+      ],
+      "htmlBytes": 99453,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-do-you-get-into-a-grammar-school",
+      "status": 200,
+      "title": "How to get into a grammar school: a 2027 exam application guide | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school"
+      ],
+      "htmlBytes": 96223,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-you-have-to-sit-the-11-plus-for-grammar-school",
+      "status": 200,
+      "title": "Do you have to sit the 11 Plus for grammar school? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-you-have-to-sit-the-11-plus-for-grammar-school"
+      ],
+      "htmlBytes": 98523,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own",
+      "status": 200,
+      "title": "Which exams do grammar schools use? Providers and 2027 changes | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-exams-do-grammar-schools-use-gl-cem-schools-own"
+      ],
+      "htmlBytes": 105935,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-score-do-you-need-to-get-into-a-grammar-school",
+      "status": 200,
+      "title": "What score do you need to get into a grammar school? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-score-do-you-need-to-get-into-a-grammar-school"
+      ],
+      "htmlBytes": 81476,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-a-super-selective-grammar-school",
+      "status": 200,
+      "title": "What is a super-selective grammar school? Scores and admission rules | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school"
+      ],
+      "htmlBytes": 99086,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-competitive-are-grammar-school-places",
+      "status": 200,
+      "title": "How competitive are grammar-school places? Making sense of the numbers | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places"
+      ],
+      "htmlBytes": 104868,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-are-the-grammar-school-admission-criteria",
+      "status": 200,
+      "title": "Grammar-school admission criteria: how to check eligibility and priority | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-are-the-grammar-school-admission-criteria"
+      ],
+      "htmlBytes": 104351,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-important-is-catchment-area-for-grammar-schools",
+      "status": 200,
+      "title": "Grammar school catchment: what matters for 2027 exams? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-important-is-catchment-area-for-grammar-schools"
+      ],
+      "htmlBytes": 91410,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in",
+      "status": 200,
+      "title": "How far from a grammar school can you live and still get in? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in"
+      ],
+      "htmlBytes": 95489,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-have-feeder-primary-schools",
+      "status": 200,
+      "title": "Do grammar schools have feeder primary schools? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-have-feeder-primary-schools"
+      ],
+      "htmlBytes": 95698,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-give-priority-to-siblings",
+      "status": 200,
+      "title": "Do grammar schools give priority to siblings? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-give-priority-to-siblings"
+      ],
+      "htmlBytes": 97631,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-does-pupil-premium-priority-work-for-grammar-schools",
+      "status": 200,
+      "title": "Pupil premium and grammar-school admissions: how priority works | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-does-pupil-premium-priority-work-for-grammar-schools"
+      ],
+      "htmlBytes": 94104,
+      "errors": []
+    },
+    {
+      "path": "/blog/when-do-you-apply-for-grammar-school-places",
+      "status": 200,
+      "title": "When do you apply for grammar school places? The 2027 exam cycle | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/when-do-you-apply-for-grammar-school-places"
+      ],
+      "htmlBytes": 96466,
+      "errors": []
+    },
+    {
+      "path": "/blog/when-are-grammar-school-open-days-and-visits",
+      "status": 200,
+      "title": "Grammar school open days: 2027 dates and booking checks | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits"
+      ],
+      "htmlBytes": 91589,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test",
+      "status": 200,
+      "title": "Grammar school test registration: forms, consortia and result sharing | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test"
+      ],
+      "htmlBytes": 104035,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-the-timeline-for-grammar-school-admissions",
+      "status": 200,
+      "title": "Grammar school admissions timeline: 2027 tests to 2028 entry | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-the-timeline-for-grammar-school-admissions"
+      ],
+      "htmlBytes": 102879,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+      "status": 200,
+      "title": "Do all grammar schools use the same 11 Plus test? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test"
+      ],
+      "htmlBytes": 100964,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-do-waiting-lists-work-for-grammar-schools",
+      "status": 200,
+      "title": "How do grammar school waiting lists work? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-do-waiting-lists-work-for-grammar-schools"
+      ],
+      "htmlBytes": 92812,
+      "errors": []
+    },
+    {
+      "path": "/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
+      "status": 200,
+      "title": "Can my child join a grammar school in Year 8 or later? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later"
+      ],
+      "htmlBytes": 99165,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+      "status": 200,
+      "title": "Passed the 11 Plus but no grammar-school place: what next? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place"
+      ],
+      "htmlBytes": 98449,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-do-grammar-school-appeals-work",
+      "status": 200,
+      "title": "How do grammar school appeals work? Evidence and hearings explained | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-do-grammar-school-appeals-work"
+      ],
+      "htmlBytes": 96665,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools",
+      "status": 200,
+      "title": "How to find your grammar school catchment or priority area map | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-the-catchment-or-priority-area-map-for-my-local-grammar-schools"
+      ],
+      "htmlBytes": 97691,
+      "errors": []
+    },
+    {
+      "path": "/blog/can-we-move-house-to-get-into-a-grammar-school",
+      "status": 200,
+      "title": "Moving house for grammar school: planning for 2027 exams | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/can-we-move-house-to-get-into-a-grammar-school"
+      ],
+      "htmlBytes": 97181,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first",
+      "status": 200,
+      "title": "Do grammar schools put test score or distance first? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first"
+      ],
+      "htmlBytes": 95688,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-have-banding-or-lotteries",
+      "status": 200,
+      "title": "Do grammar schools use banding or lotteries? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-have-banding-or-lotteries"
+      ],
+      "htmlBytes": 98616,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-is-the-typical-day-like-at-a-grammar-school",
+      "status": 200,
+      "title": "A grammar-school day: real timetables and Year 7 routines | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school"
+      ],
+      "htmlBytes": 74856,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
+      "status": 200,
+      "title": "What GCSE and A-level results do grammar schools get? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get"
+      ],
+      "htmlBytes": 100474,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+      "status": 200,
+      "title": "Grammar schools and Oxbridge: support, results and evidence | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications"
+      ],
+      "htmlBytes": 74400,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-much-homework-do-grammar-school-students-get",
+      "status": 200,
+      "title": "Grammar-school homework: expectations, examples and a workable plan | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-much-homework-do-grammar-school-students-get"
+      ],
+      "htmlBytes": 73160,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
+      "status": 200,
+      "title": "Grammar school pastoral care: how to check the support | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support"
+      ],
+      "htmlBytes": 89969,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+      "status": 200,
+      "title": "Are there grammar schools for boys only or girls only? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only"
+      ],
+      "htmlBytes": 96260,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-there-mixed-co-ed-grammar-schools",
+      "status": 200,
+      "title": "Are there mixed, co-educational grammar schools? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools"
+      ],
+      "htmlBytes": 97259,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-provide-bus-or-transport-options",
+      "status": 200,
+      "title": "Grammar school transport: buses, costs and free-travel rules | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options"
+      ],
+      "htmlBytes": 92345,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+      "status": 200,
+      "title": "Grammar school costs: uniforms, trips and optional extras | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras"
+      ],
+      "htmlBytes": 94405,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-offer-bursaries-or-financial-support",
+      "status": 200,
+      "title": "Do grammar schools offer bursaries or financial support? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support"
+      ],
+      "htmlBytes": 101293,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-do-i-choose-between-several-grammar-schools",
+      "status": 200,
+      "title": "How do I choose between several grammar schools? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools"
+      ],
+      "htmlBytes": 102306,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+      "status": 200,
+      "title": "Questions to ask at a grammar school open day | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day"
+      ],
+      "htmlBytes": 97166,
+      "errors": []
+    },
+    {
+      "path": "/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
+      "status": 200,
+      "title": "Can children with SEN or an EHCP attend grammar school? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools"
+      ],
+      "htmlBytes": 104751,
+      "errors": []
+    },
+    {
+      "path": "/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
+      "status": 200,
+      "title": "Grammar-school support for dyslexia, ADHD and autism: what to ask | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism"
+      ],
+      "htmlBytes": 106316,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children",
+      "status": 200,
+      "title": "Are grammar schools too pressured or stressful for some children? | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children"
+      ],
+      "htmlBytes": 102650,
+      "errors": []
+    },
+    {
+      "path": "/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+      "status": 200,
+      "title": "When to plan grammar-school entry: a parent’s admissions calendar | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry"
+      ],
+      "htmlBytes": 76577,
+      "errors": []
+    },
+    {
+      "path": "/blog/is-a-tutor-necessary-for-grammar-school-entrance",
+      "status": 200,
+      "title": "Is a tutor necessary for grammar-school entrance? A route-based plan | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance"
+      ],
+      "htmlBytes": 78021,
+      "errors": []
+    },
+    {
+      "path": "/blog/what-are-the-pros-and-cons-of-grammar-schools",
+      "status": 200,
+      "title": "The pros and cons of grammar schools: a practical parent guide | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools"
+      ],
+      "htmlBytes": 104721,
+      "errors": []
+    },
+    {
+      "path": "/blog/are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school",
+      "status": 200,
+      "title": "Alternatives to grammar school: choosing a secondary school | 11 Plus Exam Papers",
+      "canonical": [
+        "https://www.11plusexampapers.com/blog/are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school"
+      ],
+      "htmlBytes": 95998,
+      "errors": []
+    }
+  ]
+}

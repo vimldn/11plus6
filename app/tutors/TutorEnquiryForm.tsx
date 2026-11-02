@@ -1,5 +1,7 @@
 'use client';
 
+import { trackEvent } from '@/lib/analytics';
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { Mail, Phone, User, Users, Loader2 } from 'lucide-react';
 
@@ -28,7 +30,8 @@ export default function TutorEnquiryForm() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           email: form.email,
-          childName: form.name,
+          parentName: form.name,
+          notes: form.notes,
           phone: form.phone,
           childYear: form.childYear,
           targetSchool: 'General enquiry',
@@ -36,6 +39,7 @@ export default function TutorEnquiryForm() {
         }),
       });
       if (!res.ok) throw new Error('Submission failed');
+      trackEvent('tutor_enquiry', { source_path: window.location.pathname });
       setSubmitted(true);
     } catch (err) {
       console.error('[TutorEnquiryForm]', err);
@@ -133,6 +137,7 @@ export default function TutorEnquiryForm() {
           />
         </label>
 
+        <p className="text-xs leading-5 text-slate-500">For parents and carers. We use these details to reply to your enquiry. Please do not include sensitive information about a child. <Link href="/privacy" className="underline">Privacy policy</Link></p>
         {error && <p className="text-xs text-red-500 font-medium">{error}</p>}
 
         <button

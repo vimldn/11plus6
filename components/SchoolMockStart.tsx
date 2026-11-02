@@ -1,346 +1,100 @@
 'use client';
 
-import { SchoolPaperEvidence } from './SchoolPaperEvidence';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { motion } from 'framer-motion';
-import { Building2, School, Play, Timer, ListChecks, Mail, User2, BookOpen } from 'lucide-react';
+import { BookOpen, Building2, Play, School } from 'lucide-react';
+import { SchoolPaperEvidence } from './SchoolPaperEvidence';
+import type { PracticeMode } from '@/lib/practiceSessionLinks';
 
 type SchoolCategory = 'grammar' | 'private';
+type SchoolSubject = 'maths' | 'english';
+type SchoolRow = { id: string; name: string; category: SchoolCategory; availableSubjects?: SchoolSubject[] };
 
-type SchoolRow = {
-  id: string;
-  name: string;
-  category: SchoolCategory;
-  summary?: string | null;
-  availableSubjects?: Array<'maths' | 'english'>;
-  defaultSubject?: 'maths' | 'english';
-  defaults?: {
-    mathsOnly: { durationMins: number; questionCount: number };
-    englishOnly: { durationMins: number; questionCount: number };
-  };
-  quizTypes?: {
-    maths: 'multiple-choice' | 'fill-in-the-blank';
-    english: 'multiple-choice' | 'fill-in-the-blank';
-  };
-};
+const optionClass = (selected: boolean) => `rounded-xl border px-4 py-3 text-left text-sm font-semibold transition-colors ${selected ? 'border-emerald-900 bg-emerald-50 text-emerald-950' : 'border-stone-200 bg-white text-slate-700 hover:border-emerald-700'}`;
 
-interface SchoolMockStartProps {
-  /** If true, uses tighter spacing so it can live inside another page. */
-  compact?: boolean;
-}
-
-export function SchoolMockStart({ compact = false }: SchoolMockStartProps) {
+export function SchoolMockStart({ compact = false }: { compact?: boolean }) {
   const router = useRouter();
   const [schools, setSchools] = useState<SchoolRow[]>([]);
   const [category, setCategory] = useState<SchoolCategory>('grammar');
-  const [schoolId, setSchoolId] = useState<string>('');
-  const [subject, setSubject] = useState<'maths' | 'english' | null>(null);
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [emailTouched, setEmailTouched] = useState(false);
-  const isEmailValid = email.trim().length > 0 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+  const [selectedId, setSelectedId] = useState('');
+  const [subject, setSubject] = useState<SchoolSubject | null>(null);
+  const [practiceMode, setPracticeMode] = useState<PracticeMode>('practice');
   const [duration, setDuration] = useState(45);
   const [count, setCount] = useState(25);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    let mounted = true;
-    (async () => {
+    const controller = new AbortController();
+    async function loadSchools() {
       try {
-        const res = await fetch('/api/schools');
-        const data = await res.json();
-        if (!mounted) return;
-        const list = Array.isArray(data?.schools) ? (data.schools as SchoolRow[]) : [];
-        setSchools(list);
-
-        const first = list.find((s) => s.category === category);
-        setSchoolId(first?.id || '');
-      } catch {
-        if (mounted) setError('Unable to load schools right now.');
+        const response = await fetch('/api/schools', { signal: controller.signal });
+        if (!response.ok) throw new Error('School list request failed');
+        const data: { schools?: SchoolRow[] } = await response.json();
+        if (!Array.isArray(data.schools) || !data.schools.length) throw new Error('School list is empty');
+        setSchools(data.schools);
+      } catch (cause) {
+        if (controller.signal.aborted) return;
+        setError('We could not load the school list. You can still start general practice or read the school guides.');
       } finally {
-        if (mounted) setLoading(false);
+        if (!controller.signal.aborted) setLoading(false);
       }
-    })();
-    return () => {
-      mounted = false;
-    };
+    }
+    void loadSchools();
+    return () => controller.abort();
   }, []);
 
-  const filtered = useMemo(() => schools.filter((s) => s.category === category), [schools, category]);
-  const selectedSchool = useMemo(() => schools.find((s) => s.id === schoolId) || null, [schools, schoolId]);
-  // Use the blueprint's availableSubjects if present, then fall back to the
-  // catalog subjects field (filtered to maths/english), then default to both.
-  const availableSubjects: Array<'maths' | 'english'> = useMemo(() => {
-    if (selectedSchool?.availableSubjects?.length) return selectedSchool.availableSubjects;
-    const catalogSubjects: string[] = (selectedSchool as any)?.subjects ?? [];
-    const mapped = catalogSubjects
-      .map((s: string) => (s === 'maths' ? 'maths' : s === 'english' ? 'english' : null))
-      .filter((s): s is 'maths' | 'english' => s !== null);
-    return mapped.length ? mapped : (['maths', 'english'] as Array<'maths' | 'english'>);
-  }, [selectedSchool]);
+  const filtered = schools.filter(school => school.category === category);
+  const selectedSchool = filtered.find(school => school.id === selectedId) || filtered[0];
+  const availableSubjects = selectedSchool?.availableSubjects?.length ? selectedSchool.availableSubjects : ['maths', 'english'];
+  const canStart = Boolean(selectedSchool && subject && availableSubjects.includes(subject));
 
-  // Keep schoolId valid when category changes.
-  useEffect(() => {
-    const first = filtered[0];
-    setSchoolId((prev) => (prev && filtered.some((s) => s.id === prev) ? prev : (first?.id || '')));
-  }, [filtered]);
-
-  // When school changes, reset subject selection so user must actively choose.
-  useEffect(() => {
-    if (!selectedSchool) return;
+  function selectCategory(value: SchoolCategory) {
+    setCategory(value);
+    setSelectedId('');
     setSubject(null);
-    // Load neutral defaults (maths settings as a baseline for duration/count display)
-    const d = selectedSchool.defaults;
-    if (d) {
-      setDuration(d.mathsOnly.durationMins);
-      setCount(d.mathsOnly.questionCount);
-    }
-  }, [schoolId]);
+  }
 
-  // When subject is chosen, update duration/count defaults for that subject.
-  useEffect(() => {
-    if (!subject || !selectedSchool?.defaults) return;
-    const s = subject === 'maths' ? selectedSchool.defaults.mathsOnly : selectedSchool.defaults.englishOnly;
-    setDuration(s.durationMins);
-    setCount(s.questionCount);
-  }, [subject]);
-
-  const canStart = !!schoolId && !!subject && name.trim().length > 1 && isEmailValid;
-
-  const start = async () => {
-    setEmailTouched(true);
-    if (!canStart) return;
-
-    // Store locally so the app can greet the user later.
-    try {
-      localStorage.setItem('11plus-lead', JSON.stringify({ name, email, schoolId }));
-    } catch {
-      // ignore
-    }
-
-    // Best-effort lead capture.
-    fetch('/api/leads', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, schoolId, subject }),
-    }).catch(() => undefined);
-
-    const resolvedSubject = subject ?? 'maths';
-    const quizType = resolvedSubject === 'maths'
-      ? (selectedSchool?.quizTypes?.maths || 'multiple-choice')
-      : (selectedSchool?.quizTypes?.english || 'multiple-choice');
-
-    const params = new URLSearchParams();
-    params.set('schoolId', schoolId);
-    params.set('schoolType', category === 'grammar' ? 'grammar' : 'independent');
-    params.set('subject', resolvedSubject);
-    params.set('quizType', quizType);
-    params.set('count', String(Math.max(10, Math.min(30, count))));
-    params.set('duration', String(Math.max(15, Math.min(120, duration))));
-    params.set('mode', 'exam');
-
+  function start(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (!canStart || !selectedSchool || !subject) return;
+    const params = new URLSearchParams({
+      schoolId: selectedSchool.id,
+      schoolType: category === 'grammar' ? 'grammar' : 'independent',
+      subject,
+      quizType: 'multiple-choice',
+      count: String(count),
+      duration: String(duration),
+      mode: practiceMode,
+    });
     router.push(`/quiz?${params.toString()}`);
-  };
+  }
 
   return (
-    <section className={compact ? '' : 'px-4 pt-20 pb-16'}>
-      <div className={compact ? '' : 'max-w-4xl mx-auto'}>
-        {!compact && (
-          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-700 text-xs font-black uppercase tracking-widest">
-              <ListChecks size={14} /> School preparation practice
-            </div>
-            <h2 className="mt-5 text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-              Choose a school, then practise shared skills
-            </h2>
-            <p className="mt-3 text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-              Practise original questions with worked answers. These are general skill exercises, not replicas of school papers. Uploaded PDFs are not read by the running generator.
-            </p>
-          </motion.div>
-        )}
-
-        {schoolId && <SchoolPaperEvidence schoolId={schoolId}/>}
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-white border border-slate-100 rounded-3xl shadow-sm p-6">
-            <div className="flex items-center gap-2 font-extrabold text-slate-900 mb-4">
-              <School className="text-indigo-600" size={18} /> Choose a school
-            </div>
-
-            <label className="block text-sm font-bold text-slate-600 mb-1">School type</label>
-            <div className="grid grid-cols-2 gap-3 mb-4">
-              <button
-                type="button"
-                onClick={() => setCategory('grammar')}
-                className={`rounded-2xl px-4 py-3 border text-left transition ${
-                  category === 'grammar' ? 'border-indigo-300 bg-indigo-50' : 'border-slate-200 hover:bg-slate-50'
-                }`}
-              >
-                <div className="flex items-center gap-2 font-black text-slate-900">
-                  <School size={16} /> Grammar
-                </div>
-                <div className="text-xs text-slate-500 mt-1">Selective entrance style</div>
-              </button>
-              <button
-                type="button"
-                onClick={() => setCategory('private')}
-                className={`rounded-2xl px-4 py-3 border text-left transition ${
-                  category === 'private' ? 'border-indigo-300 bg-indigo-50' : 'border-slate-200 hover:bg-slate-50'
-                }`}
-              >
-                <div className="flex items-center gap-2 font-black text-slate-900">
-                  <Building2 size={16} /> Private
-                </div>
-                <div className="text-xs text-slate-500 mt-1">Independent school style</div>
-              </button>
-            </div>
-
-            <label className="block text-sm font-bold text-slate-600 mb-1">School</label>
-            <select
-              value={schoolId}
-              onChange={(e) => setSchoolId(e.target.value)}
-              className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 font-semibold text-slate-900"
-              disabled={loading}
-            >
-              {filtered.map((s) => (
-                <option key={s.id} value={s.id}>
-                  {s.name}
-                </option>
-              ))}
-            </select>
-
-            {error && <div className="mt-3 text-sm text-rose-600 font-semibold">{error}</div>}
-            {loading && <div className="mt-3 text-sm text-slate-500">Loading schools…</div>}
-
-            <div className="mt-6">
-              <label className="block text-sm font-bold text-slate-600 mb-1">
-                Subject <span className="text-rose-500 font-normal text-xs ml-1">{!subject ? '— please select' : ''}</span>
-              </label>
-              <div className="grid grid-cols-2 gap-3">
-                <button
-                  type="button"
-                  onClick={() => setSubject('maths')}
-                  disabled={!availableSubjects.includes('maths')}
-                  className={`rounded-2xl px-4 py-3 border-2 text-left transition ${
-                    subject === 'maths'
-                      ? 'border-indigo-500 bg-indigo-50 ring-2 ring-indigo-200'
-                      : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50'
-                  } ${!availableSubjects.includes('maths') ? 'opacity-40 cursor-not-allowed' : ''}`}
-                >
-                  <div className="flex items-center gap-2 font-black text-slate-900">
-                    <BookOpen size={16} /> Maths
-                  </div>
-                  <div className="text-xs text-slate-500 mt-1">School-style maths questions</div>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setSubject('english')}
-                  disabled={!availableSubjects.includes('english')}
-                  className={`rounded-2xl px-4 py-3 border-2 text-left transition ${
-                    subject === 'english'
-                      ? 'border-indigo-500 bg-indigo-50 ring-2 ring-indigo-200'
-                      : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50'
-                  } ${!availableSubjects.includes('english') ? 'opacity-40 cursor-not-allowed' : ''}`}
-                >
-                  <div className="flex items-center gap-2 font-black text-slate-900">
-                    <BookOpen size={16} /> English
-                  </div>
-                  <div className="text-xs text-slate-500 mt-1">Reading + writing styles</div>
-                </button>
-              </div>
-            </div>
-
-            <div className="mt-6 grid grid-cols-2 gap-3">
-              <div>
-                <label className="block text-sm font-bold text-slate-600 mb-1">Duration (mins)</label>
-                <div className="relative">
-                  <Timer size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
-                  <input
-                    type="number"
-                    min={15}
-                    max={120}
-                    value={duration}
-                    onChange={(e) => setDuration(parseInt(e.target.value || '45', 10))}
-                    className="w-full rounded-2xl border border-slate-200 px-10 py-3 font-semibold"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-bold text-slate-600 mb-1">Questions</label>
-                <div className="relative">
-                  <ListChecks size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
-                  <input
-                    type="number"
-                    min={10}
-                    max={30}
-                    value={count}
-                    onChange={(e) => setCount(parseInt(e.target.value || '25', 10))}
-                    className="w-full rounded-2xl border border-slate-200 px-10 py-3 font-semibold"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <p className="my-4 text-sm leading-6 text-slate-600">Timing and question count below are our practice settings, not the school’s exam specification.</p>
-            {selectedSchool?.summary && (
-              <div className="mt-5 rounded-2xl bg-slate-50 border border-slate-100 p-4 text-sm text-slate-600 leading-relaxed">
-                <div className="font-black text-slate-800 mb-1">This school’s style (blueprint)</div>
-                {selectedSchool.summary}
-              </div>
-            )}
+    <section className={compact ? '' : 'px-6 py-14'} aria-label="School-context practice">
+      <div className={compact ? '' : 'mx-auto max-w-6xl'}>
+        {!compact && <div className="mb-8"><p className="brand-eyebrow">School preparation</p><h2 className="mt-3 text-3xl font-bold">Choose a school, then practise shared skills.</h2><p className="mt-4 max-w-3xl leading-7 text-slate-600">Read the official assessment guidance and use our original questions to build selected skills. The practice settings below are independent of the school’s exam.</p></div>}
+        {loading && <p role="status" className="mb-5 text-sm text-slate-600">Loading school choices…</p>}
+        {error && <div role="alert" className="mb-6 rounded-xl border border-amber-300 bg-amber-50 p-5"><p className="leading-7">{error}</p><div className="mt-3 flex flex-wrap gap-5 font-semibold text-emerald-900"><Link href="/mock-exams" className="underline">Choose general practice →</Link><Link href="/schools" className="underline">Browse school guides →</Link></div></div>}
+        <form onSubmit={start} className="grid gap-7 md:grid-cols-2">
+          <div className="rounded-2xl border border-stone-200 bg-white p-6 sm:p-7">
+            <fieldset><legend className="text-lg font-bold">Find a school</legend><div className="mt-4 grid grid-cols-2 gap-3"><button type="button" aria-pressed={category === 'grammar'} onClick={() => selectCategory('grammar')} className={optionClass(category === 'grammar')}><School size={18} aria-hidden="true" className="mb-2" />Grammar</button><button type="button" aria-pressed={category === 'private'} onClick={() => selectCategory('private')} className={optionClass(category === 'private')}><Building2 size={18} aria-hidden="true" className="mb-2" />Independent</button></div></fieldset>
+            <label htmlFor="practice-school" className="mt-6 block text-sm font-semibold">School guide</label>
+            <select id="practice-school" disabled={loading || !filtered.length} value={selectedSchool?.id || ''} onChange={event => { setSelectedId(event.target.value); setSubject(null); }} className="mt-2 w-full rounded-xl border border-stone-300 bg-white px-4 py-3 text-slate-900">{!filtered.length && <option value="">{loading ? 'Loading schools…' : 'No schools available'}</option>}{filtered.map(school => <option key={school.id} value={school.id}>{school.name}</option>)}</select>
+            {selectedSchool && <Link href={`/schools/${selectedSchool.id}`} className="mt-3 inline-block text-sm font-semibold text-emerald-900 underline underline-offset-4">Read the assessment and admissions guide →</Link>}
+            <fieldset className="mt-7"><legend className="text-lg font-bold">Choose one practice subject</legend><p className="mt-2 text-sm leading-6 text-slate-600">These are available general skills, not a statement of the school’s complete syllabus.</p><div className="mt-4 grid grid-cols-2 gap-3">{(['maths', 'english'] as const).map(value => <button type="button" key={value} aria-pressed={subject === value} disabled={!availableSubjects.includes(value) || loading} onClick={() => setSubject(value)} className={`${optionClass(subject === value)} disabled:opacity-40`}><BookOpen size={18} aria-hidden="true" className="mb-2" />{value === 'maths' ? 'Maths' : 'English'}<span className="mt-1 block text-xs font-normal">Original multiple-choice practice</span></button>)}</div></fieldset>
           </div>
-
-          <div className="bg-white border border-slate-100 rounded-3xl shadow-sm p-6">
-            <div className="flex items-center gap-2 font-extrabold text-slate-900 mb-4">
-              <User2 className="text-indigo-600" size={18} /> Student details
-            </div>
-
-            <label className="block text-sm font-bold text-slate-600 mb-1">Name <span className="text-rose-500">*</span></label>
-            <div className="relative mb-4">
-              <User2 size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
-              <input
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Student name"
-                className="w-full rounded-2xl border border-slate-200 px-10 py-3 font-semibold"
-              />
-            </div>
-
-            <label className="block text-sm font-bold text-slate-600 mb-1">Email <span className="text-rose-500">*</span></label>
-            <div className="relative mb-1">
-              <Mail size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
-              <input
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                onBlur={() => setEmailTouched(true)}
-                placeholder="Parent/guardian email"
-                className={`w-full rounded-2xl border px-10 py-3 font-semibold ${
-                  emailTouched && !isEmailValid ? 'border-rose-400 ring-1 ring-rose-200' : 'border-slate-200'
-                }`}
-              />
-            </div>
-            {emailTouched && !isEmailValid && (
-              <p className="text-xs text-rose-600 font-semibold mb-4 ml-1">Please enter a valid email address.</p>
-            )}
-            {(!emailTouched || isEmailValid) && <div className="mb-4" />}
-
-            <button
-              type="button"
-              onClick={start}
-              disabled={!canStart}
-              className={`w-full inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-4 font-black text-white transition ${
-                canStart ? 'bg-indigo-600 hover:bg-indigo-700' : 'bg-slate-300 cursor-not-allowed'
-              }`}
-            >
-              <Play size={18} /> Start online mock exam
-            </button>
-
-            <div className="mt-5 rounded-2xl bg-slate-50 border border-slate-100 p-4 text-sm text-slate-600 leading-relaxed">
-              This launches a timed, interactive exam session in your browser. When time is up, the test auto-submits and you get instant results.
-            </div>
+          <div className="rounded-2xl border border-stone-200 bg-white p-6 sm:p-7">
+            <fieldset><legend className="text-lg font-bold">Our practice settings</legend><div className="mt-4 grid grid-cols-2 gap-3"><button type="button" aria-pressed={practiceMode === 'practice'} onClick={() => setPracticeMode('practice')} className={optionClass(practiceMode === 'practice')}>Untimed with feedback</button><button type="button" aria-pressed={practiceMode === 'exam'} onClick={() => setPracticeMode('exam')} className={optionClass(practiceMode === 'exam')}>Timed session</button></div></fieldset>
+            <div className="mt-6 grid gap-5 sm:grid-cols-2"><div><label htmlFor="school-practice-count" className="block text-sm font-semibold">Questions</label><select id="school-practice-count" value={count} onChange={event => setCount(Number(event.target.value))} className="mt-2 w-full rounded-xl border border-stone-300 bg-white px-4 py-3">{[10, 15, 20, 25, 30].map(value => <option key={value} value={value}>{value} questions</option>)}</select></div>{practiceMode === 'exam' && <div><label htmlFor="school-practice-timer" className="block text-sm font-semibold">Practice timer</label><select id="school-practice-timer" value={duration} onChange={event => setDuration(Number(event.target.value))} className="mt-2 w-full rounded-xl border border-stone-300 bg-white px-4 py-3">{[15, 25, 45, 60, 90].map(value => <option key={value} value={value}>{value} minutes</option>)}</select></div>}</div>
+            <p className="mt-6 leading-7 text-slate-600">Review the correct answers and explanations in your browser after finishing. These timings and question counts are choices for this session; they do not reproduce the school’s test.</p>
+            <button type="submit" disabled={!canStart} className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-900 px-5 py-4 font-bold text-white hover:bg-emerald-950 disabled:cursor-not-allowed disabled:bg-stone-300"><Play size={18} aria-hidden="true" />Start {subject || 'selected'} practice</button>
+            <p className="mt-4 text-sm leading-6 text-slate-600">{!subject ? 'Select a subject to start. ' : ''}No name, email or sign-up required.</p>
+            <p className="mt-5 border-t border-stone-200 pt-5 text-sm leading-6 text-slate-600">For a full rehearsal, check the current official subjects, stages and answer format. A raw practice percentage is not an admissions prediction.</p>
           </div>
-        </div>
+        </form>
+        {selectedSchool && <SchoolPaperEvidence schoolId={selectedSchool.id} />}
       </div>
     </section>
   );

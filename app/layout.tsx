@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { orgSchema, websiteSchema } from '@/lib/schemas'
+import AnalyticsConsent from '@/components/AnalyticsConsent'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -67,16 +68,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-828TTSWVN8"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-828TTSWVN8');`}
-        </Script>
+        <AnalyticsConsent />
         <Script
           id="schema-org"
           type="application/ld+json"
