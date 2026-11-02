@@ -1,3 +1,4 @@
+import { DAILY_POSTS_20261102 } from './dailyPosts20261102';
 import { DAILY_POSTS_20261101 } from './dailyPosts20261101';
 import { DAILY_POSTS_20261031 } from './dailyPosts20261031';
 import { BLOG_ARTWORK } from './blogArtwork';
@@ -48,6 +49,7 @@ export interface BlogPost {
 }
 
 const BASE_BLOG_POSTS: BlogPost[] = [
+  ...DAILY_POSTS_20261102,
   ...DAILY_POSTS_20261101,
   ...DAILY_POSTS_20261031,
   ...DAILY_POSTS_20261030,
