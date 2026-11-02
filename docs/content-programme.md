@@ -80,3 +80,8 @@ Five distinct educational guides and one verified news candidate tracked in rele
 ## Topic-specific blog imagery — owner instruction 30 October 2026
 
 Every educational and news post must have a distinct, attractive image appropriate to its topic. Do not reuse the homepage/header book illustration or a generic shared cover. Follow `docs/blog-artwork.md`, record provenance and alt text, optimise responsive local assets, check archive/hero/social/schema output and run the artwork gate after the build. Artwork is part of release readiness; hold missing or failed imagery. No image previews are required in chat. All existing research, answer, linking and deployment checks still apply.
+
+
+## 2 November 2026 repair closeout
+
+PR46 completed the remaining26 existing-URL repairs and the SEO/product/technical checklist. All99 original legacy articles now have published repair records; do not requeue them. Read `docs/releases/seo-recovery-2026-11-02.md` and `docs/seo-recovery-baseline-2026-11-02.json` before attributing search changes or selecting overlapping work. The finite repair automation is paused because its scope is complete. Weekly read-only SEO review is restored on Monday08:00 Europe/London; daily content/news stays06:00 with the existing5educational/2genuine-news target and all quality gates. Consent changes Analytics coverage; use GSC for consistent organic-search comparisons. Retain the compact all-article directory, accurate practice settings, four-subject PDF catalogue and privacy controls.

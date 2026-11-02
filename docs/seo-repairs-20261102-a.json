@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "date": "2026-11-02",
   "scope": "Thirteen existing articles; repair group A from the pending legacy queue.",
-  "status": "implemented_pending_integrated_release",
+  "status": "published",
   "implementation": "lib/seoRepairs20261102A.ts",
   "export": "SEO_REPAIRS_A",
   "researchBrief": "docs/research/seo-repairs-2026-11-02-a.md",
@@ -43,7 +43,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "what-topics-are-in-11-plus-maths",
@@ -80,7 +91,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "what-is-11-plus-verbal-reasoning",
@@ -114,7 +136,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "what-is-11-plus-non-verbal-reasoning",
@@ -148,7 +181,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-hard-is-the-11-plus-exam",
@@ -184,7 +228,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-to-prepare-for-the-11-plus-at-home",
@@ -224,7 +279,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-early-should-we-start-11-plus-preparation",
@@ -260,7 +326,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "best-11-plus-practice-papers-and-past-papers",
@@ -298,7 +375,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "do-we-need-an-11-plus-tutor",
@@ -332,7 +420,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "11-plus-time-management-strategies-in-the-exam",
@@ -366,7 +465,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
@@ -399,7 +509,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-to-improve-11-plus-vocabulary-quickly",
@@ -432,7 +553,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-to-improve-11-plus-mental-maths",
@@ -466,7 +598,18 @@
       "existingArtworkPreserved": true,
       "existingUrlPreserved": true,
       "updatedAt": "2026-11-02",
-      "editorialFlag": true
+      "editorialFlag": true,
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     }
   ],
   "validation": {
@@ -490,5 +633,16 @@
     "humanEducatorOrClinicianReviewClaimed": false,
     "fullBuildAndRenderedCheck": "Owned by the integrating release task; not claimed by this manifest.",
     "deployment": "Not performed by this repair group."
+  },
+  "publicationStatus": "production_verified",
+  "release": {
+    "pr": 46,
+    "branch": "fix/seo-recovery-2026-11-02",
+    "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+    "outcome": "production_verified",
+    "verifiedAt": "2026-11-02T10:26:58Z",
+    "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+    "httpStatus": 200,
+    "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
   }
 }

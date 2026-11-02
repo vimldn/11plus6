@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-11-02T10:26:54Z",
+  "note": "Recorded enablement and configured schedules, not a claim that future runs have succeeded. Updated after PR46 production verification.",
+  "automations": [
+    {
+      "key": "weeklyReview",
+      "title": "11 Plus Weekly SEO Review",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261012T080000\nRRULE:FREQ=WEEKLY;BYDAY=MO\nEND:VEVENT",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-11-02T10:26:49.641393+00:00"
+    },
+    {
+      "key": "dailyContent",
+      "title": "11 Plus Daily Content & News",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261021T060000\nRRULE:FREQ=DAILY;BYHOUR=6;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-11-02T10:26:52.493423+00:00"
+    },
+    {
+      "key": "finiteRepairs",
+      "title": "11 Plus Article Repairs",
+      "enabled": false,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261013T050000\nRRULE:FREQ=DAILY;BYHOUR=5;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Europe/London",
+      "updatedAt": "2026-11-02T10:26:54.190991+00:00"
+    }
+  ]
+}
