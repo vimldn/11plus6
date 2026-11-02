@@ -98,7 +98,7 @@ export default function AnalyticsConsent() {
 
   return <>
     {choice === 'granted' && <Script id="optional-analytics" src={`https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_ID}`} strategy="afterInteractive" />}
-    {showSettings && <section aria-label="Privacy choices" className="fixed bottom-3 left-3 right-3 z-[110] mx-auto max-w-3xl rounded-2xl border border-emerald-900/20 bg-[#fffdf5] p-5 text-emerald-950 shadow-xl sm:bottom-5 sm:p-6">
+    {showSettings && <section aria-label="Privacy choices" style={{ fontFamily: 'Arial, Helvetica, sans-serif' }} className="fixed bottom-3 left-3 right-3 z-[110] mx-auto max-w-3xl rounded-2xl border border-emerald-900/20 bg-[#fffdf5] p-5 text-emerald-950 shadow-xl sm:bottom-5 sm:p-6">
       <h2 className="text-lg font-bold">Your privacy choices</h2>
       <p className="mt-2 text-sm leading-6">Practice works without analytics. With your permission, Google Analytics helps us understand which resources get used. We don’t send your answers, scores or contact details. Parents and carers can change this choice any time. <Link className="underline" href="/privacy">Privacy policy</Link></p>
       <div className="mt-4 flex flex-wrap gap-3">
