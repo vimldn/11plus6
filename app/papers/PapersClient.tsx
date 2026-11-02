@@ -421,7 +421,7 @@ function SchoolCard({ school, highlighted }: { school: SchoolEntry; highlighted:
               className={`shrink-0 text-[10px] font-bold flex items-center gap-0.5 px-2 py-1 rounded-lg border transition-colors ${
                 isGrammar
                   ? 'text-indigo-600 border-indigo-200 hover:bg-indigo-100'
-                  : 'text-emerald-600 border-emerald-200 hover:bg-emerald-100'
+                  : 'text-emerald-800 border-emerald-200 hover:bg-emerald-100'
               }`}
             >
               Official sources →

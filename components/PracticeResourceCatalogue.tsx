@@ -29,8 +29,8 @@ export function PracticeResourceCatalogue() {
               <div className="mt-1 flex flex-wrap gap-x-2"><dt className="font-semibold text-slate-900">Timing:</dt><dd>Start untimed; no official exam duration</dd></div>
             </dl>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href={`/papers/${paper.id}-practice.pdf`} className="rounded-xl bg-emerald-900 px-5 py-3 text-center font-semibold text-white" aria-label={`Open ${paper.title} question booklet PDF`}>Questions PDF ↓</a>
-              <a href={`/papers/${paper.id}-worked-answers.pdf`} className="rounded-xl border border-emerald-900 px-5 py-3 text-center font-semibold text-emerald-900" aria-label={`Open ${paper.title} worked answers PDF`}>Worked answers PDF ↓</a>
+              <a href={`/papers/${paper.id}-practice.pdf`} className="rounded-xl bg-emerald-900 px-5 py-3 text-center font-semibold text-white" aria-label={`Questions PDF — ${paper.title}`}>Questions PDF ↓</a>
+              <a href={`/papers/${paper.id}-worked-answers.pdf`} className="rounded-xl border border-emerald-900 px-5 py-3 text-center font-semibold text-emerald-900" aria-label={`Worked answers PDF — ${paper.title}`}>Worked answers PDF ↓</a>
             </div>
             <details className="mt-6 rounded-xl bg-stone-50 p-4">
               <summary className="cursor-pointer font-semibold text-emerald-900">Preview one question</summary>

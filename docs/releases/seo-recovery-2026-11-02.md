@@ -4,7 +4,7 @@ Owner instruction: “ok so you have access to that repo - go fix everything ple
 
 ## Release status
 
-Implementation, independent local checks and the production build completed. Preview and live deployment verification are pending. The audit queue deliberately records the 26 rewritten URLs as **ready**, not published. Publication evidence will be recorded after deployment.
+**Published and verified.** PR46 merged as `3c9ebb570de28302692fd73a0eb285612b05b485`; Vercel production deployment `dpl_6DK4vrVpY9ra25k4JC3ap5X6VCty` is READY on the main domain. All251 public sitemap URLs passed, all26 repaired article titles/H1s/canonicals/update dates matched, two live answer reveals and a live12-question VR start passed. The original99-article audit queue is now **99 complete, zero pending**. See `docs/releases/seo-production-verification-2026-11-02.json` and `docs/releases/seo-live-content-verification-2026-11-02.json`.
 
 ## What changed and why
 
@@ -19,7 +19,7 @@ Implementation, independent local checks and the production build completed. Pre
 | Duplicate privacy/terms and missing canonicals | Real privacy/cookie information, distinct canonicals, optional analytics, withdrawal and clear-saved-practice controls. |
 | Duplicated title suffixes | Child metadata no longer repeats the root brand template. Product metadata matches the expanded offer. |
 | Heavy blog/papers/quiz | Compact server-rendered directory retains every article link; catalogue stops repeating full teaching libraries; general questions are fetched in small sets with a timed local fallback; optional screens and pilot data are deferred. |
-| Incomplete measurement/review | Consent-aware, field-allowlisted practice/download/lesson events; retained first-party GSC baseline; weekly review task will be restored after release. |
+| Incomplete measurement/review | Consent-aware, field-allowlisted practice/download/lesson events; retained first-party GSC baseline; weekly review task restored after release. |
 | Trust and usability defects found during repair | Enquiry failures no longer show false success; personal payload logging removed; parent-name/notes fields forwarded; dead enquiry modal wired to the endpoint; accessible wordmark names and muted-text contrast corrected. |
 
 ## Evidence
@@ -50,6 +50,15 @@ Implementation, independent local checks and the production build completed. Pre
 
 Actual Google URL Inspection is unavailable through the connected tools. Windsor Search Analytics/Sitemaps work for this exact property; its deprecated indexed-count field is not proof of indexing. Availability, canonical and sitemap checks must not be labelled indexing verification.
 
-Google Apps Script is outside this repository. Its storage/notification implementation was not inspected and no live test lead was sent. Client and forwarding success/failure behaviour was tested with mocks. No analytics test hits were sent to Google. Consent changes the population measured by Analytics, so use GSC for consistent organic-search trend comparisons.
+Google Apps Script is outside this repository. Its storage/notification implementation was not inspected and no live test lead was sent. Client and forwarding success/failure behaviour was tested with mocks. Functional browser tests blocked analytics. The pre-release Lighthouse run exercised the old live default tag; any diagnostic traffic is not used as outcome evidence. Consent changes the population measured by Analytics, so use GSC for consistent organic-search trend comparisons.
 
 No irreversible URL culls, unverified redirects, link purchases or new credentials were introduced. Ranking and traffic outcomes require post-release observation.
+
+
+## Post-release measurement and operation
+
+The same mobile Lighthouse setup measured `/papers` at performance97 (previously70), LCP2.2s (4.6s), TBT30ms (250ms), CLS0. SEO remained100. These are lab samples through the same workspace network, not field Core Web Vitals or evidence of a ranking gain. The retained JSON records the configuration and timestamps.
+
+The post-release check identified two remaining catalogue accessibility details: small school-source links needed darker green text, and PDF accessible names needed to include their visible “Questions PDF” labels. A small follow-up closes these while recording the verified release.
+
+The existing weekly SEO review is enabled for Monday08:00 Europe/London with the correct connected GSC property, dated baseline, landing-page attribution, product outcomes and honest indexing limits. The daily06:00 content/news programme remains enabled with all research, answer, artwork and publication gates; its stale26-article backlog instruction is superseded. The completed finite article-repair task stays paused. Automation enablement/schedule is verified; it is not a claim that a future run has already succeeded.

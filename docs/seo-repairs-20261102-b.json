@@ -1,8 +1,8 @@
 {
   "date": "2026-11-02",
   "batch": "B",
-  "status": "ready",
-  "publicationStatus": "awaiting integration and release verification",
+  "status": "published",
+  "publicationStatus": "production_verified",
   "ownedFiles": [
     "lib/seoRepairs20261102B.ts",
     "docs/research/seo-repairs-2026-11-02-b.md",
@@ -170,7 +170,7 @@
     "independentArithmeticChecks": "passed: all 10 numeric question answers, fraction teaching example and invented university denominator example recalculated using Fraction/Decimal or integer arithmetic",
     "sourceFacts": "Primary sources read live 2026-11-02; current cycles labelled; failed reads excluded",
     "lessonDestinations": "Published status checked in data/lessons.ts and data/englishLessons.ts for all linked lessons",
-    "integrationBuild": "Not claimed here; owned by integrating agent",
+    "integrationBuild": "Passed Next.js production build and Vercel preview/production checks; all26 live articles matched integrated titles, H1s, dates and canonicals.",
     "productionRendering": "Not yet checked by this batch"
   },
   "grammarSchoolCountEvidence": {
@@ -248,7 +248,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "common-11-plus-english-mistakes-to-avoid",
@@ -285,7 +296,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "common-11-plus-maths-mistakes-to-avoid",
@@ -322,7 +344,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-different-are-11-plus-exams-by-region",
@@ -361,7 +394,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "what-is-covered-in-11-plus-creative-writing",
@@ -399,7 +443,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "what-level-of-ks2-is-needed-for-the-11-plus",
@@ -438,7 +493,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
@@ -475,7 +541,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-many-grammar-schools-are-there-in-england",
@@ -513,7 +590,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "what-is-the-typical-day-like-at-a-grammar-school",
@@ -551,7 +639,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "do-grammar-schools-help-more-with-university-and-oxbridge-applications",
@@ -590,7 +689,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-much-homework-do-grammar-school-students-get",
@@ -627,7 +737,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "how-early-should-we-start-preparing-for-grammar-school-entry",
@@ -666,7 +787,18 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     },
     {
       "slug": "is-a-tutor-necessary-for-grammar-school-entrance",
@@ -706,7 +838,28 @@
         "imageUrl",
         "imageAlt",
         "images"
-      ]
+      ],
+      "publicationStatus": "production_verified",
+      "release": {
+        "pr": 46,
+        "branch": "fix/seo-recovery-2026-11-02",
+        "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+        "outcome": "production_verified",
+        "verifiedAt": "2026-11-02T10:26:58Z",
+        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+        "httpStatus": 200,
+        "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+      }
     }
-  ]
+  ],
+  "release": {
+    "pr": 46,
+    "branch": "fix/seo-recovery-2026-11-02",
+    "commit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+    "outcome": "production_verified",
+    "verifiedAt": "2026-11-02T10:26:58Z",
+    "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/6DK4vrVpY9ra25k4JC3ap5X6VCty",
+    "httpStatus": 200,
+    "verificationRecord": "docs/releases/seo-live-content-verification-2026-11-02.json"
+  }
 }

@@ -1,0 +1,1180 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-11-02T10:26:53.795Z",
+  "productionOrigin": "https://www.11plusexampapers.com",
+  "expectedReleaseCommit": "3c9ebb570de28302692fd73a0eb285612b05b485",
+  "releaseCommitProvenance": "Ready production commit supplied by the integrating release task; this check verifies live content against the integrated overlays.",
+  "expectedSources": [
+    {
+      "sourcePath": "lib/seoRepairs20261102A.ts",
+      "sha256": "0d8cf0541d31bd4222f66f98db157bd0bfe9d9927382f7ff4c20327a6f47c937"
+    },
+    {
+      "sourcePath": "lib/seoRepairs20261102B.ts",
+      "sha256": "76dedaa647070ffcec0f54015d87cd74772a4f9175e0f347c98640460e380c98"
+    }
+  ],
+  "scope": "All 26 repaired article titles, H1 headings and update dates; two answer reveals; one reviewed verbal practice start. No full-flow rerun.",
+  "environment": {
+    "browser": "Playwright Chromium",
+    "ignoreHTTPSErrors": true,
+    "tlsNote": "Workspace proxy certificate workaround; not an assertion about public-site TLS.",
+    "consent": "Essential only",
+    "externalAnalyticsBlocked": true,
+    "leadSubmissionsBlocked": true,
+    "storedConsentValue": "denied"
+  },
+  "articles": [
+    {
+      "slug": "what-topics-are-in-11-plus-english",
+      "url": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-english",
+      "status": 200,
+      "expected": {
+        "h1": "11 Plus English topics: a practical revision checklist",
+        "title": "11 Plus English topics: a practical revision checklist | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11 Plus English topics: a practical revision checklist | 11 Plus Exam Papers",
+        "h1": [
+          "11 Plus English topics: a practical revision checklist"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-english",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "what-topics-are-in-11-plus-maths",
+      "url": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths",
+      "status": 200,
+      "expected": {
+        "h1": "11 Plus maths topics: checklist, examples and study order",
+        "title": "11 Plus maths topics: checklist, examples and study order | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11 Plus maths topics: checklist, examples and study order | 11 Plus Exam Papers",
+        "h1": [
+          "11 Plus maths topics: checklist, examples and study order"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "what-is-11-plus-verbal-reasoning",
+      "url": "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning",
+      "status": 200,
+      "expected": {
+        "h1": "What is 11 Plus verbal reasoning? Examples and methods",
+        "title": "What is 11 Plus verbal reasoning? Examples and methods | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "What is 11 Plus verbal reasoning? Examples and methods | 11 Plus Exam Papers",
+        "h1": [
+          "What is 11 Plus verbal reasoning? Examples and methods"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "what-is-11-plus-non-verbal-reasoning",
+      "url": "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning",
+      "status": 200,
+      "expected": {
+        "h1": "What is 11 Plus non-verbal reasoning? A parent’s guide",
+        "title": "What is 11 Plus non-verbal reasoning? A parent’s guide | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "What is 11 Plus non-verbal reasoning? A parent’s guide | 11 Plus Exam Papers",
+        "h1": [
+          "What is 11 Plus non-verbal reasoning? A parent’s guide"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-hard-is-the-11-plus-exam",
+      "url": "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam",
+      "status": 200,
+      "expected": {
+        "h1": "How hard is the 11 Plus? Find the challenge your child faces",
+        "title": "How hard is the 11 Plus? Find the challenge your child faces | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "How hard is the 11 Plus? Find the challenge your child faces | 11 Plus Exam Papers",
+        "h1": [
+          "How hard is the 11 Plus? Find the challenge your child faces"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-to-prepare-for-the-11-plus-at-home",
+      "url": "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home",
+      "status": 200,
+      "expected": {
+        "h1": "How to prepare for the 11 Plus at home: a practical plan",
+        "title": "How to prepare for the 11 Plus at home: a practical plan | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "How to prepare for the 11 Plus at home: a practical plan | 11 Plus Exam Papers",
+        "h1": [
+          "How to prepare for the 11 Plus at home: a practical plan"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-early-should-we-start-11-plus-preparation",
+      "url": "https://www.11plusexampapers.com/blog/how-early-should-we-start-11-plus-preparation",
+      "status": 200,
+      "expected": {
+        "h1": "When should 11 Plus preparation start? A readiness guide",
+        "title": "When should 11 Plus preparation start? A readiness guide | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "When should 11 Plus preparation start? A readiness guide | 11 Plus Exam Papers",
+        "h1": [
+          "When should 11 Plus preparation start? A readiness guide"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-early-should-we-start-11-plus-preparation",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "best-11-plus-practice-papers-and-past-papers",
+      "url": "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers",
+      "status": 200,
+      "expected": {
+        "h1": "11 Plus practice papers: how to choose reliable resources",
+        "title": "11 Plus practice papers: how to choose reliable resources | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11 Plus practice papers: how to choose reliable resources | 11 Plus Exam Papers",
+        "h1": [
+          "11 Plus practice papers: how to choose reliable resources"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "do-we-need-an-11-plus-tutor",
+      "url": "https://www.11plusexampapers.com/blog/do-we-need-an-11-plus-tutor",
+      "status": 200,
+      "expected": {
+        "h1": "Do we need an 11 Plus tutor? A practical decision guide",
+        "title": "Do we need an 11 Plus tutor? A practical decision guide | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "Do we need an 11 Plus tutor? A practical decision guide | 11 Plus Exam Papers",
+        "h1": [
+          "Do we need an 11 Plus tutor? A practical decision guide"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/do-we-need-an-11-plus-tutor",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "11-plus-time-management-strategies-in-the-exam",
+      "url": "https://www.11plusexampapers.com/blog/11-plus-time-management-strategies-in-the-exam",
+      "status": 200,
+      "expected": {
+        "h1": "11 Plus time management: pacing, checking and section rules",
+        "title": "11 Plus time management: pacing, checking and section rules | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11 Plus time management: pacing, checking and section rules | 11 Plus Exam Papers",
+        "h1": [
+          "11 Plus time management: pacing, checking and section rules"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/11-plus-time-management-strategies-in-the-exam",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+      "url": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+      "status": 200,
+      "expected": {
+        "h1": "11 Plus exam stress: practical ways to support your child",
+        "title": "11 Plus exam stress: practical ways to support your child | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11 Plus exam stress: practical ways to support your child | 11 Plus Exam Papers",
+        "h1": [
+          "11 Plus exam stress: practical ways to support your child"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-to-improve-11-plus-vocabulary-quickly",
+      "url": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-vocabulary-quickly",
+      "status": 200,
+      "expected": {
+        "h1": "How to improve 11 Plus vocabulary: learn words in context",
+        "title": "How to improve 11 Plus vocabulary: learn words in context | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "How to improve 11 Plus vocabulary: learn words in context | 11 Plus Exam Papers",
+        "h1": [
+          "How to improve 11 Plus vocabulary: learn words in context"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-vocabulary-quickly",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-to-improve-11-plus-mental-maths",
+      "url": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths",
+      "status": 200,
+      "expected": {
+        "h1": "11 Plus mental maths: efficient methods and worked practice",
+        "title": "11 Plus mental maths: efficient methods and worked practice | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11 Plus mental maths: efficient methods and worked practice | 11 Plus Exam Papers",
+        "h1": [
+          "11 Plus mental maths: efficient methods and worked practice"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "what-is-covered-in-11-plus-creative-writing",
+      "url": "https://www.11plusexampapers.com/blog/what-is-covered-in-11-plus-creative-writing",
+      "status": 200,
+      "expected": {
+        "h1": "11+ creative writing: tasks, planning and a worked example",
+        "title": "11+ creative writing: tasks, planning and a worked example | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11+ creative writing: tasks, planning and a worked example | 11 Plus Exam Papers",
+        "h1": [
+          "11+ creative writing: tasks, planning and a worked example"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/what-is-covered-in-11-plus-creative-writing",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+      "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+      "status": 200,
+      "expected": {
+        "h1": "Grammar schools and Oxbridge: support, results and evidence",
+        "title": "Grammar schools and Oxbridge: support, results and evidence | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "Grammar schools and Oxbridge: support, results and evidence | 11 Plus Exam Papers",
+        "h1": [
+          "Grammar schools and Oxbridge: support, results and evidence"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "what-is-the-typical-day-like-at-a-grammar-school",
+      "url": "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school",
+      "status": 200,
+      "expected": {
+        "h1": "A grammar-school day: real timetables and Year 7 routines",
+        "title": "A grammar-school day: real timetables and Year 7 routines | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "A grammar-school day: real timetables and Year 7 routines | 11 Plus Exam Papers",
+        "h1": [
+          "A grammar-school day: real timetables and Year 7 routines"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "what-level-of-ks2-is-needed-for-the-11-plus",
+      "url": "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus",
+      "status": 200,
+      "expected": {
+        "h1": "What KS2 level is needed for the 11+? Skills and scores explained",
+        "title": "What KS2 level is needed for the 11+? Skills and scores explained | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "What KS2 level is needed for the 11+? Skills and scores explained | 11 Plus Exam Papers",
+        "h1": [
+          "What KS2 level is needed for the 11+? Skills and scores explained"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "common-11-plus-maths-mistakes-to-avoid",
+      "url": "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid",
+      "status": 200,
+      "expected": {
+        "h1": "11+ maths mistakes: eight worked corrections and what to practise",
+        "title": "11+ maths mistakes: eight worked corrections and what to practise | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11+ maths mistakes: eight worked corrections and what to practise | 11 Plus Exam Papers",
+        "h1": [
+          "11+ maths mistakes: eight worked corrections and what to practise"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "common-11-plus-english-mistakes-to-avoid",
+      "url": "https://www.11plusexampapers.com/blog/common-11-plus-english-mistakes-to-avoid",
+      "status": 200,
+      "expected": {
+        "h1": "11+ English mistakes: comprehension, vocabulary and grammar",
+        "title": "11+ English mistakes: comprehension, vocabulary and grammar | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "11+ English mistakes: comprehension, vocabulary and grammar | 11 Plus Exam Papers",
+        "h1": [
+          "11+ English mistakes: comprehension, vocabulary and grammar"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/common-11-plus-english-mistakes-to-avoid",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "best-books-for-11-plus-preparation",
+      "url": "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation",
+      "status": 200,
+      "expected": {
+        "h1": "Best books for 11+ preparation: choose by task and test route",
+        "title": "Best books for 11+ preparation: choose by task and test route | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "Best books for 11+ preparation: choose by task and test route | 11 Plus Exam Papers",
+        "h1": [
+          "Best books for 11+ preparation: choose by task and test route"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-different-are-11-plus-exams-by-region",
+      "url": "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region",
+      "status": 200,
+      "expected": {
+        "h1": "How 11+ exams differ by region, school and entry year",
+        "title": "How 11+ exams differ by region, school and entry year | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "How 11+ exams differ by region, school and entry year | 11 Plus Exam Papers",
+        "h1": [
+          "How 11+ exams differ by region, school and entry year"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-many-grammar-schools-are-there-in-england",
+      "url": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+      "status": 200,
+      "expected": {
+        "h1": "How many grammar schools are in England? The verified 2026 count",
+        "title": "How many grammar schools are in England? The verified 2026 count | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "How many grammar schools are in England? The verified 2026 count | 11 Plus Exam Papers",
+        "h1": [
+          "How many grammar schools are in England? The verified 2026 count"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-much-homework-do-grammar-school-students-get",
+      "url": "https://www.11plusexampapers.com/blog/how-much-homework-do-grammar-school-students-get",
+      "status": 200,
+      "expected": {
+        "h1": "Grammar-school homework: expectations, examples and a workable plan",
+        "title": "Grammar-school homework: expectations, examples and a workable plan | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "Grammar-school homework: expectations, examples and a workable plan | 11 Plus Exam Papers",
+        "h1": [
+          "Grammar-school homework: expectations, examples and a workable plan"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-much-homework-do-grammar-school-students-get",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
+      "url": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
+      "status": 200,
+      "expected": {
+        "h1": "Online or in-person 11+ tutoring: how to compare the fit",
+        "title": "Online or in-person 11+ tutoring: how to compare the fit | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "Online or in-person 11+ tutoring: how to compare the fit | 11 Plus Exam Papers",
+        "h1": [
+          "Online or in-person 11+ tutoring: how to compare the fit"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "how-early-should-we-start-preparing-for-grammar-school-entry",
+      "url": "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+      "status": 200,
+      "expected": {
+        "h1": "When to plan grammar-school entry: a parent’s admissions calendar",
+        "title": "When to plan grammar-school entry: a parent’s admissions calendar | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "When to plan grammar-school entry: a parent’s admissions calendar | 11 Plus Exam Papers",
+        "h1": [
+          "When to plan grammar-school entry: a parent’s admissions calendar"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    },
+    {
+      "slug": "is-a-tutor-necessary-for-grammar-school-entrance",
+      "url": "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance",
+      "status": 200,
+      "expected": {
+        "h1": "Is a tutor necessary for grammar-school entrance? A route-based plan",
+        "title": "Is a tutor necessary for grammar-school entrance? A route-based plan | 11 Plus Exam Papers",
+        "updatedAt": "2026-11-02"
+      },
+      "observed": {
+        "title": "Is a tutor necessary for grammar-school entrance? A route-based plan | 11 Plus Exam Papers",
+        "h1": [
+          "Is a tutor necessary for grammar-school entrance? A route-based plan"
+        ],
+        "visibleUpdateLabels": [
+          "Updated 2026-11-02"
+        ],
+        "articleSchemaDateModified": "2026-11-02",
+        "canonical": "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance",
+        "googleTagScriptCount": 0
+      },
+      "checks": {
+        "http200": true,
+        "oneH1Matches": true,
+        "documentTitleMatches": true,
+        "visibleUpdateDateMatches": true,
+        "schemaUpdateDateMatches": true,
+        "canonicalMatches": true,
+        "noGoogleTagScript": true
+      },
+      "pass": true
+    }
+  ],
+  "answerReveals": [
+    {
+      "group": "A",
+      "slug": "how-to-improve-11-plus-mental-maths",
+      "stem": "Calculate 59 + 26.",
+      "independentlyCalculatedAnswer": "85.",
+      "actualAnswer": "85.",
+      "actualExplanation": "Add 60 + 26 = 86, then subtract the extra 1. Alternatively, add 20 and then 6 to 59.",
+      "hiddenBeforeInteraction": true,
+      "detailsOpened": true,
+      "answerMatches": true,
+      "explanationMatches": true,
+      "pass": true
+    },
+    {
+      "group": "B",
+      "slug": "common-11-plus-maths-mistakes-to-avoid",
+      "stem": "Calculate 1/3 + 1/4.",
+      "independentlyCalculatedAnswer": "7/12.",
+      "actualAnswer": "7/12.",
+      "actualExplanation": "Use equal-sized parts: 1/3 = 4/12 and 1/4 = 3/12. Add the numerators to get 7/12. The answer 2/7 comes from adding denominators as though thirds and quarters were the same unit.",
+      "hiddenBeforeInteraction": true,
+      "detailsOpened": true,
+      "answerMatches": true,
+      "explanationMatches": true,
+      "pass": true
+    }
+  ],
+  "pageErrors": [],
+  "blockedRequests": [
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-english(2vf3)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-english(2vf3)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-maths(4g5j)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-11-plus-verbal-reasoning(fm56)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-11-plus-nonverbal-reasoning(wwhv)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-11-plus-verbal-reasoning(fm56)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-subjects-are-in-the-11-plus-english-maths-verbal-nonverbal(2ye2)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-hard-is-the-11-plus-exam(14tc)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-the-11-plus-exam(1qjv)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-register-my-child-for-the-11-plus(mwzb)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/11-plus-time-management-strategies-in-the-exam(v2vj)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/11-plus-exam-help-guide(jds7)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-improve-11-plus-vocabulary-quickly(0uqt)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/do-we-need-an-11-plus-tutor(yyn1)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-many-hours-a-week-should-my-child-study-for-11-plus(ybrc)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-covered-in-11-plus-creative-writing(p34l)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-the-typical-day-like-at-a-grammar-school(r9u7)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/do-grammar-schools-help-more-with-university-and-oxbridge-applications(uibi)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-do-you-get-into-a-grammar-school(wnl0)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/do-you-have-to-sit-the-11-plus-for-grammar-school(vl0f)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-level-of-ks2-is-needed-for-the-11-plus(142v)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/common-11-plus-maths-mistakes-to-avoid(2b5w)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/common-11-plus-english-mistakes-to-avoid(1enx)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/best-books-for-11-plus-preparation(7ivc)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-different-are-11-plus-exams-by-region(weyg)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-many-grammar-schools-are-there-in-england(pedk)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-much-homework-do-grammar-school-students-get(axyu)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-a-grammar-school(ll1w)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-is-the-difference-between-grammar-and-comprehensive-schools(iwvt)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/who-are-grammar-schools-suitable-for(zuzl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/online-vs-inperson-tutoring(8tcm)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-preparing-for-grammar-school-entry(w84d)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-prepare-for-the-11-plus-at-home(eets)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-early-should-we-start-11-plus-preparation(q0jl)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/best-11-plus-practice-papers-and-past-papers(r8kz)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/is-a-tutor-necessary-for-grammar-school-entrance(yrxp)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/what-topics-are-in-11-plus-maths(4g5j)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/common-11-plus-maths-mistakes-to-avoid(2b5w)_4.jpeg"
+    },
+    {
+      "method": "GET",
+      "url": "https://files.autoblogging.ai/images/how-to-improve-11-plus-mental-maths(cbyr)_4.jpeg"
+    }
+  ],
+  "failures": [],
+  "practiceStart": {
+    "url": "https://www.11plusexampapers.com/quiz?paper=verbal-reviewed&mode=practice",
+    "httpStatus": 200,
+    "paper": "verbal-reviewed",
+    "mode": "practice",
+    "expectedCount": 12,
+    "actualCounter": "Question 1 / 12",
+    "firstStem": "Three options are musical instruments. Which option is outside that stated group?",
+    "noGoogleTagScript": true,
+    "savedConsent": "denied",
+    "answeredOrSubmitted": false,
+    "pass": true
+  },
+  "pass": true,
+  "completedAt": "2026-11-02T10:26:58.623Z",
+  "counts": {
+    "expectedArticles": 26,
+    "checkedArticles": 26,
+    "passedArticles": 26,
+    "passedAnswerReveals": 2,
+    "pageErrors": 0,
+    "blockedRequests": 64
+  },
+  "networkSummary": {
+    "blockedHosts": {
+      "files.autoblogging.ai": 64
+    },
+    "googleAnalyticsRequestsObserved": 0,
+    "leadRequestsObserved": 0,
+    "note": "All 64 blocked requests were existing external article images on files.autoblogging.ai. This is intentional test isolation, not evidence of failed live images. Image delivery was outside this narrow check."
+  }
+}

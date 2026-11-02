@@ -1,6 +1,6 @@
 # Product repair implementation — 2 November 2026
 
-Status: implemented in the shared repair checkout; integrated build, browser verification and deployment belong to the root release. This file is not evidence of publication.
+Status: published in PR46 and verified on production. The integrated build, desktop/mobile flows, eight PDF links and selected live practice passed. See the main SEO recovery release record and product browser verification.
 
 Research before writing: `docs/research/seo-product-2026-11-02.md`. Existing canonical pages and the approved forest/ivory illustrated design are retained.
 
@@ -24,7 +24,7 @@ Research before writing: `docs/research/seo-product-2026-11-02.md`. Existing can
 - All 22 final PDF pages rendered and visually inspected: verbal questions 3 pages, verbal worked answers 3, NVR questions 8, NVR worked answers 8. An orphan heading and unembedded-font substitution were corrected before the final inspection. No clipped questions, overlapping diagrams or missing answer text observed.
 - React best-practices review applied: single source of selected subject, state changes in event handlers, aborted school fetch on unmount, no compulsory data writes, labelled controls, explicit button types and selected states, native answer disclosures, separate catalogue imports to avoid bringing diagram code into the mock picker unnecessarily.
 
-## Integrated browser checks to complete
+## Integrated browser checklist — completed
 
 1. At desktop and mobile widths, open `/papers`, expand a text sample and the NVR sample, then open each of the eight question/answer PDF links. Confirm the school search and `?highlight=habs-boys` destination still work.
 2. On `/mock-exams`, switch the subject from Maths to English, then VR and NVR; confirm one selection and the displayed count/timer agree with the started route. Start without an email/name. Check timed and untimed behavior and the answer review.
@@ -32,3 +32,5 @@ Research before writing: `docs/research/seo-product-2026-11-02.md`. Existing can
 4. On each subject hub, follow one topic/guide link and its print link. Check no mobile overflow in the masthead, topic links, visual answer options or source guidance.
 
 No ranking improvement, educator approval or complete-syllabus coverage is claimed by this implementation.
+
+Completed results: `docs/releases/seo-product-browser-verification-2026-11-02.md` and `.json`. Production evidence: `docs/releases/seo-production-verification-2026-11-02.json`.
