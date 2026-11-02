@@ -1,3 +1,5 @@
+import { SEO_REPAIRS_A } from './seoRepairs20261102A';
+import { SEO_REPAIRS_B } from './seoRepairs20261102B';
 import { DAILY_POSTS_20261102 } from './dailyPosts20261102';
 import { DAILY_POSTS_20261101 } from './dailyPosts20261101';
 import { DAILY_POSTS_20261031 } from './dailyPosts20261031';
@@ -13973,7 +13975,10 @@ const BASE_BLOG_POSTS: BlogPost[] = [
 
 ];
 
-export const BLOG_POSTS: BlogPost[] = BASE_BLOG_POSTS.map(improveSearchPriorityPost).map(post => ({ ...post, ...BLOG_ARTWORK[post.slug] }));
+export const BLOG_POSTS: BlogPost[] = BASE_BLOG_POSTS
+  .map(improveSearchPriorityPost)
+  .map(post => ({ ...post, ...SEO_REPAIRS_A[post.slug], ...SEO_REPAIRS_B[post.slug] }))
+  .map(post => ({ ...post, ...BLOG_ARTWORK[post.slug] }));
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

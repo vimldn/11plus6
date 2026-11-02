@@ -1,0 +1,579 @@
+{
+  "checkedAt": "2026-11-02T09:51:56.659Z",
+  "base": "http://127.0.0.1:3026",
+  "checks": [
+    {
+      "name": "Four subject hubs: mobile layout, topic/guide navigation and print anchors",
+      "status": "passed",
+      "milliseconds": 9900,
+      "evidence": {
+        "hubs": [
+          {
+            "slug": "maths",
+            "topicLinks": [
+              {
+                "text": "Rounding & estimation",
+                "href": "/blog/11-plus-rounding-estimation"
+              },
+              {
+                "text": "Decimal arithmetic",
+                "href": "/blog/11-plus-decimal-arithmetic"
+              },
+              {
+                "text": "Long multiplication",
+                "href": "/blog/11-plus-long-multiplication"
+              },
+              {
+                "text": "Fractions, decimals & percentages",
+                "href": "/blog/11-plus-fractions-decimals-percentages-conversions"
+              },
+              {
+                "text": "Ratio & sharing",
+                "href": "/subjects/maths/ratio-sharing"
+              },
+              {
+                "text": "Algebra & equations",
+                "href": "/blog/11-plus-algebra-basics"
+              },
+              {
+                "text": "Area & perimeter",
+                "href": "/blog/11-plus-area-perimeter"
+              },
+              {
+                "text": "Measurement & unit conversions",
+                "href": "/blog/11-plus-unit-conversions"
+              },
+              {
+                "text": "Data handling",
+                "href": "/blog/11-plus-data-interpretation"
+              },
+              {
+                "text": "Multi-step word problems",
+                "href": "/blog/11-plus-multi-step-word-problems"
+              }
+            ],
+            "guideHref": "/blog/what-topics-are-in-11-plus-maths",
+            "dimensions": {
+              "viewport": 390,
+              "document": 390,
+              "body": 390,
+              "overflow": false
+            },
+            "printHref": "/papers#maths-printable",
+            "printTargetExists": true,
+            "clickedDestination": "/blog/11-plus-rounding-estimation",
+            "destinationTitle": "11+ Rounding and Estimation: Methods and Worked Questions"
+          },
+          {
+            "slug": "english",
+            "topicLinks": [
+              {
+                "text": "Reading comprehension: retrieval",
+                "href": "/subjects/english/comprehension-retrieval"
+              },
+              {
+                "text": "Synonyms & antonyms",
+                "href": "/blog/11-plus-synonyms-antonyms"
+              },
+              {
+                "text": "Sentence structure",
+                "href": "/blog/11-plus-sentence-structure"
+              },
+              {
+                "text": "Word building & spelling",
+                "href": "/blog/11-plus-prefixes-suffixes"
+              },
+              {
+                "text": "Vocabulary in context",
+                "href": "/blog/11-plus-vocabulary-in-context"
+              },
+              {
+                "text": "Poetry comprehension",
+                "href": "/blog/11-plus-poetry-comprehension"
+              },
+              {
+                "text": "Direct speech punctuation",
+                "href": "/blog/11-plus-direct-speech-punctuation"
+              },
+              {
+                "text": "Creative writing",
+                "href": "/blog/what-is-covered-in-11-plus-creative-writing"
+              },
+              {
+                "text": "Supporting answers with evidence",
+                "href": "/subjects/english/using-evidence"
+              },
+              {
+                "text": "Inference",
+                "href": "/subjects/english/comprehension-inference"
+              }
+            ],
+            "guideHref": "/blog/what-topics-are-in-11-plus-english",
+            "dimensions": {
+              "viewport": 390,
+              "document": 390,
+              "body": 390,
+              "overflow": false
+            },
+            "printHref": "/papers#english-printable",
+            "printTargetExists": true,
+            "clickedDestination": "/subjects/english/comprehension-retrieval",
+            "destinationTitle": "11+ Retrieval Questions: Find Facts and Check Your Answers"
+          },
+          {
+            "slug": "verbal-reasoning",
+            "topicLinks": [
+              {
+                "text": "Letter codes",
+                "href": "/quiz?paper=verbal-reviewed&topic=codes&mode=practice"
+              },
+              {
+                "text": "Word analogies",
+                "href": "/quiz?paper=verbal-reviewed&topic=analogies&mode=practice"
+              },
+              {
+                "text": "Word classifications",
+                "href": "/quiz?paper=verbal-reviewed&topic=classifications&mode=practice"
+              },
+              {
+                "text": "Letter & number sequences",
+                "href": "/quiz?paper=verbal-reviewed&topic=sequences&mode=practice"
+              }
+            ],
+            "guideHref": "/blog/what-is-11-plus-verbal-reasoning",
+            "dimensions": {
+              "viewport": 390,
+              "document": 390,
+              "body": 390,
+              "overflow": false
+            },
+            "printHref": "/papers#verbal-printable",
+            "printTargetExists": true,
+            "clickedDestination": "/blog/what-is-11-plus-verbal-reasoning",
+            "destinationTitle": "What is 11 Plus verbal reasoning? Examples and methods"
+          },
+          {
+            "slug": "non-verbal-reasoning",
+            "topicLinks": [
+              {
+                "text": "Rotations",
+                "href": "/quiz?paper=visual-reviewed&topic=rotations&mode=practice"
+              },
+              {
+                "text": "Reflections",
+                "href": "/quiz?paper=visual-reviewed&topic=reflections&mode=practice"
+              },
+              {
+                "text": "Shape sequences",
+                "href": "/quiz?paper=visual-reviewed&topic=sequences&mode=practice"
+              },
+              {
+                "text": "Matrices",
+                "href": "/quiz?paper=visual-reviewed&topic=matrices&mode=practice"
+              }
+            ],
+            "guideHref": "/blog/what-is-11-plus-non-verbal-reasoning",
+            "dimensions": {
+              "viewport": 390,
+              "document": 390,
+              "body": 390,
+              "overflow": false
+            },
+            "printHref": "/papers#nonverbal-printable",
+            "printTargetExists": true,
+            "clickedDestination": "/blog/what-is-11-plus-non-verbal-reasoning",
+            "destinationTitle": "What is 11 Plus non-verbal reasoning? A parent’s guide"
+          }
+        ],
+        "indexableDestinations": [
+          {
+            "href": "/blog/11-plus-rounding-estimation",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-decimal-arithmetic",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-long-multiplication",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-fractions-decimals-percentages-conversions",
+            "status": 200
+          },
+          {
+            "href": "/subjects/maths/ratio-sharing",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-algebra-basics",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-area-perimeter",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-unit-conversions",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-data-interpretation",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-multi-step-word-problems",
+            "status": 200
+          },
+          {
+            "href": "/blog/what-topics-are-in-11-plus-maths",
+            "status": 200
+          },
+          {
+            "href": "/subjects/english/comprehension-retrieval",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-synonyms-antonyms",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-sentence-structure",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-prefixes-suffixes",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-vocabulary-in-context",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-poetry-comprehension",
+            "status": 200
+          },
+          {
+            "href": "/blog/11-plus-direct-speech-punctuation",
+            "status": 200
+          },
+          {
+            "href": "/blog/what-is-covered-in-11-plus-creative-writing",
+            "status": 200
+          },
+          {
+            "href": "/subjects/english/using-evidence",
+            "status": 200
+          },
+          {
+            "href": "/subjects/english/comprehension-inference",
+            "status": 200
+          },
+          {
+            "href": "/blog/what-topics-are-in-11-plus-english",
+            "status": 200
+          },
+          {
+            "href": "/blog/what-is-11-plus-verbal-reasoning",
+            "status": 200
+          },
+          {
+            "href": "/blog/what-is-11-plus-non-verbal-reasoning",
+            "status": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "School selector: category, context and launch without personal details",
+      "status": "passed",
+      "milliseconds": 2023,
+      "evidence": {
+        "schoolApiStatus": 200,
+        "schoolCount": 50,
+        "selectedSchool": "habs-boys",
+        "profileHref": "/schools/habs-boys",
+        "evidence": "What is verified about this assessment?\n\nThe current Year 7 route uses a bespoke QUEST paper-based assessment with multiple-choice and written questions: English/VR 40 minutes, Maths/NVR 45, creative comprehension 20 and creative writing 20.\n\nKeep the years separate. The published assessment is 20 November 2026 for September 2027 entry. January 2027 interviews are a later stage, not a relabelled 2027 written exam. A test taken in 2027 for a later entry cycle is not yet verified here.\n\nOur original practice does not reproduce this school’s complete assessment, timing, adaptive delivery, writing marking or interview. A later cycle is not confirmed by an older specimen.\n\nRead the school’s official assessment information →\n\nSource checked 25 October 2026 · Published cycle checked; future-cycle changes remain unconfirmed.",
+        "personalInputs": 0,
+        "dimensions": {
+          "viewport": 390,
+          "document": 390,
+          "body": 390,
+          "overflow": false
+        },
+        "launchUrl": "http://127.0.0.1:3026/quiz?schoolId=habs-boys&schoolType=independent&subject=maths&quizType=multiple-choice&count=10&duration=45&mode=practice",
+        "generateStatus": 200,
+        "generatedQuestionCount": 10,
+        "request": {
+          "schoolId": "habs-boys",
+          "subject": "Maths",
+          "quizType": "multiple-choice",
+          "count": 10,
+          "difficulty": "standard"
+        },
+        "leadRequests": 0
+      }
+    },
+    {
+      "name": "Desktop catalogue: four samples and worked answers",
+      "status": "passed",
+      "milliseconds": 1558,
+      "evidence": {
+        "samples": [
+          {
+            "id": "maths",
+            "expandedDetails": 2,
+            "diagramCount": 0,
+            "answer": "Show the worked answer\n\n44\n\nMultiply 6 × 5 = 30, then add 14. Adding first would give 100, which changes the order of operations."
+          },
+          {
+            "id": "english",
+            "expandedDetails": 2,
+            "diagramCount": 0,
+            "answer": "Show the worked answer\n\nWe’ve finished the display.\n\nWe’ve contracts we have. The apostrophe marks the omitted letters in have."
+          },
+          {
+            "id": "verbal",
+            "expandedDetails": 2,
+            "diagramCount": 0,
+            "answer": "Show the worked answer\n\nPuppy.\n\nA kitten is a baby cat; a puppy is a baby dog. Keep the relationship in the same direction."
+          },
+          {
+            "id": "nonverbal",
+            "expandedDetails": 2,
+            "diagramCount": 7,
+            "answer": "Show the worked answer\nBefore\nC\nAfter · option A\nC\n\nTurn every feature about C. Do not flip the figure.\n\nOption A. C stays fixed. Every corner and the solid dot make the same turn; the figure is not flipped. The dot moves from 24 units right and 15 units below C to 15 units left and 24 units below C. Check the outline as well as the dot."
+          }
+        ],
+        "pdfLinkCount": 8,
+        "dimensions": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "overflow": false
+        }
+      }
+    },
+    {
+      "name": "All eight PDF link targets download valid PDFs",
+      "status": "passed",
+      "milliseconds": 333,
+      "evidence": {
+        "files": [
+          {
+            "label": "Open Maths foundations question booklet PDF",
+            "href": "/papers/maths-practice.pdf",
+            "status": 200,
+            "bytes": 50133,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/maths-practice.pdf"
+          },
+          {
+            "label": "Open Maths foundations worked answers PDF",
+            "href": "/papers/maths-worked-answers.pdf",
+            "status": 200,
+            "bytes": 51581,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/maths-worked-answers.pdf"
+          },
+          {
+            "label": "Open English punctuation question booklet PDF",
+            "href": "/papers/english-practice.pdf",
+            "status": 200,
+            "bytes": 49752,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/english-practice.pdf"
+          },
+          {
+            "label": "Open English punctuation worked answers PDF",
+            "href": "/papers/english-worked-answers.pdf",
+            "status": 200,
+            "bytes": 51011,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/english-worked-answers.pdf"
+          },
+          {
+            "label": "Open Verbal reasoning starter question booklet PDF",
+            "href": "/papers/verbal-practice.pdf",
+            "status": 200,
+            "bytes": 47772,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/verbal-practice.pdf"
+          },
+          {
+            "label": "Open Verbal reasoning starter worked answers PDF",
+            "href": "/papers/verbal-worked-answers.pdf",
+            "status": 200,
+            "bytes": 47982,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/verbal-worked-answers.pdf"
+          },
+          {
+            "label": "Open Non-verbal reasoning starter question booklet PDF",
+            "href": "/papers/nonverbal-practice.pdf",
+            "status": 200,
+            "bytes": 137701,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/nonverbal-practice.pdf"
+          },
+          {
+            "label": "Open Non-verbal reasoning starter worked answers PDF",
+            "href": "/papers/nonverbal-worked-answers.pdf",
+            "status": 200,
+            "bytes": 133815,
+            "contentType": "application/pdf",
+            "savedAs": "/tmp/11plus-product-browser/nonverbal-worked-answers.pdf"
+          }
+        ],
+        "actualClick": {
+          "kind": "download",
+          "filename": "maths-practice.pdf",
+          "savedAs": "/tmp/11plus-product-browser/browser-click-maths-practice.pdf"
+        }
+      }
+    },
+    {
+      "name": "Mobile catalogue: readable samples, diagrams and downloads",
+      "status": "passed",
+      "milliseconds": 1121,
+      "evidence": [
+        {
+          "id": "maths",
+          "dimensions": {
+            "viewport": 390,
+            "document": 390,
+            "body": 390,
+            "overflow": false
+          },
+          "downloadLinks": 2
+        },
+        {
+          "id": "english",
+          "dimensions": {
+            "viewport": 390,
+            "document": 390,
+            "body": 390,
+            "overflow": false
+          },
+          "downloadLinks": 2
+        },
+        {
+          "id": "verbal",
+          "dimensions": {
+            "viewport": 390,
+            "document": 390,
+            "body": 390,
+            "overflow": false
+          },
+          "downloadLinks": 2
+        },
+        {
+          "id": "nonverbal",
+          "dimensions": {
+            "viewport": 390,
+            "document": 390,
+            "body": 390,
+            "overflow": false
+          },
+          "downloadLinks": 2
+        }
+      ]
+    },
+    {
+      "name": "School API failure presents usable recovery links",
+      "status": "passed",
+      "milliseconds": 566,
+      "evidence": {
+        "simulatedStatus": 503,
+        "text": "We could not load the school list. You can still start general practice or read the school guides.\n\nChoose general practice →\nBrowse school guides →",
+        "links": [
+          {
+            "label": "Choose general practice →",
+            "href": "/mock-exams"
+          },
+          {
+            "label": "Browse school guides →",
+            "href": "/schools"
+          }
+        ],
+        "launchDisabled": true
+      }
+    },
+    {
+      "name": "Paper school search, filters and highlighted destination",
+      "status": "passed",
+      "checkedAt": "2026-11-02T09:52:58.293Z",
+      "evidence": {
+        "matching": [
+          "Haberdashers' Boys' School",
+          "Haberdashers' Girls' School"
+        ],
+        "emptySearchShowsNoCards": true,
+        "independentCount": 33,
+        "highlightVisible": true,
+        "schoolHref": "/schools/habs-boys",
+        "generalPracticeLinks": [
+          "/quiz?paper=maths-generated&mode=practice",
+          "/quiz?subject=english&quizType=multiple-choice&mode=practice&count=20&duration=25",
+          "/quiz?paper=verbal-reviewed&mode=practice",
+          "/quiz?paper=visual-reviewed&mode=practice"
+        ],
+        "observations": []
+      },
+      "verificationCorrection": "Await React hydration before typing after full-page navigation; initial assertion read stale pre-update school cards."
+    }
+  ],
+  "screenshots": [
+    "/tmp/11plus-product-browser/papers-desktop-overview.png",
+    "/tmp/11plus-product-browser/papers-mobile-overview.png",
+    "/tmp/11plus-product-browser/subject-maths-mobile.png",
+    "/tmp/11plus-product-browser/subject-english-mobile.png",
+    "/tmp/11plus-product-browser/subject-verbal-reasoning-mobile.png",
+    "/tmp/11plus-product-browser/subject-non-verbal-reasoning-mobile.png",
+    "/tmp/11plus-product-browser/school-picker-desktop.png",
+    "/tmp/11plus-product-browser/school-picker-mobile.png",
+    "/tmp/11plus-product-browser/school-context-first-question-mobile.png",
+    "/tmp/11plus-product-browser/papers-desktop-overview.png",
+    "/tmp/11plus-product-browser/papers-desktop-visual-sample.png",
+    "/tmp/11plus-product-browser/papers-mobile-overview.png",
+    "/tmp/11plus-product-browser/papers-mobile-visual-sample.png",
+    "/tmp/11plus-product-browser/papers-mobile-maths-sample.png",
+    "/tmp/11plus-product-browser/school-api-error-mobile.png",
+    "/tmp/11plus-product-browser/papers-highlighted-school.png"
+  ],
+  "errors": [
+    {
+      "type": "console",
+      "message": "Warning: Extra attributes from the server: %s%s style \n    at input\n    at div\n    at div\n    at section\n    at main\n    at PapersPageInner (webpack-internal:///(app-pages-browser)/./app/papers/PapersClient.tsx:1103:90)\n    at Suspense\n    at PapersClient\n    at PapersPage (Server)\n    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:243:11)\n    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)\n    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)\n    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)\n    at LoadingBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:349:11)\n    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)\n    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:153:9)\n    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:228:11)\n    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)\n    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:370:11)\n    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:243:11)\n    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)\n    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)\n    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)\n    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)\n    at LoadingBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:349:11)\n    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)\n    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:153:9)\n    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:228:11)\n    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)\n    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js:370:11)\n    at body\n    at html\n    at RootLayout (Server)\n    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:74:9)\n    at RedirectBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/redirect-boundary.js:82:11)\n    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)\n    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)\n    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)\n    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)\n    at HotReload (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)\n    at Router (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:207:11)\n    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:113:9)\n    at ErrorBoundary (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js:160:11)\n    at AppRouter (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:585:13)\n    at ServerRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:112:27)\n    at Root (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:117:11)",
+      "url": "http://127.0.0.1:3026/papers"
+    },
+    {
+      "type": "console",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "url": "http://127.0.0.1:3026/mock-exams?mode=school"
+    }
+  ],
+  "analyticsRequestsBlocked": [],
+  "leadRequests": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:3026/papers/maths-practice.pdf",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:3026/api/schools",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "priorAttempt": "verification-first-attempt.json",
+  "priorAttemptNote": "First run completed subject and school launch checks; remaining failures were ambiguous/incorrect verification selectors. Only incomplete checks are retried.",
+  "completedAt": "2026-11-02T09:52:58.312Z",
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "pageErrors": 0,
+    "analyticsRequestsBlocked": 0,
+    "leadRequests": 0
+  }
+}

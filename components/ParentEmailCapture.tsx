@@ -1,5 +1,7 @@
 'use client';
 
+import { trackEvent } from '@/lib/analytics';
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { Mail, CheckCircle, Loader2, X } from 'lucide-react';
 
@@ -16,7 +18,6 @@ type State = 'idle' | 'loading' | 'success' | 'error';
 
 export function ParentEmailCapture({ context, onDismiss, variant = 'inline' }: Props) {
   const [email, setEmail]               = useState('');
-  const [childName, setChildName]       = useState('');
   const [targetSchool, setTargetSchool] = useState('');
   const [state, setState]               = useState<State>('idle');
   const [error, setError]               = useState('');
@@ -37,12 +38,13 @@ export function ParentEmailCapture({ context, onDismiss, variant = 'inline' }: P
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           email,
-          childName,
+          requestedUpdates: true,
           targetSchool,
           source: 'parent-email-capture',
         }),
       });
       if (!res.ok) throw new Error('Submission failed');
+      trackEvent('resource_request', { source_path: window.location.pathname });
       setState('success');
     } catch (err) {
       console.error('[ParentEmailCapture]', err);
@@ -101,14 +103,6 @@ export function ParentEmailCapture({ context, onDismiss, variant = 'inline' }: P
 
       <input
         type="text"
-        placeholder="Child's first name (optional)"
-        value={childName}
-        onChange={(e) => setChildName(e.target.value)}
-        className="w-full px-4 py-3 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white"
-      />
-
-      <input
-        type="text"
         placeholder="Target school (optional)"
         value={targetSchool}
         onChange={(e) => setTargetSchool(e.target.value)}
@@ -130,7 +124,7 @@ export function ParentEmailCapture({ context, onDismiss, variant = 'inline' }: P
       </button>
 
       <p className="text-[11px] text-slate-400 text-center">
-        No spam. Unsubscribe any time.
+        For parents and carers. By requesting resources you agree to receive 11+ emails. Ask us to stop at any time. <Link href="/privacy" className="underline">Privacy policy</Link>.
       </p>
     </form>
   );

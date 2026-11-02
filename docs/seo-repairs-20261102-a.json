@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-02",
+  "scope": "Thirteen existing articles; repair group A from the pending legacy queue.",
+  "status": "implemented_pending_integrated_release",
+  "implementation": "lib/seoRepairs20261102A.ts",
+  "export": "SEO_REPAIRS_A",
+  "researchBrief": "docs/research/seo-repairs-2026-11-02-a.md",
+  "researchMethod": "Live UK-specific topic searches, substantive competitor pages opened before drafting, and primary-source checks. Search results are not a location-locked Google rank export.",
+  "authorization": "Owner-authorised repair pass for existing URLs, not new daily publication.",
+  "articles": [
+    {
+      "slug": "what-topics-are-in-11-plus-english",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "11 plus English topics syllabus comprehension writing UK guide; English checklist",
+      "competitorContentReviewed": [
+        "https://elevenplusfc.co.uk/11-plus-english/"
+      ],
+      "coverageAndOriginalValue": "Subject taxonomy and app practice. Add a parent topic-to-task table, one original passage with retrieval/inference/evidence distinctions and a route into three existing lessons. Do not repeat the vocabulary learning routine.",
+      "plannedDepthRationale": "About 650–850 words; enough examples to make the checklist usable.",
+      "primarySourcesCited": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+        "https://11plus.gl-assessment.co.uk/pages/free-materials"
+      ],
+      "checks": {
+        "slug": "what-topics-are-in-11-plus-english",
+        "words": 696,
+        "readTime": "4 min read",
+        "titleLength": 54,
+        "descriptionLength": 145,
+        "questions": 2,
+        "internalLinks": [
+          "/subjects/english/comprehension-retrieval",
+          "/subjects/english/comprehension-inference",
+          "/subjects/english/using-evidence",
+          "/blog/how-to-improve-11-plus-vocabulary-quickly",
+          "/subjects/english",
+          "/papers"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "what-topics-are-in-11-plus-maths",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "11 plus maths topics syllabus checklist UK; revision order",
+      "competitorContentReviewed": [
+        "https://www.elevenplusexams.co.uk/advice-preparation/subjects/mathematics"
+      ],
+      "coverageAndOriginalValue": "Broad topic list. Add prerequisite order, topic checklist with observable skills and independently calculable examples. Avoid universal topic percentages or a supposed fixed 11+ syllabus.",
+      "plannedDepthRationale": "About 650–850 words; checklist plus worked examples.",
+      "primarySourcesCited": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
+        "https://11plus.gl-assessment.co.uk/"
+      ],
+      "checks": {
+        "slug": "what-topics-are-in-11-plus-maths",
+        "words": 721,
+        "readTime": "4 min read",
+        "titleLength": 57,
+        "descriptionLength": 146,
+        "questions": 3,
+        "internalLinks": [
+          "/subjects/maths",
+          "/subjects/maths/fractions-of-amounts",
+          "/subjects/maths/ratio-sharing",
+          "/blog/11-plus-area-perimeter",
+          "/quiz?paper=maths-generated&topic=arithmetic&mode=practice",
+          "/quiz?paper=maths-generated&topic=percentages&mode=practice",
+          "/blog/how-to-improve-11-plus-mental-maths"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "what-is-11-plus-verbal-reasoning",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "11 plus verbal reasoning question types guide UK; examples",
+      "competitorContentReviewed": [
+        "https://www.elevenplusexams.co.uk/advice-preparation/subjects/verbal-reasoning/gl-assessment-question-types-at-a-glance"
+      ],
+      "coverageAndOriginalValue": "Long catalogue of named types. Add four original explained examples and a method-first review routine. Categories describe common families, not a guaranteed 21-type specification.",
+      "plannedDepthRationale": "About 600–800 words; teach transferable methods.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/pages/free-materials",
+        "https://www.iseb.co.uk/assessments/common-pre-tests/for-families/"
+      ],
+      "checks": {
+        "slug": "what-is-11-plus-verbal-reasoning",
+        "words": 705,
+        "readTime": "4 min read",
+        "titleLength": 54,
+        "descriptionLength": 142,
+        "questions": 4,
+        "internalLinks": [
+          "/subjects/verbal-reasoning",
+          "/quiz?paper=verbal-reviewed&mode=practice",
+          "/blog/how-to-improve-11-plus-vocabulary-quickly",
+          "/blog/what-topics-are-in-11-plus-english"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "what-is-11-plus-non-verbal-reasoning",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "11 plus non verbal reasoning question types guide UK; rotations vs reflections",
+      "competitorContentReviewed": [
+        "https://www.brighteleven.co.uk/11-plus/non-verbal-reasoning"
+      ],
+      "coverageAndOriginalValue": "Pattern families and linked visual quizzes. Add a feature-inspection routine and physical rotation/reflection activity; link actual diagram practice on our existing hub. Do not present verbal descriptions as full visual assessment.",
+      "plannedDepthRationale": "About 550–750 words; concepts plus links to diagrams.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/pages/free-materials",
+        "https://www.iseb.co.uk/assessments/common-pre-tests/for-families/"
+      ],
+      "checks": {
+        "slug": "what-is-11-plus-non-verbal-reasoning",
+        "words": 694,
+        "readTime": "4 min read",
+        "titleLength": 54,
+        "descriptionLength": 140,
+        "questions": 0,
+        "internalLinks": [
+          "/subjects/non-verbal-reasoning",
+          "/quiz?paper=visual-reviewed&mode=practice",
+          "/blog/11-plus-time-management-strategies-in-the-exam",
+          "/blog/what-is-11-plus-verbal-reasoning"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "how-hard-is-the-11-plus-exam",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "how hard is the 11 plus exam UK guide; how hard is the 11 plus exam UK practice difficulty; exact-phrase follow-up",
+      "competitorContentReviewed": [
+        "https://whitedoteducation.com/insights/how-hard-is-the-11-a-realistic-guide-for-parents"
+      ],
+      "coverageAndOriginalValue": "Unfamiliarity, timing and competition. Add a diagnosis table and paired untimed/timed review; separate task difficulty from admissions eligibility. No national probability, universal pass mark or claims about intelligence.",
+      "plannedDepthRationale": "About 550–750 words; answer parental decision, not fear marketing.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/pages/faqs",
+        "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/maths-ks-2-3"
+      ],
+      "checks": {
+        "slug": "how-hard-is-the-11-plus-exam",
+        "words": 681,
+        "readTime": "4 min read",
+        "titleLength": 60,
+        "descriptionLength": 146,
+        "questions": 1,
+        "internalLinks": [
+          "/subjects/maths/fractions-of-amounts",
+          "/blog/11-plus-multi-step-word-problems",
+          "/blog/how-is-the-11-plus-scored-and-marked",
+          "/blog/how-many-children-pass-the-11-plus-pass-rate",
+          "/blog/do-we-need-an-11-plus-tutor",
+          "/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "how-to-prepare-for-the-11-plus-at-home",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "how to prepare for 11 plus at home UK guide; no tutor",
+      "competitorContentReviewed": [
+        "https://www.atomlearning.com/blog/how-to-prepare-for-11-plus-at-home"
+      ],
+      "coverageAndOriginalValue": "A prescriptive daily routine. Add a flexible original weekly teaching/review cycle, specific help prompts and a first-session checklist. No universal minutes-per-day promise.",
+      "plannedDepthRationale": "About 650–850 words; one usable home plan.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/pages/free-materials",
+        "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/literacy-ks2",
+        "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/maths-ks-2-3"
+      ],
+      "checks": {
+        "slug": "how-to-prepare-for-the-11-plus-at-home",
+        "words": 680,
+        "readTime": "4 min read",
+        "titleLength": 56,
+        "descriptionLength": 142,
+        "questions": 0,
+        "internalLinks": [
+          "/blog/what-topics-are-in-11-plus-maths",
+          "/blog/what-topics-are-in-11-plus-english",
+          "/subjects/verbal-reasoning",
+          "/subjects/non-verbal-reasoning",
+          "/subjects/english/using-evidence",
+          "/quiz?paper=maths-generated&mode=practice",
+          "/papers",
+          "/mock-exams",
+          "/blog/do-we-need-an-11-plus-tutor"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "how-early-should-we-start-11-plus-preparation",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "when to start 11 plus preparation Year 4 Year 5 UK; late start",
+      "competitorContentReviewed": [
+        "https://www.11plusguide.com/11-plus-exam-preparation/general-advice/start/"
+      ],
+      "coverageAndOriginalValue": "Year-group stages and core skills. Add learning-readiness decisions, a late-start priority plan and separate exam/entry-year note. The sibling grammar-entry article owns school-choice/admissions timing.",
+      "plannedDepthRationale": "About 550–750 words; phased readiness plan.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study"
+      ],
+      "checks": {
+        "slug": "how-early-should-we-start-11-plus-preparation",
+        "words": 686,
+        "readTime": "4 min read",
+        "titleLength": 56,
+        "descriptionLength": 147,
+        "questions": 0,
+        "internalLinks": [
+          "/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+          "/blog/how-to-prepare-for-the-11-plus-at-home",
+          "/blog/how-many-hours-a-week-should-my-child-study-for-11-plus",
+          "/subjects/maths",
+          "/subjects/english"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "best-11-plus-practice-papers-and-past-papers",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "best 11 plus practice papers official past papers UK; free official",
+      "competitorContentReviewed": [
+        "https://www.leadingtuition.co.uk/blog/11-past-papers-whats-available-for-each-school"
+      ],
+      "coverageAndOriginalValue": "Source directory and school mapping; several provider/region claims conflict with current official guidance and are NOT adopted. Add provenance comparison, verified direct official sources and a paper-selection/use checklist. No paid ranking, prices or invented school paper availability.",
+      "plannedDepthRationale": "About 650–850 words; practical source selector.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/pages/free-materials",
+        "https://csse.org.uk/practice-material/",
+        "https://www.iseb.co.uk/assessments/common-pre-tests/for-families/"
+      ],
+      "checks": {
+        "slug": "best-11-plus-practice-papers-and-past-papers",
+        "words": 708,
+        "readTime": "4 min read",
+        "titleLength": 57,
+        "descriptionLength": 151,
+        "questions": 0,
+        "internalLinks": [
+          "/papers",
+          "/mock-exams",
+          "/subjects/maths",
+          "/subjects/english",
+          "/subjects/verbal-reasoning",
+          "/subjects/non-verbal-reasoning",
+          "/blog/how-to-prepare-for-the-11-plus-at-home"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "do-we-need-an-11-plus-tutor",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "do you need an 11 plus tutor UK guide; self-study vs tutor",
+      "competitorContentReviewed": [
+        "https://grammarpath.co.uk/blog/do-you-need-a-tutor-11-plus/"
+      ],
+      "coverageAndOriginalValue": "Tutoring benefits and costs. Add a needs-based decision table, trial-lesson questions and a clearly fictional budget calculation. Avoid diagnosis-based tutoring requirements, success rates or market-price claims. Grammar-entry sibling owns local route/support questions.",
+      "plannedDepthRationale": "About 550–750 words; concrete buying decision without pressure.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/",
+        "https://london11plus.co.uk/"
+      ],
+      "checks": {
+        "slug": "do-we-need-an-11-plus-tutor",
+        "words": 739,
+        "readTime": "4 min read",
+        "titleLength": 55,
+        "descriptionLength": 144,
+        "questions": 1,
+        "internalLinks": [
+          "/blog/how-to-prepare-for-the-11-plus-at-home",
+          "/subjects/maths",
+          "/subjects/english",
+          "/blog/is-a-tutor-necessary-for-grammar-school-entrance"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "11-plus-time-management-strategies-in-the-exam",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "11 plus exam time management strategies UK; pacing",
+      "competitorContentReviewed": [
+        "https://collins.co.uk/blogs/11-advice-for-parents/how-to-improve-your-child-s-time-management-skills-for-the-11-exam"
+      ],
+      "coverageAndOriginalValue": "Timing, skip/return, elimination and practice. Add a clearly fictional timing calculation, section-rule safeguards and mistake classification. Never advise jumping around if the test forbids it.",
+      "plannedDepthRationale": "About 550–750 words; worked plan with limitations.",
+      "primarySourcesCited": [
+        "https://11plus.gl-assessment.co.uk/pages/free-materials",
+        "https://www.iseb.co.uk/assessments/common-pre-tests/for-families/"
+      ],
+      "checks": {
+        "slug": "11-plus-time-management-strategies-in-the-exam",
+        "words": 700,
+        "readTime": "4 min read",
+        "titleLength": 59,
+        "descriptionLength": 152,
+        "questions": 1,
+        "internalLinks": [
+          "/blog/how-to-improve-11-plus-mental-maths",
+          "/subjects/english/comprehension-retrieval",
+          "/subjects/english/using-evidence",
+          "/mock-exams"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "11 plus exam stress anxiety child parents UK; parent support",
+      "competitorContentReviewed": [
+        "https://www.youngminds.org.uk/parent/parents-a-z-mental-health-guide/exam-time/"
+      ],
+      "coverageAndOriginalValue": "Warning signs, home environment, school communication. Add original parent-child phrases and a practical low-pressure revision agreement. General educational wellbeing information, not diagnosis or treatment; no sleep-hour prescription borrowed from teenage guidance.",
+      "plannedDepthRationale": "About 550–750 words; calm actionable support and appropriate next steps.",
+      "primarySourcesCited": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-beat-exam-stress/",
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/",
+        "https://www.youngminds.org.uk/parent/parents-a-z-mental-health-guide/exam-time/"
+      ],
+      "checks": {
+        "slug": "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+        "words": 699,
+        "readTime": "4 min read",
+        "titleLength": 57,
+        "descriptionLength": 142,
+        "questions": 0,
+        "internalLinks": [
+          "/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
+          "/blog/how-to-prepare-for-the-11-plus-at-home"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "how-to-improve-11-plus-vocabulary-quickly",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "improve 11 plus vocabulary quickly UK; words in context",
+      "competitorContentReviewed": [
+        "https://elevenplusfc.co.uk/11-plus-vocabulary/"
+      ],
+      "coverageAndOriginalValue": "Large proprietary lists, recall and use. Add a five-part word record, short original context questions and a manageable review routine. No official master list, required word total or promised rapid score lift. The existing context lesson remains the detailed question-practice destination.",
+      "plannedDepthRationale": "About 600–800 words; teach usage rather than list size.",
+      "primarySourcesCited": [
+        "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/literacy-ks2",
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study"
+      ],
+      "checks": {
+        "slug": "how-to-improve-11-plus-vocabulary-quickly",
+        "words": 716,
+        "readTime": "4 min read",
+        "titleLength": 57,
+        "descriptionLength": 143,
+        "questions": 3,
+        "internalLinks": [
+          "/blog/11-plus-vocabulary-in-context",
+          "/subjects/english",
+          "/subjects/verbal-reasoning"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    },
+    {
+      "slug": "how-to-improve-11-plus-mental-maths",
+      "status": "implemented_pending_integrated_release",
+      "researchDate": "2026-11-02",
+      "researchQueryAndIntent": "improve 11 plus mental maths methods UK; speed and accuracy",
+      "competitorContentReviewed": [
+        "https://studentsachieve.co.uk/how-to-improve-speed-and-accuracy-in-11-plus-maths/"
+      ],
+      "coverageAndOriginalValue": "Fluency, timing and avoiding slips. Add a method-choice table, original independently calculated questions and error-led practice. No fixed per-question timing, invented research or claim that all work must be mental.",
+      "plannedDepthRationale": "About 600–800 words; worked methods and checks.",
+      "primarySourcesCited": [
+        "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
+        "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/maths-ks-2-3"
+      ],
+      "checks": {
+        "slug": "how-to-improve-11-plus-mental-maths",
+        "words": 775,
+        "readTime": "4 min read",
+        "titleLength": 59,
+        "descriptionLength": 147,
+        "questions": 6,
+        "internalLinks": [
+          "/quiz?paper=maths-generated&topic=arithmetic&mode=practice",
+          "/subjects/maths/percentages-of-amounts",
+          "/blog/what-topics-are-in-11-plus-maths",
+          "/blog/11-plus-time-management-strategies-in-the-exam"
+        ]
+      },
+      "originalPublicationDatePreserved": true,
+      "existingArtworkPreserved": true,
+      "existingUrlPreserved": true,
+      "updatedAt": "2026-11-02",
+      "editorialFlag": true
+    }
+  ],
+  "validation": {
+    "assignedExistingSlugs": 13,
+    "implementedSlugs": 13,
+    "totalContentWords": 9200,
+    "originalQuestionBlocks": 21,
+    "typescriptTranspileDiagnostics": 0,
+    "brokenInternalLinks": [],
+    "preservedFields": [
+      "slug",
+      "date",
+      "imageUrl",
+      "imageAlt",
+      "images"
+    ],
+    "preservedFieldsAbsentFromOverlay": true,
+    "mathsExamples": "Independently recalculated with exact fractions/decimal arithmetic; cost and timing examples expressly labelled illustrative.",
+    "languageExamples": "Reviewed for consistent rules and defensible answers; text is original.",
+    "medicalScope": "Stress article gives general supportive education and signposting, with NHS/YoungMinds sources; no diagnosis, treatment promise or teenage sleep-hour prescription.",
+    "humanEducatorOrClinicianReviewClaimed": false,
+    "fullBuildAndRenderedCheck": "Owned by the integrating release task; not claimed by this manifest.",
+    "deployment": "Not performed by this repair group."
+  }
+}

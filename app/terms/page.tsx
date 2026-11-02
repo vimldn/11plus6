@@ -3,7 +3,8 @@ import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 
 export const metadata: Metadata = {
-  title: 'Terms of Use | 11 Plus Exam Papers',
+  title: 'Terms of Use',
+  alternates: { canonical: '/terms' },
   description: 'Terms of use for 11 Plus Exam Papers.',
 };
 

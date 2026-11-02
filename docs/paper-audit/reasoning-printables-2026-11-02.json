@@ -1,0 +1,186 @@
+{
+  "created": "2026-11-02",
+  "provenance": "Original checked question pools; fixed selections; no newly authored questions or educator endorsement.",
+  "verbal": [
+    {
+      "id": "vrchecked-code-HEN-2",
+      "topic": "Letter codes",
+      "options": [
+        "FCL",
+        "KHQ",
+        "LIR",
+        "JGP"
+      ],
+      "answer": "JGP"
+    },
+    {
+      "id": "vrchecked-code-JAR--1",
+      "topic": "Letter codes",
+      "options": [
+        "JAR",
+        "LCT",
+        "IZQ",
+        "KBS"
+      ],
+      "answer": "IZQ"
+    },
+    {
+      "id": "vrchecked-code-ZIP-3",
+      "topic": "Letter codes",
+      "options": [
+        "ENU",
+        "CLS",
+        "WFM",
+        "DMT"
+      ],
+      "answer": "CLS"
+    },
+    {
+      "id": "vrchecked-analogy-1",
+      "topic": "Word analogies",
+      "options": [
+        "puppy",
+        "cub",
+        "foal",
+        "calf"
+      ],
+      "answer": "puppy"
+    },
+    {
+      "id": "vrchecked-analogy-3",
+      "topic": "Word analogies",
+      "options": [
+        "warm",
+        "slow",
+        "speed",
+        "quick"
+      ],
+      "answer": "slow"
+    },
+    {
+      "id": "vrchecked-analogy-4",
+      "topic": "Word analogies",
+      "options": [
+        "foot",
+        "ankle",
+        "leg",
+        "knee"
+      ],
+      "answer": "foot"
+    },
+    {
+      "id": "vrchecked-classification-1",
+      "topic": "Word classifications",
+      "options": [
+        "spoon",
+        "red",
+        "blue",
+        "green"
+      ],
+      "answer": "spoon"
+    },
+    {
+      "id": "vrchecked-classification-2",
+      "topic": "Word classifications",
+      "options": [
+        "Monday",
+        "Thursday",
+        "Sunday",
+        "winter"
+      ],
+      "answer": "winter"
+    },
+    {
+      "id": "vrchecked-classification-3",
+      "topic": "Word classifications",
+      "options": [
+        "April",
+        "October",
+        "Friday",
+        "January"
+      ],
+      "answer": "Friday"
+    },
+    {
+      "id": "vrchecked-number-7-3",
+      "topic": "Constant-step sequences",
+      "options": [
+        "22",
+        "20",
+        "19",
+        "16"
+      ],
+      "answer": "19"
+    },
+    {
+      "id": "vrchecked-number-18-4",
+      "topic": "Constant-step sequences",
+      "options": [
+        "35",
+        "34",
+        "30",
+        "38"
+      ],
+      "answer": "34"
+    },
+    {
+      "id": "vrchecked-letter-0-2",
+      "topic": "Constant-step sequences",
+      "options": [
+        "I",
+        "G",
+        "J",
+        "K"
+      ],
+      "answer": "I"
+    }
+  ],
+  "nonverbal": [
+    {
+      "id": "nvrchecked-rotation-1-cw90",
+      "topic": "NVR rotations",
+      "answer": "A"
+    },
+    {
+      "id": "nvrchecked-rotation-4-half",
+      "topic": "NVR rotations",
+      "answer": "D"
+    },
+    {
+      "id": "nvrchecked-reflection-1-horizontal",
+      "topic": "NVR reflections",
+      "answer": "B"
+    },
+    {
+      "id": "nvrchecked-reflection-4-vertical",
+      "topic": "NVR reflections",
+      "answer": "C"
+    },
+    {
+      "id": "nvrchecked-sequences-2-cw90",
+      "topic": "NVR shape sequences",
+      "answer": "C"
+    },
+    {
+      "id": "nvrchecked-sequences-3-ccw90",
+      "topic": "NVR shape sequences",
+      "answer": "B"
+    },
+    {
+      "id": "nvrchecked-matrices-2-ccw90",
+      "topic": "NVR matrices",
+      "answer": "D"
+    },
+    {
+      "id": "nvrchecked-matrices-5-cw90",
+      "topic": "NVR matrices",
+      "answer": "A"
+    }
+  ],
+  "files": [
+    "verbal-practice.pdf",
+    "verbal-worked-answers.pdf",
+    "nonverbal-practice.pdf",
+    "nonverbal-worked-answers.pdf"
+  ]
+}

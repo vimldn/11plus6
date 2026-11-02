@@ -6,11 +6,11 @@ export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
   title: 'Free 11+ Practice Papers and Worked Answers',
-  description: 'Download free original maths and English practice PDFs with separate worked answers, try online practice and find official 11 Plus familiarisation sources.',
+  description: 'Free 11+ practice PDFs for maths, English, verbal and non-verbal reasoning, with separate worked answers, question previews and official familiarisation links.',
   alternates: { canonical: '/papers' },
   openGraph: {
     title: 'Free 11+ Practice Papers and Worked Answers',
-    description: 'Download free original maths and English practice PDFs with separate worked answers, try online practice and find official 11 Plus familiarisation sources.',
+    description: 'Free 11+ practice PDFs for maths, English, verbal and non-verbal reasoning, with separate worked answers, question previews and official familiarisation links.',
     url: '/papers',
     locale: 'en_GB',
     type: 'website',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Free 11+ Practice Papers and Worked Answers',
-    description: 'Download free original maths and English practice PDFs with separate worked answers, try online practice and find official 11 Plus familiarisation sources.',
+    description: 'Free 11+ practice PDFs for maths, English, verbal and non-verbal reasoning, with separate worked answers, question previews and official familiarisation links.',
   },
 };
 

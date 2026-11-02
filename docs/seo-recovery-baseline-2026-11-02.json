@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "baselineDate": "2026-11-02",
+  "purpose": "Verified pre-release organic-search baseline for subsequent weekly outcome review; no recovery result is claimed.",
+  "source": {
+    "system": "Google Search Console through the connected Windsor.ai connector",
+    "connector": "searchconsole",
+    "tools": [
+      "mcp__codex_apps__windsor_ai_search_console_get_connectors",
+      "mcp__codex_apps__windsor_ai_search_console_get_fields",
+      "mcp__codex_apps__windsor_ai_search_console_get_data"
+    ],
+    "property": "https://www.11plusexampapers.com/",
+    "propertyType": "URL prefix",
+    "retrievedDate": "2026-11-02",
+    "searchType": "web",
+    "searchTypeVerification": {
+      "defaultSearchAnalyticsResults": true,
+      "explicitFilter": [
+        [
+          "search_type",
+          "eq",
+          "web"
+        ]
+      ],
+      "startDate": "2026-09-06",
+      "endDate": "2026-10-31",
+      "dailyRows": 56,
+      "explicitWebExactlyMatchesDefaultDailyCountsAndPosition": true
+    },
+    "filters": {
+      "country": null,
+      "device": null,
+      "query": null,
+      "page": null
+    },
+    "includeFreshDataRequested": false,
+    "overallDaily": {
+      "startDate": "2026-07-01",
+      "endDate": "2026-10-31",
+      "dimensions": [
+        "date"
+      ],
+      "rows": 123,
+      "expectedDailyRows": 123,
+      "completeReturnedDateCoverage": true
+    },
+    "pageDaily": {
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "dimensions": [
+        "date",
+        "page"
+      ],
+      "rows": 2319
+    },
+    "queryAndCountryDevicePeriods": {
+      "before": [
+        "2026-10-04",
+        "2026-10-17"
+      ],
+      "after": [
+        "2026-10-18",
+        "2026-10-31"
+      ]
+    },
+    "rawEvidence": {
+      "temporaryAuditPath": "/tmp/11plus_gsc_audit/raw.json",
+      "sha256": "e368ea0f90dd426ca53e0ea7896859686b90f6933b2873c1c52088367de62697",
+      "note": "This tracked baseline retains derived metrics. The temporary raw-evidence file is not a repository dependency."
+    }
+  },
+  "calculation": {
+    "clicksAndImpressions": "Sum returned counts for the specified inclusive date range.",
+    "ctrPercent": "100 * total clicks / total impressions; not an average of daily CTR.",
+    "averagePosition": "Impression-weighted mean of returned positions. Input positions are already rounded by the connector.",
+    "rounding": "Integer counts; derived values stored to six decimals. For prose, use one decimal for percentage changes and one or two for CTR percent/position.",
+    "pageAggregation": "Page metrics use date,page rows. Page impressions are not interchangeable with property-level impressions.",
+    "absentPageDate": "Only returned page rows are summed; no first-impression date is treated as a publication or indexing date."
+  },
+  "monthlyPropertyTotals": [
+    {
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "calendarDays": 31,
+      "dailyRowsPresent": 31,
+      "clicks": 141,
+      "impressions": 15631,
+      "ctrPercent": 0.902054,
+      "averagePosition": 18.366584
+    },
+    {
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "calendarDays": 31,
+      "dailyRowsPresent": 31,
+      "clicks": 178,
+      "impressions": 23332,
+      "ctrPercent": 0.762901,
+      "averagePosition": 21.553575
+    },
+    {
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "calendarDays": 30,
+      "dailyRowsPresent": 30,
+      "clicks": 331,
+      "impressions": 27186,
+      "ctrPercent": 1.217538,
+      "averagePosition": 10.420064
+    },
+    {
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "calendarDays": 31,
+      "dailyRowsPresent": 31,
+      "clicks": 334,
+      "impressions": 29053,
+      "ctrPercent": 1.149623,
+      "averagePosition": 10.677898
+    }
+  ],
+  "equal28DayComparison": {
+    "before": {
+      "startDate": "2026-09-06",
+      "endDate": "2026-10-03",
+      "calendarDays": 28,
+      "dailyRowsPresent": 28,
+      "clicks": 303,
+      "impressions": 24545,
+      "ctrPercent": 1.234467,
+      "averagePosition": 10.046564
+    },
+    "after": {
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-31",
+      "calendarDays": 28,
+      "dailyRowsPresent": 28,
+      "clicks": 316,
+      "impressions": 27294,
+      "ctrPercent": 1.157764,
+      "averagePosition": 10.702019
+    },
+    "change": {
+      "clicks": 13,
+      "clicksPercent": 4.290429,
+      "impressions": 2749,
+      "impressionsPercent": 11.199837,
+      "ctrPercentagePoints": -0.076703,
+      "averagePositionDifference": 0.655455
+    }
+  },
+  "equal14DayComparison": {
+    "before": {
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-17",
+      "calendarDays": 14,
+      "dailyRowsPresent": 14,
+      "clicks": 195,
+      "impressions": 15302,
+      "ctrPercent": 1.274343,
+      "averagePosition": 9.267348
+    },
+    "after": {
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-31",
+      "calendarDays": 14,
+      "dailyRowsPresent": 14,
+      "clicks": 121,
+      "impressions": 11992,
+      "ctrPercent": 1.009006,
+      "averagePosition": 12.532684
+    },
+    "change": {
+      "clicks": -74,
+      "clicksPercent": -37.948718,
+      "impressions": -3310,
+      "impressionsPercent": -21.631159,
+      "ctrPercentagePoints": -0.265337,
+      "averagePositionDifference": 3.265336
+    },
+    "threeArticleClickAttribution": {
+      "pages": [
+        {
+          "page": "https://www.11plusexampapers.com/blog/how-many-children-pass-the-11-plus-pass-rate",
+          "before": {
+            "clicks": 54,
+            "impressions": 3097,
+            "ctrPercent": 1.743623,
+            "averagePosition": 6.075855
+          },
+          "after": {
+            "clicks": 5,
+            "impressions": 839,
+            "ctrPercent": 0.595948,
+            "averagePosition": 7.61501
+          },
+          "change": {
+            "clicks": -49,
+            "clicksPercent": -90.740741,
+            "impressions": -2258,
+            "impressionsPercent": -72.909267,
+            "ctrPercentagePoints": -1.147675,
+            "averagePositionDifference": 1.539155
+          }
+        },
+        {
+          "page": "https://www.11plusexampapers.com/blog/what-score-do-you-need-to-get-into-a-grammar-school",
+          "before": {
+            "clicks": 15,
+            "impressions": 1427,
+            "ctrPercent": 1.051156,
+            "averagePosition": 8.41627
+          },
+          "after": {
+            "clicks": 1,
+            "impressions": 309,
+            "ctrPercent": 0.323625,
+            "averagePosition": 11.779936
+          },
+          "change": {
+            "clicks": -14,
+            "clicksPercent": -93.333333,
+            "impressions": -1118,
+            "impressionsPercent": -78.346181,
+            "ctrPercentagePoints": -0.727531,
+            "averagePositionDifference": 3.363666
+          }
+        },
+        {
+          "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+          "before": {
+            "clicks": 16,
+            "impressions": 721,
+            "ctrPercent": 2.21914,
+            "averagePosition": 6.331488
+          },
+          "after": {
+            "clicks": 6,
+            "impressions": 274,
+            "ctrPercent": 2.189781,
+            "averagePosition": 6.463501
+          },
+          "change": {
+            "clicks": -10,
+            "clicksPercent": -62.5,
+            "impressions": -447,
+            "impressionsPercent": -61.997226,
+            "ctrPercentagePoints": -0.029359,
+            "averagePositionDifference": 0.132013
+          }
+        }
+      ],
+      "clicksLostAcrossThesePages": 73,
+      "netPropertyClicksLost": 74,
+      "shareOfNetPropertyClickLossPercent": 98.648649,
+      "interpretation": "Arithmetic attribution of the net click change; other pages contain offsetting gains and losses. This is not causal evidence."
+    },
+    "sectionClicks": [
+      {
+        "section": "blog",
+        "beforeClicks": 186,
+        "afterClicks": 112,
+        "changeClicks": -74
+      },
+      {
+        "section": "all_non_blog",
+        "beforeClicks": 9,
+        "afterClicks": 9,
+        "changeClicks": 0
+      },
+      {
+        "section": "subjects_subset_of_non_blog",
+        "beforeClicks": 5,
+        "afterClicks": 6,
+        "changeClicks": 1
+      }
+    ]
+  },
+  "peakWeekComparison": {
+    "before": {
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-17",
+      "calendarDays": 7,
+      "dailyRowsPresent": 7,
+      "clicks": 128,
+      "impressions": 9959,
+      "ctrPercent": 1.28527,
+      "averagePosition": 8.749869
+    },
+    "after": {
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-31",
+      "calendarDays": 7,
+      "dailyRowsPresent": 7,
+      "clicks": 48,
+      "impressions": 4663,
+      "ctrPercent": 1.02938,
+      "averagePosition": 13.639268
+    },
+    "change": {
+      "clicks": -80,
+      "clicksPercent": -62.5,
+      "impressions": -5296,
+      "impressionsPercent": -53.17803,
+      "ctrPercentagePoints": -0.25589,
+      "averagePositionDifference": 4.889399
+    },
+    "limitation": "Comparison with an observed peak week exaggerates the impression of a long-term collapse; retain the 28-day and monthly context."
+  },
+  "octoberPageSections": [
+    {
+      "section": "blog",
+      "clicks": 314,
+      "impressions": 27785,
+      "ctrPercent": 1.130106,
+      "averagePosition": 9.538239,
+      "distinctReturnedUrls": 93
+    },
+    {
+      "section": "subjects",
+      "clicks": 11,
+      "impressions": 232,
+      "ctrPercent": 4.741379,
+      "averagePosition": 23.599139,
+      "distinctReturnedUrls": 10
+    },
+    {
+      "section": "exam-dates",
+      "clicks": 3,
+      "impressions": 402,
+      "ctrPercent": 0.746269,
+      "averagePosition": 19.922878,
+      "distinctReturnedUrls": 1
+    },
+    {
+      "section": "tutors",
+      "clicks": 2,
+      "impressions": 474,
+      "ctrPercent": 0.421941,
+      "averagePosition": 27.691985,
+      "distinctReturnedUrls": 21
+    },
+    {
+      "section": "schools",
+      "clicks": 2,
+      "impressions": 219,
+      "ctrPercent": 0.913242,
+      "averagePosition": 33.251138,
+      "distinctReturnedUrls": 19
+    },
+    {
+      "section": "mock-exams",
+      "clicks": 1,
+      "impressions": 260,
+      "ctrPercent": 0.384615,
+      "averagePosition": 50.588463,
+      "distinctReturnedUrls": 1
+    },
+    {
+      "section": "homepage",
+      "clicks": 1,
+      "impressions": 23,
+      "ctrPercent": 4.347826,
+      "averagePosition": 18.478261,
+      "distinctReturnedUrls": 1
+    },
+    {
+      "section": "compare",
+      "clicks": 0,
+      "impressions": 16,
+      "ctrPercent": 0.0,
+      "averagePosition": 7.5,
+      "distinctReturnedUrls": 1
+    },
+    {
+      "section": "papers",
+      "clicks": 0,
+      "impressions": 423,
+      "ctrPercent": 0.0,
+      "averagePosition": 49.470457,
+      "distinctReturnedUrls": 1
+    },
+    {
+      "section": "terms",
+      "clicks": 0,
+      "impressions": 4,
+      "ctrPercent": 0.0,
+      "averagePosition": 4.75,
+      "distinctReturnedUrls": 1
+    },
+    {
+      "section": "guides",
+      "clicks": 0,
+      "impressions": 34,
+      "ctrPercent": 0.0,
+      "averagePosition": 16.705882,
+      "distinctReturnedUrls": 1
+    }
+  ],
+  "octoberBlogClickSharePercent": 94.011976,
+  "octoberSelectedProductPages": [
+    {
+      "page": "https://www.11plusexampapers.com/papers",
+      "clicks": 0,
+      "impressions": 423,
+      "ctrPercent": 0.0,
+      "averagePosition": 49.470457
+    },
+    {
+      "page": "https://www.11plusexampapers.com/mock-exams",
+      "clicks": 1,
+      "impressions": 260,
+      "ctrPercent": 0.384615,
+      "averagePosition": 50.588463
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects",
+      "clicks": 0,
+      "impressions": 9,
+      "ctrPercent": 0.0,
+      "averagePosition": 4.777778
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths",
+      "clicks": 1,
+      "impressions": 38,
+      "ctrPercent": 2.631579,
+      "averagePosition": 52.368416
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/english",
+      "clicks": 2,
+      "impressions": 18,
+      "ctrPercent": 11.111111,
+      "averagePosition": 36.722222
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/verbal-reasoning",
+      "clicks": 1,
+      "impressions": 19,
+      "ctrPercent": 5.263158,
+      "averagePosition": 45.684211
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/non-verbal-reasoning",
+      "clicks": 3,
+      "impressions": 20,
+      "ctrPercent": 15.0,
+      "averagePosition": 44.949995
+    }
+  ],
+  "ukDeviceFortnightComparison": {
+    "countrySubset": "United Kingdom only; the property totals above include all countries.",
+    "rows": [
+      {
+        "country": "United Kingdom",
+        "device": "MOBILE",
+        "before": {
+          "clicks": 144,
+          "impressions": 10178,
+          "ctrPercent": 1.414816,
+          "averagePosition": 7.4396
+        },
+        "after": {
+          "clicks": 85,
+          "impressions": 6137,
+          "ctrPercent": 1.385042,
+          "averagePosition": 8.7176
+        }
+      },
+      {
+        "country": "United Kingdom",
+        "device": "DESKTOP",
+        "before": {
+          "clicks": 34,
+          "impressions": 3635,
+          "ctrPercent": 0.935351,
+          "averagePosition": 14.14
+        },
+        "after": {
+          "clicks": 28,
+          "impressions": 3371,
+          "ctrPercent": 0.830614,
+          "averagePosition": 20.1279
+        }
+      },
+      {
+        "country": "United Kingdom",
+        "device": "TABLET",
+        "before": {
+          "clicks": 5,
+          "impressions": 309,
+          "ctrPercent": 1.618123,
+          "averagePosition": 6.0485
+        },
+        "after": {
+          "clicks": 0,
+          "impressions": 174,
+          "ctrPercent": 0.0,
+          "averagePosition": 7.0402
+        }
+      }
+    ]
+  },
+  "namedQueryCoverage": {
+    "beforeReturnedQueryRows": 574,
+    "afterReturnedQueryRows": 700,
+    "beforeVisibleNamedQueryClicks": 10,
+    "beforePropertyClicks": 195,
+    "afterVisibleNamedQueryClicks": 5,
+    "afterPropertyClicks": 121,
+    "note": "Visible named queries are a small incomplete subset and cannot allocate the whole traffic change."
+  },
+  "limitations": [
+    "The latest date used is 31 October 2026. 1–2 November were excluded; no forced fresh-data option was used. Complete returned date coverage is not a promise that Google will never revise the data.",
+    "The request for 1 September–31 October 2025 returned no rows. A year-on-year seasonality comparison cannot be established from this evidence.",
+    "An autumn results/admissions explanation is a hypothesis; these aggregates do not establish the cause of the decline.",
+    "Search Console measures Google search visibility and clicks. These data do not establish server crashes, conversion performance, an algorithmic penalty or a technical outage.",
+    "A change in aggregate average position can reflect query and page mix. It does not show that every existing keyword fell.",
+    "Page impression totals may exceed property totals because Search Console aggregation differs. Do not sum page impressions to report site-wide impressions.",
+    "Visible named-query tables account for only 10 of 195 and 5 of 121 clicks in the compared fortnights; query suppression/coverage limits prevent complete query attribution.",
+    "A sitemap submission/download or zero sitemap errors does not establish indexed-page count. No indexing-count claim is made here.",
+    "Content and product changes made after the observed peak cannot alone explain the start of that peak-to-latest decline; no causal release attribution is made.",
+    "Page and product counts are small. Subsequent review should use equal complete-date windows and retain monthly context rather than promise an immediate ranking recovery."
+  ],
+  "nextReviewDimensions": [
+    "property Web totals over equal complete-date windows",
+    "blog versus all non-blog clicks",
+    "three identified admissions articles",
+    "papers/mock-exams/subject hubs and published learning pages",
+    "country/device subsets with sample sizes",
+    "repaired URL cohorts after verified release"
+  ]
+}

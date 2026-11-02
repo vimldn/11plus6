@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-11-02",
   "scope": "Existing 99 blog articles; no new lessons",
   "note": "A repaired article is not marked published until the corresponding GitHub deployment succeeds and its live URL is checked. Do not repeat completed rows.",
   "articles": [
@@ -153,51 +153,91 @@
       "slug": "what-topics-are-in-11-plus-english",
       "title": "What topics are in 11 Plus English?",
       "url": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-english",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "what-topics-are-in-11-plus-maths",
       "title": "What topics are in 11 Plus maths?",
       "url": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "what-is-11-plus-verbal-reasoning",
       "title": "What is 11 Plus verbal reasoning?",
       "url": "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "what-is-11-plus-non-verbal-reasoning",
       "title": "What is 11 Plus non-verbal reasoning?",
       "url": "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-hard-is-the-11-plus-exam",
       "title": "How hard is the 11 Plus exam?",
       "url": "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-to-register-my-child-for-the-11-plus",
@@ -224,31 +264,55 @@
       "slug": "how-to-prepare-for-the-11-plus-at-home",
       "title": "How to prepare for the 11 Plus at home?",
       "url": "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-early-should-we-start-11-plus-preparation",
       "title": "How early should we start 11 Plus preparation?",
       "url": "https://www.11plusexampapers.com/blog/how-early-should-we-start-11-plus-preparation",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "best-11-plus-practice-papers-and-past-papers",
       "title": "Best 11 Plus practice papers and past papers.",
       "url": "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "free-11-plus-resources-and-websites",
@@ -274,11 +338,19 @@
       "slug": "do-we-need-an-11-plus-tutor",
       "title": "Do we need an 11 Plus tutor?",
       "url": "https://www.11plusexampapers.com/blog/do-we-need-an-11-plus-tutor",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-many-hours-a-week-should-my-child-study-for-11-plus",
@@ -300,11 +372,19 @@
       "slug": "11-plus-time-management-strategies-in-the-exam",
       "title": "11 Plus time management strategies in the exam.",
       "url": "https://www.11plusexampapers.com/blog/11-plus-time-management-strategies-in-the-exam",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-is-the-11-plus-scored-and-marked",
@@ -487,11 +567,19 @@
       "slug": "11-plus-exam-stress-and-anxiety-how-to-help-my-child",
       "title": "11 Plus exam stress and anxiety – how to help my child.",
       "url": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "11-plus-exam-day-checklist-what-to-bring",
@@ -563,31 +651,55 @@
       "slug": "how-to-improve-11-plus-vocabulary-quickly",
       "title": "How to improve 11 Plus vocabulary quickly.",
       "url": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-vocabulary-quickly",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-to-improve-11-plus-mental-maths",
       "title": "How to improve 11 Plus mental maths.",
       "url": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "best-books-for-11-plus-preparation",
       "title": "Best books for 11 Plus preparation.",
       "url": "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-to-structure-an-11-plus-study-timetable",
@@ -609,41 +721,73 @@
       "slug": "common-11-plus-english-mistakes-to-avoid",
       "title": "Common 11 Plus English mistakes to avoid.",
       "url": "https://www.11plusexampapers.com/blog/common-11-plus-english-mistakes-to-avoid",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "common-11-plus-maths-mistakes-to-avoid",
       "title": "Common 11 Plus maths mistakes to avoid.",
       "url": "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-different-are-11-plus-exams-by-region",
       "title": "How different are 11 Plus exams by region?",
       "url": "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "what-is-covered-in-11-plus-creative-writing",
       "title": "What is covered in 11 Plus creative writing?",
       "url": "https://www.11plusexampapers.com/blog/what-is-covered-in-11-plus-creative-writing",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-long-is-the-11-plus-exam",
@@ -713,21 +857,37 @@
       "slug": "what-level-of-ks2-is-needed-for-the-11-plus",
       "title": "What level of KS2 is needed for the 11 Plus?",
       "url": "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "online-vs-in-person-11-plus-tutoring-which-is-better",
       "title": "Online vs in-person 11 Plus tutoring – which is better?",
       "url": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "are-mock-exams-important-for-the-11-plus",
@@ -843,25 +1003,21 @@
       "slug": "how-many-grammar-schools-are-there-in-england",
       "title": "How many grammar schools are there in England? Count and sources",
       "url": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
-      "status": "pending",
-      "researchDate": "2026-10-10",
+      "status": "ready",
+      "researchDate": "2026-11-02",
       "evidence": [
-        "docs/research-2026-10-10-school-types.md"
+        "docs/research-2026-10-10-school-types.md",
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
       ],
       "action": "rewrite",
       "release": {
-        "pr": 6,
-        "branch": "content/daily-repairs-2026-10-10",
-        "commit": "e3c05ad3503fecf42f2eaa83bae3f90d63e0d4b3",
-        "outcome": "partial_repair_production_verified_current_count_pending",
-        "verifiedAt": "2026-10-10T11:23:29.986883+00:00",
-        "deploymentCheck": "https://vercel.com/vchatwani-7631s-projects/11plus6/2rdAfVQHvVaHfFQmNRVEULkhYzEL",
-        "httpStatus": 200,
-        "verificationRecord": "docs/audit-repair-verification-2026-10-10.json"
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
       },
-      "reviewState": "checked_partial_repair",
+      "reviewState": "verified_pending_release",
       "remainingWork": "Verify the latest January 2026 selective-state-secondary school count from official DfE data. Historical January 2022 count is safely dated; do not repeat routine rewrite to fill a quota.",
-      "repairStatus": "published"
+      "repairStatus": "ready"
     },
     {
       "slug": "what-is-the-difference-between-grammar-and-comprehensive-schools",
@@ -1461,11 +1617,19 @@
       "slug": "what-is-the-typical-day-like-at-a-grammar-school",
       "title": "What is the typical day like at a grammar school?",
       "url": "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "what-gcse-and-a-level-results-do-grammar-schools-get",
@@ -1494,21 +1658,37 @@
       "slug": "do-grammar-schools-help-more-with-university-and-oxbridge-applications",
       "title": "Do grammar schools help more with university and Oxbridge applications?",
       "url": "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "how-much-homework-do-grammar-school-students-get",
       "title": "How much homework do grammar school students get?",
       "url": "https://www.11plusexampapers.com/blog/how-much-homework-do-grammar-school-students-get",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "do-grammar-schools-have-strong-pastoral-care-and-wellbeing-support",
@@ -1757,21 +1937,37 @@
       "slug": "how-early-should-we-start-preparing-for-grammar-school-entry",
       "title": "How early should we start preparing for grammar school entry?",
       "url": "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "is-a-tutor-necessary-for-grammar-school-entrance",
       "title": "Is a tutor necessary for grammar school entrance?",
       "url": "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance",
-      "status": "pending",
-      "researchDate": null,
-      "evidence": [],
-      "action": "review_pending",
-      "release": null
+      "status": "ready",
+      "researchDate": "2026-11-02",
+      "evidence": [
+        "docs/research/seo-repairs-2026-11-02-a.md",
+        "docs/research/seo-repairs-2026-11-02-b.md"
+      ],
+      "action": "rewrite",
+      "release": {
+        "branch": "fix/seo-recovery-2026-11-02",
+        "outcome": "ready_pending_production_verification"
+      },
+      "repairStatus": "ready",
+      "reviewState": "verified_pending_release"
     },
     {
       "slug": "what-are-the-pros-and-cons-of-grammar-schools",

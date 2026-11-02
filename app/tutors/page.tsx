@@ -7,7 +7,7 @@ import { MapPin, ArrowRight, Shield, BookOpen, Users } from 'lucide-react';
 import TutorEnquiryForm from './TutorEnquiryForm';
 
 export const metadata: Metadata = {
-  title: '11 Plus Tutors by City | 11 Plus Exam Papers',
+  title: '11 Plus Tutors by City',
   description:
     'Browse 11+ tutor support pages by city. Each guide includes local grammar school context and a simple tutor enquiry form.',
   alternates: { canonical: '/tutors' },

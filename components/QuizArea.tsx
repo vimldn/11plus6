@@ -1,8 +1,8 @@
 'use client';
 import { VisualStem, VisualDiagram, VisualWorked, describeFigure } from './VisualDiagram';
-import { createVisualPractice } from '../data/visualPractice';
 import { PrintPaper } from './PrintPaper';
 import { isAnswerCorrect } from '../lib/answerMarking';
+import { trackEvent } from '../lib/analytics';
 
 import { ActivePractice, readActivePractice, writeActivePractice, clearActivePractice, activeSeconds, scoreAnswers } from '../lib/activePractice';
 import React, { useState, useEffect, useRef } from 'react';
@@ -20,9 +20,6 @@ import {
   ArrowDown
 } from 'lucide-react';
 import { Subject, Question, QuizState, QuizResult, QuizMode, QuizType } from '../types';
-import { createVerbalPractice } from '../data/verbalPractice';
-import { createTopicPractice } from '../lib/topicPractice';
-import { createMathsPilot } from '../data/mathsPilot';
 import { generateQuestions } from '../services/questionService';
 import { Button } from './Button';
 
@@ -100,7 +97,24 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
       const desiredCount = questionCount ?? (mode === 'exam' ? 25 : 10);
       let qs: Question[] = [];
       try {
-        const batch = suppliedQuestions ? {questions:suppliedQuestions,notice:suppliedNotice || 'Follow-up practice.'} : reviewedVisual ? {questions:createVisualPractice(topic),notice:'Original checked visual starter practice: rotations, reflections, constant-turn sequences and transformation matrices. 48 variations across six marked motifs; questions can recur. Not an official paper or a complete NVR syllabus.'} : reviewedVerbal ? {questions:createVerbalPractice(topic),notice:topic && !['codes','analogies','classifications','sequences'].includes(topic) ? 'This verbal reasoning topic is unavailable. Choose a supported skill from the hub.' : 'Original checked verbal reasoning starter practice. Four options per question; not an official paper or a complete syllabus.'} : freshMaths ? createTopicPractice(topic) : mathsPilot ? {questions:createMathsPilot(),notice:'Original practice drawn from 120 independently checked questions.'} : await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+        let batch: { questions: Question[]; notice: string };
+        if (suppliedQuestions) {
+          batch = { questions: suppliedQuestions, notice: suppliedNotice || 'Follow-up practice.' };
+        } else if (reviewedVisual) {
+          const { createVisualPractice } = await import('../data/visualPractice');
+          batch = { questions: createVisualPractice(topic), notice: 'Original checked visual starter practice: rotations, reflections, constant-turn sequences and transformation matrices. 48 variations across six marked motifs; questions can recur. Not an official paper or a complete NVR syllabus.' };
+        } else if (reviewedVerbal) {
+          const { createVerbalPractice } = await import('../data/verbalPractice');
+          batch = { questions: createVerbalPractice(topic), notice: topic && !['codes','analogies','classifications','sequences'].includes(topic) ? 'This verbal reasoning topic is unavailable. Choose a supported skill from the hub.' : 'Original checked verbal reasoning starter practice. Four options per question; not an official paper or a complete syllabus.' };
+        } else if (freshMaths) {
+          const { createTopicPractice } = await import('../lib/topicPractice');
+          batch = createTopicPractice(topic);
+        } else if (mathsPilot) {
+          const { createMathsPilot } = await import('../data/mathsPilot');
+          batch = { questions: createMathsPilot(), notice: 'Original practice drawn from 120 independently checked questions.' };
+        } else {
+          batch = await generateQuestions(subject, schoolType, loadTopic, quizType, desiredCount, schoolId, difficulty);
+        }
         qs = batch.questions;
         if (mounted) setNotice(batch.notice);
       } catch {
@@ -110,6 +124,7 @@ export const QuizArea: React.FC<QuizAreaProps> = ({
         setState((s) => ({ ...s, questions: qs, loading: false }));
         // Initialize state for the first question if applicable
         if (qs.length > 0) {
+          trackEvent('practice_start', { subject, practice_mode: mode, question_count: qs.length });
           if (quizType === 'ordering') setOrderingItems([...qs[0].options]);
           if (quizType === 'fill-in-the-blank' || quizType === 'short-answer') setTextInput('');
         }

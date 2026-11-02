@@ -12,6 +12,8 @@ import { verbalLabels, isVerbalTopic } from '@/data/verbalPractice';
  * Usage: /quiz?subject=maths&count=25&duration=45&schoolType=grammar&quizType=multiple-choice
  */
 
+import dynamic from 'next/dynamic';
+import { trackEvent } from '@/lib/analytics';
 import React, { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
@@ -25,11 +27,16 @@ import { freshTopics, freshTopicLabels, FreshTopic } from '@/data/freshMaths';
 import { mathsJourneys } from '@/lib/practiceJourneys';
 import { Question } from '@/types';
 import { QuizArea } from '@/components/QuizArea';
-import { ResultsScreen } from '@/components/ResultsScreen';
-import { ReviewScreen } from '@/components/ReviewScreen';
+const ResultsScreen = dynamic(() => import('@/components/ResultsScreen').then(module => module.ResultsScreen));
+const ReviewScreen = dynamic(() => import('@/components/ReviewScreen').then(module => module.ReviewScreen));
 import { Subject, QuizMode, QuizType, QuizResult, SchoolType } from '@/types';
 
 type Screen = 'quiz' | 'results' | 'review';
+
+function boundedInteger(value: string | null, min: number, max: number, fallback: number) {
+  const parsed = Number(value);
+  return value && Number.isFinite(parsed) ? Math.max(min, Math.min(max, Math.floor(parsed))) : fallback;
+}
 
 function mapSubject(s: string | null): Subject {
   if (!s) return Subject.Maths;
@@ -74,14 +81,16 @@ function QuizPageInner() {
   const subject      = reviewedVisual ? Subject.NonVerbalReasoning : reviewedVerbal ? Subject.VerbalReasoning : fixedMaths ? Subject.Maths : mapSubject(params.get('subject'));
   const schoolType   = mapSchoolType(params.get('schoolType'));
   const mode         = (params.get('mode') === 'practice' ? 'practice' : 'exam') as QuizMode;
-  const quizType     = (fixedOriginal ? 'multiple-choice' : params.get('quizType') || 'multiple-choice') as QuizType;
-  const questionCount = reviewedVisual ? 8 : reviewedVerbal ? params.get('topic') ? 10 : 12 : freshMaths ? selectedFreshTopic ? 10 : 16 : mathsPilot ? 30 : Math.max(10, Math.min(30, parseInt(params.get('count') || '25', 10)));
-  const examDurationMins = reviewedVisual ? 12 : reviewedVerbal ? 15 : freshMaths ? selectedFreshTopic ? 15 : 20 : mathsPilot ? 45 : Math.max(15, Math.min(120, parseInt(params.get('duration') || '45', 10)));
+  const requestedType = params.get('quizType') || 'multiple-choice';
+  const quizType: QuizType = fixedOriginal || !['multiple-choice', 'true-false', 'fill-in-the-blank', 'ordering', 'short-answer'].includes(requestedType) ? 'multiple-choice' : requestedType as QuizType;
+  const questionCount = reviewedVisual ? 8 : reviewedVerbal ? params.get('topic') ? 10 : 12 : freshMaths ? selectedFreshTopic ? 10 : 16 : mathsPilot ? 30 : boundedInteger(params.get('count'), 10, 30, 25);
+  const examDurationMins = reviewedVisual ? 12 : reviewedVerbal ? 15 : freshMaths ? selectedFreshTopic ? 15 : 20 : mathsPilot ? 45 : boundedInteger(params.get('duration'), 15, 120, 45);
   const schoolId     = fixedOriginal ? undefined : params.get('schoolId') || undefined;
   const topic        = params.get('topic')    || undefined;
   const difficulty   = (params.get('difficulty') || 'standard') as 'standard' | 'challenging' | 'exam-ready';
 
   const handleComplete = (result: QuizResult) => {
+    trackEvent('practice_complete', { subject: result.subject, practice_mode: result.mode, question_count: result.questions.length });
     setAttemptId(String(Date.now())+'-'+Math.random().toString(36).slice(2));
     setLastResult(result);
     setScreen('results');

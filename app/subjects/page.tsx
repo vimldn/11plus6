@@ -6,7 +6,7 @@ import { SUBJECTS } from '@/lib/siteData';
 import { BookOpen, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: '11 Plus Subjects | 11 Plus Exam Papers',
+  title: '11 Plus Subjects',
   description:
     'Explore 11+ subjects: Maths, English, Verbal Reasoning and Non-Verbal Reasoning. Topic guides and resources for realistic preparation.',
   alternates: { canonical: '/subjects' },

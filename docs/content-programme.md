@@ -1,6 +1,8 @@
 # 11+ content programme
 
-Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable batches, not a bulk public release.
+Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable batches.
+
+Owner update, 2 November 2026: the explicit instruction to fix the SEO report authorises one coordinated release covering all 26 remaining legacy article repairs plus technical, privacy, practice and paper-library fixes. This specific repair release supersedes the former 15-articles-per-run ceiling. Publication is recorded only after deployment verification; it does not change the separate daily five-education/two-genuine-news programme.
 
 ## Release policy
 

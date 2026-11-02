@@ -25,13 +25,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? 'Practise 11+ retrieval, inference and evidence with original passages, worked examples and explained answers for families preparing for exams taken in 2027.'
     : subject.slug === 'verbal-reasoning' ? 'Practise original 11 Plus letter codes, analogies, classifications and sequences, with worked explanations and focused retries for tests taken in 2027.'
     : subject.slug === 'non-verbal-reasoning' ? 'Practise original 11 Plus rotations, reflections, sequences and matrices with clear diagrams, worked visual answers, mistake retries and printable questions for tests taken in 2027.'
-    : `Practise 11+ ${subject.label} with free online questions, topic guides and mock-style quizzes. Trusted by UK families preparing for grammar and independent school entrance exams.`;
+    : 'Build 11 Plus maths skills with topic lessons, original practice questions, printable papers and worked explanations. Choose one skill or try a mixed set.';
   return {
-    title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning: Rotations and Reflections' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+    title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning Practice and Worked Examples' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions`,
     description,
     alternates: { canonical: `/subjects/${subject.slug}` },
     openGraph: {
-      title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning: Rotations and Reflections' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+      title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning Practice and Worked Examples' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions`,
       description,
       url: `/subjects/${subject.slug}`,
       locale: 'en_GB',
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary',
-      title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning: Rotations and Reflections' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions | 11 Plus Exam Papers`,
+      title: subject.slug === 'non-verbal-reasoning' ? '11+ Non-Verbal Reasoning Practice and Worked Examples' : subject.slug === 'verbal-reasoning' ? '11+ Verbal Reasoning Practice Questions' : `11+ ${subject.label} Practice Questions`,
       description,
     },
   };

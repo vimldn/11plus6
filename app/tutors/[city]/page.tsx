@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = UK_CITIES.find((c) => c.slug === params.city);
   if (!city) return {};
 
-  const title = `11 Plus Tutor in ${city.label} | 11 Plus Exam Papers`;
+  const title = `11 Plus Tutor in ${city.label}`;
   const description =
     `Find 11+ tutor support in ${city.label}. Local exam context, practical preparation guidance, and a simple enquiry form.`;
 

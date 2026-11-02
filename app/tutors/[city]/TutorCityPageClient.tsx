@@ -1,5 +1,7 @@
 'use client';
 
+import { trackEvent } from '@/lib/analytics';
+import Link from 'next/link';
 import React, { useMemo, useState } from 'react';
 import { MapPin, School, CheckCircle, Mail, Phone, User, BookOpen, Shield, Users, Loader2, GraduationCap, Lightbulb } from 'lucide-react';
 import { getCityData } from '@/lib/cityData';
@@ -35,7 +37,8 @@ export default function TutorCityPageClient({ city }: { city: City }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           email: form.email,
-          childName: form.name,
+          parentName: form.name,
+          notes: form.notes,
           phone: form.phone,
           childYear: form.childYear,
           targetSchool: city.label,
@@ -43,6 +46,7 @@ export default function TutorCityPageClient({ city }: { city: City }) {
         }),
       });
       if (!res.ok) throw new Error('Submission failed');
+      trackEvent('tutor_enquiry', { source_path: window.location.pathname });
       setSubmitted(true);
     } catch (err) {
       console.error('[TutorCityPageClient]', err);
@@ -247,7 +251,8 @@ export default function TutorCityPageClient({ city }: { city: City }) {
                   />
                 </label>
 
-                {error && <p className="text-xs text-red-500 font-medium">{error}</p>}
+                <p className="text-xs leading-5 text-slate-500">For parents and carers. We use these details to reply to your enquiry. Please do not include sensitive information about a child. <Link href="/privacy" className="underline">Privacy policy</Link></p>
+        {error && <p className="text-xs text-red-500 font-medium">{error}</p>}
 
                 <button
                   type="submit"

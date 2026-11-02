@@ -1,19 +1,15 @@
 'use client';
 
-import { VisualPracticeLibrary } from '@/components/VisualPracticeLibrary';
-import { VerbalPracticeLibrary } from '@/components/VerbalPracticeLibrary';
-
-import { PracticeJourneys } from '@/components/PracticeJourneys';
-
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { schoolPaperEvidence } from '@/data/schoolPaperEvidence';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import {
   Search, GraduationCap, Building2, ChevronRight, Rocket,
-  BookOpen, MapPin, Clock, ClipboardList,
+  BookOpen, MapPin, ClipboardList,
 } from 'lucide-react';
-import { PracticeResources } from '@/components/PracticeResources';
+import { PracticeResourceCatalogue } from '@/components/PracticeResourceCatalogue';
+import { practiceSessionHref, type PracticeSubject } from '@/lib/practiceSessionLinks';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 
@@ -390,7 +386,6 @@ const SUBJECT_LABELS: Record<string, string> = {
 // ─── School Card ──────────────────────────────────────────────────────────────
 
 function SchoolCard({ school, highlighted }: { school: SchoolEntry; highlighted: boolean }) {
-  const router = useRouter();
   const isGrammar = school.category === 'grammar';
   const cardRef = useRef<HTMLDivElement>(null);
   const [isPulsing, setIsPulsing] = useState(false);
@@ -401,19 +396,6 @@ function SchoolCard({ school, highlighted }: { school: SchoolEntry; highlighted:
     const t2 = setTimeout(() => setIsPulsing(false), 2800);
     return () => { clearTimeout(t1); clearTimeout(t2); };
   }, [highlighted]);
-
-  const handleStartMock = (subjectId: string) => {
-    const params = new URLSearchParams({
-      schoolId: school.id,
-      schoolType: isGrammar ? 'grammar' : 'independent',
-      subject: subjectId,
-      quizType: 'multiple-choice',
-      mode: 'exam',
-      count: '25',
-      duration: '45',
-    });
-    router.push(`/quiz?${params.toString()}`);
-  };
 
   const locationLabel = `${school.location.area} · ${school.gender === 'boys' ? 'Boys' : school.gender === 'girls' ? 'Girls' : 'Mixed'}`;
 
@@ -428,45 +410,41 @@ function SchoolCard({ school, highlighted }: { school: SchoolEntry; highlighted:
       <div className={`p-4 border-b ${isGrammar ? 'bg-indigo-50 border-indigo-100' : 'bg-emerald-50 border-emerald-100'}`}>
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
-            <h3 className="font-black text-slate-900 text-sm leading-snug">{school.name}</h3>
+            <h3 className="font-black text-slate-900 text-sm leading-snug"><Link className="underline underline-offset-4" href={`/schools/${school.id}`}>{school.name}</Link></h3>
             <div className="flex items-center gap-1 mt-1 text-xs text-slate-500">
               <MapPin size={10} className="shrink-0" />
               {locationLabel}
             </div>
           </div>
-          {school.officialAdmissionsUrl && (
-            <a
-              href={school.officialAdmissionsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+          <Link
+              href={`/schools/${school.id}#sources`}
               className={`shrink-0 text-[10px] font-bold flex items-center gap-0.5 px-2 py-1 rounded-lg border transition-colors ${
                 isGrammar
                   ? 'text-indigo-600 border-indigo-200 hover:bg-indigo-100'
                   : 'text-emerald-600 border-emerald-200 hover:bg-emerald-100'
               }`}
             >
-              Admissions ↗
-            </a>
-          )}
+              Official sources →
+            </Link>
         </div>
         <div className={`mt-2 inline-flex items-center gap-1 px-2.5 py-1 bg-white border rounded-lg text-[11px] font-medium ${
           isGrammar ? 'border-indigo-100 text-indigo-700' : 'border-emerald-100 text-emerald-700'
         }`}>
           <BookOpen size={10} />
-          {schoolPaperEvidence[school.id]?.format || 'Check the current official assessment on the school profile.'}
+          {schoolPaperEvidence[school.id] ? `Assessment source checked ${schoolPaperEvidence[school.id].checkedAt}; see the entry-year details in the guide.` : 'Read the school guide and confirm the current assessment with the school.'}
         </div>
       </div>
 
       {/* Mock exam buttons */}
       <div className="p-4">
         <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-1">
-          <ClipboardList size={10} /> Practise shared skills
+          <ClipboardList size={10} /> Our general skill practice
         </p>
         <div className="flex flex-wrap gap-2">
           {school.subjects.map((subjectId) => (
-            <button
+            <Link
               key={subjectId}
-              onClick={() => handleStartMock(subjectId)}
+              href={practiceSessionHref(subjectId as PracticeSubject)}
               className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border-2 transition-all hover:scale-[1.02] active:scale-[0.98] ${
                 isGrammar
                   ? 'border-indigo-200 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 hover:border-indigo-400'
@@ -475,18 +453,11 @@ function SchoolCard({ school, highlighted }: { school: SchoolEntry; highlighted:
             >
               <Rocket size={11} />
               {SUBJECT_LABELS[subjectId] || subjectId}
-            </button>
+            </Link>
           ))}
         </div>
 
-        {school.note && (
-          <p className="text-[11px] text-slate-400 mt-3 leading-relaxed italic">{school.note}</p>
-        )}
-
-        <div className="mt-3 flex items-center gap-3 text-[10px] text-slate-400 font-medium">
-          <span className="flex items-center gap-1"><Clock size={9} /> 45 mins</span>
-          <span className="flex items-center gap-1"><ClipboardList size={9} /> 25 questions</span>
-        </div>
+        <p className="mt-3 text-xs leading-6 text-slate-500">These shared practice sets are independent of the school. Check its current subjects, stages and timings before preparing.</p>
       </div>
     </div>
   );
@@ -545,16 +516,16 @@ function PapersPageInner() {
               Free 11+ practice papers and answers
             </h1>
             <p className="text-lg text-slate-500 max-w-2xl leading-relaxed mb-8">
-              Download original question booklets with separate worked answers, try online practice,
-              or find official familiarisation. School-themed activities below are generic practice, not verified replicas of a school’s exam.
+              Find a question booklet, a separate worked-answer booklet and a clear next step.
+              Print original maths, English and reasoning practice, or follow links to official materials.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-2">
               {[
-                { value: `${SCHOOLS.length}`, label: 'School contexts' },
-                { value: `${SCHOOLS.filter(s => s.category === 'grammar').length}`, label: 'Grammar schools' },
-                { value: `${SCHOOLS.filter(s => s.category === 'private').length}`, label: 'Independent schools' },
-                { value: 'Free', label: 'Practice access' },
+                { value: '4', label: 'Original practice sets' },
+                { value: '56', label: 'Printable questions' },
+                { value: '4', label: 'Worked-answer booklets' },
+                { value: 'Free', label: 'No sign-up required' },
               ].map((s) => (
                 <div key={s.label} className="px-5 py-3 bg-white rounded-2xl border border-slate-200 shadow-sm text-center min-w-[110px]">
                   <div className="text-xl font-black text-indigo-600">{s.value}</div>
@@ -562,21 +533,30 @@ function PapersPageInner() {
                 </div>
               ))}
             </div>
+            <nav className="mt-7 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-emerald-900" aria-label="Paper library sections"><a className="underline underline-offset-4" href="#printable-papers">Get printable papers ↓</a><a className="underline underline-offset-4" href="#official-materials">Find official materials ↓</a><a className="underline underline-offset-4" href="#school-guides">Research a school ↓</a></nav>
           </div>
         </section>
 
-        <PracticeResources />
-        <PracticeJourneys />
-        <VerbalPracticeLibrary />
-        <VisualPracticeLibrary />
+        <PracticeResourceCatalogue />
+        <section id="topic-practice" className="mx-auto max-w-6xl scroll-mt-24 px-6 py-10" aria-labelledby="online-skills-title">
+          <p className="brand-eyebrow">Keep learning</p><h2 id="online-skills-title" className="mt-3 text-3xl font-bold">Learn a method. Try it for yourself.</h2><p className="mt-4 max-w-3xl leading-7 text-slate-600">The subject hubs bring together worked examples, focused practice and the next skill to revisit. Start untimed, review the explanation and retry what you missed.</p>
+          <div className="mt-7 grid gap-6 sm:grid-cols-2">
+            <article className="border-t border-stone-200 py-5"><h3 className="text-xl font-bold">Maths</h3><p className="mt-3 leading-7 text-slate-600">Choose a single skill, explore its worked guide and try a focused 10-question set.</p><Link className="mt-4 inline-block font-semibold text-emerald-900 underline underline-offset-4" href="/subjects/maths#topic-practice">Explore maths learning and practice →</Link></article>
+            <article className="border-t border-stone-200 py-5"><h3 className="text-xl font-bold">English</h3><p className="mt-3 leading-7 text-slate-600">Read an original passage, write a supported answer and compare it with a model.</p><Link className="mt-4 inline-block font-semibold text-emerald-900 underline underline-offset-4" href="/subjects/english#topic-practice">Explore English learning and practice →</Link></article>
+            <article id="verbal-practice" className="scroll-mt-24 border-t border-stone-200 py-5"><h3 className="text-xl font-bold">Verbal reasoning</h3><p className="mt-3 leading-7 text-slate-600">Learn letter codes, analogies, classifications and constant-step sequences with worked starters.</p><Link className="mt-4 inline-block font-semibold text-emerald-900 underline underline-offset-4" href="/subjects/verbal-reasoning#verbal-practice">Explore verbal reasoning methods →</Link></article>
+            <article id="visual-practice" className="scroll-mt-24 border-t border-stone-200 py-5"><h3 className="text-xl font-bold">Non-verbal reasoning</h3><p className="mt-3 leading-7 text-slate-600">Follow original diagrams through rotations, reflections, sequences and matrices.</p><Link className="mt-4 inline-block font-semibold text-emerald-900 underline underline-offset-4" href="/subjects/non-verbal-reasoning#visual-practice">Explore worked visual examples →</Link></article>
+          </div>
+        </section>
 
         {/* ── Search & Filter ── */}
-        <section className="max-w-6xl mx-auto px-4 py-8">
+        <section id="school-guides" className="max-w-6xl mx-auto scroll-mt-24 px-4 py-8" aria-labelledby="school-guides-title">
+          <p className="brand-eyebrow">Know the assessment</p><h2 id="school-guides-title" className="mt-3 text-3xl font-bold">Find your school’s guidance.</h2><p className="mt-4 mb-7 max-w-3xl leading-7 text-slate-600">Research the subjects, entry year and official sources before choosing practice. The skill links below open our general practice; they are not school-specific papers or a verified list of each school’s requirements.</p>
           <div className="flex flex-col sm:flex-row gap-3 mb-8">
             <div className="relative flex-1">
               <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
                 type="text"
+                aria-label="Search school guides by name or location"
                 placeholder="Search by school name or location…"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
@@ -587,6 +567,8 @@ function PapersPageInner() {
               {(['all', 'grammar', 'private'] as const).map((f) => (
                 <button
                   key={f}
+                  type="button"
+                  aria-pressed={filter === f}
                   onClick={() => setFilter(f)}
                   className={`px-4 py-2.5 rounded-xl text-sm font-bold capitalize transition-all border ${
                     filter === f
@@ -652,16 +634,16 @@ function PapersPageInner() {
         <section className="bg-indigo-50 border-t border-indigo-100 py-14 px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-black text-slate-900 mb-3">
-              Want a general 11+ mock instead?
+              Prefer to practise online?
             </h2>
             <p className="text-slate-500 mb-6">
-              Choose your exam style and start a general mock — not tied to a specific school.
+              Choose a subject, try a focused session and review the worked answers. Timers are optional.
             </p>
             <Link
               href="/mock-exams"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl font-black bg-indigo-600 text-white hover:bg-indigo-700 transition-colors shadow-md shadow-indigo-200"
             >
-              General mock exams <ChevronRight size={18} />
+              Choose an online session <ChevronRight size={18} />
             </Link>
           </div>
         </section>

@@ -7,14 +7,16 @@ import { BookOpen, ArrowRight, Clock } from 'lucide-react';
 import { BLOG_POSTS } from '@/lib/blogPosts';
 
 export const metadata: Metadata = {
-  title: '11 Plus Guides and Articles | 11 Plus Exam Papers',
+  title: '11 Plus Guides and Articles',
   description:
     'Practical 11+ guides: how to plan revision, use mock exams effectively, and master Maths topics. Built for grammar and independent school preparation.',
   alternates: { canonical: '/blog' },
 };
 
 export default function BlogIndexPage() {
-  const [featured, ...rest] = BLOG_POSTS;
+  const [featured, ...recent] = BLOG_POSTS.slice(0, 13);
+  const archive = BLOG_POSTS.slice(13);
+  const categories = Array.from(new Set(archive.map(post => post.category))).sort();
 
   return (
     <div className="min-h-screen bg-white">
@@ -34,6 +36,11 @@ export default function BlogIndexPage() {
             Practical, detailed writing for families preparing for grammar and independent school entrance exams.
           </p>
         </div>
+
+        <nav aria-label="Choose a subject" className="mb-8 flex flex-wrap gap-3">
+          {['maths', 'english', 'verbal-reasoning', 'non-verbal-reasoning'].map(subject => <Link key={subject} href={`/subjects/${subject}`} className="rounded-full border border-emerald-900/20 px-4 py-2 text-sm font-semibold capitalize text-emerald-950">{subject.replaceAll('-', ' ')}</Link>)}
+          <a href="#guide-directory" className="rounded-full border border-emerald-900/20 px-4 py-2 text-sm font-semibold text-emerald-950">Browse all guides</a>
+        </nav>
 
         {/* ── Featured post ── */}
         <Link
@@ -73,7 +80,7 @@ export default function BlogIndexPage() {
 
         {/* ── Rest of posts ── */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {rest.map((post) => (
+          {recent.map((post) => (
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
@@ -110,6 +117,17 @@ export default function BlogIndexPage() {
           ))}
         </div>
 
+        <section id="guide-directory" className="mt-14 border-t border-emerald-900/15 pt-10">
+          <h2 className="text-3xl font-semibold text-emerald-950">More guides by topic</h2>
+          <p className="mt-3 text-slate-600">Find an explanation, a worked example or practical advice for your next step.</p>
+          <div className="mt-8 grid gap-x-10 gap-y-8 md:grid-cols-2">
+            {categories.map(category => <section key={category}>
+              <h3 className="mb-3 text-xl font-semibold text-emerald-950">{category}</h3>
+              <ul className="space-y-3">{archive.filter(post => post.category === category).map(post => <li key={post.slug}><Link className="text-sm leading-6 text-emerald-900 underline decoration-emerald-900/30 underline-offset-4 hover:decoration-emerald-900" href={`/blog/${post.slug}`} prefetch={false}>{post.title}</Link></li>)}</ul>
+            </section>)}
+          </div>
+        </section>
+
         {/* ── CTA ── */}
         <div className="mt-14 p-8 rounded-3xl bg-indigo-50 border border-indigo-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
           <div>
@@ -127,7 +145,7 @@ export default function BlogIndexPage() {
               href="/papers"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-white border border-slate-200 hover:border-indigo-200 hover:bg-indigo-50 text-slate-900 font-black text-sm transition-colors"
             >
-              School papers <ArrowRight size={16} />
+              Practice papers <ArrowRight size={16} />
             </Link>
           </div>
         </div>

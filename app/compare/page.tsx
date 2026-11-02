@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import CompareClient from './CompareClient';
 
 export const metadata: Metadata = {
-  title: 'Compare 11+ Schools Side-by-Side | Exam Format, Subjects & Entry | 11 Plus Exam Papers',
+  title: 'Compare 11+ Schools Side-by-Side | Exam Format, Subjects & Entry',
   description:
     'Compare up to 3 grammar and independent schools side-by-side. See exam format, subjects tested, gender, entry points and mock exam availability for each school.',
   alternates: { canonical: '/compare' },
   openGraph: {
-    title: 'Compare 11+ Schools Side-by-Side | 11 Plus Exam Papers',
+    title: 'Compare 11+ Schools Side-by-Side',
     description:
       'Compare grammar and independent schools side-by-side — exam format, subjects, entry points and mock availability.',
     url: '/compare',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Compare 11+ Schools Side-by-Side | 11 Plus Exam Papers',
+    title: 'Compare 11+ Schools Side-by-Side',
     description:
       'Compare grammar and independent schools side-by-side — exam format, subjects and mock availability.',
   },
