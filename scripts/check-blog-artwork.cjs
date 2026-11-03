@@ -8,7 +8,9 @@ const { BLOG_ARTWORK, blogImageSrcSet } = load('lib/blogArtwork.ts');
 const base = 'https://www.11plusexampapers.com';
 const hashes = new Set();
 assert(!BLOG_POSTS.some(p => p.imageUrl === '/brand/book-journey.webp'), 'Shared homepage artwork must not be an article cover');
-for (const [slug, art] of Object.entries(BLOG_ARTWORK)) {
+// Include direct per-post covers as well as legacy artwork overrides.
+for (const art of BLOG_POSTS.filter(p => p.imageUrl.startsWith('/blog-artwork/'))) {
+  const slug = art.slug;
   const post = BLOG_POSTS.find(p => p.slug === slug);
   assert(post, 'Unknown artwork slug ' + slug);
   assert.equal(post.imageUrl, art.imageUrl);
@@ -28,6 +30,8 @@ for (const [slug, art] of Object.entries(BLOG_ARTWORK)) {
   assert(html.includes('rel="canonical" href="' + base + '/blog/' + slug + '"'));
 }
 const index = fs.readFileSync('.next/server/app/blog.html', 'utf8');
-for (const art of Object.values(BLOG_ARTWORK)) assert(index.includes('src="' + art.imageUrl + '"'), 'Archive cover');
+// The compact directory intentionally gives only its latest 13 entries image cards.
+for (const post of BLOG_POSTS.slice(0, 13)) assert(index.includes('src="' + post.imageUrl + '"'), 'Recent card cover: ' + post.slug);
+for (const post of BLOG_POSTS) assert(index.includes('href="/blog/' + post.slug + '"'), 'Directory link: ' + post.slug);
 assert(index.includes('loading="lazy"') && index.includes('srcSet='), 'Responsive lazy cards');
 console.log('PASS', hashes.size, 'unique covers, WebP budgets, alt text, responsive variants, archive, heroes, OG/Twitter/Article images and canonicals');
