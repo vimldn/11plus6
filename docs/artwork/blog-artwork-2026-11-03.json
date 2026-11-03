@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "slug": "11-plus-describing-settings",
+      "prompt": "Original premium editorial blog illustration, forest green/ivory/mustard/terracotta gouache and pencil, landscape1536x1024. An empty glass greenhouse at dusk, rain on glass, one fallen terracotta pot, warm glowing lamp, atmospheric plants. Central subjects safe for3:2 and2:1 crops. No text, numbers, logos, school badges or book staircase. Not a documentary photograph or precise diagram.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-5c97f085-ef13-45d0-acdb-ef875421b9a0.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-03",
+      "licence": "Original generated editorial artwork; no third-party photograph",
+      "cropsReviewed": [
+        "3:2",
+        "2:1",
+        "16:9"
+      ],
+      "asset": {
+        "path": "public/blog-artwork/11-plus-describing-settings.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 276124,
+        "sha256": "26136a1447dc36fe758e13991c4db517195b83d7c036a731b83937237154380c"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-describing-settings-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 78912,
+        "sha256": "e2e025bd0311cc0bd931c902313751c152baf5ab203d6777f8125eccdee9fc9e"
+      },
+      "alt": "Editorial illustration of a rain-streaked greenhouse with plants and a fallen pot at dusk"
+    },
+    {
+      "slug": "11-plus-character-description",
+      "prompt": "Original premium editorial blog illustration, forest green/ivory/mustard/terracotta gouache and pencil, landscape1536x1024. A child at a wooden repair table carefully offering a spare wheel to another child with a broken wooden toy, small expressive gestures. Central subjects safe for3:2 and2:1 crops. No text, numbers, logos, school badges or book staircase. Not a documentary photograph or precise diagram.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-5c41f176-062e-4b2e-b1f2-f3c8578ec49b.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-03",
+      "licence": "Original generated editorial artwork; no third-party photograph",
+      "cropsReviewed": [
+        "3:2",
+        "2:1",
+        "16:9"
+      ],
+      "asset": {
+        "path": "public/blog-artwork/11-plus-character-description.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 260636,
+        "sha256": "0d47b0c0d2e5d83352d75b149839c4cda88e7ac6446edf6cfcc4506e9b79c5c3"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-character-description-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 74870,
+        "sha256": "cdfa4bf3c5e59c5e132480e4aa8ee359fc7a7d1cd233c9dac7811082fff3b6a9"
+      },
+      "alt": "Editorial illustration of two children sharing a spare toy wheel at a repair table"
+    },
+    {
+      "slug": "11-plus-story-continuation",
+      "prompt": "Original premium editorial blog illustration, forest green/ivory/mustard/terracotta gouache and pencil, landscape1536x1024. A child holding a brass key beside a half-open garden gate with a winding path beyond, thoughtful anticipation. Central subjects safe for3:2 and2:1 crops. No text, numbers, logos, school badges or book staircase. Not a documentary photograph or precise diagram.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-19193387-38a1-457d-a743-0ed85d496a18.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-03",
+      "licence": "Original generated editorial artwork; no third-party photograph",
+      "cropsReviewed": [
+        "3:2",
+        "2:1",
+        "16:9"
+      ],
+      "asset": {
+        "path": "public/blog-artwork/11-plus-story-continuation.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 266164,
+        "sha256": "520c0acc6ab345979af8368287148426c8330b9660b1d6d9c9c08b3fc1b78076"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-story-continuation-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 81342,
+        "sha256": "411f41312dc1af0339f2a6ae2f1b89cabef3d670becab137e1656b7f7cd6b8e6"
+      },
+      "alt": "Editorial illustration of a child holding a key beside a half-open garden gate"
+    },
+    {
+      "slug": "11-plus-story-endings",
+      "prompt": "Use case illustration-story. Premium editorial gouache/pencil blog cover in forest green, ivory, mustard and terracotta, 1536x1024 landscape. A CHILD'S RED PAPER TOY KITE, diamond-shaped paper on crossed thin wooden sticks, visibly repaired with a small pale paper patch, leaning against a garden fence at sunset. Long string and ribbon tail resting on ground. It is a flying TOY, absolutely no bird or animal. Calm resolution. Central composition for 3:2 and 2:1 crops, no text, numbers or logos.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-11b7bdc3-f368-4e32-a6aa-bcd380b0e873.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-03",
+      "licence": "Original generated editorial artwork; no third-party photograph",
+      "cropsReviewed": [
+        "3:2",
+        "2:1",
+        "16:9"
+      ],
+      "asset": {
+        "path": "public/blog-artwork/11-plus-story-endings.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 222888,
+        "sha256": "74dd350a04f0ef91c1eec482cd472276fee1b611a3529fe9cf493b90bc06c9e6"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-story-endings-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 67722,
+        "sha256": "f409c8382077ba6fda18a4e9d2e474a44a29e0ae14cb7f907cce5470574a1893"
+      },
+      "rejectedVariant": "First generation depicted a bird rather than a paper toy; rejected before publication.",
+      "alt": "Editorial illustration of a repaired red kite resting beside a garden fence at sunset"
+    },
+    {
+      "slug": "11-plus-persuasive-paragraphs",
+      "prompt": "Original premium editorial blog illustration, forest green/ivory/mustard/terracotta gouache and pencil, landscape1536x1024. A child presenting a simple unlettered sketch of a small repair club table to an attentive adult, tools and reused wooden toys nearby. Central subjects safe for3:2 and2:1 crops. No text, numbers, logos, school badges or book staircase. Not a documentary photograph or precise diagram.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-5c5671f4-f0ae-4539-b3c6-1c0e9f83d514.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-03",
+      "licence": "Original generated editorial artwork; no third-party photograph",
+      "cropsReviewed": [
+        "3:2",
+        "2:1",
+        "16:9"
+      ],
+      "asset": {
+        "path": "public/blog-artwork/11-plus-persuasive-paragraphs.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 247024,
+        "sha256": "08723c03d192b2a24a2d2d1c2629da158c0816e6ef10f20a4bd1e053c7378475"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-persuasive-paragraphs-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 72838,
+        "sha256": "7662a009c264170437d2bf9fc2fc0c6c07399af7e2ecc9a9281ed7e440a0f12e"
+      },
+      "alt": "Editorial illustration of a child discussing a repair-club sketch with an attentive adult"
+    }
+  ]
+}
