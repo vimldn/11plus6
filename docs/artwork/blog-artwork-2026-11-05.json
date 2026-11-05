@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-05",
+  "items": [
+    {
+      "slug": "11-plus-reported-speech",
+      "prompt": "Use case: illustration-story. Original premium educational editorial blog cover, landscape 3:2, forest green, ivory, mustard and restrained terracotta, tactile gouache and fine pencil detail. A child listening to a friend beside a garden gate, then holding a small notebook. A scene about passing on a message. Clear central composition safe for 2:1 and mobile crops. No titles, legible text, logos, mathematical diagrams, book staircases or official branding.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-4fc28d07-7d44-443b-a319-3c4796247060.png",
+      "alt": "Editorial illustration of children sharing a message beside a garden gate",
+      "generator": "built-in imagegen",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-reported-speech.webp",
+        "sha256": "9f3f60e11d6706a7d797c0f4850d4309591233ae7cda5cc3fd93e38855e9acaa",
+        "width": 1200,
+        "height": 800
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-reported-speech-600.webp",
+        "sha256": "c32b04e0567f4412b13a340e54974049ce9a514601b519315677314bf4055f25",
+        "width": 600,
+        "height": 400
+      }
+    },
+    {
+      "slug": "11-plus-ellipsis",
+      "prompt": "Use case: illustration-story. Original premium educational editorial blog cover, landscape 3:2, forest green, ivory, mustard and restrained terracotta, tactile gouache and fine pencil detail. A child pausing on a quiet woodland path, looking towards a half-open garden door. Gentle suspense, no danger. Clear central composition safe for 2:1 and mobile crops. No titles, legible text, logos, mathematical diagrams, book staircases or official branding.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-5a37e480-5d80-4b95-a0e0-9626cb1b68fe.png",
+      "alt": "Editorial illustration of a child pausing beside a woodland garden door",
+      "generator": "built-in imagegen",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-ellipsis.webp",
+        "sha256": "fc17cd4f1e82acc7e1ea436ceff2cea82d43624d419a22907aac7185eb6d6053",
+        "width": 1200,
+        "height": 800
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-ellipsis-600.webp",
+        "sha256": "c94f417bf63f1825ee33ef297f7208f3afda94c76d5f34e61ed9f0977e631a48",
+        "width": 600,
+        "height": 400
+      }
+    },
+    {
+      "slug": "11-plus-formal-informal-language",
+      "prompt": "Use case: illustration-story. Original premium educational editorial blog cover, landscape 3:2, forest green, ivory, mustard and restrained terracotta, tactile gouache and fine pencil detail. Two contrasting handwritten letters and envelopes on a handsome desk, a child choosing a fountain pen; writing is indistinct unreadable strokes. Clear central composition safe for 2:1 and mobile crops. No titles, legible text, logos, mathematical diagrams, book staircases or official branding.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-3cb734ae-ff7f-459e-bb7d-6e71cf050bff.png",
+      "alt": "Editorial illustration of letters and envelopes on a writing desk",
+      "generator": "built-in imagegen",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-formal-informal-language.webp",
+        "sha256": "0789404fd9a72b74797b50f0ffda2571783627535a86dff0f2f0cf6779b3b9b8",
+        "width": 1200,
+        "height": 800
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-formal-informal-language-600.webp",
+        "sha256": "99fc418a450b874109cf23664080750167973bec876bb4cb5fdb330db56c0115",
+        "width": 600,
+        "height": 400
+      }
+    },
+    {
+      "slug": "11-plus-paragraph-cohesion",
+      "prompt": "Use case: illustration-story. Original premium educational editorial blog cover, landscape 3:2, forest green, ivory, mustard and restrained terracotta, tactile gouache and fine pencil detail. A child carefully joining pieces of a handmade paper chain across a wooden desk, visual metaphor for connected ideas. Clear central composition safe for 2:1 and mobile crops. No titles, legible text, logos, mathematical diagrams, book staircases or official branding.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-941c9fd7-aeb7-481e-af44-0ec37a22ff01.png",
+      "alt": "Editorial illustration of a child joining a handmade paper chain",
+      "generator": "built-in imagegen",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-paragraph-cohesion.webp",
+        "sha256": "7ea3d0fc80fbab2fb4b453baa3fbc35455557cbc69aaf5fa25a45423c326dcad",
+        "width": 1200,
+        "height": 800
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-paragraph-cohesion-600.webp",
+        "sha256": "48781dea281b94a88a132f0c290cfce221fec625dfea4fb56ea3798bb7b6f8b3",
+        "width": 600,
+        "height": 400
+      }
+    },
+    {
+      "slug": "11-plus-word-classes-context",
+      "prompt": "Use case: illustration-story. Original premium educational editorial blog cover, landscape 3:2, forest green, ivory, mustard and restrained terracotta, tactile gouache and fine pencil detail. A child arranging small wooden theatre props on a miniature stage, one versatile prop in the spotlight, visual metaphor for words changing roles. Clear central composition safe for 2:1 and mobile crops. No titles, legible text, logos, mathematical diagrams, book staircases or official branding.",
+      "source": "/workspace/scratch/aadc7bda2572/generated_images/exec-6b248fbc-f54f-4ed1-9e71-747199ca7fa4.png",
+      "alt": "Editorial illustration of a child arranging props on a miniature theatre stage",
+      "generator": "built-in imagegen",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-word-classes-context.webp",
+        "sha256": "affb8ae4e1fa7c4a0ab404e5f034b02eaa306097c7e92538952728c538759a55",
+        "width": 1200,
+        "height": 800
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-word-classes-context-600.webp",
+        "sha256": "9cfdd18b3a40a19451a4962a301b9065f7f5a1419b1953265f9735cf9789a0e4",
+        "width": 600,
+        "height": 400
+      }
+    }
+  ]
+}
