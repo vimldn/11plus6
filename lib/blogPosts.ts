@@ -1,3 +1,4 @@
+import { DAILY_POSTS_20261105 } from './dailyPosts20261105';
 import { DAILY_POSTS_20261104 } from './dailyPosts20261104';
 import { DAILY_POSTS_20261103 } from './dailyPosts20261103';
 import { SEO_REPAIRS_A } from './seoRepairs20261102A';
@@ -53,6 +54,7 @@ export interface BlogPost {
 }
 
 const BASE_BLOG_POSTS: BlogPost[] = [
+  ...DAILY_POSTS_20261105,
   ...DAILY_POSTS_20261104,
   ...DAILY_POSTS_20261103,
   ...DAILY_POSTS_20261102,
