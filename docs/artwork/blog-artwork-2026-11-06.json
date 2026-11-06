@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "source": "Original generated editorial illustrations; no depiction of a named school or a mathematical answer.",
+  "items": [
+    {
+      "slug": "11-plus-recipe-scaling",
+      "prompt": "Landscape 3:2 original British children's educational editorial illustration, tactile gouache and coloured pencil on ivory paper, deep forest green, muted ochre and terracotta. Carefully composed, centre-safe, one evocative scene, refined and engaging, no titles, logos or diagrams. A well-used mixing bowl beside a small jug, larger jug and apricots being weighed in a village kitchen; warm side light",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-recipe-scaling.webp",
+        "sha256": "20eb509ee6864b667679337a2afc92d86bed2f572df6e0884f6466ecee127249"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-recipe-scaling-600.webp",
+        "sha256": "0bd4661cfccdeefb6c8875864294ff4635f4bd2615449631fcf55006eba97d1d"
+      },
+      "alt": "Editorial illustration of a child weighing apricots beside a mixing bowl and jugs"
+    },
+    {
+      "slug": "11-plus-divisibility-rules",
+      "prompt": "Landscape 3:2 original British children's educational editorial illustration, tactile gouache and coloured pencil on ivory paper, deep forest green, muted ochre and terracotta. Carefully composed, centre-safe, one evocative scene, refined and engaging, no titles, logos or diagrams. A printmaker sorting loose wooden numeral type blocks into small drawers, close up of hands, curious detective atmosphere; incidental digits only, no equations",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-divisibility-rules.webp",
+        "sha256": "119cb08340c24165b8d2e0109d02fe8ec6cf082f3fc216117fa61083e94a33a4"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-divisibility-rules-600.webp",
+        "sha256": "c5b00fc2da09d257f7355875858f1c18210480f8911fe5e293bc80f5a378cb04"
+      },
+      "alt": "Editorial illustration of a young printmaker sorting wooden type in a drawer"
+    },
+    {
+      "slug": "11-plus-two-way-tables",
+      "prompt": "Landscape 3:2 original British children's educational editorial illustration, tactile gouache and coloured pencil on ivory paper, deep forest green, muted ochre and terracotta. Carefully composed, centre-safe, one evocative scene, refined and engaging, no titles, logos or diagrams. A museum cloakroom seen front on with tidy rows of cubbies, a mixture of folded scarves and knitted hats, one attendant checking a clipboard",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-two-way-tables.webp",
+        "sha256": "3755a8e3d59e18c080d50abeb3049fb98b28c4b42b911b61963bdd0ad3008a9f"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-two-way-tables-600.webp",
+        "sha256": "ce339a18903eb1797cd6f6b4608fba6e52528e3fe2c8bb423acf1e814b56df8c"
+      },
+      "alt": "Editorial illustration of an attendant beside a cloakroom wall of cubbies holding hats and scarves"
+    },
+    {
+      "slug": "11-plus-missing-digit-column-puzzles",
+      "prompt": "Landscape 3:2 original British children's educational editorial illustration, tactile gouache and coloured pencil on ivory paper, deep forest green, muted ochre and terracotta. Carefully composed, centre-safe, one evocative scene, refined and engaging, no titles, logos or diagrams. A child sliding one loose tile into a gap in an old mechanical adding machine at a workbench; intimate side view",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-missing-digit-column-puzzles.webp",
+        "sha256": "43bb0a9da2dd348cf6a3dd1b59cf46bf64d3be17dfd9d7a19bef881bd78afc85"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-missing-digit-column-puzzles-600.webp",
+        "sha256": "30f0cfb6dffd844a645188506deb2e8e0ca2a21b152047a455c82f2cee3bec28"
+      },
+      "alt": "Editorial illustration of a child fitting a loose piece into a mechanical adding machine"
+    },
+    {
+      "slug": "11-plus-currency-exchange",
+      "prompt": "Landscape 3:2 original British children's educational editorial illustration, tactile gouache and coloured pencil on ivory paper, deep forest green, muted ochre and terracotta. Carefully composed, centre-safe, one evocative scene, refined and engaging, no titles, logos or diagrams. Two travel purses and different unmarked coins on a ferry ticket counter, distant sea framed by the porthole, early morning light",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-currency-exchange.webp",
+        "sha256": "17371fa70318cf7b9613b3bbe26fe65c51a2d71a3ff2c32071204766b1ba08db"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-currency-exchange-600.webp",
+        "sha256": "82dbdd310c7fbb7b396c76ab63691c641b8ba85f569ebd073b8a4d535b655e52"
+      },
+      "alt": "Editorial illustration of two travellers with purses and coins at a ferry counter"
+    },
+    {
+      "slug": "heathfield-year-7-assessment-november-2026",
+      "prompt": "Original landscape 3:2 British editorial gouache illustration, forest green, warm ivory, ochre and muted terracotta, elegant stipple and pencil texture, safe central crop; no words, diagrams, logos or school identities. An unoccupied interview room still life: two different chairs facing one another with a tablet and pencil on a side table, warm late-autumn light through an abstract window; symbolic, no real building, no branding",
+      "asset": {
+        "path": "public/blog-artwork/heathfield-year-7-assessment-november-2026.webp",
+        "sha256": "0c57df12a0fd814664d5746cbfe27e8234ca9324c7e8edfe3edb50928aa2e5f5"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/heathfield-year-7-assessment-november-2026-600.webp",
+        "sha256": "9d1abc5c1daa557794ab5361ef87f8ce3518de5417f57592337441e013151256"
+      },
+      "alt": "Editorial illustration of two empty chairs and a small table in an autumn-lit interview room"
+    },
+    {
+      "slug": "felsted-year-7-taster-days-november-2026",
+      "prompt": "Original landscape 3:2 British editorial gouache illustration, forest green, warm ivory, ochre and muted terracotta, elegant stipple and pencil texture, safe central crop; no words, diagrams, logos or school identities. A visitor's lanyard beside muddy walking boots and a sprig of autumn leaves on a bench, looking towards a softly lit open doorway, evoking a school taster visit; symbolic, no real building, no branding",
+      "asset": {
+        "path": "public/blog-artwork/felsted-year-7-taster-days-november-2026.webp",
+        "sha256": "491131d3bc5c8099ebda3858d7dd2bb7865b6894ba4a1cf65ceccedc5bddac48"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/felsted-year-7-taster-days-november-2026-600.webp",
+        "sha256": "2c6bab631543c35bd0141bb03551ce3aa81c0b70331809a30d7373d662fd3b07"
+      },
+      "alt": "Editorial illustration of walking boots, a visitor lanyard and autumn leaves by a doorway"
+    }
+  ]
+}

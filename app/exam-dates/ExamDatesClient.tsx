@@ -522,6 +522,14 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="independent-november-news">
+          <h2 id="independent-november-news" className="text-2xl font-bold">Independent school admissions this week</h2>
+          <p className="mt-2">6 November 2026 · Year 7 entry in September 2027</p>
+          <ul className="mt-3 space-y-2 underline">
+            <li><a href="/blog/heathfield-year-7-assessment-november-2026">Heathfield: the November assessment window and offer timetable</a></li>
+            <li><a href="/blog/felsted-year-7-taster-days-november-2026">Felsted: taster visits and the separate entrance assessment</a></li>
+          </ul>
+        </section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="kent-news-heading">
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-8">
             <p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Admissions news · 22 October 2026</p>
