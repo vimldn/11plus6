@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-07",
+  "source": "Original generated editorial illustration; not an instructional diagram",
+  "items": [
+    {
+      "prompt": "Original landscape editorial gouache illustration on ivory paper, forest green, ochre and restrained terracotta, tactile pencil detail, sophisticated British children's publishing. Topic scene: a young naturalist quietly sketching a lamb behind a low wooden fence. Central safe crop, no words, logos, equations, generic book stacks or decorative borders.",
+      "path": "/workspace/scratch/aadc7bda2572/generated_images/exec-569f0d21-325a-4c40-b1fd-d669b8790695.png",
+      "slug": "11-plus-silent-letters",
+      "alt": "Editorial illustration of a child sketching a lamb beside a fence",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-silent-letters.webp",
+        "sha256": "fc2f2f491e485d92379f4a1f6f2096b39bd6225bb195fa74272ecf42c90c5546"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-silent-letters-600.webp",
+        "sha256": "5bc3dbda531a1ba944c509037fb69f26a7a8f4d3cf7b442d2556b27658bba987"
+      }
+    },
+    {
+      "prompt": "Original landscape editorial gouache illustration on ivory paper, forest green, ochre and restrained terracotta, tactile pencil detail, sophisticated British children's publishing. Topic scene: a baker kneading dough beside a rain-streaked window and a row of fresh loaves. Central safe crop, no words, logos, equations, generic book stacks or decorative borders.",
+      "path": "/workspace/scratch/aadc7bda2572/generated_images/exec-7ef04c2c-7f77-4099-8f8f-4fbd7a81f7e9.png",
+      "slug": "11-plus-ough-spelling",
+      "alt": "Editorial illustration of a baker kneading dough by a rainy window",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-ough-spelling.webp",
+        "sha256": "2f259fcb1463fb2d06142efc4ed23c7d31c008cbf61260829d4531f0539acba9"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-ough-spelling-600.webp",
+        "sha256": "11bb23443779fe8b45b4d2e0e3634b026f6ecf35c4d7072d145eea6d614624de"
+      }
+    },
+    {
+      "prompt": "Original landscape editorial gouache illustration on ivory paper, forest green, ochre and restrained terracotta, tactile pencil detail, sophisticated British children's publishing. Topic scene: a woodland collector sorting one leaf beside a basket of autumn leaves. Central safe crop, no words, logos, equations, generic book stacks or decorative borders.",
+      "path": "/workspace/scratch/aadc7bda2572/generated_images/exec-cdff4a22-a4b5-4b20-9328-2549faa17e85.png",
+      "slug": "11-plus-plural-spellings",
+      "alt": "Editorial illustration of a collector sorting autumn leaves",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-plural-spellings.webp",
+        "sha256": "029397f01028356fdb6aa0aee3ba8b54fd431094fcf3c25f34a8e683fe506700"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-plural-spellings-600.webp",
+        "sha256": "57e8795dff4d99123c4a072d7232cadc2c6e1a601ec64379057244aba544658f"
+      }
+    },
+    {
+      "prompt": "Original landscape editorial gouache illustration on ivory paper, forest green, ochre and restrained terracotta, tactile pencil detail, sophisticated British children's publishing. Topic scene: two children sorting old letterpress type into a printer's wooden trays. Central safe crop, no words, logos, equations, generic book stacks or decorative borders.",
+      "path": "/workspace/scratch/aadc7bda2572/generated_images/exec-f293c915-4274-4549-a78c-ee10f106e158.png",
+      "slug": "11-plus-ie-ei-spelling",
+      "alt": "Editorial illustration of children sorting letterpress type",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-ie-ei-spelling.webp",
+        "sha256": "a884b2334ca465c2804b302999ac30c9effc67d25d90b4e2986e58cf98420a16"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-ie-ei-spelling-600.webp",
+        "sha256": "331bab6f14da74c40726b1c3c1c964b0a09f1685a0a3e59c3b67008e5326b769"
+      }
+    },
+    {
+      "prompt": "Original landscape editorial gouache illustration on ivory paper, forest green, ochre and restrained terracotta, tactile pencil detail, sophisticated British children's publishing. Topic scene: a running child reflected in a rain puddle, lively park scene. Central safe crop, no words, logos, equations, generic book stacks or decorative borders.",
+      "path": "/workspace/scratch/aadc7bda2572/generated_images/exec-721d9a65-93b7-406c-840c-4b2c61b1b5d5.png",
+      "slug": "11-plus-doubling-consonants",
+      "alt": "Editorial illustration of a child running beside a rain puddle",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-doubling-consonants.webp",
+        "sha256": "4b85d973b308bc7bf856b40b6ea7411d90e5e362fd3d16f8a29dc9b9d66b3912"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-doubling-consonants-600.webp",
+        "sha256": "dcceeb1120ec8a60b4b9cca5b8eff1e3c90f6d1df2338ce6ccf36e2a5d9c12f5"
+      }
+    }
+  ]
+}
