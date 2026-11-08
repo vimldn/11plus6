@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "slug": "11-plus-cious-tious",
+      "source": "OpenAI built-in image generation",
+      "sourceFile": "exec-eb9dc5f3-5691-4b77-a11c-0ed7ebadbb2b.png",
+      "prompt": "Use case illustration-story. Original landscape 3:2 premium British educational editorial gouache and pencil illustration, forest green ivory mustard terracotta palette. A cautious young gardener holding a precious seedling carefully in cupped hands beside a sunlit greenhouse. Central safe crop for 2:1 and mobile. No lettering, logos or diagrams. Topic-specific cover for cious and tious spelling.",
+      "alt": "Editorial illustration of a young gardener carefully holding a seedling",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-cious-tious.webp",
+        "sha256": "1abea65b10277a7b46aea919abc89f48de3c768ede2eab257ab0a9dc3590934c"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-cious-tious-600.webp",
+        "sha256": "61e198eace5cfbc73cd1a246ea0e7ee29cdce1fd149f650f89418a5180d9b258"
+      }
+    },
+    {
+      "slug": "11-plus-cial-tial",
+      "source": "OpenAI built-in image generation",
+      "sourceFile": "exec-35801295-ddce-4992-af52-76f7b49960b7.png",
+      "prompt": "Use case illustration-story. Original landscape 3:2 premium British educational editorial gouache and pencil illustration, forest green ivory mustard terracotta palette. A special handmade invitation with blank card and ribbon beside an official-looking blank envelope and a small brass seal on a wooden desk. Central safe crop for 2:1 and mobile. No lettering logos numbers or diagrams.",
+      "alt": "Editorial illustration of an invitation, envelope and brass seal on a desk",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-cial-tial.webp",
+        "sha256": "c09f16e8432df15a1553477fd58f3ddb04e87a76383163803080b00f1a359045"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-cial-tial-600.webp",
+        "sha256": "bec4bf5e886c5463d406928b2d245c0fd2e1fbf16480fdd0188173bf0932e1ae"
+      }
+    },
+    {
+      "slug": "11-plus-able-ible",
+      "source": "OpenAI built-in image generation",
+      "sourceFile": "exec-38771ffb-333d-4e75-94f1-4a8fc2210916.png",
+      "prompt": "Use case illustration-story. Original landscape 3:2 premium British educational editorial gouache and pencil illustration, forest green ivory mustard terracotta palette. A child demonstrating a foldable wooden chair in a peaceful garden. Central safe crop for 2:1 and mobile. No lettering logos numbers or diagrams.",
+      "alt": "Editorial illustration of a child demonstrating a folding chair in a garden",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-able-ible.webp",
+        "sha256": "4ba1ba82fa112ffb06eb4c6140e2f7b2c7eeab3a69877e5a1fd977c21501b832"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-able-ible-600.webp",
+        "sha256": "e14ee878fea521bf7367473bcac77d959e3382bd3dd8721ad6e12a09b85fb019"
+      }
+    },
+    {
+      "slug": "11-plus-ant-ent",
+      "source": "OpenAI built-in image generation",
+      "sourceFile": "exec-71c6019a-2d69-4824-9103-ae3061c8870a.png",
+      "prompt": "Use case illustration-story. Original landscape 3:2 premium British educational editorial gouache and pencil illustration, forest green ivory mustard terracotta palette. An observant child watching birds through binoculars from a garden bench. Central safe crop for 2:1 and mobile. No lettering logos numbers or diagrams.",
+      "alt": "Editorial illustration of an observant child watching birds through binoculars",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-ant-ent.webp",
+        "sha256": "50e622385784ad048c2c58a582a5124112d5c17db5240dd62ac9029c494bdbc7"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-ant-ent-600.webp",
+        "sha256": "c672eedebf2981255616a6ba2e6e058adddf9d24068a62830fe85420f3eb44d5"
+      }
+    },
+    {
+      "slug": "11-plus-tion-sion-cian",
+      "source": "OpenAI built-in image generation",
+      "sourceFile": "exec-c619534b-c029-4d05-b1f1-dd11113a4fc2.png",
+      "prompt": "Use case illustration-story. Original landscape 3:2 premium British educational editorial gouache and pencil illustration, forest green ivory mustard terracotta palette. A musician playing a violin beside a magician's hat and wand in a small village theatre. Central safe crop for 2:1 and mobile. No lettering logos numbers or diagrams.",
+      "alt": "Editorial illustration of a violinist beside a magician\u2019s hat in a village theatre",
+      "asset": {
+        "path": "public/blog-artwork/11-plus-tion-sion-cian.webp",
+        "sha256": "6f68a7981a731e2e8da31f753bb870701220e8b3ae775041a217f77a3e4c5a12"
+      },
+      "thumbnail": {
+        "path": "public/blog-artwork/11-plus-tion-sion-cian-600.webp",
+        "sha256": "b37cf36abc79b6bac94d48436165a64e1ab01b0c52f6500e011ddef91f953e79"
+      }
+    }
+  ]
+}
