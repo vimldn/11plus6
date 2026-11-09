@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-09",
+  "method": "Built-in image generator; original conceptual editorial illustrations, not photographs or depictions of real school buildings/people.",
+  "artworks": [
+    {
+      "slug": "skegness-2028-consultation-opens-november-2026",
+      "source": "exec-1b0d6f88-b848-43d6-8897-16c15bd5e93c.png",
+      "alt": "Editorial illustration of a parent reviewing papers beside a coastal window",
+      "asset": "/blog-artwork/skegness-2028-consultation-opens-november-2026.webp",
+      "small": "/blog-artwork/skegness-2028-consultation-opens-november-2026-600.webp",
+      "prompt": "Original 3:2 conceptual editorial illustration: parent reviewing cream papers with pencil, envelope and seashell at wooden table beside coastal window. Forest green, ivory, mustard and restrained terracotta; tactile gouache/pencil. Central crop-safe scene; no text, dates, numbers, logos, badges, school building, photorealism or book staircase."
+    },
+    {
+      "slug": "churston-november-2026-school-tours",
+      "source": "exec-f78f7d78-a707-4fb9-aad2-a45c3e9c1807.png",
+      "alt": "Editorial illustration of a parent and child preparing a notebook for an autumn school visit",
+      "asset": "/blog-artwork/churston-november-2026-school-tours.webp",
+      "small": "/blog-artwork/churston-november-2026-school-tours-600.webp",
+      "prompt": "Original 3:2 conceptual editorial illustration: child and parent in home hallway preparing for autumn school visit, forest green coat, notebook, pencil and folded blank question sheet, mustard scarf, terracotta umbrella and autumn leaves. Tactile gouache/pencil forest/ivory palette; no text, dates, numbers, school branding/buildings, photorealism or book staircase."
+    }
+  ],
+  "visualReview": "Both inspected at 1200x800: distinct topic scenes, no false school representation, central subjects, acceptable detail. Sizes within 300KB/100KB budgets; browser crop checks pending."
+}

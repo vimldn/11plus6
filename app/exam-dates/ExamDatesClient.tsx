@@ -522,6 +522,14 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="november-nine-news">
+          <h2 id="november-nine-news" className="text-2xl font-bold">Consultation and school visits: 9 November 2026</h2>
+          <p className="mt-2">Two dated developments for families planning ahead. Future test dates and entry policies still need their own official confirmation.</p>
+          <ul className="mt-3 space-y-3">
+            <li><Link className="underline" href="/blog/skegness-2028-consultation-opens-november-2026">Skegness opens its September 2028 admissions consultation</Link><p>Responses close 31 December 2026. The proposed local review is not an adopted admissions change.</p></li>
+            <li><Link className="underline" href="/blog/churston-november-2026-school-tours">Churston’s November school visits begin this week</Link><p>Talk-and-tour dates are 9, 10, 12 and 13 November 2026. Confirm booking and arrival details with the school.</p></li>
+          </ul>
+        </section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="independent-november-news">
           <h2 id="independent-november-news" className="text-2xl font-bold">Independent school admissions this week</h2>
           <p className="mt-2">6 November 2026 · Year 7 entry in September 2027</p>
