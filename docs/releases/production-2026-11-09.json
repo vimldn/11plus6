@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-09",
+  "sitemapCount": 285,
+  "sitemapChange": "exactly two additions",
+  "pages": [
+    {
+      "url": "https://www.11plusexampapers.com/blog/skegness-2028-consultation-opens-november-2026",
+      "title": "Skegness Grammar opens consultation on a proposed 11+ score review",
+      "checks": "HTTP fetch, canonical, indexable, NewsArticle/date/image, reciprocal hub links, internal targets, both cover variants match local SHA256"
+    },
+    {
+      "url": "https://www.11plusexampapers.com/blog/churston-november-2026-school-tours",
+      "title": "Churston’s November school visits begin this week: what families should check",
+      "checks": "HTTP fetch, canonical, indexable, NewsArticle/date/image, reciprocal hub links, internal targets, both cover variants match local SHA256"
+    }
+  ],
+  "releases": [
+    {
+      "pr": 56,
+      "mergeSha": "9dca2976ba26aa00b0523763503bfddfdece2037",
+      "productionDeployment": "dpl_FXyanPQjmih1Jgbca4vzpYJBqnqu",
+      "state": "READY",
+      "githubVercelStatus": "success"
+    },
+    {
+      "pr": 57,
+      "mergeSha": "3d41b4d15438983ed863abc3dc909ad766109650",
+      "productionDeployment": "dpl_6oiKfTWgFkhfwNkAspWkbFe7jpuV",
+      "state": "READY",
+      "githubVercelStatus": "success"
+    }
+  ],
+  "totals": {
+    "educational": {
+      "researched": 5,
+      "revised": 5,
+      "publishedImprovements": 5,
+      "newUrls": 0
+    },
+    "news": {
+      "researched": 2,
+      "drafted": 2,
+      "published": 2
+    },
+    "legacyRepairs": 0,
+    "heldSelectedTopics": 0
+  },
+  "browserChecks": {
+    "mathsNewAnswersOpened": 15,
+    "newsHeroImagesLoaded": 2,
+    "newsWidthsCssPixels": [
+      1363,
+      454
+    ],
+    "narrowMethod": "browser zoom, not physical mobile",
+    "horizontalOverflow": false,
+    "reciprocalNavigation": "Skegness article to exam-dates hub to Churston article"
+  }
+}
