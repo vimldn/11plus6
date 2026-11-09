@@ -1,5 +1,6 @@
+import { extendMathsNovember9 } from './mathsExtensions20261109';
 import type { BlogPost } from './blogPosts';
-export const DAILY_POSTS_20261029: BlogPost[] = [
+export const DAILY_POSTS_20261029: BlogPost[] = ([
   {
     "slug": "11-plus-adding-subtracting-fractions",
     "title": "11+ Adding and Subtracting Fractions: Mixed Numbers and Answers",
@@ -766,4 +767,4 @@ export const DAILY_POSTS_20261029: BlogPost[] = [
       }
     ]
   }
-];
+] as BlogPost[]).map(extendMathsNovember9);

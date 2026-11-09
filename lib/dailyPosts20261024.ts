@@ -1,6 +1,7 @@
+import { extendMathsNovember9 } from './mathsExtensions20261109';
 import type { BlogPost } from './blogPosts';
 
-export const DAILY_POSTS_20261024: BlogPost[] = [
+export const DAILY_POSTS_20261024: BlogPost[] = ([
   {
     "slug": "11-plus-order-of-operations",
     "title": "11+ Order of Operations: BODMAS Questions and Answers",
@@ -814,4 +815,4 @@ export const DAILY_POSTS_20261024: BlogPost[] = [
       }
     ]
   }
-];
+] as BlogPost[]).map(extendMathsNovember9);
