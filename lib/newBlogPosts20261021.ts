@@ -1,7 +1,8 @@
+import { extendMathsNovember9 } from './mathsExtensions20261109';
 import type { BlogPost } from './blogPosts';
 
 // Original skill articles; research: docs/serp-review-new-blogs-2026-10-21.md
-export const OCTOBER_SKILL_POSTS: BlogPost[] = [
+export const OCTOBER_SKILL_POSTS: BlogPost[] = ([
   {
     "slug": "11-plus-fractions-decimals-percentages-conversions",
     "title": "11+ Fractions, Decimals and Percentages: Conversions and Questions",
@@ -890,4 +891,4 @@ export const OCTOBER_SKILL_POSTS: BlogPost[] = [
       }
     ]
   }
-];
+] as BlogPost[]).map(extendMathsNovember9);
