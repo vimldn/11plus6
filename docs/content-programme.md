@@ -2,6 +2,8 @@
 
 Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable batches.
 
+**Latest owner publishing policy — 9 November 2026 (supersedes all older volume targets):** Publish **at most one new blog URL per daily run in total** (educational OR genuine verified news), and use up to **two additional slots to improve existing published pages, SEO hubs, teaching content or practice resources**. No backlog catch-up or filler. Prioritise visibility losses and useful exam-paper outcomes over publication volume. All live SERP research, primary source, answer, artwork, hub/spoke, sitemap, build, preview and deployment gates remain mandatory. The previous five educational plus two news target, any three-new-URL ceiling, and related older count statements are historical and no longer operational. A news story consumes the single new blog slot, not an additional allowance. Zero new blogs is preferable to a weak one. The connected daily automation was updated to this policy on 9 November 2026.
+
 Owner update, 2 November 2026: the explicit instruction to fix the SEO report authorises one coordinated release covering all 26 remaining legacy article repairs plus technical, privacy, practice and paper-library fixes. This specific repair release supersedes the former 15-articles-per-run ceiling. Publication is recorded only after deployment verification; it does not change the separate daily five-education/two-genuine-news programme.
 
 ## Release policy
