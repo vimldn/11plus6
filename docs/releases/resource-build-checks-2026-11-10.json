@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-11-10",
+  "base": "http://127.0.0.1:3010",
+  "sitemapCount": 285,
+  "sameURLsAsBefore": true,
+  "pages": [
+    {
+      "path": "/papers",
+      "title": "Free 11+ Practice Papers and Worked Answers | 11 Plus Exam Papers",
+      "h1": "Free 11+ practice papers and answers",
+      "canonical": "https://www.11plusexampapers.com/papers",
+      "indexable": true,
+      "internalTargetsChecked": 126
+    },
+    {
+      "path": "/mock-exams",
+      "title": "Free 11+ Mock Exams and Online Practice | 11 Plus Exam Papers",
+      "h1": "Free 11+ online practice and mock sessions",
+      "canonical": "https://www.11plusexampapers.com/mock-exams",
+      "indexable": true,
+      "internalTargetsChecked": 23
+    }
+  ],
+  "pdfsVerified": [
+    "/papers/maths-practice.pdf",
+    "/papers/maths-worked-answers.pdf",
+    "/papers/english-practice.pdf",
+    "/papers/english-worked-answers.pdf",
+    "/papers/verbal-practice.pdf",
+    "/papers/verbal-worked-answers.pdf",
+    "/papers/nonverbal-practice.pdf",
+    "/papers/nonverbal-worked-answers.pdf"
+  ],
+  "subjectHubsWithContextualPapersAndNavigationMocksLinks": 4,
+  "reciprocalArticleLinks": 7,
+  "quizNoindexPreserved": true
+}

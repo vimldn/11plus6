@@ -44,6 +44,15 @@ function MockExamsPageInner() {
           </div>
         </section>
 
+        <section className="mx-auto max-w-6xl px-6 pt-10" aria-labelledby="choose-purpose-title">
+          <h2 id="choose-purpose-title" className="text-2xl font-bold">What would make this practice useful today?</h2>
+          <div className="mt-6 grid gap-6 md:grid-cols-3">
+            <article className="border-t border-stone-200 pt-5"><h3 className="text-lg font-bold">The method is still new</h3><p className="mt-3 leading-7 text-slate-600">Choose untimed practice. Read the feedback after each answer and explain the method before moving on. If the explanation is unfamiliar, pause for a lesson rather than racing through more questions.</p><Link href="/subjects" className="mt-3 inline-block font-semibold text-emerald-900 underline underline-offset-4">Find a subject lesson →</Link></article>
+            <article className="border-t border-stone-200 pt-5"><h3 className="text-lg font-bold">The method works; pacing needs practice</h3><p className="mt-3 leading-7 text-slate-600">Choose a timed session in the settings below. Keep rough paper beside you. After finishing, separate questions you could not solve from those you left unanswered; they need different follow-up practice.</p><a href="#configure-practice" className="mt-3 inline-block font-semibold text-emerald-900 underline underline-offset-4">Choose a subject and timer ↓</a></article>
+            <article className="border-t border-stone-200 pt-5"><h3 className="text-lg font-bold">You need a full exam rehearsal</h3><p className="mt-3 leading-7 text-slate-600">First check the school’s current subjects, stages, answer format and timings. These shorter online sets cover selected skills. For tests taken in 2027, confirm the intended school-entry year separately and leave unpublished arrangements unconfirmed.</p><Link href="/papers#official-materials" className="mt-3 inline-block font-semibold text-emerald-900 underline underline-offset-4">Find official familiarisation sources →</Link></article>
+          </div>
+        </section>
+
         <OnlinePracticeCatalogue />
 
         <section id="configure-practice" className="mock-workbench scroll-mt-24 bg-stone-50 px-6 py-12" aria-labelledby="configure-title">
@@ -94,12 +103,23 @@ function MockExamsPageInner() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-6xl px-6 py-14" aria-labelledby="review-practice-title">
+        <section id="review-practice" className="mx-auto max-w-6xl scroll-mt-24 px-6 py-14" aria-labelledby="review-practice-title">
           <p className="brand-eyebrow">Make the answers useful</p><h2 id="review-practice-title" className="mt-3 text-3xl font-bold">What happens after a session?</h2>
           <div className="mt-8 grid gap-7 md:grid-cols-3">
             <article><CheckCircle size={22} className="text-emerald-900" aria-hidden="true" /><h3 className="mt-4 text-xl font-bold">Review the explanation</h3><p className="mt-3 leading-7 text-slate-600">Look at the question, your answer and the worked solution together. Identify the step that needs more practice.</p></article>
             <article><BookOpen size={22} className="text-emerald-900" aria-hidden="true" /><h3 className="mt-4 text-xl font-bold">Return to the method</h3><p className="mt-3 leading-7 text-slate-600">Use the relevant subject guide or lesson. A careful untimed answer is a useful next step when the method is unfamiliar.</p></article>
             <article><ArrowRight size={22} className="text-emerald-900" aria-hidden="true" /><h3 className="mt-4 text-xl font-bold">Retry a small set</h3><p className="mt-3 leading-7 text-slate-600">Revisit missed questions. Reviewed maths and reasoning routes also offer other questions on supported missed skills; small pools can repeat across attempts.</p></article>
+          </div>
+          <div className="mt-8 rounded-2xl bg-stone-50 p-6 sm:p-8">
+            <h3 className="text-xl font-bold">Match the mistake to one next step</h3>
+            <p className="mt-3 max-w-3xl leading-7 text-slate-600">For example, if a child adds before multiplying, another timed mixed test will not explain the missing rule. Revisit order of operations, explain one worked example and try an untimed question before checking pacing again.</p>
+            <ul className="mt-5 grid gap-5 text-sm leading-6 md:grid-cols-2">
+              <li><strong>Calculation order or a missing number:</strong> revisit <Link className="font-semibold text-emerald-900 underline" href="/blog/11-plus-order-of-operations">order of operations</Link> or <Link className="font-semibold text-emerald-900 underline" href="/blog/11-plus-algebra-basics">simple equations</Link>. Write the intermediate step rather than guessing a result.</li>
+              <li><strong>A reading answer without support:</strong> use <Link className="font-semibold text-emerald-900 underline" href="/subjects/english/using-evidence#practice">the evidence lesson’s written questions</Link>. Find the words that support your answer before comparing with the model.</li>
+              <li><strong>A word or letter rule that stops working:</strong> revisit <Link className="font-semibold text-emerald-900 underline" href="/subjects/verbal-reasoning#verbal-practice">the verbal reasoning worked starters</Link>. Check the relationship against every example, in the same direction.</li>
+              <li><strong>A shape turned the wrong way:</strong> use <Link className="font-semibold text-emerald-900 underline" href="/subjects/non-verbal-reasoning#visual-practice">the visual worked examples</Link>. Track one distinctive feature and distinguish a turn from a mirror image.</li>
+            </ul>
+            <p className="mt-5 leading-7 text-slate-600">Record one skill to revisit and whether the attempt was timed. Small question pools can repeat; a higher score on familiar questions is not a new assessment of readiness. For handwritten working, <Link className="font-semibold text-emerald-900 underline" href="/papers#review-your-paper">print a booklet and use the paper-review routine</Link>.</p>
           </div>
           <div className="mt-9 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-emerald-900"><Link className="underline underline-offset-4" href="/blog/how-is-the-11-plus-scored-and-marked">Understand practice and official scores →</Link><Link className="underline underline-offset-4" href="/blog/are-mock-exams-important-for-the-11-plus">Choose a useful mock experience →</Link><Link className="underline underline-offset-4" href="/schools">Check a school’s assessment →</Link></div>
         </section>
