@@ -72,12 +72,6 @@ const SCHOOL_DETAILS: Record<string, SchoolDetail> = {
   },
   'tiffin': {
     admissionsUrl: 'https://www.tiffinschool.co.uk/admissions/year-7-admissions/',
-    entryStages: 'Stage 1 (school-set English & Maths) → top ~450 → Stage 2 (written papers)',
-    placesAvailable: '180 per year',
-    examNotes: 'Stage 1 Maths includes a mix of multiple-choice and grid-answer questions. Stage 2 papers are written and not released publicly. Up to 10% of places reserved for Music/Sport aptitude.',
-    registrationWindow: 'Opens 4 June, closes 3 September (Year 5)',
-    resultsTimeline: 'Stage 1 results 15 October; Stage 2 November; Offers 1 March',
-    catchmentArea: 'Yes — Inner Priority Area (<10km) and Outer Priority Area (10–14km from school).',
   },
   'st-olaves': {
     admissionsUrl: 'https://www.saintolaves.net/admissions',
@@ -112,7 +106,7 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
   const school = SCHOOLS.find((s) => s.id === params.id);
   if (!school) notFound();
 
-  const s = school as any;
+  const s = (school.id === 'tiffin' ? { ...school, examFormat: 'Tiffin School with Quest — confirm cycle-specific papers', subjects: ['english', 'maths'] } : school) as any;
   const storedDetail = SCHOOL_DETAILS[school.id];
   // Retain the three cycle-specific grammar repairs already verified in the prior release.
   // Other undated legacy admissions prose is held, not promoted to current facts.
@@ -133,6 +127,17 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
     <nav className="school-jump-links" aria-label="On this school page"><a href="#assessment">Assessment</a><a href="#admissions">Admissions</a><a href="#dates">Dates</a><a href="#preparation">Preparation</a><a href="#sources">Official sources</a></nav>
     <div className="school-profile-layout"><div className="school-profile-sections">
       <section id="assessment"><p className="brand-eyebrow">01 / Understand the assessment</p><h2>What does the exam involve?</h2><dl className="school-detail-list"><div><dt>Provider / format</dt><dd>{evidence?.format || (detail ? s.examFormat : null) || 'A current cycle-specific format has not been verified here.'}</dd></div>{detail?.entryStages && <div><dt>Entry stages</dt><dd>{detail.entryStages}</dd></div>}{detail?.examNotes && <div><dt>What is tested</dt><dd>{detail.examNotes}</dd></div>}</dl><SchoolPaperEvidence schoolId={school.id}/><h3>{evidence || detail ? "Subjects and preparation areas" : "General preparation areas — not a verified school syllabus"}</h3>{school.id === 'reading-school' ? <p>Broad KS2 application through Year 5 and written creativity. The FSCE guide covers English, Maths and other curriculum subjects; the selection of content changes annually.</p> : s.subjects?.length ? <ul className="school-subject-links">{s.subjects.map((sub:string)=><li key={sub}><Link href={`/subjects/${sub}`}>{subjectLabels[sub] || sub}<ChevronRight size={16}/></Link></li>)}</ul> : <p>Check the school’s official admissions page for the subjects tested.</p>}</section>
+      {school.id === 'tiffin' && <section id="tiffin-2027-tests">
+        <p className="brand-eyebrow">Source check · 11 November 2026</p>
+        <h2>Tiffin tests in 2027: plan for 2028 entry.</h2>
+        <p>The school links to <a className="underline" href="https://www.questassessments.com/parent-guidance-consortium/tiffin-11-plus">guidance produced by Tiffin School and Quest Assessments</a>. Its 2027 assessment timetable leads to offers on 1 March 2028. That is a different cycle from the school’s current September 2027-entry timetable.</p>
+        <div className="school-year-note"><h3>What is still unconfirmed?</h3><p>The provider’s key-dates section leaves registration, the Stage 1 test and Stage 1 results to be confirmed. It gives only a mid-November 2027 window for Stage 2. Another paragraph mentions October results, so we are not treating that as a settled results date. Confirm the final dates and paper instructions with the school when published.</p></div>
+        <h3>Keep the 2026 tests separate.</h3>
+        <p>For September 2027 entry, the school lists Stage 1 on 2 October 2026 and Stage 2 on 12 November 2026. Its historical registration deadline conflicts between the introduction and timetable. <Link className="underline" href="/exam-dates#tests-in-2027">Compare the dated source notes in our exam calendar</Link>. The Tiffin Girls’ School has a separate process and different dates.</p>
+        <h3>A preparation route while dates are pending</h3>
+        <p>The provider identifies English and maths as preparation areas. Start with <Link className="underline" href="/subjects/english">English lessons and comprehension practice</Link> and <Link className="underline" href="/subjects/maths">maths lessons with worked examples</Link>. Use one short exercise to find a skill that needs attention, read its explanation, then attempt a fresh question independently.</p>
+        <p>Next, choose an <Link className="underline" href="/papers">original practice paper and its worked answers</Link>. Use <Link className="underline" href="/mock-exams">general timed practice</Link> when the underlying skills are secure. Our material is not an official Tiffin paper or a simulation of its 2027 assessment; use the school-linked familiarisation materials for the actual instructions.</p>
+      </section>}
       <section id="admissions"><p className="brand-eyebrow">02 / Plan your application</p><h2>Admissions and eligibility.</h2><dl className="school-detail-list">{detail?.placesAvailable && <div><dt>Places listed in this guide</dt><dd>{detail.placesAvailable}</dd></div>}<div><dt>Catchment and priority</dt><dd>{detail?.catchmentArea === false ? 'No catchment area listed in this guide. Check the current policy for eligibility and oversubscription priorities.' : typeof detail?.catchmentArea === 'string' ? detail.catchmentArea : 'Check the school’s current admissions policy.'}</dd></div><div><dt>Selection</dt><dd>{s.selective ? 'Entrance assessment required — consult the current policy.' : 'Check the school’s admissions criteria.'}</dd></div></dl></section>
       <section id="dates"><p className="brand-eyebrow">03 / Keep the years clear</p><h2>Registration, tests and offers.</h2><div className="school-year-note"><h3>Preparing for a test taken in 2027?</h3><p>Test year and school-entry year are different. A September 2027-entry date is not a 2027 exam date. Use the dated source check above where available, and confirm the school’s published policy for your intended entry year.</p></div><dl className="school-detail-list">{detail?.registrationWindow && <div><dt>Registration information currently held</dt><dd>{detail.registrationWindow}</dd></div>}{detail?.resultsTimeline && <div><dt>Tests, results and offers currently held</dt><dd>{detail.resultsTimeline}</dd></div>}</dl>{!detail?.registrationWindow && <p>{evidence?.cohort || 'Confirmed dates are not recorded in this guide. Check the official admissions page.'}</p>}<Link className="brand-text-link" href="/exam-dates">Explore the exam dates guide <ChevronRight size={16}/></Link></section>
       <section id="preparation"><p className="brand-eyebrow">04 / Build your skills</p><h2>A useful place to start.</h2><p>Use our original practice to build skills and review explanations. Our questions are not official school papers or a guarantee of the school’s exam format.</p><div className="school-practice-actions"><Link href={`/papers?highlight=${school.id}`} className="brand-button">Explore practice papers <ChevronRight size={18}/></Link><Link href="/mock-exams" className="brand-text-link">General mock exams <ChevronRight size={16}/></Link></div></section>

@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-11T06:56:10.959377+00:00",
+  "base": "http://localhost:3011",
+  "pages": [
+    {
+      "path": "/exam-dates",
+      "canonical": "https://www.11plusexampapers.com/exam-dates",
+      "title": "11+ Exam Dates | Registration, Test Year & School Entry | 11 Plus Exam Papers",
+      "singleH1": true,
+      "noNoindex": true,
+      "internalTargetsFetched": 13
+    },
+    {
+      "path": "/schools/tiffin",
+      "canonical": "https://www.11plusexampapers.com/schools/tiffin",
+      "title": "Tiffin School \u2014 Assessment Sources & 11+ Practice | 11 Plus Exam Papers",
+      "singleH1": true,
+      "noNoindex": true,
+      "internalTargetsFetched": 18
+    }
+  ],
+  "sitemapURLs": 285,
+  "unchangedURLSet": true,
+  "reciprocalDateProfileLinks": true,
+  "schoolDirectoryIncomingLink": true,
+  "newBlogs": 0,
+  "indexStatus": "not inspected"
+}
