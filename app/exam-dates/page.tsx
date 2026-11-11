@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import ExamDatesClient from './ExamDatesClient';
 
 export const metadata: Metadata = {
-  title: '11+ Exam Dates 2026 & 2027 | Registration Deadlines & Test Dates',
+  title: '11+ Exam Dates | Registration, Test Year & School Entry',
   description:
-    'Key 11+ exam dates for 2026 and 2027 entry. Registration deadlines, test dates and results days for grammar school consortia including GL Assessment, CEM, CSSE and Sutton SET.',
+    'Check 11+ registration and test dates by school-entry year, with separate Tiffin timetables and guidance on unconfirmed dates for exams taken in 2027.',
   alternates: { canonical: '/exam-dates' },
   openGraph: {
-    title: '11+ Exam Dates 2026 & 2027',
+    title: '11+ Exam Dates: Test Year & School Entry',
     description:
       'Key 11+ exam dates, registration deadlines and results days for grammar school consortia across the UK.',
     url: '/exam-dates',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: '11+ Exam Dates 2026 & 2027',
+    title: '11+ Exam Dates: Test Year & School Entry',
     description:
       '11+ exam dates, registration deadlines and results days for UK grammar school consortia.',
   },

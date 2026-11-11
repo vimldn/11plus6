@@ -201,20 +201,39 @@ const GROUPS_2027_ENTRY: SchoolGroup[] = [
   },
   {
     id: 'tiffin-2027',
-    name: 'Tiffin School & Tiffin Girls',
-    schools: ["Tiffin School", "Tiffin Girls' School"],
-    examFormat: "School own papers (2-stage)",
+    name: 'Tiffin School — September 2027 entry',
+    schools: ['Tiffin School'],
+    examFormat: 'Two-stage entrance test',
     region: 'London', accent: 'emerald', entryYear: '2027',
     dates: [
-      { date: 'Jun 2026',     event: 'Stage 1 registration expected to open',   certainty: 'pattern' },
-      { date: 'Sep 2026',     event: 'Stage 1 registration expected to close',  certainty: 'pattern' },
-      { date: 'Oct 2026',     event: 'Stage 1 exams',                           certainty: 'pattern' },
-      { date: 'Nov 2026',     event: 'Stage 2 exams',                           certainty: 'pattern' },
-      { date: '30 Oct 2026',  event: 'CAF deadline',                            certainty: 'confirmed' },
-      { date: '1 Mar 2027',   event: 'National Offers Day',                     certainty: 'confirmed' },
+      { date: '5 Jun 2026', event: 'Registration opened', certainty: 'confirmed' },
+      { date: '1 / 2 Sep 2026', event: 'Past registration deadline: school page conflicts; see note', certainty: 'provisional' },
+      { date: '2 Oct 2026', event: 'Stage 1 test', certainty: 'confirmed' },
+      { date: '16 Oct 2026', event: 'Stage 2 invitations', certainty: 'confirmed' },
+      { date: '31 Oct 2026', event: 'Local authority application (CAF) deadline', certainty: 'confirmed' },
+      { date: '12 Nov 2026', event: 'Stage 2 test for invited candidates', certainty: 'confirmed' },
+      { date: 'Early Mar 2027', event: 'Offers: window listed by school', certainty: 'confirmed' },
     ],
-    officialUrl: 'https://www.tiffinschool.co.uk/admissions/',
-    note: "Stage 2 papers are not released publicly. Both schools are in Kingston upon Thames.",
+    officialUrl: 'https://www.tiffinschool.co.uk/admissions/year-7-admissions/',
+    note: 'Checked 11 November 2026. These are 2026 tests for 2027 entry. The school introduction gives 1 September at noon for registration; its key-dates table gives 2 September at noon. Both dates have passed. Ask the school about any individual application; do not use this historical deadline for 2027 tests.',
+  },
+  {
+    id: 'tiffin-girls-2027',
+    name: 'The Tiffin Girls’ School — September 2027 entry',
+    schools: ['The Tiffin Girls’ School'],
+    examFormat: 'Two-stage entrance test',
+    region: 'London', accent: 'emerald', entryYear: '2027',
+    dates: [
+      { date: '2 Jun 2026', event: 'Registration opened', certainty: 'confirmed' },
+      { date: '1 Sep 2026', event: 'Registration and supplementary paperwork deadline: noon', certainty: 'confirmed' },
+      { date: '1–2 Oct 2026', event: 'Stage 1 tests across two days', certainty: 'confirmed' },
+      { date: 'Around 14 Oct 2026', event: 'Stage 2 invitations', certainty: 'provisional' },
+      { date: '31 Oct 2026', event: 'Local authority application (CAF) deadline', certainty: 'confirmed' },
+      { date: '7 Nov 2026', event: 'Stage 2 test for invited candidates', certainty: 'confirmed' },
+      { date: '1 Mar 2027', event: 'Local authority offers in the evening', certainty: 'confirmed' },
+    ],
+    officialUrl: 'https://www.tiffingirls.org/admissions/year-7/',
+    note: 'Checked 11 November 2026. This is a separate school with its own timetable. Registration has closed and both tests were scheduled in 2026. These dates do not confirm the timetable for tests taken in 2027.',
   },
   {
     id: 'st-olaves-2027',
@@ -501,11 +520,11 @@ export default function ExamDatesClient() {
               <Calendar size={12} /> Key Dates
             </div>
             <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
-              11+ Exam Dates 2026–2027
+              11+ Exam Dates: Test Year and Entry Year
             </h1>
             <p className="text-lg text-slate-500 max-w-2xl leading-relaxed mb-6">
               Registration deadlines, test dates and results timelines for grammar and independent school entrance exams across England.
-              Updated February 2026 — <strong className="text-slate-700">2027 entry</strong> shown first.
+              <strong className="text-slate-700">September 2027 entry</strong> is shown first: many of those tests take place in 2026. The two Tiffin timetables were checked on 11 November 2026; other calendar groups were not rechecked in this update.
             </p>
             <div className="flex flex-wrap gap-4">
               {[
@@ -522,6 +541,15 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="tests-in-2027">
+          <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-8">
+            <h2 id="tests-in-2027" className="text-2xl font-bold">Planning for an exam taken in 2027?</h2>
+            <p className="mt-4 leading-relaxed">Start with the school-entry year. Tiffin School’s provider guidance for the 2027 assessment points to offers in March 2028, not entry in September 2027. Its registration deadline and Stage 1 date remain unconfirmed; Stage 2 is listed only as mid-November 2027. Do not shift last year’s dates forward by a year.</p>
+            <p className="mt-4 leading-relaxed">The Tiffin Girls’ School has a separate admissions process. Its linked page currently gives September 2027-entry dates; we have not verified its 2027-test timetable here. Check the relevant school before booking or applying.</p>
+            <p className="mt-4 leading-relaxed"><a className="underline" href="https://www.questassessments.com/parent-guidance-consortium/tiffin-11-plus">Tiffin School and Quest: 2027 assessment guidance</a> · <a className="underline" href="https://www.tiffingirls.org/admissions/year-7/">The Tiffin Girls’ School: admissions</a>. Sources checked 11 November 2026.</p>
+            <p className="mt-4 leading-relaxed"><Link className="underline" href="/schools/tiffin">Read the Tiffin School source and preparation guide</Link>, then use <Link className="underline" href="/papers">original practice papers with worked answers</Link> to identify skills to revisit.</p>
+          </div>
+        </section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="november-nine-news">
           <h2 id="november-nine-news" className="text-2xl font-bold">Consultation and school visits: 9 November 2026</h2>
           <p className="mt-2">Two dated developments for families planning ahead. Future test dates and entry policies still need their own official confirmation.</p>
@@ -645,7 +673,7 @@ export default function ExamDatesClient() {
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-black text-slate-900 mb-3">Start preparing now</h2>
             <p className="text-slate-500 mb-6">
-              Grammar school registrations open May–June 2026. Independent school registrations open from September 2026. Build your foundation now.
+              Check the school’s timetable for your intended entry year first. Build subject skills, try a practice paper and review the worked answers before adding timed practice.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/mock-exams" className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl font-black bg-indigo-600 text-white hover:bg-indigo-700 transition-colors shadow-md shadow-indigo-200">

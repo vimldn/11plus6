@@ -1,0 +1,47 @@
+{
+  "property": "https://www.11plusexampapers.com/",
+  "searchType": "web",
+  "scope": "all countries and devices",
+  "dateFrom": "2026-10-12",
+  "dateTo": "2026-11-08",
+  "freshness": {
+    "status": "done",
+    "data": [
+      {
+        "date": "2026-11-06",
+        "clicks": 4,
+        "impressions": 633,
+        "data_fetched_at": "2026-11-11T06:51:53"
+      },
+      {
+        "date": "2026-11-07",
+        "clicks": 3,
+        "impressions": 534,
+        "data_fetched_at": "2026-11-11T06:51:53"
+      },
+      {
+        "date": "2026-11-08",
+        "clicks": 4,
+        "impressions": 618,
+        "data_fetched_at": "2026-11-11T06:51:53"
+      }
+    ],
+    "total_rows": 3
+  },
+  "rows": [
+    {
+      "page": "https://www.11plusexampapers.com/exam-dates",
+      "clicks": 0,
+      "impressions": 390,
+      "position": 20.9513,
+      "calculatedCTR": 0
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/tiffin",
+      "clicks": 0,
+      "impressions": 66,
+      "position": 47.2121,
+      "calculatedCTR": 0
+    }
+  ]
+}
