@@ -1,0 +1,22 @@
+{
+  "dateFrom": "2026-10-14",
+  "dateTo": "2026-11-10",
+  "property": "https://www.11plusexampapers.com/",
+  "scope": "Web; all countries/devices; final-only",
+  "data": [
+    {
+      "page": "https://www.11plusexampapers.com/exam-dates",
+      "clicks": 1,
+      "impressions": 391,
+      "position": 20.7442,
+      "ctr": 0.0025575447570332483
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/st-olaves",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 9.6,
+      "ctr": 0
+    }
+  ]
+}
