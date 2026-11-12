@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/exam-dates",
+    "status": "HTTP/1.1 200 OK",
+    "xRobotsTag": []
+  },
+  {
+    "path": "/schools/st-olaves",
+    "status": "HTTP/1.1 200 OK",
+    "xRobotsTag": []
+  }
+]
