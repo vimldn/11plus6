@@ -237,21 +237,18 @@ const GROUPS_2027_ENTRY: SchoolGroup[] = [
   },
   {
     id: 'st-olaves-2027',
-    name: "St Olave's & Newstead Wood",
-    schools: ["St Olave's Grammar School", "Newstead Wood School"],
-    examFormat: "SET + Stage 2 / GL Assessment (2-stage)",
+    name: "St Olave's — September 2027 entry",
+    schools: ["St Olave's Grammar School"],
+    examFormat: 'School SET and Stage 2',
     region: 'London', accent: 'amber', entryYear: '2027',
     dates: [
-      { date: '1 May 2026',     event: 'Newstead Wood registration opens',         certainty: 'confirmed' },
-      { date: 'Jun 2026',       event: "St Olave's registration opens",            certainty: 'provisional' },
-      { date: '30 Jun 2026',    event: "Registration closes (both schools)",        certainty: 'provisional' },
-      { date: '18 Sep 2026',    event: "St Olave's Stage 1 exam",                  certainty: 'provisional' },
-      { date: '25–26 Sep 2026', event: 'Newstead Wood entrance exam',              certainty: 'provisional' },
-      { date: '13 Nov 2026',    event: "St Olave's Stage 2 exam",                  certainty: 'provisional' },
-      { date: '30 Oct 2026',    event: 'CAF deadline',                             certainty: 'confirmed' },
-      { date: '1 Mar 2027',     event: 'National Offers Day',                      certainty: 'confirmed' },
+      { date: '18 Sep 2026', event: 'Stage 1 Selective Entrance Test', certainty: 'confirmed' },
+      { date: 'Mid-Oct 2026', event: 'Stage 1 outcome before half term', certainty: 'provisional' },
+      { date: '13 Nov 2026', event: 'Stage 2 for invited candidates', certainty: 'confirmed' },
+      { date: '1 Mar 2027', event: 'National Offer Day', certainty: 'confirmed' },
     ],
-    officialUrl: 'https://www.saintolaves.net/admissions',
+    officialUrl: 'https://saintolaves.net/4205/key-dates-1',
+    note: 'Checked 12 November 2026. These tests are taken in 2026 for autumn 2027 entry. Newstead Wood is a different school with a separate admissions process; this card does not cover its timetable.',
   },
   {
     id: 'latymer-2027',
@@ -524,7 +521,7 @@ export default function ExamDatesClient() {
             </h1>
             <p className="text-lg text-slate-500 max-w-2xl leading-relaxed mb-6">
               Registration deadlines, test dates and results timelines for grammar and independent school entrance exams across England.
-              <strong className="text-slate-700">September 2027 entry</strong> is shown first: many of those tests take place in 2026. The two Tiffin timetables were checked on 11 November 2026; other calendar groups were not rechecked in this update.
+              <strong className="text-slate-700">September 2027 entry</strong> is shown first: many of those tests take place in 2026. The two Tiffin timetables were checked on 11 November 2026; St Olave’s was checked on 12 November 2026. Other calendar groups were not rechecked in these updates.
             </p>
             <div className="flex flex-wrap gap-4">
               {[
@@ -541,6 +538,11 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="st-olaves-2028">
+          <h2 id="st-olaves-2028" className="text-2xl font-bold">St Olave’s: confirmed 2027 tests for autumn 2028 entry</h2>
+          <p className="mt-4 leading-relaxed">The school’s timetable lists test registration from 7 June 2027 at 9am until 28 June at midday. Stage 1 is on 17 September 2027; Stage 2, for invited candidates, is on 12 November 2027. Stage 1 outcomes are listed only as mid-October before half term.</p>
+          <p className="mt-4 leading-relaxed">These are different from the 2026 tests in the September 2027-entry cards below. Read the <a className="underline" href="https://saintolaves.net/4205/key-dates-1">school’s key dates</a> and <Link className="underline" href="/schools/st-olaves">St Olave’s assessment and preparation guide</Link>. Checked 12 November 2026; confirm any later school updates before acting.</p>
+        </section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="tests-in-2027">
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-8">
             <h2 id="tests-in-2027" className="text-2xl font-bold">Planning for an exam taken in 2027?</h2>
