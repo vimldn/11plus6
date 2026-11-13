@@ -1,0 +1,23 @@
+{
+  "base": "http://localhost:3013",
+  "pages": [
+    {
+      "url": "https://www.11plusexampapers.com/exam-dates",
+      "canonical": true,
+      "singleH1": true,
+      "metadata": true,
+      "noNoindex": true
+    },
+    {
+      "url": "https://www.11plusexampapers.com/schools/newstead-wood",
+      "canonical": true,
+      "singleH1": true,
+      "metadata": true,
+      "noNoindex": true
+    }
+  ],
+  "sitemapURLs": 285,
+  "internalTargetsAndFragments": 29,
+  "reciprocalLinks": true,
+  "indexing": "not inspected"
+}
