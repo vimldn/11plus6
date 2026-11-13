@@ -73,6 +73,7 @@ const SCHOOL_DETAILS: Record<string, SchoolDetail> = {
   'tiffin': {
     admissionsUrl: 'https://www.tiffinschool.co.uk/admissions/year-7-admissions/',
   },
+  'newstead-wood': { admissionsUrl: 'https://www.newsteadwood.co.uk/admissions/year-7-admissions' },
   'st-olaves': { admissionsUrl: 'https://saintolaves.net/4205/key-dates-1' },
   'sutton-grammar': {
     admissionsUrl: 'https://www.suttongrammar.sutton.sch.uk/admissions/',
@@ -98,7 +99,7 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
   const school = SCHOOLS.find((s) => s.id === params.id);
   if (!school) notFound();
 
-  const s = (school.id === 'tiffin' ? { ...school, examFormat: 'Tiffin School with Quest — confirm cycle-specific papers', subjects: ['english', 'maths'] } : school.id === 'st-olaves' ? { ...school, examFormat: 'School SET: English, logic and maths; followed by Stage 2' } : school) as any;
+  const s = (school.id === 'tiffin' ? { ...school, examFormat: 'Tiffin School with Quest — confirm cycle-specific papers', subjects: ['english', 'maths'] } : school.id === 'st-olaves' ? { ...school, examFormat: 'School SET: English, logic and maths; followed by Stage 2' } : school.id === 'newstead-wood' ? { ...school, examFormat: 'School selection test: verbal and non-verbal reasoning', subjects: ['verbal-reasoning', 'non-verbal-reasoning'] } : school) as any;
   const storedDetail = SCHOOL_DETAILS[school.id];
   // Retain the three cycle-specific grammar repairs already verified in the prior release.
   // Other undated legacy admissions prose is held, not promoted to current facts.
@@ -140,6 +141,19 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
         <p>The school’s current <a className="underline" href="https://www.saintolaves.net/112/entrance-test-information">entrance-test instructions</a> describe a one-hour multiple-choice SET covering English, logic (verbal and non-verbal reasoning) and mathematics. Check the final instructions for your child’s cycle: this description is not a guarantee that the 2027 papers will be unchanged.</p>
         <h3>Build skills before adding time pressure</h3>
         <p>Use the subject links above to work on reading, number skills and reasoning. Try a short exercise, explain an error in your own words, then attempt another question without looking at the solution. Move to <Link className="underline" href="/papers">original papers and worked answers</Link> for mixed practice, and <Link className="underline" href="/mock-exams">general timed practice</Link> once methods are secure. These resources are not official St Olave’s papers or a replica of its selection test.</p>
+      </section>}
+      {school.id === 'newstead-wood' && <section id="newstead-cycle">
+        <p className="brand-eyebrow">Sources checked · 13 November 2026</p>
+        <h2>Planning for a Newstead test in 2027.</h2>
+        <p>The <a className="underline" href="https://www.newsteadwood.co.uk/admissions/year-7-admissions">school’s admissions overview</a> places the test in September before entry. For September 2028 entry, that means planning for a test in 2027. Exact 2027 registration and test dates remain unconfirmed here; the school currently says summer-term registration, with the opening date to be confirmed. Do not reuse the September 2027-entry policy as a timetable for 2027 tests.</p>
+        <h3>Two reasoning papers</h3>
+        <p>The current <a className="underline" href="https://www.newsteadwood.co.uk/admissions/year-7-admissions/about-the-selection-test">selection-test page</a> describes verbal reasoning followed by non-verbal reasoning, with no other subjects tested. Confirm the final instructions for your cycle. This is a separate process from St Olave’s; its dates and papers do not apply here.</p>
+        <p>The school says it does not sell past or specimen papers. Follow its own familiarisation links rather than treating a commercial school-labelled paper as official.</p>
+        <h3>Plan a visit, then check registration separately</h3>
+        <p>The <a className="underline" href="https://www.newsteadwood.co.uk/admissions/open-events">open-events page</a> lists a Year 7 open morning on 26 June 2027, with booking information due from early March. Booking a visit does not register your child for the selection test. <Link className="underline" href="/exam-dates#newstead-2027-tests">See the calendar’s Newstead planning note</Link>.</p>
+        <h3>Practise the skill and explain the rule</h3>
+        <p>Use the reasoning hubs above to choose one skill. For a word relationship, explain how the pair connects before choosing an answer. For a shape sequence, track one feature at a time: position, number, rotation or shading. After an error, write the rule you missed and try a fresh question.</p>
+        <p>Choose the reasoning sets in <Link className="underline" href="/papers">our original papers and worked answers</Link>, then use <Link className="underline" href="/mock-exams">general timed practice</Link> when ready. Neither is an official Newstead paper or a replica of its 2027 test.</p>
       </section>}
       <section id="admissions"><p className="brand-eyebrow">02 / Plan your application</p><h2>Admissions and eligibility.</h2><dl className="school-detail-list">{detail?.placesAvailable && <div><dt>Places listed in this guide</dt><dd>{detail.placesAvailable}</dd></div>}<div><dt>Catchment and priority</dt><dd>{detail?.catchmentArea === false ? 'No catchment area listed in this guide. Check the current policy for eligibility and oversubscription priorities.' : typeof detail?.catchmentArea === 'string' ? detail.catchmentArea : 'Check the school’s current admissions policy.'}</dd></div><div><dt>Selection</dt><dd>{s.selective ? 'Entrance assessment required — consult the current policy.' : 'Check the school’s admissions criteria.'}</dd></div></dl></section>
       <section id="dates"><p className="brand-eyebrow">03 / Keep the years clear</p><h2>Registration, tests and offers.</h2><div className="school-year-note"><h3>Preparing for a test taken in 2027?</h3><p>Test year and school-entry year are different. A September 2027-entry date is not a 2027 exam date. Use the dated source check above where available, and confirm the school’s published policy for your intended entry year.</p></div><dl className="school-detail-list">{detail?.registrationWindow && <div><dt>Registration information currently held</dt><dd>{detail.registrationWindow}</dd></div>}{detail?.resultsTimeline && <div><dt>Tests, results and offers currently held</dt><dd>{detail.resultsTimeline}</dd></div>}</dl>{!detail?.registrationWindow && <p>{school.id === 'st-olaves' ? 'See the dated 2027-test timetable above and check the school for subsequent changes.' : evidence?.cohort || 'Confirmed dates are not recorded in this guide. Check the official admissions page.'}</p>}<Link className="brand-text-link" href="/exam-dates">Explore the exam dates guide <ChevronRight size={16}/></Link></section>

@@ -1,0 +1,27 @@
+{
+  "scope": "Exact property https://www.11plusexampapers.com/; Web; all countries/devices; final-only14Oct–10Nov2026 inclusive; latest returned10Nov;11–13 excluded",
+  "rows": [
+    {
+      "page": "https://www.11plusexampapers.com/exam-dates",
+      "clicks": 1,
+      "impressions": 391,
+      "position": 20.7442,
+      "ctrPercent": 0.2557544757033248
+    },
+    {
+      "page": "https://www.11plusexampapers.com/papers",
+      "clicks": 1,
+      "impressions": 577,
+      "position": 59.7314,
+      "ctrPercent": 0.1733102253032929
+    },
+    {
+      "page": "https://www.11plusexampapers.com/mock-exams",
+      "clicks": 0,
+      "impressions": 178,
+      "position": 50.764,
+      "ctrPercent": 0
+    }
+  ],
+  "newstead": "Absent from returned rows; no indexing inference"
+}

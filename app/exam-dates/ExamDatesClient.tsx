@@ -538,6 +538,11 @@ export default function ExamDatesClient() {
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="newstead-2027-tests">
+          <h2 id="newstead-2027-tests" className="text-2xl font-bold">Newstead Wood: plan for 2027 tests, keep dates unconfirmed</h2>
+          <p className="mt-4 leading-relaxed">For September 2028 entry, the school’s annual sequence points to a test in September 2027. Exact registration and test dates remain unconfirmed here. Its <a className="underline" href="https://www.newsteadwood.co.uk/admissions/year-7-admissions">admissions overview</a> says the registration form opens in the summer term, date to be confirmed. Do not copy St Olave’s dates or move the previous cycle forward by a year.</p>
+          <p className="mt-4 leading-relaxed">A visit is separate: the <a className="underline" href="https://www.newsteadwood.co.uk/admissions/open-events">Year 7 open morning</a> is listed for 26 June 2027; check for booking information from early March. Read our <Link className="underline" href="/schools/newstead-wood">Newstead reasoning and preparation guide</Link> for the current test scope and practice links. Sources checked 13 November 2026.</p>
+        </section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="st-olaves-2028">
           <h2 id="st-olaves-2028" className="text-2xl font-bold">St Olave’s: confirmed 2027 tests for autumn 2028 entry</h2>
           <p className="mt-4 leading-relaxed">The school’s timetable lists test registration from 7 June 2027 at 9am until 28 June at midday. Stage 1 is on 17 September 2027; Stage 2, for invited candidates, is on 12 November 2027. Stage 1 outcomes are listed only as mid-October before half term.</p>
