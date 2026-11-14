@@ -714,10 +714,11 @@ export const OCTOBER_SKILL_POSTS: BlogPost[] = ([
   {
     "slug": "11-plus-direct-speech-punctuation",
     "title": "11+ Direct Speech Punctuation: Rules, Examples and Practice",
-    "desc": "Learn speech marks, reporting clauses and split dialogue, then correct eight original examples with explained answers for 11-plus English preparation.",
+    "desc": "Learn direct speech punctuation with rules, split-speech examples and 12 explained tasks, including a dialogue-editing challenge for 11-plus English.",
     "subject": "english",
     "date": "October 21, 2026",
-    "readTime": "6 min read",
+    "updatedAt": "2026-11-14",
+    "readTime": "9 min read",
     "category": "English",
     "imageUrl": "/brand/book-journey.webp",
     "imageAlt": "An illustrated staircase of books leading towards a school",
@@ -857,6 +858,38 @@ export const OCTOBER_SKILL_POSTS: BlogPost[] = ([
       },
       {
         "type": "h2",
+        "text": "Apply the rules to a complete conversation"
+      },
+      {
+        "type": "p",
+        "text": "The eight short questions isolate punctuation decisions. Now combine them. Read each task without adding marks first: identify the speakers, underline their spoken words, and distinguish a reporting clause from an action. The aim is to explain your decisions, not just to make your answer look like the model. These four extension tasks are original practice, not an official mark scheme."
+      },
+      {
+        "type": "question",
+        "text": "9. Add capitals, punctuation and paragraph breaks without changing the words. Ada asks a question; Milo replies with a statement. Ada then makes a complete statement before performing the action.\nwhere is the spare key asked Ada it is under the blue pot Milo replied I will fetch it Ada pulled on her coat",
+        "answer": "“Where is the spare key?” asked Ada.\n“It is under the blue pot,” Milo replied.\n“I will fetch it.” Ada pulled on her coat.",
+        "explanation": "There are three turns: Ada, Milo, Ada, so there are three paragraphs. The first speech ends in a question mark before the closing speech mark. Milo's statement takes a comma because Milo replied is its reporting clause. Pulled on her coat describes Ada's action, not how she speaks: her complete spoken statement ends with a full stop. Keep the action with Ada's turn; a new sentence does not automatically mean a new speaker. Check all three pairs of speech marks as well as the endings."
+      },
+      {
+        "type": "question",
+        "text": "10. Milo says one sentence: “If the key is missing, we can ask the caretaker.” Insert the reporting clause Milo said after missing. Keep it as one spoken sentence.",
+        "answer": "“If the key is missing,” Milo said, “we can ask the caretaker.”",
+        "explanation": "The interruption falls at the existing clause boundary. Close the first stretch of speech after its comma, place a comma after said, and reopen the speech before we. Removing Milo said restores the complete original sentence. A full stop after said followed by capital We would leave If the key is missing as an unfinished conditional clause, which does not meet this task."
+      },
+      {
+        "type": "question",
+        "text": "11. A pupil says the capital I proves this is two spoken sentences. Are they right? Explain.\n“If the key is missing,” Ada said, “I can ask the caretaker.”",
+        "answer": "No. It is one interrupted spoken sentence. The personal pronoun I keeps its capital letter wherever it appears.",
+        "explanation": "Without the reporting clause, the speech is If the key is missing, I can ask the caretaker. Sentence structure determines whether the speech continues. A capital letter on its own is not a reliable test: I and proper names keep their capitals even in the middle of a sentence. This is why 'always use a lower-case letter after an interruption' is too broad a rule."
+      },
+      {
+        "type": "question",
+        "text": "12. Write two different versions using the speech “The key is here.” In version A, follow it with Ada whispered. In version B, follow it with Ada waved the key. Explain the different punctuation.",
+        "answer": "A: “The key is here,” Ada whispered.\nB: “The key is here.” Ada waved the key.",
+        "explanation": "Whispered reports speech, so A uses a comma inside the closing speech mark and ends after whispered. Waved describes a separate action, so B has two complete sentences. The name Ada needs a capital in both versions; that capital does not decide which punctuation is needed. Consistent single inverted commas are also acceptable throughout these tasks. Different wording may work in your own writing, but here keep the supplied words so that you practise the intended contrast."
+      },
+      {
+        "type": "h2",
         "text": "A final checking routine"
       },
       {
@@ -887,7 +920,11 @@ export const OCTOBER_SKILL_POSTS: BlogPost[] = ([
       },
       {
         "type": "p",
-        "text": "Skill reference: the [DfE English programme](https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study) and its [grammar and punctuation appendix](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/335190/English_Appendix_2_-_Vocabulary_grammar_and_punctuation.pdf), checked 21 October 2026. Examples and exercises are original. Check the school’s assessment guidance rather than assuming every entrance test has a separate punctuation section."
+        "text": "For handwritten follow-up, use the [16-question English punctuation booklet and explained answers](/papers#english-printable). It combines apostrophes with direct speech; it does not include these four new extension tasks. If your difficulty is deciding where a sentence ends, revisit [sentence structure](/blog/11-plus-sentence-structure); for missing-letter or ownership marks, use [apostrophes](/blog/11-plus-apostrophes). The [English practice chooser](/subjects/english#choose-english-practice) separates written reading, punctuation and online practice so you can choose the next useful task."
+      },
+      {
+        "type": "p",
+        "text": "Skill sources checked 14 November 2026: the [DfE English programme](https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study), [Oxford Owl’s Year 4 grammar and punctuation guidance](https://home.oxfordowl.co.uk/english/primary-grammar/grammar-year-4-age-8-9/) and [Oak National Academy’s speech lesson](https://www.thenational.academy/teachers/programmes/english-primary-ks2/units/punctuation/lessons/speech-three-ways). Examples and exercises here are original. These are skill references, not confirmation that every entrance test has a separate punctuation section; check the school’s assessment guidance."
       }
     ]
   }

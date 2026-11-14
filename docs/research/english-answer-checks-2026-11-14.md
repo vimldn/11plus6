@@ -1,0 +1,13 @@
+# Answer review — 14 November 2026
+
+Scope: existing direct-speech guide; its original eight questions reviewed against their prompts and preserved. No claim of qualified educator review. DfE, Oxford Owl and Oak source checks are in the pre-writing brief.
+
+- Original1: reporting clause first; comma, capital T, final stop inside speech.2: statement before reporting clause; comma, lower-case he.3: spoken question retains question mark, no extra comma, lower-case she.4: exclamation inside speech.5: one conditional sentence, lower-case continuation.6: two complete spoken sentences, stop after reporting clause, capital We.7: lifted is separate action.8: two speakers, new paragraph; question then short statement. All model answers agree with the original wording and requested pattern.
+- Extension9: words in the answer match the unpunctuated prompt ignoring case/punctuation. Speakers are explicitly Ada/Milo/Ada, requiring three paragraphs. Asked/replied report speech; pulled describes an action. Question mark, statement comma and separate-action full stop all justified. No extra dialogue invented in the model.
+- Extension10: removing Milo said yields the exact supplied conditional sentence. Commas enclose the reporting interruption; lower-case we continues it. The prompt explicitly requires one sentence, avoiding multiple defensible structures being treated as incorrect.
+- Extension11: removing Ada said yields one conditional sentence. Capital I is mandatory even mid-sentence; it is not evidence of a new sentence. Does not contradict the earlier lower-case we example.
+- Extension12: A whispered reports speech; B waved describes an action. Ada remains capital in both. Same spoken words; only the expected reporting/action endings differ. Single inverted commas are explicitly acceptable if consistent.
+
+Hub claims checked against lib/practiceJourneys.ts, components/PracticeJourneys.tsx, components/PracticeResourceCatalogue.tsx and app/mock-exams/MockExamsClient.tsx: three written lessons, six questions each;16-question English punctuation booklet; selectable online English question count/mode/timer. No automated written-answer marking implied. Existing PDF contains the earlier speech questions, not the new extension; article explicitly says so. No new maths, school-admissions or dated test claims.
+
+Release checks must additionally verify twelve disclosures render, paragraph breaks are preserved, update/publication dates differ correctly, the two existing English PDFs load, and hub/spoke links work publicly. Those are execution outcomes, not asserted by this content review.

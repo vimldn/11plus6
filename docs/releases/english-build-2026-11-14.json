@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-11-14",
+  "base": "http://localhost:3014",
+  "pages": [
+    {
+      "url": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+      "title": "11+ Direct Speech Punctuation: Rules, Examples and Practice | 11 Plus Exam Papers",
+      "canonical": true,
+      "singleH1": true,
+      "noMetaOrHeaderNoindex": true
+    },
+    {
+      "url": "https://www.11plusexampapers.com/subjects/english",
+      "title": "11+ English Practice Questions | 11 Plus Exam Papers",
+      "canonical": true,
+      "singleH1": true,
+      "noMetaOrHeaderNoindex": true
+    }
+  ],
+  "internalTargetsAndFragments": 68,
+  "sitemapURLs": 285,
+  "unchangedURLSet": true,
+  "reciprocalLinks": true,
+  "closedAnswerDisclosures": 12,
+  "publicationDatePreserved": true,
+  "updatedDate": "2026-11-14",
+  "topicCoverHeroOGSchemaAndAsset": true,
+  "pdfsMatchSource": [
+    "/papers/english-practice.pdf",
+    "/papers/english-worked-answers.pdf"
+  ],
+  "indexing": "not inspected",
+  "browserInteraction": "separate check required"
+}
