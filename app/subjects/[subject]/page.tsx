@@ -1,6 +1,7 @@
 import { VisualPracticeLibrary } from '@/components/VisualPracticeLibrary';
 import { VerbalPracticeLibrary } from '@/components/VerbalPracticeLibrary';
 import { PracticeJourneys } from '@/components/PracticeJourneys';
+import { EnglishResourceChooser } from '@/components/EnglishResourceChooser';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import SubjectPageClient from './SubjectPageClient';
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!subject) return {};
 
   const description = subject.slug === 'english'
-    ? 'Practise 11+ retrieval, inference and evidence with original passages, worked examples and explained answers for families preparing for exams taken in 2027.'
+    ? 'Choose 11+ English comprehension lessons, punctuation practice, printable questions and explained answers for exams taken in 2027. Free original resources.'
     : subject.slug === 'verbal-reasoning' ? 'Practise original 11 Plus letter codes, analogies, classifications and sequences, with worked explanations and focused retries for tests taken in 2027.'
     : subject.slug === 'non-verbal-reasoning' ? 'Practise original 11 Plus rotations, reflections, sequences and matrices with clear diagrams, worked visual answers, mistake retries and printable questions for tests taken in 2027.'
     : 'Build 11 Plus maths skills with topic lessons, original practice questions, printable papers and worked explanations. Choose one skill or try a mixed set.';
@@ -55,6 +56,7 @@ export default function SubjectPage({ params }: Props) {
     <>
       <SchemaOrg data={subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc })} />
       <SubjectPageClient subject={subject}>
+        {subject.slug === 'english' && <EnglishResourceChooser />}
         {subject.slug === 'non-verbal-reasoning' && <VisualPracticeLibrary />}
         {subject.slug === 'verbal-reasoning' && <VerbalPracticeLibrary />}
         {(subject.slug === 'maths' || subject.slug === 'english') && <PracticeJourneys subject={subject.slug} />}

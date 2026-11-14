@@ -1,0 +1,2528 @@
+{
+  "checkedAt": "2026-11-14",
+  "property": "https://www.11plusexampapers.com/",
+  "searchType": "web",
+  "geography": "all countries",
+  "device": "all devices",
+  "include_fresh_data": false,
+  "requestedFreshness": [
+    "2026-11-09",
+    "2026-11-13"
+  ],
+  "freshness": {
+    "status": "done",
+    "data": [
+      {
+        "date": "2026-11-09",
+        "clicks": 6,
+        "impressions": 704,
+        "position": 13.0653
+      },
+      {
+        "date": "2026-11-10",
+        "clicks": 7,
+        "impressions": 775,
+        "position": 13.4555
+      }
+    ],
+    "total_rows": 2
+  },
+  "period": [
+    "2026-10-14",
+    "2026-11-10"
+  ],
+  "pages": {
+    "status": "done",
+    "data": [
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-children-pass-the-11-plus-pass-rate",
+        "clicks": 28,
+        "impressions": 2489,
+        "position": 6.8252
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-does-pupil-premium-priority-work-for-grammar-schools",
+        "clicks": 20,
+        "impressions": 869,
+        "position": 5.6847
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+        "clicks": 18,
+        "impressions": 640,
+        "position": 6.3719
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
+        "clicks": 14,
+        "impressions": 943,
+        "position": 6.8155
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
+        "clicks": 11,
+        "impressions": 433,
+        "position": 5.3649
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-appeal-an-11-plus-result-or-school-allocation",
+        "clicks": 11,
+        "impressions": 338,
+        "position": 9.3669
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in",
+        "clicks": 10,
+        "impressions": 455,
+        "position": 7.7714
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-give-priority-to-siblings",
+        "clicks": 9,
+        "impressions": 859,
+        "position": 5.8813
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-score-do-you-need-to-get-into-a-grammar-school",
+        "clicks": 8,
+        "impressions": 1106,
+        "position": 10.2758
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children",
+        "clicks": 7,
+        "impressions": 180,
+        "position": 7.9056
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
+        "clicks": 7,
+        "impressions": 956,
+        "position": 7.5272
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-waiting-lists-work-for-grammar-schools",
+        "clicks": 7,
+        "impressions": 229,
+        "position": 8.7293
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
+        "clicks": 6,
+        "impressions": 562,
+        "position": 6.8932
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
+        "clicks": 6,
+        "impressions": 217,
+        "position": 8.8479
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "clicks": 5,
+        "impressions": 443,
+        "position": 10.3228
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-we-move-house-to-get-into-a-grammar-school",
+        "clicks": 5,
+        "impressions": 370,
+        "position": 8.1514
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region",
+        "clicks": 5,
+        "impressions": 153,
+        "position": 8.8105
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/when-do-you-apply-for-grammar-school-places",
+        "clicks": 5,
+        "impressions": 608,
+        "position": 13.7944
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/free-11-plus-resources-and-websites",
+        "clicks": 4,
+        "impressions": 256,
+        "position": 9.8789
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school",
+        "clicks": 4,
+        "impressions": 83,
+        "position": 9.3373
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
+        "clicks": 3,
+        "impressions": 181,
+        "position": 6.7735
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-is-the-11-plus-scored-and-marked",
+        "clicks": 3,
+        "impressions": 1215,
+        "position": 10.8346
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus",
+        "clicks": 3,
+        "impressions": 473,
+        "position": 16.9873
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
+        "clicks": 3,
+        "impressions": 71,
+        "position": 10.0423
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english/using-evidence",
+        "clicks": 3,
+        "impressions": 36,
+        "position": 5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths/percentages-of-amounts",
+        "clicks": 3,
+        "impressions": 13,
+        "position": 12.5385
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-fractions-decimals-percentages-conversions",
+        "clicks": 2,
+        "impressions": 25,
+        "position": 7.28
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-multi-step-word-problems",
+        "clicks": 2,
+        "impressions": 29,
+        "position": 4.6552
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-order-of-operations",
+        "clicks": 2,
+        "impressions": 52,
+        "position": 8.5192
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-poetry-comprehension",
+        "clicks": 2,
+        "impressions": 29,
+        "position": 4.3103
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
+        "clicks": 2,
+        "impressions": 196,
+        "position": 4.9184
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers",
+        "clicks": 2,
+        "impressions": 51,
+        "position": 9.4118
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
+        "clicks": 2,
+        "impressions": 87,
+        "position": 6.1034
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+        "clicks": 2,
+        "impressions": 85,
+        "position": 5.7294
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-grammar-school-appeals-work",
+        "clicks": 2,
+        "impressions": 144,
+        "position": 16.2569
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-the-timeline-for-grammar-school-admissions",
+        "clicks": 2,
+        "impressions": 515,
+        "position": 12.5515
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english",
+        "clicks": 2,
+        "impressions": 15,
+        "position": 29.0667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths/fractions-of-amounts",
+        "clicks": 2,
+        "impressions": 27,
+        "position": 8.5185
+      },
+      {
+        "page": "https://www.11plusexampapers.com/",
+        "clicks": 1,
+        "impressions": 33,
+        "position": 11.2424
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-adding-subtracting-fractions",
+        "clicks": 1,
+        "impressions": 24,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-area-perimeter",
+        "clicks": 1,
+        "impressions": 39,
+        "position": 7.3846
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-coordinates",
+        "clicks": 1,
+        "impressions": 6,
+        "position": 3.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
+        "clicks": 1,
+        "impressions": 25,
+        "position": 6.92
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-long-division-remainders",
+        "clicks": 1,
+        "impressions": 106,
+        "position": 8.6038
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-negative-numbers",
+        "clicks": 1,
+        "impressions": 13,
+        "position": 8.3846
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-unit-conversions",
+        "clicks": 1,
+        "impressions": 54,
+        "position": 7.2593
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
+        "clicks": 1,
+        "impressions": 145,
+        "position": 8.1793
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+        "clicks": 1,
+        "impressions": 3,
+        "position": 1.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-banding-or-lotteries",
+        "clicks": 1,
+        "impressions": 58,
+        "position": 7.1034
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-feeder-primary-schools",
+        "clicks": 1,
+        "impressions": 717,
+        "position": 8.6485
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first",
+        "clicks": 1,
+        "impressions": 223,
+        "position": 6.5022
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
+        "clicks": 1,
+        "impressions": 92,
+        "position": 7.337
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
+        "clicks": 1,
+        "impressions": 40,
+        "position": 46.325
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools",
+        "clicks": 1,
+        "impressions": 83,
+        "position": 10.3012
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+        "clicks": 1,
+        "impressions": 28,
+        "position": 8.3571
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam",
+        "clicks": 1,
+        "impressions": 292,
+        "position": 20.863
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
+        "clicks": 1,
+        "impressions": 313,
+        "position": 12.77
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
+        "clicks": 1,
+        "impressions": 190,
+        "position": 9.8368
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
+        "clicks": 1,
+        "impressions": 45,
+        "position": 12.2444
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
+        "clicks": 1,
+        "impressions": 54,
+        "position": 19.1852
+      },
+      {
+        "page": "https://www.11plusexampapers.com/exam-dates",
+        "clicks": 1,
+        "impressions": 391,
+        "position": 20.7442
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 1,
+        "impressions": 577,
+        "position": 59.7314
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/qe-boys",
+        "clicks": 1,
+        "impressions": 3,
+        "position": 24.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "clicks": 1,
+        "impressions": 41,
+        "position": 55.2927
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths/ratio-sharing",
+        "clicks": 1,
+        "impressions": 115,
+        "position": 7.9043
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/non-verbal-reasoning",
+        "clicks": 1,
+        "impressions": 14,
+        "position": 40.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/verbal-reasoning",
+        "clicks": 1,
+        "impressions": 16,
+        "position": 47.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/leicester",
+        "clicks": 1,
+        "impressions": 9,
+        "position": 23.2222
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog",
+        "clicks": 0,
+        "impressions": 44,
+        "position": 22.8636
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-active-passive-voice",
+        "clicks": 0,
+        "impressions": 35,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-algebra-basics",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 16.9091
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-apostrophes",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 6.6429
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-averages",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 6.3125
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-commas",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-data-interpretation",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-decimal-arithmetic",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 11
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring",
+        "clicks": 0,
+        "impressions": 119,
+        "position": 6.5378
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 14.875
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-fact-opinion",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 5.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-factors-multiples-primes",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 21.6364
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-homophones",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 6.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-missing-angles",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 7.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-money-best-value",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-multiplying-dividing-fractions",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 19.9167
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-number-sequences",
+        "clicks": 0,
+        "impressions": 30,
+        "position": 7.8667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-percentage-increase-decrease",
+        "clicks": 0,
+        "impressions": 55,
+        "position": 6.7273
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-prefixes-suffixes",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 8.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-probability",
+        "clicks": 0,
+        "impressions": 33,
+        "position": 6.8485
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-relative-clauses",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 3
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-roman-numerals",
+        "clicks": 0,
+        "impressions": 58,
+        "position": 18.6897
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-rounding-estimation",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 7.2857
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-scale-drawings-maps",
+        "clicks": 0,
+        "impressions": 28,
+        "position": 7.6071
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-sentence-structure",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 5.375
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-similes-metaphors-personification",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 7.8667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-speed-distance-time",
+        "clicks": 0,
+        "impressions": 17,
+        "position": 8.9412
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-square-cube-numbers",
+        "clicks": 0,
+        "impressions": 48,
+        "position": 8.625
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-subject-verb-agreement",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-summarising-main-ideas",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 2.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-synonyms-antonyms",
+        "clicks": 0,
+        "impressions": 22,
+        "position": 14.9091
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-tense-consistency",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 5.4545
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-time-management-strategies-in-the-exam",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-time-timetables",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 7.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-venn-carroll-diagrams",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 9.3
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-vocabulary-in-context",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 6.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-volume-capacity",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 8.3636
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-writers-purpose",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/altrincham-girls-2028-admissions-consultation",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 7.7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
+        "clicks": 0,
+        "impressions": 64,
+        "position": 35.5312
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 10.9333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school",
+        "clicks": 0,
+        "impressions": 188,
+        "position": 10.9787
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+        "clicks": 0,
+        "impressions": 67,
+        "position": 5.0896
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
+        "clicks": 0,
+        "impressions": 434,
+        "position": 7.1244
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/aylesbury-grammar-2028-admissions-consultation",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 10
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation",
+        "clicks": 0,
+        "impressions": 150,
+        "position": 19.94
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/common-11-plus-english-mistakes-to-avoid",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 8.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 11.5714
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 11.5455
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+        "clicks": 0,
+        "impressions": 85,
+        "position": 5.1294
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support",
+        "clicks": 0,
+        "impressions": 61,
+        "position": 7.0492
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/gl-vs-cem-11-plus-what-is-the-difference",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 7.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
+        "clicks": 0,
+        "impressions": 107,
+        "position": 11.3458
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 8.0556
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
+        "clicks": 0,
+        "impressions": 236,
+        "position": 31.6992
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-early-should-we-start-11-plus-preparation",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 6.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam",
+        "clicks": 0,
+        "impressions": 423,
+        "position": 7.227
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+        "clicks": 0,
+        "impressions": 100,
+        "position": 10.59
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+        "clicks": 0,
+        "impressions": 772,
+        "position": 10.8588
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-hours-a-week-should-my-child-study-for-11-plus",
+        "clicks": 0,
+        "impressions": 144,
+        "position": 8.5972
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
+        "clicks": 0,
+        "impressions": 38,
+        "position": 7.8158
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-choose-the-right-grammar-school-after-the-11-plus",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 7.0909
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 9.1333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home",
+        "clicks": 0,
+        "impressions": 69,
+        "position": 55.9275
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-register-my-child-for-the-11-plus",
+        "clicks": 0,
+        "impressions": 168,
+        "position": 15.7619
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance",
+        "clicks": 0,
+        "impressions": 74,
+        "position": 17.8243
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/kent-test-2027-quest-assessments",
+        "clicks": 0,
+        "impressions": 38,
+        "position": 8.1316
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
+        "clicks": 0,
+        "impressions": 148,
+        "position": 61.723
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/secondary-school-deadline-31-october-2026",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-are-the-grammar-school-admission-criteria",
+        "clicks": 0,
+        "impressions": 142,
+        "position": 16.2394
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
+        "clicks": 0,
+        "impressions": 129,
+        "position": 10.2713
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning",
+        "clicks": 0,
+        "impressions": 59,
+        "position": 15.7627
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning",
+        "clicks": 0,
+        "impressions": 206,
+        "position": 24.7282
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-a-good-11-plus-score-or-pass-mark",
+        "clicks": 0,
+        "impressions": 93,
+        "position": 29.7312
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
+        "clicks": 0,
+        "impressions": 623,
+        "position": 30.2777
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school",
+        "clicks": 0,
+        "impressions": 23,
+        "position": 7.5217
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+        "clicks": 0,
+        "impressions": 1547,
+        "position": 8.5391
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+        "clicks": 0,
+        "impressions": 65,
+        "position": 12.4615
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 9.4667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/when-are-the-11-plus-exam-dates-in-my-area",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 38.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/wirral-11-plus-results-october-2026",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 6.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/compare",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 6.8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/guides/gl-vs-cem",
+        "clicks": 0,
+        "impressions": 38,
+        "position": 16.4211
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 178,
+        "position": 50.764
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools",
+        "clicks": 0,
+        "impressions": 33,
+        "position": 24.4848
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/cls-boys",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 31.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/dulwich-college",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 57.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/eton",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/godolphin-latymer",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 36
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/henrietta-barnett",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/highgate",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 27
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/kcs-wimbledon",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 25.5417
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/mcs-oxford",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 11
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/oxford-high",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 6.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/st-olaves",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 9.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/st-pauls",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 56.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/tiffin",
+        "clicks": 0,
+        "impressions": 73,
+        "position": 48.5342
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/wimbledon-high",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 4.5714
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english/comprehension-retrieval",
+        "clicks": 0,
+        "impressions": 59,
+        "position": 7.9661
+      },
+      {
+        "page": "https://www.11plusexampapers.com/terms",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/birmingham",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 49.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/bradford",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 15.3077
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/brighton",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 24.7778
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/bristol",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 26.0769
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/cardiff",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 12.8667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/coventry",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 24.1429
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/derby",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 33.3636
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/edinburgh",
+        "clicks": 0,
+        "impressions": 50,
+        "position": 19.84
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/glasgow",
+        "clicks": 0,
+        "impressions": 47,
+        "position": 25.5532
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/leeds",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 26
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/liverpool",
+        "clicks": 0,
+        "impressions": 30,
+        "position": 34.1667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/london",
+        "clicks": 0,
+        "impressions": 25,
+        "position": 62.72
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/manchester",
+        "clicks": 0,
+        "impressions": 23,
+        "position": 49.6957
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/newcastle",
+        "clicks": 0,
+        "impressions": 21,
+        "position": 8.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/nottingham",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 24.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/oxford",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 15.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/reading",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 20.1818
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/sheffield",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 22.6154
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/southampton",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 29.6
+      }
+    ],
+    "total_rows": 189
+  },
+  "queries": {
+    "status": "done",
+    "data": [
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english",
+        "query": "11+ english past papers",
+        "clicks": 1,
+        "impressions": 1,
+        "position": 33
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "correct speech punctuation",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 16
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 28.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech examples",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 17
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech in english punctuation",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 3.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech ks2",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech punctuation",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 14.2727
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech punctuation examples",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 6.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech punctuation in english",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech punctuation rules",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 8.4286
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "direct speech rules",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 33
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "example of speech marks",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 20
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "examples of speech marks",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 18.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "how to punctuate direct speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 10
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "how to punctuate speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "how to use speech marks",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 18
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "new speaker new line example",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuate direct speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 11
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuate speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuating speech",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 28
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation after speech marks",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 27
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation direct speech",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 26.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation for direct speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 23
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation in direct speech",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 10.625
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation in speech marks",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 29
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation of direct speech",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 1
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation speech",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 18
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation speech marks",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 23.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "punctuation with speech marks",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 15
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "rules for speech marks",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 20
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "rules of speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 15
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech mark rules",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 22
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech marks and punctuation",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 20
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech marks examples",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 15.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech marks examples with answers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 10
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech marks ks1",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 34
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech marks punctuation",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 16
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech marks rules",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 16.2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech punctuation",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 17.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech punctuation examples",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech punctuation ks2",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 39
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech punctuation rules",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 16.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "speech rules ks2",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 34
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "split speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 20
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "this type of punctuation mark cites direct speech",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 7.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "this type of punctuation marks direct speech",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "type of punctuation mark cites direct speech",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 10
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "query": "using speech marks",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 30.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 mock exam",
+        "clicks": 0,
+        "impressions": 22,
+        "position": 56.6364
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 mock exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 26
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 mock test",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 44.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus free online test",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 51
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 80
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exam",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 50.75
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exams",
+        "clicks": 0,
+        "impressions": 46,
+        "position": 60.1304
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exams free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 12
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exams online",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 65.5333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test elland",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 18
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test online",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 54.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test online free",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 51.2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock tests",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 52.5556
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test​",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus practice online",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 52
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock exam",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 56
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 47.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock exams free online",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 61
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 14
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock test",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock tests",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11plus mock test",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 17
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11plus mock tests",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 42
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "free 11 plus mock test",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 58.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock 11 plus exam",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock 11 plus exams",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 47
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock exam 11 plus",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 92
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock test 11 plus",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 57.75
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock test 11 plus free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock tests 11 plus",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 41.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 exam papers",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 48.625
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 exam practice papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 41
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 non verbal reasoning papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 40
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 non verbal reasoning practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 38
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 papers",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 71.7778
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 past papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 61.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus assessment papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 56
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english exam papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 92
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english papers",
+        "clicks": 0,
+        "impressions": 33,
+        "position": 70.1515
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english practice papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 61.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english test papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 68
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam example questions",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 86
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam free practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 37
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam maths",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 11
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam paper",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 42.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam papers",
+        "clicks": 0,
+        "impressions": 28,
+        "position": 54.0714
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam papers maths",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 61.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 54
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam practice",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 42
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam questions",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 52.8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus example questions",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 40
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus free practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 37
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus gl exam papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 66.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus gl practice papers free online",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus independent school papers with answers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 51.8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus maths papers",
+        "clicks": 0,
+        "impressions": 26,
+        "position": 84.8077
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus mock papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 48
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus mock test dewsbury",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 30
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus mock test grassington",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 69
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning papers pdf with answers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 52
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning practice papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 64
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning practice papers free",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 51
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning sample papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 38
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus papers",
+        "clicks": 0,
+        "impressions": 17,
+        "position": 79.1765
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus papers pdf",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 81
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus past exam papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus past papers",
+        "clicks": 0,
+        "impressions": 34,
+        "position": 81.2353
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus past papers free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 44
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus past papers maths",
+        "clicks": 0,
+        "impressions": 23,
+        "position": 76.4348
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice papers",
+        "clicks": 0,
+        "impressions": 42,
+        "position": 49.7857
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice papers pdf",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 68.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice papers with answers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 61.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice questions",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 40.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice test",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 87
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practise papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 73
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus questions",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 61.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus sample papers",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 88.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus test papers",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 52.9231
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus test papers with answers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus test questions",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 91.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus verbal reasoning papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 51.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus verbal reasoning practice",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 89
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus worksheets",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice paper",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 55.2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice papers",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 76.5833
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice papers free to print",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 70
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice papers online",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 81
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practise papers",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 55.9
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ exam papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 43.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ exam past papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 51
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ past paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 70
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ past papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 52
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ practice papers",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 60.5833
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ practice papers online free",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 62
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ test papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 59
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus co uk practice papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 78
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus exam papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 35.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 47
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 16
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "12 plus exam papers free with answers pdf",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 26
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "buckinghamshire 11 plus practice papers free",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 52.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus english papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 46.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus exam papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 66
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 63.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus past papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 56.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus test papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 63
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "fair banding test practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 44
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11 plus exam papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11 plus papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 45.8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11 plus practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11+ practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "gl 11 plus past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 93
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "gl 11 practice papers online",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 99
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "gl exam papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 70
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "grammar school exam practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 73
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "grammar school practice papers",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 64.6364
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "grammar school test papers with answers pdf",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 54.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "letts 11 plus practice papers free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 84
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "letts 11 plus practice test papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "lincolnshire 11+ practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 66
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "non verbal reasoning past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 79
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "old 11 plus papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 82
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "practice 11+ papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 90
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "school papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "test papers for 11 exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 72.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "verbal reasoning 11+ past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 53
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "verbal reasoning test papers 11",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 60.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "year 5 11 plus practice papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 65.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english",
+        "query": "11 english past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 48
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english",
+        "query": "11+ english papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 33
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11 maths paper",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 74
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11 maths papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 80.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11 maths practice papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 63.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11 plus maths questions",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 51
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11+ maths",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 58
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11+ maths paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 72
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11+ maths papers",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 73.875
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11+ maths questions",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 61.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "11+ maths questions by topic",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "query": "maths 11 papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 68
+      }
+    ],
+    "total_rows": 192
+  },
+  "limitations": [
+    "Latest final returned date 10 November. No post-release outcome or URL Inspection claim.",
+    "Visible query rows are incomplete and not aggregate totals. CTR is clicks/impressions; position is connector impression-weighted aggregate."
+  ]
+}
