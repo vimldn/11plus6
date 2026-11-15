@@ -1,6 +1,7 @@
 import { VisualPracticeLibrary } from '@/components/VisualPracticeLibrary';
 import { VerbalPracticeLibrary } from '@/components/VerbalPracticeLibrary';
 import { PracticeJourneys } from '@/components/PracticeJourneys';
+import { MathsResourceChooser } from '@/components/MathsResourceChooser';
 import { EnglishResourceChooser } from '@/components/EnglishResourceChooser';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -57,6 +58,7 @@ export default function SubjectPage({ params }: Props) {
       <SchemaOrg data={subjectPageSchema({ slug: subject.slug, label: subject.label, description: subject.desc })} />
       <SubjectPageClient subject={subject}>
         {subject.slug === 'english' && <EnglishResourceChooser />}
+        {subject.slug === 'maths' && <MathsResourceChooser />}
         {subject.slug === 'non-verbal-reasoning' && <VisualPracticeLibrary />}
         {subject.slug === 'verbal-reasoning' && <VerbalPracticeLibrary />}
         {(subject.slug === 'maths' || subject.slug === 'english') && <PracticeJourneys subject={subject.slug} />}
