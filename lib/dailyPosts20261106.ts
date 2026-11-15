@@ -102,11 +102,11 @@ export const DAILY_POSTS_20261106: BlogPost[] = [
   {
     "slug": "11-plus-divisibility-rules",
     "title": "11+ divisibility rules: find every possible missing digit",
-    "desc": "Use digit sums, last digits and pairs of tests to solve missing-digit puzzles and prove your list is complete.",
+    "desc": "Use digit sums and last-digit tests, explain why they work, and solve seven original divisibility questions with worked answers.",
     "subject": "maths",
     "date": "November 6, 2026",
     "category": "Maths",
-    "readTime": "3 min read",
+    "readTime": "5 min read",
     "imageUrl": "/blog-artwork/11-plus-divisibility-rules.webp",
     "imageAlt": "Editorial illustration of a young printmaker sorting wooden type in a drawer",
     "images": [],
@@ -186,17 +186,56 @@ export const DAILY_POSTS_20261106: BlogPost[] = [
       },
       {
         "type": "h2",
+        "text": "Why adding the digits works"
+      },
+      {
+        "type": "p",
+        "text": "Take 243. Write it as 2 × 99 + 4 × 9 + (2 + 4 + 3). The first two parts divide exactly by nine, so only the digit sum can leave a remainder. The same split works for three because 99 and 9 are multiples of three too. This explains why you add every digit rather than checking only the ending."
+      },
+      {
+        "type": "p",
+        "text": "Passing the test for three does not guarantee passing the test for nine: 123 has digit sum 6. It divides by three, but not nine. Every multiple of nine is a multiple of three, however, because nine is three groups of three."
+      },
+      {
+        "type": "h2",
+        "text": "Check the conditions, not just one clue"
+      },
+      {
+        "type": "p",
+        "text": "A missing digit can be zero unless that would contradict the question. In a three-digit number □42, the first digit cannot be zero: 042 is just 42. For an internal or final gap, zero is usually a valid candidate. Write the permitted digits first, cross out those that fail a test, then check the survivors in the original number."
+      },
+      {
+        "type": "question",
+        "text": "Find every digit that makes the three-digit number □42 divisible by nine. Explain why zero is not a candidate.",
+        "answer": "3 only, giving 342.",
+        "explanation": "The first digit must be between 1 and 9. The digit sum is the digit plus 6, so it ranges from 7 to 15. Only 9 is a multiple of nine in that interval; the digit is 3. Check: 342 ÷ 9 = 38. A leading zero would not give a three-digit number."
+      },
+      {
+        "type": "question",
+        "text": "Find every digit that makes 8□4 divisible by both four and nine.",
+        "answer": "6 only, giving 864.",
+        "explanation": "For four, the possible endings are 04, 24, 44, 64 and 84, so the middle digit is 0, 2, 4, 6 or 8. Their digit sums are 12, 14, 16, 18 and 20. Only 18 passes the nine test. Check: 864 ÷ 4 = 216 and 864 ÷ 9 = 96."
+      },
+      {
+        "type": "question",
+        "text": "Sam says: “If a number is divisible by three, it must be divisible by six.” Is this always true? Use 135 to explain.",
+        "answer": "No. 135 is divisible by three but not six.",
+        "explanation": "Its digit sum is 9 and 135 ÷ 3 = 45. But it is odd, so it fails the test for two. Divisibility by six requires both tests: 135 ÷ 6 = 22 remainder 3."
+      },
+      {
+        "type": "h2",
         "text": "Where to practise next"
       },
       {
         "type": "p",
-        "text": "Use the [factors and multiples guide](/blog/11-plus-factors-multiples-primes) for the underlying vocabulary, or [long division](/blog/11-plus-long-division-remainders) to check a candidate. The [maths hub](/subjects/maths) includes topic practice and the [printable maths papers](/papers#maths-printable) give you space to work on paper. These examples are original preparation for exams taken in 2027; individual tests vary."
+        "text": "Use the [factors and multiples guide](/blog/11-plus-factors-multiples-primes) for the underlying vocabulary, or [long division](/blog/11-plus-long-division-remainders) to check a candidate. The [maths practice chooser](/subjects/maths#choose-maths-practice) includes topic practice and the [printable maths papers](/papers#maths-printable) give you space to work on paper. These examples are original preparation for exams taken in 2027; individual tests vary."
       },
       {
         "type": "p",
         "text": "Further reading: [NZCER’s assessment resource on divisibility by three and nine](https://arbs.nzcer.org.nz/resources/divisibility-three-and-nine)."
       }
-    ]
+    ],
+    "updatedAt": "2026-11-15"
   },
   {
     "slug": "11-plus-two-way-tables",
