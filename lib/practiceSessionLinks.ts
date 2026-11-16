@@ -24,3 +24,8 @@ export function practiceSessionHref(subject: PracticeSubject, mode: PracticeMode
   const paper = subject === 'maths' ? 'maths-generated' : subject === 'verbal' ? 'verbal-reviewed' : 'visual-reviewed';
   return `/quiz?paper=${paper}&mode=${mode}`;
 }
+
+/** Only supported subject values may preselect the setup; unknown values use maths. */
+export function practiceSubjectFromParam(value: string | null): PracticeSubject {
+  return value === 'english' || value === 'verbal' || value === 'nonverbal' ? value : 'maths';
+}

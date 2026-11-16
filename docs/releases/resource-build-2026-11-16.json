@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-11-16",
+  "base": "http://localhost:3016",
+  "sitemapCount": 285,
+  "sameURLsAsBefore": true,
+  "pages": [
+    {
+      "path": "/papers",
+      "title": "Free 11+ Practice Papers and Worked Answers | 11 Plus Exam Papers",
+      "h1": "Free 11+ practice papers and answers",
+      "canonical": "https://www.11plusexampapers.com/papers",
+      "indexable": true,
+      "internalTargetsChecked": 130
+    },
+    {
+      "path": "/mock-exams",
+      "title": "Free 11+ Mock Exams and Online Practice | 11 Plus Exam Papers",
+      "h1": "Free 11+ online practice and mock sessions",
+      "canonical": "https://www.11plusexampapers.com/mock-exams",
+      "indexable": true,
+      "internalTargetsChecked": 24
+    }
+  ],
+  "pdfsVerified": [
+    "/papers/maths-practice.pdf",
+    "/papers/maths-worked-answers.pdf",
+    "/papers/english-practice.pdf",
+    "/papers/english-worked-answers.pdf",
+    "/papers/verbal-practice.pdf",
+    "/papers/verbal-worked-answers.pdf",
+    "/papers/nonverbal-practice.pdf",
+    "/papers/nonverbal-worked-answers.pdf"
+  ],
+  "subjectHubsWithContextualPapersAndNavigationMocksLinks": 4,
+  "reciprocalArticleLinks": 7,
+  "quizNoindexPreserved": true,
+  "subjectVariants": [
+    {
+      "subject": "maths",
+      "onlineQuestions": 16,
+      "printedQuestions": 20,
+      "selectedOnServer": true,
+      "canonicalUnchanged": true,
+      "reciprocalLink": true
+    },
+    {
+      "subject": "english",
+      "onlineQuestions": 20,
+      "printedQuestions": 16,
+      "selectedOnServer": true,
+      "canonicalUnchanged": true,
+      "reciprocalLink": true
+    },
+    {
+      "subject": "verbal",
+      "onlineQuestions": 12,
+      "printedQuestions": 12,
+      "selectedOnServer": true,
+      "canonicalUnchanged": true,
+      "reciprocalLink": true
+    },
+    {
+      "subject": "nonverbal",
+      "onlineQuestions": 8,
+      "printedQuestions": 8,
+      "selectedOnServer": true,
+      "canonicalUnchanged": true,
+      "reciprocalLink": true
+    }
+  ],
+  "unsupportedSubjectFallback": "maths",
+  "parameterURLsAbsentFromSitemap": true
+}

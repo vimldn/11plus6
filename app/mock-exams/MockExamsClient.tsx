@@ -8,20 +8,22 @@ import { OnlinePracticeCatalogue } from '@/components/OnlinePracticeCatalogue';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SchoolMockStart } from '@/components/SchoolMockStart';
-import { PRACTICE_SESSIONS, practiceSessionHref, type PracticeMode, type PracticeSubject } from '@/lib/practiceSessionLinks';
+import { PRINTABLE_PRACTICE } from '@/lib/printablePractice';
+import { PRACTICE_SESSIONS, practiceSubjectFromParam, practiceSessionHref, type PracticeMode, type PracticeSubject } from '@/lib/practiceSessionLinks';
 
 const subjects = Object.keys(PRACTICE_SESSIONS) as PracticeSubject[];
 const buttonClass = (selected: boolean) => `rounded-xl border px-4 py-3 text-left text-sm font-semibold transition-colors ${selected ? 'border-emerald-900 bg-emerald-50 text-emerald-950' : 'border-stone-200 bg-white text-slate-700 hover:border-emerald-700'}`;
 
-function MockExamsPageInner() {
+function MockExamsPageInner({ initialSubject }: { initialSubject: PracticeSubject }) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const isSchoolMode = searchParams.get('mode') === 'school';
-  const [subject, setSubject] = useState<PracticeSubject>('maths');
+  const [subject, setSubject] = useState<PracticeSubject>(initialSubject);
   const [practiceMode, setPracticeMode] = useState<PracticeMode>('practice');
   const [englishCount, setEnglishCount] = useState(20);
   const [englishMinutes, setEnglishMinutes] = useState(25);
   const session = PRACTICE_SESSIONS[subject];
+  const printable = PRINTABLE_PRACTICE.find(paper => paper.id === subject)!;
   const count = subject === 'english' ? englishCount : session.questions;
   const minutes = subject === 'english' ? englishMinutes : session.minutes;
 
@@ -97,6 +99,12 @@ function MockExamsPageInner() {
                 <button type="submit" className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-900 px-5 py-4 font-bold text-white transition-colors hover:bg-emerald-950"><Play size={18} aria-hidden="true" />Start {session.label.toLowerCase()} {practiceMode === 'exam' ? 'session' : 'practice'}</button>
                 <p className="mt-4 text-sm leading-6 text-slate-600">No personal details needed. Your results and worked explanations appear in this browser after you finish.</p>
                 <Link href={session.guide} className="mt-5 inline-flex items-center gap-2 font-semibold text-emerald-900 underline underline-offset-4">Learn the methods first <ArrowRight size={16} aria-hidden="true" /></Link>
+                <aside className="mt-6 rounded-xl bg-stone-50 p-5" aria-labelledby="print-instead-title">
+                  <h4 id="print-instead-title" className="font-bold text-slate-900">Prefer a printed {session.label.toLowerCase()} set?</h4>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{printable.title}: {printable.count} questions, with a separate worked-answer PDF. {printable.scope}</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{subject === 'maths' || subject === 'english' ? 'The printable covers a different mix of skills from this online session.' : 'The printable covers the same four skill areas; some questions may be familiar.'} Start the booklet untimed and use its answer guide to mark your working.</p>
+                  <Link href={`/papers#${subject}-printable`} className="mt-3 inline-block text-sm font-semibold text-emerald-900 underline underline-offset-4">See {session.label.toLowerCase()} questions and worked-answer PDFs →</Link>
+                </aside>
                 <p className="mt-5 border-t border-stone-200 pt-5 text-sm leading-6 text-slate-600">These are our practice settings. A practice percentage is not an official standardised score or a prediction of a school offer.</p>
               </div>
             </form>}
@@ -138,6 +146,12 @@ function MockExamsPageInner() {
   );
 }
 
+function SubjectAwarePracticePage() {
+  const searchParams = useSearchParams();
+  const initialSubject = practiceSubjectFromParam(searchParams.get('subject'));
+  return <MockExamsPageInner key={initialSubject} initialSubject={initialSubject} />;
+}
+
 export default function MockExamsClient() {
-  return <Suspense fallback={<div className="min-h-screen bg-white px-6 py-12" role="status">Loading practice options…</div>}><MockExamsPageInner /></Suspense>;
+  return <Suspense fallback={<div className="min-h-screen bg-white px-6 py-12" role="status">Loading practice options…</div>}><SubjectAwarePracticePage /></Suspense>;
 }

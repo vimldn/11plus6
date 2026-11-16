@@ -1,0 +1,3188 @@
+{
+  "date": "2026-11-16",
+  "property": "https://www.11plusexampapers.com/",
+  "searchType": "Web (default)",
+  "scope": "all countries and devices",
+  "includeFreshData": false,
+  "freshnessProbe": {
+    "status": "done",
+    "data": [
+      {
+        "date": "2026-11-10",
+        "clicks": 7,
+        "impressions": 775,
+        "position": 13.4555
+      },
+      {
+        "date": "2026-11-11",
+        "clicks": 8,
+        "impressions": 813,
+        "position": 13.6962
+      },
+      {
+        "date": "2026-11-12",
+        "clicks": 8,
+        "impressions": 1068,
+        "position": 13.044
+      },
+      {
+        "date": "2026-11-13",
+        "clicks": 5,
+        "impressions": 1172,
+        "position": 11.8242
+      }
+    ],
+    "total_rows": 4
+  },
+  "pages": {
+    "status": "done",
+    "data": [
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-does-pupil-premium-priority-work-for-grammar-schools",
+        "clicks": 15,
+        "impressions": 558,
+        "position": 5.5233
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-children-pass-the-11-plus-pass-rate",
+        "clicks": 13,
+        "impressions": 1447,
+        "position": 7.8106
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
+        "clicks": 12,
+        "impressions": 378,
+        "position": 5.0979
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
+        "clicks": 12,
+        "impressions": 754,
+        "position": 6.8528
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+        "clicks": 9,
+        "impressions": 389,
+        "position": 6.3625
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in",
+        "clicks": 8,
+        "impressions": 334,
+        "position": 8.1168
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children",
+        "clicks": 7,
+        "impressions": 166,
+        "position": 7.5482
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-give-priority-to-siblings",
+        "clicks": 7,
+        "impressions": 779,
+        "position": 6.1849
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+        "clicks": 5,
+        "impressions": 508,
+        "position": 10.3051
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
+        "clicks": 5,
+        "impressions": 632,
+        "position": 7.7484
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region",
+        "clicks": 5,
+        "impressions": 103,
+        "position": 9.5049
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
+        "clicks": 4,
+        "impressions": 509,
+        "position": 6.9352
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/can-we-move-house-to-get-into-a-grammar-school",
+        "clicks": 4,
+        "impressions": 294,
+        "position": 8.1939
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/free-11-plus-resources-and-websites",
+        "clicks": 4,
+        "impressions": 271,
+        "position": 10.2841
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-appeal-an-11-plus-result-or-school-allocation",
+        "clicks": 4,
+        "impressions": 221,
+        "position": 9.9955
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school",
+        "clicks": 4,
+        "impressions": 81,
+        "position": 9.6049
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus",
+        "clicks": 4,
+        "impressions": 472,
+        "position": 17.9364
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-fractions-decimals-percentages-conversions",
+        "clicks": 3,
+        "impressions": 27,
+        "position": 6.9259
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-multi-step-word-problems",
+        "clicks": 3,
+        "impressions": 33,
+        "position": 5.0303
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+        "clicks": 3,
+        "impressions": 96,
+        "position": 5.5938
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
+        "clicks": 3,
+        "impressions": 150,
+        "position": 6.7867
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
+        "clicks": 3,
+        "impressions": 184,
+        "position": 8.9891
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
+        "clicks": 3,
+        "impressions": 60,
+        "position": 9.3667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/when-do-you-apply-for-grammar-school-places",
+        "clicks": 3,
+        "impressions": 560,
+        "position": 14.6161
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english/using-evidence",
+        "clicks": 3,
+        "impressions": 39,
+        "position": 4.6923
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths/percentages-of-amounts",
+        "clicks": 3,
+        "impressions": 13,
+        "position": 12.2308
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-active-passive-voice",
+        "clicks": 2,
+        "impressions": 52,
+        "position": 6.0192
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-long-division-remainders",
+        "clicks": 2,
+        "impressions": 191,
+        "position": 9.2932
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-order-of-operations",
+        "clicks": 2,
+        "impressions": 59,
+        "position": 8.8814
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-poetry-comprehension",
+        "clicks": 2,
+        "impressions": 31,
+        "position": 5.8387
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
+        "clicks": 2,
+        "impressions": 209,
+        "position": 4.6268
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers",
+        "clicks": 2,
+        "impressions": 52,
+        "position": 9.6538
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
+        "clicks": 2,
+        "impressions": 86,
+        "position": 6.1279
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-grammar-school-appeals-work",
+        "clicks": 2,
+        "impressions": 133,
+        "position": 16.7068
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-waiting-lists-work-for-grammar-schools",
+        "clicks": 2,
+        "impressions": 145,
+        "position": 9.5172
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-is-the-11-plus-scored-and-marked",
+        "clicks": 2,
+        "impressions": 869,
+        "position": 12.2417
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
+        "clicks": 2,
+        "impressions": 371,
+        "position": 12.717
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-the-timeline-for-grammar-school-admissions",
+        "clicks": 2,
+        "impressions": 525,
+        "position": 13.1905
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths/fractions-of-amounts",
+        "clicks": 2,
+        "impressions": 30,
+        "position": 8.2667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/",
+        "clicks": 1,
+        "impressions": 31,
+        "position": 3.5161
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-adding-subtracting-fractions",
+        "clicks": 1,
+        "impressions": 27,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-area-perimeter",
+        "clicks": 1,
+        "impressions": 50,
+        "position": 8.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-character-description",
+        "clicks": 1,
+        "impressions": 2,
+        "position": 4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-conjunctions",
+        "clicks": 1,
+        "impressions": 2,
+        "position": 5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-coordinates",
+        "clicks": 1,
+        "impressions": 6,
+        "position": 3.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
+        "clicks": 1,
+        "impressions": 23,
+        "position": 6.9565
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-missing-digit-column-puzzles",
+        "clicks": 1,
+        "impressions": 2,
+        "position": 9.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-modal-verbs",
+        "clicks": 1,
+        "impressions": 11,
+        "position": 7.3636
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-negative-numbers",
+        "clicks": 1,
+        "impressions": 15,
+        "position": 7.8667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-number-sequences",
+        "clicks": 1,
+        "impressions": 45,
+        "position": 8.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-unit-conversions",
+        "clicks": 1,
+        "impressions": 68,
+        "position": 8.4265
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
+        "clicks": 1,
+        "impressions": 151,
+        "position": 8.0199
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-banding-or-lotteries",
+        "clicks": 1,
+        "impressions": 43,
+        "position": 6.9302
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-feeder-primary-schools",
+        "clicks": 1,
+        "impressions": 742,
+        "position": 8.6321
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
+        "clicks": 1,
+        "impressions": 89,
+        "position": 7.3596
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
+        "clicks": 1,
+        "impressions": 34,
+        "position": 43.3824
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
+        "clicks": 1,
+        "impressions": 84,
+        "position": 14.0952
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools",
+        "clicks": 1,
+        "impressions": 69,
+        "position": 10.8261
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+        "clicks": 1,
+        "impressions": 24,
+        "position": 8.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam",
+        "clicks": 1,
+        "impressions": 312,
+        "position": 21.8109
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
+        "clicks": 1,
+        "impressions": 164,
+        "position": 10.5183
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-score-do-you-need-to-get-into-a-grammar-school",
+        "clicks": 1,
+        "impressions": 600,
+        "position": 12.6483
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
+        "clicks": 1,
+        "impressions": 44,
+        "position": 12.4091
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
+        "clicks": 1,
+        "impressions": 48,
+        "position": 20.3542
+      },
+      {
+        "page": "https://www.11plusexampapers.com/exam-dates",
+        "clicks": 1,
+        "impressions": 384,
+        "position": 20.638
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 1,
+        "impressions": 644,
+        "position": 61.3944
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/qe-boys",
+        "clicks": 1,
+        "impressions": 3,
+        "position": 24.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/tiffin",
+        "clicks": 1,
+        "impressions": 81,
+        "position": 45.2593
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english",
+        "clicks": 1,
+        "impressions": 15,
+        "position": 31.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths",
+        "clicks": 1,
+        "impressions": 48,
+        "position": 55.8958
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/non-verbal-reasoning",
+        "clicks": 1,
+        "impressions": 14,
+        "position": 47.8571
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/leicester",
+        "clicks": 1,
+        "impressions": 14,
+        "position": 25.2857
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog",
+        "clicks": 0,
+        "impressions": 46,
+        "position": 23.8478
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-3d-shape-properties",
+        "clicks": 0,
+        "impressions": 84,
+        "position": 11.1548
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-able-ible",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 15.2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-adverbs-adverbials",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 14.1818
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-algebra-basics",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 15.4615
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-ant-ent",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 9
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-apostrophes",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-averages",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 7.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-cial-tial",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 5.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-cious-tious",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 13.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-commas",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-comparative-superlative-adjectives",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 7.875
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-currency-exchange",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 11.4167
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-data-interpretation",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-decimal-arithmetic",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 11
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-describing-settings",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-determiners-articles",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 7.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-divisibility-rules",
+        "clicks": 0,
+        "impressions": 432,
+        "position": 8.5116
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-doubling-consonants",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 13.4286
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-ellipsis",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 11.8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring",
+        "clicks": 0,
+        "impressions": 123,
+        "position": 6.5935
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 15.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-fact-opinion",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 6.5714
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-factors-multiples-primes",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 21.6364
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-homophones",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 6.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-hyphens-dashes",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 14.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-ie-ei-spelling",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 8.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-missing-angles",
+        "clicks": 0,
+        "impressions": 17,
+        "position": 7.7647
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-money-best-value",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 6.1667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-multiplying-dividing-fractions",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 19.9167
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-ough-spelling",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 7.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-paragraph-cohesion",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 9
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-percentage-increase-decrease",
+        "clicks": 0,
+        "impressions": 78,
+        "position": 6.7051
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-persuasive-paragraphs",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 4.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-plural-spellings",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 5.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-prefixes-suffixes",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 8.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-prepositions",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 9.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-probability",
+        "clicks": 0,
+        "impressions": 38,
+        "position": 6.1842
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-pronouns",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 9
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-quadrilaterals",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 11.7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-recipe-scaling",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-relative-clauses",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 3
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-roman-numerals",
+        "clicks": 0,
+        "impressions": 70,
+        "position": 17.3714
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-rounding-estimation",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 6.7368
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-scale-drawings-maps",
+        "clicks": 0,
+        "impressions": 47,
+        "position": 6.5745
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-sentence-structure",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 5.8182
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-silent-letters",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 9.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-similes-metaphors-personification",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 8.1579
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-speed-distance-time",
+        "clicks": 0,
+        "impressions": 20,
+        "position": 9.1
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-square-cube-numbers",
+        "clicks": 0,
+        "impressions": 56,
+        "position": 8.1786
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-story-continuation",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-story-endings",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-subject-verb-agreement",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-summarising-main-ideas",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 2.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-synonyms-antonyms",
+        "clicks": 0,
+        "impressions": 28,
+        "position": 15.1071
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-tense-consistency",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 5.5385
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-time-management-strategies-in-the-exam",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-time-timetables",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 7.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-tion-sion-cian",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-triangle-properties",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 9.2222
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-venn-carroll-diagrams",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 9.3
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-vocabulary-in-context",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-volume-capacity",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 8.3077
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-word-classes-context",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 6.1111
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-working-backwards",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 20.75
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/11-plus-writers-purpose",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/altrincham-girls-2028-admissions-consultation",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 7.7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
+        "clicks": 0,
+        "impressions": 57,
+        "position": 31.2982
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 10.9333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school",
+        "clicks": 0,
+        "impressions": 188,
+        "position": 10.9894
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+        "clicks": 0,
+        "impressions": 75,
+        "position": 5.28
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
+        "clicks": 0,
+        "impressions": 408,
+        "position": 7.3456
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/aylesbury-grammar-2028-admissions-consultation",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 10
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation",
+        "clicks": 0,
+        "impressions": 157,
+        "position": 20.0127
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/churston-november-2026-school-tours",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 5.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/common-11-plus-english-mistakes-to-avoid",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 9
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 13.2727
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 12.2222
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+        "clicks": 0,
+        "impressions": 75,
+        "position": 5.0533
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support",
+        "clicks": 0,
+        "impressions": 48,
+        "position": 7.1458
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first",
+        "clicks": 0,
+        "impressions": 142,
+        "position": 6.7887
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/felsted-year-7-taster-days-november-2026",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/gl-vs-cem-11-plus-what-is-the-difference",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 6.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/heathfield-year-7-assessment-november-2026",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 7.5833
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
+        "clicks": 0,
+        "impressions": 258,
+        "position": 30.7442
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-early-should-we-start-11-plus-preparation",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 6.7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam",
+        "clicks": 0,
+        "impressions": 426,
+        "position": 7.3286
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+        "clicks": 0,
+        "impressions": 97,
+        "position": 11.0825
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+        "clicks": 0,
+        "impressions": 713,
+        "position": 10.8836
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-hours-a-week-should-my-child-study-for-11-plus",
+        "clicks": 0,
+        "impressions": 142,
+        "position": 8.6197
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
+        "clicks": 0,
+        "impressions": 23,
+        "position": 8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-choose-the-right-grammar-school-after-the-11-plus",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 7.3077
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 9.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home",
+        "clicks": 0,
+        "impressions": 65,
+        "position": 56.7692
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/how-to-register-my-child-for-the-11-plus",
+        "clicks": 0,
+        "impressions": 138,
+        "position": 17.0435
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance",
+        "clicks": 0,
+        "impressions": 65,
+        "position": 18.3077
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/kent-test-2027-quest-assessments",
+        "clicks": 0,
+        "impressions": 42,
+        "position": 7.881
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
+        "clicks": 0,
+        "impressions": 136,
+        "position": 61.6103
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/secondary-school-deadline-31-october-2026",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-are-the-grammar-school-admission-criteria",
+        "clicks": 0,
+        "impressions": 110,
+        "position": 18.0727
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
+        "clicks": 0,
+        "impressions": 105,
+        "position": 9.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning",
+        "clicks": 0,
+        "impressions": 47,
+        "position": 16.9149
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning",
+        "clicks": 0,
+        "impressions": 225,
+        "position": 24.9289
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-a-good-11-plus-score-or-pass-mark",
+        "clicks": 0,
+        "impressions": 133,
+        "position": 31.9774
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
+        "clicks": 0,
+        "impressions": 596,
+        "position": 30.1879
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 7.4615
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+        "clicks": 0,
+        "impressions": 1518,
+        "position": 8.4822
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+        "clicks": 0,
+        "impressions": 65,
+        "position": 15.8308
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 10
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/when-are-the-11-plus-exam-dates-in-my-area",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 20.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/blog/wirral-11-plus-results-october-2026",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 6.3846
+      },
+      {
+        "page": "https://www.11plusexampapers.com/compare",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 6.1111
+      },
+      {
+        "page": "https://www.11plusexampapers.com/guides/gl-vs-cem",
+        "clicks": 0,
+        "impressions": 38,
+        "position": 16.6842
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 161,
+        "position": 51.5342
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools",
+        "clicks": 0,
+        "impressions": 36,
+        "position": 24.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/cls-boys",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 31.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/dulwich-college",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/eton",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/godolphin-latymer",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 17.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/henrietta-barnett",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/highgate",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 27
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/kcs-wimbledon",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 21.6111
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/mcs-oxford",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 11
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/oxford-high",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 6.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/st-olaves",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 9.6364
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/st-pauls",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 57.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/schools/wimbledon-high",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 27.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 4.7857
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english/comprehension-inference",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/english/comprehension-retrieval",
+        "clicks": 0,
+        "impressions": 66,
+        "position": 7.7727
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/maths/ratio-sharing",
+        "clicks": 0,
+        "impressions": 126,
+        "position": 8.1429
+      },
+      {
+        "page": "https://www.11plusexampapers.com/subjects/verbal-reasoning",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 53.8462
+      },
+      {
+        "page": "https://www.11plusexampapers.com/terms",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/birmingham",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 45.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/bradford",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 28.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/brighton",
+        "clicks": 0,
+        "impressions": 20,
+        "position": 21.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/bristol",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 27.6154
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/cardiff",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 17.625
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/coventry",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 24.1429
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/derby",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 32.8182
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/edinburgh",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 47.1667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/glasgow",
+        "clicks": 0,
+        "impressions": 47,
+        "position": 21.383
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/leeds",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 32.2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/liverpool",
+        "clicks": 0,
+        "impressions": 29,
+        "position": 35.9655
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/london",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 60
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/manchester",
+        "clicks": 0,
+        "impressions": 21,
+        "position": 50
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/newcastle",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 8.9231
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/nottingham",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 25.5556
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/oxford",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 20.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/reading",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 22.4444
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/sheffield",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 27.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/tutors/southampton",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 33.3
+      }
+    ],
+    "total_rows": 227
+  },
+  "visibleQueries": {
+    "status": "done",
+    "data": [
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 mock exam",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 56
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 mock exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 26
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 mock test",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 80
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exam",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 44.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exams",
+        "clicks": 0,
+        "impressions": 41,
+        "position": 62.0488
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exams free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 12
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock exams online",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 54
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 65.5714
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test elland",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 18
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test online",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 65.875
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test online free",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 51.2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock tests",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 53.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11 plus mock test​",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock exam",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 56
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 48
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock exams free online",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 61
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 14
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock test",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 44.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11+ mock tests",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "11plus mock test",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 17
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "free 11 plus mock test",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 67.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock 11 plus exam",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 52
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock 11 plus exams",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock exam 11 plus",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 92
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock test 11 plus",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 57.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock test 11 plus free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "query": "mock tests 11 plus",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 40.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 exam papers",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 49.125
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 exam practice papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 41.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 non verbal reasoning papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 40
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 non verbal reasoning practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 38
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 papers",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 70.2
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 past papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 65.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 past papers with answers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus assessment papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 57.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus creative writing past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 66
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english exam papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 92
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english papers",
+        "clicks": 0,
+        "impressions": 41,
+        "position": 72.0976
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english practice papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 61.25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus english test papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 68
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam example questions",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 86
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam free practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 37
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam maths",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 11
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam paper",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 42.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam papers",
+        "clicks": 0,
+        "impressions": 33,
+        "position": 54.7576
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam papers maths",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 65.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam past papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 52
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam practice",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 42
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus exam questions",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 52.8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus example questions",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 40
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus gl exam papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 66.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus gl practice papers free online",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus independent school papers with answers",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 52.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus maths papers",
+        "clicks": 0,
+        "impressions": 36,
+        "position": 84.6389
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus mock papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 48
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus mock test dewsbury",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 30
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus mock test grassington",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 25
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 69
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning papers pdf with answers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 52
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning practice papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 64
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning practice papers free",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 51
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus non verbal reasoning sample papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 38
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus papers",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 79.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus papers pdf",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 81
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus past papers",
+        "clicks": 0,
+        "impressions": 39,
+        "position": 80.3846
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus past papers free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 44
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus past papers maths",
+        "clicks": 0,
+        "impressions": 28,
+        "position": 77.4286
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 48
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice papers",
+        "clicks": 0,
+        "impressions": 32,
+        "position": 51.5625
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice papers pdf",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 68.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice papers with answers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 61.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice questions",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 40.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practice test",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 76.8333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus practise papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 64.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus questions",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 64
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus sample papers",
+        "clicks": 0,
+        "impressions": 17,
+        "position": 89.7059
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus test papers",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 54.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus test papers with answers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus test questions",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 91.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus verbal reasoning papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 56
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus verbal reasoning practice",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 89
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 plus worksheets",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice paper",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 60.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice papers",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 74.7692
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice papers free to print",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 70
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practice papers online",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 81
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11 practise papers",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 60.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ exam papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 43.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ exam past papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 51
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ past paper",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 70
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ past papers",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 56.6667
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ practice papers",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 65.9091
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ practice papers online free",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 62
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11+ test papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 59
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus co uk practice papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 78
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus exam papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 35.4
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 47.6
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "11plus past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 16
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "12 plus exam papers free with answers pdf",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 26
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "best 11 plus practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 49
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "buckinghamshire 11 plus practice papers free",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 52.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus english papers",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 46.5
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus exam papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 66
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus papers",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 73.125
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus past papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 58
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "eleven plus test papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 78
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "fair banding test practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 44
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11 plus exam papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11 plus papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 45.8
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11 plus practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "free 11+ practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "gl 11 plus past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 93
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "gl 11 practice papers online",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 99
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "gl exam papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 70
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "grammar school exam practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 73
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "grammar school practice papers",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 71.7
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "grammar school test papers with answers pdf",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 54.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "letts 11 plus practice papers free",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 84
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "letts 11 plus practice test papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 45
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "lincolnshire 11+ practice papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 66
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "non verbal reasoning past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 79
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "old 11 plus papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 82
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "past papers 11 plus",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 46
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "practice 11+ papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 90
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "school papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 49.75
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "test papers for 11 exams",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 73.7143
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "verbal reasoning 11+ past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 53
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "verbal reasoning test papers 11",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 53.3333
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "wandsworth test past papers",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 38
+      },
+      {
+        "page": "https://www.11plusexampapers.com/papers",
+        "query": "year 5 11 plus practice papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 65.6667
+      }
+    ],
+    "total_rows": 133
+  },
+  "resourceDaily": {
+    "status": "done",
+    "data": [
+      {
+        "date": "2026-09-19",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 44.6667
+      },
+      {
+        "date": "2026-09-19",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 40.8333
+      },
+      {
+        "date": "2026-09-20",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 36.5
+      },
+      {
+        "date": "2026-09-20",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 44.4167
+      },
+      {
+        "date": "2026-09-21",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 52.8
+      },
+      {
+        "date": "2026-09-21",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 46
+      },
+      {
+        "date": "2026-09-22",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 46.3333
+      },
+      {
+        "date": "2026-09-22",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 27,
+        "position": 42.6296
+      },
+      {
+        "date": "2026-09-23",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 42.2222
+      },
+      {
+        "date": "2026-09-23",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 17,
+        "position": 47.4706
+      },
+      {
+        "date": "2026-09-24",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 44.1429
+      },
+      {
+        "date": "2026-09-24",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 42.125
+      },
+      {
+        "date": "2026-09-25",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 43
+      },
+      {
+        "date": "2026-09-25",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 45.7143
+      },
+      {
+        "date": "2026-09-26",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 1,
+        "impressions": 5,
+        "position": 29.2
+      },
+      {
+        "date": "2026-09-26",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 44.3333
+      },
+      {
+        "date": "2026-09-27",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 46.75
+      },
+      {
+        "date": "2026-09-27",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 41.6667
+      },
+      {
+        "date": "2026-09-28",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 43.7143
+      },
+      {
+        "date": "2026-09-28",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 21,
+        "position": 48.1905
+      },
+      {
+        "date": "2026-09-29",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 38
+      },
+      {
+        "date": "2026-09-29",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 46
+      },
+      {
+        "date": "2026-09-30",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 45.5
+      },
+      {
+        "date": "2026-09-30",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 26,
+        "position": 43.3846
+      },
+      {
+        "date": "2026-10-01",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 45.625
+      },
+      {
+        "date": "2026-10-01",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 47.6316
+      },
+      {
+        "date": "2026-10-02",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 52
+      },
+      {
+        "date": "2026-10-02",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 41.375
+      },
+      {
+        "date": "2026-10-03",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 49.5
+      },
+      {
+        "date": "2026-10-03",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 41.4
+      },
+      {
+        "date": "2026-10-04",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 49.6667
+      },
+      {
+        "date": "2026-10-04",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 20,
+        "position": 44.9
+      },
+      {
+        "date": "2026-10-05",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 56
+      },
+      {
+        "date": "2026-10-05",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 41.5455
+      },
+      {
+        "date": "2026-10-06",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 57.1111
+      },
+      {
+        "date": "2026-10-06",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 46.375
+      },
+      {
+        "date": "2026-10-07",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 47
+      },
+      {
+        "date": "2026-10-07",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 41.875
+      },
+      {
+        "date": "2026-10-08",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 1,
+        "impressions": 12,
+        "position": 43.1667
+      },
+      {
+        "date": "2026-10-08",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 48
+      },
+      {
+        "date": "2026-10-09",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 44.6364
+      },
+      {
+        "date": "2026-10-09",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 42.2667
+      },
+      {
+        "date": "2026-10-10",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 47.8
+      },
+      {
+        "date": "2026-10-10",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 54.5
+      },
+      {
+        "date": "2026-10-11",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 48.25
+      },
+      {
+        "date": "2026-10-11",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 55.6
+      },
+      {
+        "date": "2026-10-12",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 45
+      },
+      {
+        "date": "2026-10-12",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 56.4667
+      },
+      {
+        "date": "2026-10-13",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 61.5
+      },
+      {
+        "date": "2026-10-13",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 50.5556
+      },
+      {
+        "date": "2026-10-14",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 57.25
+      },
+      {
+        "date": "2026-10-14",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 47.4286
+      },
+      {
+        "date": "2026-10-15",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 46.5
+      },
+      {
+        "date": "2026-10-15",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 40.7143
+      },
+      {
+        "date": "2026-10-16",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 54.3636
+      },
+      {
+        "date": "2026-10-16",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 43.4
+      },
+      {
+        "date": "2026-10-17",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 47.8889
+      },
+      {
+        "date": "2026-10-17",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 47.1667
+      },
+      {
+        "date": "2026-10-18",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 44.5
+      },
+      {
+        "date": "2026-10-18",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 25,
+        "position": 48.72
+      },
+      {
+        "date": "2026-10-19",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 56.1111
+      },
+      {
+        "date": "2026-10-19",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 56.75
+      },
+      {
+        "date": "2026-10-20",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 64
+      },
+      {
+        "date": "2026-10-20",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 51.4
+      },
+      {
+        "date": "2026-10-21",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 48.8
+      },
+      {
+        "date": "2026-10-21",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 41.6429
+      },
+      {
+        "date": "2026-10-22",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 25,
+        "position": 51.44
+      },
+      {
+        "date": "2026-10-22",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 39,
+        "position": 46.1795
+      },
+      {
+        "date": "2026-10-23",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 52.5714
+      },
+      {
+        "date": "2026-10-23",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 54.5833
+      },
+      {
+        "date": "2026-10-24",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 53.75
+      },
+      {
+        "date": "2026-10-24",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 35.1667
+      },
+      {
+        "date": "2026-10-25",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 58.6667
+      },
+      {
+        "date": "2026-10-25",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 48.5
+      },
+      {
+        "date": "2026-10-26",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 79
+      },
+      {
+        "date": "2026-10-26",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 21,
+        "position": 54.0476
+      },
+      {
+        "date": "2026-10-27",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 35.2
+      },
+      {
+        "date": "2026-10-27",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 23,
+        "position": 60.3478
+      },
+      {
+        "date": "2026-10-28",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 28
+      },
+      {
+        "date": "2026-10-28",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 25,
+        "position": 55.36
+      },
+      {
+        "date": "2026-10-29",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 48.6667
+      },
+      {
+        "date": "2026-10-29",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 61.8421
+      },
+      {
+        "date": "2026-10-30",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 47
+      },
+      {
+        "date": "2026-10-30",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 53.6667
+      },
+      {
+        "date": "2026-10-31",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 62.6667
+      },
+      {
+        "date": "2026-11-01",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 68
+      },
+      {
+        "date": "2026-11-01",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 27,
+        "position": 65.2593
+      },
+      {
+        "date": "2026-11-02",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 38.3333
+      },
+      {
+        "date": "2026-11-02",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 65.875
+      },
+      {
+        "date": "2026-11-03",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1
+      },
+      {
+        "date": "2026-11-03",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 17,
+        "position": 43.3529
+      },
+      {
+        "date": "2026-11-04",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 48.3333
+      },
+      {
+        "date": "2026-11-04",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 31,
+        "position": 62.7419
+      },
+      {
+        "date": "2026-11-05",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 100
+      },
+      {
+        "date": "2026-11-05",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 76,
+        "position": 78.2763
+      },
+      {
+        "date": "2026-11-06",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 47
+      },
+      {
+        "date": "2026-11-06",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 31,
+        "position": 56.7097
+      },
+      {
+        "date": "2026-11-07",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 77.8889
+      },
+      {
+        "date": "2026-11-08",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 1,
+        "impressions": 25,
+        "position": 57.72
+      },
+      {
+        "date": "2026-11-08",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 46.25
+      },
+      {
+        "date": "2026-11-09",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 16
+      },
+      {
+        "date": "2026-11-09",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 33,
+        "position": 75.7879
+      },
+      {
+        "date": "2026-11-10",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 70
+      },
+      {
+        "date": "2026-11-10",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 35,
+        "position": 67.4857
+      },
+      {
+        "date": "2026-11-11",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 67
+      },
+      {
+        "date": "2026-11-11",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 44,
+        "position": 56
+      },
+      {
+        "date": "2026-11-12",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 65.5556
+      },
+      {
+        "date": "2026-11-12",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 32,
+        "position": 69.4688
+      },
+      {
+        "date": "2026-11-13",
+        "page": "https://www.11plusexampapers.com/mock-exams",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 45
+      },
+      {
+        "date": "2026-11-13",
+        "page": "https://www.11plusexampapers.com/papers",
+        "clicks": 0,
+        "impressions": 29,
+        "position": 70.8276
+      }
+    ],
+    "total_rows": 110
+  },
+  "comparisons": {
+    "/papers": {
+      "previous28": {
+        "from": "2026-09-19",
+        "to": "2026-10-16",
+        "clicks": 1,
+        "impressions": 367,
+        "ctr": 0.2724795640326976,
+        "position": 45.14169836512263
+      },
+      "latest28": {
+        "from": "2026-10-17",
+        "to": "2026-11-13",
+        "clicks": 1,
+        "impressions": 644,
+        "ctr": 0.15527950310559005,
+        "position": 61.394412422360254
+      },
+      "previous14": {
+        "from": "2026-10-17",
+        "to": "2026-10-30",
+        "clicks": 0,
+        "impressions": 235,
+        "ctr": 0,
+        "position": 52.012767234042556
+      },
+      "latest14": {
+        "from": "2026-10-31",
+        "to": "2026-11-13",
+        "clicks": 1,
+        "impressions": 409,
+        "ctr": 0.24449877750611246,
+        "position": 66.78484425427874
+      }
+    },
+    "/mock-exams": {
+      "previous28": {
+        "from": "2026-09-19",
+        "to": "2026-10-16",
+        "clicks": 1,
+        "impressions": 213,
+        "ctr": 0.4694835680751174,
+        "position": 47.863851173708916
+      },
+      "latest28": {
+        "from": "2026-10-17",
+        "to": "2026-11-13",
+        "clicks": 0,
+        "impressions": 161,
+        "ctr": 0,
+        "position": 51.53416335403727
+      },
+      "previous14": {
+        "from": "2026-10-17",
+        "to": "2026-10-30",
+        "clicks": 0,
+        "impressions": 119,
+        "ctr": 0,
+        "position": 51.52100924369748
+      },
+      "latest14": {
+        "from": "2026-10-31",
+        "to": "2026-11-13",
+        "clicks": 0,
+        "impressions": 42,
+        "ctr": 0,
+        "position": 51.57143333333333
+      }
+    }
+  }
+}
