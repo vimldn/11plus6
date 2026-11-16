@@ -1,13 +1,8 @@
 import Link from 'next/link';
+import { PRINTABLE_PRACTICE as printables } from '@/lib/printablePractice';
+import { PRACTICE_SESSIONS } from '@/lib/practiceSessionLinks';
 import { visualPool } from '@/data/visualPractice';
 import { VisualAnswer, VisualStem, VisualWorked } from '@/components/VisualDiagram';
-
-const printables = [
-  { id: 'maths', title: 'Maths foundations', count: 20, scope: 'Order of operations, factors and multiples, negative numbers and percentage change.', format: 'Written answers with working space', hub: '/subjects/maths', practice: '/quiz?paper=maths-generated&mode=practice', sample: 'Work out 14 + 6 × 5.', answer: '44', explanation: 'Multiply 6 × 5 = 30, then add 14. Adding first would give 100, which changes the order of operations.' },
-  { id: 'english', title: 'English punctuation', count: 16, scope: 'Apostrophes, possession, contractions and direct-speech punctuation.', format: 'Written answers and an original passage', hub: '/subjects/english', practice: '/blog/11-plus-direct-speech-punctuation', sample: 'Rewrite “We have finished the display” using a contraction.', answer: 'We’ve finished the display.', explanation: 'We’ve contracts we have. The apostrophe marks the omitted letters in have.' },
-  { id: 'verbal', title: 'Verbal reasoning starter', count: 12, scope: 'Letter codes, word analogies, classifications and constant-step letter or number sequences.', format: 'Four-option questions with working space', hub: '/subjects/verbal-reasoning', practice: '/quiz?paper=verbal-reviewed&mode=practice', sample: 'Cat is to kitten as dog is to ___?', answer: 'Puppy.', explanation: 'A kitten is a baby cat; a puppy is a baby dog. Keep the relationship in the same direction.' },
-  { id: 'nonverbal', title: 'Non-verbal reasoning starter', count: 8, scope: 'Rotations, reflections, constant-turn sequences and transformation matrices: two questions on each skill.', format: 'Original diagrams and four visual options', hub: '/subjects/non-verbal-reasoning', practice: '/quiz?paper=visual-reviewed&mode=practice', sample: '', answer: '', explanation: '' },
-];
 
 const paperMethods: Record<string, { label: string; href: string }[]> = {
   maths: [
@@ -66,6 +61,12 @@ export function PracticeResourceCatalogue() {
               <ul className="mt-3 space-y-2 text-sm font-semibold text-emerald-900">
                 {paperMethods[paper.id].map(method => <li key={method.href}><Link href={method.href} className="underline underline-offset-4">{method.label} →</Link></li>)}
               </ul>
+            </div>
+            <div className="mt-6 rounded-xl bg-stone-50 p-4">
+              <h4 className="font-bold text-slate-900">Prefer to answer on screen?</h4>
+              <p className="mt-2 text-sm leading-6 text-slate-600">The online {PRACTICE_SESSIONS[paper.id].label.toLowerCase()} set starts with {PRACTICE_SESSIONS[paper.id].questions} questions. {PRACTICE_SESSIONS[paper.id].scope}</p>
+              <p className="mt-2 text-sm leading-6 text-slate-600">{paper.id === 'maths' || paper.id === 'english' ? 'It covers a different mix of skills from this PDF.' : 'It practises the same four skill areas; questions can overlap with this booklet.'} Choose untimed feedback or a timed session before starting. Your handwritten PDF answers are marked using the separate answer booklet.</p>
+              <Link href={`/mock-exams?subject=${paper.id}#configure-practice`} className="mt-3 inline-block text-sm font-semibold text-emerald-900 underline underline-offset-4">Choose {PRACTICE_SESSIONS[paper.id].label.toLowerCase()} online settings →</Link>
             </div>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-emerald-900">
               {paper.id !== 'english' && <Link href={paper.practice} className="underline underline-offset-4">Try broader online practice →</Link>}
