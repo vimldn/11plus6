@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = school as any;
   const city: string = s.location?.city ?? 'UK';
   const area: string = s.location?.area ?? city;
-  const description = `${school.name} 11+ preparation guide. Check assessment sources, distinguish test year from school-entry year and explore original skill practice.`;
+  const description = school.id === 'latymer' ? 'Latymer School 11+ guide: proposed Quest tests in 2027 for 2028 entry, consultation status, unconfirmed dates and English and maths preparation.' : `${school.name} 11+ preparation guide. Check assessment sources, distinguish test year from school-entry year and explore original skill practice.`;
 
   return {
     title: `${school.name} — Assessment Sources & 11+ Practice`,

@@ -252,19 +252,18 @@ const GROUPS_2027_ENTRY: SchoolGroup[] = [
   },
   {
     id: 'latymer-2027',
-    name: 'The Latymer School (Edmonton)',
+    name: 'The Latymer School (Edmonton) — September 2027 entry',
     schools: ['The Latymer School'],
-    examFormat: 'GL Assessment (2-stage)',
+    examFormat: 'GL maths and verbal reasoning; school-set English',
     region: 'London', accent: 'sky', entryYear: '2027',
     dates: [
-      { date: 'May 2026',      event: 'Registration expected to open',         certainty: 'pattern' },
-      { date: 'Jul 2026',      event: 'Registration expected to close',        certainty: 'pattern' },
-      { date: 'Sep 2026',      event: 'Stage 1 exam',                          certainty: 'pattern' },
-      { date: 'Oct–Nov 2026',  event: 'Stage 2 exam (shortlisted candidates)', certainty: 'pattern' },
-      { date: '30 Oct 2026',   event: 'CAF deadline',                          certainty: 'confirmed' },
-      { date: '1 Mar 2027',    event: 'National Offers Day',                   certainty: 'confirmed' },
+      { date: '17 Mar–2 Jun 2026', event: 'Registration window (closed)', certainty: 'confirmed' },
+      { date: '3, 4 or 5 Sep 2026', event: 'One allocated test day; all papers in that sitting', certainty: 'confirmed' },
+      { date: 'Before end Sep 2026', event: 'Maths and verbal reasoning results', certainty: 'confirmed' },
+      { date: 'Before end Oct 2026', event: 'Results including English for qualifying candidates', certainty: 'confirmed' },
     ],
-    officialUrl: 'https://www.latymer.co.uk/admissions',
+    officialUrl: 'https://www.latymer.co.uk/2027admissionsyear7',
+    note: 'Checked 17 November 2026 against the school’s September 2027-entry policy. These are historical 2026 tests, not the proposed 2027 assessment. Successive marking stages are not separate test appointments. School registration and the home local authority application are separate steps.',
   },
   {
     id: 'redbridge-2027',
@@ -521,7 +520,7 @@ export default function ExamDatesClient() {
             </h1>
             <p className="text-lg text-slate-500 max-w-2xl leading-relaxed mb-6">
               Registration deadlines, test dates and results timelines for grammar and independent school entrance exams across England.
-              <strong className="text-slate-700">September 2027 entry</strong> is shown first: many of those tests take place in 2026. The two Tiffin timetables were checked on 11 November 2026; St Olave’s was checked on 12 November 2026. Other calendar groups were not rechecked in these updates.
+              <strong className="text-slate-700">September 2027 entry</strong> is shown first: many of those tests take place in 2026. Dated source checks below cover selected schools, including Latymer on 17 November 2026. Other calendar groups have not all been rechecked; confirm their current arrangements with the named authority.
             </p>
             <div className="flex flex-wrap gap-4">
               {[
@@ -536,6 +535,13 @@ export default function ExamDatesClient() {
               ))}
             </div>
           </div>
+        </section>
+
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="latymer-2027-tests">
+          <h2 id="latymer-2027-tests" className="text-2xl font-bold">Latymer: 2027 tests and the 2028-entry consultation</h2>
+          <p className="mt-4 leading-relaxed">The Edmonton school is consulting on a proposed change to Quest maths and English comprehension/writing for September 2027 tests, leading to September 2028 entry. Consultation closes on 22 December 2026; the decision is due by 28 February 2027. Read the <a className="underline" href="https://www.latymer.co.uk/2028admissionsyear7">school’s dated consultation and response instructions</a>. The format is not treated as final here.</p>
+          <p className="mt-4 leading-relaxed"><a className="underline" href="https://www.questassessments.com/parent-guidance-consortium/the-latymer-school-assessment">The provider’s planning guide</a> indicates March–June registration and September testing in 2027, without exact days. Keep those dates unconfirmed until final arrangements appear. The school’s 29 April 2027 open afternoon is a separate visit.</p>
+          <p className="mt-4 leading-relaxed">The September 2027-entry card below instead records tests taken in 2026, checked against the <a className="underline" href="https://www.latymer.co.uk/_site/data/files/documents/5-admissions/399D0278C3C28C2E4E753C53C8FA5AD8.pdf">school’s previous-cycle policy</a>. Read our <Link className="underline" href="/schools/latymer">Latymer assessment and preparation guide</Link> for the source distinction and relevant English and maths practice. Checked 17 November 2026.</p>
         </section>
 
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="newstead-2027-tests">

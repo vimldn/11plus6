@@ -1,0 +1,3038 @@
+{
+  "property": "https://www.11plusexampapers.com/",
+  "searchType": "web",
+  "devices": "all",
+  "fetchedAt": "2026-11-17",
+  "finalThrough": "2026-11-15",
+  "calculations": [
+    {
+      "label": "previous28",
+      "start": "2026-09-21",
+      "end": "2026-10-18",
+      "days": 28,
+      "global": {
+        "clicks": 301,
+        "impressions": 24568,
+        "ctr": 1.2251709540866167,
+        "position": 9.766036107945295
+      },
+      "countryReconciliation": {
+        "clicks": 301,
+        "impressions": 24568,
+        "ctr": 1.2251709540866167,
+        "position": 9.766023380006516
+      },
+      "uk": {
+        "clicks": 283,
+        "impressions": 22254,
+        "ctr": 1.2716814954614901,
+        "position": 9.56347901500854,
+        "clicksPerDay": 10.107142857142858,
+        "impressionsPerDay": 794.7857142857143
+      }
+    },
+    {
+      "label": "latest28",
+      "start": "2026-10-19",
+      "end": "2026-11-15",
+      "days": 28,
+      "global": {
+        "clicks": 191,
+        "impressions": 22430,
+        "ctr": 0.8515381185911726,
+        "position": 12.944977958091842
+      },
+      "countryReconciliation": {
+        "clicks": 191,
+        "impressions": 22430,
+        "ctr": 0.8515381185911726,
+        "position": 12.94498002229158
+      },
+      "uk": {
+        "clicks": 160,
+        "impressions": 16801,
+        "ctr": 0.9523242664127135,
+        "position": 13.483358377477535,
+        "clicksPerDay": 5.714285714285714,
+        "impressionsPerDay": 600.0357142857143
+      }
+    },
+    {
+      "label": "previous14",
+      "start": "2026-10-19",
+      "end": "2026-11-01",
+      "days": 14,
+      "global": {
+        "clicks": 109,
+        "impressions": 11621,
+        "ctr": 0.9379571465450478,
+        "position": 12.579035315377334
+      },
+      "countryReconciliation": {
+        "clicks": 109,
+        "impressions": 11621,
+        "ctr": 0.9379571465450478,
+        "position": 12.57903435160485
+      },
+      "uk": {
+        "clicks": 100,
+        "impressions": 9315,
+        "ctr": 1.0735373054213635,
+        "position": 12.762098518518519,
+        "clicksPerDay": 7.142857142857143,
+        "impressionsPerDay": 665.3571428571429
+      }
+    },
+    {
+      "label": "latest14",
+      "start": "2026-11-02",
+      "end": "2026-11-15",
+      "days": 14,
+      "global": {
+        "clicks": 82,
+        "impressions": 10809,
+        "ctr": 0.7586270700342307,
+        "position": 13.33841115736886
+      },
+      "countryReconciliation": {
+        "clicks": 82,
+        "impressions": 10809,
+        "ctr": 0.7586270700342307,
+        "position": 13.338416477009897
+      },
+      "uk": {
+        "clicks": 60,
+        "impressions": 7486,
+        "ctr": 0.8014961261020572,
+        "position": 14.380838418380979,
+        "clicksPerDay": 4.285714285714286,
+        "impressionsPerDay": 534.7142857142857
+      }
+    }
+  ],
+  "globalDaily": [
+    {
+      "date": "2026-09-21",
+      "clicks": 9,
+      "impressions": 719,
+      "position": 9.8317
+    },
+    {
+      "date": "2026-09-22",
+      "clicks": 7,
+      "impressions": 824,
+      "position": 11.1044
+    },
+    {
+      "date": "2026-09-23",
+      "clicks": 13,
+      "impressions": 772,
+      "position": 11.5013
+    },
+    {
+      "date": "2026-09-24",
+      "clicks": 6,
+      "impressions": 694,
+      "position": 10.5576
+    },
+    {
+      "date": "2026-09-25",
+      "clicks": 3,
+      "impressions": 584,
+      "position": 9.6918
+    },
+    {
+      "date": "2026-09-26",
+      "clicks": 10,
+      "impressions": 616,
+      "position": 9.5455
+    },
+    {
+      "date": "2026-09-27",
+      "clicks": 7,
+      "impressions": 531,
+      "position": 9.4463
+    },
+    {
+      "date": "2026-09-28",
+      "clicks": 7,
+      "impressions": 485,
+      "position": 10.8515
+    },
+    {
+      "date": "2026-09-29",
+      "clicks": 5,
+      "impressions": 636,
+      "position": 8.6635
+    },
+    {
+      "date": "2026-09-30",
+      "clicks": 4,
+      "impressions": 607,
+      "position": 12.5157
+    },
+    {
+      "date": "2026-10-01",
+      "clicks": 7,
+      "impressions": 522,
+      "position": 12.8161
+    },
+    {
+      "date": "2026-10-02",
+      "clicks": 5,
+      "impressions": 678,
+      "position": 9.4248
+    },
+    {
+      "date": "2026-10-03",
+      "clicks": 6,
+      "impressions": 559,
+      "position": 9.0233
+    },
+    {
+      "date": "2026-10-04",
+      "clicks": 10,
+      "impressions": 544,
+      "position": 12.7555
+    },
+    {
+      "date": "2026-10-05",
+      "clicks": 7,
+      "impressions": 583,
+      "position": 11.6947
+    },
+    {
+      "date": "2026-10-06",
+      "clicks": 7,
+      "impressions": 560,
+      "position": 11.0304
+    },
+    {
+      "date": "2026-10-07",
+      "clicks": 8,
+      "impressions": 560,
+      "position": 12.4268
+    },
+    {
+      "date": "2026-10-08",
+      "clicks": 9,
+      "impressions": 710,
+      "position": 11.9394
+    },
+    {
+      "date": "2026-10-09",
+      "clicks": 15,
+      "impressions": 1595,
+      "position": 7.9367
+    },
+    {
+      "date": "2026-10-10",
+      "clicks": 11,
+      "impressions": 791,
+      "position": 8.3944
+    },
+    {
+      "date": "2026-10-11",
+      "clicks": 4,
+      "impressions": 705,
+      "position": 9.3333
+    },
+    {
+      "date": "2026-10-12",
+      "clicks": 23,
+      "impressions": 1306,
+      "position": 8.0398
+    },
+    {
+      "date": "2026-10-13",
+      "clicks": 12,
+      "impressions": 923,
+      "position": 8.7822
+    },
+    {
+      "date": "2026-10-14",
+      "clicks": 27,
+      "impressions": 2072,
+      "position": 8.7534
+    },
+    {
+      "date": "2026-10-15",
+      "clicks": 29,
+      "impressions": 2291,
+      "position": 8.3007
+    },
+    {
+      "date": "2026-10-16",
+      "clicks": 19,
+      "impressions": 1622,
+      "position": 8.6819
+    },
+    {
+      "date": "2026-10-17",
+      "clicks": 14,
+      "impressions": 1040,
+      "position": 10.3058
+    },
+    {
+      "date": "2026-10-18",
+      "clicks": 17,
+      "impressions": 1039,
+      "position": 12.1732
+    },
+    {
+      "date": "2026-10-19",
+      "clicks": 10,
+      "impressions": 1038,
+      "position": 10.4277
+    },
+    {
+      "date": "2026-10-20",
+      "clicks": 12,
+      "impressions": 1222,
+      "position": 10.0745
+    },
+    {
+      "date": "2026-10-21",
+      "clicks": 9,
+      "impressions": 1287,
+      "position": 11.1935
+    },
+    {
+      "date": "2026-10-22",
+      "clicks": 11,
+      "impressions": 1214,
+      "position": 14.4498
+    },
+    {
+      "date": "2026-10-23",
+      "clicks": 8,
+      "impressions": 821,
+      "position": 12.8648
+    },
+    {
+      "date": "2026-10-24",
+      "clicks": 6,
+      "impressions": 708,
+      "position": 11.863
+    },
+    {
+      "date": "2026-10-25",
+      "clicks": 7,
+      "impressions": 638,
+      "position": 13.4545
+    },
+    {
+      "date": "2026-10-26",
+      "clicks": 10,
+      "impressions": 709,
+      "position": 12.7927
+    },
+    {
+      "date": "2026-10-27",
+      "clicks": 9,
+      "impressions": 754,
+      "position": 14.6671
+    },
+    {
+      "date": "2026-10-28",
+      "clicks": 7,
+      "impressions": 744,
+      "position": 14.836
+    },
+    {
+      "date": "2026-10-29",
+      "clicks": 7,
+      "impressions": 727,
+      "position": 15.4635
+    },
+    {
+      "date": "2026-10-30",
+      "clicks": 5,
+      "impressions": 574,
+      "position": 11.6829
+    },
+    {
+      "date": "2026-10-31",
+      "clicks": 3,
+      "impressions": 517,
+      "position": 11.4139
+    },
+    {
+      "date": "2026-11-01",
+      "clicks": 5,
+      "impressions": 668,
+      "position": 12.7799
+    },
+    {
+      "date": "2026-11-02",
+      "clicks": 3,
+      "impressions": 743,
+      "position": 11.1803
+    },
+    {
+      "date": "2026-11-03",
+      "clicks": 11,
+      "impressions": 772,
+      "position": 11.7966
+    },
+    {
+      "date": "2026-11-04",
+      "clicks": 7,
+      "impressions": 879,
+      "position": 14.3527
+    },
+    {
+      "date": "2026-11-05",
+      "clicks": 2,
+      "impressions": 756,
+      "position": 18.0357
+    },
+    {
+      "date": "2026-11-06",
+      "clicks": 4,
+      "impressions": 633,
+      "position": 13.7204
+    },
+    {
+      "date": "2026-11-07",
+      "clicks": 3,
+      "impressions": 534,
+      "position": 14.7659
+    },
+    {
+      "date": "2026-11-08",
+      "clicks": 4,
+      "impressions": 618,
+      "position": 13.0906
+    },
+    {
+      "date": "2026-11-09",
+      "clicks": 6,
+      "impressions": 704,
+      "position": 13.0653
+    },
+    {
+      "date": "2026-11-10",
+      "clicks": 7,
+      "impressions": 775,
+      "position": 13.4555
+    },
+    {
+      "date": "2026-11-11",
+      "clicks": 8,
+      "impressions": 813,
+      "position": 13.6962
+    },
+    {
+      "date": "2026-11-12",
+      "clicks": 8,
+      "impressions": 1068,
+      "position": 13.044
+    },
+    {
+      "date": "2026-11-13",
+      "clicks": 5,
+      "impressions": 1172,
+      "position": 11.8242
+    },
+    {
+      "date": "2026-11-14",
+      "clicks": 5,
+      "impressions": 589,
+      "position": 11.82
+    },
+    {
+      "date": "2026-11-15",
+      "clicks": 9,
+      "impressions": 753,
+      "position": 13.7291
+    }
+  ],
+  "ukDaily": [
+    {
+      "date": "2026-09-21",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 643,
+      "position": 9.0264
+    },
+    {
+      "date": "2026-09-22",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 718,
+      "position": 9.7409
+    },
+    {
+      "date": "2026-09-23",
+      "country": "United Kingdom",
+      "clicks": 13,
+      "impressions": 675,
+      "position": 10.8533
+    },
+    {
+      "date": "2026-09-24",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 592,
+      "position": 9.5557
+    },
+    {
+      "date": "2026-09-25",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 499,
+      "position": 9.523
+    },
+    {
+      "date": "2026-09-26",
+      "country": "United Kingdom",
+      "clicks": 10,
+      "impressions": 544,
+      "position": 9.6452
+    },
+    {
+      "date": "2026-09-27",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 464,
+      "position": 9.6293
+    },
+    {
+      "date": "2026-09-28",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 431,
+      "position": 11.1323
+    },
+    {
+      "date": "2026-09-29",
+      "country": "United Kingdom",
+      "clicks": 5,
+      "impressions": 553,
+      "position": 8.5949
+    },
+    {
+      "date": "2026-09-30",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 563,
+      "position": 12.7211
+    },
+    {
+      "date": "2026-10-01",
+      "country": "United Kingdom",
+      "clicks": 5,
+      "impressions": 482,
+      "position": 12.8589
+    },
+    {
+      "date": "2026-10-02",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 600,
+      "position": 9.3267
+    },
+    {
+      "date": "2026-10-03",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 499,
+      "position": 9.0541
+    },
+    {
+      "date": "2026-10-04",
+      "country": "United Kingdom",
+      "clicks": 9,
+      "impressions": 491,
+      "position": 13.1955
+    },
+    {
+      "date": "2026-10-05",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 526,
+      "position": 11.2281
+    },
+    {
+      "date": "2026-10-06",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 507,
+      "position": 11.1282
+    },
+    {
+      "date": "2026-10-07",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 521,
+      "position": 12.4088
+    },
+    {
+      "date": "2026-10-08",
+      "country": "United Kingdom",
+      "clicks": 9,
+      "impressions": 666,
+      "position": 12.024
+    },
+    {
+      "date": "2026-10-09",
+      "country": "United Kingdom",
+      "clicks": 14,
+      "impressions": 1516,
+      "position": 7.9492
+    },
+    {
+      "date": "2026-10-10",
+      "country": "United Kingdom",
+      "clicks": 11,
+      "impressions": 732,
+      "position": 7.9221
+    },
+    {
+      "date": "2026-10-11",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 659,
+      "position": 9.1275
+    },
+    {
+      "date": "2026-10-12",
+      "country": "United Kingdom",
+      "clicks": 22,
+      "impressions": 1229,
+      "position": 7.8405
+    },
+    {
+      "date": "2026-10-13",
+      "country": "United Kingdom",
+      "clicks": 11,
+      "impressions": 872,
+      "position": 8.8303
+    },
+    {
+      "date": "2026-10-14",
+      "country": "United Kingdom",
+      "clicks": 21,
+      "impressions": 1943,
+      "position": 8.528
+    },
+    {
+      "date": "2026-10-15",
+      "country": "United Kingdom",
+      "clicks": 28,
+      "impressions": 2129,
+      "position": 8.3006
+    },
+    {
+      "date": "2026-10-16",
+      "country": "United Kingdom",
+      "clicks": 19,
+      "impressions": 1437,
+      "position": 8.6047
+    },
+    {
+      "date": "2026-10-17",
+      "country": "United Kingdom",
+      "clicks": 14,
+      "impressions": 894,
+      "position": 9.7092
+    },
+    {
+      "date": "2026-10-18",
+      "country": "United Kingdom",
+      "clicks": 17,
+      "impressions": 869,
+      "position": 12.1577
+    },
+    {
+      "date": "2026-10-19",
+      "country": "United Kingdom",
+      "clicks": 10,
+      "impressions": 910,
+      "position": 10.178
+    },
+    {
+      "date": "2026-10-20",
+      "country": "United Kingdom",
+      "clicks": 12,
+      "impressions": 1046,
+      "position": 10.1663
+    },
+    {
+      "date": "2026-10-21",
+      "country": "United Kingdom",
+      "clicks": 9,
+      "impressions": 1108,
+      "position": 10.7852
+    },
+    {
+      "date": "2026-10-22",
+      "country": "United Kingdom",
+      "clicks": 11,
+      "impressions": 999,
+      "position": 14.7307
+    },
+    {
+      "date": "2026-10-23",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 663,
+      "position": 13.4902
+    },
+    {
+      "date": "2026-10-24",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 555,
+      "position": 11.8901
+    },
+    {
+      "date": "2026-10-25",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 495,
+      "position": 13.8323
+    },
+    {
+      "date": "2026-10-26",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 552,
+      "position": 13.8098
+    },
+    {
+      "date": "2026-10-27",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 572,
+      "position": 14.7378
+    },
+    {
+      "date": "2026-10-28",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 558,
+      "position": 15.095
+    },
+    {
+      "date": "2026-10-29",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 560,
+      "position": 16.875
+    },
+    {
+      "date": "2026-10-30",
+      "country": "United Kingdom",
+      "clicks": 2,
+      "impressions": 406,
+      "position": 11.9089
+    },
+    {
+      "date": "2026-10-31",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 389,
+      "position": 11.0488
+    },
+    {
+      "date": "2026-11-01",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 502,
+      "position": 13.6813
+    },
+    {
+      "date": "2026-11-02",
+      "country": "United Kingdom",
+      "clicks": 1,
+      "impressions": 515,
+      "position": 11.5922
+    },
+    {
+      "date": "2026-11-03",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 536,
+      "position": 11.7612
+    },
+    {
+      "date": "2026-11-04",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 607,
+      "position": 14.9753
+    },
+    {
+      "date": "2026-11-05",
+      "country": "United Kingdom",
+      "clicks": 1,
+      "impressions": 584,
+      "position": 19.7397
+    },
+    {
+      "date": "2026-11-06",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 489,
+      "position": 14.9714
+    },
+    {
+      "date": "2026-11-07",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 419,
+      "position": 14.4773
+    },
+    {
+      "date": "2026-11-08",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 456,
+      "position": 13.9342
+    },
+    {
+      "date": "2026-11-09",
+      "country": "United Kingdom",
+      "clicks": 5,
+      "impressions": 535,
+      "position": 13.6131
+    },
+    {
+      "date": "2026-11-10",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 558,
+      "position": 14.4427
+    },
+    {
+      "date": "2026-11-11",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 582,
+      "position": 14.9192
+    },
+    {
+      "date": "2026-11-12",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 530,
+      "position": 16.4811
+    },
+    {
+      "date": "2026-11-13",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 718,
+      "position": 12.1393
+    },
+    {
+      "date": "2026-11-14",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 411,
+      "position": 12.4647
+    },
+    {
+      "date": "2026-11-15",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 546,
+      "position": 15.4267
+    }
+  ],
+  "globalPagesLatest28": [
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
+      "clicks": 13,
+      "impressions": 391,
+      "position": 5.1918
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-children-pass-the-11-plus-pass-rate",
+      "clicks": 11,
+      "impressions": 1298,
+      "position": 8.0385
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
+      "clicks": 10,
+      "impressions": 689,
+      "position": 6.8244
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-does-pupil-premium-priority-work-for-grammar-schools",
+      "clicks": 8,
+      "impressions": 479,
+      "position": 5.6054
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children",
+      "clicks": 7,
+      "impressions": 152,
+      "position": 7.4868
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+      "clicks": 7,
+      "impressions": 337,
+      "position": 6.6053
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-direct-speech-punctuation",
+      "clicks": 6,
+      "impressions": 547,
+      "position": 10.2888
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
+      "clicks": 6,
+      "impressions": 584,
+      "position": 7.536
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in",
+      "clicks": 6,
+      "impressions": 282,
+      "position": 8.0035
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-fractions-decimals-percentages-conversions",
+      "clicks": 4,
+      "impressions": 33,
+      "position": 6.0909
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-give-priority-to-siblings",
+      "clicks": 4,
+      "impressions": 702,
+      "position": 6.2749
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/free-11-plus-resources-and-websites",
+      "clicks": 4,
+      "impressions": 306,
+      "position": 9.5523
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-is-the-11-plus-scored-and-marked",
+      "clicks": 4,
+      "impressions": 822,
+      "position": 12.3175
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school",
+      "clicks": 4,
+      "impressions": 78,
+      "position": 10.8462
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus",
+      "clicks": 4,
+      "impressions": 470,
+      "position": 18.4106
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-multi-step-word-problems",
+      "clicks": 3,
+      "impressions": 34,
+      "position": 5.1471
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
+      "clicks": 3,
+      "impressions": 479,
+      "position": 6.9791
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-we-move-house-to-get-into-a-grammar-school",
+      "clicks": 3,
+      "impressions": 262,
+      "position": 8.1794
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+      "clicks": 3,
+      "impressions": 99,
+      "position": 5.596
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region",
+      "clicks": 3,
+      "impressions": 91,
+      "position": 9.4725
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
+      "clicks": 3,
+      "impressions": 173,
+      "position": 8.6301
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/when-do-you-apply-for-grammar-school-places",
+      "clicks": 3,
+      "impressions": 554,
+      "position": 14.843
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/english/using-evidence",
+      "clicks": 3,
+      "impressions": 40,
+      "position": 4.625
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths/percentages-of-amounts",
+      "clicks": 3,
+      "impressions": 14,
+      "position": 12.1429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-active-passive-voice",
+      "clicks": 2,
+      "impressions": 60,
+      "position": 6.2833
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-area-perimeter",
+      "clicks": 2,
+      "impressions": 54,
+      "position": 8.2778
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-long-division-remainders",
+      "clicks": 2,
+      "impressions": 212,
+      "position": 8.9104
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-missing-digit-column-puzzles",
+      "clicks": 2,
+      "impressions": 3,
+      "position": 8.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-order-of-operations",
+      "clicks": 2,
+      "impressions": 59,
+      "position": 8.8814
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-poetry-comprehension",
+      "clicks": 2,
+      "impressions": 32,
+      "position": 5.9688
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
+      "clicks": 2,
+      "impressions": 209,
+      "position": 4.5837
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers",
+      "clicks": 2,
+      "impressions": 51,
+      "position": 9.3725
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
+      "clicks": 2,
+      "impressions": 96,
+      "position": 6.3438
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-feeder-primary-schools",
+      "clicks": 2,
+      "impressions": 740,
+      "position": 8.6973
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
+      "clicks": 2,
+      "impressions": 126,
+      "position": 6.8254
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-waiting-lists-work-for-grammar-schools",
+      "clicks": 2,
+      "impressions": 120,
+      "position": 10.0417
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-appeal-an-11-plus-result-or-school-allocation",
+      "clicks": 2,
+      "impressions": 202,
+      "position": 10.302
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
+      "clicks": 2,
+      "impressions": 391,
+      "position": 12.4936
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-the-timeline-for-grammar-school-admissions",
+      "clicks": 2,
+      "impressions": 498,
+      "position": 13.8655
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
+      "clicks": 2,
+      "impressions": 54,
+      "position": 9.0741
+    },
+    {
+      "page": "https://www.11plusexampapers.com/papers",
+      "clicks": 2,
+      "impressions": 689,
+      "position": 61.6212
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths/fractions-of-amounts",
+      "clicks": 2,
+      "impressions": 28,
+      "position": 8.1786
+    },
+    {
+      "page": "https://www.11plusexampapers.com/",
+      "clicks": 1,
+      "impressions": 36,
+      "position": 3.2222
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-adding-subtracting-fractions",
+      "clicks": 1,
+      "impressions": 29,
+      "position": 6.1379
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-adverbs-adverbials",
+      "clicks": 1,
+      "impressions": 29,
+      "position": 10.3793
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-character-description",
+      "clicks": 1,
+      "impressions": 2,
+      "position": 4
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-conjunctions",
+      "clicks": 1,
+      "impressions": 5,
+      "position": 5.6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-coordinates",
+      "clicks": 1,
+      "impressions": 6,
+      "position": 3.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
+      "clicks": 1,
+      "impressions": 24,
+      "position": 7.0833
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-modal-verbs",
+      "clicks": 1,
+      "impressions": 13,
+      "position": 8
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-negative-numbers",
+      "clicks": 1,
+      "impressions": 17,
+      "position": 7.8824
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-number-sequences",
+      "clicks": 1,
+      "impressions": 53,
+      "position": 8.1321
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-prefixes-suffixes",
+      "clicks": 1,
+      "impressions": 8,
+      "position": 8.875
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-unit-conversions",
+      "clicks": 1,
+      "impressions": 71,
+      "position": 8.3521
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
+      "clicks": 1,
+      "impressions": 142,
+      "position": 8.0211
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
+      "clicks": 1,
+      "impressions": 82,
+      "position": 7.4146
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
+      "clicks": 1,
+      "impressions": 33,
+      "position": 39.4848
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
+      "clicks": 1,
+      "impressions": 76,
+      "position": 14.6711
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-grammar-school-appeals-work",
+      "clicks": 1,
+      "impressions": 127,
+      "position": 16.4646
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools",
+      "clicks": 1,
+      "impressions": 61,
+      "position": 10.9836
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+      "clicks": 1,
+      "impressions": 24,
+      "position": 8.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam",
+      "clicks": 1,
+      "impressions": 323,
+      "position": 21.8762
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
+      "clicks": 1,
+      "impressions": 162,
+      "position": 10.6728
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-score-do-you-need-to-get-into-a-grammar-school",
+      "clicks": 1,
+      "impressions": 567,
+      "position": 12.9841
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
+      "clicks": 1,
+      "impressions": 43,
+      "position": 12.5581
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
+      "clicks": 1,
+      "impressions": 44,
+      "position": 19.0455
+    },
+    {
+      "page": "https://www.11plusexampapers.com/exam-dates",
+      "clicks": 1,
+      "impressions": 361,
+      "position": 18.9834
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/qe-boys",
+      "clicks": 1,
+      "impressions": 3,
+      "position": 24.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/tiffin",
+      "clicks": 1,
+      "impressions": 76,
+      "position": 47.3421
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths",
+      "clicks": 1,
+      "impressions": 51,
+      "position": 58.8235
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/non-verbal-reasoning",
+      "clicks": 1,
+      "impressions": 15,
+      "position": 49.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/leicester",
+      "clicks": 1,
+      "impressions": 13,
+      "position": 27.1538
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog",
+      "clicks": 0,
+      "impressions": 48,
+      "position": 22.1042
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-3d-shape-properties",
+      "clicks": 0,
+      "impressions": 110,
+      "position": 11.2636
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-able-ible",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 12.25
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-algebra-basics",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 14.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-ant-ent",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 8.125
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-apostrophes",
+      "clicks": 0,
+      "impressions": 22,
+      "position": 6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-averages",
+      "clicks": 0,
+      "impressions": 30,
+      "position": 7.5667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-cial-tial",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 6.25
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-cious-tious",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 26.25
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-commas",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-comparative-superlative-adjectives",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 8.5385
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-currency-exchange",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 11.2857
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-data-interpretation",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-decimal-arithmetic",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 11
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-describing-settings",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-determiners-articles",
+      "clicks": 0,
+      "impressions": 17,
+      "position": 9.3529
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-divisibility-rules",
+      "clicks": 0,
+      "impressions": 443,
+      "position": 8.5169
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-doubling-consonants",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 13.1538
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-ellipsis",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 9.1667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring",
+      "clicks": 0,
+      "impressions": 116,
+      "position": 6.3534
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 15.8462
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-fact-opinion",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 6.5714
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-factors-multiples-primes",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 24.4
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-formal-informal-language",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-homophones",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 6.7143
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-hyphens-dashes",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 11.9231
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-ie-ei-spelling",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 9.8182
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-missing-angles",
+      "clicks": 0,
+      "impressions": 18,
+      "position": 7.8333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-money-best-value",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 6.1667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-multiplying-dividing-fractions",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 19.9167
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-ough-spelling",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 13.7143
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-paragraph-cohesion",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 10.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-percentage-increase-decrease",
+      "clicks": 0,
+      "impressions": 78,
+      "position": 6.7051
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-persuasive-paragraphs",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 8.6154
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-plural-spellings",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 5.6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-prepositions",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 9.75
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-probability",
+      "clicks": 0,
+      "impressions": 38,
+      "position": 6.1842
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-pronouns",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 6.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-quadrilaterals",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 11.7
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-recipe-scaling",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 7.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-relative-clauses",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 3
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-roman-numerals",
+      "clicks": 0,
+      "impressions": 84,
+      "position": 16.6429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-rounding-estimation",
+      "clicks": 0,
+      "impressions": 19,
+      "position": 6.7368
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-scale-drawings-maps",
+      "clicks": 0,
+      "impressions": 59,
+      "position": 6.7119
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-sentence-structure",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 5.7857
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-silent-letters",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 9
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-similes-metaphors-personification",
+      "clicks": 0,
+      "impressions": 20,
+      "position": 8.05
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-speed-distance-time",
+      "clicks": 0,
+      "impressions": 20,
+      "position": 9.1
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-square-cube-numbers",
+      "clicks": 0,
+      "impressions": 57,
+      "position": 8.1053
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-story-continuation",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-story-endings",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-subject-verb-agreement",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 6.8571
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-summarising-main-ideas",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 2.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-synonyms-antonyms",
+      "clicks": 0,
+      "impressions": 31,
+      "position": 14.6774
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-tense-consistency",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 5.5385
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-time-management-strategies-in-the-exam",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 8
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-time-timetables",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 7.8462
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-tion-sion-cian",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 7.25
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-triangle-properties",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 7.2143
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-venn-carroll-diagrams",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 9.3
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-vocabulary-in-context",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-volume-capacity",
+      "clicks": 0,
+      "impressions": 16,
+      "position": 8
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-word-classes-context",
+      "clicks": 0,
+      "impressions": 16,
+      "position": 6.1875
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-working-backwards",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 16.9
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-writers-purpose",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/altrincham-girls-2028-admissions-consultation",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 7.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
+      "clicks": 0,
+      "impressions": 39,
+      "position": 27.8462
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 11.1429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school",
+      "clicks": 0,
+      "impressions": 183,
+      "position": 11.1475
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+      "clicks": 0,
+      "impressions": 82,
+      "position": 5.4146
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
+      "clicks": 0,
+      "impressions": 393,
+      "position": 7.5852
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/aylesbury-grammar-2028-admissions-consultation",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 10
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation",
+      "clicks": 0,
+      "impressions": 167,
+      "position": 21.0898
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/churston-november-2026-school-tours",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 7.1667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/common-11-plus-english-mistakes-to-avoid",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 9.0714
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 13.2727
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 12.375
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-banding-or-lotteries",
+      "clicks": 0,
+      "impressions": 36,
+      "position": 7.25
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+      "clicks": 0,
+      "impressions": 67,
+      "position": 5.0299
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support",
+      "clicks": 0,
+      "impressions": 41,
+      "position": 7.5122
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first",
+      "clicks": 0,
+      "impressions": 121,
+      "position": 6.9091
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/felsted-year-7-taster-days-november-2026",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/gl-vs-cem-11-plus-what-is-the-difference",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 6.25
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/heathfield-year-7-assessment-november-2026",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 7.2727
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
+      "clicks": 0,
+      "impressions": 252,
+      "position": 30.3492
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-early-should-we-start-11-plus-preparation",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 6.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam",
+      "clicks": 0,
+      "impressions": 464,
+      "position": 7.2155
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+      "clicks": 0,
+      "impressions": 94,
+      "position": 11.1702
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+      "clicks": 0,
+      "impressions": 639,
+      "position": 11.0391
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-hours-a-week-should-my-child-study-for-11-plus",
+      "clicks": 0,
+      "impressions": 147,
+      "position": 8.6735
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
+      "clicks": 0,
+      "impressions": 23,
+      "position": 7.6522
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-choose-the-right-grammar-school-after-the-11-plus",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 7.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 9.1429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home",
+      "clicks": 0,
+      "impressions": 61,
+      "position": 56.9836
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-register-my-child-for-the-11-plus",
+      "clicks": 0,
+      "impressions": 122,
+      "position": 16.8689
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance",
+      "clicks": 0,
+      "impressions": 56,
+      "position": 18.4464
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/kent-test-2027-quest-assessments",
+      "clicks": 0,
+      "impressions": 43,
+      "position": 7.8372
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
+      "clicks": 0,
+      "impressions": 113,
+      "position": 59.4248
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/secondary-school-deadline-31-october-2026",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 4
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-are-the-grammar-school-admission-criteria",
+      "clicks": 0,
+      "impressions": 93,
+      "position": 18.172
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
+      "clicks": 0,
+      "impressions": 85,
+      "position": 9.1294
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning",
+      "clicks": 0,
+      "impressions": 40,
+      "position": 16.75
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning",
+      "clicks": 0,
+      "impressions": 224,
+      "position": 24.567
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-a-good-11-plus-score-or-pass-mark",
+      "clicks": 0,
+      "impressions": 149,
+      "position": 32.0537
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
+      "clicks": 0,
+      "impressions": 560,
+      "position": 30.2018
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 7.2857
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+      "clicks": 0,
+      "impressions": 1429,
+      "position": 8.499
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+      "clicks": 0,
+      "impressions": 66,
+      "position": 16.1515
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 13.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/when-are-the-11-plus-exam-dates-in-my-area",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 20.6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/wirral-11-plus-results-october-2026",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 6.4286
+    },
+    {
+      "page": "https://www.11plusexampapers.com/compare",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 7.0833
+    },
+    {
+      "page": "https://www.11plusexampapers.com/guides/gl-vs-cem",
+      "clicks": 0,
+      "impressions": 35,
+      "position": 17.9429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/mock-exams",
+      "clicks": 0,
+      "impressions": 150,
+      "position": 51.02
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools",
+      "clicks": 0,
+      "impressions": 37,
+      "position": 23.2703
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/cls-boys",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 31.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/dulwich-college",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 45
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/eton",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/godolphin-latymer",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 17.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/henrietta-barnett",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 43
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/highgate",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 27
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/kcs-wimbledon",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 24.1333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/oxford-high",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 6.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/st-olaves",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 9.6364
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/st-pauls",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 57.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/wimbledon-high",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 27.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects",
+      "clicks": 0,
+      "impressions": 17,
+      "position": 5.5294
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/english",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 31.4
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/english/comprehension-inference",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 20.75
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/english/comprehension-retrieval",
+      "clicks": 0,
+      "impressions": 69,
+      "position": 7.6377
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths/ratio-sharing",
+      "clicks": 0,
+      "impressions": 129,
+      "position": 8.3023
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/verbal-reasoning",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 53.6923
+    },
+    {
+      "page": "https://www.11plusexampapers.com/terms",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 7
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/birmingham",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 45.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/bradford",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 25.7143
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/brighton",
+      "clicks": 0,
+      "impressions": 20,
+      "position": 21.6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/bristol",
+      "clicks": 0,
+      "impressions": 16,
+      "position": 26.4375
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/cardiff",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 16.8889
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/coventry",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 24.1429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/derby",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 30.8333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/edinburgh",
+      "clicks": 0,
+      "impressions": 19,
+      "position": 45
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/glasgow",
+      "clicks": 0,
+      "impressions": 47,
+      "position": 21.1702
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/leeds",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 38
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/liverpool",
+      "clicks": 0,
+      "impressions": 28,
+      "position": 36.3571
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/london",
+      "clicks": 0,
+      "impressions": 28,
+      "position": 52.6786
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/manchester",
+      "clicks": 0,
+      "impressions": 19,
+      "position": 48.3158
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/newcastle",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 8.7273
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/nottingham",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 24.5556
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/oxford",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 20.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/reading",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 22.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/sheffield",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 27.6
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/southampton",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 33.3
+    }
+  ],
+  "globalPagesPrevious28": [
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-children-pass-the-11-plus-pass-rate",
+      "clicks": 75,
+      "impressions": 4512,
+      "position": 6.1746
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-does-pupil-premium-priority-work-for-grammar-schools",
+      "clicks": 24,
+      "impressions": 850,
+      "position": 5.8318
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-score-do-you-need-to-get-into-a-grammar-school",
+      "clicks": 23,
+      "impressions": 2206,
+      "position": 8.5916
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-passes-the-11-plus-but-doesnt-get-a-place",
+      "clicks": 22,
+      "impressions": 1027,
+      "position": 6.6524
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-my-child-get-extra-time-in-the-11-plus-sen",
+      "clicks": 12,
+      "impressions": 730,
+      "position": 6.3644
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-give-priority-to-siblings",
+      "clicks": 11,
+      "impressions": 1040,
+      "position": 6.1606
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-is-the-11-plus-scored-and-marked",
+      "clicks": 11,
+      "impressions": 1750,
+      "position": 10.4617
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-appeal-an-11-plus-result-or-school-allocation",
+      "clicks": 11,
+      "impressions": 372,
+      "position": 8.7554
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-my-child-join-a-grammar-school-in-year-8-or-later",
+      "clicks": 10,
+      "impressions": 1135,
+      "position": 7.9551
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-we-move-house-to-get-into-a-grammar-school",
+      "clicks": 10,
+      "impressions": 512,
+      "position": 7.748
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-waiting-lists-work-for-grammar-schools",
+      "clicks": 10,
+      "impressions": 310,
+      "position": 8.4387
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-too-pressured-or-stressful-for-some-children",
+      "clicks": 8,
+      "impressions": 234,
+      "position": 7.9316
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-my-child-retake-the-11-plus",
+      "clicks": 8,
+      "impressions": 1099,
+      "position": 8.3667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/can-children-with-sen-or-extra-time-needs-attend-grammar-schools",
+      "clicks": 6,
+      "impressions": 523,
+      "position": 6.4608
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-far-can-you-live-from-a-grammar-school-and-still-get-in",
+      "clicks": 5,
+      "impressions": 545,
+      "position": 7.6459
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-distance-or-score-first",
+      "clicks": 4,
+      "impressions": 232,
+      "position": 7.75
+    },
+    {
+      "page": "https://www.11plusexampapers.com/exam-dates",
+      "clicks": 4,
+      "impressions": 401,
+      "position": 18.2594
+    },
+    {
+      "page": "https://www.11plusexampapers.com/",
+      "clicks": 3,
+      "impressions": 20,
+      "position": 21.05
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-there-mixed-co-ed-grammar-schools",
+      "clicks": 3,
+      "impressions": 607,
+      "position": 7.6573
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/free-11-plus-resources-and-websites",
+      "clicks": 3,
+      "impressions": 274,
+      "position": 13.0693
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-long-is-the-11-plus-exam",
+      "clicks": 3,
+      "impressions": 500,
+      "position": 7.302
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-happens-if-my-child-fails-the-11-plus",
+      "clicks": 3,
+      "impressions": 68,
+      "position": 8.4412
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/when-are-grammar-school-open-days-and-visits",
+      "clicks": 3,
+      "impressions": 113,
+      "position": 8.6283
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/when-do-you-apply-for-grammar-school-places",
+      "clicks": 3,
+      "impressions": 586,
+      "position": 13.2935
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/glasgow",
+      "clicks": 3,
+      "impressions": 77,
+      "position": 15.5714
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-exam-day-checklist-what-to-bring",
+      "clicks": 2,
+      "impressions": 189,
+      "position": 6.8254
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-different-are-11-plus-exams-by-region",
+      "clicks": 2,
+      "impressions": 70,
+      "position": 7.8143
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-11-plus-mock-exams-should-my-child-sit",
+      "clicks": 2,
+      "impressions": 104,
+      "position": 10.4135
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/english",
+      "clicks": 2,
+      "impressions": 7,
+      "position": 43
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/non-verbal-reasoning",
+      "clicks": 2,
+      "impressions": 22,
+      "position": 42.4545
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-exam-format-multiple-choice-or-written",
+      "clicks": 1,
+      "impressions": 19,
+      "position": 7.1053
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/best-books-for-11-plus-preparation",
+      "clicks": 1,
+      "impressions": 133,
+      "position": 19.3609
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-charge-for-uniforms-trips-and-extras",
+      "clicks": 1,
+      "impressions": 2,
+      "position": 1.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-banding-or-lotteries",
+      "clicks": 1,
+      "impressions": 22,
+      "position": 6.8636
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-support-for-dyslexia-adhd-or-autism",
+      "clicks": 1,
+      "impressions": 60,
+      "position": 7.0333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-grammar-school-appeals-work",
+      "clicks": 1,
+      "impressions": 19,
+      "position": 14.3158
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-a-super-selective-grammar-school",
+      "clicks": 1,
+      "impressions": 47,
+      "position": 7.7447
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-questions-should-i-ask-on-a-grammar-school-open-day",
+      "clicks": 1,
+      "impressions": 75,
+      "position": 7.3867
+    },
+    {
+      "page": "https://www.11plusexampapers.com/mock-exams",
+      "clicks": 1,
+      "impressions": 221,
+      "position": 48.0226
+    },
+    {
+      "page": "https://www.11plusexampapers.com/papers",
+      "clicks": 1,
+      "impressions": 368,
+      "position": 45.5353
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/habs-girls",
+      "clicks": 1,
+      "impressions": 9,
+      "position": 8.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths/ratio-sharing",
+      "clicks": 1,
+      "impressions": 24,
+      "position": 6.4167
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/verbal-reasoning",
+      "clicks": 1,
+      "impressions": 12,
+      "position": 42.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog",
+      "clicks": 0,
+      "impressions": 30,
+      "position": 24.6333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/11-plus-exam-stress-and-anxiety-how-to-help-my-child",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 10.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-calculators-allowed-in-the-11-plus",
+      "clicks": 0,
+      "impressions": 23,
+      "position": 5.7826
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-better-than-other-state-schools",
+      "clicks": 0,
+      "impressions": 30,
+      "position": 42.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-grammar-schools-free-or-private",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 8.2
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-mock-exams-important-for-the-11-plus",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-there-alternatives-if-my-child-doesnt-go-to-a-grammar-school",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 9.2667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/are-there-grammar-schools-for-boys-only-or-girls-only",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/best-11-plus-practice-papers-and-past-papers",
+      "clicks": 0,
+      "impressions": 21,
+      "position": 10.4762
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/best-chief-format-practice",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/common-11-plus-maths-mistakes-to-avoid",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 5.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/computer-based-vs-paper-based-11-plus-tests",
+      "clicks": 0,
+      "impressions": 75,
+      "position": 6.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/difference-between-grammar-schools-and-independent-schools-11-plus",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 8.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-all-grammar-schools-use-the-same-11-plus-test",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 7
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-have-feeder-primary-schools",
+      "clicks": 0,
+      "impressions": 94,
+      "position": 8.2979
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-help-more-with-university-and-oxbridge-applications",
+      "clicks": 0,
+      "impressions": 19,
+      "position": 5.6316
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-bursaries-or-financial-support",
+      "clicks": 0,
+      "impressions": 23,
+      "position": 6.0435
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-offer-places-based-on-score-first",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-grammar-schools-provide-bus-or-transport-options",
+      "clicks": 0,
+      "impressions": 20,
+      "position": 5.95
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/do-independent-schools-use-the-11-plus",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 48
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/gl-vs-cem-11-plus-what-is-the-difference",
+      "clicks": 0,
+      "impressions": 47,
+      "position": 8.7872
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-competitive-are-grammar-school-places",
+      "clicks": 0,
+      "impressions": 222,
+      "position": 8.9865
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-i-choose-between-several-grammar-schools",
+      "clicks": 0,
+      "impressions": 22,
+      "position": 8.4091
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-i-register-my-child-for-the-grammar-school-entry-test",
+      "clicks": 0,
+      "impressions": 41,
+      "position": 15.1463
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-do-you-get-into-a-grammar-school",
+      "clicks": 0,
+      "impressions": 27,
+      "position": 31.8889
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-early-should-we-start-preparing-for-grammar-school-entry",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 9.75
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-hard-is-the-11-plus-exam",
+      "clicks": 0,
+      "impressions": 30,
+      "position": 17.7333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-grammar-schools-are-there-in-england",
+      "clicks": 0,
+      "impressions": 222,
+      "position": 10.045
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-hours-a-week-should-my-child-study-for-11-plus",
+      "clicks": 0,
+      "impressions": 237,
+      "position": 8.0422
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-many-papers-are-in-the-11-plus",
+      "clicks": 0,
+      "impressions": 271,
+      "position": 8.2841
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-improve-11-plus-mental-maths",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 10
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-prepare-for-the-11-plus-at-home",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 47.875
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/how-to-register-my-child-for-the-11-plus",
+      "clicks": 0,
+      "impressions": 198,
+      "position": 14.2828
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/is-a-tutor-necessary-for-grammar-school-entrance",
+      "clicks": 0,
+      "impressions": 22,
+      "position": 15.4091
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/online-vs-in-person-11-plus-tutoring-which-is-better",
+      "clicks": 0,
+      "impressions": 35,
+      "position": 69.1429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-age-do-children-sit-the-11-plus",
+      "clicks": 0,
+      "impressions": 60,
+      "position": 8.7
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-are-the-grammar-school-admission-criteria",
+      "clicks": 0,
+      "impressions": 54,
+      "position": 12.3519
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-are-the-pros-and-cons-of-grammar-schools",
+      "clicks": 0,
+      "impressions": 50,
+      "position": 11.7
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-gcse-and-a-level-results-do-grammar-schools-get",
+      "clicks": 0,
+      "impressions": 213,
+      "position": 6.615
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-non-verbal-reasoning",
+      "clicks": 0,
+      "impressions": 21,
+      "position": 12.9524
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-11-plus-verbal-reasoning",
+      "clicks": 0,
+      "impressions": 18,
+      "position": 25.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-a-good-11-plus-score-or-pass-mark",
+      "clicks": 0,
+      "impressions": 41,
+      "position": 8.3171
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-a-grammar-school",
+      "clicks": 0,
+      "impressions": 63,
+      "position": 30.9524
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-the-difference-between-grammar-and-comprehensive-schools",
+      "clicks": 0,
+      "impressions": 306,
+      "position": 8.3497
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-the-timeline-for-grammar-school-admissions",
+      "clicks": 0,
+      "impressions": 92,
+      "position": 8.5109
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-is-the-typical-day-like-at-a-grammar-school",
+      "clicks": 0,
+      "impressions": 18,
+      "position": 5.3889
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-level-of-ks2-is-needed-for-the-11-plus",
+      "clicks": 0,
+      "impressions": 398,
+      "position": 11.9523
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/what-topics-are-in-11-plus-maths",
+      "clicks": 0,
+      "impressions": 43,
+      "position": 17.8837
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/which-schools-use-the-11-plus-exam",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 6.6667
+    },
+    {
+      "page": "https://www.11plusexampapers.com/blog/who-are-grammar-schools-suitable-for",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 18.6364
+    },
+    {
+      "page": "https://www.11plusexampapers.com/compare",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 7.8
+    },
+    {
+      "page": "https://www.11plusexampapers.com/guides/gl-vs-cem",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 14.625
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools",
+      "clicks": 0,
+      "impressions": 25,
+      "position": 30
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/cls-boys",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 30.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/dulwich-college",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 44.25
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/emmanuel-tiffin",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 21
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/guildford-high",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 9
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/henrietta-barnett",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 22.2
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/highgate",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 10.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/kcs-wimbledon",
+      "clicks": 0,
+      "impressions": 67,
+      "position": 22.5224
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/king-edward-vi-girls",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 23.2727
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/mcs-oxford",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 10
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/pates-grammar",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/qe-boys",
+      "clicks": 0,
+      "impressions": 20,
+      "position": 24.95
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/spgs-girls",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 42.375
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/st-olaves",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/st-pauls",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 32.5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/tiffin",
+      "clicks": 0,
+      "impressions": 79,
+      "position": 36.2278
+    },
+    {
+      "page": "https://www.11plusexampapers.com/schools/wimbledon-high",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 18.6364
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 7
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths",
+      "clicks": 0,
+      "impressions": 24,
+      "position": 61.2917
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths/fractions-of-amounts",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 9
+    },
+    {
+      "page": "https://www.11plusexampapers.com/subjects/maths/percentages-of-amounts",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 8
+    },
+    {
+      "page": "https://www.11plusexampapers.com/terms",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 4.75
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 5
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/birmingham",
+      "clicks": 0,
+      "impressions": 67,
+      "position": 50.9851
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/bradford",
+      "clicks": 0,
+      "impressions": 21,
+      "position": 13.8571
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/brighton",
+      "clicks": 0,
+      "impressions": 33,
+      "position": 24.3939
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/bristol",
+      "clicks": 0,
+      "impressions": 18,
+      "position": 27.4444
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/cardiff",
+      "clicks": 0,
+      "impressions": 21,
+      "position": 13.5238
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/coventry",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 25.0769
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/derby",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 30
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/edinburgh",
+      "clicks": 0,
+      "impressions": 42,
+      "position": 7.1429
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/leeds",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 19.2727
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/leicester",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 23.7143
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/liverpool",
+      "clicks": 0,
+      "impressions": 25,
+      "position": 29.2
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/london",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 51.1
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/manchester",
+      "clicks": 0,
+      "impressions": 28,
+      "position": 48.0714
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/newcastle",
+      "clicks": 0,
+      "impressions": 21,
+      "position": 8.8571
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/nottingham",
+      "clicks": 0,
+      "impressions": 16,
+      "position": 15.125
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/oxford",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 12.3333
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/reading",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 10.2
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/sheffield",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 13.4
+    },
+    {
+      "page": "https://www.11plusexampapers.com/tutors/southampton",
+      "clicks": 0,
+      "impressions": 19,
+      "position": 24.6316
+    }
+  ],
+  "limitations": [
+    "No validated country+page dataset: no UK URL attribution.",
+    "No URL Inspection/Page Indexing connection. Sitemap membership is not indexing proof.",
+    "No post-release result yet; complete data precedes today's work."
+  ]
+}
