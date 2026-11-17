@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-17",
+  "base": "http://localhost:3017",
+  "pages": [
+    {
+      "url": "https://www.11plusexampapers.com/exam-dates",
+      "canonical": true,
+      "singleH1": true,
+      "metadata": true,
+      "noMetaNoindex": true
+    },
+    {
+      "url": "https://www.11plusexampapers.com/schools/latymer",
+      "canonical": true,
+      "singleH1": true,
+      "metadata": true,
+      "noMetaNoindex": true
+    }
+  ],
+  "sitemapURLs": 285,
+  "internalTargetsAndFragments": 38,
+  "reciprocalLinks": true,
+  "linkedLessonDisclosuresPresent": 2,
+  "matchingPracticeSetupVariants": 2,
+  "questionAndAnswerPDFs": 4,
+  "indexing": "not inspected"
+}
