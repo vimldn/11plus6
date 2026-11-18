@@ -568,11 +568,11 @@ export default function ExamDatesClient() {
           <p className="mt-2">Two dated developments for families planning ahead. Future test dates and entry policies still need their own official confirmation.</p>
           <ul className="mt-3 space-y-3">
             <li><Link className="underline" href="/blog/skegness-2028-consultation-opens-november-2026">Skegness opens its September 2028 admissions consultation</Link><p>Responses close 31 December 2026. The proposed local review is not an adopted admissions change.</p></li>
-            <li><Link className="underline" href="/blog/churston-november-2026-school-tours">Churston’s November school visits begin this week</Link><p>Talk-and-tour dates are 9, 10, 12 and 13 November 2026. Confirm booking and arrival details with the school.</p></li>
+            <li><Link className="underline" href="/blog/churston-november-2026-school-tours">Churston’s November 2026 school visits: dated report</Link><p>The advertised 9, 10, 12 and 13 November 2026 sessions are now past. For families planning ahead, the <a className="underline" href="https://www.churstongrammar.com/open-events">school’s open-events page</a> lists an Open Day on 24 June 2027, with booking due to open in spring 2027. This is a visit, not a test date or test-registration deadline. Checked 18 November 2026; exact 2027 test dates remain unconfirmed here.</p></li>
           </ul>
         </section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="independent-november-news">
-          <h2 id="independent-november-news" className="text-2xl font-bold">Independent school admissions this week</h2>
+          <h2 id="independent-november-news" className="text-2xl font-bold">Independent school admissions: November 2026 reports</h2>
           <p className="mt-2">6 November 2026 · Year 7 entry in September 2027</p>
           <ul className="mt-3 space-y-2 underline">
             <li><a href="/blog/heathfield-year-7-assessment-november-2026">Heathfield: the November assessment window and offer timetable</a></li>
@@ -591,10 +591,10 @@ export default function ExamDatesClient() {
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="aylesbury-consultation-news"><p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Checked 25 October 2026</p><h2 id="aylesbury-consultation-news" className="mt-3 text-3xl"><Link className="underline" href="/blog/aylesbury-grammar-2028-admissions-consultation">Aylesbury Grammar: 2028 admissions consultation</Link></h2><p className="mt-4 leading-relaxed">Consultation opened 20 October and closes 1 December 2026. A draft for September 2028 entry, relevant to families preparing for tests taken in 2027.</p></section>
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="october-admissions-news">
           <p className="text-xs font-bold uppercase tracking-widest text-emerald-800">Checked 24 October 2026</p>
-          <h2 id="october-admissions-news" className="mt-3 text-3xl">Current admissions updates</h2>
+          <h2 id="october-admissions-news" className="mt-3 text-3xl">Dated admissions reports: October 2026</h2>
           <ul className="mt-6 grid gap-6 sm:grid-cols-2">
             <li className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><Link className="text-xl font-bold underline underline-offset-4" href="/blog/altrincham-girls-2028-admissions-consultation">Altrincham Girls consults on 2028 admissions priority</Link><p className="mt-4 leading-relaxed">An active proposal, not a settled rule. Consultation closes 14 December 2026; relevant to September 2028 entry.</p></li>
-            <li className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><Link className="text-xl font-bold underline underline-offset-4" href="/blog/secondary-school-deadline-31-october-2026">Secondary applications: one week until 31 October</Link><p className="mt-4 leading-relaxed">A dated reminder for September 2027 entry. This is not a registration deadline for exams taken in 2027.</p></li>
+            <li className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><Link className="text-xl font-bold underline underline-offset-4" href="/blog/secondary-school-deadline-31-october-2026">Secondary applications: the 31 October 2026 deadline</Link><p className="mt-4 leading-relaxed">This deadline is now past. The linked report concerns September 2027 entry, not registration for exams taken in 2027. Contact your home local authority for its current late-application process; do not assume a school visit or test registration submits a school-place application.</p></li>
           </ul>
         </section>
 
