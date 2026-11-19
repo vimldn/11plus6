@@ -277,10 +277,11 @@ const GROUPS_2027_ENTRY: SchoolGroup[] = [
       { date: '15 Jun 2026',   event: 'Registration closes (5pm)',         certainty: 'confirmed' },
       { date: '18 Sep 2026',   event: '11+ test day',                      certainty: 'confirmed' },
       { date: 'Mid-Oct 2026',  event: 'Results emailed to parents',        certainty: 'confirmed' },
-      { date: '30 Oct 2026',   event: 'CAF deadline',                      certainty: 'confirmed' },
+      { date: '31 Oct 2026',   event: 'School application deadline (now past)',                      certainty: 'confirmed' },
       { date: '1 Mar 2027',    event: 'National Offers Day',               certainty: 'confirmed' },
     ],
-    officialUrl: 'https://www.redbridge.gov.uk/schools/redbridge-11-plus/',
+    officialUrl: 'https://www.redbridge.gov.uk/schools/school-admissions/redbridge-11-plus/',
+    note: 'Checked 19 November 2026. This card records the 2026 test for September 2027 entry, not tests taken in 2027. Test registration did not replace the separate school application. The council’s admissions arrangements give 31 October 2026 as that application deadline.',
   },
   {
     id: 'trafford-2027',
@@ -520,7 +521,7 @@ export default function ExamDatesClient() {
             </h1>
             <p className="text-lg text-slate-500 max-w-2xl leading-relaxed mb-6">
               Registration deadlines, test dates and results timelines for grammar and independent school entrance exams across England.
-              <strong className="text-slate-700">September 2027 entry</strong> is shown first: many of those tests take place in 2026. Dated source checks below cover selected schools, including Latymer on 17 November 2026. Other calendar groups have not all been rechecked; confirm their current arrangements with the named authority.
+              <strong className="text-slate-700">September 2027 entry</strong> is shown first: many of those tests take place in 2026. Dated source checks below cover selected schools, including Redbridge on 19 November 2026 and Latymer on 17 November 2026. Other calendar groups have not all been rechecked; confirm their current arrangements with the named authority.
             </p>
             <div className="flex flex-wrap gap-4">
               {[
@@ -535,6 +536,13 @@ export default function ExamDatesClient() {
               ))}
             </div>
           </div>
+        </section>
+
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="redbridge-2027-tests">
+          <h2 id="redbridge-2027-tests" className="text-2xl font-bold">Redbridge: distinguish 2027 tests from September 2027 entry</h2>
+          <p className="mt-4 leading-relaxed">Preparing for a test taken in 2027 means planning for September 2028 entry. The <a className="underline" href="https://www.redbridge.gov.uk/schools/school-admissions/redbridge-11-plus/">council’s current 11 plus page</a> still gives the previous cycle: registration from 1 May to 15 June 2026 at 5pm, and a test on 18 September 2026 for September 2027 entry. Exact 2027 registration and test dates, and the format for that cohort, remain unconfirmed here. Do not move the old dates forward by a year.</p>
+          <p className="mt-4 leading-relaxed">For the previous cycle, the separate school application deadline was 31 October 2026, now past, as stated in the <a className="underline" href="https://www.redbridge.gov.uk/media/223ce0bg/determined-admissions-arrangements-for-2027-2028.pdf">council’s 2027–28 admissions arrangements</a>. Registering for the test did not submit a school application. Redbridge residents should use the <a className="underline" href="https://www.redbridge.gov.uk/schools/school-admissions/apply-to-start-secondary-school/">council’s secondary application guidance</a>; families living elsewhere should check their home authority’s process.</p>
+          <p className="mt-4 leading-relaxed">For 2027 preparation, revisit the council’s timetable and use <Link className="underline" href="/papers">original subject practice with worked answers</Link> to identify skills to develop. These resources are not official Redbridge papers or a confirmed 2027 test simulation. Sources checked 19 November 2026.</p>
         </section>
 
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="latymer-2027-tests">

@@ -1,0 +1,1026 @@
+{
+  "scope": "Exact URL-prefix property; Web; all devices; global and United Kingdom separately; include_fresh_data=false; retrieved 2026-11-19; dates inclusive",
+  "global": [
+    {
+      "from": "2026-09-23",
+      "to": "2026-10-20",
+      "days": 28,
+      "clicks": 307,
+      "impressions": 25285,
+      "ctr": 1.2141585920506228,
+      "position": 9.762624037967175,
+      "clicksDaily": 10.964285714285714,
+      "impressionsDaily": 903.0357142857143
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-17",
+      "days": 28,
+      "clicks": 182,
+      "impressions": 21925,
+      "ctr": 0.830102622576967,
+      "position": 13.072241824401369,
+      "clicksDaily": 6.5,
+      "impressionsDaily": 783.0357142857143
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-03",
+      "days": 14,
+      "clicks": 101,
+      "impressions": 10876,
+      "ctr": 0.9286502390584774,
+      "position": 12.9146667800662,
+      "clicksDaily": 7.214285714285714,
+      "impressionsDaily": 776.8571428571429
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-17",
+      "days": 14,
+      "clicks": 81,
+      "impressions": 11049,
+      "ctr": 0.7330980179201738,
+      "position": 13.227349633450991,
+      "clicksDaily": 5.785714285714286,
+      "impressionsDaily": 789.2142857142857
+    }
+  ],
+  "uk": [
+    {
+      "from": "2026-09-23",
+      "to": "2026-10-20",
+      "days": 28,
+      "clicks": 291,
+      "impressions": 22849,
+      "ctr": 1.2735787124162983,
+      "position": 9.62508864282901,
+      "clicksDaily": 10.392857142857142,
+      "impressionsDaily": 816.0357142857143
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-17",
+      "days": 28,
+      "clicks": 148,
+      "impressions": 16037,
+      "ctr": 0.9228658726694519,
+      "position": 13.723265111928665,
+      "clicksDaily": 5.285714285714286,
+      "impressionsDaily": 572.75
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-03",
+      "days": 14,
+      "clicks": 87,
+      "impressions": 8410,
+      "ctr": 1.0344827586206897,
+      "position": 13.229132473246134,
+      "clicksDaily": 6.214285714285714,
+      "impressionsDaily": 600.7142857142857
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-17",
+      "days": 14,
+      "clicks": 61,
+      "impressions": 7627,
+      "ctr": 0.7997902189589616,
+      "position": 14.268126196407499,
+      "clicksDaily": 4.357142857142857,
+      "impressionsDaily": 544.7857142857143
+    }
+  ],
+  "limitations": "No validated country+page dataset; no URL Inspection or indexing report; no Analytics conversion data.",
+  "globalPageComparisons": [
+    {
+      "url": "https://www.11plusexampapers.com/papers",
+      "periods": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-10-20",
+          "clicks": 1,
+          "impressions": 353,
+          "ctr": 0.28328611898017,
+          "position": 46.41360821529745
+        },
+        {
+          "from": "2026-10-21",
+          "to": "2026-11-17",
+          "clicks": 2,
+          "impressions": 719,
+          "ctr": 0.27816411682892905,
+          "position": 61.31988956884562
+        },
+        {
+          "from": "2026-10-21",
+          "to": "2026-11-03",
+          "clicks": 0,
+          "impressions": 233,
+          "ctr": 0,
+          "position": 53.70815708154505
+        },
+        {
+          "from": "2026-11-04",
+          "to": "2026-11-17",
+          "clicks": 2,
+          "impressions": 486,
+          "ctr": 0.411522633744856,
+          "position": 64.96913580246914
+        }
+      ]
+    },
+    {
+      "url": "https://www.11plusexampapers.com/mock-exams",
+      "periods": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-10-20",
+          "clicks": 1,
+          "impressions": 225,
+          "ctr": 0.4444444444444444,
+          "position": 48.711112888888884
+        },
+        {
+          "from": "2026-10-21",
+          "to": "2026-11-17",
+          "clicks": 0,
+          "impressions": 141,
+          "ctr": 0,
+          "position": 48.92198936170213
+        },
+        {
+          "from": "2026-10-21",
+          "to": "2026-11-03",
+          "clicks": 0,
+          "impressions": 95,
+          "ctr": 0,
+          "position": 50.48421052631579
+        },
+        {
+          "from": "2026-11-04",
+          "to": "2026-11-17",
+          "clicks": 0,
+          "impressions": 46,
+          "ctr": 0,
+          "position": 45.69566304347826
+        }
+      ]
+    },
+    {
+      "url": "https://www.11plusexampapers.com/exam-dates",
+      "periods": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-10-20",
+          "clicks": 4,
+          "impressions": 396,
+          "ctr": 1.0101010101010102,
+          "position": 18.611098232323233
+        },
+        {
+          "from": "2026-10-21",
+          "to": "2026-11-17",
+          "clicks": 1,
+          "impressions": 341,
+          "ctr": 0.2932551319648094,
+          "position": 18.891493548387096
+        },
+        {
+          "from": "2026-10-21",
+          "to": "2026-11-03",
+          "clicks": 0,
+          "impressions": 175,
+          "ctr": 0,
+          "position": 22.514273142857142
+        },
+        {
+          "from": "2026-11-04",
+          "to": "2026-11-17",
+          "clicks": 1,
+          "impressions": 166,
+          "ctr": 0.6024096385542169,
+          "position": 15.072298192771086
+        }
+      ]
+    }
+  ],
+  "countryReconciliation": "Every date's country-summed clicks and impressions equals corresponding explicit Web global row",
+  "dailyGlobalWeb": [
+    {
+      "date": "2026-09-21",
+      "search_type": "web",
+      "clicks": 9,
+      "impressions": 719,
+      "position": 9.8317
+    },
+    {
+      "date": "2026-09-22",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 824,
+      "position": 11.1044
+    },
+    {
+      "date": "2026-09-23",
+      "search_type": "web",
+      "clicks": 13,
+      "impressions": 772,
+      "position": 11.5013
+    },
+    {
+      "date": "2026-09-24",
+      "search_type": "web",
+      "clicks": 6,
+      "impressions": 694,
+      "position": 10.5576
+    },
+    {
+      "date": "2026-09-25",
+      "search_type": "web",
+      "clicks": 3,
+      "impressions": 584,
+      "position": 9.6918
+    },
+    {
+      "date": "2026-09-26",
+      "search_type": "web",
+      "clicks": 10,
+      "impressions": 616,
+      "position": 9.5455
+    },
+    {
+      "date": "2026-09-27",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 531,
+      "position": 9.4463
+    },
+    {
+      "date": "2026-09-28",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 485,
+      "position": 10.8515
+    },
+    {
+      "date": "2026-09-29",
+      "search_type": "web",
+      "clicks": 5,
+      "impressions": 636,
+      "position": 8.6635
+    },
+    {
+      "date": "2026-09-30",
+      "search_type": "web",
+      "clicks": 4,
+      "impressions": 607,
+      "position": 12.5157
+    },
+    {
+      "date": "2026-10-01",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 522,
+      "position": 12.8161
+    },
+    {
+      "date": "2026-10-02",
+      "search_type": "web",
+      "clicks": 5,
+      "impressions": 678,
+      "position": 9.4248
+    },
+    {
+      "date": "2026-10-03",
+      "search_type": "web",
+      "clicks": 6,
+      "impressions": 559,
+      "position": 9.0233
+    },
+    {
+      "date": "2026-10-04",
+      "search_type": "web",
+      "clicks": 10,
+      "impressions": 544,
+      "position": 12.7555
+    },
+    {
+      "date": "2026-10-05",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 583,
+      "position": 11.6947
+    },
+    {
+      "date": "2026-10-06",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 560,
+      "position": 11.0304
+    },
+    {
+      "date": "2026-10-07",
+      "search_type": "web",
+      "clicks": 8,
+      "impressions": 560,
+      "position": 12.4268
+    },
+    {
+      "date": "2026-10-08",
+      "search_type": "web",
+      "clicks": 9,
+      "impressions": 710,
+      "position": 11.9394
+    },
+    {
+      "date": "2026-10-09",
+      "search_type": "web",
+      "clicks": 15,
+      "impressions": 1595,
+      "position": 7.9367
+    },
+    {
+      "date": "2026-10-10",
+      "search_type": "web",
+      "clicks": 11,
+      "impressions": 791,
+      "position": 8.3944
+    },
+    {
+      "date": "2026-10-11",
+      "search_type": "web",
+      "clicks": 4,
+      "impressions": 705,
+      "position": 9.3333
+    },
+    {
+      "date": "2026-10-12",
+      "search_type": "web",
+      "clicks": 23,
+      "impressions": 1306,
+      "position": 8.0398
+    },
+    {
+      "date": "2026-10-13",
+      "search_type": "web",
+      "clicks": 12,
+      "impressions": 923,
+      "position": 8.7822
+    },
+    {
+      "date": "2026-10-14",
+      "search_type": "web",
+      "clicks": 27,
+      "impressions": 2072,
+      "position": 8.7534
+    },
+    {
+      "date": "2026-10-15",
+      "search_type": "web",
+      "clicks": 29,
+      "impressions": 2291,
+      "position": 8.3007
+    },
+    {
+      "date": "2026-10-16",
+      "search_type": "web",
+      "clicks": 19,
+      "impressions": 1622,
+      "position": 8.6819
+    },
+    {
+      "date": "2026-10-17",
+      "search_type": "web",
+      "clicks": 14,
+      "impressions": 1040,
+      "position": 10.3058
+    },
+    {
+      "date": "2026-10-18",
+      "search_type": "web",
+      "clicks": 17,
+      "impressions": 1039,
+      "position": 12.1732
+    },
+    {
+      "date": "2026-10-19",
+      "search_type": "web",
+      "clicks": 10,
+      "impressions": 1038,
+      "position": 10.4277
+    },
+    {
+      "date": "2026-10-20",
+      "search_type": "web",
+      "clicks": 12,
+      "impressions": 1222,
+      "position": 10.0745
+    },
+    {
+      "date": "2026-10-21",
+      "search_type": "web",
+      "clicks": 9,
+      "impressions": 1287,
+      "position": 11.1935
+    },
+    {
+      "date": "2026-10-22",
+      "search_type": "web",
+      "clicks": 11,
+      "impressions": 1214,
+      "position": 14.4498
+    },
+    {
+      "date": "2026-10-23",
+      "search_type": "web",
+      "clicks": 8,
+      "impressions": 821,
+      "position": 12.8648
+    },
+    {
+      "date": "2026-10-24",
+      "search_type": "web",
+      "clicks": 6,
+      "impressions": 708,
+      "position": 11.863
+    },
+    {
+      "date": "2026-10-25",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 638,
+      "position": 13.4545
+    },
+    {
+      "date": "2026-10-26",
+      "search_type": "web",
+      "clicks": 10,
+      "impressions": 709,
+      "position": 12.7927
+    },
+    {
+      "date": "2026-10-27",
+      "search_type": "web",
+      "clicks": 9,
+      "impressions": 754,
+      "position": 14.6671
+    },
+    {
+      "date": "2026-10-28",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 744,
+      "position": 14.836
+    },
+    {
+      "date": "2026-10-29",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 727,
+      "position": 15.4635
+    },
+    {
+      "date": "2026-10-30",
+      "search_type": "web",
+      "clicks": 5,
+      "impressions": 574,
+      "position": 11.6829
+    },
+    {
+      "date": "2026-10-31",
+      "search_type": "web",
+      "clicks": 3,
+      "impressions": 517,
+      "position": 11.4139
+    },
+    {
+      "date": "2026-11-01",
+      "search_type": "web",
+      "clicks": 5,
+      "impressions": 668,
+      "position": 12.7799
+    },
+    {
+      "date": "2026-11-02",
+      "search_type": "web",
+      "clicks": 3,
+      "impressions": 743,
+      "position": 11.1803
+    },
+    {
+      "date": "2026-11-03",
+      "search_type": "web",
+      "clicks": 11,
+      "impressions": 772,
+      "position": 11.7966
+    },
+    {
+      "date": "2026-11-04",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 879,
+      "position": 14.3527
+    },
+    {
+      "date": "2026-11-05",
+      "search_type": "web",
+      "clicks": 2,
+      "impressions": 756,
+      "position": 18.0357
+    },
+    {
+      "date": "2026-11-06",
+      "search_type": "web",
+      "clicks": 4,
+      "impressions": 633,
+      "position": 13.7204
+    },
+    {
+      "date": "2026-11-07",
+      "search_type": "web",
+      "clicks": 3,
+      "impressions": 534,
+      "position": 14.7659
+    },
+    {
+      "date": "2026-11-08",
+      "search_type": "web",
+      "clicks": 4,
+      "impressions": 618,
+      "position": 13.0906
+    },
+    {
+      "date": "2026-11-09",
+      "search_type": "web",
+      "clicks": 6,
+      "impressions": 704,
+      "position": 13.0653
+    },
+    {
+      "date": "2026-11-10",
+      "search_type": "web",
+      "clicks": 7,
+      "impressions": 775,
+      "position": 13.4555
+    },
+    {
+      "date": "2026-11-11",
+      "search_type": "web",
+      "clicks": 8,
+      "impressions": 813,
+      "position": 13.6962
+    },
+    {
+      "date": "2026-11-12",
+      "search_type": "web",
+      "clicks": 8,
+      "impressions": 1068,
+      "position": 13.044
+    },
+    {
+      "date": "2026-11-13",
+      "search_type": "web",
+      "clicks": 5,
+      "impressions": 1172,
+      "position": 11.8242
+    },
+    {
+      "date": "2026-11-14",
+      "search_type": "web",
+      "clicks": 5,
+      "impressions": 589,
+      "position": 11.82
+    },
+    {
+      "date": "2026-11-15",
+      "search_type": "web",
+      "clicks": 9,
+      "impressions": 753,
+      "position": 13.7291
+    },
+    {
+      "date": "2026-11-16",
+      "search_type": "web",
+      "clicks": 8,
+      "impressions": 908,
+      "position": 12.0683
+    },
+    {
+      "date": "2026-11-17",
+      "search_type": "web",
+      "clicks": 5,
+      "impressions": 847,
+      "position": 9.9528
+    }
+  ],
+  "dailyUK": [
+    {
+      "date": "2026-09-21",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 643,
+      "position": 9.0264
+    },
+    {
+      "date": "2026-09-22",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 718,
+      "position": 9.7409
+    },
+    {
+      "date": "2026-09-23",
+      "country": "United Kingdom",
+      "clicks": 13,
+      "impressions": 675,
+      "position": 10.8533
+    },
+    {
+      "date": "2026-09-24",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 592,
+      "position": 9.5557
+    },
+    {
+      "date": "2026-09-25",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 499,
+      "position": 9.523
+    },
+    {
+      "date": "2026-09-26",
+      "country": "United Kingdom",
+      "clicks": 10,
+      "impressions": 544,
+      "position": 9.6452
+    },
+    {
+      "date": "2026-09-27",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 464,
+      "position": 9.6293
+    },
+    {
+      "date": "2026-09-28",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 431,
+      "position": 11.1323
+    },
+    {
+      "date": "2026-09-29",
+      "country": "United Kingdom",
+      "clicks": 5,
+      "impressions": 553,
+      "position": 8.5949
+    },
+    {
+      "date": "2026-09-30",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 563,
+      "position": 12.7211
+    },
+    {
+      "date": "2026-10-01",
+      "country": "United Kingdom",
+      "clicks": 5,
+      "impressions": 482,
+      "position": 12.8589
+    },
+    {
+      "date": "2026-10-02",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 600,
+      "position": 9.3267
+    },
+    {
+      "date": "2026-10-03",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 499,
+      "position": 9.0541
+    },
+    {
+      "date": "2026-10-04",
+      "country": "United Kingdom",
+      "clicks": 9,
+      "impressions": 491,
+      "position": 13.1955
+    },
+    {
+      "date": "2026-10-05",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 526,
+      "position": 11.2281
+    },
+    {
+      "date": "2026-10-06",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 507,
+      "position": 11.1282
+    },
+    {
+      "date": "2026-10-07",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 521,
+      "position": 12.4088
+    },
+    {
+      "date": "2026-10-08",
+      "country": "United Kingdom",
+      "clicks": 9,
+      "impressions": 666,
+      "position": 12.024
+    },
+    {
+      "date": "2026-10-09",
+      "country": "United Kingdom",
+      "clicks": 14,
+      "impressions": 1516,
+      "position": 7.9492
+    },
+    {
+      "date": "2026-10-10",
+      "country": "United Kingdom",
+      "clicks": 11,
+      "impressions": 732,
+      "position": 7.9221
+    },
+    {
+      "date": "2026-10-11",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 659,
+      "position": 9.1275
+    },
+    {
+      "date": "2026-10-12",
+      "country": "United Kingdom",
+      "clicks": 22,
+      "impressions": 1229,
+      "position": 7.8405
+    },
+    {
+      "date": "2026-10-13",
+      "country": "United Kingdom",
+      "clicks": 11,
+      "impressions": 872,
+      "position": 8.8303
+    },
+    {
+      "date": "2026-10-14",
+      "country": "United Kingdom",
+      "clicks": 21,
+      "impressions": 1943,
+      "position": 8.528
+    },
+    {
+      "date": "2026-10-15",
+      "country": "United Kingdom",
+      "clicks": 28,
+      "impressions": 2129,
+      "position": 8.3006
+    },
+    {
+      "date": "2026-10-16",
+      "country": "United Kingdom",
+      "clicks": 19,
+      "impressions": 1437,
+      "position": 8.6047
+    },
+    {
+      "date": "2026-10-17",
+      "country": "United Kingdom",
+      "clicks": 14,
+      "impressions": 894,
+      "position": 9.7092
+    },
+    {
+      "date": "2026-10-18",
+      "country": "United Kingdom",
+      "clicks": 17,
+      "impressions": 869,
+      "position": 12.1577
+    },
+    {
+      "date": "2026-10-19",
+      "country": "United Kingdom",
+      "clicks": 10,
+      "impressions": 910,
+      "position": 10.178
+    },
+    {
+      "date": "2026-10-20",
+      "country": "United Kingdom",
+      "clicks": 12,
+      "impressions": 1046,
+      "position": 10.1663
+    },
+    {
+      "date": "2026-10-21",
+      "country": "United Kingdom",
+      "clicks": 9,
+      "impressions": 1108,
+      "position": 10.7852
+    },
+    {
+      "date": "2026-10-22",
+      "country": "United Kingdom",
+      "clicks": 11,
+      "impressions": 999,
+      "position": 14.7307
+    },
+    {
+      "date": "2026-10-23",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 663,
+      "position": 13.4902
+    },
+    {
+      "date": "2026-10-24",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 555,
+      "position": 11.8901
+    },
+    {
+      "date": "2026-10-25",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 495,
+      "position": 13.8323
+    },
+    {
+      "date": "2026-10-26",
+      "country": "United Kingdom",
+      "clicks": 6,
+      "impressions": 552,
+      "position": 13.8098
+    },
+    {
+      "date": "2026-10-27",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 572,
+      "position": 14.7378
+    },
+    {
+      "date": "2026-10-28",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 558,
+      "position": 15.095
+    },
+    {
+      "date": "2026-10-29",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 560,
+      "position": 16.875
+    },
+    {
+      "date": "2026-10-30",
+      "country": "United Kingdom",
+      "clicks": 2,
+      "impressions": 406,
+      "position": 11.9089
+    },
+    {
+      "date": "2026-10-31",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 389,
+      "position": 11.0488
+    },
+    {
+      "date": "2026-11-01",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 502,
+      "position": 13.6813
+    },
+    {
+      "date": "2026-11-02",
+      "country": "United Kingdom",
+      "clicks": 1,
+      "impressions": 515,
+      "position": 11.5922
+    },
+    {
+      "date": "2026-11-03",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 536,
+      "position": 11.7612
+    },
+    {
+      "date": "2026-11-04",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 607,
+      "position": 14.9753
+    },
+    {
+      "date": "2026-11-05",
+      "country": "United Kingdom",
+      "clicks": 1,
+      "impressions": 584,
+      "position": 19.7397
+    },
+    {
+      "date": "2026-11-06",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 489,
+      "position": 14.9714
+    },
+    {
+      "date": "2026-11-07",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 419,
+      "position": 14.4773
+    },
+    {
+      "date": "2026-11-08",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 456,
+      "position": 13.9342
+    },
+    {
+      "date": "2026-11-09",
+      "country": "United Kingdom",
+      "clicks": 5,
+      "impressions": 535,
+      "position": 13.6131
+    },
+    {
+      "date": "2026-11-10",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 558,
+      "position": 14.4427
+    },
+    {
+      "date": "2026-11-11",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 582,
+      "position": 14.9192
+    },
+    {
+      "date": "2026-11-12",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 530,
+      "position": 16.4811
+    },
+    {
+      "date": "2026-11-13",
+      "country": "United Kingdom",
+      "clicks": 4,
+      "impressions": 718,
+      "position": 12.1393
+    },
+    {
+      "date": "2026-11-14",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 411,
+      "position": 12.4647
+    },
+    {
+      "date": "2026-11-15",
+      "country": "United Kingdom",
+      "clicks": 8,
+      "impressions": 546,
+      "position": 15.4267
+    },
+    {
+      "date": "2026-11-16",
+      "country": "United Kingdom",
+      "clicks": 7,
+      "impressions": 613,
+      "position": 12.708
+    },
+    {
+      "date": "2026-11-17",
+      "country": "United Kingdom",
+      "clicks": 3,
+      "impressions": 579,
+      "position": 9.7617
+    }
+  ]
+}
