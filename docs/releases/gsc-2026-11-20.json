@@ -1,0 +1,184 @@
+{
+  "retrieved": "2026-11-20",
+  "property": "https://www.11plusexampapers.com/",
+  "scope": "Web, all devices; latest returned complete date17Nov;18Nov absent; no UK page attribution or URL Inspection",
+  "global": [
+    {
+      "from": "2026-09-23",
+      "to": "2026-10-20",
+      "clicks": 307,
+      "impressions": 25285,
+      "ctr": 1.2141585920506228,
+      "position": 9.762624037967175,
+      "clicksDaily": 10.964285714285714,
+      "impressionsDaily": 903.0357142857143
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-17",
+      "clicks": 182,
+      "impressions": 21925,
+      "ctr": 0.830102622576967,
+      "position": 13.072241824401369,
+      "clicksDaily": 6.5,
+      "impressionsDaily": 783.0357142857143
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-03",
+      "clicks": 101,
+      "impressions": 10876,
+      "ctr": 0.9286502390584774,
+      "position": 12.9146667800662,
+      "clicksDaily": 7.214285714285714,
+      "impressionsDaily": 776.8571428571429
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-17",
+      "clicks": 81,
+      "impressions": 11049,
+      "ctr": 0.7330980179201738,
+      "position": 13.227349633450991,
+      "clicksDaily": 5.785714285714286,
+      "impressionsDaily": 789.2142857142857
+    }
+  ],
+  "UK": [
+    {
+      "from": "2026-09-23",
+      "to": "2026-10-20",
+      "clicks": 291,
+      "impressions": 22849,
+      "ctr": 1.2735787124162983,
+      "position": 9.62508864282901,
+      "clicksDaily": 10.392857142857142,
+      "impressionsDaily": 816.0357142857143
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-17",
+      "clicks": 148,
+      "impressions": 16037,
+      "ctr": 0.9228658726694519,
+      "position": 13.723265111928665,
+      "clicksDaily": 5.285714285714286,
+      "impressionsDaily": 572.75
+    },
+    {
+      "from": "2026-10-21",
+      "to": "2026-11-03",
+      "clicks": 87,
+      "impressions": 8410,
+      "ctr": 1.0344827586206897,
+      "position": 13.229132473246134,
+      "clicksDaily": 6.214285714285714,
+      "impressionsDaily": 600.7142857142857
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-17",
+      "clicks": 61,
+      "impressions": 7627,
+      "ctr": 0.7997902189589616,
+      "position": 14.268126196407499,
+      "clicksDaily": 4.357142857142857,
+      "impressionsDaily": 544.7857142857143
+    }
+  ],
+  "reconciled": true,
+  "pages": [
+    {
+      "url": "/exam-dates",
+      "latest14": {
+        "from": "2026-11-04",
+        "to": "2026-11-17",
+        "clicks": 1,
+        "impressions": 166,
+        "ctr": 0.6024096385542169,
+        "position": 15.072298192771086,
+        "clicksDaily": 0.07142857142857142,
+        "impressionsDaily": 11.857142857142858
+      },
+      "previous14": {
+        "from": "2026-10-21",
+        "to": "2026-11-03",
+        "clicks": 0,
+        "impressions": 175,
+        "ctr": 0,
+        "position": 22.514273142857142,
+        "clicksDaily": 0,
+        "impressionsDaily": 12.5
+      }
+    },
+    {
+      "url": "/schools/colchester-rgs",
+      "latest14": {
+        "from": "2026-11-04",
+        "to": "2026-11-17",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      },
+      "previous14": {
+        "from": "2026-10-21",
+        "to": "2026-11-03",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      }
+    },
+    {
+      "url": "/papers",
+      "latest14": {
+        "from": "2026-11-04",
+        "to": "2026-11-17",
+        "clicks": 2,
+        "impressions": 486,
+        "ctr": 0.411522633744856,
+        "position": 64.96913580246914,
+        "clicksDaily": 0.14285714285714285,
+        "impressionsDaily": 34.714285714285715
+      },
+      "previous14": {
+        "from": "2026-10-21",
+        "to": "2026-11-03",
+        "clicks": 0,
+        "impressions": 233,
+        "ctr": 0,
+        "position": 53.70815708154505,
+        "clicksDaily": 0,
+        "impressionsDaily": 16.642857142857142
+      }
+    },
+    {
+      "url": "/mock-exams",
+      "latest14": {
+        "from": "2026-11-04",
+        "to": "2026-11-17",
+        "clicks": 0,
+        "impressions": 46,
+        "ctr": 0,
+        "position": 45.69566304347826,
+        "clicksDaily": 0,
+        "impressionsDaily": 3.2857142857142856
+      },
+      "previous14": {
+        "from": "2026-10-21",
+        "to": "2026-11-03",
+        "clicks": 0,
+        "impressions": 95,
+        "ctr": 0,
+        "position": 50.48421052631579,
+        "clicksDaily": 0,
+        "impressionsDaily": 6.785714285714286
+      }
+    }
+  ]
+}

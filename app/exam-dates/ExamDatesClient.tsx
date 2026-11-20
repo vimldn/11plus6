@@ -382,14 +382,15 @@ const GROUPS_2027_ENTRY: SchoolGroup[] = [
     examFormat: 'CSSE (Essex shared process)',
     region: 'Essex', accent: 'teal', entryYear: '2027',
     dates: [
-      { date: 'May 2026',     event: 'Registration opens (Essex shared)',  certainty: 'pattern' },
-      { date: 'Jun 2026',     event: 'Registration closes',               certainty: 'pattern' },
-      { date: 'Sep 2026',     event: 'Essex 11+ test day',                certainty: 'pattern' },
-      { date: 'Oct 2026',     event: 'Results issued',                    certainty: 'pattern' },
+      { date: '12 May 2026',     event: 'Registration opens (Essex shared)',  certainty: 'confirmed' },
+      { date: '19 Jun 2026',     event: 'Registration closes',               certainty: 'confirmed' },
+      { date: '19 Sep 2026',     event: 'Essex 11+ test day',                certainty: 'confirmed' },
+      { date: '12 Oct 2026',     event: 'Results issued',                    certainty: 'confirmed' },
       { date: '31 Oct 2026',  event: 'CAF deadline',                      certainty: 'confirmed' },
       { date: '1 Mar 2027',   event: 'National Offers Day',               certainty: 'confirmed' },
     ],
-    officialUrl: 'https://www.crgs.co.uk/admissions',
+    officialUrl: 'https://csse.org.uk/examination/',
+    note: 'Checked 20 November 2026 against the CSSE 2027-entry guide. These registration and test dates are historical 2026 dates, not the timetable for tests taken in 2027.',
   },
   {
     id: 'gloucestershire-2027',
@@ -536,6 +537,12 @@ export default function ExamDatesClient() {
               ))}
             </div>
           </div>
+        </section>
+
+        <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="csse-2027-tests">
+          <h2 id="csse-2027-tests" className="text-2xl font-bold">CSSE: May 2027 registration for September 2028 entry</h2>
+          <p className="mt-4 leading-relaxed">The <a className="underline" href="https://csse.org.uk/">consortium’s current notice</a> gives May 2027 for registration opening and says detailed dates will be available by Easter 2027. Exact registration and test days remain unconfirmed here. The Colchester card below instead records the past 2026 cycle from the <a className="underline" href="https://csse.org.uk/storage/2026/03/CSSE-Information-Guide-2027-Entry.pdf">September 2027-entry guide</a>.</p>
+          <p className="mt-4 leading-relaxed">Read our <Link className="underline" href="/schools/colchester-rgs">Colchester Royal Grammar School assessment and preparation guide</Link> for official familiarisation and relevant English and maths practice. Registering for a test does not submit a school-place application. Sources checked 20 November 2026.</p>
         </section>
 
         <section className="max-w-6xl mx-auto px-6 py-8" aria-labelledby="redbridge-2027-tests">
