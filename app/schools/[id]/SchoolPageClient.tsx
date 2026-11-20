@@ -73,6 +73,7 @@ const SCHOOL_DETAILS: Record<string, SchoolDetail> = {
   'tiffin': {
     admissionsUrl: 'https://www.tiffinschool.co.uk/admissions/year-7-admissions/',
   },
+  'colchester-rgs': { admissionsUrl: 'https://www.crgs.co.uk/132/admissions-policy' },
   'latymer': { admissionsUrl: 'https://www.latymer.co.uk/2028admissionsyear7' },
   'newstead-wood': { admissionsUrl: 'https://www.newsteadwood.co.uk/admissions/year-7-admissions' },
   'st-olaves': { admissionsUrl: 'https://saintolaves.net/4205/key-dates-1' },
@@ -100,7 +101,7 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
   const school = SCHOOLS.find((s) => s.id === params.id);
   if (!school) notFound();
 
-  const s = (school.id === 'latymer' ? { ...school, examFormat: 'Proposed Quest assessment for 2027 tests — consultation open', subjects: ['maths', 'english'] } : school.id === 'tiffin' ? { ...school, examFormat: 'Tiffin School with Quest — confirm cycle-specific papers', subjects: ['english', 'maths'] } : school.id === 'st-olaves' ? { ...school, examFormat: 'School SET: English, logic and maths; followed by Stage 2' } : school.id === 'newstead-wood' ? { ...school, examFormat: 'School selection test: verbal and non-verbal reasoning', subjects: ['verbal-reasoning', 'non-verbal-reasoning'] } : school) as any;
+  const s = (school.id === 'colchester-rgs' ? { ...school, examFormat: 'CSSE English and Mathematics — check current cycle instructions', subjects: ['english', 'maths'] } : school.id === 'latymer' ? { ...school, examFormat: 'Proposed Quest assessment for 2027 tests — consultation open', subjects: ['maths', 'english'] } : school.id === 'tiffin' ? { ...school, examFormat: 'Tiffin School with Quest — confirm cycle-specific papers', subjects: ['english', 'maths'] } : school.id === 'st-olaves' ? { ...school, examFormat: 'School SET: English, logic and maths; followed by Stage 2' } : school.id === 'newstead-wood' ? { ...school, examFormat: 'School selection test: verbal and non-verbal reasoning', subjects: ['verbal-reasoning', 'non-verbal-reasoning'] } : school) as any;
   const storedDetail = SCHOOL_DETAILS[school.id];
   // Retain the three cycle-specific grammar repairs already verified in the prior release.
   // Other undated legacy admissions prose is held, not promoted to current facts.
@@ -121,6 +122,17 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
     <nav className="school-jump-links" aria-label="On this school page"><a href="#assessment">Assessment</a><a href="#admissions">Admissions</a><a href="#dates">Dates</a><a href="#preparation">Preparation</a><a href="#sources">Official sources</a></nav>
     <div className="school-profile-layout"><div className="school-profile-sections">
       <section id="assessment"><p className="brand-eyebrow">01 / Understand the assessment</p><h2>What does the exam involve?</h2><dl className="school-detail-list"><div><dt>Provider / format</dt><dd>{evidence?.format || (detail ? s.examFormat : null) || 'A current cycle-specific format has not been verified here.'}</dd></div>{detail?.entryStages && <div><dt>Entry stages</dt><dd>{detail.entryStages}</dd></div>}{detail?.examNotes && <div><dt>What is tested</dt><dd>{detail.examNotes}</dd></div>}</dl><SchoolPaperEvidence schoolId={school.id}/><h3>{evidence || detail ? "Subjects and preparation areas" : "General preparation areas — not a verified school syllabus"}</h3>{school.id === 'reading-school' ? <p>Broad KS2 application through Year 5 and written creativity. The FSCE guide covers English, Maths and other curriculum subjects; the selection of content changes annually.</p> : s.subjects?.length ? <ul className="school-subject-links">{s.subjects.map((sub:string)=><li key={sub}><Link href={`/subjects/${sub}`}>{subjectLabels[sub] || sub}<ChevronRight size={16}/></Link></li>)}</ul> : <p>Check the school’s official admissions page for the subjects tested.</p>}</section>
+      {school.id === 'colchester-rgs' && <section id="csse-cycle">
+        <p className="brand-eyebrow">Sources checked · 20 November 2026</p>
+        <h2>CSSE preparation for tests taken in 2027.</h2>
+        <p>For September 2028 entry, <a className="underline" href="https://csse.org.uk/">CSSE</a> says registration opens in May 2027 and detailed dates will be published by Easter 2027. The exact opening day, deadline and test day remain unconfirmed here. The older 2027-entry guide describes tests taken in 2026. <Link className="underline" href="/exam-dates#csse-2027-tests">Compare the two cycles in our calendar</Link>.</p>
+        <h3>English and maths, with official familiarisation</h3>
+        <p>The consortium currently describes an English paper of 60 minutes plus 10 minutes for reading, and a 60-minute mathematics paper. Its English paper no longer includes applied reasoning questions. Check the final instructions for your child’s cycle. Use the <a className="underline" href="https://csse.org.uk/examination/">official familiarisation papers and guidance</a> to understand the actual tasks.</p>
+        <h3>Turn practice into a useful next step</h3>
+        <p>Start with <Link className="underline" href="/subjects/english/comprehension-retrieval">retrieving precise details from a passage</Link>. Write an answer before revealing the model, then identify the sentence that supports it. In maths, try our <Link className="underline" href="/blog/11-plus-multi-step-word-problems">multi-step word problems</Link>: explain why each operation is needed, and check the result against the question.</p>
+        <p>Choose <Link className="underline" href="/papers">original practice papers and worked answers</Link> for selected skills, then <Link className="underline" href="/mock-exams">online practice settings</Link> when ready. These short resources are not official CSSE papers, complete syllabus coverage or a replica of the school’s examination.</p>
+        <p>Test registration and applying for a school place are separate. Read the <a className="underline" href="https://www.crgs.co.uk/132/admissions-policy">school’s policy for the intended entry year</a> and your home authority’s application guidance. A policy labelled 2027–2028 concerns September 2027 entry; it does not confirm the rules for September 2028.</p>
+      </section>}
       {school.id === 'latymer' && <section id="latymer-cycle">
         <p className="brand-eyebrow">Source check · 17 November 2026</p>
         <h2>Latymer tests in 2027: proposed changes for 2028 entry.</h2>
