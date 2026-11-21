@@ -1,0 +1,176 @@
+{
+  "retrieved": "2026-11-21",
+  "property": "https://www.11plusexampapers.com/",
+  "scope": "Web all devices; 19 November absent, cutoff 18 November",
+  "global": [
+    {
+      "a": "2026-09-24",
+      "b": "2026-10-21",
+      "clicks": 303,
+      "impressions": 25800,
+      "clicksDaily": 10.821428571428571,
+      "impressionsDaily": 921.4285714285714,
+      "ctr": 1.1744186046511629,
+      "position": 9.781975957364343
+    },
+    {
+      "a": "2026-10-22",
+      "b": "2026-11-18",
+      "clicks": 176,
+      "impressions": 21439,
+      "clicksDaily": 6.285714285714286,
+      "impressionsDaily": 765.6785714285714,
+      "ctr": 0.8209338122113905,
+      "position": 13.245246121554176
+    },
+    {
+      "a": "2026-10-22",
+      "b": "2026-11-04",
+      "clicks": 99,
+      "impressions": 10468,
+      "clicksDaily": 7.071428571428571,
+      "impressionsDaily": 747.7142857142857,
+      "ctr": 0.9457393962552542,
+      "position": 13.2470294898739
+    },
+    {
+      "a": "2026-11-05",
+      "b": "2026-11-18",
+      "clicks": 77,
+      "impressions": 10971,
+      "clicksDaily": 5.5,
+      "impressionsDaily": 783.6428571428571,
+      "ctr": 0.7018503326952876,
+      "position": 13.243544517363961
+    }
+  ],
+  "UK": [
+    {
+      "a": "2026-09-24",
+      "b": "2026-10-21",
+      "clicks": 287,
+      "impressions": 23282,
+      "clicksDaily": 10.25,
+      "impressionsDaily": 831.5,
+      "ctr": 1.232711966325917,
+      "position": 9.644690082467141
+    },
+    {
+      "a": "2026-10-22",
+      "b": "2026-11-18",
+      "clicks": 141,
+      "impressions": 15509,
+      "clicksDaily": 5.035714285714286,
+      "impressionsDaily": 553.8928571428571,
+      "ctr": 0.90914952608163,
+      "position": 14.034045199561547
+    },
+    {
+      "a": "2026-10-22",
+      "b": "2026-11-04",
+      "clicks": 82,
+      "impressions": 7909,
+      "clicksDaily": 5.857142857142857,
+      "impressionsDaily": 564.9285714285714,
+      "ctr": 1.036793526362372,
+      "position": 13.705526564673157
+    },
+    {
+      "a": "2026-11-05",
+      "b": "2026-11-18",
+      "clicks": 59,
+      "impressions": 7600,
+      "clicksDaily": 4.214285714285714,
+      "impressionsDaily": 542.8571428571429,
+      "ctr": 0.7763157894736842,
+      "position": 14.375920710526314
+    }
+  ],
+  "countryReconciles": true,
+  "pages": {
+    "/papers": [
+      {
+        "a": "2026-09-24",
+        "b": "2026-10-21",
+        "clicks": 1,
+        "impressions": 350,
+        "clicksDaily": 0.03571428571428571,
+        "impressionsDaily": 12.5,
+        "ctr": 0.2857142857142857,
+        "position": 46.17144028571429
+      },
+      {
+        "a": "2026-10-22",
+        "b": "2026-11-18",
+        "clicks": 2,
+        "impressions": 746,
+        "clicksDaily": 0.07142857142857142,
+        "impressionsDaily": 26.642857142857142,
+        "ctr": 0.2680965147453083,
+        "position": 60.82975723860589
+      },
+      {
+        "a": "2026-10-22",
+        "b": "2026-11-04",
+        "clicks": 0,
+        "impressions": 250,
+        "clicksDaily": 0,
+        "impressionsDaily": 17.857142857142858,
+        "ctr": 0,
+        "position": 55.503995599999996
+      },
+      {
+        "a": "2026-11-05",
+        "b": "2026-11-18",
+        "clicks": 2,
+        "impressions": 496,
+        "clicksDaily": 0.14285714285714285,
+        "impressionsDaily": 35.42857142857143,
+        "ctr": 0.4032258064516129,
+        "position": 63.514112903225815
+      }
+    ],
+    "/mock-exams": [
+      {
+        "a": "2026-09-24",
+        "b": "2026-10-21",
+        "clicks": 1,
+        "impressions": 226,
+        "clicksDaily": 0.03571428571428571,
+        "impressionsDaily": 8.071428571428571,
+        "ctr": 0.4424778761061947,
+        "position": 48.97345398230088
+      },
+      {
+        "a": "2026-10-22",
+        "b": "2026-11-18",
+        "clicks": 0,
+        "impressions": 139,
+        "clicksDaily": 0,
+        "impressionsDaily": 4.964285714285714,
+        "ctr": 0,
+        "position": 48.956838129496404
+      },
+      {
+        "a": "2026-10-22",
+        "b": "2026-11-04",
+        "clicks": 0,
+        "impressions": 88,
+        "clicksDaily": 0,
+        "impressionsDaily": 6.285714285714286,
+        "ctr": 0,
+        "position": 50.60227159090909
+      },
+      {
+        "a": "2026-11-05",
+        "b": "2026-11-18",
+        "clicks": 0,
+        "impressions": 51,
+        "clicksDaily": 0,
+        "impressionsDaily": 3.642857142857143,
+        "ctr": 0,
+        "position": 46.11765882352941
+      }
+    ]
+  }
+}

@@ -131,6 +131,12 @@ function MockExamsPageInner({ initialSubject }: { initialSubject: PracticeSubjec
           </div>
           <div className="mt-9 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-emerald-900"><Link className="underline underline-offset-4" href="/blog/how-is-the-11-plus-scored-and-marked">Understand practice and official scores →</Link><Link className="underline underline-offset-4" href="/blog/are-mock-exams-important-for-the-11-plus">Choose a useful mock experience →</Link><Link className="underline underline-offset-4" href="/schools">Check a school’s assessment →</Link></div>
         </section>
+        <section id="kent-paper-format" className="mx-auto max-w-6xl scroll-mt-24 px-6 pb-12" aria-labelledby="kent-paper-title">
+          <h2 id="kent-paper-title" className="text-2xl font-bold">Preparing for Kent in 2027? Rehearse the paper format too.</h2>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">Quest’s current Kent guidance describes two multiple-choice papers with a separate answer sheet and a writing task. Clicking an answer online does not practise transferring it to the correct row on paper. Use these sessions to develop selected skills, then use the official familiarisation resources to practise following the paper instructions.</p>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-600">With the official sample sheet, try answering a few questions, checking their numbers and correcting a mark cleanly. Follow the organiser’s instructions rather than assuming every answer sheet works the same way. Tests taken in 2027 are for September 2028 entry; exact test days remain unconfirmed here. Sources checked 21 November 2026.</p>
+          <div className="mt-4 flex flex-wrap gap-6 font-semibold text-emerald-900"><Link className="underline" href="/papers#official-materials">Find official familiarisation and answer sheets →</Link><a className="underline" href="https://www.questassessments.com/parent-guidance-consortium/the-kent-test">Read Quest’s Kent Test guidance →</a></div>
+        </section>
         <section className="chapter-faq">
           <div><p className="brand-eyebrow">Before you start</p><h2>Practice that fits the purpose.</h2></div>
           <div>
