@@ -41,7 +41,8 @@ const additions: Record<string, { title?: string; desc?: string; opening: BlockT
       { type: 'h2', text: 'Turn a free resource into a useful study session' },
       { type: 'ol', items: ['Choose one skill your child needs, rather than downloading every available paper.', 'Try a short set without the answers visible. Record any uncertainty as well as incorrect answers.', 'Open the separate worked answers. Ask your child to explain the first step they would change.', 'Return to the matching lesson, then retry a similar question on another day.', 'Add a timer only when the method is secure; match any full rehearsal to confirmed local instructions.'] },
       { type: 'p', text: 'Start with our [maths learning hub](/subjects/maths) or [English learning hub](/subjects/english). The [mock-exam hub](/mock-exams) offers online practice, while the [papers hub](/papers) separates our printable practice from links to official familiarisation. A high practice score does not predict an admissions offer.' },
-      { type: 'p', text: 'Source directory rechecked 24 October 2026. For Kent tests taken in 2027, the council says new Quest familiarisation is awaited; previous materials are not confirmation of the future format. Use the [current official Kent preparation page](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/prepare-for-the-kent-test) for the replacement when available.' },
+      { type: 'p', text: 'Kent source update, checked 22 November 2026: the [council’s preparation page](https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/prepare-for-the-kent-test) now links [Quest’s Kent Test 2027 familiarisation resources](https://www.questassessments.com/parent-guidance-consortium/the-kent-test). Use that current route rather than waiting for materials or treating an older provider booklet as the next test. Tests taken in 2027 concern September 2028 entry; the council page’s displayed September 2026 dates concern the earlier cycle. Exact 2027 dates remain unconfirmed here.' },
+      { type: 'p', text: 'Before saving a resource, note its organiser, test year, entry year and whether answers are included. Use a familiarisation sample to understand the instructions and answer layout, then choose a small original practice set for the skill that needs attention. Do not treat a familiar score as proof of readiness. Our [dated Kent provider report](/blog/kent-test-2027-quest-assessments) keeps the October announcement separate from this resource update.' },
     ],
   },
   'how-is-the-11-plus-scored-and-marked': {
@@ -68,7 +69,7 @@ export function improveSearchPriorityPost(post: BlogPost): BlogPost {
   const change = additions[post.slug];
   if (!change) return post;
   return { ...post, title: change.title ?? post.title, desc: change.desc ?? post.desc,
-    updatedAt: '2026-10-24', editorial: true,
+    updatedAt: post.slug === 'free-11-plus-resources-and-websites' ? '2026-11-22' : '2026-10-24', editorial: true,
     imageUrl: '/brand/book-journey.webp', imageAlt: 'Illustrated books and a path through learning', images: [],
     content: [...change.opening, ...post.content, ...change.closing] };
 }

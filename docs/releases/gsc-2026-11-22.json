@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-22",
+  "cutoff": "2026-11-19",
+  "global": [
+    {
+      "a": "2026-09-25",
+      "b": "2026-10-22",
+      "clicks": 308,
+      "impressions": 26320,
+      "clicksDaily": 11,
+      "impressionsDaily": 940,
+      "ctr": 1.1702127659574468,
+      "position": 9.976826082826747
+    },
+    {
+      "a": "2026-10-23",
+      "b": "2026-11-19",
+      "clicks": 168,
+      "impressions": 21037,
+      "clicksDaily": 6,
+      "impressionsDaily": 751.3214285714286,
+      "ctr": 0.7985929552692875,
+      "position": 13.131899491372344
+    },
+    {
+      "a": "2026-10-23",
+      "b": "2026-11-05",
+      "clicks": 90,
+      "impressions": 10010,
+      "clicksDaily": 6.428571428571429,
+      "impressionsDaily": 715,
+      "ctr": 0.8991008991008992,
+      "position": 13.46282084915085
+    },
+    {
+      "a": "2026-11-06",
+      "b": "2026-11-19",
+      "clicks": 78,
+      "impressions": 11027,
+      "clicksDaily": 5.571428571428571,
+      "impressionsDaily": 787.6428571428571,
+      "ctr": 0.707354674888909,
+      "position": 12.83149840391766
+    }
+  ],
+  "UK": [
+    {
+      "a": "2026-09-25",
+      "b": "2026-10-22",
+      "clicks": 292,
+      "impressions": 23689,
+      "clicksDaily": 10.428571428571429,
+      "impressionsDaily": 846.0357142857143,
+      "ctr": 1.2326396217653763,
+      "position": 9.861398514078264
+    },
+    {
+      "a": "2026-10-23",
+      "b": "2026-11-19",
+      "clicks": 131,
+      "impressions": 15081,
+      "clicksDaily": 4.678571428571429,
+      "impressionsDaily": 538.6071428571429,
+      "ctr": 0.8686426629533851,
+      "position": 13.9429757509449
+    },
+    {
+      "a": "2026-10-23",
+      "b": "2026-11-05",
+      "clicks": 72,
+      "impressions": 7494,
+      "clicksDaily": 5.142857142857143,
+      "impressionsDaily": 535.2857142857143,
+      "ctr": 0.9607686148919135,
+      "position": 14.03910129436883
+    },
+    {
+      "a": "2026-11-06",
+      "b": "2026-11-19",
+      "clicks": 59,
+      "impressions": 7587,
+      "clicksDaily": 4.214285714285714,
+      "impressionsDaily": 541.9285714285714,
+      "ctr": 0.7776459733755108,
+      "position": 13.848028496111771
+    }
+  ],
+  "pages": {
+    "/papers": [
+      {
+        "a": "2026-09-25",
+        "b": "2026-10-22",
+        "clicks": 1,
+        "impressions": 373,
+        "clicksDaily": 0.03571428571428571,
+        "impressionsDaily": 13.321428571428571,
+        "ctr": 0.2680965147453083,
+        "position": 46.345856836461124
+      },
+      {
+        "a": "2026-10-23",
+        "b": "2026-11-19",
+        "clicks": 2,
+        "impressions": 750,
+        "clicksDaily": 0.07142857142857142,
+        "impressionsDaily": 26.785714285714285,
+        "ctr": 0.26666666666666666,
+        "position": 60.785328799999995
+      },
+      {
+        "a": "2026-10-23",
+        "b": "2026-11-05",
+        "clicks": 0,
+        "impressions": 287,
+        "clicksDaily": 0,
+        "impressionsDaily": 20.5,
+        "ctr": 0,
+        "position": 62.80138397212544
+      },
+      {
+        "a": "2026-11-06",
+        "b": "2026-11-19",
+        "clicks": 2,
+        "impressions": 463,
+        "clicksDaily": 0.14285714285714285,
+        "impressionsDaily": 33.07142857142857,
+        "ctr": 0.4319654427645789,
+        "position": 59.53563585313175
+      }
+    ],
+    "/mock-exams": [
+      {
+        "a": "2026-09-25",
+        "b": "2026-10-22",
+        "clicks": 1,
+        "impressions": 244,
+        "clicksDaily": 0.03571428571428571,
+        "impressionsDaily": 8.714285714285714,
+        "ctr": 0.4098360655737705,
+        "position": 49.36475532786885
+      },
+      {
+        "a": "2026-10-23",
+        "b": "2026-11-19",
+        "clicks": 0,
+        "impressions": 120,
+        "clicksDaily": 0,
+        "impressionsDaily": 4.285714285714286,
+        "ctr": 0,
+        "position": 47.93333583333333
+      },
+      {
+        "a": "2026-10-23",
+        "b": "2026-11-05",
+        "clicks": 0,
+        "impressions": 64,
+        "clicksDaily": 0,
+        "impressionsDaily": 4.571428571428571,
+        "ctr": 0,
+        "position": 51.0468734375
+      },
+      {
+        "a": "2026-11-06",
+        "b": "2026-11-19",
+        "clicks": 0,
+        "impressions": 56,
+        "clicksDaily": 0,
+        "impressionsDaily": 4,
+        "ctr": 0,
+        "position": 44.37500714285714
+      }
+    ]
+  },
+  "countryCountsReconcile": true
+}
