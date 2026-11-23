@@ -55,6 +55,15 @@ export function PracticeResourceCatalogue() {
                 <details className="mt-4 border-t border-stone-200 pt-4"><summary className="cursor-pointer font-semibold text-emerald-900">Show the worked answer</summary><VisualWorked question={visualExample} /><p className="mt-3 leading-7">{visualExample.explanation}</p></details>
               </div> : <div className="mt-4"><p className="leading-7">{paper.sample}</p><details className="mt-4 border-t border-stone-200 pt-4"><summary className="cursor-pointer font-semibold text-emerald-900">Show the worked answer</summary><p className="mt-3 font-semibold">{paper.answer}</p><p className="mt-2 leading-7">{paper.explanation}</p></details></div>}
             </details>
+            {paper.id === 'english' && <div className="mt-6 rounded-xl border border-emerald-900/15 bg-stone-50 p-4">
+              <h4 className="font-bold text-slate-900">Looking for reading comprehension?</h4>
+              <p className="mt-2 text-sm leading-6 text-slate-600">The PDF above practises punctuation. For reading comprehension, choose an original passage below, write your answers, then reveal the model answers and explanations. Each lesson has six questions for self-review; written responses are not automatically marked.</p>
+              <ul className="mt-3 space-y-2 text-sm text-slate-600">
+                <li><Link href="/subjects/english/comprehension-retrieval#practice" className="font-semibold text-emerald-900 underline underline-offset-4">Retrieval: find a stated detail →</Link></li>
+                <li><Link href="/subjects/english/comprehension-inference#practice" className="font-semibold text-emerald-900 underline underline-offset-4">Inference: explain what the clues suggest →</Link></li>
+                <li><Link href="/subjects/english/using-evidence#practice" className="font-semibold text-emerald-900 underline underline-offset-4">Evidence: support an answer with the passage →</Link></li>
+              </ul>
+            </div>}
             <div className="mt-6 border-t border-stone-200 pt-5">
               <h4 className="font-bold text-slate-900">Work on a missed skill</h4>
               <p className="mt-2 text-sm leading-6 text-slate-600">Choose the method that matches your mistake, then try the guide’s questions before returning to this booklet.</p>
