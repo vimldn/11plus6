@@ -10,8 +10,11 @@ export function EnglishResourceChooser() {
       <article className="border-t border-stone-200 pt-5">
         <h3 className="text-xl font-bold">Explain an answer about a passage</h3>
         <p className="mt-3 leading-7 text-slate-600">Use a reading lesson when an answer needs to be written in your own words. Each lesson has an original passage and six questions. Write before revealing the model; compare the meaning and evidence, not just the wording. This is self-review, not automatic marking.</p>
-        <p className="mt-3 leading-7 text-slate-600">Start with retrieval if finding the relevant detail is difficult. Move to inference when the answer is implied; use the evidence lesson if the explanation lacks support.</p>
-        <Link href="#topic-practice" className="mt-4 inline-block font-semibold text-emerald-900 underline underline-offset-4">Choose a written reading lesson ↓</Link>
+        <ul className="mt-4 space-y-4 text-sm leading-6 text-slate-600">
+          <li><Link href="/subjects/english/comprehension-retrieval#practice" className="font-semibold text-emerald-900 underline underline-offset-4">I cannot find the detail →</Link><p>Try retrieval. Locate the sentence that answers the question, then check that your answer includes every requested detail.</p></li>
+          <li><Link href="/subjects/english/comprehension-inference#practice" className="font-semibold text-emerald-900 underline underline-offset-4">I found a clue but cannot explain it →</Link><p>Try inference. Connect an action or phrase to what it suggests; avoid adding events the passage never gives.</p></li>
+          <li><Link href="/subjects/english/using-evidence#practice" className="font-semibold text-emerald-900 underline underline-offset-4">My answer needs stronger support →</Link><p>Try using evidence. Select the detail that supports your point and explain the connection, rather than copying a long quotation.</p></li>
+        </ul>
       </article>
       <article className="border-t border-stone-200 pt-5">
         <h3 className="text-xl font-bold">Edit punctuation on paper</h3>
