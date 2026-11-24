@@ -1,0 +1,24 @@
+{
+  "base": "http://localhost:3004",
+  "changedPages": [
+    "/subjects/maths",
+    "/mock-exams"
+  ],
+  "setupVariants": 12,
+  "newTopicLinks": 8,
+  "methodDestinations": [
+    "/blog/11-plus-algebra-basics",
+    "/blog/11-plus-area-perimeter",
+    "/blog/11-plus-averages",
+    "/blog/11-plus-multi-step-word-problems",
+    "/blog/11-plus-order-of-operations",
+    "/subjects/maths#topic-practice",
+    "/subjects/maths/fractions-of-amounts",
+    "/subjects/maths/percentages-of-amounts"
+  ],
+  "sitemapURLs": 285,
+  "publishedInternalPathsValidated": 59,
+  "mathsPDFs": 2,
+  "canonicalHeadingDescriptionRobots": true,
+  "indexStatus": "Not measured; technical checks are not URL Inspection"
+}

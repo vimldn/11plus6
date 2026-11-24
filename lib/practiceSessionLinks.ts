@@ -1,3 +1,5 @@
+import { mathsJourneys, topicPracticeHref } from './practiceJourneys';
+
 export type PracticeSubject = 'maths' | 'english' | 'verbal' | 'nonverbal';
 export type PracticeMode = 'practice' | 'exam';
 
@@ -15,7 +17,9 @@ export const PRACTICE_SESSIONS: Record<PracticeSubject, {
 };
 
 /** Fixed reviewed routes retain their actual counts/timers; only the English bank is configurable. */
-export function practiceSessionHref(subject: PracticeSubject, mode: PracticeMode = 'practice', englishCount = 20, englishMinutes = 25) {
+export function practiceSessionHref(subject: PracticeSubject, mode: PracticeMode = 'practice', englishCount = 20, englishMinutes = 25, mathsTopic?: string) {
+  const journey = mathsJourneys.find(item => item.topic === mathsTopic);
+  if (subject === 'maths' && journey) return topicPracticeHref(journey.topic, mode);
   if (subject === 'english') {
     const count = [20, 25, 30].includes(englishCount) ? englishCount : 20;
     const duration = [25, 45, 60].includes(englishMinutes) ? englishMinutes : 25;
@@ -23,6 +27,20 @@ export function practiceSessionHref(subject: PracticeSubject, mode: PracticeMode
   }
   const paper = subject === 'maths' ? 'maths-generated' : subject === 'verbal' ? 'verbal-reviewed' : 'visual-reviewed';
   return `/quiz?paper=${paper}&mode=${mode}`;
+}
+
+/** Reuse only topics supported by the quiz; unknown URL values keep the mixed set. */
+export function mathsPracticeSession(topic: string | null) {
+  const journey = mathsJourneys.find(item => item.topic === topic);
+  return journey ? {
+    ...PRACTICE_SESSIONS.maths,
+    questions: 10,
+    minutes: 15,
+    scope: `Ten original questions on ${journey.title.toLowerCase()}. Number variations can recur across attempts.`,
+    guide: journey.guide ?? '/subjects/maths#topic-practice',
+    topic: journey.topic,
+    title: journey.title,
+  } : { ...PRACTICE_SESSIONS.maths, topic: '', title: 'Mixed maths: eight skills' };
 }
 
 /** Only supported subject values may preselect the setup; unknown values use maths. */
