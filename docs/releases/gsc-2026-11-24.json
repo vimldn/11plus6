@@ -1,0 +1,306 @@
+{
+  "retrieved": "2026-11-24",
+  "property": "https://www.11plusexampapers.com/",
+  "searchType": "web",
+  "devices": "all",
+  "finalThrough": "2026-11-21",
+  "periods": [
+    [
+      "2026-09-27",
+      "2026-10-24"
+    ],
+    [
+      "2026-10-25",
+      "2026-11-21"
+    ],
+    [
+      "2026-10-25",
+      "2026-11-07"
+    ],
+    [
+      "2026-11-08",
+      "2026-11-21"
+    ]
+  ],
+  "global": [
+    {
+      "clicks": 309,
+      "impressions": 26649,
+      "ctr": 1.1595181807947765,
+      "position": 10.132126087282828,
+      "clicksPerDay": 11.035714285714286,
+      "impressionsPerDay": 951.75
+    },
+    {
+      "clicks": 164,
+      "impressions": 20909,
+      "ctr": 0.784351236309723,
+      "position": 13.113673088143862,
+      "clicksPerDay": 5.857142857142857,
+      "impressionsPerDay": 746.75
+    },
+    {
+      "clicks": 83,
+      "impressions": 9648,
+      "ctr": 0.8602819237147595,
+      "position": 13.72013222429519,
+      "clicksPerDay": 5.928571428571429,
+      "impressionsPerDay": 689.1428571428571
+    },
+    {
+      "clicks": 81,
+      "impressions": 11261,
+      "ctr": 0.7192966876831542,
+      "position": 12.594081777817244,
+      "clicksPerDay": 5.785714285714286,
+      "impressionsPerDay": 804.3571428571429
+    }
+  ],
+  "uk": [
+    {
+      "clicks": 293,
+      "impressions": 23864,
+      "ctr": 1.2277908146161582,
+      "position": 10.021400926081126,
+      "clicksPerDay": 10.464285714285714,
+      "impressionsPerDay": 852.2857142857143
+    },
+    {
+      "clicks": 124,
+      "impressions": 14831,
+      "ctr": 0.8360865754163577,
+      "position": 13.94915992178545,
+      "clicksPerDay": 4.428571428571429,
+      "impressionsPerDay": 529.6785714285714
+    },
+    {
+      "clicks": 65,
+      "impressions": 7184,
+      "ctr": 0.9047884187082406,
+      "position": 14.344796812360803,
+      "clicksPerDay": 4.642857142857143,
+      "impressionsPerDay": 513.1428571428571
+    },
+    {
+      "clicks": 59,
+      "impressions": 7647,
+      "ctr": 0.7715443964953577,
+      "position": 13.577477507519289,
+      "clicksPerDay": 4.214285714285714,
+      "impressionsPerDay": 546.2142857142857
+    }
+  ],
+  "countryTotalsReconcile": true,
+  "pages": {
+    "/papers": [
+      {
+        "clicks": 0,
+        "impressions": 372,
+        "ctr": 0,
+        "position": 46.68549516129032,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 13.285714285714286
+      },
+      {
+        "clicks": 2,
+        "impressions": 803,
+        "ctr": 0.24906600249066002,
+        "position": 59.87546189290162,
+        "clicksPerDay": 0.07142857142857142,
+        "impressionsPerDay": 28.678571428571427
+      },
+      {
+        "clicks": 0,
+        "impressions": 318,
+        "ctr": 0,
+        "position": 63.893076415094335,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 22.714285714285715
+      },
+      {
+        "clicks": 2,
+        "impressions": 485,
+        "ctr": 0.41237113402061853,
+        "position": 57.241232164948435,
+        "clicksPerDay": 0.14285714285714285,
+        "impressionsPerDay": 34.642857142857146
+      }
+    ],
+    "/mock-exams": [
+      {
+        "clicks": 1,
+        "impressions": 254,
+        "ctr": 0.3937007874015748,
+        "position": 49.94881929133858,
+        "clicksPerDay": 0.03571428571428571,
+        "impressionsPerDay": 9.071428571428571
+      },
+      {
+        "clicks": 0,
+        "impressions": 110,
+        "ctr": 0,
+        "position": 46.04546272727273,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 3.9285714285714284
+      },
+      {
+        "clicks": 0,
+        "impressions": 47,
+        "ctr": 0,
+        "position": 49.70213404255318,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 3.357142857142857
+      },
+      {
+        "clicks": 0,
+        "impressions": 63,
+        "ctr": 0,
+        "position": 43.31746984126984,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 4.5
+      }
+    ],
+    "/subjects/maths": [
+      {
+        "clicks": 1,
+        "impressions": 28,
+        "ctr": 3.5714285714285716,
+        "position": 54.214285714285715,
+        "clicksPerDay": 0.03571428571428571,
+        "impressionsPerDay": 1
+      },
+      {
+        "clicks": 0,
+        "impressions": 53,
+        "ctr": 0,
+        "position": 59.50943207547169,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 1.8928571428571428
+      },
+      {
+        "clicks": 0,
+        "impressions": 24,
+        "ctr": 0,
+        "position": 60.16665833333334,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 1.7142857142857142
+      },
+      {
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0,
+        "position": 58.96552068965517,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 2.0714285714285716
+      }
+    ],
+    "/subjects/english": [
+      {
+        "clicks": 2,
+        "impressions": 15,
+        "ctr": 13.333333333333334,
+        "position": 39.93333333333333,
+        "clicksPerDay": 0.07142857142857142,
+        "impressionsPerDay": 0.5357142857142857
+      },
+      {
+        "clicks": 1,
+        "impressions": 14,
+        "ctr": 7.142857142857143,
+        "position": 29.357142857142858,
+        "clicksPerDay": 0.03571428571428571,
+        "impressionsPerDay": 0.5
+      },
+      {
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 20.666666666666668,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 0.21428571428571427
+      },
+      {
+        "clicks": 1,
+        "impressions": 11,
+        "ctr": 9.090909090909092,
+        "position": 31.727272727272727,
+        "clicksPerDay": 0.07142857142857142,
+        "impressionsPerDay": 0.7857142857142857
+      }
+    ],
+    "/subjects/verbal-reasoning": [
+      {
+        "clicks": 1,
+        "impressions": 19,
+        "ctr": 5.2631578947368425,
+        "position": 45.89473684210526,
+        "clicksPerDay": 0.03571428571428571,
+        "impressionsPerDay": 0.6785714285714286
+      },
+      {
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 51.25,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 0.2857142857142857
+      },
+      {
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 69,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 0.2857142857142857
+      },
+      {
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 33.5,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 0.2857142857142857
+      }
+    ],
+    "/subjects/non-verbal-reasoning": [
+      {
+        "clicks": 3,
+        "impressions": 24,
+        "ctr": 12.5,
+        "position": 43.0416625,
+        "clicksPerDay": 0.10714285714285714,
+        "impressionsPerDay": 0.8571428571428571
+      },
+      {
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 53.80000666666667,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 0.5357142857142857
+      },
+      {
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 41.85715714285714,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 0.5
+      },
+      {
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 64.25,
+        "clicksPerDay": 0,
+        "impressionsPerDay": 0.5714285714285714
+      }
+    ]
+  },
+  "limitations": [
+    "Country+page not validated; URL comparisons global.",
+    "No URL Inspection connection; sitemap and HTTP are not indexing proof.",
+    "Latest returned final date 21 Nov; requested22 Nov returned no rows.",
+    "No new GA4 pull in daily run; yesterday weekly review found connected consented data."
+  ]
+}

@@ -8,28 +8,31 @@ import { OnlinePracticeCatalogue } from '@/components/OnlinePracticeCatalogue';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SchoolMockStart } from '@/components/SchoolMockStart';
+import { mathsJourneys } from '@/lib/practiceJourneys';
 import { PRINTABLE_PRACTICE } from '@/lib/printablePractice';
-import { PRACTICE_SESSIONS, practiceSubjectFromParam, practiceSessionHref, type PracticeMode, type PracticeSubject } from '@/lib/practiceSessionLinks';
+import { PRACTICE_SESSIONS, mathsPracticeSession, practiceSubjectFromParam, practiceSessionHref, type PracticeMode, type PracticeSubject } from '@/lib/practiceSessionLinks';
 
 const subjects = Object.keys(PRACTICE_SESSIONS) as PracticeSubject[];
 const buttonClass = (selected: boolean) => `rounded-xl border px-4 py-3 text-left text-sm font-semibold transition-colors ${selected ? 'border-emerald-900 bg-emerald-50 text-emerald-950' : 'border-stone-200 bg-white text-slate-700 hover:border-emerald-700'}`;
 
-function MockExamsPageInner({ initialSubject }: { initialSubject: PracticeSubject }) {
+function MockExamsPageInner({ initialSubject, initialMathsTopic }: { initialSubject: PracticeSubject; initialMathsTopic: string }) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const isSchoolMode = searchParams.get('mode') === 'school';
   const [subject, setSubject] = useState<PracticeSubject>(initialSubject);
+  const [mathsTopic, setMathsTopic] = useState(initialMathsTopic);
   const [practiceMode, setPracticeMode] = useState<PracticeMode>('practice');
   const [englishCount, setEnglishCount] = useState(20);
   const [englishMinutes, setEnglishMinutes] = useState(25);
-  const session = PRACTICE_SESSIONS[subject];
+  const mathsSession = mathsPracticeSession(mathsTopic);
+  const session = subject === 'maths' ? mathsSession : PRACTICE_SESSIONS[subject];
   const printable = PRINTABLE_PRACTICE.find(paper => paper.id === subject)!;
   const count = subject === 'english' ? englishCount : session.questions;
   const minutes = subject === 'english' ? englishMinutes : session.minutes;
 
   const startPractice = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    router.push(practiceSessionHref(subject, practiceMode, englishCount, englishMinutes));
+    router.push(practiceSessionHref(subject, practiceMode, englishCount, englishMinutes, mathsTopic));
   };
 
   return (
@@ -76,6 +79,14 @@ function MockExamsPageInner({ initialSubject }: { initialSubject: PracticeSubjec
                   <p className="mt-2 text-sm leading-6 text-slate-600">Choose the skill area you want to work on now.</p>
                   <div className="mt-4 grid grid-cols-2 gap-3">{subjects.map(value => <button type="button" key={value} aria-pressed={subject === value} className={buttonClass(subject === value)} onClick={() => setSubject(value)}>{PRACTICE_SESSIONS[value].label}</button>)}</div>
                 </fieldset>
+                {subject === 'maths' && <div className="mt-8">
+                  <label htmlFor="maths-practice-topic" className="text-lg font-bold text-slate-900">Mixed maths or one skill?</label>
+                  <p id="maths-topic-help" className="mt-2 text-sm leading-6 text-slate-600">Choose 16 mixed questions, or 10 questions on a skill you want to revisit. The timed settings are 20 and 15 minutes respectively.</p>
+                  <select id="maths-practice-topic" aria-describedby="maths-topic-help" className="mt-3 w-full rounded-xl border border-stone-300 bg-white px-4 py-3" value={mathsTopic} onChange={event => setMathsTopic(event.target.value)}>
+                    <option value="">Mixed maths: eight skills</option>
+                    {mathsJourneys.map(journey => <option key={journey.topic} value={journey.topic}>{journey.title}</option>)}
+                  </select>
+                </div>}
                 <fieldset className="mt-8">
                   <legend className="text-lg font-bold text-slate-900">Your pace</legend>
                   <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -86,13 +97,13 @@ function MockExamsPageInner({ initialSubject }: { initialSubject: PracticeSubjec
                 {subject === 'english' ? <div className="mt-8 grid gap-5 sm:grid-cols-2">
                   <div><label htmlFor="english-question-count" className="text-sm font-semibold text-slate-900">English questions</label><select id="english-question-count" className="mt-2 w-full rounded-xl border border-stone-300 bg-white px-4 py-3" value={englishCount} onChange={event => setEnglishCount(Number(event.target.value))}>{[20, 25, 30].map(value => <option key={value} value={value}>{value} questions</option>)}</select></div>
                   {practiceMode === 'exam' && <div><label htmlFor="english-duration" className="text-sm font-semibold text-slate-900">Practice timer</label><select id="english-duration" className="mt-2 w-full rounded-xl border border-stone-300 bg-white px-4 py-3" value={englishMinutes} onChange={event => setEnglishMinutes(Number(event.target.value))}>{[25, 45, 60].map(value => <option key={value} value={value}>{value} minutes</option>)}</select></div>}
-                </div> : <p className="mt-6 text-sm leading-6 text-slate-600">This set uses {session.questions} questions{practiceMode === 'exam' ? ` and our ${session.minutes}-minute practice timer` : ''}. Choose a topic on the subject hub for more focused practice.</p>}
+                </div> : <p className="mt-6 text-sm leading-6 text-slate-600">This set uses {session.questions} questions{practiceMode === 'exam' ? ` and our ${session.minutes}-minute practice timer` : ''}. {subject === 'maths' ? 'The selected skill and pace are shown in your session summary.' : 'Choose a topic on the subject hub for more focused practice.'}</p>}
               </div>
 
               <div className="rounded-2xl border border-stone-200 bg-white p-6 sm:p-7">
                 <div aria-live="polite" aria-atomic="true">
                   <p className="brand-eyebrow">Your next session</p>
-                  <h3 className="mt-3 text-2xl font-bold">{session.label}</h3>
+                  <h3 className="mt-3 text-2xl font-bold">{subject === 'maths' ? mathsSession.title : session.label}</h3>
                   <div className="mt-4 flex flex-wrap gap-5 text-sm font-semibold text-emerald-900"><span className="inline-flex items-center gap-2"><BookOpen size={16} aria-hidden="true" />{count} questions</span><span className="inline-flex items-center gap-2"><Clock size={16} aria-hidden="true" />{practiceMode === 'exam' ? `${minutes} minutes` : 'Untimed'}</span></div>
                   <p className="mt-5 leading-7 text-slate-600">{session.scope}</p>
                 </div>
@@ -155,7 +166,8 @@ function MockExamsPageInner({ initialSubject }: { initialSubject: PracticeSubjec
 function SubjectAwarePracticePage() {
   const searchParams = useSearchParams();
   const initialSubject = practiceSubjectFromParam(searchParams.get('subject'));
-  return <MockExamsPageInner key={initialSubject} initialSubject={initialSubject} />;
+  const initialMathsTopic = mathsPracticeSession(searchParams.get('topic')).topic;
+  return <MockExamsPageInner key={`${initialSubject}:${initialMathsTopic}`} initialSubject={initialSubject} initialMathsTopic={initialMathsTopic} />;
 }
 
 export default function MockExamsClient() {
