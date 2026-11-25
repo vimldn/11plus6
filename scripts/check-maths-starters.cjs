@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');
+const {load}=require('./load-ts.cjs');
+const {mathsWorkedStarters:s}=load('lib/mathsWorkedStarters.ts');
+const expected={arithmetic:18+4+4+4+4+4+4+4,fractions:84*3/7,percentages:600*0.3+600*0.05,algebra:(61-9)/4,'word-problems':(14+14+14+14+14+14)/4,money:1000-85-85-85-85-85,geometry:12*((38-24)/2),data:(9+13+16+18)/4};
+assert.equal(Object.keys(s).length,8);
+for(const [k,v] of Object.entries(expected)) assert.equal(s[k].answer,v,k);
+assert.equal(4*s.algebra.answer+9,61);
+assert.equal(s.money.answer+425,1000);
+assert.equal(s['word-problems'].answer*4,84);
+console.log('PASS eight original answers independently calculated and inverse checks passed.');

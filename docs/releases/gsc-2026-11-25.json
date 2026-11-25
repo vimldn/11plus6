@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-25",
+  "property": "https://www.11plusexampapers.com/",
+  "scope": "Web, all devices; final-only through23November",
+  "periods": [
+    [
+      "2026-09-29",
+      "2026-10-26"
+    ],
+    [
+      "2026-10-27",
+      "2026-11-23"
+    ],
+    [
+      "2026-10-27",
+      "2026-11-09"
+    ],
+    [
+      "2026-11-10",
+      "2026-11-23"
+    ]
+  ],
+  "global": [
+    {
+      "clicks": 312,
+      "impressions": 26980,
+      "ctr": 1.156412157153447,
+      "position": 10.28117348406227,
+      "clicksDaily": 11.142857142857142,
+      "impressionsDaily": 963.5714285714286
+    },
+    {
+      "clicks": 159,
+      "impressions": 21130,
+      "ctr": 0.7524846190250828,
+      "position": 12.951812044486513,
+      "clicksDaily": 5.678571428571429,
+      "impressionsDaily": 754.6428571428571
+    },
+    {
+      "clicks": 76,
+      "impressions": 9623,
+      "ctr": 0.789774498597111,
+      "position": 13.717739000311752,
+      "clicksDaily": 5.428571428571429,
+      "impressionsDaily": 687.3571428571429
+    },
+    {
+      "clicks": 83,
+      "impressions": 11507,
+      "ctr": 0.7213000782132615,
+      "position": 12.311287572781787,
+      "clicksDaily": 5.928571428571429,
+      "impressionsDaily": 821.9285714285714
+    }
+  ],
+  "uk": [
+    {
+      "clicks": 293,
+      "impressions": 24016,
+      "ctr": 1.2200199866755495,
+      "position": 10.174662445869421,
+      "clicksDaily": 10.464285714285714,
+      "impressionsDaily": 857.7142857142857
+    },
+    {
+      "clicks": 119,
+      "impressions": 14843,
+      "ctr": 0.8017247187226302,
+      "position": 13.801454180421747,
+      "clicksDaily": 4.25,
+      "impressionsDaily": 530.1071428571429
+    },
+    {
+      "clicks": 61,
+      "impressions": 7128,
+      "ctr": 0.855780022446689,
+      "position": 14.340632140852975,
+      "clicksDaily": 4.357142857142857,
+      "impressionsDaily": 509.14285714285717
+    },
+    {
+      "clicks": 58,
+      "impressions": 7715,
+      "ctr": 0.7517822423849643,
+      "position": 13.303299870382371,
+      "clicksDaily": 4.142857142857143,
+      "impressionsDaily": 551.0714285714286
+    }
+  ],
+  "countryReconciles": true,
+  "pages": {
+    "/papers": [
+      {
+        "clicks": 0,
+        "impressions": 379,
+        "ctr": 0,
+        "position": 47.097633773087075,
+        "clicksDaily": 0,
+        "impressionsDaily": 13.535714285714286
+      },
+      {
+        "clicks": 2,
+        "impressions": 838,
+        "ctr": 0.23866348448687352,
+        "position": 58.92720298329356,
+        "clicksDaily": 0.07142857142857142,
+        "impressionsDaily": 29.928571428571427
+      },
+      {
+        "clicks": 1,
+        "impressions": 345,
+        "ctr": 0.2898550724637681,
+        "position": 65.62898376811594,
+        "clicksDaily": 0.07142857142857142,
+        "impressionsDaily": 24.642857142857142
+      },
+      {
+        "clicks": 1,
+        "impressions": 493,
+        "ctr": 0.2028397565922921,
+        "position": 54.23731582150101,
+        "clicksDaily": 0.07142857142857142,
+        "impressionsDaily": 35.214285714285715
+      }
+    ],
+    "/mock-exams": [
+      {
+        "clicks": 1,
+        "impressions": 259,
+        "ctr": 0.3861003861003861,
+        "position": 51.019306563706564,
+        "clicksDaily": 0.03571428571428571,
+        "impressionsDaily": 9.25
+      },
+      {
+        "clicks": 0,
+        "impressions": 109,
+        "ctr": 0,
+        "position": 42.99999908256881,
+        "clicksDaily": 0,
+        "impressionsDaily": 3.892857142857143
+      },
+      {
+        "clicks": 0,
+        "impressions": 38,
+        "ctr": 0,
+        "position": 40.7631552631579,
+        "clicksDaily": 0,
+        "impressionsDaily": 2.7142857142857144
+      },
+      {
+        "clicks": 0,
+        "impressions": 71,
+        "ctr": 0,
+        "position": 44.19718309859155,
+        "clicksDaily": 0,
+        "impressionsDaily": 5.071428571428571
+      }
+    ],
+    "/subjects/maths": [
+      {
+        "clicks": 1,
+        "impressions": 30,
+        "ctr": 3.3333333333333335,
+        "position": 53.2,
+        "clicksDaily": 0.03571428571428571,
+        "impressionsDaily": 1.0714285714285714
+      },
+      {
+        "clicks": 0,
+        "impressions": 54,
+        "ctr": 0,
+        "position": 57.29629444444444,
+        "clicksDaily": 0,
+        "impressionsDaily": 1.9285714285714286
+      },
+      {
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 62.090900000000005,
+        "clicksDaily": 0,
+        "impressionsDaily": 1.5714285714285714
+      },
+      {
+        "clicks": 0,
+        "impressions": 32,
+        "ctr": 0,
+        "position": 54.000003125,
+        "clicksDaily": 0,
+        "impressionsDaily": 2.2857142857142856
+      }
+    ]
+  }
+}
