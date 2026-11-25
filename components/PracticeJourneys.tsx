@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { mathsWorkedStarters } from '@/lib/mathsWorkedStarters';
 import { mathsJourneys, englishJourney, topicPracticeHref } from '@/lib/practiceJourneys';
 
 export function PracticeJourneys({ subject }: { subject?: 'maths' | 'english' }) {
@@ -11,7 +12,16 @@ export function PracticeJourneys({ subject }: { subject?: 'maths' | 'english' })
       <p className="mt-3 leading-7 text-slate-600">Each route gives 10 questions on one narrow skill. Practice mode explains each answer as you go; the timed option uses our 15-minute practice setting. New attempts vary the numbers, but questions may recur.</p>
       <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{mathsJourneys.map(j=><li key={j.topic} className="rounded-2xl border border-slate-200 bg-white p-6">
         <h4 className="text-xl font-bold">{j.title}</h4>
-        {j.guide ? <Link href={j.guide} className="mt-4 block font-semibold text-emerald-800 underline">1. Learn the method →</Link> : <p className="mt-4 text-sm leading-6 text-slate-600">Use the worked explanation after each answer to review the method.</p>}
+        {j.guide || j.topic === 'money' ? <Link href={j.guide ?? '/blog/11-plus-money-best-value'} className="mt-4 block font-semibold text-emerald-800 underline">1. Learn the method →</Link> : <p className="mt-4 text-sm leading-6 text-slate-600">Use the worked explanation after each answer to review the method.</p>}
+        <div className="mt-5 border-t border-stone-200 pt-4">
+          <p className="text-sm font-bold text-emerald-900">Try a worked starter</p>
+          <p className="mt-3 leading-7 text-slate-700">{mathsWorkedStarters[j.topic].question}</p>
+          <details className="mt-4 rounded-xl bg-stone-50 p-4">
+            <summary className="cursor-pointer font-semibold text-emerald-900">Show the {j.title.toLowerCase()} method</summary>
+            <p className="mt-3 leading-7">{mathsWorkedStarters[j.topic].working}</p>
+            <p className="mt-3 text-sm leading-6 text-slate-600">{mathsWorkedStarters[j.topic].check}</p>
+          </details>
+        </div>
         <Link href={topicPracticeHref(j.topic)} className="mt-4 inline-block rounded-xl bg-emerald-900 px-4 py-3 font-bold text-white">Practise {j.title.toLowerCase()} →</Link>
         <Link href={topicPracticeHref(j.topic,'exam')} className="mt-4 block text-sm font-semibold text-emerald-800 underline">Try 10 questions in 15 minutes →</Link>
       </li>)}</ul>
