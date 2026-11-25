@@ -41,24 +41,27 @@ function MockExamsPageInner({ initialSubject, initialMathsTopic }: { initialSubj
       <main id="main-content" className="bg-white">
         <section className="index-masthead px-6 pb-10 pt-14">
           <div className="mx-auto max-w-6xl">
-            <p className="brand-eyebrow">Try · review · try again</p>
-            <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl">Free 11+ online practice and mock sessions</h1>
-            <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">Choose a subject, work through an original set and understand the answers. Start untimed with feedback, or try a timed session to practise pacing.</p>
-            <div className="mt-6 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-emerald-900"><a href="#configure-practice" className="underline underline-offset-4">Choose your practice settings ↓</a><Link href="/papers" className="underline underline-offset-4">Download papers and answers →</Link></div>
-            <p className="mt-5 text-sm text-slate-600">Free access. No account or email required. These selected-skill sessions are independent of schools and exam providers.</p>
+            <h1 className="max-w-4xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl">Free 11+ mock exams and online practice</h1>
+            <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-700">Start an untimed set below, or set a timer. You can review the worked answers afterwards. No account or email needed.</p>
+            <ul aria-label="Start a free 11+ practice session" className="mt-6 grid max-w-4xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {subjects.map(item => (
+                <li key={item}>
+                  <Link href={practiceSessionHref(item)} className="flex h-full flex-col rounded-xl border border-emerald-900 bg-white p-4 text-emerald-950 hover:bg-emerald-50">
+                    <span className="font-bold">Start {PRACTICE_SESSIONS[item].label}</span>
+                    <span className="mt-1 text-sm text-slate-600">{PRACTICE_SESSIONS[item].questions} questions</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <nav className="mt-5 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-emerald-900" aria-label="More practice options">
+              <a href="#configure-practice" className="underline underline-offset-4">Set a timer</a>
+              <Link href="/mock-exams?mode=school#configure-practice" className="underline underline-offset-4">Find practice for your school</Link>
+              <Link href="/papers" className="underline underline-offset-4">Print papers and answers</Link>
+              <Link href="/tutors#tutor-enquiry" className="underline underline-offset-4">Ask about tutoring</Link>
+            </nav>
+            <p className="mt-4 text-sm text-slate-600">These short sets cover selected skills. They are not full replicas of a school’s entrance exam.</p>
           </div>
         </section>
-
-        <section className="mx-auto max-w-6xl px-6 pt-10" aria-labelledby="choose-purpose-title">
-          <h2 id="choose-purpose-title" className="text-2xl font-bold">What would make this practice useful today?</h2>
-          <div className="mt-6 grid gap-6 md:grid-cols-3">
-            <article className="border-t border-stone-200 pt-5"><h3 className="text-lg font-bold">The method is still new</h3><p className="mt-3 leading-7 text-slate-600">Choose untimed practice. Read the feedback after each answer and explain the method before moving on. If the explanation is unfamiliar, pause for a lesson rather than racing through more questions.</p><Link href="/subjects" className="mt-3 inline-block font-semibold text-emerald-900 underline underline-offset-4">Find a subject lesson →</Link></article>
-            <article className="border-t border-stone-200 pt-5"><h3 className="text-lg font-bold">The method works; pacing needs practice</h3><p className="mt-3 leading-7 text-slate-600">Choose a timed session in the settings below. Keep rough paper beside you. After finishing, separate questions you could not solve from those you left unanswered; they need different follow-up practice.</p><a href="#configure-practice" className="mt-3 inline-block font-semibold text-emerald-900 underline underline-offset-4">Choose a subject and timer ↓</a></article>
-            <article className="border-t border-stone-200 pt-5"><h3 className="text-lg font-bold">You need a full exam rehearsal</h3><p className="mt-3 leading-7 text-slate-600">First check the school’s current subjects, stages, answer format and timings. These shorter online sets cover selected skills. For tests taken in 2027, confirm the intended school-entry year separately and leave unpublished arrangements unconfirmed.</p><Link href="/papers#official-materials" className="mt-3 inline-block font-semibold text-emerald-900 underline underline-offset-4">Find official familiarisation sources →</Link></article>
-          </div>
-        </section>
-
-        <OnlinePracticeCatalogue />
 
         <section id="configure-practice" className="mock-workbench scroll-mt-24 bg-stone-50 px-6 py-12" aria-labelledby="configure-title">
           <div className="mx-auto max-w-6xl">
@@ -121,6 +124,8 @@ function MockExamsPageInner({ initialSubject, initialMathsTopic }: { initialSubj
             </form>}
           </div>
         </section>
+
+        <OnlinePracticeCatalogue />
 
         <section id="review-practice" className="mx-auto max-w-6xl scroll-mt-24 px-6 py-14" aria-labelledby="review-practice-title">
           <p className="brand-eyebrow">Make the answers useful</p><h2 id="review-practice-title" className="mt-3 text-3xl font-bold">What happens after a session?</h2>

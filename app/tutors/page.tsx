@@ -76,7 +76,7 @@ export default function TutorsIndexPage() {
           </div>
 
           {/* Right column — sticky form */}
-          <aside className="lg:col-span-1">
+          <aside id="tutor-enquiry" aria-label="Tutor enquiry" className="scroll-mt-24 lg:col-span-1">
             <div className="sticky top-20">
               <TutorEnquiryForm />
             </div>

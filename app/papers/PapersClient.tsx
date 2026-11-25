@@ -9,6 +9,7 @@ import {
   BookOpen, MapPin, ClipboardList,
 } from 'lucide-react';
 import { PracticeResourceCatalogue } from '@/components/PracticeResourceCatalogue';
+import { PRINTABLE_PRACTICE } from '@/lib/printablePractice';
 import { practiceSessionHref, type PracticeSubject } from '@/lib/practiceSessionLinks';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
@@ -515,25 +516,30 @@ function PapersPageInner() {
             <h1 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight mb-4">
               Free 11+ practice papers and answers
             </h1>
-            <p className="text-lg text-slate-500 max-w-2xl leading-relaxed mb-8">
-              Find a question booklet, a separate worked-answer booklet and a clear next step.
-              Print original maths, English and reasoning practice, or follow links to official materials.
+            <p className="max-w-2xl text-lg leading-relaxed text-slate-700">
+              Download a question booklet and its worked answers. All four sets are free to print without signing up.
             </p>
-
-            <div className="flex flex-wrap gap-4 mb-2">
-              {[
-                { value: '4', label: 'Original practice sets' },
-                { value: '56', label: 'Printable questions' },
-                { value: '4', label: 'Worked-answer booklets' },
-                { value: 'Free', label: 'No sign-up required' },
-              ].map((s) => (
-                <div key={s.label} className="px-5 py-3 bg-white rounded-2xl border border-slate-200 shadow-sm text-center min-w-[110px]">
-                  <div className="text-xl font-black text-indigo-600">{s.value}</div>
-                  <div className="text-xs text-slate-500 font-medium">{s.label}</div>
-                </div>
-              ))}
-            </div>
-            <nav className="mt-7 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-emerald-900" aria-label="Paper library sections"><a className="underline underline-offset-4" href="#printable-papers">Get printable papers ↓</a><a className="underline underline-offset-4" href="#official-materials">Find official materials ↓</a><a className="underline underline-offset-4" href="#school-guides">Research a school ↓</a></nav>
+            <ul aria-label="Download free 11+ papers by subject" className="mt-6 grid max-w-4xl gap-3 sm:grid-cols-2">
+              {PRINTABLE_PRACTICE.map(paper => {
+                const label = paper.id === 'english' ? 'English punctuation' : paper.title;
+                return (
+                  <li key={paper.id} className="rounded-xl border border-slate-200 bg-white p-4">
+                    <p className="font-bold text-slate-900">{label}<span className="ml-2 text-sm font-normal text-slate-600">· {paper.count} questions</span></p>
+                    <div className="mt-2 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold text-emerald-900">
+                      <a href={`/papers/${paper.id}-practice.pdf`} aria-label={`${label} questions PDF`} className="underline underline-offset-4">Questions PDF</a>
+                      <a href={`/papers/${paper.id}-worked-answers.pdf`} aria-label={`${label} worked answers PDF`} className="underline underline-offset-4">Worked answers PDF</a>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+            <nav className="mt-5 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-emerald-900" aria-label="More ways to practise">
+              <a className="underline underline-offset-4" href="#printable-papers">Preview the questions</a>
+              <Link className="underline underline-offset-4" href="/subjects/english/comprehension-retrieval#practice">Practise reading comprehension</Link>
+              <a className="underline underline-offset-4" href="#official-materials">Find official materials</a>
+              <a className="underline underline-offset-4" href="#school-guides">Find your school</a>
+              <Link className="underline underline-offset-4" href="/tutors#tutor-enquiry">Ask about tutoring</Link>
+            </nav>
           </div>
         </section>
 
