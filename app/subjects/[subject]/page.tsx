@@ -11,7 +11,7 @@ import { subjectPageSchema } from '@/lib/schemas';
 import { SchemaOrg } from '@/components/SchemaOrg';
 import Link from 'next/link';
 import { publishedLessons } from '@/lib/lessonPublishing';
-import { BLOG_POSTS } from '@/lib/blogPosts';
+import { BLOG_POSTS } from '@/lib/publicBlogPosts';
 
 interface Props { params: { subject: string } }
 

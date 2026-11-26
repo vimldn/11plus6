@@ -52,7 +52,7 @@ export const homepageSchemas = [
     url: BASE,
     name: 'Free 11+ Mock Exams & Practice Papers | 11 Plus Exam Papers',
     description:
-      'Free 11+ mock exams, practice questions and tutor support for grammar and independent school entrance. Covers Maths, English, Verbal and Non-Verbal Reasoning. No sign-up required.',
+      'Free 11+ practice papers, worked answers, mock exams and school admission guides. No sign-up required.',
     isPartOf: { '@id': `${BASE}/#website` },
     publisher: { '@id': `${BASE}/#org` },
     inLanguage: 'en-GB',
@@ -189,42 +189,6 @@ export function subjectPageSchema({
         { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
         { '@type': 'ListItem', position: 2, name: 'Subjects', item: `${BASE}/subjects` },
         { '@type': 'ListItem', position: 3, name: label, item: pageUrl },
-      ],
-    },
-  ];
-}
-
-// ─── Tutor city page ──────────────────────────────────────────────────────────
-export function tutorPageSchema({
-  city,
-  cityLabel,
-}: {
-  city: string;
-  cityLabel: string;
-}) {
-  const pageUrl = `${BASE}/tutors/${city}`;
-  return [
-    orgSchema,
-    {
-      '@type': 'Service',
-      '@id': `${pageUrl}#service`,
-      name: `11+ Tutors in ${cityLabel}`,
-      description: `Find experienced 11+ tutors in ${cityLabel} to help your child prepare for grammar and independent school entrance exams.`,
-      provider: { '@id': `${BASE}/#org` },
-      areaServed: {
-        '@type': 'City',
-        name: cityLabel,
-        addressCountry: 'GB',
-      },
-      serviceType: '11+ Tutoring',
-      url: pageUrl,
-    },
-    {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
-        { '@type': 'ListItem', position: 2, name: 'Tutors', item: `${BASE}/tutors` },
-        { '@type': 'ListItem', position: 3, name: `${cityLabel} Tutors`, item: pageUrl },
       ],
     },
   ];

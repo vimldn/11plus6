@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
-import { SUBJECTS, UK_CITIES } from '@/lib/siteData';
+import { SUBJECTS } from '@/lib/siteData';
 import catalog from '@/data/schools.catalog.json';
-import { BLOG_POSTS } from '@/lib/blogPosts';
+import { BLOG_POSTS } from '@/lib/publicBlogPosts';
 import { publishedLessons } from '@/lib/lessonPublishing';
 
 const BASE = 'https://www.11plusexampapers.com';
@@ -42,7 +42,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url('/papers',         0.9, 'weekly'),
     url('/schools',        0.9, 'monthly'),
     url('/subjects',       0.8, 'monthly'),
-    url('/tutors',         0.8, 'monthly'),
     url('/exam-dates',     0.8, 'monthly'),
     url('/blog',           0.8, 'weekly'),
     url('/compare',        0.7, 'monthly'),
@@ -61,11 +60,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url(`/subjects/${s.slug}`, 0.8, 'monthly'),
   );
 
-  // ── Tutor city pages ───────────────────────────────────────────────────────
-  const tutorPages: MetadataRoute.Sitemap = UK_CITIES.map((c) =>
-    url(`/tutors/${c.slug}`, 0.7, 'monthly'),
-  );
-
   // ── Blog posts ─────────────────────────────────────────────────────────────
   // lastModified uses the actual post date so Googlebot doesn't re-crawl every
   // post on every deploy.
@@ -80,7 +74,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...publishedLessons().map((lesson) =>
       url(`/subjects/${lesson.subject}/${lesson.slug}`, 0.7, 'monthly', lesson.reviewedAt),
     ),
-    ...tutorPages,
     ...blogPages,
   ];
 }

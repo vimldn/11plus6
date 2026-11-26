@@ -190,14 +190,7 @@ export const EXTERNAL_LINKS: ExternalLink[] = [
     tags: ['Regional', 'Admissions', 'Exam Format'],
   },
 
-  // ── Tutoring & support ─────────────────────────────────────────────────────
-  {
-    title: "The Tutors\' Association — find a qualified tutor",
-    url: 'https://www.thetutorsassociation.org.uk',
-    domain: 'thetutorsassociation.org.uk',
-    description: 'The professional body for tutoring in the UK. Use their directory to find vetted, qualified 11+ tutors.',
-    tags: ['Preparation', 'Guide'],
-  },
+  // ── Preparation guidance ─────────────────────────────────────────────────
   {
     title: '11+ preparation advice — Eleven Plus Exams',
     url: 'https://www.elevenplusexams.co.uk/advice-preparation/advice/what-is-the-eleven-plus',

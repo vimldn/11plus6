@@ -538,7 +538,6 @@ function PapersPageInner() {
               <Link className="underline underline-offset-4" href="/subjects/english/comprehension-retrieval#practice">Practise reading comprehension</Link>
               <a className="underline underline-offset-4" href="#official-materials">Find official materials</a>
               <a className="underline underline-offset-4" href="#school-guides">Find your school</a>
-              <Link className="underline underline-offset-4" href="/tutors#tutor-enquiry">Ask about tutoring</Link>
             </nav>
           </div>
         </section>

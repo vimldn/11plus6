@@ -6,8 +6,8 @@ import Link from 'next/link';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
-import { BookOpen, Clock, Calendar, ArrowRight, Lightbulb, AlertTriangle, Info, ExternalLink, GraduationCap, ClipboardList } from 'lucide-react';
-import { BLOG_POSTS, getPostBySlug, getAllSlugs, type BlockType } from '@/lib/blogPosts';
+import { BookOpen, Clock, Calendar, ArrowRight, Lightbulb, AlertTriangle, Info, ExternalLink, ClipboardList } from 'lucide-react';
+import { BLOG_POSTS, getPostBySlug, getAllSlugs, type BlockType } from '@/lib/publicBlogPosts';
 import { SchemaOrg } from '@/components/SchemaOrg';
 import { articleSchema } from '@/lib/schemas';
 import { publishedLessons } from '@/lib/lessonPublishing';
@@ -65,26 +65,6 @@ function InlineText({ text }: { text: string }) {
 }
 
 // ─── CTA Banners ─────────────────────────────────────────────────────────────
-
-function TutorBanner() {
-  return (
-    <div className="my-8 rounded-2xl overflow-hidden border border-indigo-100 bg-gradient-to-r from-indigo-50 to-violet-50 flex flex-col sm:flex-row items-center gap-4 px-6 py-5 shadow-sm">
-      <div className="w-11 h-11 rounded-xl bg-indigo-600 flex items-center justify-center shrink-0">
-        <GraduationCap size={22} className="text-white" />
-      </div>
-      <div className="flex-1 text-center sm:text-left">
-        <p className="font-black text-slate-900 text-sm mb-0.5">Looking for an 11+ tutor?</p>
-        <p className="text-slate-500 text-xs leading-relaxed">Find local guidance, exam context and a simple enquiry form for your area.</p>
-      </div>
-      <Link
-        href="/tutors"
-        className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-black text-sm rounded-xl transition-colors shadow-md shadow-indigo-200 whitespace-nowrap"
-      >
-        Find a tutor <ArrowRight size={14} />
-      </Link>
-    </div>
-  );
-}
 
 function MockBanner() {
   return (
@@ -233,11 +213,10 @@ function getRelatedPosts(current: { slug: string; category: string; title: strin
 // ─── Content renderer with interleaved banners + images ──────────────────────
 
 function ContentWithBanners({ content, images }: { content: BlockType[]; images: string[] }) {
-  // Tutor banner after 1st h2 section, Mock banner after 2nd h2 section. Once each.
+  // Mock banner after the second h2 section.
   // Inline images (_1 _2 _3 _4) displayed after every 3rd h2.
   let h2Count = 0;
   let imageIdx = 0;
-  const TUTOR_AFTER_H2 = 1;
   const MOCK_AFTER_H2  = 2;
   const elements: React.ReactNode[] = [];
 
@@ -247,10 +226,7 @@ function ContentWithBanners({ content, images }: { content: BlockType[]; images:
 
     // Before rendering a new h2 (not the first), close off the previous section
     if (isH2 && h2Count > 0) {
-      // Drop banner after 1st and 2nd h2 sections
-      if (h2Count === TUTOR_AFTER_H2) {
-        elements.push(<TutorBanner key="tutor-banner" />);
-      } else if (h2Count === MOCK_AFTER_H2) {
+      if (h2Count === MOCK_AFTER_H2) {
         elements.push(<MockBanner key="mock-banner" />);
       }
       // Show inline image after every 3rd h2 section
@@ -269,9 +245,7 @@ function ContentWithBanners({ content, images }: { content: BlockType[]; images:
   }
 
   // End of content — append any remaining banners
-  if (h2Count === TUTOR_AFTER_H2) {
-    elements.push(<TutorBanner key="tutor-banner" />);
-  } else if (h2Count >= MOCK_AFTER_H2) {
+  if (h2Count >= MOCK_AFTER_H2) {
     const hasMock = elements.some((el: any) => el?.key === 'mock-banner');
     if (!hasMock) elements.push(<MockBanner key="mock-banner" />);
   }

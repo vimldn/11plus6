@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { BookOpen, ArrowRight, Clock } from 'lucide-react';
-import { BLOG_POSTS } from '@/lib/blogPosts';
+import { BLOG_POSTS } from '@/lib/publicBlogPosts';
 
 export const metadata: Metadata = {
   title: '11 Plus Guides and Articles',

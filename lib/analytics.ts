@@ -23,7 +23,6 @@ const eventFields = {
   paper_download: ['resource_id', 'source_path'],
   learning_navigation: ['target_path', 'source_path'],
   lesson_answer_reveal: ['lesson_slug', 'subject', 'question_number'],
-  tutor_enquiry: ['source_path'],
   resource_request: ['source_path'],
 } as const;
 

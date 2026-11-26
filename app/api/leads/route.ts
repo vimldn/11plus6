@@ -10,6 +10,12 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
+    const source = String(body?.source || 'api-leads').trim().slice(0, 100);
+    // Do not forward tutor forms that are still open in older browser tabs.
+    if (/^(?:tutor-enquiry(?:-|$)|location-tutor-enquiry$)/i.test(source)) {
+      return NextResponse.json({ error: 'Tutor enquiries are no longer available.' }, { status: 410 });
+    }
+
     const payload = {
       email:        String(body?.email        || '').trim().slice(0, 254),
       parentName:   String(body?.parentName   || '').trim().slice(0, 100),
@@ -18,7 +24,7 @@ export async function POST(req: Request) {
       targetSchool: String(body?.targetSchool || body?.schoolId || '').trim().slice(0, 160),
       phone:        String(body?.phone        || '').trim().slice(0, 40),
       childYear:    String(body?.childYear    || '').trim().slice(0, 40),
-      source:       String(body?.source       || 'api-leads').trim().slice(0, 100),
+      source,
       notes:        String(body?.notes        || '').trim().slice(0, 2000),
       requestedUpdates: body?.requestedUpdates === true,
     };

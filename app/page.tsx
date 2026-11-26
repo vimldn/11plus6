@@ -14,7 +14,7 @@ import { homepageSchemas, faqSchema } from '@/lib/schemas';
 export const metadata: Metadata = {
   title: 'Free 11+ Mock Exams & Practice Papers | 11 Plus Exam Papers',
   description:
-    'Free 11+ mock exams, practice questions and tutor support for grammar and independent school entrance. Covers Maths, English, Verbal and Non-Verbal Reasoning. No sign-up required.',
+    'Find your school’s 11+ admissions guidance and official samples where available. Use free original practice papers, worked answers and mock exams without signing up.',
   alternates: { canonical: '/' },
   openGraph: {
     siteName: '11 Plus Exam Papers',
@@ -50,7 +50,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'How much does it cost?',
-    a: 'The practice resources are currently free to access, with no sign-up required. Tutor enquiries are separate from the free practice resources.',
+    a: 'The practice papers, worked answers and online mocks are free to use. You do not need to sign up.',
   },
 ];
 

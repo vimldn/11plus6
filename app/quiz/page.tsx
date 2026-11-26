@@ -113,7 +113,7 @@ function QuizPageInner() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       {/* Branded nav — consistent with rest of site */}
-      <SiteNav ctaLabel="Find a tutor" ctaHref="/tutors" />
+      <SiteNav ctaLabel="Free papers" ctaHref="/papers" />
 
       {/* Breadcrumb / back link */}
       <div className="max-w-5xl mx-auto w-full px-4 pt-4 pb-0">

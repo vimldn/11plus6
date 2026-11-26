@@ -14,6 +14,10 @@ async function checkLeadDelivery() {
     global.fetch = async (_, options) => { calls++; sent = JSON.parse(options.body); return { ok: true, status: 200 }; };
     assert.equal((await POST(request({ email: 'invalid' }))).status, 400);
     assert.equal(calls, 0);
+    for (const source of ['tutor-enquiry-index', 'tutor-enquiry-london', 'location-tutor-enquiry']) {
+      assert.equal((await POST(request({ email: 'parent@example.test', source }))).status, 410);
+    }
+    assert.equal(calls, 0, 'Retired tutor forms must never reach the lead webhook');
     const valid = { email: 'parent@example.test', parentName: 'Example Parent', notes: 'Example enquiry', source: 'test' };
     assert.equal((await POST(request(valid))).status, 200);
     assert.equal(sent.parentName, valid.parentName);

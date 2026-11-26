@@ -57,7 +57,6 @@ function MockExamsPageInner({ initialSubject, initialMathsTopic }: { initialSubj
               <a href="#configure-practice" className="underline underline-offset-4">Set a timer</a>
               <Link href="/mock-exams?mode=school#configure-practice" className="underline underline-offset-4">Find practice for your school</Link>
               <Link href="/papers" className="underline underline-offset-4">Print papers and answers</Link>
-              <Link href="/tutors#tutor-enquiry" className="underline underline-offset-4">Ask about tutoring</Link>
             </nav>
             <p className="mt-4 text-sm text-slate-600">These short sets cover selected skills. They are not full replicas of a school’s entrance exam.</p>
           </div>
@@ -157,7 +156,7 @@ function MockExamsPageInner({ initialSubject, initialMathsTopic }: { initialSubj
           <div><p className="brand-eyebrow">Before you start</p><h2>Practice that fits the purpose.</h2></div>
           <div>
             <details><summary>Are these official or full-length school mock exams?</summary><p>No. These are original sessions covering selected skills. A full rehearsal needs the right subjects, stages, timings and answer format for your school. Check its current admissions guidance and official familiarisation before treating any practice paper as a match.</p></details>
-            <details><summary>Do I have to enter an email address?</summary><p>No. General and school-context practice start without a sign-up or personal details. Tutor enquiries are a separate choice on the tutor-support pages.</p></details>
+            <details><summary>Do I have to enter an email address?</summary><p>No. General and school-context practice start without a sign-up or personal details.</p></details>
             <details><summary>Can we practise without a timer?</summary><p>Yes. Choose untimed practice for feedback as you go. Use the optional timed mode when you want to practise pacing, then review the answers after submitting.</p></details>
             <details><summary>Where can I check the official test format?</summary><p>Use the school or admissions authority’s current guidance for your intended entry year. <a href="https://11plus.gl-assessment.co.uk/pages/free-materials" className="underline">GL Assessment’s familiarisation page</a> explains that local timings and question counts can differ from its sample materials.</p></details>
           </div>
