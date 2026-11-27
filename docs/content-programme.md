@@ -6,6 +6,8 @@ Owner: Vim. Agreed 7 October 2026. Implementation is delivered in reviewable bat
 
 Owner update, 2 November 2026: the explicit instruction to fix the SEO report authorises one coordinated release covering all 26 remaining legacy article repairs plus technical, privacy, practice and paper-library fixes. This specific repair release supersedes the former 15-articles-per-run ceiling. Publication is recorded only after deployment verification. The daily volume policy is now the 9 November instruction above.
 
+**Owner update — 26 November 2026:** This is a free exam-preparation site for parents choosing a school. Prioritise accurate school/admissions guides leading to suitable free papers, answer sheets and relevant mocks, without a mandatory email gate. Distinguish official resources from original practice; never imply school endorsement. Do not publish, restore or link tutor directories, tutor city/recruitment pages, tutor-only posts, referrals or enquiry forms. Retired tutor URLs remain excluded from the sitemap and public links. The daily caps and all research/release gates above remain in force.
+
 ## Release policy
 
 - Historical owner update, 21 October 2026 (volume superseded 9 November): daily 06:00 Europe/London programme targeted five substantive educational articles plus at least two separate, genuinely timely news articles. This supersedes the former Friday-only three-page limit. Never catch up missed batches, pad a quota or fabricate news; hold unfinished work and report exact output. A manual educational release may publish its verified educational scope without claiming the separate news target was met.
