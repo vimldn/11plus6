@@ -1,0 +1,227 @@
+{
+  "periods": [
+    [
+      "2026-10-01",
+      "2026-10-28"
+    ],
+    [
+      "2026-10-29",
+      "2026-11-25"
+    ],
+    [
+      "2026-10-29",
+      "2026-11-11"
+    ],
+    [
+      "2026-11-12",
+      "2026-11-25"
+    ]
+  ],
+  "global": [
+    {
+      "clicks": 319,
+      "impressions": 27235,
+      "ctr": 0.011712869469432716,
+      "position": 10.514999893519368,
+      "clicksDaily": 11.392857142857142,
+      "impressionsDaily": 972.6785714285714
+    },
+    {
+      "clicks": 157,
+      "impressions": 21393,
+      "ctr": 0.007338849156266068,
+      "position": 12.77061568269995,
+      "clicksDaily": 5.607142857142857,
+      "impressionsDaily": 764.0357142857143
+    },
+    {
+      "clicks": 75,
+      "impressions": 9713,
+      "ctr": 0.007721610213116442,
+      "position": 13.535658200350047,
+      "clicksDaily": 5.357142857142857,
+      "impressionsDaily": 693.7857142857143
+    },
+    {
+      "clicks": 82,
+      "impressions": 11680,
+      "ctr": 0.007020547945205479,
+      "position": 12.134412089041096,
+      "clicksDaily": 5.857142857142857,
+      "impressionsDaily": 834.2857142857143
+    }
+  ],
+  "uk": [
+    {
+      "clicks": 299,
+      "impressions": 24030,
+      "ctr": 0.012442779858510196,
+      "position": 10.374230790678318,
+      "clicksDaily": 10.678571428571429,
+      "impressionsDaily": 858.2142857142857
+    },
+    {
+      "clicks": 113,
+      "impressions": 14837,
+      "ctr": 0.007616094897890409,
+      "position": 13.767873370627484,
+      "clicksDaily": 4.035714285714286,
+      "impressionsDaily": 529.8928571428571
+    },
+    {
+      "clicks": 54,
+      "impressions": 7138,
+      "ctr": 0.007565144298122724,
+      "position": 14.304986732978426,
+      "clicksDaily": 3.857142857142857,
+      "impressionsDaily": 509.85714285714283
+    },
+    {
+      "clicks": 59,
+      "impressions": 7699,
+      "ctr": 0.007663332900376673,
+      "position": 13.26989763605663,
+      "clicksDaily": 4.214285714285714,
+      "impressionsDaily": 549.9285714285714
+    }
+  ],
+  "pages": {
+    "/papers": [
+      {
+        "clicks": 0,
+        "impressions": 392,
+        "ctr": 0,
+        "position": 48.67347704081633,
+        "clicksDaily": 0,
+        "impressionsDaily": 14
+      },
+      {
+        "clicks": 3,
+        "impressions": 870,
+        "ctr": 0.0034482758620689655,
+        "position": 57.68390540229886,
+        "clicksDaily": 0.10714285714285714,
+        "impressionsDaily": 31.071428571428573
+      },
+      {
+        "clicks": 1,
+        "impressions": 376,
+        "ctr": 0.0026595744680851063,
+        "position": 65.68084973404257,
+        "clicksDaily": 0.07142857142857142,
+        "impressionsDaily": 26.857142857142858
+      },
+      {
+        "clicks": 2,
+        "impressions": 494,
+        "ctr": 0.004048582995951417,
+        "position": 51.59716234817814,
+        "clicksDaily": 0.14285714285714285,
+        "impressionsDaily": 35.285714285714285
+      }
+    ],
+    "/mock-exams": [
+      {
+        "clicks": 1,
+        "impressions": 255,
+        "ctr": 0.00392156862745098,
+        "position": 50.639217254901965,
+        "clicksDaily": 0.03571428571428571,
+        "impressionsDaily": 9.107142857142858
+      },
+      {
+        "clicks": 0,
+        "impressions": 118,
+        "ctr": 0,
+        "position": 44.20339237288136,
+        "clicksDaily": 0,
+        "impressionsDaily": 4.214285714285714
+      },
+      {
+        "clicks": 0,
+        "impressions": 32,
+        "ctr": 0,
+        "position": 48.312496875,
+        "clicksDaily": 0,
+        "impressionsDaily": 2.2857142857142856
+      },
+      {
+        "clicks": 0,
+        "impressions": 86,
+        "ctr": 0,
+        "position": 42.674423255813956,
+        "clicksDaily": 0,
+        "impressionsDaily": 6.142857142857143
+      }
+    ],
+    "/schools/spgs-girls": [
+      {
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 46,
+        "clicksDaily": 0,
+        "impressionsDaily": 0.17857142857142858
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      }
+    ],
+    "/schools/pates-grammar": [
+      {
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8,
+        "clicksDaily": 0,
+        "impressionsDaily": 0.03571428571428571
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "position": null,
+        "clicksDaily": 0,
+        "impressionsDaily": 0
+      }
+    ]
+  },
+  "reconciled": true
+}
