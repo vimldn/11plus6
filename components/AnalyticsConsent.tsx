@@ -103,7 +103,7 @@ export default function AnalyticsConsent() {
       <p className="mt-2 text-sm leading-6">Practice works without analytics. With your permission, Google Analytics helps us understand which resources get used. We don’t send your answers, scores or contact details. Parents and carers can change this choice any time. <Link className="underline" href="/privacy">Privacy policy</Link></p>
       <div className="mt-4 flex flex-wrap gap-3">
         <button type="button" className="rounded-lg border border-emerald-900 px-4 py-2 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" onClick={() => choose('denied')}>Essential only</button>
-        <button type="button" className="rounded-lg border border-emerald-900 px-4 py-2 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" onClick={() => choose('granted')}>Allow analytics</button>
+        <button type="button" className="rounded-lg border border-emerald-900 px-4 py-2 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" onClick={() => choose('granted')}>Accept cookies</button>
       </div>
     </section>}
   </>;
