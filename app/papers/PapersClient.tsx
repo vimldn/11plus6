@@ -498,6 +498,12 @@ function PapersPageInner() {
     });
   }, [search, filter]);
 
+  const [schoolLookup, setSchoolLookup] = useState('');
+  const lookup = schoolLookup.trim().toLowerCase();
+  const schoolMatches = lookup ? SCHOOLS.filter(s =>
+    [s.name, s.shortName, s.location.area, s.location.city].some(value => value.toLowerCase().includes(lookup))
+  ).slice(0, 6) : [];
+
   const grammarSchools = filtered.filter((s) => s.category === 'grammar');
   const privateSchools = filtered.filter((s) => s.category === 'private');
 
@@ -519,6 +525,15 @@ function PapersPageInner() {
             <p className="max-w-2xl text-lg leading-relaxed text-slate-700">
               Download a question booklet and its worked answers. All four sets are free to print without signing up.
             </p>
+            <div className="mt-5 max-w-xl rounded-xl border border-emerald-900/15 bg-emerald-50 p-4">
+              <label htmlFor="paper-school-lookup" className="block font-bold text-emerald-950">Find free resources for your school</label>
+              <input id="paper-school-lookup" type="search" value={schoolLookup} onChange={e => setSchoolLookup(e.target.value)} placeholder="Search by school or town, e.g. Tiffin" className="mt-2 w-full rounded-lg border border-slate-400 bg-white px-3 py-2 text-base" />
+              {lookup && (schoolMatches.length ? <ul aria-label="Matching school guides" className="mt-2 grid gap-1">
+                {schoolMatches.map(s => <li key={s.id}><Link className="inline-block py-1 font-semibold text-emerald-950 underline underline-offset-4" href={`/schools/${s.id}#school-papers`}>{s.name}</Link></li>)}
+              </ul> : <p className="mt-2 text-sm" role="status">No matches. Try the school’s town or a shorter name.</p>)}
+              <Link href="/schools" className="mt-2 inline-block text-sm font-semibold underline underline-offset-4">Browse all school guides</Link>
+            </div>
+            <h2 id="free-papers-by-subject" className="mt-7 scroll-mt-24 text-xl font-bold">General practice by subject</h2>
             <ul aria-label="Download free 11+ papers by subject" className="mt-6 grid max-w-4xl gap-3 sm:grid-cols-2">
               {PRINTABLE_PRACTICE.map(paper => {
                 const label = paper.id === 'english' ? 'English punctuation' : paper.title;

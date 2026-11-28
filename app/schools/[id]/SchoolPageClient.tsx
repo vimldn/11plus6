@@ -119,6 +119,26 @@ export default function SchoolPageClient({ params }: { params: { id: string } })
   return <><SiteNav/><main id="main-content" className="school-profile">
     <header className="school-profile-hero"><Breadcrumbs items={[{label:'Home',href:'/'},{label:'Schools',href:'/schools'},{label:school.name}]}/><p className="brand-eyebrow">School guide · {isGrammar ? 'Grammar school' : 'Independent school'}</p><h1>{school.name}</h1>{s.location && <p className="school-location"><MapPin size={18}/>{s.location.area || s.location.city}{s.gender && <span> · {s.gender === 'boys' ? 'Boys' : s.gender === 'girls' ? 'Girls' : 'Mixed'}</span>}</p>}<p className="school-intro">Explore the entrance assessment, admissions information and practice options for {school.name}.</p>
     <dl className="school-facts"><div><dt>School type</dt><dd>{isGrammar ? 'Grammar' : 'Independent'}</dd></div><div><dt>Assessment</dt><dd>{evidence ? 'See cycle-specific source check' : detail ? s.examFormat || 'Check school policy' : 'Current format not verified here'}</dd></div><div><dt>Entry points</dt><dd>{s.entryPoints?.join(' · ') || 'Check school policy'}</dd></div></dl></header>
+    <section id="school-papers" aria-labelledby="school-papers-title" className="mx-auto max-w-5xl px-4 py-6 sm:px-6">
+      <div className="rounded-2xl border border-emerald-900/15 bg-emerald-50 p-4 sm:p-6">
+        <h2 id="school-papers-title" className="text-xl font-bold text-emerald-950">Free 11+ papers and practice for {school.name}</h2>
+        {school.id === 'tiffin' ? <>
+          <p className="mt-2 text-sm">Start with Tiffin’s official illustrative questions. These are samples, not released past papers.</p>
+          <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-3 text-sm font-semibold">
+            <li><a className="underline underline-offset-4" href="https://www.tiffinschool.co.uk/wp-content/uploads/2024/05/Illustrative-questions-English.pdf">Tiffin English sample PDF</a></li>
+            <li><a className="underline underline-offset-4" href="https://www.tiffinschool.co.uk/wp-content/uploads/2024/05/Illustrative-questions-Maths.pdf">Tiffin maths sample PDF</a></li>
+            <li><a className="underline underline-offset-4" href="https://www.tiffinschool.co.uk/wp-content/uploads/2026/04/Example-OMR-Marksheet.pdf">Example maths answer sheet (blank)</a></li>
+          </ul>
+        </> : school.id === 'qe-boys' ? <>
+          <p className="mt-2 text-sm">QE publishes English and maths familiarisation material. The examples help with relevant skills but may not match the school’s exam format.</p>
+          <a className="mt-3 inline-block text-sm font-semibold underline underline-offset-4" href="https://www.qebarnet.co.uk/admissions-information/sample-test-papers/">QE’s official sample materials</a>
+        </> : <p className="mt-2 text-sm">We haven’t verified a downloadable official paper for this guide. Check the school’s admissions sources for familiarisation materials; the practice below is ours, not a school paper.</p>}
+        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-semibold">
+          <Link className="underline underline-offset-4" href="/papers#free-papers-by-subject">Our free question and worked answer PDFs</Link>
+          <Link className="underline underline-offset-4" href="/mock-exams">Start a free online mock</Link>
+        </div>
+      </div>
+    </section>
     <nav className="school-jump-links" aria-label="On this school page"><a href="#assessment">Assessment</a><a href="#admissions">Admissions</a><a href="#dates">Dates</a><a href="#preparation">Preparation</a><a href="#sources">Official sources</a></nav>
     <div className="school-profile-layout"><div className="school-profile-sections">
       <section id="assessment"><p className="brand-eyebrow">01 / Understand the assessment</p><h2>What does the exam involve?</h2><dl className="school-detail-list"><div><dt>Provider / format</dt><dd>{evidence?.format || (detail ? s.examFormat : null) || 'A current cycle-specific format has not been verified here.'}</dd></div>{detail?.entryStages && <div><dt>Entry stages</dt><dd>{detail.entryStages}</dd></div>}{detail?.examNotes && <div><dt>What is tested</dt><dd>{detail.examNotes}</dd></div>}</dl><SchoolPaperEvidence schoolId={school.id}/><h3>{evidence || detail ? "Subjects and preparation areas" : "General preparation areas — not a verified school syllabus"}</h3>{school.id === 'reading-school' ? <p>Broad KS2 application through Year 5 and written creativity. The FSCE guide covers English, Maths and other curriculum subjects; the selection of content changes annually.</p> : s.subjects?.length ? <ul className="school-subject-links">{s.subjects.map((sub:string)=><li key={sub}><Link href={`/subjects/${sub}`}>{subjectLabels[sub] || sub}<ChevronRight size={16}/></Link></li>)}</ul> : <p>Check the school’s official admissions page for the subjects tested.</p>}</section>
