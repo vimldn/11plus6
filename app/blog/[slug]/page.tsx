@@ -316,6 +316,17 @@ export default function BlogPostPage({ params }: Props) {
           {post.subject && <nav className="mb-10 border-y border-slate-200 py-5" aria-label="Learning hub"><Link className="font-semibold text-indigo-700 underline" href={`/subjects/${post.subject}`}>Back to the {post.subject === 'maths' ? 'Maths' : 'English'} learning hub</Link><p className="mt-3 text-sm text-slate-600">Original skill practice for exams taken in 2027. Published {post.date}.</p></nav>}
           {focusedJourney && <nav aria-label="Practise this skill" className="mb-8 rounded-2xl border border-emerald-200 bg-emerald-50 p-6"><h2 className="text-xl font-bold">Read the method, then try it</h2><p className="mt-3 leading-7">Practise 10 original {focusedJourney.title.toLowerCase()} questions with worked feedback, then review and retry any mistakes. Number variations may recur.</p><Link className="mt-4 inline-block rounded-xl bg-emerald-900 px-5 py-3 font-bold text-white" href={topicPracticeHref(focusedJourney.topic)}>Start focused practice →</Link></nav>}
           {/* Content blocks with interleaved banners + images */}
+          {post.slug === 'what-score-do-you-need-to-get-into-a-grammar-school' && (
+            <section aria-labelledby="score-examples" className="mb-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
+              <h2 id="score-examples" className="text-xl font-bold">What score do you need? Two examples</h2>
+              <p className="mt-2">There is no UK-wide pass mark. A qualifying score makes a child eligible to be considered; a place is allocated under the individual school’s admissions rules.</p>
+              <ul className="mt-3 list-disc space-y-2 pl-5">
+                <li><strong>Kent Test, taken in 2026:</strong> at least 345 in total and at least 111 in each of the three tests for grammar-school assessment. <a className="underline" href="https://www.kent.gov.uk/education-and-children/schools/school-places/kent-test/kent-test-results">Kent County Council’s 2026 results</a>.</li>
+                <li><strong>Buckinghamshire test, taken in 2026:</strong> a standardised score of at least 121 qualified a child to be considered for a grammar-school place. <a className="underline" href="https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/secondary-transfer-test-results/">Buckinghamshire Council’s results guidance</a>.</li>
+              </ul>
+              <p className="mt-3 text-sm">These are different scoring systems, not offer cut-offs. Look at the school’s own admissions policy for your entry year, including any rules on catchment, distance or priority groups.</p>
+            </section>
+          )}
           <div>{(post.subject || post.kind === 'news' || post.editorial) ? <div className="space-y-5">{post.content.map((block,index)=><Block key={index} block={block}/>)}</div> : <ContentWithBanners content={post.content} images={post.images ?? [post.imageUrl]} />}</div>
           {topicPractice.length > 0 && <section className="my-10 rounded-2xl bg-indigo-50 p-6" aria-label={`Practise these ${practiceSubject} skills`}>
             <h2 className="text-xl font-bold text-slate-900">Practise these {practiceSubject} skills</h2>
