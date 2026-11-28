@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-28",
+  "scope": "Resumed PR79; no content changes or new topics selected",
+  "production": {
+    "state": "READY",
+    "sha": "b0781ad9f30fd960b96a28aed13c14ee64b329ad"
+  },
+  "performance": {
+    "UK": [
+      {
+        "from": "2026-10-02",
+        "to": "2026-10-29",
+        "days": 28,
+        "clicks": 301,
+        "impressions": 24108,
+        "clicksDaily": 10.75,
+        "impressionsDaily": 861,
+        "ctr": 0.01248548199767712,
+        "position": 10.475558988717438
+      },
+      {
+        "from": "2026-10-30",
+        "to": "2026-11-26",
+        "days": 28,
+        "clicks": 115,
+        "impressions": 14874,
+        "clicksDaily": 4.107142857142857,
+        "impressionsDaily": 531.2142857142857,
+        "ctr": 0.00773161220922415,
+        "position": 13.730127148043564
+      },
+      {
+        "from": "2026-10-30",
+        "to": "2026-11-12",
+        "days": 14,
+        "clicks": 54,
+        "impressions": 7108,
+        "clicksDaily": 3.857142857142857,
+        "impressionsDaily": 507.7142857142857,
+        "ctr": 0.0075970737197523916,
+        "position": 14.264769034890266
+      },
+      {
+        "from": "2026-11-13",
+        "to": "2026-11-26",
+        "days": 14,
+        "clicks": 61,
+        "impressions": 7766,
+        "clicksDaily": 4.357142857142857,
+        "impressionsDaily": 554.7142857142857,
+        "ctr": 0.007854751480813804,
+        "position": 13.240784560906516
+      }
+    ],
+    "global": [
+      {
+        "from": "2026-10-02",
+        "to": "2026-10-29",
+        "days": 28,
+        "clicks": 319,
+        "impressions": 27440,
+        "clicksDaily": 11.392857142857142,
+        "impressionsDaily": 980,
+        "ctr": 0.01162536443148688,
+        "position": 10.602331720116617
+      },
+      {
+        "from": "2026-10-30",
+        "to": "2026-11-26",
+        "days": 28,
+        "clicks": 162,
+        "impressions": 21589,
+        "clicksDaily": 5.785714285714286,
+        "impressionsDaily": 771.0357142857143,
+        "ctr": 0.007503821390522952,
+        "position": 12.735367196257354
+      },
+      {
+        "from": "2026-10-30",
+        "to": "2026-11-12",
+        "days": 14,
+        "clicks": 76,
+        "impressions": 10054,
+        "clicksDaily": 5.428571428571429,
+        "impressionsDaily": 718.1428571428571,
+        "ctr": 0.007559180425701213,
+        "position": 13.344029799084941
+      },
+      {
+        "from": "2026-11-13",
+        "to": "2026-11-26",
+        "days": 14,
+        "clicks": 86,
+        "impressions": 11535,
+        "clicksDaily": 6.142857142857143,
+        "impressionsDaily": 823.9285714285714,
+        "ctr": 0.007455570004334634,
+        "position": 12.204851911573474
+      }
+    ],
+    "reconciled": true,
+    "dates": 56
+  },
+  "globalPages": {
+    "/papers": [
+      {
+        "clicks": 0,
+        "impressions": 392,
+        "position": 49.362251275510204
+      },
+      {
+        "clicks": 3,
+        "impressions": 888,
+        "position": 57.191438963963975
+      },
+      {
+        "clicks": 1,
+        "impressions": 389,
+        "position": 66.17995167095117
+      },
+      {
+        "clicks": 2,
+        "impressions": 499,
+        "position": 50.1843619238477
+      }
+    ],
+    "/mock-exams": [
+      {
+        "clicks": 1,
+        "impressions": 242,
+        "position": 50.94628305785124
+      },
+      {
+        "clicks": 0,
+        "impressions": 129,
+        "position": 44.64341395348838
+      },
+      {
+        "clicks": 0,
+        "impressions": 38,
+        "position": 52.36842631578947
+      },
+      {
+        "clicks": 0,
+        "impressions": 91,
+        "position": 41.41758461538461
+      }
+    ],
+    "/schools/pates-grammar": [
+      {
+        "clicks": 0,
+        "impressions": 1,
+        "position": 8
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "position": null
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "position": null
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "position": null
+      }
+    ],
+    "/schools/spgs-girls": [
+      {
+        "clicks": 0,
+        "impressions": 4,
+        "position": 55.25
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "position": null
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "position": null
+      },
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "position": null
+      }
+    ]
+  },
+  "limitations": [
+    "No URL Inspection access",
+    "Country+page UK attribution not validated",
+    "Native Chromium launched no window and desktop screenshot was blank; mobile verification still incomplete"
+  ],
+  "publication": {
+    "newBlogs": 0,
+    "existingImprovements": 0,
+    "existingDrafts": 2
+  },
+  "sitemap": {
+    "count": 261,
+    "unchangedSince": "2026-11-27",
+    "tutorRoutes": 0
+  }
+}
